@@ -46,7 +46,11 @@ P1finger.exe -uf D:\tools_dev\Go\P1finger\show.txt -httpproxy 127.0.0.1:4781
 
 # Issues 规范
 
-issues 标题建议如下
+开发笔记，标题有点幽默，莫介意
+
+[七夕夜，我忙活了一宿... 出了一款红队重点资产指纹识别工具 - P1finger.exe (qq.com)](https://mp.weixin.qq.com/s?__biz=MzkwNjY0MzIyNw==&mid=2247483705&idx=1&sn=9205adf34b53b9f9c8f09c99e246c44e&chksm=c0e4134df7939a5b5b58399bdf6e3d591fa51968a6e350c5930f2dfee3f600b34d6ba7444c9e#rd)
+
+由于工具还在测试阶段，欢迎提出问题 , issues 标题建议如下
 
 [指纹未识别] [未识别系统名]
 
@@ -59,4 +63,6 @@ issues 标题建议如下
 [软件bug] [bug类型]
 
 > eg. [软件bug] [报错xxx]
+
+
 
