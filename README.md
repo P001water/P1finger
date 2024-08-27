@@ -24,9 +24,15 @@ P1finger -uf [target file]
 
 ![image-20240811111500089](./img/image-20240811111500089.png)
 
+3.  指定指纹目录
 
+默认只读取指定目录下 .yaml后缀的文件
 
-3. socks5 代理
+```
+P1finger.exe -uf D:\tools_dev\Go\P1finger\urls.txt -fd D:/tools_dev/Go/P1finger
+```
+
+4. socks5 代理
 
 ```
 P1finger.exe -uf D:\tools_dev\Go\P1finger\show.txt -socks 127.0.0.1:4781
@@ -34,7 +40,7 @@ P1finger.exe -uf D:\tools_dev\Go\P1finger\show.txt -socks 127.0.0.1:4781
 
 
 
-4. http 代理
+5. http 代理
 
 ```
 P1finger.exe -uf D:\tools_dev\Go\P1finger\show.txt -httpproxy 127.0.0.1:4781
@@ -46,9 +52,7 @@ P1finger.exe -uf D:\tools_dev\Go\P1finger\show.txt -httpproxy 127.0.0.1:4781
 
 # Issues 规范
 
-开发笔记，标题有点幽默，莫介意
-
-[七夕夜，我忙活了一宿... 出了一款红队重点资产指纹识别工具 - P1finger.exe (qq.com)](https://mp.weixin.qq.com/s?__biz=MzkwNjY0MzIyNw==&mid=2247483705&idx=1&sn=9205adf34b53b9f9c8f09c99e246c44e&chksm=c0e4134df7939a5b5b58399bdf6e3d591fa51968a6e350c5930f2dfee3f600b34d6ba7444c9e#rd)
+[一款红队重点资产指纹识别工具 - P1finger.exe (qq.com)](https://mp.weixin.qq.com/s?__biz=MzkwNjY0MzIyNw==&mid=2247483705&idx=1&sn=9205adf34b53b9f9c8f09c99e246c44e&chksm=c0e4134df7939a5b5b58399bdf6e3d591fa51968a6e350c5930f2dfee3f600b34d6ba7444c9e#rd)
 
 由于工具还在测试阶段，欢迎提出问题 , issues 标题建议如下
 
