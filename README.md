@@ -14,15 +14,23 @@
 P1finger -u [target]
 ```
 
-![image-20240811185534594](./img/image-20240811185534594.png)
+![image-20240925112824861](./img/image-20240925112824861.png)
 
 2. 多目标探测
 
 ```
-P1finger -uf [target file]
+P1finger -uf [target file] //-uf 指定url文件
 ```
 
-![image-20240811111500089](./img/image-20240811111500089.png)
+![image-20240925112939825](./img/image-20240925112939825.png)
+
+3. 输出到 Excel 表格文件
+
+```
+P1finger -uf [target file] -o //-o 参数输出到文件
+```
+
+![image-20240925021744468](./img/image-20240925021744468.png)
 
 3.  指定指纹目录
 
@@ -37,8 +45,6 @@ P1finger.exe -uf D:\tools_dev\Go\P1finger\urls.txt -fd D:/tools_dev/Go/P1finger
 ```
 P1finger.exe -uf D:\tools_dev\Go\P1finger\show.txt -socks 127.0.0.1:4781
 ```
-
-
 
 5. http 代理
 
