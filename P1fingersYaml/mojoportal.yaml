@@ -1,0 +1,10 @@
+- id: mojoportal
+  name: MojoPortal
+  author: P1finger
+  tags:
+    - mojoportal
+  description: MojoPortal
+  matchers:
+    - location: body
+      words:
+        - Powered by mojoPortal

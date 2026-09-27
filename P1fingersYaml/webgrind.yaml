@@ -1,0 +1,10 @@
+- id: webgrind
+  name: Webgrind
+  author: P001
+  tags:
+    - webgrind
+  description: Webgrind
+  matchers:
+    - location: body
+      words:
+        - <span id="invocation_sum"></span> different functions called in <span id="runtime_sum

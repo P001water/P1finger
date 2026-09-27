@@ -1,0 +1,21 @@
+- id: rack-cache
+  name: Rack-cache
+  author: P1finger
+  tags:
+    - rack-cache
+  description: Rack-cache
+  matchers:
+    - location: header
+      words:
+        - X-Rack-Cache
+- id: rack-cache-2
+  name: Rack-cache
+  author: Fofa
+  tags:
+    - rack-cache
+  description: Rack-cache
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Rack-Cache

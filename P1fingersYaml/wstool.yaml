@@ -1,0 +1,10 @@
+- id: wstool
+  name: WSTOOL
+  author: P1finger
+  tags:
+    - wstool
+  description: WSTOOL
+  matchers:
+    - location: body
+      words:
+        - The Prices vs. Features of Web Application Vulnerability Scanners

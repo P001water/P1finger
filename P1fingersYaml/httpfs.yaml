@@ -1,0 +1,13 @@
+- id: httpfs
+  name: Httpfs
+  author: P001
+  tags:
+    - httpfs
+  description: Httpfs
+  matchers:
+    - location: body
+      words:
+        - <b>httpfs service</b
+    - location: body
+      words:
+        - <b>HttpFS service</b>

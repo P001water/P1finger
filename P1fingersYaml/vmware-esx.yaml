@@ -1,0 +1,14 @@
+- id: vmware-esx
+  name: Vmware-esx
+  author: P001
+  tags:
+  - vmware
+  - vmware-esx
+  description: Vmware-esx
+  matchers:
+  - location: body
+    words:
+    - content="vmware esx
+    - content="vmware esxi
+    - document.write("<title>" + id_eesx_welcome + "</title>");
+    - document.write(id_esx_viclientdesc);

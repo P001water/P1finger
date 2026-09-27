@@ -1,0 +1,14 @@
+- id: uniemm
+  name: Uniemm
+  author: P1finger
+  tags:
+    - uniemm
+  description: Uniemm
+  matchers:
+    - location: body
+      words:
+        - com.leagsoft.emm
+        - emm-api
+    - location: header
+      words:
+        - emm-tunnel

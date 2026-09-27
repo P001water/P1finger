@@ -1,0 +1,10 @@
+- id: seagate-goflex
+  name: Seagate-GoFlex
+  author: P1finger
+  tags:
+    - seagate-goflex
+  description: Seagate-GoFlex
+  matchers:
+    - location: body
+      words:
+        - <a href="http://support.GoFlexhome.hipserv.com" target="_blank">

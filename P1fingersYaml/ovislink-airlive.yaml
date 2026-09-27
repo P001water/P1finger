@@ -1,0 +1,10 @@
+- id: ovislink-airlive
+  name: OvisLink AirLive
+  author: P1finger
+  tags:
+    - ovislink-airlive
+  description: OvisLink AirLive
+  matchers:
+    - location: header
+      words:
+        - BC-5010-IVS

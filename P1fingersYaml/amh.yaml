@@ -1,0 +1,10 @@
+- id: amh
+  name: Amh
+  author: P1finger
+  tags:
+    - amh
+  description: Amh
+  matchers:
+    - hash:
+        - "1822002133"
+      location: favicon

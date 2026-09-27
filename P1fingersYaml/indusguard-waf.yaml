@@ -1,0 +1,28 @@
+- id: indusguard-waf
+  name: Indusguard-waf
+  author: P001
+  tags:
+    - indusguard-waf
+  description: Indusguard-waf
+  matchers:
+    - location: body
+      words:
+        - wafportal/wafportal.nocache.js
+    - location: body
+      words:
+        - <title>IndusGuard WAF</title>
+- id: indusguard-waf-2
+  name: IndusGuard_WAF
+  author: Fofa
+  tags:
+    - indusguard-waf
+  description: IndusGuard_WAF
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - IndusGuard WAF
+    - location: body
+      words:
+        - IndusGuard WAF
+        - wafportal/wafportal.nocache.js

@@ -1,0 +1,10 @@
+- id: maipu-isg1000
+  name: Maipu--ISG1000-Security-gateway
+  author: P1finger
+  tags:
+    - maipu-isg1000
+  description: Maipu--ISG1000-Security-gateway
+  matchers:
+    - location: body
+      words:
+        - isg1000

@@ -1,0 +1,21 @@
+- id: aakuan-attendance
+  name: Aakuan-attendance-system
+  author: P001
+  tags:
+    - aakuan-attendance
+  description: Aakuan-attendance-system
+  matchers:
+    - location: body
+      words:
+        - aakuan.cn
+        - href="scripts/popmodal.css"
+- id: aakuan-attendance-2
+  name: Aakuan Attendance System
+  author: P1finger
+  tags:
+    - aakuan-attendance
+  description: Aakuan Attendance System
+  matchers:
+    - location: body
+      words:
+        - aakuan.cn All Right Reserved

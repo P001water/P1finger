@@ -1,0 +1,10 @@
+- id: exacq
+  name: Exacq
+  author: P1finger
+  tags:
+    - exacq
+  description: Exacq
+  matchers:
+    - hash:
+        - "476213314"
+      location: favicon

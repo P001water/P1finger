@@ -1,0 +1,21 @@
+- id: entercrm
+  name: EnterCRM
+  author: Fofa
+  tags:
+    - entercrm
+  description: EnterCRM
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - EnterCRM
+    - location: body
+      words:
+        - EnterCRM
+    - location: body
+      words:
+        - entercrm
+    - location: body
+      words:
+        - EnterCRM
+        - 浙大恩特

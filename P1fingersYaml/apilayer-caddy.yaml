@@ -1,0 +1,10 @@
+- id: apilayer-caddy
+  name: Apilayer-caddy
+  author: P001
+  tags:
+    - apilayer-caddy
+  description: Apilayer-caddy
+  matchers:
+    - location: body
+      words:
+        - 'server: caddy'

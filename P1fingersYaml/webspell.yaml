@@ -1,0 +1,10 @@
+- id: webspell
+  name: WebSPELL
+  author: P1finger
+  tags:
+    - webspell
+  description: WebSPELL
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="webSPELL" />

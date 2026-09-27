@@ -1,0 +1,19 @@
+- id: phpstudy
+  name: Phpstudy
+  author: P001
+  tags:
+    - phpstudy
+  description: Phpstudy
+  matchers:
+    - hash:
+        - 406165e1c4ec82ac49847ca8e7810bae
+      location: favicon
+    - location: body
+      words:
+        - 'server: xpserver'
+        - <title>404 错误 - phpstudy</title>
+        - <title>phpstudy 探针 2
+        - <title>站点创建成功-phpstudy for
+    - location: body
+      words:
+        - Phpstudy for

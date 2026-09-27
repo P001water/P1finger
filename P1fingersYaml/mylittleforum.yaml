@@ -1,0 +1,30 @@
+- id: mylittleforum
+  name: Mylittleforum
+  author: Fofa
+  tags:
+    - mylittleforum
+  description: Mylittleforum
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by my little forum
+    - condition: or
+      location: body
+      words:
+        - index.php?mode=js_defaults
+    - condition: or
+      location: header
+      words:
+        - mlf2_general_forum_usersettings
+    - location: body
+      words:
+        - powered by my little forum
+        - index.php?mode=js_defaults
+    - location: header
+      words:
+        - mlf2_general_forum_usersettings
+    - location: body
+      words:
+        - index.php?mode=js_defaults
+        - powered by my little forum

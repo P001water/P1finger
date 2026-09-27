@@ -1,0 +1,14 @@
+- id: icecast
+  name: Icecast
+  author: Fofa
+  tags:
+    - icecast
+  description: Icecast
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - icecast
+    - location: header
+      words:
+        - icecast

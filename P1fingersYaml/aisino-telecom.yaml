@@ -1,0 +1,10 @@
+- id: aisino-telecom
+  name: Aisino-telecom
+  author: P001
+  tags:
+    - aisino-telecom
+  description: Aisino-telecom
+  matchers:
+    - location: body
+      words:
+        - <font class="bottomfont">航天信息股份有限公司 电信行业版

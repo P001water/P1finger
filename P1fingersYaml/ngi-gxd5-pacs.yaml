@@ -1,0 +1,10 @@
+- id: ngi-gxd5-pacs
+  name: Ngi-gxd5-pacs
+  author: P001
+  tags:
+    - ngi-gxd5-pacs
+  description: Ngi-gxd5-pacs
+  matchers:
+    - location: body
+      words:
+        - <div id="passwordwrapper" class="fieldwrapper">

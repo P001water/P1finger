@@ -1,0 +1,27 @@
+- id: impresspages
+  name: Impresspages-cms
+  author: P1finger
+  tags:
+    - impresspages
+  description: Impresspages-cms
+  matchers:
+    - location: body
+      words:
+        - content="ImpressPages CMS
+    - location: body
+      words:
+        - content="impresspages cms
+- id: impresspages-2
+  name: ImpressPages-CMS
+  author: Fofa
+  tags:
+    - impresspages
+  description: ImpressPages-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="ImpressPages CMS
+    - location: body
+      words:
+        - content="ImpressPages CMS"

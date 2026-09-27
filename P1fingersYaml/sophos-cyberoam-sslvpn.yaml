@@ -1,0 +1,13 @@
+- id: sophos-cyberoam-sslvpn
+  name: Sophos-cyberoam-sslvpn
+  author: P001
+  tags:
+  - sophos
+  - sophos-cyberoam-sslvpn
+  description: Sophos-cyberoam-sslvpn
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - cyberoam ssl vpn portal
+    - sslvpnuserportalloginform

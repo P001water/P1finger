@@ -1,0 +1,10 @@
+- id: innovaphone
+  name: Innovaphone
+  author: P1finger
+  tags:
+    - innovaphone
+  description: Innovaphone
+  matchers:
+    - hash:
+        - "671221099"
+      location: favicon

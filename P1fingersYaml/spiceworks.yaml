@@ -1,0 +1,15 @@
+- id: spiceworks
+  name: Spiceworks
+  author: P1finger
+  tags:
+    - spiceworks
+  description: Spiceworks
+  matchers:
+    - hash:
+        - "-2117390767"
+      location: favicon
+    - location: body
+      words:
+        - <h1><img alt="spiceworks" src="/images/logos/large.png
+        - <link href="/stylesheets/general.css?
+        - <meta name="author" content="spiceworks, inc." />

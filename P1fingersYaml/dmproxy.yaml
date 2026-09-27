@@ -1,0 +1,10 @@
+- id: dmproxy
+  name: DMproxy
+  author: P1finger
+  tags:
+    - dmproxy
+  description: DMproxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: DMproxy'

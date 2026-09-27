@@ -1,0 +1,24 @@
+- id: schneidershebei
+  name: Schneidershebei
+  author: P1finger
+  tags:
+    - schneidershebei
+  description: Schneidershebei
+  matchers:
+    - location: body
+      words:
+        - schneider
+- id: shinaideschneidershebei
+  name: ShinaideSchneidershebei
+  author: Fofa
+  tags:
+    - shinaideschneidershebei
+  description: ShinaideSchneidershebei
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Schneider-WEB
+    - location: header
+      words:
+        - Schneider-WEB

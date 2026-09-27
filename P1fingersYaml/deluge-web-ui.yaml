@@ -1,0 +1,10 @@
+- id: deluge-ui
+  name: Deluge Web Ui
+  author: P1finger
+  tags:
+    - deluge-ui
+  description: Deluge Web Ui
+  matchers:
+    - hash:
+        - "-1589842876"
+      location: favicon

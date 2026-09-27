@@ -1,0 +1,19 @@
+- id: dtcms
+  name: Dtcms
+  author: Fofa
+  tags:
+    - dtcms
+  description: Dtcms
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - dtcms
+    - condition: or
+      location: body
+      words:
+        - content="动力启航,DTCMS
+    - location: body
+      words:
+        - dtcms
+        - content="动力启航,DTCMS

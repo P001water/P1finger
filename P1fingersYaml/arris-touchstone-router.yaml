@@ -1,0 +1,26 @@
+- id: arris-touchstone
+  name: Arris-touchstone-router
+  author: P1finger
+  tags:
+    - arris-touchstone
+  description: Arris-touchstone-router
+  matchers:
+    - location: body
+      words:
+        - ARRIS Group
+        - /arris_style.css
+- id: arris-touchstone-2
+  name: ARRIS-Touchstone-Router
+  author: Fofa
+  tags:
+    - arris-touchstone
+  description: ARRIS-Touchstone-Router
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - ARRIS Group")
+    - condition: or
+      location: body
+      words:
+        - /arris_style.css

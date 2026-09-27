@@ -1,0 +1,10 @@
+- id: digiwin
+  name: Digiwin-system
+  author: P001
+  tags:
+    - digiwin
+  description: Digiwin-system
+  matchers:
+    - location: body
+      words:
+        - class="common_footer1030_textfontlink"

@@ -1,0 +1,22 @@
+- id: neonhoutai-management-system
+  name: NEONhoutai Management System
+  author: P1finger
+  tags:
+    - neonhoutai
+    - management-system
+  description: NEONhoutai Management System
+  matchers:
+    - location: body
+      words:
+        - NEON后台管理系统
+- id: neon-management-system
+  name: NEON Management System
+  author: P1finger
+  tags:
+    - neon
+    - management-system
+  description: NEON Management System
+  matchers:
+    - location: body
+      words:
+        - NEON管理系统

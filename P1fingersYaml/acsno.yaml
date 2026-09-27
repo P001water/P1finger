@@ -1,0 +1,14 @@
+- id: acsnowangluotanzhen
+  name: ACSNOwangluotanzhen
+  author: Fofa
+  tags:
+    - acsnowangluotanzhen
+  description: ACSNOwangluotanzhen
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 探针管理与测试系统-登录界面
+    - location: body
+      words:
+        - 探针管理与测试系统-登录界面

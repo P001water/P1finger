@@ -1,0 +1,11 @@
+- id: codeigniter-php-framework
+  name: CodeIgniter-PHP-Framework
+  author: Fofa
+  tags:
+    - codeigniter-php-framework
+  description: CodeIgniter-PHP-Framework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ci_session=

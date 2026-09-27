@@ -1,0 +1,14 @@
+- id: bpanelcms
+  name: Bpanelcms
+  author: P1finger
+  tags:
+    - bpanelcms
+  description: Bpanelcms
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-Cms: BPanel CMS'
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-Cms: BPanel CMS'

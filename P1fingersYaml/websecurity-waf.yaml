@@ -1,0 +1,28 @@
+- id: websecurity-waf
+  name: Websecurity-WAF
+  author: P1finger
+  tags:
+    - websecurity-waf
+  description: Websecurity-WAF
+  matchers:
+    - location: header
+      words:
+        - 'websecurity: waf 1.0'
+- id: websecurity-waf-2
+  name: Websecurity_WAF
+  author: Fofa
+  tags:
+    - websecurity-waf
+  description: Websecurity_WAF
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Websecurity: WAF 1.0'
+    - location: header
+      words:
+        - Websecurity
+        - WAF 1.0
+    - location: header
+      words:
+        - 'Websecurity: WAF 1.0'

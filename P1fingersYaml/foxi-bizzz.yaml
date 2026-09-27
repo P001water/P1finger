@@ -1,0 +1,28 @@
+- id: foxi-bizzz
+  name: FOXI BIZzz
+  author: Fofa
+  tags:
+    - foxi-bizzz
+  description: FOXI BIZzz
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-Cms: FOXI BIZzz'
+- id: foxi-bizzz-2
+  name: Foxi Bizzz
+  author: P1finger
+  tags:
+    - foxi-bizzz
+  description: Foxi Bizzz
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-Cms: FOXI BIZzz'
+    - location: body
+      words:
+        - help.foxibiz.com
+    - location: header
+      words:
+        - X-Powered-Cms
+        - FOXI BIZzz

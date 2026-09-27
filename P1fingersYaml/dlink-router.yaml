@@ -1,0 +1,10 @@
+- id: dlink
+  name: Dlink Router
+  author: P1finger
+  tags:
+    - dlink
+  description: Dlink Router
+  matchers:
+    - hash:
+        - "1037387972"
+      location: favicon

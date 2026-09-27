@@ -1,0 +1,2121 @@
+- id: tp-link
+  name: Tp-link
+  author: P1finger
+  tags:
+    - tp-link
+  description: Tp-link
+  matchers:
+    - hash:
+        - "1842351293"
+      location: favicon
+- id: tp-link-omada-controller
+  name: Tp_link-omada-controller
+  author: P001
+  tags:
+    - tp-link-omada-controller
+  description: Tp_link-omada-controller
+  matchers:
+    - location: body
+      words:
+        - content="width=1300,initial-scale=1,minimal-ui"
+- id: tp-link-3600-dd-wrt
+  name: TP-Link 3600 DD-WRT
+  author: Fofa
+  tags:
+    - tp-link-3600-dd-wrt
+  description: TP-Link 3600 DD-WRT
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link 3600 DD-WRT
+- id: tp-link-3g-mr12u
+  name: TP-LINK 3G MR12U
+  author: Fofa
+  tags:
+    - tp-link-3g-mr12u
+  description: TP-LINK 3G MR12U
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK 3G MR12U
+- id: tp-link-740n
+  name: TP-Link 740N
+  author: Fofa
+  tags:
+    - tp-link-740n
+  description: TP-Link 740N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link 740N
+- id: tp-link-842-nd
+  name: TP-Link 842 ND
+  author: Fofa
+  tags:
+    - tp-link-842-nd
+  description: TP-Link 842 ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link 842 ND
+- id: tp-link-941
+  name: TP-LINK 941
+  author: Fofa
+  tags:
+    - tp-link-941
+  description: TP-LINK 941
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK 941
+- id: tp-link-ac1200
+  name: TP-LINK AC1200
+  author: Fofa
+  tags:
+    - tp-link-ac1200
+  description: TP-LINK AC1200
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK AC1200
+- id: tp-link-ac1750
+  name: TP-LINK AC1750
+  author: Fofa
+  tags:
+    - tp-link-ac1750
+  description: TP-LINK AC1750
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK AC1750
+- id: tp-link-ac1900
+  name: TP-LINK AC1900
+  author: Fofa
+  tags:
+    - tp-link-ac1900
+  description: TP-LINK AC1900
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK AC1900
+- id: tp-link-ac750
+  name: TP-LINK AC750
+  author: Fofa
+  tags:
+    - tp-link-ac750
+  description: TP-LINK AC750
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK AC750
+- id: tp-link-dd-wrt
+  name: TP-Link DD-WRT
+  author: Fofa
+  tags:
+    - tp-link-dd-wrt
+  description: TP-Link DD-WRT
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link DD-WRT
+- id: tp-link-dd-wrt-bridge
+  name: TP-Link DD-WRT Bridge
+  author: Fofa
+  tags:
+    - tp-link-dd-wrt-bridge
+  description: TP-Link DD-WRT Bridge
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link DD-WRT Bridge
+- id: tp-link-fr5300
+  name: TP-LINK Firewall FR5300
+  author: Fofa
+  tags:
+    - tp-link-fr5300
+  description: TP-LINK Firewall FR5300
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Firewall FR5300
+- id: tp-link-gigabit-broadband-vpr600vpn
+  name: TP-LINK Gigabit Broadband VPR600VPN
+  author: Fofa
+  tags:
+    - tp-link-gigabit-broadband-vpr600vpn
+  description: TP-LINK Gigabit Broadband VPR600VPN
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Gigabit Broadband VPR600VPN
+- id: tp-link-h5r
+  name: TP-LINK H5R
+  author: Fofa
+  tags:
+    - tp-link-h5r
+  description: TP-LINK H5R
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK H5R
+- id: tp-link-mr13u
+  name: TP-LINK MR13U
+  author: Fofa
+  tags:
+    - tp-link-mr13u
+  description: TP-LINK MR13U
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK MR13U
+- id: tp-link-mr3020
+  name: TP-LINK MR3020
+  author: Fofa
+  tags:
+    - tp-link-mr3020
+  description: TP-LINK MR3020
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK MR3020
+- id: tp-link-mr3040
+  name: TP-LINK MR3040
+  author: Fofa
+  tags:
+    - tp-link-mr3040
+  description: TP-LINK MR3040
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK MR3040
+- id: tp-link-mr6400
+  name: TP-LINK MR6400
+  author: Fofa
+  tags:
+    - tp-link-mr6400
+  description: TP-LINK MR6400
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK MR6400
+- id: tp-link-r1660
+  name: TP-LINK R1660+
+  author: Fofa
+  tags:
+    - tp-link-r1660
+  description: TP-LINK R1660+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R1660+
+- id: tp-link-r1660m
+  name: TP-LINK R1660M
+  author: Fofa
+  tags:
+    - tp-link-r1660m
+  description: TP-LINK R1660M
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R1660M
+- id: tp-link-r4000
+  name: TP-LINK R4000
+  author: Fofa
+  tags:
+    - tp-link-r4000
+  description: TP-LINK R4000
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4000
+- id: tp-link-r410
+  name: TP-LINK R410
+  author: Fofa
+  tags:
+    - tp-link-r410
+  description: TP-LINK R410
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R410
+- id: tp-link-r410-2
+  name: TP-LINK R410+
+  author: Fofa
+  tags:
+    - tp-link-r410
+  description: TP-LINK R410+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R410+
+- id: tp-link-r4148
+  name: TP-LINK R4148
+  author: Fofa
+  tags:
+    - tp-link-r4148
+  description: TP-LINK R4148
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4148
+- id: tp-link-r4149
+  name: TP-LINK R4149
+  author: Fofa
+  tags:
+    - tp-link-r4149
+  description: TP-LINK R4149
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4149
+- id: tp-link-r4199g
+  name: TP-LINK R4199G
+  author: Fofa
+  tags:
+    - tp-link-r4199g
+  description: TP-LINK R4199G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4199G
+- id: tp-link-r4238
+  name: TP-LINK R4238
+  author: Fofa
+  tags:
+    - tp-link-r4238
+  description: TP-LINK R4238
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4238
+- id: tp-link-r4239
+  name: TP-LINK R4239
+  author: Fofa
+  tags:
+    - tp-link-r4239
+  description: TP-LINK R4239
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4239
+- id: tp-link-r4299g
+  name: TP-LINK R4299G
+  author: Fofa
+  tags:
+    - tp-link-r4299g
+  description: TP-LINK R4299G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4299G
+- id: tp-link-r4419
+  name: TP-LINK R4419
+  author: Fofa
+  tags:
+    - tp-link-r4419
+  description: TP-LINK R4419
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R4419
+- id: tp-link-r460
+  name: TP-LINK R460
+  author: Fofa
+  tags:
+    - tp-link-r460
+  description: TP-LINK R460
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R460
+- id: tp-link-r460-2
+  name: TP-LINK R460+
+  author: Fofa
+  tags:
+    - tp-link-r460
+  description: TP-LINK R460+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R460+
+- id: tp-link-r470
+  name: TP-LINK R470
+  author: Fofa
+  tags:
+    - tp-link-r470
+  description: TP-LINK R470
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R470
+- id: tp-link-r470t
+  name: TP-LINK R470T+
+  author: Fofa
+  tags:
+    - tp-link-r470t
+  description: TP-LINK R470T+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R470T+
+- id: tp-link-r473
+  name: TP-LINK R473
+  author: Fofa
+  tags:
+    - tp-link-r473
+  description: TP-LINK R473
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R473
+- id: tp-link-r478
+  name: TP-LINK R478
+  author: Fofa
+  tags:
+    - tp-link-r478
+  description: TP-LINK R478
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R478
+- id: tp-link-r478-2
+  name: TP-LINK R478+
+  author: Fofa
+  tags:
+    - tp-link-r478
+  description: TP-LINK R478+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R478+
+- id: tp-link-r480
+  name: TP-LINK R480
+  author: Fofa
+  tags:
+    - tp-link-r480
+  description: TP-LINK R480
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R480
+- id: tp-link-r480-2
+  name: TP-LINK R480+
+  author: Fofa
+  tags:
+    - tp-link-r480
+  description: TP-LINK R480+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R480+
+- id: tp-link-r480e
+  name: TP-LINK R480E
+  author: Fofa
+  tags:
+    - tp-link-r480e
+  description: TP-LINK R480E
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R480E
+- id: tp-link-r480t
+  name: TP-LINK R480T
+  author: Fofa
+  tags:
+    - tp-link-r480t
+  description: TP-LINK R480T
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R480T
+- id: tp-link-r480t-2
+  name: TP-LINK R480T+
+  author: Fofa
+  tags:
+    - tp-link-r480t
+  description: TP-LINK R480T+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R480T+
+- id: tp-link-r483
+  name: TP-LINK R483
+  author: Fofa
+  tags:
+    - tp-link-r483
+  description: TP-LINK R483
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R483
+- id: tp-link-r488
+  name: TP-LINK R488
+  author: Fofa
+  tags:
+    - tp-link-r488
+  description: TP-LINK R488
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R488
+- id: tp-link-r488t
+  name: TP-LINK R488T
+  author: Fofa
+  tags:
+    - tp-link-r488t
+  description: TP-LINK R488T
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R488T
+- id: tp-link-r490
+  name: TP-LINK R490
+  author: Fofa
+  tags:
+    - tp-link-r490
+  description: TP-LINK R490
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R490
+- id: tp-link-r490t
+  name: TP-LINK R490T
+  author: Fofa
+  tags:
+    - tp-link-r490t
+  description: TP-LINK R490T
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R490T
+- id: tp-link-r498t
+  name: TP-LINK R498T+
+  author: Fofa
+  tags:
+    - tp-link-r498t
+  description: TP-LINK R498T+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R498T+
+- id: tp-link-r760
+  name: TP-LINK R760+
+  author: Fofa
+  tags:
+    - tp-link-r760
+  description: TP-LINK R760+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R760+
+- id: tp-link-r860
+  name: TP-LINK R860
+  author: Fofa
+  tags:
+    - tp-link-r860
+  description: TP-LINK R860
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R860
+- id: tp-link-r860-860m
+  name: TP-LINK R860/860M
+  author: Fofa
+  tags:
+    - tp-link-r860-860m
+  description: TP-LINK R860/860M
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK R860/860M
+- id: tp-link-soho-r402
+  name: TP-LINK SOHO R402
+  author: Fofa
+  tags:
+    - tp-link-soho-r402
+  description: TP-LINK SOHO R402
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK SOHO R402
+- id: tp-link-soho-r402m
+  name: TP-LINK SOHO R402M
+  author: Fofa
+  tags:
+    - tp-link-soho-r402m
+  description: TP-LINK SOHO R402M
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK SOHO R402M
+- id: tp-link-soho-r406
+  name: TP-LINK SOHO R406
+  author: Fofa
+  tags:
+    - tp-link-soho-r406
+  description: TP-LINK SOHO R406
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK SOHO R406
+- id: tp-link-soho-r410v2
+  name: TP-LINK SOHO R410v2.5
+  author: Fofa
+  tags:
+    - tp-link-soho-r410v2
+  description: TP-LINK SOHO R410v2.5
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK SOHO R410v2.5
+- id: tp-link-soho-r860
+  name: TP-LINK SOHO R860
+  author: Fofa
+  tags:
+    - tp-link-soho-r860
+  description: TP-LINK SOHO R860
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK SOHO R860
+- id: tp-link-td865w-tdp
+  name: TP-LINK TD865W(TDP)
+  author: Fofa
+  tags:
+    - tp-link-td865w-tdp
+  description: TP-LINK TD865W(TDP)
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD865W(TDP)
+- id: tp-link-td-8840t
+  name: TP-LINK TD-8840T
+  author: Fofa
+  tags:
+    - tp-link-td-8840t
+  description: TP-LINK TD-8840T
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-8840T
+- id: tp-link-td-89402
+  name: TP-LINK TD-89402
+  author: Fofa
+  tags:
+    - tp-link-td-89402
+  description: TP-LINK TD-89402
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-89402
+- id: tp-link-td-vg3511
+  name: TP-LINK TD-VG3511
+  author: Fofa
+  tags:
+    - tp-link-td-vg3511
+  description: TP-LINK TD-VG3511
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-VG3511
+- id: tp-link-td-vg3631
+  name: TP-LINK TD-VG3631
+  author: Fofa
+  tags:
+    - tp-link-td-vg3631
+  description: TP-LINK TD-VG3631
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-VG3631
+- id: tp-link-td-w89541g
+  name: TP-LINK TD-W89541G
+  author: Fofa
+  tags:
+    - tp-link-td-w89541g
+  description: TP-LINK TD-W89541G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-W89541G
+- id: tp-link-td-w8968
+  name: TP-LINK TD-W8968
+  author: Fofa
+  tags:
+    - tp-link-td-w8968
+  description: TP-LINK TD-W8968
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-W8968
+- id: tp-link-td-w8970
+  name: TP-LINK TD-W8970
+  author: Fofa
+  tags:
+    - tp-link-td-w8970
+  description: TP-LINK TD-W8970
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-W8970
+- id: tp-link-td-w89741n
+  name: TP-LINK TD-W89741N
+  author: Fofa
+  tags:
+    - tp-link-td-w89741n
+  description: TP-LINK TD-W89741N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-W89741N
+- id: tp-link-td-w8980
+  name: TP-LINK TD-W8980
+  author: Fofa
+  tags:
+    - tp-link-td-w8980
+  description: TP-LINK TD-W8980
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-W8980
+- id: tp-link-td-w89841n
+  name: TP-LINK TD-W89841N
+  author: Fofa
+  tags:
+    - tp-link-td-w89841n
+  description: TP-LINK TD-W89841N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TD-W89841N
+- id: tp-link-tl-r1660
+  name: TP-LINK TL-R1660+
+  author: Fofa
+  tags:
+    - tp-link-tl-r1660
+  description: TP-LINK TL-R1660+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TL-R1660+
+- id: tp-link-tl-wpa4530
+  name: TP-LINK TL-WPA4530
+  author: Fofa
+  tags:
+    - tp-link-tl-wpa4530
+  description: TP-LINK TL-WPA4530
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TL-WPA4530
+- id: tp-link-tl-wpa8630
+  name: TP-LINK TL-WPA8630
+  author: Fofa
+  tags:
+    - tp-link-tl-wpa8630
+  description: TP-LINK TL-WPA8630
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK  TL-WPA8630
+- id: tp-link-tl-wr1043nd
+  name: TP-Link TL-WR1043ND
+  author: Fofa
+  tags:
+    - tp-link-tl-wr1043nd
+  description: TP-Link TL-WR1043ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR1043ND
+- id: tp-link-tl-wr2543nd
+  name: TP-LINK TL-WR2543ND
+  author: Fofa
+  tags:
+    - tp-link-tl-wr2543nd
+  description: TP-LINK TL-WR2543ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TL-WR2543ND
+- id: tp-link-tl-wr740n
+  name: TP-Link TL-WR740N
+  author: Fofa
+  tags:
+    - tp-link-tl-wr740n
+  description: TP-Link TL-WR740N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR740N
+- id: tp-link-tl-wr740nv2
+  name: TP-Link TL-WR740Nv2
+  author: Fofa
+  tags:
+    - tp-link-tl-wr740nv2
+  description: TP-Link TL-WR740Nv2
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR740Nv2
+- id: tp-link-tl-wr741n
+  name: TP-Link TL-WR741N
+  author: Fofa
+  tags:
+    - tp-link-tl-wr741n
+  description: TP-Link TL-WR741N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR741N
+- id: tp-link-tl-wr841hp
+  name: TP-LINK TL-WR841HP
+  author: Fofa
+  tags:
+    - tp-link-tl-wr841hp
+  description: TP-LINK TL-WR841HP
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK TL-WR841HP
+- id: tp-link-tl-wr841n
+  name: TP-Link TL-WR841N
+  author: Fofa
+  tags:
+    - tp-link-tl-wr841n
+  description: TP-Link TL-WR841N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR841N
+- id: tp-link-tl-wr841nd
+  name: TP-Link TL-WR841ND
+  author: Fofa
+  tags:
+    - tp-link-tl-wr841nd
+  description: TP-Link TL-WR841ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR841ND
+- id: tp-link-tl-wr841nd-v8
+  name: TP-Link TL-WR841ND V8
+  author: Fofa
+  tags:
+    - tp-link-tl-wr841nd-v8
+  description: TP-Link TL-WR841ND V8
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR841ND v8
+- id: tp-link-tl-wr841nd-v9
+  name: TP-Link TL-WR841ND V9
+  author: Fofa
+  tags:
+    - tp-link-tl-wr841nd-v9
+  description: TP-Link TL-WR841ND V9
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR841ND v9
+- id: tp-link-tl-wr842nd-v1
+  name: TP-Link TL-WR842ND V1
+  author: Fofa
+  tags:
+    - tp-link-tl-wr842nd-v1
+  description: TP-Link TL-WR842ND V1
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR842ND v1
+- id: tp-link-tl-wr941n
+  name: TP-Link TL-WR941N
+  author: Fofa
+  tags:
+    - tp-link-tl-wr941n
+  description: TP-Link TL-WR941N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR941N
+- id: tp-link-tl-wr941nv3
+  name: TP-Link TL-WR941Nv3
+  author: Fofa
+  tags:
+    - tp-link-tl-wr941nv3
+  description: TP-Link TL-WR941Nv3
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link TL-WR941Nv3
+- id: tp-link-vpr400vpn
+  name: TP-LINK VPR400VPN
+  author: Fofa
+  tags:
+    - tp-link-vpr400vpn
+  description: TP-LINK VPR400VPN
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK VPR400VPN
+- id: tp-link-wa7210n
+  name: TP-LINK WA7210N
+  author: Fofa
+  tags:
+    - tp-link-wa7210n
+  description: TP-LINK WA7210N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WA7210N
+- id: tp-link-wdr4300
+  name: TP-Link WDR4300
+  author: Fofa
+  tags:
+    - tp-link-wdr4300
+  description: TP-Link WDR4300
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-Link WDR4300
+- id: tp-link-wireless-ap-wa500g
+  name: TP-LINK Wireless AP WA500G
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wa500g
+  description: TP-LINK Wireless AP WA500G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WA500G
+- id: tp-link-wireless-ap-wa501g
+  name: TP-LINK Wireless AP WA501G
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wa501g
+  description: TP-LINK Wireless AP WA501G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WA501G
+- id: tp-link-wireless-ap-wa5110g
+  name: TP-LINK Wireless AP WA5110G
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wa5110g
+  description: TP-LINK Wireless AP WA5110G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WA5110G
+- id: tp-link-wireless-ap-wa5210g
+  name: TP-LINK Wireless AP WA5210G
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wa5210g
+  description: TP-LINK Wireless AP WA5210G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WA5210G
+- id: tp-link-wireless-ap-wa601g
+  name: TP-LINK Wireless AP WA601G
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wa601g
+  description: TP-LINK Wireless AP WA601G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WA601G
+- id: tp-link-wireless-ap-wr700n
+  name: TP-LINK Wireless AP WR700N
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wr700n
+  description: TP-LINK Wireless AP WR700N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WR700N
+- id: tp-link-wireless-ap-wr702n
+  name: TP-LINK Wireless AP WR702N
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wr702n
+  description: TP-LINK Wireless AP WR702N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WR702N
+- id: tp-link-wireless-ap-wr706n
+  name: TP-LINK Wireless AP WR706N
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wr706n
+  description: TP-LINK Wireless AP WR706N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WR706N
+- id: tp-link-wireless-ap-wr710n
+  name: TP-LINK Wireless AP WR710N
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wr710n
+  description: TP-LINK Wireless AP WR710N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WR710N
+- id: tp-link-wireless-ap-wr800n
+  name: TP-LINK Wireless AP WR800N
+  author: Fofa
+  tags:
+    - tp-link-wireless-ap-wr800n
+  description: TP-LINK Wireless AP WR800N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless AP WR800N
+- id: tp-link-wireless-wr340g
+  name: TP-LINK Wireless G WR340G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr340g
+  description: TP-LINK Wireless G WR340G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless G WR340G
+- id: tp-link-wireless-mr3220
+  name: TP-LINK Wireless MR3220
+  author: Fofa
+  tags:
+    - tp-link-wireless-mr3220
+  description: TP-LINK Wireless MR3220
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless MR3220
+- id: tp-link-wireless-mr3420
+  name: TP-LINK Wireless MR3420
+  author: Fofa
+  tags:
+    - tp-link-wireless-mr3420
+  description: TP-LINK Wireless MR3420
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless MR3420
+- id: tp-link-wireless-tl-wr841n
+  name: TP-LINK Wireless TL-WR841N
+  author: Fofa
+  tags:
+    - tp-link-wireless-tl-wr841n
+  description: TP-LINK Wireless TL-WR841N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless TL-WR841N
+- id: tp-link-wireless-tl-wr940n-wr941nd
+  name: TP-LINK Wireless TL-WR940N/WR941ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-tl-wr940n-wr941nd
+  description: TP-LINK Wireless TL-WR940N/WR941ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless TL-WR940N/WR941ND
+- id: tp-link-wireless-wa701n
+  name: TP-LINK Wireless WA701N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa701n
+  description: TP-LINK Wireless WA701N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA701N
+- id: tp-link-wireless-wa701nd
+  name: TP-LINK Wireless WA701ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa701nd
+  description: TP-LINK Wireless WA701ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA701ND
+- id: tp-link-wireless-wa730re
+  name: TP-LINK Wireless WA730RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa730re
+  description: TP-LINK Wireless WA730RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA730RE
+- id: tp-link-wireless-wa750re
+  name: TP-LINK Wireless WA750RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa750re
+  description: TP-LINK Wireless WA750RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA750RE
+- id: tp-link-wireless-wa7510n
+  name: TP-LINK Wireless WA7510N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa7510n
+  description: TP-LINK Wireless WA7510N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA7510N
+- id: tp-link-wireless-wa801n
+  name: TP-LINK Wireless WA801N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa801n
+  description: TP-LINK Wireless WA801N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA801N
+- id: tp-link-wireless-wa801nd
+  name: TP-LINK Wireless WA801ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa801nd
+  description: TP-LINK Wireless WA801ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA801ND
+- id: tp-link-wireless-wa805n
+  name: TP-LINK Wireless WA805N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa805n
+  description: TP-LINK Wireless WA805N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA805N
+- id: tp-link-wireless-wa830re
+  name: TP-LINK Wireless WA830RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa830re
+  description: TP-LINK Wireless WA830RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA830RE
+- id: tp-link-wireless-wa832re
+  name: TP-LINK Wireless WA832RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa832re
+  description: TP-LINK Wireless WA832RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA832RE
+- id: tp-link-wireless-wa850re
+  name: TP-LINK Wireless WA850RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa850re
+  description: TP-LINK Wireless WA850RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA850RE
+- id: tp-link-wireless-wa854re
+  name: TP-LINK Wireless WA854RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa854re
+  description: TP-LINK Wireless WA854RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA854RE
+- id: tp-link-wireless-wa860re
+  name: TP-LINK Wireless WA860RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa860re
+  description: TP-LINK Wireless WA860RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA860RE
+- id: tp-link-wireless-wa865re
+  name: TP-LINK Wireless WA865RE
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa865re
+  description: TP-LINK Wireless WA865RE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA865RE
+- id: tp-link-wireless-wa901n
+  name: TP-LINK Wireless WA901N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa901n
+  description: TP-LINK Wireless WA901N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA901N
+- id: tp-link-wireless-wa901nd
+  name: TP-LINK Wireless WA901ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wa901nd
+  description: TP-LINK Wireless WA901ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WA901ND
+- id: tp-link-wireless-wdr3300
+  name: TP-LINK Wireless WDR3300
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr3300
+  description: TP-LINK Wireless WDR3300
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR3300
+- id: tp-link-wireless-wdr3320
+  name: TP-LINK Wireless WDR3320
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr3320
+  description: TP-LINK Wireless WDR3320
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR3320
+- id: tp-link-wireless-wdr3500
+  name: TP-LINK Wireless WDR3500
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr3500
+  description: TP-LINK Wireless WDR3500
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR3500
+- id: tp-link-wireless-wdr3600
+  name: TP-LINK Wireless WDR3600
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr3600
+  description: TP-LINK Wireless WDR3600
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR3600
+- id: tp-link-wireless-wdr4300
+  name: TP-LINK Wireless WDR4300
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr4300
+  description: TP-LINK Wireless WDR4300
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR4300
+- id: tp-link-wireless-wdr4310
+  name: TP-LINK Wireless WDR4310
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr4310
+  description: TP-LINK Wireless WDR4310
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR4310
+- id: tp-link-wireless-wdr4310-wdr4320
+  name: TP-LINK Wireless WDR4310/WDR4320
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr4310-wdr4320
+  description: TP-LINK Wireless WDR4310/WDR4320
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR4310/WDR4320
+- id: tp-link-wireless-wdr4900
+  name: TP-LINK Wireless WDR4900
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr4900
+  description: TP-LINK Wireless WDR4900
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR4900
+- id: tp-link-wireless-wdr5300
+  name: TP-LINK Wireless WDR5300
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr5300
+  description: TP-LINK Wireless WDR5300
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR5300
+- id: tp-link-wireless-wdr5510
+  name: TP-LINK Wireless WDR5510
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr5510
+  description: TP-LINK Wireless WDR5510
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR5510
+- id: tp-link-wireless-wdr6300
+  name: TP-LINK Wireless WDR6300
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr6300
+  description: TP-LINK Wireless WDR6300
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR6300
+- id: tp-link-wireless-wdr6500
+  name: TP-LINK Wireless WDR6500
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr6500
+  description: TP-LINK Wireless WDR6500
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR6500
+- id: tp-link-wireless-wdr6510
+  name: TP-LINK Wireless WDR6510
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr6510
+  description: TP-LINK Wireless WDR6510
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR6510
+- id: tp-link-wireless-wdr7500
+  name: TP-LINK Wireless WDR7500
+  author: Fofa
+  tags:
+    - tp-link-wireless-wdr7500
+  description: TP-LINK Wireless WDR7500
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WDR7500
+- id: tp-link-wireless-wr1041n
+  name: TP-LINK Wireless WR1041N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr1041n
+  description: TP-LINK Wireless WR1041N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR1041N
+- id: tp-link-wireless-wr1042nd
+  name: TP-LINK Wireless WR1042ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr1042nd
+  description: TP-LINK Wireless WR1042ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR1042ND
+- id: tp-link-wireless-wr1043n
+  name: TP-LINK Wireless WR1043N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr1043n
+  description: TP-LINK Wireless WR1043N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR1043N
+- id: tp-link-wireless-wr1043nd
+  name: TP-LINK Wireless WR1043ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr1043nd
+  description: TP-LINK Wireless WR1043ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR1043ND
+- id: tp-link-wireless-wr1045nd
+  name: TP-LINK Wireless WR1045ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr1045nd
+  description: TP-LINK Wireless WR1045ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR1045ND
+- id: tp-link-wireless-wr2041
+  name: TP-LINK Wireless WR2041+
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr2041
+  description: TP-LINK Wireless WR2041+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR2041+
+- id: tp-link-wireless-wr2041n
+  name: TP-LINK Wireless WR2041N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr2041n
+  description: TP-LINK Wireless WR2041N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR2041N
+- id: tp-link-wireless-wr245
+  name: TP-LINK Wireless WR245
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr245
+  description: TP-LINK Wireless WR245
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR245
+- id: tp-link-wireless-wr2543n
+  name: TP-LINK Wireless WR2543N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr2543n
+  description: TP-LINK Wireless WR2543N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR2543N
+- id: tp-link-wireless-wr2543nd
+  name: TP-LINK Wireless WR2543ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr2543nd
+  description: TP-LINK Wireless WR2543ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR2543ND
+- id: tp-link-wireless-wr340g-2
+  name: TP-LINK Wireless WR340G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr340g
+  description: TP-LINK Wireless WR340G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR340G
+- id: tp-link-wireless-wr340g-3
+  name: TP-LINK Wireless WR340G+
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr340g
+  description: TP-LINK Wireless WR340G+
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR340G+
+- id: tp-link-wireless-wr541g
+  name: TP-LINK Wireless WR541G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr541g
+  description: TP-LINK Wireless WR541G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR541G
+- id: tp-link-wireless-wr541g-542g
+  name: TP-LINK Wireless WR541G/542G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr541g-542g
+  description: TP-LINK Wireless WR541G/542G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR541G/542G
+- id: tp-link-wireless-wr542g
+  name: TP-LINK Wireless WR542G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr542g
+  description: TP-LINK Wireless WR542G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR542G
+- id: tp-link-wireless-wr543g
+  name: TP-LINK Wireless WR543G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr543g
+  description: TP-LINK Wireless WR543G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR543G
+- id: tp-link-wireless-wr641g
+  name: TP-LINK Wireless WR641G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr641g
+  description: TP-LINK Wireless WR641G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR641G
+- id: tp-link-wireless-wr641g-642g
+  name: TP-LINK Wireless WR641G/642G
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr641g-642g
+  description: TP-LINK Wireless WR641G/642G
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR641G/642G
+- id: tp-link-wireless-wr700n
+  name: TP-LINK Wireless WR700N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr700n
+  description: TP-LINK Wireless WR700N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR700N
+- id: tp-link-wireless-wr702n
+  name: TP-LINK Wireless WR702N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr702n
+  description: TP-LINK Wireless WR702N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR702N
+- id: tp-link-wireless-wr740n
+  name: TP-LINK Wireless WR740N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr740n
+  description: TP-LINK Wireless WR740N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR740N
+- id: tp-link-wireless-wr740n-wr741nd
+  name: TP-LINK Wireless WR740N/WR741ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr740n-wr741nd
+  description: TP-LINK Wireless WR740N/WR741ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR740N/WR741ND
+- id: tp-link-wireless-wr741n
+  name: TP-LINK Wireless WR741N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr741n
+  description: TP-LINK Wireless WR741N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR741N
+- id: tp-link-wireless-wr741n-742n
+  name: TP-LINK Wireless WR741N/742N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr741n-742n
+  description: TP-LINK Wireless WR741N/742N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR741N/742N
+- id: tp-link-wireless-wr741nd
+  name: TP-LINK Wireless WR741ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr741nd
+  description: TP-LINK Wireless WR741ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR741ND
+- id: tp-link-wireless-wr742n
+  name: TP-LINK Wireless WR742N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr742n
+  description: TP-LINK Wireless WR742N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR742N
+- id: tp-link-wireless-wr743nd
+  name: TP-LINK Wireless WR743ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr743nd
+  description: TP-LINK Wireless WR743ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR743ND
+- id: tp-link-wireless-wr745n
+  name: TP-LINK Wireless WR745N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr745n
+  description: TP-LINK Wireless WR745N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR745N
+- id: tp-link-wireless-wr747n
+  name: TP-LINK Wireless WR747N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr747n
+  description: TP-LINK Wireless WR747N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR747N
+- id: tp-link-wireless-wr749n
+  name: TP-LINK Wireless WR749N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr749n
+  description: TP-LINK Wireless WR749N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR749N
+- id: tp-link-wireless-wr802n
+  name: TP-LINK Wireless WR802N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr802n
+  description: TP-LINK Wireless WR802N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR802N
+- id: tp-link-wireless-wr840n
+  name: TP-LINK Wireless WR840N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr840n
+  description: TP-LINK Wireless WR840N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR840N
+- id: tp-link-wireless-wr841hp
+  name: TP-LINK Wireless WR841HP
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr841hp
+  description: TP-LINK Wireless WR841HP
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR841HP
+- id: tp-link-wireless-wr841n
+  name: TP-LINK Wireless WR841N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr841n
+  description: TP-LINK Wireless WR841N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR841N
+- id: tp-link-wireless-wr841n-wr841nd
+  name: TP-LINK Wireless WR841N/WR841ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr841n-wr841nd
+  description: TP-LINK Wireless WR841N/WR841ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR841N/WR841ND
+- id: tp-link-wireless-wr842n
+  name: TP-LINK Wireless WR842N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr842n
+  description: TP-LINK Wireless WR842N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR842N
+- id: tp-link-wireless-wr842nd
+  name: TP-LINK Wireless WR842ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr842nd
+  description: TP-LINK Wireless WR842ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR842ND
+- id: tp-link-wireless-wr843n
+  name: TP-LINK Wireless WR843N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr843n
+  description: TP-LINK Wireless WR843N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR843N
+- id: tp-link-wireless-wr843nd
+  name: TP-LINK Wireless WR843ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr843nd
+  description: TP-LINK Wireless WR843ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR843ND
+- id: tp-link-wireless-wr845n
+  name: TP-LINK Wireless WR845N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr845n
+  description: TP-LINK Wireless WR845N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR845N
+- id: tp-link-wireless-wr846n
+  name: TP-LINK Wireless WR846N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr846n
+  description: TP-LINK Wireless WR846N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR846N
+- id: tp-link-wireless-wr847n
+  name: TP-LINK Wireless WR847N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr847n
+  description: TP-LINK Wireless WR847N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR847N
+- id: tp-link-wireless-wr880n
+  name: TP-LINK Wireless WR880N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr880n
+  description: TP-LINK Wireless WR880N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR880N
+- id: tp-link-wireless-wr881n
+  name: TP-LINK Wireless WR881N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr881n
+  description: TP-LINK Wireless WR881N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR881N
+- id: tp-link-wireless-wr940n
+  name: TP-LINK Wireless WR940N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr940n
+  description: TP-LINK Wireless WR940N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR940N
+- id: tp-link-wireless-wr941n
+  name: TP-LINK Wireless WR941N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr941n
+  description: TP-LINK Wireless WR941N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR941N
+- id: tp-link-wireless-wr941n-942n
+  name: TP-LINK Wireless WR941N/942N
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr941n-942n
+  description: TP-LINK Wireless WR941N/942N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR941N/942N
+- id: tp-link-wireless-wr941nd
+  name: TP-LINK Wireless WR941ND
+  author: Fofa
+  tags:
+    - tp-link-wireless-wr941nd
+  description: TP-LINK Wireless WR941ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless WR941ND
+- id: tp-link-wr703n
+  name: TP-LINK WR703N
+  author: Fofa
+  tags:
+    - tp-link-wr703n
+  description: TP-LINK WR703N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR703N
+- id: tp-link-wr710n
+  name: TP-LINK WR710N
+  author: Fofa
+  tags:
+    - tp-link-wr710n
+  description: TP-LINK WR710N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR710N
+- id: tp-link-wr720n
+  name: TP-LINK WR720N
+  author: Fofa
+  tags:
+    - tp-link-wr720n
+  description: TP-LINK WR720N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR720N
+- id: tp-link-wr740n
+  name: TP-LINK WR740N
+  author: Fofa
+  tags:
+    - tp-link-wr740n
+  description: TP-LINK WR740N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR740N
+- id: tp-link-wr741n
+  name: TP-LINK WR741N
+  author: Fofa
+  tags:
+    - tp-link-wr741n
+  description: TP-LINK WR741N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR741N
+- id: tp-link-wr741nd
+  name: TP-LINK WR741ND
+  author: Fofa
+  tags:
+    - tp-link-wr741nd
+  description: TP-LINK WR741ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR741ND
+- id: tp-link-wr820n
+  name: TP-LINK WR820N
+  author: Fofa
+  tags:
+    - tp-link-wr820n
+  description: TP-LINK WR820N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR820N
+- id: tp-link-wr841n
+  name: TP-LINK WR841N
+  author: Fofa
+  tags:
+    - tp-link-wr841n
+  description: TP-LINK WR841N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR841N
+- id: tp-link-wr842nd
+  name: TP-LINK WR842ND
+  author: Fofa
+  tags:
+    - tp-link-wr842nd
+  description: TP-LINK WR842ND
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK WR842ND
+- id: tplinkwuxian-router
+  name: TPLINKwuxian Router
+  author: Fofa
+  tags:
+    - tplinkwuxian
+    - router
+  description: TPLINKwuxian Router
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TP-LINK Wireless
+- id: tp-link-omada-controller-2
+  name: TP LINK Omada Controller
+  author: P1finger
+  tags:
+    - tp-link-omada-controller
+  description: TP LINK Omada Controller
+  matchers:
+    - location: body
+      words:
+        - Omada Controller
+- id: tplinkwuxian-router-2
+  name: Tplinkwuxian Router
+  author: P1finger
+  tags:
+    - tplinkwuxian
+    - router
+  description: Tplinkwuxian Router
+  matchers:
+    - location: header
+      words:
+        - TP-LINK

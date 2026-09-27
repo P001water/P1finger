@@ -1,0 +1,22 @@
+- id: hpdayinji
+  name: HPdayinji
+  author: Fofa
+  tags:
+    - hpdayinji
+  description: HPdayinji
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - HP-ChaiServer
+    - condition: and
+      location: body
+      words:
+        - /hp/jetdirect")
+    - location: body
+      words:
+        - HP LaserJet
+        - /hp/jetdirect
+    - location: header
+      words:
+        - HP-ChaiServer

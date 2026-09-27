@@ -1,0 +1,14 @@
+- id: comcast-business
+  name: Comcast_Business_Gateway
+  author: Fofa
+  tags:
+    - comcast-business
+  description: Comcast_Business_Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Comcast Business Gateway
+    - location: body
+      words:
+        - Comcast Business Gateway

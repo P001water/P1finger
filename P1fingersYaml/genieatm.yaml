@@ -1,0 +1,28 @@
+- id: genieatm
+  name: GenieATM
+  author: Fofa
+  tags:
+    - genieatm
+  description: GenieATM
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - GenieATM
+    - condition: or
+      location: body
+      words:
+        - Copyright© Genie Networks Ltd.
+    - condition: or
+      location: body
+      words:
+        - defect 3531
+    - location: body
+      words:
+        - GenieATM
+        - Copyright© Genie Networks Ltd.
+        - defect 3531
+    - location: body
+      words:
+        - copyright© genie networks ltd.
+        - defect 3531

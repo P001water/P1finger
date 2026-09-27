@@ -1,0 +1,24 @@
+- id: blackboard
+  name: Blackboard
+  author: Fofa
+  tags:
+    - blackboard
+  description: Blackboard
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - X-Blackboard-Product
+    - condition: or
+      location: header
+      words:
+        - X-Blackboard-Appserver
+    - location: header
+      words:
+        - X-Blackboard-Appserver
+    - hash:
+        - "-1593651747"
+      location: favicon
+    - location: body
+      words:
+        - <meta name="keywords" content="Blackboard">

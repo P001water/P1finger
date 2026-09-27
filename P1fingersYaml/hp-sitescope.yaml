@@ -1,0 +1,33 @@
+- id: hp-sitescope
+  name: Hp-sitescope
+  author: P1finger
+  tags:
+  - hp
+  - hp-sitescope
+  description: Hp-sitescope
+  matchers:
+  - location: body
+    words:
+    - SiteScope Login
+  - location: header
+    words:
+    - SiteScope
+  - location: body
+    words:
+    - sitescope login
+- id: hp-sitescope-2
+  name: HP-SiteScope
+  author: Fofa
+  tags:
+  - hp
+  - hp-sitescope
+  description: HP-SiteScope
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - SiteScope Login
+  - condition: or
+    location: header
+    words:
+    - SiteScope

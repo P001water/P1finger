@@ -1,0 +1,11 @@
+- id: kedacom-3
+  name: Kedacom
+  author: P1finger
+  tags:
+    - kedacom
+  description: Kedacom
+  matchers:
+    - location: body
+      words:
+        - MTS转码服务器
+        - ext-el-mask-msg x-mask-loading

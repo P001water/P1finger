@@ -1,0 +1,11 @@
+- id: mixcallzuoxiguanlizhongxin
+  name: Mixcallzuoxiguanlizhongxin
+  author: Fofa
+  tags:
+    - mixcallzuoxiguanlizhongxin
+  description: Mixcallzuoxiguanlizhongxin
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Mixcall座席管理中心

@@ -1,0 +1,12 @@
+- id: jianjifangdonglihuanjingxcenter
+  name: JianjifangdonglihuanjingxCenter System
+  author: P1finger
+  tags:
+    - jianjifangdonglihuanjingxcenter
+    - system
+  description: JianjifangdonglihuanjingxCenter System
+  matchers:
+    - location: body
+      words:
+        - 环境动力监控系统
+        - /egi/download

@@ -1,0 +1,11 @@
+- id: mysql-squid-access-report
+  name: MySQL-Squid-Access-Report
+  author: P1finger
+  tags:
+  - mysql
+  - mysql-squid-access-report
+  description: MySQL-Squid-Access-Report
+  matchers:
+  - location: body
+    words:
+    - MySQL-Squid-Access-Report

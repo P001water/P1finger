@@ -1,0 +1,14 @@
+- id: mod-autoindex-color
+  name: Mod_autoindex_color
+  author: Fofa
+  tags:
+    - mod-autoindex-color
+  description: Mod_autoindex_color
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_autoindex_color
+    - location: header
+      words:
+        - mod_autoindex_color

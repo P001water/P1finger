@@ -1,0 +1,44 @@
+- id: acti
+  name: ACTi
+  author: Fofa
+  tags:
+    - acti
+  description: ACTi
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Web Configurator
+    - condition: or
+      location: body
+      words:
+        - ACTi Corporation All Rights Reserved
+    - location: body
+      words:
+        - Web Configurator
+        - ACTi Corporation All Rights Reserved
+- id: acti-video-surveillance
+  name: ACTI Video Surveillance
+  author: P1finger
+  tags:
+    - acti
+    - video-surveillance
+  description: ACTI Video Surveillance
+  matchers:
+    - location: body
+      words:
+        - /cgi-bin/system?SYSTEM_INFO
+- id: zhongkejiahuaacti
+  name: ZhongkejiahuaACTi Video Surveillance
+  author: P1finger
+  tags:
+    - zhongkejiahuaacti
+    - video-surveillance
+  description: ZhongkejiahuaACTi Video Surveillance
+  matchers:
+    - location: body
+      words:
+        - Web Configurator
+    - location: header
+      words:
+        - 'Server: Httpd v1.0 05may2008'

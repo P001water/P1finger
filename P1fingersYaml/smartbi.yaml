@@ -1,0 +1,35 @@
+- id: smartbi
+  name: Smartbi
+  author: P1finger
+  tags:
+    - smartbi
+  description: Smartbi
+  matchers:
+    - location: body
+      words:
+        - /smartbi/index.jsp
+        - smartbiXMobile
+        - SmartbiCefActiveX
+    - location: body
+      words:
+        - smartbi.gcf.gcfutil
+    - location: body
+      words:
+        - smartbi-version
+        - smartbi.gcf.gcfutil
+        - writeCustomBgImg.jsp?thelocation=LoginLogo
+        - smartbiVersion
+        - Smartbi Server Administration Console
+    - location: body
+      words:
+        - vision/index.jsp
+    - location: header
+      words:
+        - Path=/smartbi
+    - location: body
+      words:
+        - gcfutil = jsloader.resolve('smartbi.gcf.gcfutil')
+    - location: body
+      words:
+        - Smartbi 更聪明的大数据分析软件！
+        - smartbi.gcf.gcfutil

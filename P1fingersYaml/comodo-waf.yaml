@@ -1,0 +1,10 @@
+- id: comodo-waf
+  name: Comodo WAF
+  author: P1finger
+  tags:
+    - comodo-waf
+  description: Comodo WAF
+  matchers:
+    - location: header
+      words:
+        - protected by comodo waf

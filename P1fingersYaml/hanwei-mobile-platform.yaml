@@ -1,0 +1,11 @@
+- id: hanwei-mobile
+  name: Hanwei-mobile-platform
+  author: P001
+  tags:
+    - hanwei-mobile
+  description: Hanwei-mobile-platform
+  matchers:
+    - location: body
+      words:
+        - <img src="images/zshlogo.jpg" />
+        - 信任汉威的开发证书

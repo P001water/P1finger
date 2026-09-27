@@ -1,0 +1,11 @@
+- id: pommo
+  name: Pommo
+  author: P001
+  tags:
+    - pommo
+  description: Pommo
+  matchers:
+    - location: body
+      words:
+        - pommo.confirmmsg =
+        - powered by <a href="http://www.pommo.org/

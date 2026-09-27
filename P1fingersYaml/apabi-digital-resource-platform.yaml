@@ -1,0 +1,11 @@
+- id: apabi-digital-resource
+  name: Apabi-digital-resource-platform
+  author: P001
+  tags:
+    - apabi-digital-resource
+  description: Apabi-digital-resource-platform
+  matchers:
+    - location: body
+      words:
+        - <link href="http://apabi
+        - default/apabi.css

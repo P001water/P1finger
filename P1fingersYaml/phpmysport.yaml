@@ -1,0 +1,10 @@
+- id: phpmysport
+  name: PhpMySport
+  author: P1finger
+  tags:
+    - phpmysport
+  description: PhpMySport
+  matchers:
+    - location: body
+      words:
+        - title="phpMySport"

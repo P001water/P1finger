@@ -1,0 +1,10 @@
+- id: xunbong320vpnfirewall
+  name: XunboNG320VPNFirewall
+  author: P1finger
+  tags:
+    - xunbong320vpnfirewall
+  description: XunboNG320VPNFirewall
+  matchers:
+    - location: header
+      words:
+        - Basic realm="NG320-VPN-Firewall"

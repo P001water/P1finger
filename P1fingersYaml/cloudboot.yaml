@@ -1,0 +1,12 @@
+- id: cloudbootyunqizhuangji-platform
+  name: CloudBootyunqizhuangji Platform
+  author: P1finger
+  tags:
+    - cloudbootyunqizhuangji
+    - platform
+  description: CloudBootyunqizhuangji Platform
+  matchers:
+    - location: body
+      words:
+        - cloudboot
+        - /clipboard/zeroclipboard.min

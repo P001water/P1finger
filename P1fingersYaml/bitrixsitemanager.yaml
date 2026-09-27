@@ -1,0 +1,21 @@
+- id: bitrixsitemanager
+  name: Bitrixsitemanager
+  author: P1finger
+  tags:
+    - bitrixsitemanager
+  description: Bitrixsitemanager
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-Cms: Bitrix Site Manager'
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-Cms: Bitrix Site Manager'
+    - location: body
+      words:
+        - www.bitrix24.com
+    - location: header
+      words:
+        - X-Powered-Cms
+        - Bitrix Site Manager

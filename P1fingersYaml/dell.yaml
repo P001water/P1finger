@@ -1,0 +1,218 @@
+- id: dell
+  name: Dell
+  author: P1finger
+  tags:
+  - dell
+  description: Dell
+  matchers:
+  - hash:
+    - '-1153950306'
+    location: favicon
+- id: dell-kace-appliance
+  name: Dell-KACE-Appliance
+  author: Fofa
+  tags:
+  - dell-kace-appliance
+  description: Dell-KACE-Appliance
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - x-dellkace-
+- id: dell-openmanage-switch-administrator
+  name: Dell Openmanage Switch Administrator
+  author: P1finger
+  tags:
+  - dell-openmanage-switch-administrator
+  description: Dell Openmanage Switch Administrator
+  matchers:
+  - location: body
+    words:
+    - Dell OpenManage Switch Administrator
+- id: dell-printer
+  name: Dell-Printer
+  author: Fofa
+  tags:
+  - dell-printer
+  description: Dell-Printer
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Dell Laser Printer
+- id: dell-access-controller
+  name: Dell-Remote-Access-Controller
+  author: Fofa
+  tags:
+  - dell-access-controller
+  description: Dell-Remote-Access-Controller
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /cgi-bin/webcgi/ssologin
+  - condition: or
+    location: header
+    words:
+    - RAC_ONE_HTTP
+- id: dell-access
+  name: Dell Remote Access Device
+  author: P1finger
+  tags:
+  - dell-access
+  description: Dell Remote Access Device
+  matchers:
+  - location: header
+    words:
+    - 'RAC_ONE_HTTP '
+- id: dell-sonicwall
+  name: Dell Sonicwall
+  author: P1finger
+  tags:
+  - sonicwall
+  - dell-sonicwall
+  description: Dell Sonicwall
+  matchers:
+  - hash:
+    - '363324987'
+    location: favicon
+- id: dell-idrac
+  name: Dell-idrac
+  author: P001
+  tags:
+  - dell-idrac
+  description: Dell-idrac
+  matchers:
+  - location: body
+    words:
+    - <title>dell remote management controller</title>
+- id: dell-kace-appliance-2
+  name: Dell-kace-appliance
+  author: P1finger
+  tags:
+  - dell-kace-appliance
+  description: Dell-kace-appliance
+  matchers:
+  - location: header
+    words:
+    - x-dellkace-
+- id: dell-n1108p-on
+  name: Dell-n1108p-on
+  author: P001
+  tags:
+  - dell-n1108p-on
+  description: Dell-n1108p-on
+  matchers:
+  - location: body
+    words:
+    - class="login_server_default">n1108p-on
+- id: dell-navisphere-express
+  name: Dell-navisphere-express
+  author: P001
+  tags:
+  - dell-navisphere-express
+  description: Dell-navisphere-express
+  matchers:
+  - location: body
+    words:
+    - parent.main.location = urlnonst + "?nst=" + top.menu.securitytoken
+- id: dell-networker
+  name: Dell-networker-management-console
+  author: P001
+  tags:
+  - dell-networker
+  description: Dell-networker-management-console
+  matchers:
+  - location: body
+    words:
+    - emc corporation
+- id: dell-open-manage
+  name: Dell-open-manage
+  author: P001
+  tags:
+  - dell-open-manage
+  description: Dell-open-manage
+  matchers:
+  - location: body
+    words:
+    - <img title="open manage" alt="open manage
+- id: dell-openmanage
+  name: Dell-openmanage
+  author: P001
+  tags:
+  - dell-openmanage
+  description: Dell-openmanage
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - src="/oem//data/images/logo.gif"
+    - url=/servlet/omsalogin?msgstatus='
+    - alt="openmanage"
+- id: dell-openmanage-switch-administrator-2
+  name: Dell OpenManage Switch Administrator
+  author: Fofa
+  tags:
+  - dell-openmanage-switch-administrator
+  description: Dell OpenManage Switch Administrator
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Dell OpenManage Switch Administrator
+- id: dell-openmanage-switch-administrator-3
+  name: Dell-openmanage-switch-administrator
+  author: P001
+  tags:
+  - dell-openmanage-switch-administrator
+  description: Dell-openmanage-switch-administrator
+  matchers:
+  - location: body
+    words:
+    - progressgraphicnone
+    - window.top.location.href = "dell_login.html
+- id: dell-printer-2
+  name: Dell-printer
+  author: P1finger
+  tags:
+  - dell-printer
+  description: Dell-printer
+  matchers:
+  - location: body
+    words:
+    - Dell Laser Printer
+- id: dell-access-controller-2
+  name: Dell-remote-access-controller
+  author: P1finger
+  tags:
+  - dell-access-controller
+  description: Dell-remote-access-controller
+  matchers:
+  - location: body
+    words:
+    - /cgi-bin/webcgi/ssologin
+  - location: header
+    words:
+    - RAC_ONE_HTTP
+- id: dell-access-2
+  name: Dell Remote Access Device
+  author: Fofa
+  tags:
+  - dell-access
+  description: Dell Remote Access Device
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - 'RAC_ONE_HTTP '
+- id: dell-unisphere
+  name: Dell-unisphere
+  author: P001
+  tags:
+  - dell-unisphere
+  description: Dell-unisphere
+  matchers:
+  - location: body
+    words:
+    - unisphere for sc series
+    - 用于 sc 系列的 unisphere

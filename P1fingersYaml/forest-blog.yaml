@@ -1,0 +1,21 @@
+- id: forest-blog
+  name: Forest-blog
+  author: P1finger
+  tags:
+    - forest-blog
+  description: Forest-blog
+  matchers:
+    - location: body
+      words:
+        - Forest Blog
+- id: forest-blog-2
+  name: Forest-Blog
+  author: Fofa
+  tags:
+    - forest-blog
+  description: Forest-Blog
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Forest Blog

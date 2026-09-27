@@ -1,0 +1,12 @@
+- id: load-balancer-cisco-ace
+  name: Load Balancer Cisco ACE
+  author: Fofa
+  tags:
+  - cisco
+  - load-balancer-cisco-ace
+  description: Load Balancer Cisco ACE
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco ACE

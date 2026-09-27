@@ -1,0 +1,10 @@
+- id: extron-mkp-2000
+  name: Extron-MKP-2000
+  author: P1finger
+  tags:
+    - extron-mkp-2000
+  description: Extron-MKP-2000
+  matchers:
+    - location: header
+      words:
+        - 'Server: MKP 2000/2.02'

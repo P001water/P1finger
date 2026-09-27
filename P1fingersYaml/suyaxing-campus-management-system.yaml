@@ -1,0 +1,10 @@
+- id: suyaxing-campus
+  name: Suyaxing-campus-management-system
+  author: P001
+  tags:
+    - suyaxing-campus
+  description: Suyaxing-campus-management-system
+  matchers:
+    - location: body
+      words:
+        - /ws2004/public/

@@ -1,0 +1,10 @@
+- id: thoughtconduit
+  name: Thoughtconduit
+  author: P001
+  tags:
+    - thoughtconduit
+  description: Thoughtconduit
+  matchers:
+    - location: body
+      words:
+        - <html><head><title>error</title></head><body>your request produced an error.</body></html>

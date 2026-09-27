@@ -1,0 +1,11 @@
+- id: pritlog
+  name: Pritlog
+  author: P001
+  tags:
+    - pritlog
+  description: Pritlog
+  matchers:
+    - location: body
+      words:
+        - <em id="jserror">please enable javascript for full functionality
+        - powered by <a href="http://pritlog.com/">pritlog

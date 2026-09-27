@@ -1,0 +1,15 @@
+- id: tumblr
+  name: Tumblr
+  author: Fofa
+  tags:
+    - tumblr
+  description: Tumblr
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Tumblr-User
+    - location: body
+      words:
+        - <!-- begin tumblr code --><iframe src="http://assets.tumblr.com/iframe.html
+        - <meta name="tumblr-theme" content=

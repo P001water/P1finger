@@ -1,0 +1,23 @@
+- id: kaibb
+  name: KaiBB
+  author: Fofa
+  tags:
+    - kaibb
+  description: KaiBB
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by KaiBB
+    - condition: or
+      location: body
+      words:
+        - content="Forum powered by KaiBB
+    - location: body
+      words:
+        - Powered by KaiBB
+        - content="Forum powered by KaiBB
+    - location: body
+      words:
+        - content="forum powered by kaibb
+        - powered by kaibb

@@ -1,0 +1,10 @@
+- id: opengeo-suite
+  name: Opengeo Suite
+  author: P1finger
+  tags:
+    - opengeo-suite
+  description: Opengeo Suite
+  matchers:
+    - hash:
+        - "-609520537"
+      location: favicon

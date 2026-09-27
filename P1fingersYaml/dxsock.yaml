@@ -1,0 +1,14 @@
+- id: dxsock
+  name: DXSock
+  author: Fofa
+  tags:
+    - dxsock
+  description: DXSock
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - RemObjects
+    - location: header
+      words:
+        - RemObjects

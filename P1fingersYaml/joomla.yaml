@@ -1,0 +1,19 @@
+- id: joomla-2
+  name: Joomla
+  author: P1finger
+  tags:
+    - joomla
+  description: Joomla
+  matchers:
+    - location: body
+      words:
+        - mootools-core.js
+        - Joomla
+    - condition: or
+      location: body
+      words:
+        - content="Joomla
+    - condition: and
+      location: body
+      words:
+        - /media/system/js/mootools-core.js")

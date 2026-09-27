@@ -1,0 +1,10 @@
+- id: zipkin
+  name: Zipkin
+  author: P001
+  tags:
+    - zipkin
+  description: Zipkin
+  matchers:
+    - location: body
+      words:
+        - <base href="/zipkin/">

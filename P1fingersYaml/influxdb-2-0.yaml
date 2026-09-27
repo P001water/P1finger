@@ -1,0 +1,10 @@
+- id: influxdb
+  name: InfluxDB 2.0
+  author: P1finger
+  tags:
+    - influxdb
+  description: InfluxDB 2.0
+  matchers:
+    - location: body
+      words:
+        - InfluxDB 2.0

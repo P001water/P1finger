@@ -1,0 +1,15 @@
+- id: zkteco
+  name: Zkteco-security-management-system
+  author: P001
+  tags:
+    - zkteco
+  description: Zkteco-security-management-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - src='/login/images/zksecurity.png'
+        - 百傲瑞达
+        - class="login-finger-btn disabled"
+        - id="password_hidden"
+        - $(".copyright").text("copyright ? " + server_current_year + " zkteco co., ltd. all rights reserved");

@@ -1,0 +1,10 @@
+- id: speedcms
+  name: SpeedCMS
+  author: P1finger
+  tags:
+    - speedcms
+  description: SpeedCMS
+  matchers:
+    - location: body
+      words:
+        - SpeedCMS

@@ -1,0 +1,29 @@
+- id: kingosoft
+  name: Kingosoft
+  author: P001
+  tags:
+    - kingosoft
+  description: Kingosoft
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /jkingo.js
+        - kingosoft
+        - setkingoencypt.jsp
+        - 青果
+    - location: body
+      words:
+        - kingosoft
+        - 青果
+- id: kingosoftgaoxiaojiaowuwangluo
+  name: KINGOSOFTgaoxiaojiaowuwangluo Management System
+  author: P1finger
+  tags:
+    - kingosoftgaoxiaojiaowuwangluo
+    - management-system
+  description: KINGOSOFTgaoxiaojiaowuwangluo Management System
+  matchers:
+    - location: body
+      words:
+        - KINGOSOFT高校教务网络管理系统

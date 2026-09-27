@@ -1,0 +1,14 @@
+- id: urlrewriter-net
+  name: UrlRewriter.NET
+  author: Fofa
+  tags:
+    - urlrewriter-net
+  description: UrlRewriter.NET
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - UrlRewriter.NET
+    - location: header
+      words:
+        - UrlRewriter.NET

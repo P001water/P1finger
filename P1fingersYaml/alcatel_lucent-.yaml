@@ -1,0 +1,13 @@
+- id: alcatellucentqiye-gateway
+  name: Alcatellucentqiye Gateway
+  author: P001
+  tags:
+    - alcatellucentqiye
+    - gateway
+  description: Alcatellucentqiye Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - alcatel-lucent
+        - 欢迎登陆网页配置界面

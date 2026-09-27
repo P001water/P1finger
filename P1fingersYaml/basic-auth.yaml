@@ -1,0 +1,11 @@
+- id: basic-auth
+  name: BASIC AUTH
+  author: Fofa
+  tags:
+    - basic-auth
+  description: BASIC AUTH
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Www-Authenticate: Basic'

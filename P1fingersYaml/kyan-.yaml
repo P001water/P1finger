@@ -1,0 +1,13 @@
+- id: kyanjiankongshebei
+  name: Kyanjiankongshebei
+  author: P001
+  tags:
+    - kyanjiankongshebei
+  description: Kyanjiankongshebei
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - login_files
+        - platform
+        - 欢迎

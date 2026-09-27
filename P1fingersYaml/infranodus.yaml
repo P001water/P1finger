@@ -1,0 +1,10 @@
+- id: infranodus
+  name: InfraNodus
+  author: P1finger
+  tags:
+    - infranodus
+  description: InfraNodus
+  matchers:
+    - location: body
+      words:
+        - 'InfraNodus: Generate Insight Using Text Network Analsysis'

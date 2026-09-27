@@ -1,0 +1,14 @@
+- id: dasannetworks
+  name: Dasannetworks
+  author: Fofa
+  tags:
+    - dasannetworks
+  description: Dasannetworks
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - clear_cookie("login");
+    - location: body
+      words:
+        - clear_cookie("login");

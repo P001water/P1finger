@@ -1,0 +1,13 @@
+- id: management-platform
+  name: Management-platform
+  author: P001
+  tags:
+    - management-platform
+  description: Management-platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - casloginview
+        - i-verfiy
+        - 北京天源迪科信息技术有限公司

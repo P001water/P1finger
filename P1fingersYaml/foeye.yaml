@@ -1,0 +1,10 @@
+- id: baimaohuifoeye
+  name: BaimaohuiFOEYE
+  author: P1finger
+  tags:
+    - baimaohuifoeye
+  description: BaimaohuiFOEYE
+  matchers:
+    - location: body
+      words:
+        - <title>FOEYE</title>

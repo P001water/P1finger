@@ -1,0 +1,10 @@
+- id: lenel
+  name: Lenel
+  author: P1finger
+  tags:
+    - lenel
+  description: Lenel
+  matchers:
+    - hash:
+        - "538585915"
+      location: favicon

@@ -1,0 +1,12 @@
+- id: check-point
+  name: Check-point-vpn
+  author: P001
+  tags:
+    - check-point
+  description: Check-point-vpn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <img src="/sslvpn/login/images/companylogo.png
+        - check point software technologies

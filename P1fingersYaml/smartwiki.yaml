@@ -1,0 +1,10 @@
+- id: smartwiki
+  name: SmartWiki
+  author: P1finger
+  tags:
+    - smartwiki
+  description: SmartWiki
+  matchers:
+    - location: body
+      words:
+        - Smartwiki

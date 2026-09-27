@@ -1,0 +1,10 @@
+- id: multiabnle-m18
+  name: Multiabnle-m18
+  author: P001
+  tags:
+    - multiabnle-m18
+  description: Multiabnle-m18
+  matchers:
+    - location: body
+      words:
+        - <label>打开m18 app， 扫描二维码</label>

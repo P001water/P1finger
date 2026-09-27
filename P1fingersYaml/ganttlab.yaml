@@ -1,0 +1,10 @@
+- id: ganttlab
+  name: Ganttlab
+  author: P001
+  tags:
+    - ganttlab
+  description: Ganttlab
+  matchers:
+    - location: body
+      words:
+        - ganttlab-preview.png

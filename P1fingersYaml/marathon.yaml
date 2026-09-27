@@ -1,0 +1,10 @@
+- id: marathon
+  name: Marathon
+  author: P001
+  tags:
+    - marathon
+  description: Marathon
+  matchers:
+    - location: body
+      words:
+        - href="img/marathon-favicon.ico

@@ -1,0 +1,10 @@
+- id: cwindowzhengwuanquanyouxiang
+  name: Cwindowzhengwuanquanyouxiang
+  author: P1finger
+  tags:
+    - cwindowzhengwuanquanyouxiang
+  description: Cwindowzhengwuanquanyouxiang
+  matchers:
+    - location: body
+      words:
+        - 北京国信冠群技术有限公司,国信冠群,邮件

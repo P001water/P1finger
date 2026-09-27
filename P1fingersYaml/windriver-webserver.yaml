@@ -1,0 +1,10 @@
+- id: windriver-webserver
+  name: Windriver-webserver
+  author: P1finger
+  tags:
+    - windriver-webserver
+  description: Windriver-webserver
+  matchers:
+    - hash:
+        - "74935566"
+      location: favicon

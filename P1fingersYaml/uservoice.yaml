@@ -1,0 +1,10 @@
+- id: uservoice
+  name: Uservoice
+  author: P1finger
+  tags:
+    - uservoice
+  description: Uservoice
+  matchers:
+    - location: body
+      words:
+        - widget.uservoice.com

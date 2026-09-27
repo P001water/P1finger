@@ -1,0 +1,10 @@
+- id: lantronix
+  name: Lantronix
+  author: P1finger
+  tags:
+    - lantronix
+  description: Lantronix
+  matchers:
+    - hash:
+        - "882208493"
+      location: favicon

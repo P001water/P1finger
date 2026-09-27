@@ -1,0 +1,38 @@
+- id: jenkins
+  name: Jenkins
+  author: P1finger
+  tags:
+  - jenkins
+  description: Jenkins
+  matchers:
+  - location: body
+    words:
+    - jenkins-checkbox
+- id: jenkins-agent
+  name: Jenkins-agent
+  author: P001
+  tags:
+  - jenkins
+  - jenkins-agent
+  description: Jenkins-agent
+  matchers:
+  - location: body
+    words:
+    - jenkins-agent-protocols
+- id: jenkins-2
+  name: Jenkins
+  author: P001
+  tags:
+  - jenkins
+  description: Jenkins
+  matchers:
+  - location: header
+    words:
+    - X-Jenkins
+  - location: body
+    words:
+    - /static/654b771c/scripts/redirect.js'
+    - Jenkins
+  - hash:
+    - 23e8c7bd78e8cd826c5a6073b15068b1
+    location: favicon

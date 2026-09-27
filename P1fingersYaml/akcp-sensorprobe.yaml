@@ -1,0 +1,10 @@
+- id: akcp-sensorprobe
+  name: AKCP SensorProbe
+  author: P1finger
+  tags:
+    - akcp-sensorprobe
+  description: AKCP SensorProbe
+  matchers:
+    - location: header
+      words:
+        - akcp embedded web server

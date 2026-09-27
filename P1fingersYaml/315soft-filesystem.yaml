@@ -1,0 +1,10 @@
+- id: 315soft-filesystem
+  name: 315soft-filesystem
+  author: P001
+  tags:
+    - 315soft-filesystem
+  description: 315soft-filesystem
+  matchers:
+    - location: body
+      words:
+        - '>多可电子档案管理系统</div'

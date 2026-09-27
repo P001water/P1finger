@@ -1,0 +1,34 @@
+- id: tencent-exmail
+  name: Tencent-exmail
+  author: P001
+  tags:
+  - tencent
+  - tencent-exmail
+  description: Tencent-exmail
+  matchers:
+  - location: body
+    words:
+    - /cgi-bin/getinvestigate?flowid=
+    - content="登录腾讯企业邮箱
+- id: tencent-foxmail
+  name: Tencent-foxmail-server
+  author: P001
+  tags:
+  - tencent
+  - tencent-foxmail
+  description: Tencent-foxmail-server
+  matchers:
+  - location: body
+    words:
+    - src="/images//foxs_logo.gif
+- id: tencent-management-system
+  name: Tencent Management System
+  author: P1finger
+  tags:
+  - tencent
+  - management-system
+  description: Tencent Management System
+  matchers:
+  - location: body
+    words:
+    - 腾讯iOA控制台

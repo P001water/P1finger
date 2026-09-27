@@ -1,0 +1,21 @@
+- id: dart-webserver-tool
+  name: Dart-webserver-tool
+  author: P1finger
+  tags:
+    - dart-webserver-tool
+  description: Dart-webserver-tool
+  matchers:
+    - location: header
+      words:
+        - Dart WebServer Tool
+- id: dart-webserver-tool-2
+  name: Dart-WebServer-Tool
+  author: Fofa
+  tags:
+    - dart-webserver-tool
+  description: Dart-WebServer-Tool
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Dart WebServer Tool

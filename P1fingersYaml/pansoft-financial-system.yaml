@@ -1,0 +1,11 @@
+- id: pansoft-financial
+  name: Pansoft-financial-system
+  author: P001
+  tags:
+    - pansoft-financial
+  description: Pansoft-financial-system
+  matchers:
+    - location: body
+      words:
+        - pansoftplugins/multithreading/pancalc.js
+        - src="/login/img/loading.gif"

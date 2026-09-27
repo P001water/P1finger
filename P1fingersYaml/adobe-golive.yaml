@@ -1,0 +1,26 @@
+- id: adobe-golive
+  name: Adobe-golive
+  author: P001
+  tags:
+  - adobe
+  - adobe-golive
+  description: Adobe-golive
+  matchers:
+  - location: body
+    words:
+    - generator" content="adobe golive
+- id: adobe-golive-2
+  name: Adobe_GoLive
+  author: Fofa
+  tags:
+  - adobe
+  - adobe-golive
+  description: Adobe_GoLive
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - generator" content="Adobe GoLive
+  - location: body
+    words:
+    - generator" content="Adobe GoLive

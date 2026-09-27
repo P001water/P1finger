@@ -1,0 +1,16 @@
+- id: mysqldumper
+  name: Mysqldumper
+  author: P001
+  tags:
+    - mysqldumper
+  description: Mysqldumper
+  matchers:
+    - location: body
+      words:
+        - <select class="sqlcombo" name="tablecombo
+    - location: header
+      words:
+        - MySQLDumper
+    - location: header
+      words:
+        - Basic realm="MySQLDumper

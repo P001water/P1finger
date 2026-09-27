@@ -1,0 +1,10 @@
+- id: deshang-dsmall
+  name: Deshang-dsmall
+  author: P001
+  tags:
+    - deshang-dsmall
+  description: Deshang-dsmall
+  matchers:
+    - location: body
+      words:
+        - /static/plugins/js/dialog/dialog.js" id="dialog_js"

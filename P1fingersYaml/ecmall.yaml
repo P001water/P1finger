@@ -1,0 +1,24 @@
+- id: ecmall
+  name: ECMall
+  author: Fofa
+  tags:
+    - ecmall
+  description: ECMall
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ECM_ID
+    - condition: or
+      location: body
+      words:
+        - generator" content="ECMall
+    - location: body
+      words:
+        - ECMall
+    - location: header
+      words:
+        - ECM_ID
+    - location: body
+      words:
+        - /ECMall.css

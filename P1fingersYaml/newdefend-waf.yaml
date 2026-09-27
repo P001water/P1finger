@@ -1,0 +1,10 @@
+- id: newdefend-waf
+  name: Newdefend-WAF
+  author: P1finger
+  tags:
+    - newdefend-waf
+  description: Newdefend-WAF
+  matchers:
+    - location: header
+      words:
+        - 'Server: NewDefend'

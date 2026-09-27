@@ -1,0 +1,10 @@
+- id: xitami
+  name: Xitami
+  author: P001
+  tags:
+    - xitami
+  description: Xitami
+  matchers:
+    - location: body
+      words:
+        - 'server: xitami'

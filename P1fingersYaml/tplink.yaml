@@ -1,0 +1,10 @@
+- id: tplink
+  name: TPLINK
+  author: P1finger
+  tags:
+    - tplink
+  description: TPLINK
+  matchers:
+    - location: body
+      words:
+        - IP CAMERA Viewer

@@ -1,0 +1,10 @@
+- id: zkteco-2
+  name: Zkteco-system
+  author: P001
+  tags:
+    - zkteco
+  description: Zkteco-system
+  matchers:
+    - location: body
+      words:
+        - class="m-btn  zkgreen rnd"

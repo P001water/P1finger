@@ -1,0 +1,14 @@
+- id: cmscontrol
+  name: Cmscontrol
+  author: P1finger
+  tags:
+    - cmscontrol
+  description: Cmscontrol
+  matchers:
+    - location: body
+      words:
+        - content="CMScontrol
+    - condition: and
+      location: body
+      words:
+        - content="CMScontrol

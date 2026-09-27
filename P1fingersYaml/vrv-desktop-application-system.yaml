@@ -1,0 +1,11 @@
+- id: vrv-desktop
+  name: Vrv-desktop-application-system
+  author: P001
+  tags:
+    - vrv-desktop
+  description: Vrv-desktop-application-system
+  matchers:
+    - location: body
+      words:
+        - <span id="lblvalidcompany" class="validcompany">vrv
+        - var vver = $('#hidverify').val();

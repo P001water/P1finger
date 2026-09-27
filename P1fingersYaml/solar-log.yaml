@@ -1,0 +1,10 @@
+- id: solar-log
+  name: Solar Log
+  author: P1finger
+  tags:
+    - solar-log
+  description: Solar Log
+  matchers:
+    - location: body
+      words:
+        - Solar-Log

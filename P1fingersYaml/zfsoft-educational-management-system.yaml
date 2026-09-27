@@ -1,0 +1,12 @@
+- id: zfsoft-educational
+  name: Zfsoft-educational-management-system
+  author: P001
+  tags:
+    - zfsoft-educational
+  description: Zfsoft-educational-management-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="站点介绍"
+        - style/base/jw.css

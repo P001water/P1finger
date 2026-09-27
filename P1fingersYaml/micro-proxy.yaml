@@ -1,0 +1,10 @@
+- id: micro-proxy
+  name: Micro_proxy
+  author: P1finger
+  tags:
+    - micro-proxy
+  description: Micro_proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: micro_proxy'

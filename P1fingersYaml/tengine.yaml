@@ -1,0 +1,11 @@
+- id: taobaotenginehttpserver
+  name: TaobaoTengineHttpServer
+  author: Fofa
+  tags:
+    - taobaotenginehttpserver
+  description: TaobaoTengineHttpServer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: Tengine'

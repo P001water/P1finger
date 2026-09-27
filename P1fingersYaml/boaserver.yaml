@@ -1,0 +1,10 @@
+- id: boaserver
+  name: Boaserver
+  author: P1finger
+  tags:
+    - boaserver
+  description: Boaserver
+  matchers:
+    - hash:
+        - "1169183049"
+      location: favicon

@@ -1,0 +1,25 @@
+- id: amiro
+  name: Amiro-cms
+  author: P1finger
+  tags:
+    - amiro
+  description: Amiro-cms
+  matchers:
+    - location: body
+      words:
+        - 'Powered by: Amiro CMS'
+- id: amiro-2
+  name: Amiro-CMS
+  author: Fofa
+  tags:
+    - amiro
+  description: Amiro-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - 'Powered by: Amiro CMS'
+    - condition: or
+      location: body
+      words:
+        - -= Amiro.CMS (c) =-

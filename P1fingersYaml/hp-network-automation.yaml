@@ -1,0 +1,11 @@
+- id: hp-automation
+  name: HP-Network-Automation
+  author: P1finger
+  tags:
+  - hp
+  - hp-automation
+  description: HP-Network-Automation
+  matchers:
+  - location: body
+    words:
+    - HP-Network-Automation

@@ -1,0 +1,11 @@
+- id: pega-infinity
+  name: Pega Infinity
+  author: P1finger
+  tags:
+  - pega
+  - pega-infinity
+  description: Pega Infinity
+  matchers:
+  - location: body
+    words:
+    - Pega infinity

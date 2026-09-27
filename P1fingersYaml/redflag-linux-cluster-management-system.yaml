@@ -1,0 +1,10 @@
+- id: redflag-linux-cluster
+  name: Redflag-linux-cluster-management-system
+  author: P001
+  tags:
+    - redflag-linux-cluster
+  description: Redflag-linux-cluster-management-system
+  matchers:
+    - location: body
+      words:
+        - <b>登录到红旗集群管理系统</b></td>

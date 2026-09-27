@@ -1,0 +1,13 @@
+- id: apache-hadoop-yarn
+  name: Apache-hadoop-yarn
+  author: P001
+  tags:
+  - hadoop
+  - apache
+  - apache-hadoop-yarn
+  description: Apache-hadoop-yarn
+  matchers:
+  - location: body
+    words:
+    - /static/yarn.css
+    - yarn.dt.plugins.js

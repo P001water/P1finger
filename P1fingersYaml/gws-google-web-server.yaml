@@ -1,0 +1,21 @@
+- id: gws-google
+  name: GWS (Google Web Server)
+  author: Fofa
+  tags:
+    - gws-google
+  description: GWS (Google Web Server)
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: gws'
+- id: gws-google-2
+  name: Gws (google Web Server)
+  author: P1finger
+  tags:
+    - gws-google
+  description: Gws (google Web Server)
+  matchers:
+    - location: header
+      words:
+        - 'Server: gws'

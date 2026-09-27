@@ -1,0 +1,12 @@
+- id: argocd
+  name: Argocd
+  author: P001
+  tags:
+    - argocd
+  description: Argocd
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>argo cd</title>
+        - argoproj.github.io

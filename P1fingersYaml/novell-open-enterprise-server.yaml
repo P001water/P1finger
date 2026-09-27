@@ -1,0 +1,11 @@
+- id: novell-open
+  name: Novell-open-enterprise-server
+  author: P001
+  tags:
+    - novell-open
+  description: Novell-open-enterprise-server
+  matchers:
+    - location: body
+      words:
+        - <!-- this is all just a super-duper redirect to the welcome page
+        - href="http://www.novell.com/products/openenterpriseserver

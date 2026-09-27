@@ -1,0 +1,13 @@
+- id: oracle-primerva
+  name: Oracle-primerva
+  author: P001
+  tags:
+  - oracle
+  - oracle-primerva
+  description: Oracle-primerva
+  matchers:
+  - location: body
+    words:
+    - class="introareabuildid
+    - com.primavera.detectplugin.detectpluginapplet.class
+    - primavera systems, inc

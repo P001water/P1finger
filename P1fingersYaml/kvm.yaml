@@ -1,0 +1,22 @@
+- id: kvmchuangmengyunjisuan
+  name: KVMchuangmengyunjisuan Management System
+  author: P1finger
+  tags:
+    - kvmchuangmengyunjisuan
+    - management-system
+  description: KVMchuangmengyunjisuan Management System
+  matchers:
+    - location: body
+      words:
+        - KVM_创梦云计算管理系统
+- id: kvmyuyueyunjisuan
+  name: KVMyuyueyunjisuan Management System
+  author: P1finger
+  tags:
+    - kvmyuyueyunjisuan
+    - management-system
+  description: KVMyuyueyunjisuan Management System
+  matchers:
+    - location: body
+      words:
+        - KVM_余跃云计算管理系统

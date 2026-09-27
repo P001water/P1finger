@@ -1,0 +1,26 @@
+- id: asp-nuke
+  name: Asp-nuke
+  author: P1finger
+  tags:
+    - asp-nuke
+  description: Asp-nuke
+  matchers:
+    - location: body
+      words:
+        - CONTENT="ASP-Nuke
+        - content="ASPNUKE
+- id: asp-nuke-2
+  name: ASP-Nuke
+  author: Fofa
+  tags:
+    - asp-nuke
+  description: ASP-Nuke
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - CONTENT="ASP-Nuke
+    - condition: or
+      location: body
+      words:
+        - content="ASPNUKE

@@ -1,0 +1,14 @@
+- id: cscms
+  name: Cscms
+  author: P001
+  tags:
+    - cscms
+  description: Cscms
+  matchers:
+    - location: body
+      words:
+        - /js/cscms.js
+        - tag_adfo dis_wap
+    - location: header
+      words:
+        - 'X-Generator: Cscms'

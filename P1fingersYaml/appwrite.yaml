@@ -1,0 +1,10 @@
+- id: appwrite
+  name: Appwrite
+  author: P001
+  tags:
+    - appwrite
+  description: Appwrite
+  matchers:
+    - location: body
+      words:
+        - <title>sign in - appwrite</title>

@@ -1,0 +1,10 @@
+- id: harpcms
+  name: HarpCMS
+  author: P1finger
+  tags:
+    - harpcms
+  description: HarpCMS
+  matchers:
+    - location: header
+      words:
+        - HarpCMS"

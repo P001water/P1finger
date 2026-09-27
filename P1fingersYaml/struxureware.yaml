@@ -1,0 +1,10 @@
+- id: struxureware
+  name: Struxureware
+  author: P1finger
+  tags:
+    - struxureware
+  description: Struxureware
+  matchers:
+    - hash:
+        - "979634648"
+      location: favicon

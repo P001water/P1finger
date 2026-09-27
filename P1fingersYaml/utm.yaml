@@ -1,0 +1,10 @@
+- id: dongfanghuadunutm
+  name: DongfanghuadunUTM
+  author: P1finger
+  tags:
+    - dongfanghuadunutm
+  description: DongfanghuadunUTM
+  matchers:
+    - location: body
+      words:
+        - content="huadun network security technology co.,ltd"

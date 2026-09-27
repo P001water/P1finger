@@ -1,0 +1,11 @@
+- id: mrdoc
+  name: MrDoc
+  author: P1finger
+  tags:
+    - mrdoc
+  description: MrDoc
+  matchers:
+    - location: body
+      words:
+        - MrDoc
+        - content="MrDoc

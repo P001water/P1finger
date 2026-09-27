@@ -1,0 +1,13 @@
+- id: plesk
+  name: Plesk
+  author: P1finger
+  tags:
+    - plesk
+  description: Plesk
+  matchers:
+    - hash:
+        - "-981606721"
+      location: favicon
+    - location: header
+      words:
+        - PleskLin

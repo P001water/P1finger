@@ -1,0 +1,21 @@
+- id: icinga
+  name: Icinga
+  author: Fofa
+  tags:
+    - icinga
+  description: Icinga
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Icinga
+    - location: header
+      words:
+        - Icinga
+    - hash:
+        - 466b3dcce4a3c13f44dd0dc824b1e328
+      location: favicon
+    - location: body
+      words:
+        - <title>icinga web 2 login</title>
+        - mask-icon" href="/icingaweb2/img/website-icon.svg" color=

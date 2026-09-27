@@ -1,0 +1,21 @@
+- id: david-webbox
+  name: David-webbox
+  author: P1finger
+  tags:
+    - david-webbox
+  description: David-webbox
+  matchers:
+    - location: header
+      words:
+        - David-WebBox
+- id: david-webbox-2
+  name: David-WebBox
+  author: Fofa
+  tags:
+    - david-webbox
+  description: David-WebBox
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - David-WebBox

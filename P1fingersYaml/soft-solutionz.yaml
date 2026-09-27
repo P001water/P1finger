@@ -1,0 +1,10 @@
+- id: soft-solutionz
+  name: Soft Solutionz
+  author: P1finger
+  tags:
+    - soft-solutionz
+  description: Soft Solutionz
+  matchers:
+    - location: body
+      words:
+        - SoftSolutionz

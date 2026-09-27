@@ -1,0 +1,14 @@
+- id: open-source-ticket-request
+  name: Open-source-ticket-request-system
+  author: P001
+  tags:
+    - open-source-ticket-request
+  description: Open-source-ticket-request-system
+  matchers:
+    - location: body
+      words:
+        - src="/otrs-web/images/
+    - location: header
+      words:
+        - 'X-Powered-By: OTRS'
+        - Open Ticket Request System

@@ -1,0 +1,18 @@
+- id: laravel-2
+  name: Laravel
+  author: P1finger
+  tags:
+    - laravel
+  description: Laravel
+  matchers:
+    - location: header
+      words:
+        - laravel_session
+    - condition: and
+      location: header
+      words:
+        - laravel_session
+    - location: header
+      words:
+        - laravel_session
+        - ci_session

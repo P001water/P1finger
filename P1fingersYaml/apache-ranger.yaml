@@ -1,0 +1,11 @@
+- id: apache-ranger
+  name: Apache-ranger
+  author: P001
+  tags:
+  - apache
+  - apache-ranger
+  description: Apache-ranger
+  matchers:
+  - location: body
+    words:
+    - <img src="images/ranger_logo.png" alt="ranger logo">

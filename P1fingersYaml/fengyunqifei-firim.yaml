@@ -1,0 +1,10 @@
+- id: fengyunqifei-firim
+  name: Fengyunqifei-firim
+  author: P001
+  tags:
+    - fengyunqifei-firim
+  description: Fengyunqifei-firim
+  matchers:
+    - location: body
+      words:
+        - href="android/com.apsp.xnmdm-signed.apk"

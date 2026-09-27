@@ -1,0 +1,12 @@
+- id: sql-server-reporting
+  name: Detect Microsoft SQL Server Reporting
+  author: nuclei
+  tags:
+  - microsoft
+  description: Detect Microsoft SQL Server Reporting
+  paths:
+  - /Reports/Pages/Folder.aspx
+  matchers:
+  - location: body
+    words:
+    - Report Manager

@@ -1,0 +1,13 @@
+- id: zte
+  name: ZTE
+  author: P1finger
+  tags:
+    - zte
+  description: ZTE
+  matchers:
+    - location: body
+      words:
+        - BAVO
+    - location: header
+      words:
+        - mod_ssl/2.0.63 OpenSSL/0.9.7m mod_jk2/2.0.4

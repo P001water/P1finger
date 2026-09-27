@@ -1,0 +1,10 @@
+- id: otcms
+  name: OTcms
+  author: P1finger
+  tags:
+    - otcms
+  description: OTcms
+  matchers:
+    - location: body
+      words:
+        - <!-- [OTCMS] -->

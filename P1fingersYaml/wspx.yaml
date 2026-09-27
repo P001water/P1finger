@@ -1,0 +1,18 @@
+- id: wspx
+  name: Wspx
+  author: Fofa
+  tags:
+    - wspx
+  description: Wspx
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'X-Copyright: wspx'
+    - condition: or
+      location: header
+      words:
+        - 'X-Powered-By: ANSI C'
+    - location: header
+      words:
+        - 'X-Powered-By: ANSI C'

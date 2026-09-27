@@ -1,0 +1,10 @@
+- id: quick
+  name: Quick Cms
+  author: P1finger
+  tags:
+    - quick
+  description: Quick Cms
+  matchers:
+    - location: body
+      words:
+        - powered by Quick.Cart

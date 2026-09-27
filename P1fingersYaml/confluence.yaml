@@ -1,0 +1,30 @@
+- id: confluence
+  name: Confluence
+  author: Fofa
+  tags:
+    - confluence
+  description: Confluence
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - x-confluence
+    - location: header
+      words:
+        - x-confluence
+    - location: body
+      words:
+        - build/framework/js/download.js
+- id: confluence-2
+  name: Confluence
+  author: P001
+  tags:
+    - confluence
+  description: Confluence
+  matchers:
+    - location: body
+      words:
+        - 'location: /login.action?os_destination='
+        - 'x-confluence-request-time: *'
+        - id="com-atlassian-confluence
+        - name="confluence-base-url"

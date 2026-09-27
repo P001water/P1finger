@@ -1,0 +1,13 @@
+- id: yibot
+  name: YiBot
+  author: P1finger
+  tags:
+    - yibot
+  description: YiBot
+  matchers:
+    - hash:
+        - "-702393003"
+      location: favicon
+    - location: body
+      words:
+        - YiBot

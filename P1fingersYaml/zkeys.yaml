@@ -1,0 +1,11 @@
+- id: zkeysgongyouyun
+  name: ZKEYSgongyouyun Business Management System
+  author: P1finger
+  tags:
+    - zkeysgongyouyun
+    - business-management-system
+  description: ZKEYSgongyouyun Business Management System
+  matchers:
+    - location: body
+      words:
+        - ZKEYS公有云业务管理系统

@@ -1,0 +1,12 @@
+- id: oracle-business-erp
+  name: Oracle E-Business ERP
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-business-erp
+  description: Oracle E-Business ERP
+  matchers:
+  - location: body
+    words:
+    - /OA_HTML/media/oracle_white_logo.png
+    - OA_HTML/AppsLogin

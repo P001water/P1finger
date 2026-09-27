@@ -1,0 +1,11 @@
+- id: lywsliansuodianpilingjianying
+  name: LYWSliansuodianpilingjianying Management System
+  author: P1finger
+  tags:
+    - lywsliansuodianpilingjianying
+    - management-system
+  description: LYWSliansuodianpilingjianying Management System
+  matchers:
+    - location: body
+      words:
+        - LYWS 连锁店批零兼营管理系统 进销存系统 餐饮管理系统

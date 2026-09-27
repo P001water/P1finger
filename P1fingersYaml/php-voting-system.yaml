@@ -1,0 +1,13 @@
+- id: php-voting
+  name: Php-voting-system
+  author: P001
+  tags:
+    - php-voting
+  description: Php-voting-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="http://www.888072.com
+        - content="qq 7000719
+        - content="http://www.vote123.cn

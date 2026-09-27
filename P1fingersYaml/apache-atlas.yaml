@@ -1,0 +1,12 @@
+- id: apache-atlas
+  name: Apache Atlas
+  author: P1finger
+  tags:
+  - apache
+  - apache-atlas
+  description: Apache Atlas
+  matchers:
+  - location: body
+    words:
+    - Atlas Login
+    - Sign In to your account

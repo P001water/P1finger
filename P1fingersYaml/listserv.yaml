@@ -1,0 +1,11 @@
+- id: listserv
+  name: Listserv
+  author: P001
+  tags:
+    - listserv
+  description: Listserv
+  matchers:
+    - location: body
+      words:
+        - <title>welcome to listserv
+        - powered by the listserv email list manager

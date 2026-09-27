@@ -1,0 +1,10 @@
+- id: moxapass
+  name: Moxapass
+  author: P1finger
+  tags:
+    - moxapass
+  description: Moxapass
+  matchers:
+    - hash:
+        - "381100274"
+      location: favicon

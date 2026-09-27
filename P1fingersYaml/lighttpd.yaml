@@ -1,0 +1,18 @@
+- id: lighttpd
+  name: Lighttpd
+  author: Fofa
+  tags:
+    - lighttpd
+  description: Lighttpd
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'server: lighttpd'
+    - location: header
+      words:
+        - 'server: lighttpd'
+    - location: body
+      words:
+        - 'server: lighttpd'
+        - <title>powered by lighttpd</title>

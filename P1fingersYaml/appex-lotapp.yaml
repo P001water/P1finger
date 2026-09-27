@@ -1,0 +1,11 @@
+- id: appex-lotapp
+  name: Appex-lotapp
+  author: P001
+  tags:
+    - appex-lotapp
+  description: Appex-lotapp
+  matchers:
+    - location: body
+      words:
+        - /change_lan.php?lanid=en
+        - appex network corporation

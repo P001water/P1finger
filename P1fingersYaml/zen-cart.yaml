@@ -1,0 +1,28 @@
+- id: zen-cart
+  name: Zen Cart
+  author: Fofa
+  tags:
+    - zen-cart
+  description: Zen Cart
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - shopping cart program by Zen Cart
+    - condition: or
+      location: header
+      words:
+        - 'Set-Cookie: zenid='
+- id: zen-cart-2
+  name: Zen Cart
+  author: P1finger
+  tags:
+    - zen-cart
+  description: Zen Cart
+  matchers:
+    - location: body
+      words:
+        - shopping cart program by Zen Cart
+    - location: header
+      words:
+        - 'Set-Cookie: zenid='

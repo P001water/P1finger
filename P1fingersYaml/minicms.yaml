@@ -1,0 +1,10 @@
+- id: minicms
+  name: Minicms
+  author: P1finger
+  tags:
+    - minicms
+  description: Minicms
+  matchers:
+    - location: body
+      words:
+        - MiniCMS</a>

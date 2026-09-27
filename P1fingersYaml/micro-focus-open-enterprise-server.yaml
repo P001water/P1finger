@@ -1,0 +1,10 @@
+- id: micro-focus-open
+  name: Micro-focus-open-enterprise-server
+  author: P001
+  tags:
+    - micro-focus-open
+  description: Micro-focus-open-enterprise-server
+  matchers:
+    - location: body
+      words:
+        - <h3>micro focus open enterprise server 提供市场中的最佳网络、文件和打印服务。</h3>

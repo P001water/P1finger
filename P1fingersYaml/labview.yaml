@@ -1,0 +1,10 @@
+- id: labview
+  name: Labview
+  author: P001
+  tags:
+    - labview
+  description: Labview
+  matchers:
+    - location: body
+      words:
+        - 'server: labview'

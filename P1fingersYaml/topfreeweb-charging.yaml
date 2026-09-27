@@ -1,0 +1,11 @@
+- id: topfreeweb-charging
+  name: Topfreeweb-charging
+  author: P001
+  tags:
+    - topfreeweb-charging
+  description: Topfreeweb-charging
+  matchers:
+    - location: body
+      words:
+        - background="images/logbg.jpg"
+        - value="经理">经理</option>

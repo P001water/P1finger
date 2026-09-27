@@ -1,0 +1,22 @@
+- id: daohuabug-management-system
+  name: DaohuaBUG Management System
+  author: P1finger
+  tags:
+    - daohuabug
+    - management-system
+  description: DaohuaBUG Management System
+  matchers:
+    - location: body
+      words:
+        - 道华BUG管理系统
+- id: xinshichuangbug
+  name: XinshichuangBUG Management System
+  author: P1finger
+  tags:
+    - xinshichuangbug
+    - management-system
+  description: XinshichuangBUG Management System
+  matchers:
+    - location: body
+      words:
+        - content="新视窗-BUG管理系统"

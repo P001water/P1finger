@@ -1,0 +1,11 @@
+- id: etcd-viewer
+  name: Etcd-viewer
+  author: P001
+  tags:
+  - etcd
+  - etcd-viewer
+  description: Etcd-viewer
+  matchers:
+  - location: body
+    words:
+    - <a class="navbar-brand" href="./home">etcd viewer</a>

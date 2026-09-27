@@ -1,0 +1,11 @@
+- id: ukcms
+  name: UKcms CMS
+  author: P1finger
+  tags:
+    - ukcms
+    - cms
+  description: UKcms CMS
+  matchers:
+    - location: body
+      words:
+        - UKcms网站管理系统

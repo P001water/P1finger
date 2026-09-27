@@ -1,0 +1,11 @@
+- id: mccmsmofangdongli
+  name: McCMSmofangdongli CMS
+  author: P1finger
+  tags:
+    - mccmsmofangdongli
+    - cms
+  description: McCMSmofangdongli CMS
+  matchers:
+    - location: body
+      words:
+        - McCMS - 魔方动力内容管理系统

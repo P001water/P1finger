@@ -1,0 +1,10 @@
+- id: goaccess-log
+  name: Goaccess-log
+  author: P001
+  tags:
+    - goaccess-log
+  description: Goaccess-log
+  matchers:
+    - location: body
+      words:
+        - by <a href="https://goaccess.io/">goaccess</a>

@@ -1,0 +1,10 @@
+- id: blockchainproxy
+  name: BlockChainProxy
+  author: P1finger
+  tags:
+    - blockchainproxy
+  description: BlockChainProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: BlockChainProxy'

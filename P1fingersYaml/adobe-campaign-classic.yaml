@@ -1,0 +1,11 @@
+- id: adobe-campaign-classic
+  name: Adobe Campaign Classic
+  author: P1finger
+  tags:
+  - adobe
+  - adobe-campaign-classic
+  description: Adobe Campaign Classic
+  matchers:
+  - hash:
+    - '-333791179'
+    location: favicon

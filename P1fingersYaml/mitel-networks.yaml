@@ -1,0 +1,10 @@
+- id: mitel-networks
+  name: Mitel Networks
+  author: P1finger
+  tags:
+    - mitel-networks
+  description: Mitel Networks
+  matchers:
+    - hash:
+        - "-1922044295"
+      location: favicon

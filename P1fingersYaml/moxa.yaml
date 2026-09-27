@@ -1,0 +1,21 @@
+- id: moxanportchuankoufuwuqi
+  name: Moxanportchuankoufuwuqi
+  author: P1finger
+  tags:
+    - moxanportchuankoufuwuqi
+  description: Moxanportchuankoufuwuqi
+  matchers:
+    - location: header
+      words:
+        - MoxaHttp
+- id: moxanportchuankoufuwuqi-2
+  name: MoxaNportchuankoufuwuqi
+  author: Fofa
+  tags:
+    - moxanportchuankoufuwuqi
+  description: MoxaNportchuankoufuwuqi
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MoxaHttp

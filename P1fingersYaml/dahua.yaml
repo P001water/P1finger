@@ -1,0 +1,89 @@
+- id: dahua
+  name: Dahua
+  author: P1finger
+  tags:
+  - dahua
+  description: Dahua
+  matchers:
+  - hash:
+    - '-1466785234'
+    location: favicon
+- id: dahua-storm
+  name: Dahua Storm
+  author: P1finger
+  tags:
+  - dahua
+  - dahua-storm
+  description: Dahua Storm
+  matchers:
+  - hash:
+    - '2019488876'
+    location: favicon
+- id: dahua-2
+  name: Dahua
+  author: P1finger
+  tags:
+  - dahua
+  description: Dahua
+  matchers:
+  - location: body
+    words:
+    - /portal/login_init.action
+- id: dahua-camera
+  name: Dahua Camera
+  author: P1finger
+  tags:
+  - dahua
+  - camera
+  description: Dahua Camera
+  matchers:
+  - location: body
+    words:
+    - <div class="J_vedio_control" id="prew_video_control">
+- id: dahua-video-surveillance
+  name: Dahua Video Surveillance
+  author: P1finger
+  tags:
+  - dahua
+  - video-surveillance
+  description: Dahua Video Surveillance
+  matchers:
+  - location: header
+    words:
+    - ZheJiang Dahua Technology
+- id: dahua-wpms
+  name: Dahua-wpms
+  author: P001
+  tags:
+  - dahua
+  - dahua-wpms
+  description: Dahua-wpms
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <li id="dss-help">
+    - <span>dss助手</span>
+- id: dahua-management-platform
+  name: Dahua Management Platform
+  author: P1finger
+  tags:
+  - dahua
+  - management-platform
+  description: Dahua Management Platform
+  matchers:
+  - hash:
+    - '-1935899595'
+    location: favicon
+- id: dahua-management-platform-2
+  name: Dahua Management Platform
+  author: P1finger
+  tags:
+  - dahua
+  - management-platform
+  description: Dahua Management Platform
+  matchers:
+  - location: body
+    words:
+    - location.hash.indexOf('/authLogin')
+    - <a href="www/mobile-version.txt"

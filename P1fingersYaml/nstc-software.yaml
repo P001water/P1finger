@@ -1,0 +1,10 @@
+- id: nstc
+  name: Nstc-software
+  author: P001
+  tags:
+    - nstc
+  description: Nstc-software
+  matchers:
+    - location: body
+      words:
+        - skysz.fw.index.validatecodenew = "/loginaction/validatecodenew.html

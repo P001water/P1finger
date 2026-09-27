@@ -1,0 +1,11 @@
+- id: pcitc-remotesystem
+  name: Pcitc-remotesystem
+  author: P001
+  tags:
+    - pcitc-remotesystem
+  description: Pcitc-remotesystem
+  matchers:
+    - location: body
+      words:
+        - class="f-loading-mask ui-widget ui-widget-content"
+        - src="validatecode.aspx"

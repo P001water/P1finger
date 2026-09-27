@@ -1,0 +1,10 @@
+- id: aesecurewaf
+  name: AeSecureWAF
+  author: P1finger
+  tags:
+    - aesecurewaf
+  description: AeSecureWAF
+  matchers:
+    - location: body
+      words:
+        - aesecure_denied

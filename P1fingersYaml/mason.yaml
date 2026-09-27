@@ -1,0 +1,10 @@
+- id: mason
+  name: Mason
+  author: P001
+  tags:
+    - mason
+  description: Mason
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: html::mason'

@@ -1,0 +1,13 @@
+- id: muhttpd
+  name: Muhttpd
+  author: P001
+  tags:
+    - muhttpd
+  description: Muhttpd
+  matchers:
+    - hash:
+        - e50cc7cc4f8d7f2346d901c35dee3a5f
+      location: favicon
+    - location: body
+      words:
+        - 2017 arris enterprises, llc. all rights reserved.

@@ -1,0 +1,10 @@
+- id: adguard
+  name: AdGuard
+  author: P1finger
+  tags:
+    - adguard
+  description: AdGuard
+  matchers:
+    - location: body
+      words:
+        - AdGuardTeam

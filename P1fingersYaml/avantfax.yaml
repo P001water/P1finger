@@ -1,0 +1,36 @@
+- id: avantfax
+  name: AvantFAX
+  author: Fofa
+  tags:
+    - avantfax
+  description: AvantFAX
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Web 2.0 HylaFAX
+    - condition: or
+      location: body
+      words:
+        - images/avantfax-big.png
+    - location: body
+      words:
+        - content="Web 2.0 HylaFAX
+        - images/avantfax-big.png
+    - location: body
+      words:
+        - src="images/avantfax-big.png" border="0" alt="avantfax
+- id: avantfaxchuanzhenguanli
+  name: AvantFAXchuanzhenguanli
+  author: Fofa
+  tags:
+    - avantfaxchuanzhenguanli
+  description: AvantFAXchuanzhenguanli
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Web 2.0 HylaFAX management
+    - location: body
+      words:
+        - content="Web 2.0 HylaFAX management

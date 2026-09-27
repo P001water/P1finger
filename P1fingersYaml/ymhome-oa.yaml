@@ -1,0 +1,14 @@
+- id: ymhome
+  name: Ymhome-oa
+  author: P001
+  tags:
+    - ymhome
+  description: Ymhome-oa
+  matchers:
+    - location: body
+      words:
+        - /yimioa.apk
+    - location: body
+      words:
+        - /yimioa.apk
+        - 一米oa

@@ -1,0 +1,10 @@
+- id: eastnet
+  name: Eastnet Mail
+  author: P1finger
+  tags:
+    - eastnet
+  description: Eastnet Mail
+  matchers:
+    - location: body
+      words:
+        - East.Net Webmail

@@ -1,0 +1,10 @@
+- id: openengine
+  name: OpenEngine
+  author: P1finger
+  tags:
+    - openengine
+  description: OpenEngine
+  matchers:
+    - location: body
+      words:
+        - openEngine Comment START

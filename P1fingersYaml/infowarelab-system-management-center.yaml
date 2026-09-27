@@ -1,0 +1,12 @@
+- id: infowarelab
+  name: Infowarelab-system-management-center
+  author: P001
+  tags:
+    - infowarelab
+  description: Infowarelab-system-management-center
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <div class="main_supporterbar">
+        - class="main_loginbar

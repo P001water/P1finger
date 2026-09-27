@@ -1,0 +1,21 @@
+- id: sun-tm
+  name: Sun[tm]
+  author: Fofa
+  tags:
+    - sun-tm
+  description: Sun[tm]
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Sun[tm] ONE Web Server
+    - condition: or
+      location: header
+      words:
+        - 'Server: Sun-ONE-Web-Server'
+    - location: body
+      words:
+        - Sun[tm] ONE Web Server
+    - location: header
+      words:
+        - 'Server: Sun-ONE-Web-Server'

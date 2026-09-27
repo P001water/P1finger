@@ -1,0 +1,32 @@
+- id: dr-anti-virus
+  name: Dr-web-anti-virus
+  author: P1finger
+  tags:
+    - dr-anti-virus
+  description: Dr-web-anti-virus
+  matchers:
+    - location: body
+      words:
+        - /avdesk/includes/system/templates/images/logo_en.png
+    - location: header
+      words:
+        - DRWEB_PERSONAL_OFFICE=
+- id: dr-anti-virus-2
+  name: Dr-Web-Anti-Virus
+  author: Fofa
+  tags:
+    - dr-anti-virus
+  description: Dr-Web-Anti-Virus
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - DRWEB_PERSONAL_OFFICE=
+    - condition: or
+      location: body
+      words:
+        - /avdesk/includes/system/templates/images/logo_en.png
+    - location: body
+      words:
+        - 'server: drwebserver'
+        - /avdesk/includes/system/templates/images/logo_en.png

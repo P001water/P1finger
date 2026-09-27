@@ -1,0 +1,21 @@
+- id: geobytes-geoselect
+  name: Geobytes-geoselect
+  author: P1finger
+  tags:
+    - geobytes-geoselect
+  description: Geobytes-geoselect
+  matchers:
+    - location: header
+      words:
+        - Geobytes-GeoSelect
+- id: geobytes-geoselect-2
+  name: Geobytes-GeoSelect
+  author: Fofa
+  tags:
+    - geobytes-geoselect
+  description: Geobytes-GeoSelect
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Geobytes-GeoSelect

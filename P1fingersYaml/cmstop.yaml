@@ -1,0 +1,31 @@
+- id: cmstop-2
+  name: Cmstop
+  author: P1finger
+  tags:
+    - cmstop
+  description: Cmstop
+  matchers:
+    - location: body
+      words:
+        - /js/cmstop-common.js
+        - www.cmstop.com
+    - condition: or
+      location: body
+      words:
+        - /css/cmstop-common.css
+    - condition: or
+      location: body
+      words:
+        - /js/cmstop-common.js
+    - condition: or
+      location: body
+      words:
+        - cmstop-list-text.css
+    - condition: or
+      location: body
+      words:
+        - <a class="poweredby" href="http://www.cmstop.com
+    - location: body
+      words:
+        - content="CmsTop
+        - cmstop-common.js"></script>

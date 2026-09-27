@@ -1,0 +1,10 @@
+- id: wd-mybook
+  name: WD-MyBook
+  author: P1finger
+  tags:
+    - wd-mybook
+  description: WD-MyBook
+  matchers:
+    - location: header
+      words:
+        - <title>My Book World Edition - MyBookWorld</title>

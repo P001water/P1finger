@@ -1,0 +1,13 @@
+- id: neo4j-browser
+  name: Neo4j-browser
+  author: P001
+  tags:
+    - neo4j-browser
+  description: Neo4j-browser
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - neo4j://
+        - neo4j_edition
+        - neo4j_version

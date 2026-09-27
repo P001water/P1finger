@@ -1,0 +1,12 @@
+- id: richinfo-richmail
+  name: Richinfo-richmail
+  author: P001
+  tags:
+    - richinfo-richmail
+  description: Richinfo-richmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="richmail
+        - richmail

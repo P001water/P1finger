@@ -1,0 +1,11 @@
+- id: huawei-3250
+  name: Huawei
+  author: Fofa
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - HUAWEI SRG3250

@@ -1,0 +1,14 @@
+- id: uyan
+  name: Uyan
+  author: Fofa
+  tags:
+    - uyan
+  description: Uyan
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - uyan.cc/code/uyan.js
+    - location: body
+      words:
+        - uyan.cc/code/uyan.js

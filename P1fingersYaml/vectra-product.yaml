@@ -1,0 +1,10 @@
+- id: vectra
+  name: Vectra-product
+  author: P001
+  tags:
+    - vectra
+  description: Vectra-product
+  matchers:
+    - location: body
+      words:
+        - vectra.base.css

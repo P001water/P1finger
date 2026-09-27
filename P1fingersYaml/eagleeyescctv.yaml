@@ -1,0 +1,19 @@
+- id: eagleeyescctv
+  name: Eagleeyescctv
+  author: Fofa
+  tags:
+    - eagleeyescctv
+  description: Eagleeyescctv
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - IP Surveillance for Your Life
+    - condition: or
+      location: body
+      words:
+        - /nobody/loginDevice.js
+    - location: body
+      words:
+        - IP Surveillance for Your Life
+        - /nobody/loginDevice.js

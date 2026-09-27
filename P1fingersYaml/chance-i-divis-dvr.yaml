@@ -1,0 +1,21 @@
+- id: chance-divis-dvr
+  name: Chance-i-divis-dvr
+  author: P1finger
+  tags:
+    - chance-divis-dvr
+  description: Chance-i-divis-dvr
+  matchers:
+    - location: header
+      words:
+        - Techno Vision Security System Ver
+- id: chance-divis-dvr-2
+  name: CHANCE-i-DiViS-DVR
+  author: Fofa
+  tags:
+    - chance-divis-dvr
+  description: CHANCE-i-DiViS-DVR
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Techno Vision Security System Ver

@@ -1,0 +1,10 @@
+- id: ami-megarac-sp
+  name: Ami-megarac-sp
+  author: P001
+  tags:
+    - ami-megarac-sp
+  description: Ami-megarac-sp
+  matchers:
+    - location: body
+      words:
+        - <modelname>ami megarac sp</modelname>

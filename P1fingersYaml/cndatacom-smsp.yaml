@@ -1,0 +1,10 @@
+- id: cndatacom-smsp
+  name: Cndatacom-smsp
+  author: P001
+  tags:
+    - cndatacom-smsp
+  description: Cndatacom-smsp
+  matchers:
+    - location: body
+      words:
+        - /smrc/resources/default/

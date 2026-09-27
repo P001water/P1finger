@@ -1,0 +1,10 @@
+- id: appnode
+  name: Appnode
+  author: P1finger
+  tags:
+    - appnode
+  description: Appnode
+  matchers:
+    - location: header
+      words:
+        - 'Server: appnode/ccenter'

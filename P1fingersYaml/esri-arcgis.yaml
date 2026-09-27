@@ -1,0 +1,10 @@
+- id: esri-arcgis
+  name: Esri-arcgis
+  author: P001
+  tags:
+    - esri-arcgis
+  description: Esri-arcgis
+  matchers:
+    - location: body
+      words:
+        - esri/discovery/admin.js

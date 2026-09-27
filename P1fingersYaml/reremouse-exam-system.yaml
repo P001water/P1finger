@@ -1,0 +1,12 @@
+- id: reremouse-exam
+  name: Reremouse-exam-system
+  author: P001
+  tags:
+    - reremouse-exam
+  description: Reremouse-exam-system
+  matchers:
+    - location: body
+      words:
+        - src="/resources/js/upscroll.js"
+        - 博库医学在线考试系统，技术支持：杭州博库科技有限公司
+        - 蝙蝠在线考试系统

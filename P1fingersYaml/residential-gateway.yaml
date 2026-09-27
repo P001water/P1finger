@@ -1,0 +1,10 @@
+- id: residential
+  name: Residential Gateway
+  author: P1finger
+  tags:
+    - residential
+  description: Residential Gateway
+  matchers:
+    - hash:
+        - "-1933493443"
+      location: favicon

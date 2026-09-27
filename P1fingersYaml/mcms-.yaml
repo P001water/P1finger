@@ -1,0 +1,10 @@
+- id: mcmsmingfei
+  name: MCMSmingfei
+  author: P1finger
+  tags:
+    - mcmsmingfei
+  description: MCMSmingfei
+  matchers:
+    - location: body
+      words:
+        - ms.http.js

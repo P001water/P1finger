@@ -1,0 +1,11 @@
+- id: windows-64bit
+  name: Windows 64bit
+  author: Fofa
+  tags:
+    - windows-64bit
+  description: Windows 64bit
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - win64

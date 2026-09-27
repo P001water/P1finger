@@ -1,0 +1,25 @@
+- id: afterlogic-webmail
+  name: Afterlogic-webmail
+  author: P001
+  tags:
+    - afterlogic-webmail
+  description: Afterlogic-webmail
+  matchers:
+    - location: body
+      words:
+        - afterlogic webmail pro
+- id: afterlogic-webmail-2
+  name: AfterLogic-WebMail
+  author: Fofa
+  tags:
+    - afterlogic-webmail
+  description: AfterLogic-WebMail
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - AfterLogic WebMail Pro
+    - condition: or
+      location: header
+      words:
+        - PHPWEBMAILSESSID

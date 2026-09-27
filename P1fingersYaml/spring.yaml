@@ -1,0 +1,10 @@
+- id: spring-2
+  name: Spring
+  author: P1finger
+  tags:
+    - spring
+  description: Spring
+  matchers:
+    - location: header
+      words:
+        - springframework

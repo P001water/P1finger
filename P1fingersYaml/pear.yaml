@@ -1,0 +1,11 @@
+- id: pear
+  name: Pear
+  author: P001
+  tags:
+    - pear
+  description: Pear
+  matchers:
+    - location: body
+      words:
+        - content="webbased pear package manager
+        - installed packages, channel pear

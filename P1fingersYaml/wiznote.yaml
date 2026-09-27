@@ -1,0 +1,13 @@
+- id: wozhikejiwiznote
+  name: WozhikejiWizNote
+  author: P1finger
+  tags:
+    - wozhikejiwiznote
+  description: WozhikejiWizNote
+  matchers:
+    - hash:
+        - "1417349080"
+      location: favicon
+    - location: body
+      words:
+        - WizNote

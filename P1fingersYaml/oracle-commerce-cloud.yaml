@@ -1,0 +1,11 @@
+- id: oracle-commerce
+  name: Oracle-commerce-cloud
+  author: P001
+  tags:
+  - oracle
+  - oracle-commerce
+  description: Oracle-commerce-cloud
+  matchers:
+  - location: body
+    words:
+    - id="oracle-cc

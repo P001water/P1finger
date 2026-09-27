@@ -1,0 +1,30 @@
+- id: weiphp
+  name: Weiphp
+  author: P1finger
+  tags:
+    - weiphp
+  description: Weiphp
+  matchers:
+    - location: header
+      words:
+        - weiphp
+    - location: body
+      words:
+        - content="WeiPHP
+        - /css/weiphp.css
+    - condition: or
+      location: body
+      words:
+        - content="WeiPHP
+    - condition: or
+      location: body
+      words:
+        - /css/weiphp.css
+    - hash:
+        - "37052027"
+      location: favicon
+    - location: body
+      words:
+        - /css/weiphp.css
+        - content="weiphp
+        - 本系统由<a href="http://www.weiphp.cn" target="_blank">weiphp</a>强力驱动

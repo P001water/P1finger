@@ -1,0 +1,10 @@
+- id: sqlwebadmin
+  name: SqlWebAdmin
+  author: P1finger
+  tags:
+    - sqlwebadmin
+  description: SqlWebAdmin
+  matchers:
+    - location: body
+      words:
+        - Web Data Administrator

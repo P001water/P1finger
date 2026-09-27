@@ -1,0 +1,32 @@
+- id: thinksns
+  name: ThinkSNS
+  author: Fofa
+  tags:
+    - thinksns
+  description: ThinkSNS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - _static/image/favicon.ico
+    - condition: or
+      location: header
+      words:
+        - T3_lang
+    - location: body
+      words:
+        - _static/image/favicon.ico
+    - location: header
+      words:
+        - TSV3_lang
+    - location: body
+      words:
+        - _static/image/favicon.ico
+        - powered by <a href="http://www.thinksns.com">
+    - location: body
+      words:
+        - ThinkSNS
+        - /theme/stv1/_static
+    - location: body
+      words:
+        - www.thinksns.com

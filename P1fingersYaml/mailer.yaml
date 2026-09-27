@@ -1,0 +1,10 @@
+- id: mailer
+  name: Mailer
+  author: P001
+  tags:
+    - mailer
+  description: Mailer
+  matchers:
+    - location: body
+      words:
+        - /jdwm/cgi/login.cgi?login

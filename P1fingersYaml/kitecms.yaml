@@ -1,0 +1,10 @@
+- id: kitecms
+  name: Kitecms
+  author: P1finger
+  tags:
+    - kitecms
+  description: Kitecms
+  matchers:
+    - location: body
+      words:
+        - kitecms

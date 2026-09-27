@@ -1,0 +1,10 @@
+- id: java
+  name: Java
+  author: P1finger
+  tags:
+    - java
+  description: Java
+  matchers:
+    - location: header
+      words:
+        - JSESSIONID

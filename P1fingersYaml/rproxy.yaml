@@ -1,0 +1,10 @@
+- id: rproxy
+  name: RProxy
+  author: P1finger
+  tags:
+    - rproxy
+  description: RProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Gnway RProxy Server'

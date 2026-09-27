@@ -1,0 +1,10 @@
+- id: rsupportremotecallchanpin
+  name: RsupportRemoteCallchanpin
+  author: P1finger
+  tags:
+    - rsupportremotecallchanpin
+  description: RsupportRemoteCallchanpin
+  matchers:
+    - location: header
+      words:
+        - 'Server: Remotecall Server'

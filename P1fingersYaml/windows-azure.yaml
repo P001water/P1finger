@@ -1,0 +1,10 @@
+- id: windows-azure
+  name: Windows Azure
+  author: P1finger
+  tags:
+    - windows-azure
+  description: Windows Azure
+  matchers:
+    - hash:
+        - "-2125083197"
+      location: favicon

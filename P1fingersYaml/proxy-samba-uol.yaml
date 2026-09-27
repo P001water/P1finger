@@ -1,0 +1,10 @@
+- id: proxy-samba-uol
+  name: Proxy-Samba-UOL
+  author: P1finger
+  tags:
+    - proxy-samba-uol
+  description: Proxy-Samba-UOL
+  matchers:
+    - location: header
+      words:
+        - 'Server: Proxy-Samba UOL'

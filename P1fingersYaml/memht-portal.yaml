@@ -1,0 +1,10 @@
+- id: memht
+  name: MemHT Portal
+  author: P1finger
+  tags:
+    - memht
+  description: MemHT Portal
+  matchers:
+    - location: body
+      words:
+        - content='MemHT Portal

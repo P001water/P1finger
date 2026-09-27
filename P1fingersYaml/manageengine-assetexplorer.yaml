@@ -1,0 +1,10 @@
+- id: manageengine-assetexplorer
+  name: Manageengine-assetexplorer
+  author: P001
+  tags:
+    - manageengine-assetexplorer
+  description: Manageengine-assetexplorer
+  matchers:
+    - location: body
+      words:
+        - class="footerf2">manageengine assetexplorer

@@ -1,0 +1,19 @@
+- id: eadmin
+  name: Eadmin
+  author: Fofa
+  tags:
+    - eadmin
+  description: Eadmin
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="eAdmin
+    - condition: or
+      location: title
+      words:
+        - ="eadmin
+    - location: body
+      words:
+        - content="eAdmin
+        - eadmin

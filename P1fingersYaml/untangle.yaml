@@ -1,0 +1,10 @@
+- id: untangle
+  name: Untangle
+  author: P1finger
+  tags:
+    - untangle
+  description: Untangle
+  matchers:
+    - hash:
+        - "1103599349"
+      location: favicon

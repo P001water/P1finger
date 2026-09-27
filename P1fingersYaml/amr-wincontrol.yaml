@@ -1,0 +1,21 @@
+- id: amr-wincontrol
+  name: Amr-wincontrol
+  author: P1finger
+  tags:
+    - amr-wincontrol
+  description: Amr-wincontrol
+  matchers:
+    - location: header
+      words:
+        - AMR_WinControl
+- id: amr-wincontrol-2
+  name: AMR-WinControl
+  author: Fofa
+  tags:
+    - amr-wincontrol
+  description: AMR-WinControl
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - AMR_WinControl

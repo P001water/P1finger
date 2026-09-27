@@ -1,0 +1,14 @@
+- id: yuanian-accounting
+  name: Yuanian-accounting-software
+  author: P001
+  tags:
+    - yuanian-accounting
+  description: Yuanian-accounting-software
+  matchers:
+    - location: body
+      words:
+        - /image/logo/yuannian.gif
+        - yuannian.css
+    - location: body
+      words:
+        - /image/logo/yuannian.gif

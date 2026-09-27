@@ -1,0 +1,11 @@
+- id: fanzhies-platform
+  name: FanzhiES Platform
+  author: P1finger
+  tags:
+    - fanzhies
+    - platform
+  description: FanzhiES Platform
+  matchers:
+    - location: body
+      words:
+        - 梵志ES平台

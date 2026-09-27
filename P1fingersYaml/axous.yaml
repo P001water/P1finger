@@ -1,0 +1,22 @@
+- id: axous
+  name: Axous
+  author: Fofa
+  tags:
+    - axous
+  description: Axous
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Axous
+    - condition: or
+      location: body
+      words:
+        - title="Axous Shareware Shop
+    - location: body
+      words:
+        - content="Axous
+        - title="Axous Shareware Shop
+    - location: body
+      words:
+        - <meta name="generator" content="Axous

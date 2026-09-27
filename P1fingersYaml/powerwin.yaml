@@ -1,0 +1,11 @@
+- id: powerwincrm-management-system
+  name: PowerwinCRM Management System
+  author: P1finger
+  tags:
+    - powerwincrm
+    - management-system
+  description: PowerwinCRM Management System
+  matchers:
+    - location: body
+      words:
+        - Powerwin CRM管理系统

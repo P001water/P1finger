@@ -1,0 +1,10 @@
+- id: rumpus
+  name: Rumpus
+  author: P1finger
+  tags:
+    - rumpus
+  description: Rumpus
+  matchers:
+    - hash:
+        - "-1528414776"
+      location: favicon

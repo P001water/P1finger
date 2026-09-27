@@ -1,0 +1,29 @@
+- id: gitweb
+  name: Gitweb
+  author: Fofa
+  tags:
+    - gitweb
+  description: Gitweb
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="gitweb
+    - condition: or
+      location: body
+      words:
+        - /gitweb.css
+    - condition: or
+      location: body
+      words:
+        - /gitweb.js
+    - location: body
+      words:
+        - content="gitweb
+        - /gitweb.css
+        - /gitweb.js
+    - location: body
+      words:
+        - /gitweb.css
+        - /gitweb.js
+        - content="gitweb

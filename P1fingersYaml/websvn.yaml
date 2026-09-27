@@ -1,0 +1,15 @@
+- id: websvn
+  name: Websvn
+  author: P001
+  tags:
+    - websvn
+  description: Websvn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - websvn
+        - subversion
+    - location: body
+      words:
+        - WebSVN

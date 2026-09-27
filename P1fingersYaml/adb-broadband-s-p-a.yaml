@@ -1,0 +1,10 @@
+- id: adb-broadband
+  name: Adb Broadband S.p.a.
+  author: P1finger
+  tags:
+    - adb-broadband
+  description: Adb Broadband S.p.a.
+  matchers:
+    - hash:
+        - "-587741716"
+      location: favicon

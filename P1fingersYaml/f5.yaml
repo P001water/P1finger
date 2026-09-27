@@ -1,0 +1,20 @@
+- id: f5chanpin
+  name: F5chanpin
+  author: P1finger
+  tags:
+    - f5chanpin
+  description: F5chanpin
+  matchers:
+    - hash:
+        - "-335242539"
+      location: favicon
+    - location: body
+      words:
+        - F5 Authentication Required
+        - content="F5 Networks, Inc."
+        - F5 Networks, Inc.
+        - logo_f5.png
+        - alt="F5 Networks Logo"
+    - location: header
+      words:
+        - LastMRH_Session

@@ -1,0 +1,10 @@
+- id: yilinmofangylicms
+  name: YilinmofangYLICMS
+  author: P1finger
+  tags:
+    - yilinmofangylicms
+  description: YilinmofangYLICMS
+  matchers:
+    - location: body
+      words:
+        - <title>艺麟魔方 - 专注网站建设服务(YLICMS)</title>

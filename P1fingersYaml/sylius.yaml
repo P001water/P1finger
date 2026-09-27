@@ -1,0 +1,10 @@
+- id: sylius
+  name: Sylius
+  author: P1finger
+  tags:
+    - sylius
+  description: Sylius
+  matchers:
+    - location: body
+      words:
+        - class="header sylius-product-name"

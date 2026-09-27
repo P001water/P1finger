@@ -1,0 +1,11 @@
+- id: nstrong-itmaster
+  name: Nstrong-itmaster
+  author: P001
+  tags:
+    - nstrong-itmaster
+  description: Nstrong-itmaster
+  matchers:
+    - location: body
+      words:
+        - netstrong
+        - var base_path = '/stormweb';

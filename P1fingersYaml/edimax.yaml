@@ -1,0 +1,19 @@
+- id: edimax
+  name: EDIMAX
+  author: Fofa
+  tags:
+    - edimax
+  description: EDIMAX
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - EDIMAX Technology
+    - condition: or
+      location: body
+      words:
+        - content="Edimax
+    - location: body
+      words:
+        - EDIMAX Technology
+        - content="Edimax

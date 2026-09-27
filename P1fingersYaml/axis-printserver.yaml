@@ -1,0 +1,28 @@
+- id: axis-printserver
+  name: Axis-printserver
+  author: P1finger
+  tags:
+  - axis
+  - axis-printserver
+  description: Axis-printserver
+  matchers:
+  - location: body
+    words:
+    - psb_printjobs.gif
+    - /cgi-bin/prodhelp?prod=
+- id: axis-printserver-2
+  name: Axis-PrintServer
+  author: Fofa
+  tags:
+  - axis
+  - axis-printserver
+  description: Axis-PrintServer
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - psb_printjobs.gif
+  - condition: or
+    location: body
+    words:
+    - /cgi-bin/prodhelp?prod=

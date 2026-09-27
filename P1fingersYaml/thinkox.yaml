@@ -1,0 +1,22 @@
+- id: thinkox
+  name: ThinkOX
+  author: Fofa
+  tags:
+    - thinkox
+  description: ThinkOX
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered By ThinkOX
+    - condition: or
+      location: title
+      words:
+        - ThinkOX
+    - location: body
+      words:
+        - Powered By ThinkOX
+        - ThinkOX
+    - location: body
+      words:
+        - powered by thinkox

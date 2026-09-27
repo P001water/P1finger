@@ -1,0 +1,21 @@
+- id: zblog
+  name: Zblog
+  author: P1finger
+  tags:
+    - zblog
+  description: Zblog
+  matchers:
+    - location: header
+      words:
+        - zb_user
+    - location: body
+      words:
+        - Z-Blog
+    - condition: or
+      location: body
+      words:
+        - generator" content="Z-Blog
+    - condition: or
+      location: header
+      words:
+        - 'Product: Z-Blog'

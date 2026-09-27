@@ -1,0 +1,25 @@
+- id: apache-flink
+  name: Apache-flink
+  author: P001
+  tags:
+  - flink
+  - apache
+  - apache-flink
+  description: Apache-flink
+  matchers:
+  - location: body
+    words:
+    - <img alt="apache flink dashboard" src="images/flink-logo.png
+    - <title>apache flink web dashboard</title>
+- id: apache-flink-2
+  name: Apache Flink
+  author: P1finger
+  tags:
+  - flink
+  - apache
+  - apache-flink
+  description: Apache Flink
+  matchers:
+  - location: body
+    words:
+    - Apache Flink

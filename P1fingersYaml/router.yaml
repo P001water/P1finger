@@ -1,0 +1,10 @@
+- id: fengwangrouter
+  name: FengwangRouter
+  author: P1finger
+  tags:
+    - fengwangrouter
+  description: FengwangRouter
+  matchers:
+    - location: body
+      words:
+        - 企业级流控云路由器

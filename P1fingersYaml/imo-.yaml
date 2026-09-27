@@ -1,0 +1,10 @@
+- id: imoyunbangongshi
+  name: Imoyunbangongshi
+  author: P001
+  tags:
+    - imoyunbangongshi
+  description: Imoyunbangongshi
+  matchers:
+    - location: body
+      words:
+        - download/imo_setup.exe

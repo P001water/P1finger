@@ -1,0 +1,10 @@
+- id: cloudroom-meeting
+  name: Cloudroom-meeting
+  author: P001
+  tags:
+    - cloudroom-meeting
+  description: Cloudroom-meeting
+  matchers:
+    - location: body
+      words:
+        - src="/companyimage/agents/sdk-logo.png"

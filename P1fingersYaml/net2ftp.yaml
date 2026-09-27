@@ -1,0 +1,13 @@
+- id: net2ftp
+  name: Net2ftp
+  author: P001
+  tags:
+    - net2ftp
+  description: Net2ftp
+  matchers:
+    - location: body
+      words:
+        - <!-- end of net2ftp login form
+        - <!-- net2ftp version
+        - content="net2ftp
+        - href="http://www.net2ftp.com">net2ftp</a>

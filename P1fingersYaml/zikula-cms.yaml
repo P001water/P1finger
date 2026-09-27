@@ -1,0 +1,17 @@
+- id: zikula
+  name: Zikula_CMS
+  author: Fofa
+  tags:
+    - zikula
+  description: Zikula_CMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ZKSID2
+    - location: header
+      words:
+        - ZKSID2
+    - location: body
+      words:
+        - zikula.de

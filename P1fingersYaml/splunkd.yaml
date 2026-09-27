@@ -1,0 +1,14 @@
+- id: splunkd
+  name: Splunkd
+  author: P001
+  tags:
+    - splunkd
+  description: Splunkd
+  matchers:
+    - location: body
+      words:
+        - 'server: splunkd'
+        - <title>splunkd</title>
+    - location: body
+      words:
+        - splunkd

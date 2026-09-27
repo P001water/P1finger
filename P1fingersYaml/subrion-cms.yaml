@@ -1,0 +1,11 @@
+- id: subrion
+  name: Subrion-cms
+  author: P001
+  tags:
+    - subrion
+  description: Subrion-cms
+  matchers:
+    - location: body
+      words:
+        - content="subrion cms
+        - href="http://www.subrion.com

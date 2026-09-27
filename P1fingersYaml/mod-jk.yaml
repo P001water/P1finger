@@ -1,0 +1,14 @@
+- id: mod-jk
+  name: Mod_jk
+  author: Fofa
+  tags:
+    - mod-jk
+  description: Mod_jk
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_jk
+    - location: header
+      words:
+        - mod_jk

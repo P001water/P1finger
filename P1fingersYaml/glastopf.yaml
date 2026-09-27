@@ -1,0 +1,12 @@
+- id: glastopf-honeypot
+  name: Glastopf Honeypot
+  author: P1finger
+  tags:
+    - glastopf
+    - honeypot
+  description: Glastopf Honeypot
+  matchers:
+    - location: body
+      words:
+        - Please post your comments for the blog
+        - Blog Comments

@@ -1,0 +1,10 @@
+- id: openwrt-luci
+  name: Openwrt Luci
+  author: P1finger
+  tags:
+    - openwrt-luci
+  description: Openwrt Luci
+  matchers:
+    - hash:
+        - "-675839242"
+      location: favicon

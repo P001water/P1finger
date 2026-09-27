@@ -1,0 +1,10 @@
+- id: nonecms
+  name: Nonecms
+  author: P1finger
+  tags:
+    - nonecms
+  description: Nonecms
+  matchers:
+    - location: body
+      words:
+        - content="nonecms

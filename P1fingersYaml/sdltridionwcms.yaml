@@ -1,0 +1,10 @@
+- id: sdltridionwcms
+  name: SDLTridionWCMS
+  author: P1finger
+  tags:
+    - sdltridionwcms
+  description: SDLTridionWCMS
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-By: FotoWeb'

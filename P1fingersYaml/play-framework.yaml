@@ -1,0 +1,21 @@
+- id: play-framework
+  name: Play-framework
+  author: P1finger
+  tags:
+    - play-framework
+  description: Play-framework
+  matchers:
+    - location: header
+      words:
+        - Play! Framework
+- id: play-framework-2
+  name: Play-Framework
+  author: Fofa
+  tags:
+    - play-framework
+  description: Play-Framework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Play! Framework

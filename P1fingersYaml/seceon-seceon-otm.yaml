@@ -1,0 +1,10 @@
+- id: seceon-seceon-otm
+  name: Seceon-Seceon-OTM
+  author: P1finger
+  tags:
+    - seceon-seceon-otm
+  description: Seceon-Seceon-OTM
+  matchers:
+    - location: body
+      words:
+        - <title>Seceon OTM</title>

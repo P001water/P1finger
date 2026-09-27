@@ -1,0 +1,13 @@
+- id: urp-integrated-educational
+  name: Urp-integrated-educational-system
+  author: P001
+  tags:
+    - urp-integrated-educational
+  description: Urp-integrated-educational-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 北京清元优软科技有限公司
+        - 教务系统
+        - <input name="j_captcha_response" location="hidden

@@ -1,0 +1,17 @@
+- id: live800
+  name: Live800
+  author: Fofa
+  tags:
+    - live800
+  description: Live800
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - live800
+    - location: body
+      words:
+        - live800.com
+    - location: header
+      words:
+        - live800

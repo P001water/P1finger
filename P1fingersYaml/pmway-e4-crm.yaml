@@ -1,0 +1,15 @@
+- id: pmway-e4-crm
+  name: Pmway_E4_crm
+  author: Fofa
+  tags:
+    - pmway-e4-crm
+  description: Pmway_E4_crm
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - E4
+    - condition: and
+      location: title
+      words:
+        - CRM

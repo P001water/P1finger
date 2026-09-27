@@ -1,0 +1,10 @@
+- id: inspur
+  name: Inspur
+  author: P1finger
+  tags:
+    - inspur
+  description: Inspur
+  matchers:
+    - location: body
+      words:
+        - ClusterEngine

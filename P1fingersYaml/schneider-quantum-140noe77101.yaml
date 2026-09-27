@@ -1,0 +1,19 @@
+- id: schneider-quantum-140noe77101
+  name: Schneider_Quantum_140NOE77101
+  author: Fofa
+  tags:
+    - schneider-quantum-140noe77101
+  description: Schneider_Quantum_140NOE77101
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - indexLanguage
+    - condition: and
+      location: body
+      words:
+        - html/config.js
+    - location: body
+      words:
+        - indexLanguage
+        - html/config.js

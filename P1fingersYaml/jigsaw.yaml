@@ -1,0 +1,17 @@
+- id: jigsaw
+  name: Jigsaw
+  author: Fofa
+  tags:
+    - jigsaw
+  description: Jigsaw
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Jigsaw
+    - location: header
+      words:
+        - Jigsaw
+    - location: body
+      words:
+        - 'server: jigsaw'

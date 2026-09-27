@@ -1,0 +1,537 @@
+- id: ibm-bladecenter
+  name: Ibm-bladecenter
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-bladecenter
+  description: Ibm-bladecenter
+  matchers:
+  - location: body
+    words:
+    - /shared/ibmbch.png
+    - /shared/ibmbcs.png
+    - alt="IBM BladeCenter
+- id: ibm-chassis
+  name: Ibm-chassis-management
+  author: P001
+  tags:
+  - ibm
+  - ibm-chassis
+  description: Ibm-chassis-management
+  matchers:
+  - location: body
+    words:
+    - ',"chassis_name":'
+- id: ibm-cics-transaction
+  name: Ibm-cics-transaction-server
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-cics-transaction
+  description: Ibm-cics-transaction-server
+  matchers:
+  - location: header
+    words:
+    - IBM_CICS_Transaction_Server
+  - location: body
+    words:
+    - 'server: ibm_cics_transaction_server'
+- id: ibm-cognos
+  name: Ibm-cognos
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-cognos
+  description: Ibm-cognos
+  matchers:
+  - location: body
+    words:
+    - /cgi-bin/cognos.cgi
+    - Cognos &#26159; International Business Machines Corp
+  - condition: and
+    location: body
+    words:
+    - /cgi-bin/cognos.cgi
+    - cognos &#26159; international business machines corp
+- id: ibm-goserve
+  name: Ibm-goserve
+  author: P001
+  tags:
+  - ibm
+  - ibm-goserve
+  description: Ibm-goserve
+  matchers:
+  - location: body
+    words:
+    - 'server: goserve'
+- id: ibm-hmc
+  name: Ibm-hmc
+  author: P001
+  tags:
+  - ibm
+  - ibm-hmc
+  description: Ibm-hmc
+  matchers:
+  - location: body
+    words:
+    - <frame src="/preloginmonitor/welcome.jsp"/>
+- id: ibm-http
+  name: Ibm-http-server
+  author: P001
+  tags:
+  - ibm
+  - ibm-http
+  description: Ibm-http-server
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - ibm http server
+    - support
+- id: ibm-http-2
+  name: Ibm_http_server
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-http
+  description: Ibm_http_server
+  matchers:
+  - location: header
+    words:
+    - IBM_HTTP_Server
+  - condition: and
+    location: header
+    words:
+    - IBM_HTTP_Server
+- id: ibm-bladecenter-2
+  name: IBM-BladeCenter
+  author: Fofa
+  tags:
+  - ibm
+  - ibm-bladecenter
+  description: IBM-BladeCenter
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /shared/ibmbch.png
+  - condition: or
+    location: body
+    words:
+    - /shared/ibmbcs.png
+  - condition: or
+    location: body
+    words:
+    - alt="IBM BladeCenter
+- id: ibm-cics-transaction-2
+  name: IBM-CICS-Transaction-Server
+  author: Fofa
+  tags:
+  - ibm
+  - ibm-cics-transaction
+  description: IBM-CICS-Transaction-Server
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - IBM_CICS_Transaction_Server
+- id: ibm-cognos-2
+  name: IBM-Cognos
+  author: Fofa
+  tags:
+  - ibm
+  - ibm-cognos
+  description: IBM-Cognos
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /cgi-bin/cognos.cgi
+  - condition: or
+    location: body
+    words:
+    - Cognos &#26159; International Business Machines Corp
+- id: ibm-internet-connection
+  name: IBM-Internet-Connection-Server
+  author: Fofa
+  tags:
+  - ibm
+  - ibm-internet-connection
+  description: IBM-Internet-Connection-Server
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - IBM Internet Connection Server
+- id: ibm-notes
+  name: Ibm Notes
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-notes
+  description: Ibm Notes
+  matchers:
+  - hash:
+    - '728788645'
+    location: favicon
+- id: ibm-qradar
+  name: IBM QRadar
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-qradar
+  description: IBM QRadar
+  matchers:
+  - location: body
+    words:
+    - IBM QRadar
+- id: ibm
+  name: Ibm Server
+  author: P1finger
+  tags:
+  - ibm
+  description: Ibm Server
+  matchers:
+  - hash:
+    - '1726027799'
+    location: favicon
+- id: ibm-spectrum-protect-plus
+  name: IBM Spectrum Protect Plus
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-spectrum-protect-plus
+  description: IBM Spectrum Protect Plus
+  matchers:
+  - location: body
+    words:
+    - IBM Spectrum Protect Plus
+- id: ibm-watchfire
+  name: IBM Watchfire
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-watchfire
+  description: IBM Watchfire
+  matchers:
+  - location: header
+    words:
+    - WatchfireSessionID
+- id: ibm-webseal
+  name: IBM-WebSEAL
+  author: Fofa
+  tags:
+  - ibm
+  - ibm-webseal
+  description: IBM-WebSEAL
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - WebSEAL
+- id: ibm-websphere-datapower
+  name: Ibm Websphere Datapower
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-websphere-datapower
+  description: Ibm Websphere Datapower
+  matchers:
+  - location: header
+    words:
+    - X-Backside-Transport
+  - condition: and
+    location: header
+    words:
+    - x-backside-transport
+- id: ibm-traffic-express-caching-proxy
+  name: IBM-Web-Traffic-Express-Caching-Proxy
+  author: Fofa
+  tags:
+  - ibm
+  - ibm-traffic-express-caching-proxy
+  description: IBM-Web-Traffic-Express-Caching-Proxy
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - IBM-PROXY-WTE
+  - condition: or
+    location: body
+    words:
+    - /admin-bin/webexec/wte.html
+- id: ibm-imm
+  name: Ibm-imm
+  author: P001
+  tags:
+  - ibm
+  - ibm-imm
+  description: Ibm-imm
+  matchers:
+  - location: body
+    words:
+    - /ibmdojo/
+    - <meta http-equiv="refresh" content="0;url=/designs/imm/noscript/noscript_en.php"
+      />
+    - ibm.stg.inlinemessage.messagelocations.msg_critical
+- id: ibm-inotes
+  name: IBM-iNotes
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-inotes
+  description: IBM-iNotes
+  matchers:
+  - location: body
+    words:
+    - IBM iNotes
+  - hash:
+    - '728788645'
+    location: favicon
+- id: ibm-internet-connection-2
+  name: Ibm-internet-connection-server
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-internet-connection
+  description: Ibm-internet-connection-server
+  matchers:
+  - location: header
+    words:
+    - IBM Internet Connection Server
+- id: ibm-lotus
+  name: Ibm-lotus
+  author: P001
+  tags:
+  - lotus
+  - ibm
+  - ibm-lotus
+  description: Ibm-lotus
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - domcfg.nsf
+    - login.nsf
+    - esoaisapp/login.jsp
+    - main.nsf
+    - action="/names.nsf?login" name="_dominoform
+    - 软标科技
+- id: ibm-lotus-domino
+  name: Ibm-lotus-domino
+  author: P001
+  tags:
+  - domino
+  - lotus
+  - ibm
+  - ibm-lotus-domino
+  description: Ibm-lotus-domino
+  matchers:
+  - location: body
+    words:
+    - 'server: lotus-domino/'
+- id: ibm-lotus-inotes
+  name: Ibm-lotus-inotes
+  author: P001
+  tags:
+  - lotus
+  - ibm
+  - ibm-lotus-inotes
+  description: Ibm-lotus-inotes
+  matchers:
+  - location: body
+    words:
+    - alt="lotus inotes login screen
+- id: ibm-lotus-sametime
+  name: Ibm-lotus-sametime
+  author: P001
+  tags:
+  - lotus
+  - ibm
+  - ibm-lotus-sametime
+  description: Ibm-lotus-sametime
+  matchers:
+  - location: body
+    words:
+    - class="sametimemeetingsbuttontransparent"
+    - href="sametime/meetingcenter-moz.css"
+    - sametime/themes/images/blank.gif
+    - src="sametime/avtest.js"
+- id: ibm-merge-pacs
+  name: Ibm-merge-pacs
+  author: P001
+  tags:
+  - ibm
+  - ibm-merge-pacs
+  description: Ibm-merge-pacs
+  matchers:
+  - location: body
+    words:
+    - <option value="merge pacs">merge pacs</option>
+- id: ibm-openadmin-tool
+  name: Ibm_openadmin_tool
+  author: P001
+  tags:
+  - ibm
+  - ibm-openadmin-tool
+  description: Ibm_openadmin_tool
+  matchers:
+  - location: body
+    words:
+    - class="oat oneui"
+- id: ibmshebei
+  name: IBMshebei
+  author: P1finger
+  tags:
+  - ibmshebei
+  description: IBMshebei
+  matchers:
+  - location: body
+    words:
+    - www.ibm.com
+    - com.ibm
+- id: ibm-spectrum-computing
+  name: Ibm-spectrum-computing
+  author: P001
+  tags:
+  - ibm
+  - ibm-spectrum-computing
+  description: Ibm-spectrum-computing
+  matchers:
+  - location: body
+    words:
+    - /platform/framework/logout/logout.action
+    - ssoclient_
+- id: ibm-storwize
+  name: IBM-Storwize
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-storwize
+  description: IBM-Storwize
+  matchers:
+  - location: body
+    words:
+    - IBM Storwize
+- id: ibm-tivoli
+  name: Ibm-tivoli
+  author: P001
+  tags:
+  - ibm
+  - ibm-tivoli
+  description: Ibm-tivoli
+  matchers:
+  - location: body
+    words:
+    - banner/tivoli/tv_icbanner.html
+    - tivoli netview uses an open source web server
+- id: ibm-tivoli-access-manager
+  name: Ibm-tivoli-access-manager
+  author: P001
+  tags:
+  - ibm
+  - ibm-tivoli-access-manager
+  description: Ibm-tivoli-access-manager
+  matchers:
+  - location: body
+    words:
+    - <!--- do not translate or modify any part of the hidden parameter(s) --->
+    - var warningstring = "<b>warning:</b> to maintain your login session, make sure
+      that your browser is configured to accept cookies.";
+- id: ibm-ts3310
+  name: Ibm-ts3310
+  author: P001
+  tags:
+  - ibm
+  - ibm-ts3310
+  description: Ibm-ts3310
+  matchers:
+  - location: body
+    words:
+    - http-equiv="refresh" content="0; url=/main_login.htm"
+- id: ibm-ultrascalable-specialist
+  name: IBM-UltraScalable-Specialist
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-ultrascalable-specialist
+  description: IBM-UltraScalable-Specialist
+  matchers:
+  - location: body
+    words:
+    - IBM UltraScalable Specialist
+- id: ibm-watchfire-2
+  name: Ibm-watchfire
+  author: P001
+  tags:
+  - ibm
+  - ibm-watchfire
+  description: Ibm-watchfire
+  matchers:
+  - location: body
+    words:
+    - 'set-cookie: watchfiresessionid'
+- id: ibm-traffic-express-caching-proxy-2
+  name: Ibm-web-traffic-express-caching-proxy
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-traffic-express-caching-proxy
+  description: Ibm-web-traffic-express-caching-proxy
+  matchers:
+  - location: body
+    words:
+    - /admin-bin/webexec/wte.html
+  - location: header
+    words:
+    - IBM-PROXY-WTE
+- id: ibm-webseal-2
+  name: Ibm-webseal
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-webseal
+  description: Ibm-webseal
+  matchers:
+  - location: header
+    words:
+    - WebSEAL
+  - location: body
+    words:
+    - 'server: webseal'
+- id: ibm-websphere
+  name: Ibm-websphere
+  author: P001
+  tags:
+  - ibm
+  - ibm-websphere
+  description: Ibm-websphere
+  matchers:
+  - location: body
+    words:
+    - com.ibm.websphere.ihs.doc
+    - content="websphere application server
+    - websphere
+- id: ibm-websphere-datapower-2
+  name: IBM WebSphere DataPower
+  author: Fofa
+  tags:
+  - ibm
+  - ibm-websphere-datapower
+  description: IBM WebSphere DataPower
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - X-Backside-Transport
+- id: ibm-websphere-datapower-3
+  name: Ibm-websphere-datapower
+  author: P1finger
+  tags:
+  - ibm
+  - ibm-websphere-datapower
+  description: Ibm-websphere-datapower
+  matchers:
+  - location: header
+    words:
+    - x-backside-transport

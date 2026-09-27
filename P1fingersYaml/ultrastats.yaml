@@ -1,0 +1,14 @@
+- id: ultrastats
+  name: Ultrastats
+  author: P001
+  tags:
+    - ultrastats
+  description: Ultrastats
+  matchers:
+    - location: body
+      words:
+        - <img src="./images/main/ultrastatslogo.png" width="300" height="200" name="ultrastats_logo" align="center">
+    - location: body
+      words:
+        - UltraStats
+        - Home Overview

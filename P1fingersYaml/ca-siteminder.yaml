@@ -1,0 +1,24 @@
+- id: ca-siteminder
+  name: Ca-siteminder
+  author: P1finger
+  tags:
+    - ca-siteminder
+  description: Ca-siteminder
+  matchers:
+    - location: body
+      words:
+        - <!-- SiteMinder Encoding
+    - location: body
+      words:
+        - <!-- siteminder encoding
+- id: ca-siteminder-2
+  name: CA-SiteMinder
+  author: Fofa
+  tags:
+    - ca-siteminder
+  description: CA-SiteMinder
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <!-- SiteMinder Encoding

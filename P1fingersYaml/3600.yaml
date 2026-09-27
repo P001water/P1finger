@@ -1,0 +1,11 @@
+- id: wangshen-3600-firewall
+  name: WangShen Firewall
+  author: P1finger
+  tags:
+    - wangshen
+    - firewall
+  description: WangShen Firewall
+  matchers:
+    - location: body
+      words:
+        - 网神SecGate

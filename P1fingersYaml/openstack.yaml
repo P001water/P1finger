@@ -1,0 +1,10 @@
+- id: openstack
+  name: Openstack
+  author: P1finger
+  tags:
+    - openstack
+  description: Openstack
+  matchers:
+    - hash:
+        - "-923088984"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: adt-iam
+  name: Adt-iam
+  author: P001
+  tags:
+    - adt-iam
+  description: Adt-iam
+  matchers:
+    - location: body
+      words:
+        - content="tpn,vpn,内网安全,内网控制,主机防护"

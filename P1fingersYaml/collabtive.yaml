@@ -1,0 +1,14 @@
+- id: collabtive
+  name: Collabtive
+  author: Fofa
+  tags:
+    - collabtive
+  description: Collabtive
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Login @ Collabtive
+    - location: body
+      words:
+        - Login @ Collabtive

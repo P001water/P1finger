@@ -1,0 +1,12 @@
+- id: vcms
+  name: Vcms
+  author: P001
+  tags:
+    - vcms
+  description: Vcms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <h2>vcms</h2>
+        - <h4>vcms全能网站管理系统</h4>

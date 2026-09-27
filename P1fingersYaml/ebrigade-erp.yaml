@@ -1,0 +1,10 @@
+- id: ebrigade-erp
+  name: Ebrigade-erp
+  author: P001
+  tags:
+    - ebrigade-erp
+  description: Ebrigade-erp
+  matchers:
+    - location: body
+      words:
+        - class='btn btn-ebrigade btn-lg'

@@ -1,0 +1,21 @@
+- id: dht-802-11n
+  name: DHT_802.11N_Router
+  author: Fofa
+  tags:
+    - dht-802-11n
+  description: DHT_802.11N_Router
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - ="DHT 802.11n QoS Router
+    - condition: and
+      location: header
+      words:
+        - mini_httpd
+    - location: body
+      words:
+        - DHT 802.11n QoS Router
+    - location: header
+      words:
+        - mini_httpd

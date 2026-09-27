@@ -1,0 +1,10 @@
+- id: yzmcms
+  name: Yzmcms
+  author: P1finger
+  tags:
+    - yzmcms
+  description: Yzmcms
+  matchers:
+    - location: body
+      words:
+        - Powered By YzmCMS内容管理系统

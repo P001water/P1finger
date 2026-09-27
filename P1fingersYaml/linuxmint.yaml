@@ -1,0 +1,11 @@
+- id: linuxmint
+  name: Linuxmint
+  author: Fofa
+  tags:
+    - linuxmint
+  description: Linuxmint
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mint

@@ -1,0 +1,11 @@
+- id: tinynav-js
+  name: TinyNav.js
+  author: Fofa
+  tags:
+    - tinynav-js
+  description: TinyNav.js
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - tinynav.min.js

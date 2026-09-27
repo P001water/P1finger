@@ -1,0 +1,14 @@
+- id: recaptcha
+  name: Recaptcha
+  author: Fofa
+  tags:
+    - recaptcha
+  description: Recaptcha
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - recaptcha_ajax.js
+    - location: body
+      words:
+        - recaptcha_ajax.js

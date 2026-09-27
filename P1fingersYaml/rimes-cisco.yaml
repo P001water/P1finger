@@ -1,0 +1,12 @@
+- id: rimes-cisco
+  name: Rimes-Cisco
+  author: Fofa
+  tags:
+  - cisco
+  - rimes-cisco
+  description: Rimes-Cisco
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Rimes-Cisco

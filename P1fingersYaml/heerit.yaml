@@ -1,0 +1,10 @@
+- id: heeritxieroa
+  name: HeeritxierOA
+  author: P1finger
+  tags:
+    - heeritxieroa
+  description: HeeritxierOA
+  matchers:
+    - location: body
+      words:
+        - 希尔智慧科技

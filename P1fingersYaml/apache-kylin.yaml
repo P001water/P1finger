@@ -1,0 +1,24 @@
+- id: apache-kylin
+  name: Apache-kylin
+  author: P001
+  tags:
+  - apache
+  - apache-kylin
+  description: Apache-kylin
+  matchers:
+  - location: body
+    words:
+    - <meta http-equiv="refresh" content="1;url=kylin">
+    - href="/kylin/"
+- id: apache-kylin-2
+  name: Apache Kylin
+  author: P1finger
+  tags:
+  - apache
+  - apache-kylin
+  description: Apache Kylin
+  matchers:
+  - location: body
+    words:
+    - Kylin
+    - http-equiv="refresh" content="1;url=kylin"

@@ -1,0 +1,11 @@
+- id: phpmyadmin-www-authenticate
+  name: PhpMyAdmin-Www-Authenticate
+  author: P001
+  tags:
+  - phpmyadmin
+  - phpmyadmin-www-authenticate
+  description: PhpMyAdmin-Www-Authenticate
+  matchers:
+  - location: body
+    words:
+    - 'Www-Authenticate: Basic realm="phpMyAdmin Setup"'

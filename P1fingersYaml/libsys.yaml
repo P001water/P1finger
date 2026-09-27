@@ -1,0 +1,14 @@
+- id: huiwenlibsystushu
+  name: Huiwenlibsystushu Management System
+  author: P1finger
+  tags:
+    - huiwenlibsystushu
+    - management-system
+  description: Huiwenlibsystushu Management System
+  matchers:
+    - hash:
+        - "1805953451"
+      location: favicon
+    - location: body
+      words:
+        - 书目检索系统

@@ -1,0 +1,10 @@
+- id: netpresenz
+  name: Netpresenz
+  author: P001
+  tags:
+    - netpresenz
+  description: Netpresenz
+  matchers:
+    - location: body
+      words:
+        - 'server: netpresenz'

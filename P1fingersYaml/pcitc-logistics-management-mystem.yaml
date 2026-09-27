@@ -1,0 +1,10 @@
+- id: pcitc-logistics-mystem
+  name: Pcitc-logistics-management-mystem
+  author: P001
+  tags:
+    - pcitc-logistics-mystem
+  description: Pcitc-logistics-management-mystem
+  matchers:
+    - location: body
+      words:
+        - href="/newimages/login/logo_icon.ico

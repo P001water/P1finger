@@ -1,0 +1,10 @@
+- id: portswigger-burp-suite
+  name: PortSwigger-Burp-Suite
+  author: P1finger
+  tags:
+    - portswigger-burp-suite
+  description: PortSwigger-Burp-Suite
+  matchers:
+    - location: body
+      words:
+        - Burp Suite Professional

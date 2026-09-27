@@ -1,0 +1,10 @@
+- id: twebap
+  name: TWebAP
+  author: P1finger
+  tags:
+    - twebap
+  description: TWebAP
+  matchers:
+    - location: header
+      words:
+        - TWebAP

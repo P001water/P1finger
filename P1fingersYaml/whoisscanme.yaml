@@ -1,0 +1,11 @@
+- id: whoisscanme-honeypot
+  name: Whoisscanme Honeypot
+  author: P1finger
+  tags:
+    - whoisscanme
+    - honeypot
+  description: Whoisscanme Honeypot
+  matchers:
+    - location: body
+      words:
+        - whoisscanme:https://github.com/bg6cq/whoisscanme

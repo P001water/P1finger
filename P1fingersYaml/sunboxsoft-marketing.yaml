@@ -1,0 +1,10 @@
+- id: sunboxsoft-marketing
+  name: Sunboxsoft-marketing
+  author: P001
+  tags:
+    - sunboxsoft-marketing
+  description: Sunboxsoft-marketing
+  matchers:
+    - location: body
+      words:
+        - /sunbox/assets/js/ace.min.js

@@ -1,0 +1,11 @@
+- id: inethinkcms
+  name: INethinkCMS CMS
+  author: P1finger
+  tags:
+    - inethinkcms
+    - cms
+  description: INethinkCMS CMS
+  matchers:
+    - location: body
+      words:
+        - <title>iNethinkCMS网站管理系统 - .Net C#开源、免费CMS网站管理系统

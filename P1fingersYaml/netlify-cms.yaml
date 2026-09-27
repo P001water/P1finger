@@ -1,0 +1,13 @@
+- id: netlify
+  name: Netlify-CMS
+  author: P1finger
+  tags:
+    - netlify
+  description: Netlify-CMS
+  matchers:
+    - location: body
+      words:
+        - netlify
+    - location: header
+      words:
+        - 'Server: Netlify'

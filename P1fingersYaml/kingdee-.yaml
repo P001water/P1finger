@@ -1,0 +1,11 @@
+- id: kingdeeyinqidianzihuidan-system
+  name: Kingdeeyinqidianzihuidan System
+  author: P001
+  tags:
+    - kingdeeyinqidianzihuidan
+    - system
+  description: Kingdeeyinqidianzihuidan System
+  matchers:
+    - location: body
+      words:
+        - <title>金蝶银企电子回单系统</title

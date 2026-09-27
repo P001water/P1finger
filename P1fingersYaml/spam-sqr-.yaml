@@ -1,0 +1,11 @@
+- id: spamsqrdianziyoujian
+  name: SPAMSQRdianziyoujian Security Gateway
+  author: P1finger
+  tags:
+    - spamsqrdianziyoujian
+    - security-gateway
+  description: SPAMSQRdianziyoujian Security Gateway
+  matchers:
+    - location: body
+      words:
+        - spam sqr

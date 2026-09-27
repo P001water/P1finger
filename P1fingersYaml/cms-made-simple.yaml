@@ -1,0 +1,28 @@
+- id: made-simple
+  name: CMS-Made-Simple
+  author: Fofa
+  tags:
+    - made-simple
+  description: CMS-Made-Simple
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - CMSSESSID
+    - condition: or
+      location: body
+      words:
+        - content="CMS Made Simple
+- id: made-simple-2
+  name: Cms-made-simple
+  author: P1finger
+  tags:
+    - made-simple
+  description: Cms-made-simple
+  matchers:
+    - location: body
+      words:
+        - content="CMS Made Simple
+    - location: header
+      words:
+        - CMSSESSID

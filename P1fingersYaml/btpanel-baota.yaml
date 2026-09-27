@@ -1,0 +1,13 @@
+- id: btpanel-baota
+  name: BTPanel-Baota
+  author: P1finger
+  tags:
+    - btpanel-baota
+  description: BTPanel-Baota
+  matchers:
+    - location: body
+      words:
+        - 恭喜，站点创建成功
+        - 没有找到站点
+        - app.bt.cn/static/app.png
+        - 安全入口校验失败

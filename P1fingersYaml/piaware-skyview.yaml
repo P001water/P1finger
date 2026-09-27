@@ -1,0 +1,10 @@
+- id: piaware-skyview
+  name: Piaware-skyview
+  author: P001
+  tags:
+    - piaware-skyview
+  description: Piaware-skyview
+  matchers:
+    - location: body
+      words:
+        - alt="piaware skyview"

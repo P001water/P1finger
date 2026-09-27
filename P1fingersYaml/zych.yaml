@@ -1,0 +1,11 @@
+- id: zychziyoucehua-cms
+  name: ZYCHziyoucehua CMS
+  author: P1finger
+  tags:
+    - zychziyoucehua
+    - cms
+  description: ZYCHziyoucehua CMS
+  matchers:
+    - location: body
+      words:
+        - ZYCH自由策划网站管理系统

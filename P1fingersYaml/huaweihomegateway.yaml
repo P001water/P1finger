@@ -1,0 +1,21 @@
+- id: huaweihomegateway
+  name: HuaweiHomeGateway
+  author: Fofa
+  tags:
+    - huaweihomegateway
+  description: HuaweiHomeGateway
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - HuaweiHomeGateway
+    - condition: or
+      location: body
+      words:
+        - Menu.HomeGatewayTitle
+    - location: body
+      words:
+        - Menu.HomeGatewayTitle
+    - location: header
+      words:
+        - HuaweiHomeGateway

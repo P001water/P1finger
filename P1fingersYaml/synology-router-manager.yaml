@@ -1,0 +1,12 @@
+- id: synology-manager
+  name: Synology-router-manager
+  author: P001
+  tags:
+  - synology
+  - synology-manager
+  description: Synology-router-manager
+  matchers:
+  - location: body
+    words:
+    - content="synologyrouter
+    - 'hostname" : "synologyrouter"'

@@ -1,0 +1,10 @@
+- id: mechat-irc
+  name: Mechat-irc
+  author: P001
+  tags:
+    - mechat-irc
+  description: Mechat-irc
+  matchers:
+    - location: body
+      words:
+        - obj.reserve = strreserve

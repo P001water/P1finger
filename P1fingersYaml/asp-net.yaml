@@ -1,0 +1,14 @@
+- id: asp-net
+  name: ASP.NET
+  author: Fofa
+  tags:
+    - asp-net
+  description: ASP.NET
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-By: ASP.NET'
+    - location: header
+      words:
+        - ASP.NET_SessionId

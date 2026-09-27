@@ -1,0 +1,10 @@
+- id: whizzy
+  name: Whizzy CMS
+  author: P1finger
+  tags:
+    - whizzy
+  description: Whizzy CMS
+  matchers:
+    - location: body
+      words:
+        - Powered by Whizzy CMS

@@ -1,0 +1,10 @@
+- id: webray-situation-awareness
+  name: Webray-situation-awareness
+  author: P001
+  tags:
+    - webray-situation-awareness
+  description: Webray-situation-awareness
+  matchers:
+    - location: body
+      words:
+        - 'class="disclaimer" style="color: #ffffff">《盛邦安全网站监控预警平台服务协议》</a>'

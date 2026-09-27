@@ -1,0 +1,22 @@
+- id: citrix-xcp
+  name: Citrix-xcp
+  author: P001
+  tags:
+  - citrix
+  - citrix-xcp
+  description: Citrix-xcp
+  matchers:
+  - location: body
+    words:
+    - <p/>citrix systems, inc. xcp 1.6.10
+- id: citrix-xcp-2
+  name: Citrix XCP
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-xcp
+  description: Citrix XCP
+  matchers:
+  - location: body
+    words:
+    - <p/>citrix systems, inc. xcp 1.6.10

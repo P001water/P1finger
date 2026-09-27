@@ -1,0 +1,15 @@
+- id: business
+  name: Business-system
+  author: P001
+  tags:
+    - business
+  description: Business-system
+  matchers:
+    - location: body
+      words:
+        - function hiddenpass(e)
+        - function omiga_window(url)
+        - function updatapipeline(pipelinename)
+        - images/login_d.png
+        - onsubmit="return checksubmit()
+        - window.location=contextpath+"/work/index.jsp"

@@ -1,0 +1,10 @@
+- id: koobi
+  name: Koobi CMS
+  author: P1finger
+  tags:
+    - koobi
+  description: Koobi CMS
+  matchers:
+    - location: body
+      words:
+        - content="(c) Koobi

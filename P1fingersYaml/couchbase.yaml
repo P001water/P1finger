@@ -1,0 +1,24 @@
+- id: couchbase
+  name: Couchbase
+  author: P1finger
+  tags:
+    - couchbase
+  description: Couchbase
+  matchers:
+    - location: body
+      words:
+        - Couchbase Console
+    - location: header
+      words:
+        - Couchbase
+    - condition: or
+      location: title
+      words:
+        - Couchbase Console
+    - condition: or
+      location: header
+      words:
+        - Couchbase
+    - location: body
+      words:
+        - 'server: couchbase'

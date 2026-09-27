@@ -1,0 +1,10 @@
+- id: wowza-wowzastreamingengine
+  name: Wowza-wowzastreamingengine
+  author: P001
+  tags:
+    - wowza-wowzastreamingengine
+  description: Wowza-wowzastreamingengine
+  matchers:
+    - location: body
+      words:
+        - 'server: wowzastreamingengine'

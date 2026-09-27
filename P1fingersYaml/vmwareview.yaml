@@ -1,0 +1,10 @@
+- id: vmwareview
+  name: Vmwareview
+  author: P001
+  tags:
+    - vmwareview
+  description: Vmwareview
+  matchers:
+    - location: body
+      words:
+        - <title>vmware view portal</title>

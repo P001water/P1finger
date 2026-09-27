@@ -1,0 +1,14 @@
+- id: bluecoat-proxysg
+  name: BlueCoat-ProxySG
+  author: P1finger
+  tags:
+    - bluecoat-proxysg
+  description: BlueCoat-ProxySG
+  matchers:
+    - location: body
+      words:
+        - ProxySG
+        - by vultr-proxysg-lk
+    - location: header
+      words:
+        - ProxySG

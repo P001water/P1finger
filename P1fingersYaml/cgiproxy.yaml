@@ -1,0 +1,18 @@
+- id: cgiproxy
+  name: CGIProxy
+  author: Fofa
+  tags:
+    - cgiproxy
+  description: CGIProxy
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href="http://www.jmarshall.com/tools/cgiproxy/
+    - location: body
+      words:
+        - <a href="http://www.jmarshall.com/tools/cgiproxy/
+    - location: body
+      words:
+        - CGItrick
+        - location='/cgiproxy/

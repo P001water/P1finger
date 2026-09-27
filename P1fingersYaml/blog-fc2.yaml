@@ -1,0 +1,18 @@
+- id: blog-fc2
+  name: Blog_fc2
+  author: Fofa
+  tags:
+    - blog-fc2
+  description: Blog_fc2
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - bloguid
+    - condition: and
+      location: header
+      words:
+        - cookietest=test
+    - location: header
+      words:
+        - cookietest=test

@@ -1,0 +1,11 @@
+- id: trs-hybase
+  name: Trs-hybase
+  author: P001
+  tags:
+  - trs
+  - trs-hybase
+  description: Trs-hybase
+  matchers:
+  - location: body
+    words:
+    - href="#">trs hybase</a>

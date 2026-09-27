@@ -1,0 +1,11 @@
+- id: ktndianshang-management-system
+  name: KTNdianshang Management System
+  author: P1finger
+  tags:
+    - ktndianshang
+    - management-system
+  description: KTNdianshang Management System
+  matchers:
+    - location: body
+      words:
+        - KTN电商管理系统

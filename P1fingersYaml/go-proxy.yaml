@@ -1,0 +1,10 @@
+- id: go-proxy
+  name: Go-Proxy
+  author: P1finger
+  tags:
+    - go-proxy
+  description: Go-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Go Proxy'

@@ -1,0 +1,11 @@
+- id: soonlink
+  name: E-soonlink-
+  author: P001
+  tags:
+    - soonlink
+  description: E-soonlink-
+  matchers:
+    - location: body
+      words:
+        - document.writeln(companymail)
+        - 志高易联

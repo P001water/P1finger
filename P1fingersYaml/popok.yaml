@@ -1,0 +1,11 @@
+- id: popokweixin-management-system
+  name: POPOKweixin Management System
+  author: P1finger
+  tags:
+    - popokweixin
+    - management-system
+  description: POPOKweixin Management System
+  matchers:
+    - location: body
+      words:
+        - POPOK微信平台管理系统

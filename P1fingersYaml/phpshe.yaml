@@ -1,0 +1,19 @@
+- id: phpshe-2
+  name: Phpshe
+  author: P1finger
+  tags:
+    - phpshe
+  description: Phpshe
+  matchers:
+    - location: body
+      words:
+        - Powered by phpshe
+        - content="phpshe
+    - condition: or
+      location: body
+      words:
+        - Powered by phpshe
+    - condition: or
+      location: body
+      words:
+        - content="phpshe

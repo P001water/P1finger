@@ -1,0 +1,27 @@
+- id: javashop
+  name: Javashop
+  author: Fofa
+  tags:
+    - javashop
+  description: Javashop
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - 易族智汇javashop
+    - condition: or
+      location: body
+      words:
+        - javashop微信公众号
+    - condition: or
+      location: body
+      words:
+        - content="JavaShop
+    - location: body
+      words:
+        - 易族智汇javashop
+        - javashop微信公众号
+        - content="JavaShop
+    - location: body
+      words:
+        - 易族智汇javashop

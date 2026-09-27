@@ -1,0 +1,15 @@
+- id: guard
+  name: D_Guard-Firewall
+  author: P1finger
+  tags:
+    - guard
+  description: D_Guard-Firewall
+  matchers:
+    - location: body
+      words:
+        - Seventh D-Guard Center
+        - Seventh D-Guard Projects
+    - location: header
+      words:
+        - Basic realm="D-Guard"
+        - DGuard Projects

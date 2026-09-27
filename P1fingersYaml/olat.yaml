@@ -1,0 +1,18 @@
+- id: olat
+  name: Olat
+  author: P001
+  tags:
+    - olat
+  description: Olat
+  matchers:
+    - location: body
+      words:
+        - content="olat
+        - content="olat - online learning and training
+        - content="olat 是一个学习内容管理系统 (lcms).
+        - href="/olat/raw/
+        - o_info.uriprefix="/olat/dmz/";
+        - title="homepage of open source lms olat
+    - location: body
+      words:
+        - content="OLAT

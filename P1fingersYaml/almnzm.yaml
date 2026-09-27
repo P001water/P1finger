@@ -1,0 +1,10 @@
+- id: almnzm
+  name: Almnzm
+  author: P1finger
+  tags:
+    - almnzm
+  description: Almnzm
+  matchers:
+    - location: body
+      words:
+        - Powered by Almnzm

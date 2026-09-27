@@ -1,0 +1,10 @@
+- id: wallacepos
+  name: WallacePOS
+  author: P1finger
+  tags:
+    - wallacepos
+  description: WallacePOS
+  matchers:
+    - location: body
+      words:
+        - WallacePOS

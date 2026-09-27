@@ -1,0 +1,11 @@
+- id: oltdenglu-management-system
+  name: OLTdenglu Management System
+  author: P1finger
+  tags:
+    - oltdenglu
+    - management-system
+  description: OLTdenglu Management System
+  matchers:
+    - location: body
+      words:
+        - OLT管理系统登录

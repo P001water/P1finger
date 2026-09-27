@@ -1,0 +1,22 @@
+- id: etano
+  name: Etano
+  author: Fofa
+  tags:
+    - etano
+  description: Etano
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.datemill.com
+    - condition: or
+      location: body
+      words:
+        - Etano</a>. All Rights Reserved.
+    - location: body
+      words:
+        - Powered by <a href="http://www.datemill.com
+        - Etano</a>. All Rights Reserved.
+    - location: body
+      words:
+        - title="Etano community builder"

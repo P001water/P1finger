@@ -1,0 +1,22 @@
+- id: thinkphp
+  name: Thinkphp
+  author: P001
+  tags:
+    - thinkphp
+  description: Thinkphp
+  matchers:
+    - hash:
+        - f49c4a4bde1eec6c0b80c2277c76e3db
+      location: favicon
+    - condition: or
+      location: body
+      words:
+        - 'x-powered-by: thinkphp'
+        - think\exception\HttpException
+        - <h1>:) </h1>
+        - href="http://www.thinkphp.cn">thinkphp</a>
+        - '{ Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]'
+        - thinkphp_show_page_trace
+        - /thinkphp/library/think/
+        - /Library/Think/
+        - '.think_default_text{ padding: 4px 48px;}'

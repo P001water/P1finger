@@ -1,0 +1,11 @@
+- id: wdzhinengdangan
+  name: WDzhinengdangan Management Platform
+  author: P1finger
+  tags:
+    - wdzhinengdangan
+    - management-platform
+  description: WDzhinengdangan Management Platform
+  matchers:
+    - location: body
+      words:
+        - WD智能档案管理平台

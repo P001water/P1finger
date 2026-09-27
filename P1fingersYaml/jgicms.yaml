@@ -1,0 +1,10 @@
+- id: jgicms
+  name: JGICMS
+  author: P1finger
+  tags:
+    - jgicms
+  description: JGICMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="author" content="JGI - http://www.jgi.com.br">

@@ -1,0 +1,26 @@
+- id: advanced-image-hosting-script
+  name: Advanced-image-hosting-script
+  author: P1finger
+  tags:
+    - advanced-image-hosting-script
+  description: Advanced-image-hosting-script
+  matchers:
+    - location: body
+      words:
+        - yabsoft.com
+        - Welcome to install AIHS Script
+- id: advanced-image-hosting-script-2
+  name: Advanced-Image-Hosting-Script
+  author: Fofa
+  tags:
+    - advanced-image-hosting-script
+  description: Advanced-Image-Hosting-Script
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - yabsoft.com" )
+    - condition: or
+      location: body
+      words:
+        - Welcome to install AIHS Script

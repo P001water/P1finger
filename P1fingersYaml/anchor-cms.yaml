@@ -1,0 +1,10 @@
+- id: anchor
+  name: Anchor CMS
+  author: P1finger
+  tags:
+    - anchor
+  description: Anchor CMS
+  matchers:
+    - location: body
+      words:
+        - content="Anchor CMS"

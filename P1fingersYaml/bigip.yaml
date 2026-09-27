@@ -1,0 +1,19 @@
+- id: bigip
+  name: BIGIP
+  author: nuclei
+  tags:
+  - bigip
+  - f5
+  description: BIGIP
+  paths:
+  - /my.policy
+  matchers:
+  - location: header
+    words:
+    - BIGipServer
+  - location: header
+    words:
+    - BigIP
+  - location: body
+    words:
+    - F5 Networks.

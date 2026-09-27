@@ -1,0 +1,19 @@
+- id: jeecgboot
+  name: Jeecgboot
+  author: P001
+  tags:
+    - jeecgboot
+  description: Jeecgboot
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'color: #222222;'
+        - lang=zh-cmn-hans
+        - loader-
+        - jeecgboot
+        - polyfill_
+        - onlinepreviewdomainurl'] = 'http://fileview.jeecg.com
+    - hash:
+        - dc7a0b69060a0262530b47b46ba7f9b6
+      location: favicon

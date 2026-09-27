@@ -1,0 +1,21 @@
+- id: ananyoo
+  name: Ananyoo-cms
+  author: P1finger
+  tags:
+    - ananyoo
+  description: Ananyoo-cms
+  matchers:
+    - location: body
+      words:
+        - content="http://www.ananyoo.com
+- id: ananyoo-2
+  name: Ananyoo-CMS
+  author: Fofa
+  tags:
+    - ananyoo
+  description: Ananyoo-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="http://www.ananyoo.com

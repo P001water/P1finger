@@ -1,0 +1,11 @@
+- id: 3kits
+  name: 3KITS CMS
+  author: P001
+  tags:
+  - 3kits
+  description: 3KITS CMS
+  matchers:
+  - location: body
+    words:
+    - 3kits</a>
+    - href="http://www.3kits.com"

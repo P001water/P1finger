@@ -1,0 +1,10 @@
+- id: lg-supersign
+  name: Lg-supersign
+  author: P001
+  tags:
+    - lg-supersign
+  description: Lg-supersign
+  matchers:
+    - location: body
+      words:
+        - src="/ssw/js/user/index.js"

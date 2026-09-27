@@ -1,0 +1,17 @@
+- id: jeus
+  name: JEUS
+  author: Fofa
+  tags:
+    - jeus
+  description: JEUS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Jeus WebContainer
+    - location: header
+      words:
+        - Jeus WebContainer
+    - location: header
+      words:
+        - JEUS WebContainer

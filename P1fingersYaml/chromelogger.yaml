@@ -1,0 +1,14 @@
+- id: chromelogger
+  name: Chromelogger
+  author: Fofa
+  tags:
+    - chromelogger
+  description: Chromelogger
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Chromelogger-Data
+    - location: header
+      words:
+        - X-Chromelogger-Data

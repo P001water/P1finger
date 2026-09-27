@@ -1,0 +1,23 @@
+- id: ctop
+  name: Ctop-oa
+  author: P001
+  tags:
+    - ctop
+  description: Ctop-oa
+  matchers:
+    - location: body
+      words:
+        - /ctop/index.jsp
+        - /software/jinstall.exe
+        - src="images/ctop_logo.gif
+        - src="images/logo-ctop.gif
+- id: ctop-2
+  name: CTOP OA
+  author: P1finger
+  tags:
+    - ctop
+  description: CTOP OA
+  matchers:
+    - location: body
+      words:
+        - src="images/ctop_logo.gif

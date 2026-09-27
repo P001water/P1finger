@@ -1,0 +1,14 @@
+- id: mod-rails
+  name: Mod_rails
+  author: Fofa
+  tags:
+    - mod-rails
+  description: Mod_rails
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_rails
+    - location: header
+      words:
+        - mod_rails

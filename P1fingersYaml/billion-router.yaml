@@ -1,0 +1,25 @@
+- id: billion
+  name: Billion-router
+  author: P1finger
+  tags:
+    - billion
+  description: Billion-router
+  matchers:
+    - location: header
+      words:
+        - Basic realm="WebAdmin
+- id: billion-2
+  name: Billion-Router
+  author: Fofa
+  tags:
+    - billion
+  description: Billion-Router
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Billion Sky
+    - condition: and
+      location: header
+      words:
+        - Basic realm="WebAdmin")

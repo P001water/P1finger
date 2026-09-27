@@ -1,0 +1,12 @@
+- id: todaymail
+  name: Todaymail
+  author: P001
+  tags:
+    - todaymail
+  description: Todaymail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - todaymail anti-spam police
+        - todaynic.com,inc.

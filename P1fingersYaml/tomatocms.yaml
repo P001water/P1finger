@@ -1,0 +1,14 @@
+- id: tomatocms
+  name: Tomatocms
+  author: P001
+  tags:
+    - tomatocms
+  description: Tomatocms
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.tomatocms.com" title="powered by tomatocms" target="_blank">
+        - tomato.core.widget.loader.baseurl = 'http://
+    - location: body
+      words:
+        - <meta name="description" content="TomatoCMS

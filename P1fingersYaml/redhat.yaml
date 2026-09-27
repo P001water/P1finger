@@ -1,0 +1,18 @@
+- id: redhat
+  name: Redhat
+  author: P1finger
+  tags:
+    - redhat
+  description: Redhat
+  matchers:
+    - location: header
+      words:
+        - Red Hat
+    - condition: or
+      location: header
+      words:
+        - Redhat
+    - condition: or
+      location: header
+      words:
+        - Red Hat

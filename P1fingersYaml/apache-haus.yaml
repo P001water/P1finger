@@ -1,0 +1,23 @@
+- id: apache-haus
+  name: Apache-haus
+  author: P001
+  tags:
+  - apache
+  - apache-haus
+  description: Apache-haus
+  matchers:
+  - location: body
+    words:
+    - copyright &copy; 2008-2017 <a href="http://www.apachehaus.com">the apache haus</a>
+    - href="/apachehaus.ico
+- id: apache-haus-2
+  name: Apache Haus
+  author: P1finger
+  tags:
+  - apache
+  - apache-haus
+  description: Apache Haus
+  matchers:
+  - hash:
+    - '-632070065'
+    location: favicon

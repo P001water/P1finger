@@ -1,0 +1,10 @@
+- id: wygkcmswangyugaoke
+  name: Wygkcmswangyugaoke
+  author: P1finger
+  tags:
+    - wygkcmswangyugaoke
+  description: Wygkcmswangyugaoke
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: SYSIMG'

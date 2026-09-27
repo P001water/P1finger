@@ -1,0 +1,10 @@
+- id: gocd
+  name: GOCD
+  author: P1finger
+  tags:
+    - gocd
+  description: GOCD
+  matchers:
+    - location: body
+      words:
+        - current-gocd-version

@@ -1,0 +1,10 @@
+- id: ez-shop
+  name: EZ-Shop
+  author: P1finger
+  tags:
+    - ez-shop
+  description: EZ-Shop
+  matchers:
+    - location: body
+      words:
+        - EZ-Shop

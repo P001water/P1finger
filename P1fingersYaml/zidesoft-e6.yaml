@@ -1,0 +1,10 @@
+- id: zidesoft-e6
+  name: Zidesoft-e6
+  author: P001
+  tags:
+    - zidesoft-e6
+  description: Zidesoft-e6
+  matchers:
+    - location: body
+      words:
+        - src="/static/images/login/btn-login.gif"

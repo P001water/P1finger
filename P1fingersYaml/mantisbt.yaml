@@ -1,0 +1,11 @@
+- id: mantisbt
+  name: Mantisbt
+  author: P001
+  tags:
+    - mantisbt
+  description: Mantisbt
+  matchers:
+    - location: body
+      words:
+        - alt="mantis bugtracker
+        - powered by mantis bugtracker

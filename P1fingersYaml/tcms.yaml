@@ -1,0 +1,10 @@
+- id: tcms
+  name: TCMS
+  author: P1finger
+  tags:
+    - tcms
+  description: TCMS
+  matchers:
+    - location: header
+      words:
+        - 'X-Created-By: arsmedia TCMS'

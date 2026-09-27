@@ -1,0 +1,11 @@
+- id: f5bigip
+  name: F5bigip
+  author: P1finger
+  tags:
+    - f5bigip
+  description: F5bigip
+  matchers:
+    - location: header
+      words:
+        - X-PvInfo
+        - BigIP

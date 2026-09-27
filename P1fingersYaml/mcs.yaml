@@ -1,0 +1,11 @@
+- id: mcsxinxianquan
+  name: MCSxinxianquan Management System
+  author: P1finger
+  tags:
+    - mcsxinxianquan
+    - management-system
+  description: MCSxinxianquan Management System
+  matchers:
+    - location: body
+      words:
+        - MCS信息安全管理系统

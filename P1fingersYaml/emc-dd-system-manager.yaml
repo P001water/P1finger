@@ -1,0 +1,11 @@
+- id: emc-dd-manager
+  name: Emc-dd-system-manager
+  author: P001
+  tags:
+    - emc-dd-manager
+  description: Emc-dd-system-manager
+  matchers:
+    - location: body
+      words:
+        - dd system manager
+        - emc-favicon.ico

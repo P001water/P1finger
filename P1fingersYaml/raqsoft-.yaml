@@ -1,0 +1,10 @@
+- id: raqsoftrunqianbaobiao
+  name: Raqsoftrunqianbaobiao
+  author: P001
+  tags:
+    - raqsoftrunqianbaobiao
+  description: Raqsoftrunqianbaobiao
+  matchers:
+    - location: body
+      words:
+        - raqsoft

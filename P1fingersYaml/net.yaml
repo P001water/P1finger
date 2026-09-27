@@ -1,0 +1,24 @@
+- id: net
+  name: .net
+  author: P1finger
+  tags:
+    - net
+  description: .net
+  matchers:
+    - location: body
+      words:
+        - content="Visual Basic
+    - condition: and
+      location: body
+      words:
+        - content="Visual Basic .NET 7.1
+- id: superdata
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - 速达天耀V5.NET-PRO

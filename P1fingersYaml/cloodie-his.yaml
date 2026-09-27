@@ -1,0 +1,11 @@
+- id: cloodie-his
+  name: Cloodie-his
+  author: P001
+  tags:
+    - cloodie-his
+  description: Cloodie-his
+  matchers:
+    - location: body
+      words:
+        - href="/design/design/cloodie.css
+        - src="/design/common/his.logo.white.svg" alt="his logo

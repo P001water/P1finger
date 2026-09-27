@@ -1,0 +1,20 @@
+- id: zktime
+  name: ZKTime
+  author: P1finger
+  tags:
+    - zktime
+  description: ZKTime
+  matchers:
+    - location: body
+      words:
+        - ZKTime
+- id: zktimedakaji
+  name: ZKTIMEdakaji
+  author: P1finger
+  tags:
+    - zktimedakaji
+  description: ZKTIMEdakaji
+  matchers:
+    - location: body
+      words:
+        - ZKTECO

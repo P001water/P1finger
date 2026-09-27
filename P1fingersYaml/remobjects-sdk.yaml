@@ -1,0 +1,10 @@
+- id: remobjects-sdk
+  name: Remobjects Sdk
+  author: P1finger
+  tags:
+    - remobjects-sdk
+  description: Remobjects Sdk
+  matchers:
+    - hash:
+        - "72005642"
+      location: favicon

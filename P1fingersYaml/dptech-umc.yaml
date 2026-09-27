@@ -1,0 +1,11 @@
+- id: dptech-umc
+  name: Dptech-umc
+  author: P001
+  tags:
+  - dptech
+  - dptech-umc
+  description: Dptech-umc
+  matchers:
+  - location: body
+    words:
+    - onsubmit="return sys_submit(this)

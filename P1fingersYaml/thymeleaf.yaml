@@ -1,0 +1,10 @@
+- id: thymeleaf
+  name: Thymeleaf
+  author: P1finger
+  tags:
+    - thymeleaf
+  description: Thymeleaf
+  matchers:
+    - location: body
+      words:
+        - thymeleaf

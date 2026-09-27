@@ -1,0 +1,29 @@
+- id: huawei-11
+  name: Huawei
+  author: Fofa
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /netopen/theme/css/inFrame.css
+    - condition: or
+      location: title
+      words:
+        - Huawei NetOpen System
+- id: huawei-12
+  name: Huawei
+  author: P1finger
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - location: body
+      words:
+        - /netopen/theme/css/inFrame.css
+    - location: body
+      words:
+        - /netopen/theme/css/inFrame.css
+        - Huawei NetOpen System

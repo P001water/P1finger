@@ -1,0 +1,30 @@
+- id: daffodil-crm
+  name: Daffodil-crm
+  author: P1finger
+  tags:
+    - daffodil-crm
+  description: Daffodil-crm
+  matchers:
+    - location: body
+      words:
+        - Powered by Daffodil
+        - Design & Development by Daffodil Software Ltd
+    - location: body
+      words:
+        - Design & Development by Daffodil Software Ltd
+        - href="http://vus.daffodilvarsity.edu.bd/?app=result_show">Academic Results
+- id: daffodil-crm-2
+  name: Daffodil-CRM
+  author: Fofa
+  tags:
+    - daffodil-crm
+  description: Daffodil-CRM
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Daffodil
+    - condition: or
+      location: body
+      words:
+        - Design & Development by Daffodil Software Ltd

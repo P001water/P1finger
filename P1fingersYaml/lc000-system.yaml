@@ -1,0 +1,10 @@
+- id: lc000
+  name: Lc000-system
+  author: P001
+  tags:
+    - lc000
+  description: Lc000-system
+  matchers:
+    - location: body
+      words:
+        - <title>secondary_nodes</title>

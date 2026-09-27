@@ -1,0 +1,11 @@
+- id: good10000-tios
+  name: Good10000-tios
+  author: P001
+  tags:
+    - good10000-tios
+  description: Good10000-tios
+  matchers:
+    - location: body
+      words:
+        - value="https://mail.sinopec.com/owa/"
+        - 北京万佳信科技有限公司

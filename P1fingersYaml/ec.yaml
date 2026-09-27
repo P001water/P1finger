@@ -1,0 +1,12 @@
+- id: fangzhengec-data-exchange
+  name: FangzhengEC Data Exchange
+  author: P1finger
+  tags:
+  - exchange
+  - fangzhengec
+  - data-exchange
+  description: FangzhengEC Data Exchange
+  matchers:
+  - location: body
+    words:
+    - 方正EC-数据交换管理系统

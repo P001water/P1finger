@@ -1,0 +1,10 @@
+- id: cari
+  name: Cari-system
+  author: P001
+  tags:
+    - cari
+  description: Cari-system
+  matchers:
+    - location: body
+      words:
+        - src="/cariweb/images/images-new

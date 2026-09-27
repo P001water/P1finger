@@ -1,0 +1,23 @@
+- id: trendnet-ip-cam
+  name: Trendnet IP Cam
+  author: Fofa
+  tags:
+  - trendnet
+  - trendnet-ip-cam
+  description: Trendnet IP Cam
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Basic realm="netcam
+- id: trendnet-ip-cam-2
+  name: Trendnet Ip Cam
+  author: P1finger
+  tags:
+  - trendnet
+  - trendnet-ip-cam
+  description: Trendnet Ip Cam
+  matchers:
+  - location: header
+    words:
+    - Basic realm="netcam"

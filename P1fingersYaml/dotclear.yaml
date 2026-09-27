@@ -1,0 +1,17 @@
+- id: dotclear
+  name: Dotclear
+  author: Fofa
+  tags:
+    - dotclear
+  description: Dotclear
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://dotclear.org/
+    - location: body
+      words:
+        - Powered by <a href="http://dotclear.org/
+    - location: body
+      words:
+        - powered by <a href="http://dotclear.org/

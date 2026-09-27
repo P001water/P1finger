@@ -1,0 +1,13 @@
+- id: uxsino-next-generation-firewall
+  name: Uxsino Next-Generation Firewall
+  author: P001
+  tags:
+    - uxsino
+    - next-generation-firewall
+  description: Uxsino Next-Generation Firewall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - http://www.uxsino.com
+        - 优炫下一代防火墙

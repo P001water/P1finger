@@ -1,0 +1,28 @@
+- id: fitelnet
+  name: Fitelnet-router
+  author: P1finger
+  tags:
+    - fitelnet
+  description: Fitelnet-router
+  matchers:
+    - location: body
+      words:
+        - FITELnet-
+    - location: header
+      words:
+        - GR-HTTPD Server
+- id: fitelnet-2
+  name: FITELnet-Router
+  author: Fofa
+  tags:
+    - fitelnet
+  description: FITELnet-Router
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - GR-HTTPD Server
+    - condition: or
+      location: title
+      words:
+        - FITELnet-

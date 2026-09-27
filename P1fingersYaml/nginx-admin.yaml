@@ -1,0 +1,14 @@
+- id: nginx
+  name: Nginx_admin
+  author: P1finger
+  tags:
+    - nginx
+  description: Nginx_admin
+  matchers:
+    - location: header
+      words:
+        - nginx admin
+    - condition: and
+      location: header
+      words:
+        - nginx admin

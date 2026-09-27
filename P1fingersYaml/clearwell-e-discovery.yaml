@@ -1,0 +1,31 @@
+- id: clearwell-discovery
+  name: Clearwell-e-discovery
+  author: P1finger
+  tags:
+    - clearwell-discovery
+  description: Clearwell-e-discovery
+  matchers:
+    - location: body
+      words:
+        - Clearwell E-Discovery Platform log in
+    - location: header
+      words:
+        - Clearwell
+    - location: body
+      words:
+        - 'server: clearwell'
+- id: clearwell-discovery-2
+  name: Clearwell-E-Discovery
+  author: Fofa
+  tags:
+    - clearwell-discovery
+  description: Clearwell-E-Discovery
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Clearwell E-Discovery Platform log in
+    - condition: or
+      location: header
+      words:
+        - Clearwell

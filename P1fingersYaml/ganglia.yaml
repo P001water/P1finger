@@ -1,0 +1,33 @@
+- id: ganglia
+  name: Ganglia
+  author: Fofa
+  tags:
+    - ganglia
+  description: Ganglia
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 'Ganglia:: Cluster Report'
+    - condition: or
+      location: body
+      words:
+        - OnChange="ganglia_form.submit();
+    - condition: or
+      location: body
+      words:
+        - NAME="ganglia_form
+    - condition: or
+      location: header
+      words:
+        - gs=unspecified
+    - location: body
+      words:
+        - ganglia
+    - location: header
+      words:
+        - gs=unspecified
+    - location: body
+      words:
+        - name="ganglia_form
+        - onchange="ganglia_form.submit();

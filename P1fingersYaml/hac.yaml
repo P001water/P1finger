@@ -1,0 +1,11 @@
+- id: hacyunweishenjidenglu-system
+  name: HACyunweishenjidenglu System
+  author: P1finger
+  tags:
+    - hacyunweishenjidenglu
+    - system
+  description: HACyunweishenjidenglu System
+  matchers:
+    - location: body
+      words:
+        - HAC 运维审计系统登录

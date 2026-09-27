@@ -1,0 +1,11 @@
+- id: dptech-ips2000
+  name: DPTECH IPS2000
+  author: P1finger
+  tags:
+  - dptech
+  - dptech-ips2000
+  description: DPTECH IPS2000
+  matchers:
+  - location: body
+    words:
+    - ips2000

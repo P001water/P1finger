@@ -1,0 +1,19 @@
+- id: beecms
+  name: Beecms
+  author: P1finger
+  tags:
+    - beecms
+  description: Beecms
+  matchers:
+    - location: body
+      words:
+        - BEESCMS
+        - template/default/images/slides.min.jquery.js
+    - condition: or
+      location: body
+      words:
+        - BEESCMS")
+    - condition: or
+      location: body
+      words:
+        - template/default/images/slides.min.jquery.js

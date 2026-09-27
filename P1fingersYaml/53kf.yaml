@@ -1,0 +1,18 @@
+- id: 53kf
+  name: 53kf
+  author: P001
+  tags:
+    - 53kf
+  description: 53kf
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - chat.53kf.com/company.php
+        - chat.53kf.com/kf.php
+        - powered by 53kf
+        - tb.53kf.com/code/
+    - location: body
+      words:
+        - 53kf.com
+        - 53KF登录

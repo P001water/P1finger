@@ -1,0 +1,10 @@
+- id: ceph
+  name: Ceph
+  author: P001
+  tags:
+    - ceph
+  description: Ceph
+  matchers:
+    - location: body
+      words:
+        - class="ceph-none-found" rv-hide="rbd_pools

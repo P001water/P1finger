@@ -1,0 +1,18 @@
+- id: varnish
+  name: Varnish
+  author: Fofa
+  tags:
+    - varnish
+  description: Varnish
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Varnish
+    - location: header
+      words:
+        - X-Varnish
+    - location: header
+      words:
+        - 'Server: Varnish'
+        - X-Varnish

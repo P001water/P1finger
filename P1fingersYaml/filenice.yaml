@@ -1,0 +1,26 @@
+- id: filenice
+  name: FileNice
+  author: Fofa
+  tags:
+    - filenice
+  description: FileNice
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="the fantabulous mechanical eviltwin code machine
+    - condition: or
+      location: body
+      words:
+        - fileNice/fileNice.js
+    - location: body
+      words:
+        - content="the fantabulous mechanical eviltwin code machine
+        - fileNice/fileNice.js
+    - location: body
+      words:
+        - content="the fantabulous mechanical eviltwin code machine
+        - filenice/filenice.js
+    - location: body
+      words:
+        - fileNice&trade

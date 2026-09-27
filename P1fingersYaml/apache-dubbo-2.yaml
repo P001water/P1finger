@@ -1,0 +1,11 @@
+- id: apache-dubbo-2
+  name: Apache dubbo
+  author: nuclei
+  tags:
+  - apache
+  - dubbo
+  description: Apache dubbo
+  matchers:
+  - location: header
+    words:
+    - Basic realm="dubbo"

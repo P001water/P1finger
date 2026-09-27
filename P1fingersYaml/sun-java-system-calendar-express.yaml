@@ -1,0 +1,10 @@
+- id: sun-java-calendar-express
+  name: Sun-java-system-calendar-express
+  author: P001
+  tags:
+    - sun-java-calendar-express
+  description: Sun-java-system-calendar-express
+  matchers:
+    - location: body
+      words:
+        - <img src="imx/login-logo.gif" width="186" height="79" alt="sun microsystems, inc.">

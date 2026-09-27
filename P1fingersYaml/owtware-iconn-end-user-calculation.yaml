@@ -1,0 +1,10 @@
+- id: owtware-iconn-end-user-calculation
+  name: Owtware-iconn-end-user-calculation
+  author: P001
+  tags:
+    - owtware-iconn-end-user-calculation
+  description: Owtware-iconn-end-user-calculation
+  matchers:
+    - location: body
+      words:
+        - src="/res/api/owvmapi.js?

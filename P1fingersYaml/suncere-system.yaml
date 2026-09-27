@@ -1,0 +1,10 @@
+- id: suncere
+  name: Suncere-system
+  author: P001
+  tags:
+    - suncere
+  description: Suncere-system
+  matchers:
+    - location: body
+      words:
+        - 技术支持：广东旭诚科技有限公司

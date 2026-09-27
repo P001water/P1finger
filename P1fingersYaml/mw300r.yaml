@@ -1,0 +1,14 @@
+- id: shuixingmw300r
+  name: ShuixingMW300R
+  author: Fofa
+  tags:
+    - shuixingmw300r
+  description: ShuixingMW300R
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MW300R
+    - location: header
+      words:
+        - MW300R

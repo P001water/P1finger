@@ -1,0 +1,11 @@
+- id: vmware-carbon-black-app
+  name: VMware Carbon Black App Control
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-carbon-black-app
+  description: VMware Carbon Black App Control
+  matchers:
+  - location: body
+    words:
+    - Carbon Black App Control

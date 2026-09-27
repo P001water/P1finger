@@ -1,0 +1,13 @@
+- id: safe3
+  name: Safe3
+  author: P1finger
+  tags:
+    - safe3
+  description: Safe3
+  matchers:
+    - location: header
+      words:
+        - Safe3 Web Firewall
+    - location: body
+      words:
+        - Safe3waf

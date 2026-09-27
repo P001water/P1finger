@@ -1,0 +1,10 @@
+- id: tptcms
+  name: TPTCMS
+  author: P1finger
+  tags:
+    - tptcms
+  description: TPTCMS
+  matchers:
+    - location: body
+      words:
+        - Powered by TPTCMS

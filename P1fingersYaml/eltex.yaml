@@ -1,0 +1,10 @@
+- id: eltex
+  name: Eltex
+  author: P1finger
+  tags:
+    - eltex
+  description: Eltex
+  matchers:
+    - hash:
+        - "1877797890"
+      location: favicon

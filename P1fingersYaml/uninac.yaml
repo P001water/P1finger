@@ -1,0 +1,13 @@
+- id: leagsoft-system-2
+  name: Leagsoft System
+  author: P1finger
+  tags:
+    - leagsoft
+    - system
+  description: Leagsoft System
+  matchers:
+    - location: body
+      words:
+        - UniNAC
+        - UniNAC准入控制系统
+        - /portal/redirect/nacc/

@@ -1,0 +1,16 @@
+- id: ui
+  name: H_ui
+  author: P001
+  tags:
+    - ui
+  description: H_ui
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - h-ui.js
+        - h-ui.min.js
+        - /css/h-ui.login.css
+        - /h-ui.admin/
+        - /css/h-ui.min.css
+        - html5shi.js

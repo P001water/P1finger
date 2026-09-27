@@ -1,0 +1,10 @@
+- id: combivox
+  name: Combivox
+  author: P1finger
+  tags:
+    - combivox
+  description: Combivox
+  matchers:
+    - hash:
+        - "-342262483"
+      location: favicon

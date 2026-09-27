@@ -1,0 +1,22 @@
+- id: apache-axis-2
+  name: apache-axis-detect
+  author: nuclei
+  tags:
+  - apache
+  - axis
+  - axis2
+  - middleware
+  description: Axis and Axis2 detection
+  paths:
+  - /axis2/
+  - /axis/
+  matchers:
+  - location: body
+    words:
+    - Validate
+    - Welcome
+    - Axis
+    - deployed
+    - installation
+    - Admin
+    condition: and

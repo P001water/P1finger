@@ -1,0 +1,13 @@
+- id: websocket
+  name: Websocket
+  author: P001
+  tags:
+    - websocket
+  description: Websocket
+  matchers:
+    - location: body
+      words:
+        - websockets request was expected
+        - not a websocket handshake
+        - ws://
+        - wss://

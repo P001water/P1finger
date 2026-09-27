@@ -1,0 +1,11 @@
+- id: pengumuman-kelulusan
+  name: Pengumuman Kelulusan
+  author: P1finger
+  tags:
+    - pengumuman-kelulusan
+  description: Pengumuman Kelulusan
+  matchers:
+    - location: body
+      words:
+        - Pengumuman.Kelulusan
+        - Masukkan

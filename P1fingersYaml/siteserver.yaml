@@ -1,0 +1,36 @@
+- id: siteserver-2
+  name: SiteServer
+  author: Fofa
+  tags:
+    - siteserver
+  description: SiteServer
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - http://www.siteserver.cn
+    - condition: or
+      location: body
+      words:
+        - SiteServer CMS")
+    - condition: or
+      location: title
+      words:
+        - Powered by SiteServer CMS
+    - condition: or
+      location: body
+      words:
+        - T_系统首页模板
+    - condition: and
+      location: body
+      words:
+        - sitefiles")
+    - location: body
+      words:
+        - T_系统首页模板
+        - siteserver
+        - sitefiles
+    - location: body
+      words:
+        - content="SiteServer
+        - SiteServer CMS

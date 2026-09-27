@@ -1,0 +1,11 @@
+- id: bossmail
+  name: BossMail
+  author: P001
+  tags:
+    - bossmail
+  description: BossMail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by bossmail

@@ -1,0 +1,10 @@
+- id: homegrown-website-hosting
+  name: Homegrown Website Hosting
+  author: P1finger
+  tags:
+    - homegrown-website-hosting
+  description: Homegrown Website Hosting
+  matchers:
+    - hash:
+        - "-421986013"
+      location: favicon

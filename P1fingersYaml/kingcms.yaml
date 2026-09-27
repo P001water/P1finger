@@ -1,0 +1,38 @@
+- id: kingcms
+  name: Kingcms
+  author: Fofa
+  tags:
+    - kingcms
+  description: Kingcms
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - kingcms
+    - condition: or
+      location: body
+      words:
+        - content="KingCMS
+    - condition: or
+      location: body
+      words:
+        - Powered by KingCMS
+    - location: body
+      words:
+        - kingcms
+        - content="KingCMS
+        - Powered by KingCMS
+    - location: body
+      words:
+        - <meta name="generator" content="KingCMS"/>
+- id: kingcms-2
+  name: KingCMS CMS
+  author: P1finger
+  tags:
+    - kingcms
+    - cms
+  description: KingCMS CMS
+  matchers:
+    - location: body
+      words:
+        - Powered by KingCMS

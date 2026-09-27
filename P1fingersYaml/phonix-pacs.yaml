@@ -1,0 +1,10 @@
+- id: phonix-pacs
+  name: Phonix-pacs
+  author: P001
+  tags:
+    - phonix-pacs
+  description: Phonix-pacs
+  matchers:
+    - location: body
+      words:
+        - <a href="/pacs/"><img src="pacs/images/logo.svg">

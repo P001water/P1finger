@@ -1,0 +1,24 @@
+- id: iscripts-multicart
+  name: Iscripts-multicart
+  author: P1finger
+  tags:
+    - iscripts-multicart
+  description: Iscripts-multicart
+  matchers:
+    - location: body
+      words:
+        - Powered by <a href="http://iscripts.com/multicart
+- id: iscripts-multicart-2
+  name: IScripts-MultiCart
+  author: Fofa
+  tags:
+    - iscripts-multicart
+  description: IScripts-MultiCart
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://iscripts.com/multicart
+    - location: body
+      words:
+        - iScripts Multicart

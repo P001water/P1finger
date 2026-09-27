@@ -1,0 +1,10 @@
+- id: zfsoft-2
+  name: Zfsoft
+  author: P1finger
+  tags:
+    - zfsoft
+  description: Zfsoft
+  matchers:
+    - location: body
+      words:
+        - style/base/jw.css

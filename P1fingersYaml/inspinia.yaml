@@ -1,0 +1,12 @@
+- id: inspinia
+  name: Inspinia
+  author: P001
+  tags:
+    - inspinia
+  description: Inspinia
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - inspinia
+        - name="password

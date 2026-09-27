@@ -1,0 +1,10 @@
+- id: zte-5
+  name: ZTE
+  author: P1finger
+  tags:
+    - zte
+  description: ZTE
+  matchers:
+    - location: body
+      words:
+        - ZXSEC US

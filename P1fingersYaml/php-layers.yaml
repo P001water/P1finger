@@ -1,0 +1,12 @@
+- id: php-layers
+  name: Php-layers
+  author: P001
+  tags:
+    - php-layers
+  description: Php-layers
+  matchers:
+    - location: body
+      words:
+        - <!-- beginning of menu header - php layers menu
+        - <!-- end of menu header - php layers menu
+        - alt="powered by php layers menu

@@ -1,0 +1,14 @@
+- id: w7-officialaccounts
+  name: W7-officialaccounts
+  author: P001
+  tags:
+    - w7-officialaccounts
+  description: W7-officialaccounts
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="微擎,微信
+        - onsubmit="return formcheck();" class="we7-form">
+        - class="copyright">powered by <a href="http://www.we7.cc"><b>微擎</b>
+        - powered by we7.cc

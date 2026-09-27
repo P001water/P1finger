@@ -1,0 +1,19 @@
+- id: fangmail
+  name: Fangmail
+  author: P1finger
+  tags:
+    - fangmail
+  description: Fangmail
+  matchers:
+    - location: body
+      words:
+        - /fangmail/default/css/em_css.css
+    - condition: and
+      location: body
+      words:
+        - /fangmail/default/css/em_css.css
+    - condition: and
+      location: body
+      words:
+        - /fangmail/cgi/index.cgi
+        - /fangmail/default/css/em_css.css

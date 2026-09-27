@@ -1,0 +1,11 @@
+- id: asp168-oho
+  name: Asp168-oho
+  author: P001
+  tags:
+    - asp168-oho
+  description: Asp168-oho
+  matchers:
+    - location: body
+      words:
+        - default.php?mod=article&do=detail&tid
+        - upload/moban/images/style.css

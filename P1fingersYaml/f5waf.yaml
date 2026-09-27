@@ -1,0 +1,11 @@
+- id: f5waf
+  name: F5WAF
+  author: P1finger
+  tags:
+    - f5waf
+  description: F5WAF
+  matchers:
+    - location: body
+      words:
+        - The requested URL was rejected
+        - security.f5aas.com

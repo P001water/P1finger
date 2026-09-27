@@ -1,0 +1,10 @@
+- id: micro
+  name: Micro CMS
+  author: P1finger
+  tags:
+    - micro
+  description: Micro CMS
+  matchers:
+    - location: body
+      words:
+        - Solidago Micro CMS

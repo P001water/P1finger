@@ -1,0 +1,23 @@
+- id: spark-history
+  name: Spark-history-server
+  author: P001
+  tags:
+  - spark
+  - spark-history
+  description: Spark-history-server
+  matchers:
+  - location: body
+    words:
+    - src="/static/historypage-common.js">
+- id: spark-history-2
+  name: Spark History Server
+  author: P1finger
+  tags:
+  - spark
+  - spark-history
+  description: Spark History Server
+  matchers:
+  - location: body
+    words:
+    - history server
+    - src="/static/historypage-common.js">

@@ -1,0 +1,19 @@
+- id: 25yi
+  name: 25yi
+  author: Fofa
+  tags:
+    - 25yi
+  description: 25yi
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by 25yi
+    - condition: or
+      location: body
+      words:
+        - css/25yi.css
+    - location: body
+      words:
+        - Powered by 25yi
+        - css/25yi.css

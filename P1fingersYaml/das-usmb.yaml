@@ -1,0 +1,11 @@
+- id: das-usmb
+  name: Das-usmb-
+  author: P001
+  tags:
+    - das-usmb
+  description: Das-usmb-
+  matchers:
+    - location: body
+      words:
+        - src="loadoem?path=login-logo.png
+        - var pagefunc968535468893538dasdaweqwertion = "timeout";

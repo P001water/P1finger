@@ -1,0 +1,11 @@
+- id: sniper
+  name: Sniper
+  author: P1finger
+  tags:
+    - sniper
+  description: Sniper
+  matchers:
+    - location: body
+      words:
+        - Sniper Login
+        - REI Sniper Login

@@ -1,0 +1,10 @@
+- id: teleradiology-telrads
+  name: Teleradiology-telrads
+  author: P001
+  tags:
+    - teleradiology-telrads
+  description: Teleradiology-telrads
+  matchers:
+    - location: body
+      words:
+        - https://clients.telrads.com/css/feedback.css

@@ -1,0 +1,13 @@
+- id: feifeicms
+  name: Feifeicms
+  author: P001
+  tags:
+    - feifeicms
+  description: Feifeicms
+  matchers:
+    - location: body
+      words:
+        - data-target="#navbar-feifeicms"
+    - location: body
+      words:
+        - id="navbar-feifeicms"

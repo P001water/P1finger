@@ -1,0 +1,10 @@
+- id: mailwizz
+  name: Mailwizz
+  author: P1finger
+  tags:
+    - mailwizz
+  description: Mailwizz
+  matchers:
+    - hash:
+        - "2127152956"
+      location: favicon

@@ -1,0 +1,14 @@
+- id: orientdb
+  name: OrientDB
+  author: Fofa
+  tags:
+    - orientdb
+  description: OrientDB
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Redirecting to OrientDB
+    - location: body
+      words:
+        - Redirecting to OrientDB

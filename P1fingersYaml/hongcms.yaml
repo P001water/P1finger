@@ -1,0 +1,10 @@
+- id: hongcms
+  name: Hongcms
+  author: P1finger
+  tags:
+    - hongcms
+  description: Hongcms
+  matchers:
+    - location: body
+      words:
+        - alt="HongCMS"

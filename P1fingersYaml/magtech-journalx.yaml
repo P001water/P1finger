@@ -1,0 +1,10 @@
+- id: magtech-journalx
+  name: Magtech-journalx
+  author: P001
+  tags:
+    - magtech-journalx
+  description: Magtech-journalx
+  matchers:
+    - location: body
+      words:
+        - journalx/authorlogon.action?mag_id

@@ -1,0 +1,12 @@
+- id: uniform
+  name: Uniform-server
+  author: P001
+  tags:
+    - uniform
+  description: Uniform-server
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.uniformserver.com">
+        - <div id="divider">developed by <a href="http://www.uniformserver.com/">the uniform server development team</a></div>
+        - <meta name="description" content="the uniform server 8.1.0-coral." />

@@ -1,0 +1,10 @@
+- id: trend-micro-deep-discovery-analyzer
+  name: Trend-Micro-Deep-Discovery-Analyzer
+  author: P1finger
+  tags:
+    - trend-micro-deep-discovery-analyzer
+  description: Trend-Micro-Deep-Discovery-Analyzer
+  matchers:
+    - location: body
+      words:
+        - 亚信安全&trade; 深度威胁发现设备

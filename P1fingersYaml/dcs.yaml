@@ -1,0 +1,10 @@
+- id: yongzhongdcs
+  name: Yongzhongdcs
+  author: P001
+  tags:
+    - yongzhongdcs
+  description: Yongzhongdcs
+  matchers:
+    - location: body
+      words:
+        - <title>永中文档在线预览dcs</title>

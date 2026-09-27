@@ -1,0 +1,11 @@
+- id: a8yinlewang-cms
+  name: A8yinlewang CMS
+  author: P1finger
+  tags:
+    - a8yinlewang
+    - cms
+  description: A8yinlewang CMS
+  matchers:
+    - location: body
+      words:
+        - A8音乐网内容管理系统

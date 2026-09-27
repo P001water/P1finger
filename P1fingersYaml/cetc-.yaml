@@ -1,0 +1,13 @@
+- id: cetcgongye-firewall
+  name: Cetcgongye Firewall
+  author: P001
+  tags:
+    - cetcgongye
+    - firewall
+  description: Cetcgongye Firewall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /webgui/scripts/dd_belatedpng.js
+        - 工业防火墙

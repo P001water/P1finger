@@ -1,0 +1,30 @@
+- id: dmxready-portfolio-manager
+  name: Dmxready-portfolio-manager
+  author: P1finger
+  tags:
+    - dmxready-portfolio-manager
+  description: Dmxready-portfolio-manager
+  matchers:
+    - location: body
+      words:
+        - /css/PortfolioManager/styles_display_page.css
+        - rememberme_portfoliomanager
+    - location: body
+      words:
+        - /css/portfoliomanager/styles_display_page.css
+        - rememberme_portfoliomanager
+- id: dmxready-portfolio-manager-2
+  name: DMXReady-Portfolio-Manager
+  author: Fofa
+  tags:
+    - dmxready-portfolio-manager
+  description: DMXReady-Portfolio-Manager
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /css/PortfolioManager/styles_display_page.css
+    - condition: or
+      location: body
+      words:
+        - rememberme_portfoliomanager

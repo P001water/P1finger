@@ -1,0 +1,10 @@
+- id: jenzabar
+  name: Jenzabar
+  author: P1finger
+  tags:
+    - jenzabar
+  description: Jenzabar
+  matchers:
+    - location: body
+      words:
+        - Powered by Jenzabar

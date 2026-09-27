@@ -1,0 +1,12 @@
+- id: simsweb
+  name: Simsweb
+  author: P001
+  tags:
+    - simsweb
+  description: Simsweb
+  matchers:
+    - location: body
+      words:
+        - <form onsubmit="sendinfo(); return false;" name="logon
+        - index.html"><font color="black" face="arial">loading simsweb, please wait.....</font></a></h2>
+        - src="/simsweb/monitor.js

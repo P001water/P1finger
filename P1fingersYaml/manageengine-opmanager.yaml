@@ -1,0 +1,11 @@
+- id: manageengine-opmanager
+  name: Manageengine-opmanager
+  author: P001
+  tags:
+    - manageengine-opmanager
+  description: Manageengine-opmanager
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.manageengine.com/products/opmanager/index.html" target=
+        - the complete network monitoring software from manageengine

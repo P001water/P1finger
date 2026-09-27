@@ -1,0 +1,10 @@
+- id: phpm
+  name: PHPM
+  author: P1finger
+  tags:
+    - phpm
+  description: PHPM
+  matchers:
+    - location: body
+      words:
+        - <title>PHPFM

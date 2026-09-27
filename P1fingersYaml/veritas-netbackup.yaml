@@ -1,0 +1,10 @@
+- id: veritas-netbackup
+  name: Veritas-netbackup
+  author: P001
+  tags:
+    - veritas-netbackup
+  description: Veritas-netbackup
+  matchers:
+    - location: body
+      words:
+        - href="/opscenter/features/common/images/favicon.ico"

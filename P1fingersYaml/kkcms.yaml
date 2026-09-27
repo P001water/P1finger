@@ -1,0 +1,10 @@
+- id: kkcms
+  name: Kkcms
+  author: P1finger
+  tags:
+    - kkcms
+  description: Kkcms
+  matchers:
+    - location: body
+      words:
+        - Powered by KKCMS

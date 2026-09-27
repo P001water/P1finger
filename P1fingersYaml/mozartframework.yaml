@@ -1,0 +1,14 @@
+- id: mozartframework
+  name: Mozartframework
+  author: Fofa
+  tags:
+    - mozartframework
+  description: Mozartframework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Mozart Framework
+    - location: header
+      words:
+        - Mozart Framework

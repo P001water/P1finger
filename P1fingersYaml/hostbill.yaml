@@ -1,0 +1,26 @@
+- id: hostbill
+  name: HostBill
+  author: Fofa
+  tags:
+    - hostbill
+  description: HostBill
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://hostbillapp.com
+    - condition: or
+      location: body
+      words:
+        - <strong>HostBill
+    - location: body
+      words:
+        - Powered by <a href="http://hostbillapp.com
+        - <strong>HostBill
+    - location: body
+      words:
+        - <strong>hostbill
+        - powered by <a href="http://hostbillapp.com
+    - location: body
+      words:
+        - <strong>HostBill</strong>

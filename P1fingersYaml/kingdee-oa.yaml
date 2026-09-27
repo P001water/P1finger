@@ -1,0 +1,13 @@
+- id: kingdee-4
+  name: Kingdee OA
+  author: P1finger
+  tags:
+    - kingdee
+  description: Kingdee OA
+  matchers:
+    - location: body
+      words:
+        - logo-kingdee.png
+    - location: header
+      words:
+        - oa/login/logout.jsp

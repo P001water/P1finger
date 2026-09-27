@@ -1,0 +1,11 @@
+- id: gitstack
+  name: Gitstack
+  author: P1finger
+  tags:
+    - gitstack
+  description: Gitstack
+  matchers:
+    - location: body
+      words:
+        - ^gitstack/
+        - src="/gitstack.png"

@@ -1,0 +1,19 @@
+- id: bigace
+  name: BIGACE
+  author: Fofa
+  tags:
+    - bigace
+  description: BIGACE
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="BIGACE
+    - condition: or
+      location: body
+      words:
+        - Site is running BIGACE
+    - location: body
+      words:
+        - content="BIGACE
+        - Site is running BIGACE

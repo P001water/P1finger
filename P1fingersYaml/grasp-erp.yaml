@@ -1,0 +1,10 @@
+- id: grasp-erp
+  name: Grasp-erp
+  author: P001
+  tags:
+    - grasp-erp
+  description: Grasp-erp
+  matchers:
+    - location: body
+      words:
+        - alert("欢迎使用 【管家婆分销erp)

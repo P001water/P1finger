@@ -1,0 +1,21 @@
+- id: fat-freeframework
+  name: Fat-freeframework
+  author: P1finger
+  tags:
+    - fat-freeframework
+  description: Fat-freeframework
+  matchers:
+    - location: header
+      words:
+        - Fat-Free Framework
+- id: fat-freeframework-2
+  name: Fat-FreeFramework
+  author: Fofa
+  tags:
+    - fat-freeframework
+  description: Fat-FreeFramework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Fat-Free Framework

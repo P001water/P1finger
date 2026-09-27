@@ -1,0 +1,11 @@
+- id: webyep
+  name: WebYep CMS
+  author: P1finger
+  tags:
+    - webyep
+  description: WebYep CMS
+  matchers:
+    - location: body
+      words:
+        - /webyep-system/program
+        - /webyep-system/data

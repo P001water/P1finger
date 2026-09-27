@@ -1,0 +1,20 @@
+- id: phpems-examination-system
+  name: Phpems Examination System
+  author: P1finger
+  tags:
+    - phpems
+    - examination-system
+  description: Phpems Examination System
+  matchers:
+    - location: body
+      words:
+        - phpems
+        - content="PHPEMS
+    - condition: or
+      location: title
+      words:
+        - phpems
+    - condition: or
+      location: body
+      words:
+        - content="PHPEMS

@@ -1,0 +1,15 @@
+- id: netdoit
+  name: Netdoit
+  author: P001
+  tags:
+    - netdoit
+  description: Netdoit
+  matchers:
+    - location: body
+      words:
+        - align="center"><a href="http://www.net-doit.com" target="_blank
+        - power by netdoit
+    - location: body
+      words:
+        - POWER BY NETDOIT
+        - class="copyrightnetdoit"

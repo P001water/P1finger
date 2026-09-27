@@ -1,0 +1,31 @@
+- id: apc
+  name: Apc-management
+  author: P001
+  tags:
+    - apc
+  description: Apc-management
+  matchers:
+    - location: body
+      words:
+        - this object on the apc management web server is protected
+- id: apc-2
+  name: APC_Management
+  author: Fofa
+  tags:
+    - apc
+  description: APC_Management
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - APC Management Card
+    - condition: or
+      location: body
+      words:
+        - This object on the APC Management Web Server is protected
+    - location: body
+      words:
+        - This object on the APC Management Web Server is protected
+    - location: header
+      words:
+        - APC Management Card

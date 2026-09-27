@@ -1,0 +1,44 @@
+- id: drupal-2
+  name: Drupal
+  author: Fofa
+  tags:
+    - drupal
+  description: Drupal
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'X-Generator: Drupal'
+    - condition: or
+      location: body
+      words:
+        - content="Drupal
+    - condition: or
+      location: body
+      words:
+        - jQuery.extend(Drupal.settings
+    - condition: and
+      location: body
+      words:
+        - /sites/all/modules/
+    - condition: and
+      location: body
+      words:
+        - /sites/all/themes/")
+    - location: body
+      words:
+        - content="Drupal
+        - jQuery.extend(Drupal.settings
+        - /sites/default/files/
+        - /sites/all/modules/
+        - /sites/all/themes/
+    - location: header
+      words:
+        - 'X-Generator: Drupal'
+    - hash:
+        - "1174841451"
+        - "-167656799"
+      location: favicon
+    - hash:
+        - "-167656799"
+      location: favicon

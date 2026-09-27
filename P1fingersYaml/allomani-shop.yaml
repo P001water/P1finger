@@ -1,0 +1,10 @@
+- id: allomani-shop
+  name: Allomani Shop
+  author: P1finger
+  tags:
+    - allomani-shop
+  description: Allomani Shop
+  matchers:
+    - location: body
+      words:
+        - content="Allomani

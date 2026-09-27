@@ -1,0 +1,10 @@
+- id: waspd
+  name: Waspd
+  author: P001
+  tags:
+    - waspd
+  description: Waspd
+  matchers:
+    - location: body
+      words:
+        - pending waspd activities</font>

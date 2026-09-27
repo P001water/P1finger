@@ -1,0 +1,26 @@
+- id: aruba
+  name: Aruba-device
+  author: P1finger
+  tags:
+    - aruba
+  description: Aruba-device
+  matchers:
+    - location: body
+      words:
+        - /images/arubalogo.gif
+        - Aruba Networks
+- id: aruba-2
+  name: Aruba-Device
+  author: Fofa
+  tags:
+    - aruba
+  description: Aruba-Device
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /images/arubalogo.gif
+    - condition: and
+      location: body
+      words:
+        - Aruba Networks")

@@ -1,0 +1,12 @@
+- id: netwin-surgemail
+  name: Netwin-surgemail
+  author: P001
+  tags:
+    - netwin-surgemail
+  description: Netwin-surgemail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="/about_mail.htm">about surgemail
+        - surgemail welcome page

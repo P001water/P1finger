@@ -1,0 +1,12 @@
+- id: vmware-oneaccess
+  name: Vmware Oneaccess
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-oneaccess
+  description: Vmware Oneaccess
+  matchers:
+  - location: body
+    words:
+    - SAAS/horizon/css
+    - Workspace ONE Access

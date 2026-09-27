@@ -1,0 +1,13 @@
+- id: ipcomdierdai-firewall
+  name: Ipcomdierdai Firewall
+  author: P001
+  tags:
+    - ipcomdierdai
+    - firewall
+  description: Ipcomdierdai Firewall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - technology, inc.
+        - 深圳市和为顺网络技术有限公司"z?pkq

@@ -1,0 +1,10 @@
+- id: web2project
+  name: Web2project
+  author: P001
+  tags:
+    - web2project
+  description: Web2project
+  matchers:
+    - location: body
+      words:
+        - </head><body>fatal error. you haven't created a config file yet.<br/><a href=

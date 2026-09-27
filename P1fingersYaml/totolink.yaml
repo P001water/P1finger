@@ -1,0 +1,10 @@
+- id: totolink
+  name: Totolink
+  author: P1finger
+  tags:
+    - totolink
+  description: Totolink
+  matchers:
+    - hash:
+        - "547474373"
+      location: favicon

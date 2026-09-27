@@ -1,0 +1,32 @@
+- id: chamilo
+  name: Chamilo
+  author: Fofa
+  tags:
+    - chamilo
+  description: Chamilo
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'X-Powered-By: Chamilo'
+    - condition: or
+      location: body
+      words:
+        - <link href="http://www.chamilo.org/documentation.php
+    - condition: or
+      location: body
+      words:
+        - content="Chamilo
+    - location: body
+      words:
+        - <link href="http://www.chamilo.org/documentation.php
+        - content="Chamilo
+    - location: header
+      words:
+        - 'X-Powered-By: Chamilo'
+    - location: body
+      words:
+        - <meta name="generator" content="chamilo
+    - location: header
+      words:
+        - Chamilo

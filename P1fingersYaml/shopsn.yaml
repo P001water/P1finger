@@ -1,0 +1,12 @@
+- id: shopsn
+  name: Shopsn
+  author: P001
+  tags:
+    - shopsn
+  description: Shopsn
+  matchers:
+    - location: body
+      words:
+        - '<span>shopsn全网开源<a style="padding: 0px" href="http://www.shopsn.net'
+        - content="shopsn
+        - href="http://www.shopsn.net">商城系统</a>&nbsp;提供技术支持

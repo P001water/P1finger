@@ -1,0 +1,25 @@
+- id: pg-api
+  name: PG API Server
+  author: Fofa
+  tags:
+    - pg-api
+  description: PG API Server
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - PG API Server
+    - condition: or
+      location: header
+      words:
+        - PGAPIServ
+- id: pg-api-2
+  name: Pg Api Server
+  author: P1finger
+  tags:
+    - pg-api
+  description: Pg Api Server
+  matchers:
+    - location: header
+      words:
+        - PGAPIServ

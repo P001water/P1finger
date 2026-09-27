@@ -1,0 +1,10 @@
+- id: hanna-drawing
+  name: Hanna-drawing-service
+  author: P001
+  tags:
+    - hanna-drawing
+  description: Hanna-drawing-service
+  matchers:
+    - location: body
+      words:
+        - hanna图纸服务

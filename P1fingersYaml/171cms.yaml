@@ -1,0 +1,19 @@
+- id: 171cms
+  name: 171cms
+  author: P1finger
+  tags:
+    - 171cms
+  description: 171cms
+  matchers:
+    - location: body
+      words:
+        - content="171cms
+        - 171cms
+    - condition: or
+      location: body
+      words:
+        - content="171cms
+    - condition: or
+      location: title
+      words:
+        - 171cms

@@ -1,0 +1,11 @@
+- id: faq-manager
+  name: Faq-manager
+  author: P001
+  tags:
+    - faq-manager
+  description: Faq-manager
+  matchers:
+    - location: body
+      words:
+        - <a href="admin/">admin area</a></td></tr></table></body></html>
+        - <td><font size="-1">&nbsp;</font><p><b><font size="-1">faq admin area</font></b></td>

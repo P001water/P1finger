@@ -1,0 +1,19 @@
+- id: blogengine-net
+  name: BlogEngine_NET
+  author: Fofa
+  tags:
+    - blogengine-net
+  description: BlogEngine_NET
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - pics/blogengine.ico
+    - condition: and
+      location: body
+      words:
+        - http://www.dotnetblogengine.net")
+    - location: body
+      words:
+        - pics/blogengine.ico
+        - http://www.dotnetblogengine.net

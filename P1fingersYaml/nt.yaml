@@ -1,0 +1,11 @@
+- id: ntcms-management-system
+  name: NTCMS Management System
+  author: P1finger
+  tags:
+    - ntcms
+    - management-system
+  description: NTCMS Management System
+  matchers:
+    - location: body
+      words:
+        - NT CMS管理系统

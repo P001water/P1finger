@@ -1,0 +1,10 @@
+- id: zywall-usg100-plus
+  name: ZyWALL USG100 PLUS
+  author: P1finger
+  tags:
+    - zywall-usg100-plus
+  description: ZyWALL USG100 PLUS
+  matchers:
+    - location: body
+      words:
+        - zywall usg100-plus

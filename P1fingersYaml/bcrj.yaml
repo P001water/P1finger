@@ -1,0 +1,10 @@
+- id: bcrj
+  name: Bcrj
+  author: P1finger
+  tags:
+    - bcrj
+  description: Bcrj
+  matchers:
+    - location: body
+      words:
+        - www.bcrj.com.cn

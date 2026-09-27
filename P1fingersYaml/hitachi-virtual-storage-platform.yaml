@@ -1,0 +1,10 @@
+- id: hitachi-virtual-storage
+  name: Hitachi-virtual-storage-platform
+  author: P001
+  tags:
+    - hitachi-virtual-storage
+  description: Hitachi-virtual-storage-platform
+  matchers:
+    - location: body
+      words:
+        - src="/cgismryset/smryset.cgi/clk"

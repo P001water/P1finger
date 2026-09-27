@@ -1,0 +1,10 @@
+- id: vertiv
+  name: Vertiv-system
+  author: P001
+  tags:
+    - vertiv
+  description: Vertiv-system
+  matchers:
+    - location: body
+      words:
+        - var port = "9528

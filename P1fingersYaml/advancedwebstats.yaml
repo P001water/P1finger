@@ -1,0 +1,14 @@
+- id: advancedwebstats
+  name: Advancedwebstats
+  author: Fofa
+  tags:
+    - advancedwebstats
+  description: Advancedwebstats
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - caphyon-analytics.com/aws.js
+    - location: body
+      words:
+        - caphyon-analytics.com/aws.js

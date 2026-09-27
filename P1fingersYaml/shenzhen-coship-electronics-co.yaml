@@ -1,0 +1,10 @@
+- id: shenzhen-coship-electronics-co
+  name: Shenzhen Coship Electronics Co.
+  author: P1finger
+  tags:
+    - shenzhen-coship-electronics-co
+  description: Shenzhen Coship Electronics Co.
+  matchers:
+    - hash:
+        - "224536051"
+      location: favicon

@@ -1,0 +1,21 @@
+- id: belkin-modem
+  name: Belkin-modem
+  author: P1finger
+  tags:
+    - belkin-modem
+  description: Belkin-modem
+  matchers:
+    - location: body
+      words:
+        - content="Belkin
+- id: belkin-modem-2
+  name: Belkin-Modem
+  author: Fofa
+  tags:
+    - belkin-modem
+  description: Belkin-Modem
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Belkin

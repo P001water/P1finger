@@ -1,0 +1,11 @@
+- id: slife
+  name: Slife
+  author: P1finger
+  tags:
+    - slife
+  description: Slife
+  matchers:
+    - location: body
+      words:
+        - <meta name="keywords" content="slife管理系统"
+        - <script src="/js/slife/toast.js

@@ -1,0 +1,24 @@
+- id: eleanorcms
+  name: EleanorCMS
+  author: Fofa
+  tags:
+    - eleanorcms
+  description: EleanorCMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Eleanor CMS
+    - location: header
+      words:
+        - Eleanor CMS
+    - location: header
+      words:
+        - 'X-Powered-Cms: Eleanor CMS'
+    - location: body
+      words:
+        - eleanor-cms.ru
+    - location: header
+      words:
+        - X-Powered-Cms
+        - Eleanor CMS

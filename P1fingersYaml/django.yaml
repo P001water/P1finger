@@ -1,0 +1,24 @@
+- id: django
+  name: Django
+  author: Fofa
+  tags:
+    - django
+  description: Django
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - __admin_media_prefix__
+    - condition: or
+      location: body
+      words:
+        - csrfmiddlewaretoken
+    - location: body
+      words:
+        - __admin_media_prefix__
+        - csrfmiddlewaretoken
+    - location: body
+      words:
+        - __admin_media_prefix__
+        - csrfmiddlewaretoken
+        - django settings file.

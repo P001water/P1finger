@@ -1,0 +1,12 @@
+- id: hp-arcsight
+  name: HP ArcSight
+  author: P1finger
+  tags:
+  - hp
+  - hp-arcsight
+  description: HP ArcSight
+  matchers:
+  - location: body
+    words:
+    - arcsight
+    - window.location.replace("/arcsight/")

@@ -1,0 +1,14 @@
+- id: coppermine
+  name: Coppermine
+  author: Fofa
+  tags:
+    - coppermine
+  description: Coppermine
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <!--Coppermine Photo Gallery
+    - location: body
+      words:
+        - Coppermine version

@@ -1,0 +1,10 @@
+- id: hw99-checking
+  name: Hw99-checking
+  author: P001
+  tags:
+    - hw99-checking
+  description: Hw99-checking
+  matchers:
+    - location: body
+      words:
+        - /hwface/script/logincheck.js

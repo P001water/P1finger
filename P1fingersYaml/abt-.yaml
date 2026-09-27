@@ -1,0 +1,13 @@
+- id: abtshendu-security-gateway
+  name: Abtshendu Security Gateway
+  author: P001
+  tags:
+    - abtshendu
+    - security-gateway
+  description: Abtshendu Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 安博通应用网关
+        - 安博通深度安全网关

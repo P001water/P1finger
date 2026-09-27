@@ -1,0 +1,10 @@
+- id: polycom-rss-record
+  name: Polycom-rss-record
+  author: P001
+  tags:
+    - polycom-rss-record
+  description: Polycom-rss-record
+  matchers:
+    - location: body
+      words:
+        - window.location.replace("/rss/")

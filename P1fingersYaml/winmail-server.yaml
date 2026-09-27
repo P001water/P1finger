@@ -1,0 +1,18 @@
+- id: winmail
+  name: Winmail-server
+  author: P001
+  tags:
+    - winmail
+  description: Winmail-server
+  matchers:
+    - location: body
+      words:
+        - f_theme
+        - pwdplaceholder
+        - (build
+        - background="customer/winmail_bg11.jpg
+        - amax information technologies inc.
+        - 'pop3,smtp server: <font color=red>'
+        - src="customer/index_winmail_new.gif
+        - src="themes/default/images/mail_pic.jpg
+        - winmail mail server

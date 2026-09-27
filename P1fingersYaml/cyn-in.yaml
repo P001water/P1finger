@@ -1,0 +1,19 @@
+- id: cyn-in
+  name: Cyn_in
+  author: Fofa
+  tags:
+    - cyn-in
+  description: Cyn_in
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="cyn.in
+    - condition: or
+      location: body
+      words:
+        - Powered by cyn.in
+    - location: body
+      words:
+        - content="cyn.in
+        - Powered by cyn.in

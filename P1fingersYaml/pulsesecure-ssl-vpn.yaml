@@ -1,0 +1,14 @@
+- id: pulsesecure-ssl
+  name: Pulsesecure-ssl-vpn
+  author: P001
+  tags:
+    - pulsesecure-ssl
+  description: Pulsesecure-ssl-vpn
+  matchers:
+    - location: body
+      words:
+        - <b>pulse connect secure</b>
+        - <title>pulse connect secure</title>
+    - location: body
+      words:
+        - pulse connect secure

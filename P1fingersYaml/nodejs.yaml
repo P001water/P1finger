@@ -1,0 +1,13 @@
+- id: nodejs
+  name: Nodejs
+  author: Fofa
+  tags:
+    - nodejs
+  description: Nodejs
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'X-Powered-By: Express'
+        - node.js
+        - pump.io

@@ -1,0 +1,10 @@
+- id: epoint-zwdt
+  name: Epoint-web-zwdt
+  author: P001
+  tags:
+    - epoint-zwdt
+  description: Epoint-web-zwdt
+  matchers:
+    - location: body
+      words:
+        - epoint-web-zwdt

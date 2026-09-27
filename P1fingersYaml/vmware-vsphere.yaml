@@ -1,0 +1,11 @@
+- id: vmware-vsphere
+  name: VMware VSphere
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-vsphere
+  description: VMware VSphere
+  matchers:
+  - location: body
+    words:
+    - content="VMware vSphere

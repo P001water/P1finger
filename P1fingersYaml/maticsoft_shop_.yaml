@@ -1,0 +1,20 @@
+- id: maticsoftshopdongruanshangcheng
+  name: MaticsoftShopdongruanshangcheng
+  author: Fofa
+  tags:
+    - maticsoftshopdongruanshangcheng
+  description: MaticsoftShopdongruanshangcheng
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Maticsoft Shop
+    - condition: and
+      location: body
+      words:
+        - /Areas/Shop/")
+    - location: body
+      words:
+        - Maticsoft Shop
+        - maticsoft
+        - /Areas/Shop/

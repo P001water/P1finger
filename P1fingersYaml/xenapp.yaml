@@ -1,0 +1,10 @@
+- id: xenapp
+  name: Xenapp
+  author: P001
+  tags:
+    - xenapp
+  description: Xenapp
+  matchers:
+    - location: body
+      words:
+        - window.location="/citrix/xenapp"

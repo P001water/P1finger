@@ -1,0 +1,11 @@
+- id: httponly
+  name: HttpOnly
+  author: Fofa
+  tags:
+    - httponly
+  description: HttpOnly
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - httponly

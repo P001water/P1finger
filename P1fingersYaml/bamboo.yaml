@@ -1,0 +1,10 @@
+- id: bamboo
+  name: Bamboo
+  author: P1finger
+  tags:
+    - bamboo
+  description: Bamboo
+  matchers:
+    - hash:
+        - "-1379982221"
+      location: favicon

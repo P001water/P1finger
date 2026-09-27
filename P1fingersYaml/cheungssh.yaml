@@ -1,0 +1,11 @@
+- id: cheungssh
+  name: CheungSSH
+  author: P1finger
+  tags:
+    - cheungssh
+  description: CheungSSH
+  matchers:
+    - location: body
+      words:
+        - CheungSSH 版权所有
+        - /img/cheungssh.ico

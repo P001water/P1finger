@@ -1,0 +1,10 @@
+- id: wampserver
+  name: Wampserver
+  author: P1finger
+  tags:
+    - wampserver
+  description: Wampserver
+  matchers:
+    - hash:
+        - "929825723"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: polycom-ippbx
+  name: Polycom-ippbx
+  author: P001
+  tags:
+    - polycom-ippbx
+  description: Polycom-ippbx
+  matchers:
+    - location: body
+      words:
+        - src="cgi-bin/httptohttps.cgi"
+        - src="cgi-bin/ippbx.cgi?module=showlogin"

@@ -1,0 +1,10 @@
+- id: proscan
+  name: Proscan
+  author: P001
+  tags:
+    - proscan
+  description: Proscan
+  matchers:
+    - location: body
+      words:
+        - 'server: proscan'

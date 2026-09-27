@@ -1,0 +1,10 @@
+- id: if-svnadmin
+  name: IF.SVNAdmin
+  author: P1finger
+  tags:
+    - if-svnadmin
+  description: IF.SVNAdmin
+  matchers:
+    - location: body
+      words:
+        - iF.SVNAdmin

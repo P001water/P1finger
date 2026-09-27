@@ -1,0 +1,10 @@
+- id: newscoop
+  name: Newscoop
+  author: P1finger
+  tags:
+    - newscoop
+  description: Newscoop
+  matchers:
+    - location: body
+      words:
+        - content="Newscoop - The open content management system for professional journalists."

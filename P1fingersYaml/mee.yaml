@@ -1,0 +1,11 @@
+- id: mee-management-system
+  name: MEE Management System
+  author: P1finger
+  tags:
+    - mee
+    - management-system
+  description: MEE Management System
+  matchers:
+    - location: body
+      words:
+        - MEE管理系统

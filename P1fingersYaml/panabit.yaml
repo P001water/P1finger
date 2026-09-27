@@ -1,0 +1,15 @@
+- id: panabitzhineng-gateway
+  name: Panabitzhineng Gateway
+  author: Fofa
+  tags:
+    - panabitzhineng
+    - gateway
+  description: Panabitzhineng Gateway
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - panabit
+    - location: body
+      words:
+        - panabit

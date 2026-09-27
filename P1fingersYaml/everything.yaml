@@ -1,0 +1,25 @@
+- id: everything
+  name: Everything
+  author: Fofa
+  tags:
+    - everything
+  description: Everything
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - everything.png")
+    - condition: and
+      location: title
+      words:
+        - ="Everything
+    - location: body
+      words:
+        - everything.gif
+        - everything.png
+    - location: body
+      words:
+        - Everything.gif
+    - location: header
+      words:
+        - Everything HTTP Server

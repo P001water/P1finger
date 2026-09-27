@@ -1,0 +1,10 @@
+- id: adviserlogiccli
+  name: Adviserlogiccli
+  author: P001
+  tags:
+    - adviserlogiccli
+  description: Adviserlogiccli
+  matchers:
+    - location: body
+      words:
+        - navigator.serviceworker.register('/adviserlogiccache.js')

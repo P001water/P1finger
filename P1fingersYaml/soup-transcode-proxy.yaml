@@ -1,0 +1,10 @@
+- id: soup-transcode-proxy
+  name: Soup-transcode-proxy
+  author: P1finger
+  tags:
+    - soup-transcode-proxy
+  description: Soup-transcode-proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: soup-transcode-proxy'

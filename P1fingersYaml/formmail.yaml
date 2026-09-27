@@ -1,0 +1,24 @@
+- id: formmail
+  name: Formmail
+  author: P1finger
+  tags:
+    - formmail
+  description: Formmail
+  matchers:
+    - location: body
+      words:
+        - /FormMail.pl
+        - href="http://www.worldwidemart.com/scripts/formmail.shtml
+    - condition: or
+      location: body
+      words:
+        - /FormMail.pl
+    - condition: or
+      location: body
+      words:
+        - href="http://www.worldwidemart.com/scripts/formmail.shtml
+    - location: body
+      words:
+        - /formmail.pl
+        - aboutus/magicmail.gif
+        - href="http://www.worldwidemart.com/scripts/formmail.shtml

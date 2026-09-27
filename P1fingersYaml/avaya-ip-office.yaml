@@ -1,0 +1,28 @@
+- id: avaya-ip-office
+  name: Avaya-ip-office
+  author: P1finger
+  tags:
+    - avaya-ip-office
+  description: Avaya-ip-office
+  matchers:
+    - location: body
+      words:
+        - About IP Office
+    - location: header
+      words:
+        - IPOffice
+- id: avaya-ip-office-2
+  name: Avaya-IP-Office
+  author: Fofa
+  tags:
+    - avaya-ip-office
+  description: Avaya-IP-Office
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - IPOffice
+    - condition: or
+      location: title
+      words:
+        - About IP Office

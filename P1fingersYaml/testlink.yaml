@@ -1,0 +1,14 @@
+- id: testlink
+  name: Testlink
+  author: Fofa
+  tags:
+    - testlink
+  description: Testlink
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - testlink_library.js
+    - location: body
+      words:
+        - testlink_library.js

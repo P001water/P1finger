@@ -1,0 +1,13 @@
+- id: crmeb
+  name: Crmeb
+  author: P001
+  tags:
+    - crmeb
+  description: Crmeb
+  matchers:
+    - hash:
+        - 699adaf4da1b0dc76ea5464df13755d7
+      location: favicon
+    - location: body
+      words:
+        - <h1>crmeb</h1>

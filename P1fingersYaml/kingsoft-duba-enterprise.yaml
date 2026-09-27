@@ -1,0 +1,11 @@
+- id: kingsoft-duba
+  name: Kingsoft-duba-enterprise
+  author: P001
+  tags:
+  - kingsoft
+  - kingsoft-duba
+  description: Kingsoft-duba-enterprise
+  matchers:
+  - location: body
+    words:
+    - class="title">关于全网部署金山毒霸企业版

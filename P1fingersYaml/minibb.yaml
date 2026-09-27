@@ -1,0 +1,11 @@
+- id: minibb
+  name: Minibb
+  author: P001
+  tags:
+    - minibb
+  description: Minibb
+  matchers:
+    - location: body
+      words:
+        - <!--minibb copyright link
+        - powered by <a href="http://www.minibb.

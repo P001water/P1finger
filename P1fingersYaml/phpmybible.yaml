@@ -1,0 +1,13 @@
+- id: phpmybible
+  name: Phpmybible
+  author: P001
+  tags:
+    - phpmybible
+  description: Phpmybible
+  matchers:
+    - location: body
+      words:
+        - <div class='chaphead'>
+    - location: body
+      words:
+        - Elbląg ma swoje dobre strony - Elbląska Gazeta Internetowa portEl.pl

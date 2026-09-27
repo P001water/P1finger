@@ -1,0 +1,19 @@
+- id: mantis
+  name: Mantis
+  author: Fofa
+  tags:
+    - mantis
+  description: Mantis
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - browser_search_plugin.php?location=id
+    - condition: or
+      location: body
+      words:
+        - MantisBT Team
+    - location: body
+      words:
+        - browser_search_plugin.php?location=id
+        - MantisBT Team

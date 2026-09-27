@@ -1,0 +1,10 @@
+- id: easted-ecloud
+  name: Easted-ecloud
+  author: P001
+  tags:
+    - easted-ecloud
+  description: Easted-ecloud
+  matchers:
+    - location: body
+      words:
+        - <span>easted vserver虚拟数据中心系统</span></a></div>

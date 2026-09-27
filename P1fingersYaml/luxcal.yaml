@@ -1,0 +1,12 @@
+- id: luxcal
+  name: Luxcal
+  author: P001
+  tags:
+    - luxcal
+  description: Luxcal
+  matchers:
+    - location: body
+      words:
+        - class='footlb'>lux
+        - content="luxcal
+        - content="roel buining

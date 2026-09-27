@@ -1,0 +1,37 @@
+- id: datalife-engine
+  name: Datalife-engine
+  author: P1finger
+  tags:
+    - datalife-engine
+  description: Datalife-engine
+  matchers:
+    - location: body
+      words:
+        - content="DataLife Engine
+    - location: header
+      words:
+        - dle_
+    - location: body
+      words:
+        - content="datalife engine
+    - location: body
+      words:
+        - <meta name="generator" content="DataLife Engine
+- id: datalife-engine-2
+  name: DataLife-Engine
+  author: Fofa
+  tags:
+    - datalife-engine
+  description: DataLife-Engine
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="DataLife Engine
+    - condition: or
+      location: header
+      words:
+        - dle_
+    - location: body
+      words:
+        - <meta name="generator" content="DataLife Engine

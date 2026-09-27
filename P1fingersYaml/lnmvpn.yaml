@@ -1,0 +1,11 @@
+- id: lnmvpn-management-system
+  name: LnmVPN Management System
+  author: P1finger
+  tags:
+    - lnmvpn
+    - management-system
+  description: LnmVPN Management System
+  matchers:
+    - location: body
+      words:
+        - LnmVPN管理系统

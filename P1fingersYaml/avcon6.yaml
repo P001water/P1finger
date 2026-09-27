@@ -1,0 +1,24 @@
+- id: avcon6
+  name: AVCON6
+  author: Fofa
+  tags:
+    - avcon6
+  description: AVCON6
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - filename=AVCON6Setup.exe
+    - condition: or
+      location: title
+      words:
+        - AVCON6系统管理平台
+    - condition: or
+      location: body
+      words:
+        - language_dispose.action
+    - location: body
+      words:
+        - filename=AVCON6Setup.exe
+        - AVCON6系统管理平台
+        - language_dispose.action

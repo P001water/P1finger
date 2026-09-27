@@ -1,0 +1,10 @@
+- id: seagull-php-framework
+  name: Seagull-php-framework
+  author: P001
+  tags:
+    - seagull-php-framework
+  description: Seagull-php-framework
+  matchers:
+    - location: body
+      words:
+        - var sgl_js_sessid

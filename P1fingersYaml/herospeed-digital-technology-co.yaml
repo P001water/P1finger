@@ -1,0 +1,10 @@
+- id: herospeed-digital-technology-co
+  name: Herospeed Digital Technology Co.
+  author: P1finger
+  tags:
+    - herospeed-digital-technology-co
+  description: Herospeed Digital Technology Co.
+  matchers:
+    - hash:
+        - "-873627015"
+      location: favicon

@@ -1,0 +1,16 @@
+- id: emailwangyi-enterprise-mail
+  name: Emailwangyi Enterprise Mail
+  author: P001
+  tags:
+    - emailwangyi
+    - enterprise-mail
+  description: Emailwangyi Enterprise Mail
+  matchers:
+    - location: body
+      words:
+        - content="网易企业邮箱
+        - src="http://mimg.qiye.163.com/
+        - <span class="warn">请您从网易企业邮箱用户登录页登录</span>
+        - frmvalidator
+        - 本系统由网易企业邮提供
+        - 网易企业邮箱,登录企业邮箱,企业邮箱注册,电子邮箱

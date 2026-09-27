@@ -1,0 +1,10 @@
+- id: webcompro
+  name: WEBCOMpro CMS
+  author: P1finger
+  tags:
+    - webcompro
+  description: WEBCOMpro CMS
+  matchers:
+    - location: body
+      words:
+        - WEBCOMpro CMS

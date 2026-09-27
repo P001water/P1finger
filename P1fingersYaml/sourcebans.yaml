@@ -1,0 +1,11 @@
+- id: sourcebans
+  name: Sourcebans
+  author: P001
+  tags:
+    - sourcebans
+  description: Sourcebans
+  matchers:
+    - location: body
+      words:
+        - <div id="footqversion">version(
+        - http://www.sourcebans.net" target="_blank"><img src="images/sb.png

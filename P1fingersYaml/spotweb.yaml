@@ -1,0 +1,10 @@
+- id: spotweb
+  name: Spotweb
+  author: P1finger
+  tags:
+    - spotweb
+  description: Spotweb
+  matchers:
+    - location: body
+      words:
+        - Spotweb

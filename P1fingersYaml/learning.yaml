@@ -1,0 +1,10 @@
+- id: huisilearning
+  name: Huisilearning
+  author: P1finger
+  tags:
+    - huisilearning
+  description: Huisilearning
+  matchers:
+    - location: body
+      words:
+        - id="globleMsgBoxTemplate"

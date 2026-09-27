@@ -1,0 +1,10 @@
+- id: cxcms
+  name: CxCms
+  author: P1finger
+  tags:
+    - cxcms
+  description: CxCms
+  matchers:
+    - location: body
+      words:
+        - Powered by CxCms

@@ -1,0 +1,13 @@
+- id: vmware-zimbra
+  name: Vmware Zimbra
+  author: P1finger
+  tags:
+  - zimbra
+  - vmware
+  - vmware-zimbra
+  description: Vmware Zimbra
+  matchers:
+  - location: body
+    words:
+    - Zimbra Collaboration
+    - /zimbra/css/common

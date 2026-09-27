@@ -1,0 +1,10 @@
+- id: bjqit-crm
+  name: Bjqit-crm
+  author: P001
+  tags:
+    - bjqit-crm
+  description: Bjqit-crm
+  matchers:
+    - location: body
+      words:
+        - href=/css/ordercomplaint

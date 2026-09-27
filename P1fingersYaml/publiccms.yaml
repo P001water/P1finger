@@ -1,0 +1,27 @@
+- id: publiccms
+  name: PublicCMS
+  author: Fofa
+  tags:
+    - publiccms
+  description: PublicCMS
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - publiccms
+    - location: body
+      words:
+        - publiccms
+    - location: header
+      words:
+        - X-Powered-Publiccms
+- id: publiccms-2
+  name: PublicCMS
+  author: P001
+  tags:
+    - publiccms
+  description: PublicCMS
+  matchers:
+    - location: body
+      words:
+        - X-Powered-Publiccms

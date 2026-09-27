@@ -1,0 +1,10 @@
+- id: digium
+  name: Digium
+  author: P1finger
+  tags:
+    - digium
+  description: Digium
+  matchers:
+    - hash:
+        - "2068154487"
+      location: favicon

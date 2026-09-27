@@ -1,0 +1,10 @@
+- id: winmail-2
+  name: Winmail
+  author: P1finger
+  tags:
+    - winmail
+  description: Winmail
+  matchers:
+    - location: body
+      words:
+        - winmail mail server

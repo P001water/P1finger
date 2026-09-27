@@ -1,0 +1,10 @@
+- id: mashery-proxy
+  name: Mashery-proxy
+  author: P001
+  tags:
+    - mashery-proxy
+  description: Mashery-proxy
+  matchers:
+    - location: body
+      words:
+        - 'server: mashery proxy'

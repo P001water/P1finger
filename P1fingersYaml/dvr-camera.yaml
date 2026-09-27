@@ -1,0 +1,21 @@
+- id: dvr
+  name: DVR Camera
+  author: Fofa
+  tags:
+    - dvr
+  description: DVR Camera
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - DVR WebClient
+- id: dvr-2
+  name: Dvr Camera
+  author: P1finger
+  tags:
+    - dvr
+  description: Dvr Camera
+  matchers:
+    - location: body
+      words:
+        - DVR WebClient

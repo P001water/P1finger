@@ -1,0 +1,11 @@
+- id: support-incident-tracker
+  name: Support-incident-tracker
+  author: P001
+  tags:
+    - support-incident-tracker
+  description: Support-incident-tracker
+  matchers:
+    - location: body
+      words:
+        - <div class='windowtitle'>sit! - login</div>
+        - content="sit! support incident tracker

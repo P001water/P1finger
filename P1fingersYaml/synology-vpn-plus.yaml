@@ -1,0 +1,11 @@
+- id: synology-plus
+  name: Synology Vpn Plus
+  author: P1finger
+  tags:
+  - synology
+  - synology-plus
+  description: Synology Vpn Plus
+  matchers:
+  - hash:
+    - '1235070469'
+    location: favicon

@@ -1,0 +1,10 @@
+- id: billingtesttool
+  name: Billingtesttool
+  author: P001
+  tags:
+    - billingtesttool
+  description: Billingtesttool
+  matchers:
+    - location: body
+      words:
+        - href:'/billtool/querysum'

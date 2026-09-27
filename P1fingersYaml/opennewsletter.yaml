@@ -1,0 +1,11 @@
+- id: opennewsletter
+  name: Opennewsletter
+  author: P001
+  tags:
+    - opennewsletter
+  description: Opennewsletter
+  matchers:
+    - location: body
+      words:
+        - href="http://netmeans.net">netmeans.net
+        - this software is based on the opennewsletter project

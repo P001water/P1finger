@@ -1,0 +1,10 @@
+- id: guangliandaglodonkongzhitai
+  name: Guangliandaglodonkongzhitai
+  author: P1finger
+  tags:
+    - guangliandaglodonkongzhitai
+  description: Guangliandaglodonkongzhitai
+  matchers:
+    - location: body
+      words:
+        - 广联达

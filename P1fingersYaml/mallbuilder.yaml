@@ -1,0 +1,26 @@
+- id: mallbuilder
+  name: MallBuilder
+  author: Fofa
+  tags:
+    - mallbuilder
+  description: MallBuilder
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="MallBuilder
+    - condition: or
+      location: body
+      words:
+        - Powered by MallBuilder
+    - location: body
+      words:
+        - content="MallBuilder
+        - Powered by MallBuilder
+    - location: body
+      words:
+        - powered by mallbuilde
+        - content="mallbuilder
+    - location: body
+      words:
+        - <meta name="copyright" content="MallBuilder" />

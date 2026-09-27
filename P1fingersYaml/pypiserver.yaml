@@ -1,0 +1,10 @@
+- id: pypiserver
+  name: Pypiserver
+  author: P001
+  tags:
+    - pypiserver
+  description: Pypiserver
+  matchers:
+    - location: body
+      words:
+        - <title>welcome to pypiserver!</title>

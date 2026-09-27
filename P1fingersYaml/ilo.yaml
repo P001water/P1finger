@@ -1,0 +1,19 @@
+- id: ilo
+  name: ILO
+  author: Fofa
+  tags:
+    - ilo
+  description: ILO
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - href="http://www.hp.com/go/ilo
+    - condition: or
+      location: title
+      words:
+        - HP Integrated Lights-Out
+    - location: body
+      words:
+        - href="http://www.hp.com/go/ilo
+        - HP Integrated Lights-Out

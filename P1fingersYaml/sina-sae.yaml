@@ -1,0 +1,10 @@
+- id: sina-sae
+  name: Sina-sae
+  author: P001
+  tags:
+    - sina-sae
+  description: Sina-sae
+  matchers:
+    - location: body
+      words:
+        - lib.sinaapp.com

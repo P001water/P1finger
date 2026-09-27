@@ -1,0 +1,15 @@
+- id: verizon-wireless
+  name: Verizon_Wireless_Router
+  author: Fofa
+  tags:
+    - verizon-wireless
+  description: Verizon_Wireless_Router
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Wireless Broadband Router Management Console
+    - location: body
+      words:
+        - Wireless Broadband Router Management Console
+        - verizon_logo_blk.gif

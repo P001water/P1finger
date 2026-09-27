@@ -1,0 +1,19 @@
+- id: allomani
+  name: Allomani
+  author: Fofa
+  tags:
+    - allomani
+  description: Allomani
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Allomani
+    - condition: or
+      location: body
+      words:
+        - Programmed By Allomani
+    - location: body
+      words:
+        - content="Allomani
+        - Programmed By Allomani

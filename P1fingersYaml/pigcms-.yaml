@@ -1,0 +1,10 @@
+- id: pigcmsxiaozhucms
+  name: PigcmsxiaozhuCMS
+  author: P001
+  tags:
+    - pigcmsxiaozhucms
+  description: PigcmsxiaozhuCMS
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: pigcms.com'

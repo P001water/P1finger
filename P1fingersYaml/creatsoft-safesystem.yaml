@@ -1,0 +1,10 @@
+- id: creatsoft-safesystem
+  name: Creatsoft-safesystem
+  author: P001
+  tags:
+    - creatsoft-safesystem
+  description: Creatsoft-safesystem
+  matchers:
+    - location: body
+      words:
+        - href="javascript:update_news('board/noticelist.jsp')

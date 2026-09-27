@@ -1,0 +1,10 @@
+- id: arvancloud
+  name: Arvancloud
+  author: P001
+  tags:
+    - arvancloud
+  description: Arvancloud
+  matchers:
+    - location: body
+      words:
+        - 'server: arvancloud'

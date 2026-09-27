@@ -1,0 +1,10 @@
+- id: isunor-order
+  name: Isunor-order-management-system
+  author: P001
+  tags:
+    - isunor-order
+  description: Isunor-order-management-system
+  matchers:
+    - location: body
+      words:
+        - var c_name = 'jsessionid';

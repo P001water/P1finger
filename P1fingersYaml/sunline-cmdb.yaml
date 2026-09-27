@@ -1,0 +1,12 @@
+- id: sunline-cmdb
+  name: Sunline-cmdb
+  author: P001
+  tags:
+    - sunline-cmdb
+  description: Sunline-cmdb
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - sunline co
+        - var key = "sunlines";

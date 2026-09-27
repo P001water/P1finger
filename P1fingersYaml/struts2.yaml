@@ -1,0 +1,14 @@
+- id: struts2
+  name: Struts2
+  author: P1finger
+  tags:
+    - struts2
+  description: Struts2
+  matchers:
+    - location: body
+      words:
+        - org.apache.struts2
+        - struts.devMode
+        - struts-tags
+        - Action mapped for namespace
+        - .action

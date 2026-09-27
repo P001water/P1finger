@@ -1,0 +1,10 @@
+- id: entrolink
+  name: Entrolink
+  author: P1finger
+  tags:
+    - entrolink
+  description: Entrolink
+  matchers:
+    - hash:
+        - "1973665246"
+      location: favicon

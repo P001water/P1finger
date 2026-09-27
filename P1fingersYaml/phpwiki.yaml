@@ -1,0 +1,10 @@
+- id: phpwiki
+  name: Phpwiki
+  author: P001
+  tags:
+    - phpwiki
+  description: Phpwiki
+  matchers:
+    - location: body
+      words:
+        - powered by phpwiki

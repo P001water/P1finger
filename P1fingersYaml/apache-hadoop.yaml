@@ -1,0 +1,14 @@
+- id: apache-hadoop
+  name: Apache-hadoop
+  author: P001
+  tags:
+  - hadoop
+  - apache
+  - apache-hadoop
+  description: Apache-hadoop
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /static/hadoop-st.png
+    - parsehadoopprogress

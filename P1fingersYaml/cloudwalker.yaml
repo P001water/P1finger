@@ -1,0 +1,13 @@
+- id: muyuncloudwalker
+  name: MuyunCloudWalker
+  author: P1finger
+  tags:
+    - muyuncloudwalker
+  description: MuyunCloudWalker
+  matchers:
+    - hash:
+        - "2022077319"
+      location: favicon
+    - location: body
+      words:
+        - <title>主机安全平台</title>

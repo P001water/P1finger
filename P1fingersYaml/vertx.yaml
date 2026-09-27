@@ -1,0 +1,17 @@
+- id: vertx
+  name: Vertx
+  author: Fofa
+  tags:
+    - vertx
+  description: Vertx
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - vertx-web.session
+    - location: header
+      words:
+        - vertx-web.session
+    - location: body
+      words:
+        - 'set-cookie: vertx-web.session'

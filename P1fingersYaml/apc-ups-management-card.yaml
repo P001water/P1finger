@@ -1,0 +1,30 @@
+- id: apc-ups-card
+  name: Apc-ups-management-card
+  author: P1finger
+  tags:
+  - apc
+  - apc-ups-card
+  description: Apc-ups-management-card
+  matchers:
+  - location: body
+    words:
+    - class="apclogo"
+  - location: header
+    words:
+    - APC Management Card
+- id: apc-ups-card-2
+  name: APC-UPS-Management-Card
+  author: Fofa
+  tags:
+  - apc
+  - apc-ups-card
+  description: APC-UPS-Management-Card
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - APC Management Card
+  - condition: or
+    location: body
+    words:
+    - class="apclogo

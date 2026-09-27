@@ -1,0 +1,10 @@
+- id: shuipfcms
+  name: ShuipFCMS
+  author: P1finger
+  tags:
+    - shuipfcms
+  description: ShuipFCMS
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-By: ShuipFCMS'

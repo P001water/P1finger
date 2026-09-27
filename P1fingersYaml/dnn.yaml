@@ -1,0 +1,10 @@
+- id: dnn
+  name: Dnn
+  author: P1finger
+  tags:
+    - dnn
+  description: Dnn
+  matchers:
+    - hash:
+        - "-1465479343"
+      location: favicon

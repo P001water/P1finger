@@ -1,0 +1,11 @@
+- id: pivotal-crm
+  name: Pivotal-crm
+  author: P001
+  tags:
+    - pivotal-crm
+  description: Pivotal-crm
+  matchers:
+    - location: body
+      words:
+        - <frame name="hidden" src="xmlloader.asp?location=portal
+        - title="hidden" src="xmlloader.asp?location=portal

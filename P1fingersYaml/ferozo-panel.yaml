@@ -1,0 +1,10 @@
+- id: ferozo-panel
+  name: Ferozo Panel
+  author: P1finger
+  tags:
+    - ferozo-panel
+  description: Ferozo Panel
+  matchers:
+    - hash:
+        - "2072198544"
+      location: favicon

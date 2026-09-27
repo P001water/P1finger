@@ -1,0 +1,29 @@
+- id: xoopport
+  name: E-xoopport
+  author: P1finger
+  tags:
+    - xoopport
+  description: E-xoopport
+  matchers:
+    - location: body
+      words:
+        - Powered by E-Xoopport
+        - content="E-Xoopport
+    - location: body
+      words:
+        - content="E-Xoopport
+- id: xoopport-2
+  name: E-Xoopport
+  author: Fofa
+  tags:
+    - xoopport
+  description: E-Xoopport
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by E-Xoopport
+    - condition: or
+      location: body
+      words:
+        - content="E-Xoopport

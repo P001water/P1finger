@@ -1,0 +1,11 @@
+- id: unis
+  name: UNIS Firewall
+  author: P1finger
+  tags:
+    - unis
+  description: UNIS Firewall
+  matchers:
+    - location: body
+      words:
+        - <b><nobr>紫光防火墙
+        - 紫光防火墙

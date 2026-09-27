@@ -1,0 +1,10 @@
+- id: microsoftwaf
+  name: MicrosoftWAF
+  author: P1finger
+  tags:
+    - microsoftwaf
+  description: MicrosoftWAF
+  matchers:
+    - location: body
+      words:
+        - denied the specified Uniform Resource Locator

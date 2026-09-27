@@ -1,0 +1,10 @@
+- id: sentry-2
+  name: Sentry
+  author: P1finger
+  tags:
+    - sentry
+  description: Sentry
+  matchers:
+    - hash:
+        - "2063428236"
+      location: favicon

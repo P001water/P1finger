@@ -1,0 +1,10 @@
+- id: elastichd-dashboard
+  name: Elastichd-dashboard
+  author: P001
+  tags:
+    - elastichd-dashboard
+  description: Elastichd-dashboard
+  matchers:
+    - location: body
+      words:
+        - <title>elastic hd dashboard</title>

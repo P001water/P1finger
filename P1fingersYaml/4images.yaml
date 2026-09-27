@@ -1,0 +1,22 @@
+- id: 4images
+  name: 4images
+  author: Fofa
+  tags:
+    - 4images
+  description: 4images
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by 4images
+    - condition: or
+      location: header
+      words:
+        - 4images_
+    - condition: and
+      location: body
+      words:
+        - 4homepages.de")
+    - location: header
+      words:
+        - 'Set-Cookie: 4images_userid=-1'

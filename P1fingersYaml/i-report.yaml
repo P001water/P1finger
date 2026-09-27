@@ -1,0 +1,27 @@
+- id: report
+  name: I@Report
+  author: Fofa
+  tags:
+    - report
+  description: I@Report
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - ESENSOFT_IREPORT_SERVER
+    - condition: or
+      location: body
+      words:
+        - com.sanlink.server.Login
+    - condition: or
+      location: body
+      words:
+        - ireportclient
+    - condition: or
+      location: body
+      words:
+        - css/ireport.css
+    - location: body
+      words:
+        - com.sanlink.server.Login
+        - ireport

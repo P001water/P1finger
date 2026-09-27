@@ -1,0 +1,11 @@
+- id: gzip-encode
+  name: GZIP Encode
+  author: Fofa
+  tags:
+    - gzip-encode
+  description: GZIP Encode
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Content-Encoding: gzip'

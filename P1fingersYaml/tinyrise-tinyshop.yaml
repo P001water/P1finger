@@ -1,0 +1,11 @@
+- id: tinyrise-tinyshop
+  name: Tinyrise-tinyshop
+  author: P001
+  tags:
+    - tinyrise-tinyshop
+  description: Tinyrise-tinyshop
+  matchers:
+    - location: body
+      words:
+        - tiny_token_
+        - var server_url = '/__con__/__act__';

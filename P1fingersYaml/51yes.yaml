@@ -1,0 +1,11 @@
+- id: 51yes
+  name: 51yes
+  author: Fofa
+  tags:
+    - 51yes
+  description: 51yes
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 51yes.com/click.aspx

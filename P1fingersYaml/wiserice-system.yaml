@@ -1,0 +1,11 @@
+- id: wiserice
+  name: Wiserice-system
+  author: P001
+  tags:
+    - wiserice
+  description: Wiserice-system
+  matchers:
+    - location: body
+      words:
+        - /resources/metronic/scripts/hz-tools.js
+        - <h4>请在下框里画图形来提交登录

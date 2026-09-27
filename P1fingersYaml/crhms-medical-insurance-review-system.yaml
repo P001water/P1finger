@@ -1,0 +1,10 @@
+- id: crhms-medical-insurance-review
+  name: Crhms-medical-insurance-review-system
+  author: P001
+  tags:
+    - crhms-medical-insurance-review
+  description: Crhms-medical-insurance-review-system
+  matchers:
+    - location: body
+      words:
+        - window.open(url, "中公网医疗信息管理系统", option

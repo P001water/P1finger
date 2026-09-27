@@ -1,0 +1,11 @@
+- id: ktamrzidongchaobiao
+  name: KTAMRzidongchaobiao Management System
+  author: P1finger
+  tags:
+    - ktamrzidongchaobiao
+    - management-system
+  description: KTAMRzidongchaobiao Management System
+  matchers:
+    - location: body
+      words:
+        - KTAMR · 自动抄表管理系统

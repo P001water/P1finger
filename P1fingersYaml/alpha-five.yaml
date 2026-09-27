@@ -1,0 +1,25 @@
+- id: alpha-five
+  name: Alpha-five
+  author: P1finger
+  tags:
+    - alpha-five
+  description: Alpha-five
+  matchers:
+    - location: header
+      words:
+        - A5wSessionId
+- id: alpha-five-2
+  name: Alpha-Five
+  author: Fofa
+  tags:
+    - alpha-five
+  description: Alpha-Five
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Alpha Five
+    - condition: or
+      location: header
+      words:
+        - A5wSessionId

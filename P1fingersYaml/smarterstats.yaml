@@ -1,0 +1,10 @@
+- id: smarterstats
+  name: Smarterstats
+  author: P001
+  tags:
+    - smarterstats
+  description: Smarterstats
+  matchers:
+    - location: body
+      words:
+        - <td class=bar1inner>smarterstats

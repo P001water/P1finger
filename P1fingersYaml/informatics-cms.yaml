@@ -1,0 +1,27 @@
+- id: informatics
+  name: Informatics-cms
+  author: P1finger
+  tags:
+    - informatics
+  description: Informatics-cms
+  matchers:
+    - location: body
+      words:
+        - content="Informatics
+    - location: body
+      words:
+        - content="informatics
+- id: informatics-2
+  name: Informatics-CMS
+  author: Fofa
+  tags:
+    - informatics
+  description: Informatics-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Informatics
+    - location: body
+      words:
+        - content="informatics

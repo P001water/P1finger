@@ -1,0 +1,40 @@
+- id: coldfusion
+  name: ColdFusion
+  author: Fofa
+  tags:
+    - coldfusion
+  description: ColdFusion
+  matchers:
+    - location: header
+      words:
+        - CFTOKEN
+    - condition: and
+      location: body
+      words:
+        - ColdFusion.Ajax
+        - cdm
+        - /cfajax/
+    - condition: or
+      location: body
+      words:
+        - /cfajax/
+    - condition: or
+      location: header
+      words:
+        - CFTOKEN
+    - condition: or
+      location: body
+      words:
+        - ColdFusion.Ajax
+    - condition: or
+      location: body
+      words:
+        - cdm
+    - location: body
+      words:
+        - /cfajax/
+        - ColdFusion.Ajax
+    - location: body
+      words:
+        - /cfajax/
+        - <cfscript>

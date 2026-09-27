@@ -1,0 +1,14 @@
+- id: managedfusion
+  name: ManagedFusion
+  author: Fofa
+  tags:
+    - managedfusion
+  description: ManagedFusion
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ManagedFusion
+    - location: header
+      words:
+        - ManagedFusion

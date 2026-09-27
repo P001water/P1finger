@@ -1,0 +1,11 @@
+- id: accordion-content-script
+  name: Accordion Content Script
+  author: Fofa
+  tags:
+    - accordion-content-script
+  description: Accordion Content Script
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ddaccordion.js

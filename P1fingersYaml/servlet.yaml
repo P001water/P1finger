@@ -1,0 +1,11 @@
+- id: servlet
+  name: Servlet
+  author: Fofa
+  tags:
+    - servlet
+  description: Servlet
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Servlet

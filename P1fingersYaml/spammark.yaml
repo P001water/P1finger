@@ -1,0 +1,45 @@
+- id: minxunkejispammarkyoujianxinxi
+  name: Minxunkejispammarkyoujianxinxi Security Gateway
+  author: P001
+  tags:
+    - minxunkejispammarkyoujianxinxi
+    - security-gateway
+  description: Minxunkejispammarkyoujianxinxi Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /cgi-bin/spammark?empty=1
+        - spammark邮件信息安全网关
+- id: spammarkyoujianxinxi
+  name: Spammarkyoujianxinxi Security Gateway
+  author: P001
+  tags:
+    - spammarkyoujianxinxi
+    - security-gateway
+  description: Spammarkyoujianxinxi Security Gateway
+  matchers:
+    - location: body
+      words:
+        - /spammark?noframes=1
+        - href="spammark16.ico"
+- id: spammarkyoujianxinxi-2
+  name: Spammarkyoujianxinxi Security Gateway
+  author: P1finger
+  tags:
+    - spammarkyoujianxinxi
+    - security-gateway
+  description: Spammarkyoujianxinxi Security Gateway
+  matchers:
+    - location: body
+      words:
+        - Spammark邮件信息安全网关
+        - /cgi-bin/spammark?empty=1
+    - condition: or
+      location: title
+      words:
+        - Spammark邮件信息安全网关
+    - condition: or
+      location: body
+      words:
+        - /cgi-bin/spammark?empty=1

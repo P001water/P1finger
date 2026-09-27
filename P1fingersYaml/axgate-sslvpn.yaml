@@ -1,0 +1,10 @@
+- id: axgate-sslvpn
+  name: Axgate-sslvpn
+  author: P001
+  tags:
+    - axgate-sslvpn
+  description: Axgate-sslvpn
+  matchers:
+    - location: body
+      words:
+        - class="axgate"

@@ -1,0 +1,17 @@
+- id: eyoucms
+  name: Eyoucms
+  author: P001
+  tags:
+    - eyoucms
+  description: Eyoucms
+  matchers:
+    - location: body
+      words:
+        - name="generator" content="eyoucms
+        - powered by eyoucms
+    - location: body
+      words:
+        - Powered by EyouCms
+    - location: header
+      words:
+        - 'Set-Cookie: admin_lang='

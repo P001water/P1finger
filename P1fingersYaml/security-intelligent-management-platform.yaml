@@ -1,0 +1,10 @@
+- id: security-intelligent-management-platform
+  name: Security-intelligent-management-platform
+  author: P001
+  tags:
+    - security-intelligent-management-platform
+  description: Security-intelligent-management-platform
+  matchers:
+    - location: body
+      words:
+        - nanjing rickyinfo technology

@@ -1,0 +1,23 @@
+- id: honeywell-ip
+  name: Honeywell IP-Camera
+  author: Fofa
+  tags:
+  - honeywell
+  - honeywell-ip
+  description: Honeywell IP-Camera
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Honeywell IP-Camera
+- id: honeywell-ip-2
+  name: Honeywell Ip-camera
+  author: P1finger
+  tags:
+  - honeywell
+  - honeywell-ip
+  description: Honeywell Ip-camera
+  matchers:
+  - location: body
+    words:
+    - Honeywell IP-Camera

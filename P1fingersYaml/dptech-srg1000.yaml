@@ -1,0 +1,11 @@
+- id: dptech-srg1000
+  name: Dptech SRG1000
+  author: P1finger
+  tags:
+  - dptech
+  - dptech-srg1000
+  description: Dptech SRG1000
+  matchers:
+  - location: body
+    words:
+    - dptech srg1000

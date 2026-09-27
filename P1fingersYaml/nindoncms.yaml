@@ -1,0 +1,10 @@
+- id: nindoncms
+  name: NindonCMS
+  author: P1finger
+  tags:
+    - nindoncms
+  description: NindonCMS
+  matchers:
+    - location: body
+      words:
+        - powered by NindonCMS

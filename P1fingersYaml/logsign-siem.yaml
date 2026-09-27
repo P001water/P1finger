@@ -1,0 +1,10 @@
+- id: logsign-siem
+  name: Logsign-siem
+  author: P001
+  tags:
+    - logsign-siem
+  description: Logsign-siem
+  matchers:
+    - location: body
+      words:
+        - window.location = '/ui/modules/login/'

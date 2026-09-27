@@ -1,0 +1,10 @@
+- id: flower-celery-tool
+  name: Flower-celery-monitoring-tool
+  author: P001
+  tags:
+    - flower-celery-tool
+  description: Flower-celery-monitoring-tool
+  matchers:
+    - location: body
+      words:
+        - <a class="brand" href="/">flower</a>

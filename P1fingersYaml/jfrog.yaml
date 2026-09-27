@@ -1,0 +1,12 @@
+- id: jfrog
+  name: Jfrog
+  author: P001
+  tags:
+    - jfrog
+  description: Jfrog
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv="refresh" content="0;url=/artifactory">
+        - src=/ui/img/jfrog
+        - 'location: /artifactory/'

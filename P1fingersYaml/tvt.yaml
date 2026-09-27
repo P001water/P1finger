@@ -1,0 +1,10 @@
+- id: tvtgongsichanpin
+  name: TVTgongsichanpin
+  author: P1finger
+  tags:
+    - tvtgongsichanpin
+  description: TVTgongsichanpin
+  matchers:
+    - hash:
+        - "492290497"
+      location: favicon

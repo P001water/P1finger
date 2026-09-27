@@ -1,0 +1,10 @@
+- id: site4
+  name: Site4
+  author: P1finger
+  tags:
+    - site4
+  description: Site4
+  matchers:
+    - location: body
+      words:
+        - SITE4.dk Site4 Setup Error..

@@ -1,0 +1,12 @@
+- id: open-edx
+  name: Open-edx
+  author: P001
+  tags:
+    - open-edx
+  description: Open-edx
+  matchers:
+    - location: body
+      words:
+        - alt="powered by open edx
+        - class="footer-about-openedx
+        - id="footer-openedx

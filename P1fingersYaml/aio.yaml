@@ -1,0 +1,10 @@
+- id: kerongaioqiyeguanliruanjian
+  name: KerongAIOqiyeguanliruanjian
+  author: P1finger
+  tags:
+    - kerongaioqiyeguanliruanjian
+  description: KerongAIOqiyeguanliruanjian
+  matchers:
+    - location: body
+      words:
+        - 科荣AIO

@@ -1,0 +1,10 @@
+- id: shwatermeter
+  name: Shwatermeter-system
+  author: P001
+  tags:
+    - shwatermeter
+  description: Shwatermeter-system
+  matchers:
+    - location: body
+      words:
+        - 关于正则表达式的内容在本书的第10章中有较详细的讨论

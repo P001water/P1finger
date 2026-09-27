@@ -1,0 +1,14 @@
+- id: backbee
+  name: BackBee
+  author: Fofa
+  tags:
+    - backbee
+  description: BackBee
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <div id="bb5-site-wrapper">
+    - location: body
+      words:
+        - <div id="bb5-site-wrapper">

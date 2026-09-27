@@ -1,0 +1,24 @@
+- id: clientexec
+  name: ClientExec
+  author: Fofa
+  tags:
+    - clientexec
+  description: ClientExec
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered By ClientExec
+    - condition: or
+      location: header
+      words:
+        - CLIENTEXEC=
+    - location: body
+      words:
+        - Powered By ClientExec
+    - location: header
+      words:
+        - CLIENTEXEC=
+    - location: body
+      words:
+        - powered by clientexec

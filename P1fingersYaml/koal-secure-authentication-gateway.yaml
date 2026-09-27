@@ -1,0 +1,10 @@
+- id: koal-secure-authentication
+  name: Koal-Secure-authentication-gateway
+  author: P1finger
+  tags:
+    - koal-secure-authentication
+  description: Koal-Secure-authentication-gateway
+  matchers:
+    - location: header
+      words:
+        - koal-ssl

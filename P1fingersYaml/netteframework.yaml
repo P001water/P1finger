@@ -1,0 +1,14 @@
+- id: netteframework
+  name: NetteFramework
+  author: Fofa
+  tags:
+    - netteframework
+  description: NetteFramework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Nette Framework
+    - location: header
+      words:
+        - Nette Framework

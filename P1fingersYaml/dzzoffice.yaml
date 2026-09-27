@@ -1,0 +1,10 @@
+- id: dzzoffice-2
+  name: Dzzoffice
+  author: P1finger
+  tags:
+    - dzzoffice
+  description: Dzzoffice
+  matchers:
+    - location: body
+      words:
+        - <meta name="author" content="dzzoffice" />

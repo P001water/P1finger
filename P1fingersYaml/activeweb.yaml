@@ -1,0 +1,14 @@
+- id: activeweb
+  name: Activeweb
+  author: P1finger
+  tags:
+    - activeweb
+  description: Activeweb
+  matchers:
+    - location: body
+      words:
+        - AWNOCACHEBEGIN
+        - activeWeb cache extension
+    - location: header
+      words:
+        - x-awcache

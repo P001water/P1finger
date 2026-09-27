@@ -1,0 +1,10 @@
+- id: netcomwireless
+  name: Netcomwireless
+  author: P1finger
+  tags:
+    - netcomwireless
+  description: Netcomwireless
+  matchers:
+    - hash:
+        - "5542029"
+      location: favicon

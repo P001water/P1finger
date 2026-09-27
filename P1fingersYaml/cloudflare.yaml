@@ -1,0 +1,21 @@
+- id: cloudflare
+  name: Cloudflare
+  author: Fofa
+  tags:
+    - cloudflare
+  description: Cloudflare
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - cloudflare-nginx
+    - location: header
+      words:
+        - cloudflare-nginx
+    - location: body
+      words:
+        - var cloudflare=
+    - location: header
+      words:
+        - __cfduid=
+        - cloudflare

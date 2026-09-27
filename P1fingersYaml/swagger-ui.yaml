@@ -1,0 +1,10 @@
+- id: swagger-ui
+  name: Swagger-ui
+  author: P1finger
+  tags:
+    - swagger-ui
+  description: Swagger-ui
+  matchers:
+    - location: body
+      words:
+        - /swagger

@@ -1,0 +1,14 @@
+- id: nvdvr
+  name: Nvdvr
+  author: Fofa
+  tags:
+    - nvdvr
+  description: Nvdvr
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - XWebPlay
+    - location: body
+      words:
+        - XWebPlay

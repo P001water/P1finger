@@ -1,0 +1,10 @@
+- id: bluepacific
+  name: Bluepacific-network-monitoring-system
+  author: P001
+  tags:
+    - bluepacific
+  description: Bluepacific-network-monitoring-system
+  matchers:
+    - location: body
+      words:
+        - /biradarserver/web/

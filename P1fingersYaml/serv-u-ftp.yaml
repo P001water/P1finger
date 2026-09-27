@@ -1,0 +1,10 @@
+- id: serv-ftp
+  name: Serv-u-ftp
+  author: P001
+  tags:
+    - serv-ftp
+  description: Serv-u-ftp
+  matchers:
+    - location: body
+      words:
+        - alt="serv-u ftp server

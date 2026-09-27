@@ -1,0 +1,11 @@
+- id: netsoft-eida
+  name: Netsoft-eida
+  author: P001
+  tags:
+    - netsoft-eida
+  description: Netsoft-eida
+  matchers:
+    - location: body
+      words:
+        - href="/images/common/favicon.ico"
+        - window.location.href = "/appframe/login_v2/login.jsp";

@@ -1,0 +1,11 @@
+- id: legendgongzuoshiapi
+  name: LEGENDgongzuoshiAPI Management System
+  author: P1finger
+  tags:
+    - legendgongzuoshiapi
+    - management-system
+  description: LEGENDgongzuoshiAPI Management System
+  matchers:
+    - location: body
+      words:
+        - LEGEND工作室-API管理系统

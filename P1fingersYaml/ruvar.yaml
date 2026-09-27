@@ -1,0 +1,11 @@
+- id: luhuaruvaroa
+  name: LuhuaRuvarOA
+  author: P1finger
+  tags:
+    - luhuaruvaroa
+  description: LuhuaRuvarOA
+  matchers:
+    - location: body
+      words:
+        - 广州市璐华计算机有限公司
+        - CustomerFiles/carousel/1.jpg

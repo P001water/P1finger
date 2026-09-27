@@ -1,0 +1,10 @@
+- id: portlandlabs-concrete5
+  name: PortlandLabs Concrete5
+  author: P1finger
+  tags:
+    - portlandlabs-concrete5
+  description: PortlandLabs Concrete5
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: CONCRETE5='

@@ -1,0 +1,10 @@
+- id: tribiq
+  name: Tribiq
+  author: P1finger
+  tags:
+    - tribiq
+  description: Tribiq
+  matchers:
+    - location: body
+      words:
+        - Tribiq CMS

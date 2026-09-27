@@ -1,0 +1,32 @@
+- id: aardvark-topsites
+  name: Aardvark Topsites
+  author: Fofa
+  tags:
+    - aardvark-topsites
+  description: Aardvark Topsites
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by
+        - Aardvark Topsites
+- id: aardvark-topsites-2
+  name: Aardvark-topsites
+  author: P001
+  tags:
+    - aardvark-topsites
+  description: Aardvark-topsites
+  matchers:
+    - location: body
+      words:
+        - aardvark topsites
+- id: aardvark-topsites-3
+  name: Aardvark Topsites
+  author: P1finger
+  tags:
+    - aardvark-topsites
+  description: Aardvark Topsites
+  matchers:
+    - location: body
+      words:
+        - Aardvark Topsites

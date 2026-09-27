@@ -1,0 +1,10 @@
+- id: arcgis
+  name: Arcgis
+  author: P1finger
+  tags:
+    - arcgis
+  description: Arcgis
+  matchers:
+    - location: body
+      words:
+        - arcgis

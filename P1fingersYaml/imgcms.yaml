@@ -1,0 +1,19 @@
+- id: imgcms
+  name: IMGCms
+  author: Fofa
+  tags:
+    - imgcms
+  description: IMGCms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="IMGCMS
+    - condition: or
+      location: body
+      words:
+        - Powered by IMGCMS
+    - location: body
+      words:
+        - content="IMGCMS
+        - Powered by IMGCMS

@@ -1,0 +1,11 @@
+- id: datahelp
+  name: DATAHELP Business Management System
+  author: P1finger
+  tags:
+    - datahelp
+    - business-management-system
+  description: DATAHELP Business Management System
+  matchers:
+    - location: body
+      words:
+        - DATAHELP业务管理系统

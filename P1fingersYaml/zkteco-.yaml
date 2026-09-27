@@ -1,0 +1,11 @@
+- id: zktecoshijiananquan
+  name: Zktecoshijiananquan Management Platform
+  author: P001
+  tags:
+    - zktecoshijiananquan
+    - management-platform
+  description: Zktecoshijiananquan Management Platform
+  matchers:
+    - location: body
+      words:
+        - zkeco 时间&安全管理平台

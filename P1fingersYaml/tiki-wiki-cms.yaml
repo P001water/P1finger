@@ -1,0 +1,31 @@
+- id: tiki-wiki
+  name: Tiki-wiki-cms
+  author: P001
+  tags:
+    - tiki-wiki
+  description: Tiki-wiki-cms
+  matchers:
+    - location: body
+      words:
+        - jquerytiki = new object
+- id: tiki-wiki-2
+  name: Tiki-wiki Cms
+  author: P1finger
+  tags:
+    - tiki-wiki
+  description: Tiki-wiki Cms
+  matchers:
+    - location: body
+      words:
+        - jqueryTiki = new Object
+- id: tiki-wiki-3
+  name: Tiki-wiki CMS
+  author: Fofa
+  tags:
+    - tiki-wiki
+  description: Tiki-wiki CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jqueryTiki = new Object

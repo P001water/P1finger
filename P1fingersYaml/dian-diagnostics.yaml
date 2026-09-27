@@ -1,0 +1,11 @@
+- id: dian-diagnostics
+  name: Dian-diagnostics
+  author: P001
+  tags:
+    - dian-diagnostics
+  description: Dian-diagnostics
+  matchers:
+    - location: body
+      words:
+        - src="/resources/pages/img/logo.svg"
+        - 浙江迪安诊断技术股份有限公司

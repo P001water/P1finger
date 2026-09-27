@@ -1,0 +1,10 @@
+- id: lupus-electronics-xt
+  name: Lupus Electronics Xt
+  author: P1finger
+  tags:
+    - lupus-electronics-xt
+  description: Lupus Electronics Xt
+  matchers:
+    - hash:
+        - "-299324825"
+      location: favicon

@@ -1,0 +1,21 @@
+- id: sitecom-adsl-model
+  name: SITECOM ADSL Model
+  author: Fofa
+  tags:
+    - sitecom-adsl-model
+  description: SITECOM ADSL Model
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - SITECOM
+- id: sitecom-adsl-model-2
+  name: Sitecom Adsl Model
+  author: P1finger
+  tags:
+    - sitecom-adsl-model
+  description: Sitecom Adsl Model
+  matchers:
+    - location: header
+      words:
+        - SITECOM

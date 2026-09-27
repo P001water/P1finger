@@ -1,0 +1,10 @@
+- id: bamboocloud-bim
+  name: Bamboocloud-bim
+  author: P001
+  tags:
+    - bamboocloud-bim
+  description: Bamboocloud-bim
+  matchers:
+    - location: body
+      words:
+        - bim 开发配置与运维控制台

@@ -1,0 +1,26 @@
+- id: bluenet
+  name: Bluenet-video
+  author: P1finger
+  tags:
+    - bluenet
+  description: Bluenet-video
+  matchers:
+    - location: body
+      words:
+        - /cgi-bin/client_execute.cgi?tUD=0
+        - BlueNet Video Viewer Version
+- id: bluenet-2
+  name: BlueNet-Video
+  author: Fofa
+  tags:
+    - bluenet
+  description: BlueNet-Video
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /cgi-bin/client_execute.cgi?tUD=0
+    - condition: or
+      location: title
+      words:
+        - BlueNet Video Viewer Version

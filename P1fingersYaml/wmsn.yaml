@@ -1,0 +1,14 @@
+- id: wmsn
+  name: WMSN
+  author: Fofa
+  tags:
+    - wmsn
+  description: WMSN
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-Cms: WMSN'
+    - location: header
+      words:
+        - 'X-Powered-Cms: WMSN'

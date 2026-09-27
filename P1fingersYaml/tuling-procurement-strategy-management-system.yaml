@@ -1,0 +1,11 @@
+- id: tuling-procurement-strategy
+  name: Tuling-procurement-strategy-management-system
+  author: P001
+  tags:
+    - tuling-procurement-strategy
+  description: Tuling-procurement-strategy-management-system
+  matchers:
+    - location: body
+      words:
+        - src="/login/main_body_bg.jpg"
+        - 长沙图灵科技有限公司

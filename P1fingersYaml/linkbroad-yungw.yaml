@@ -1,0 +1,10 @@
+- id: linkbroad-yungw
+  name: LinkBroad YunGW
+  author: P1finger
+  tags:
+    - linkbroad-yungw
+  description: LinkBroad YunGW
+  matchers:
+    - location: body
+      words:
+        - linkbroad yungw

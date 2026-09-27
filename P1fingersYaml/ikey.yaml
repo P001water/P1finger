@@ -1,0 +1,11 @@
+- id: zhongrenwangluoikey
+  name: ZhongrenwangluoiKEY Management System
+  author: P1finger
+  tags:
+    - zhongrenwangluoikey
+    - management-system
+  description: ZhongrenwangluoiKEY Management System
+  matchers:
+    - location: body
+      words:
+        - iKEY管理系统

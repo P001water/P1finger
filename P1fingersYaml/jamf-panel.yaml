@@ -1,0 +1,12 @@
+- id: jamf-panel
+  name: Jamf-panel
+  author: P001
+  tags:
+    - jamf-panel
+  description: Jamf-panel
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jamf cloud node
+        - jamf pro login

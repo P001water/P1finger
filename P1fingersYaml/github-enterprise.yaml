@@ -1,0 +1,10 @@
+- id: github
+  name: Github_Enterprise
+  author: P1finger
+  tags:
+    - github
+  description: Github_Enterprise
+  matchers:
+    - location: body
+      words:
+        - Setup GitHub Enterprise

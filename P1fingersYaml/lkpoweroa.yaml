@@ -1,0 +1,14 @@
+- id: lkpoweroa
+  name: Lkpoweroa
+  author: P001
+  tags:
+    - lkpoweroa
+  description: Lkpoweroa
+  matchers:
+    - location: body
+      words:
+        - /lksys_windowcontrolscript.js
+        - hhctrlmax
+        - id="lkblogin" href="javascript:__dopostback('lkblogin','')
+        - identityvalidator
+        - onload="lksys_pubmaxwin()

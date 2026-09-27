@@ -1,0 +1,11 @@
+- id: apache-cloudstack
+  name: Apache CloudStack
+  author: P1finger
+  tags:
+  - apache
+  - apache-cloudstack
+  description: Apache CloudStack
+  matchers:
+  - location: body
+    words:
+    - Apache CloudStack

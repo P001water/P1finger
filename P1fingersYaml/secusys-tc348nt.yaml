@@ -1,0 +1,10 @@
+- id: secusystc348ntanquanfangwenmokuai
+  name: Secusystc348ntanquanfangwenmokuai
+  author: P001
+  tags:
+    - secusystc348ntanquanfangwenmokuai
+  description: Secusystc348ntanquanfangwenmokuai
+  matchers:
+    - location: body
+      words:
+        - tc348nt pannel

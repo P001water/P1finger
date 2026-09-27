@@ -1,0 +1,14 @@
+- id: azure-arr
+  name: Azure_ARR
+  author: Fofa
+  tags:
+    - azure-arr
+  description: Azure_ARR
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ARRAffinity
+    - location: header
+      words:
+        - ARRAffinity

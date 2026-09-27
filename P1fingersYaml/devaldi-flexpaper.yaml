@@ -1,0 +1,11 @@
+- id: devaldi-flexpaper
+  name: Devaldi-flexpaper
+  author: P001
+  tags:
+    - devaldi-flexpaper
+  description: Devaldi-flexpaper
+  matchers:
+    - location: body
+      words:
+        - href="http://flexpaper.devaldi.com/plugins.htm"
+        - login to the flexpaper console

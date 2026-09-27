@@ -1,0 +1,13 @@
+- id: youdiancms-2
+  name: YoudianCMS
+  author: P1finger
+  tags:
+    - youdiancms
+  description: YoudianCMS
+  matchers:
+    - location: body
+      words:
+        - YoudianCMS
+    - location: header
+      words:
+        - 'X-Powered-By: YoudianCMS'

@@ -1,0 +1,11 @@
+- id: xbman-operation-management
+  name: XBMAN Operation Management
+  author: P1finger
+  tags:
+    - xbman
+    - operation-management
+  description: XBMAN Operation Management
+  matchers:
+    - location: body
+      words:
+        - XBMAN

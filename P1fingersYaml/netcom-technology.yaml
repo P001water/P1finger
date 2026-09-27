@@ -1,0 +1,10 @@
+- id: netcom-technology
+  name: Netcom Technology
+  author: P1finger
+  tags:
+    - netcom-technology
+  description: Netcom Technology
+  matchers:
+    - hash:
+        - "5471989"
+      location: favicon

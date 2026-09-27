@@ -1,0 +1,10 @@
+- id: dropbox-dropbox
+  name: Dropbox-Dropbox
+  author: P1finger
+  tags:
+    - dropbox-dropbox
+  description: Dropbox-Dropbox
+  matchers:
+    - location: header
+      words:
+        - https://dropbox-

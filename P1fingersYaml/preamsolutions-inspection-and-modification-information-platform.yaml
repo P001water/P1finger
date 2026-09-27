@@ -1,0 +1,10 @@
+- id: preamsolutions-inspection-modification-information
+  name: Preamsolutions-inspection-and-modification-information-platform
+  author: P001
+  tags:
+    - preamsolutions-inspection-modification-information
+  description: Preamsolutions-inspection-and-modification-information-platform
+  matchers:
+    - location: body
+      words:
+        - action="/gqjx/loginmgr.do?method=dologin

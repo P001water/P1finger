@@ -1,0 +1,10 @@
+- id: leadsino-iam-identity-access
+  name: Leadsino IAM（Identity And Access Management）
+  author: P1finger
+  tags:
+    - leadsino-iam-identity-access
+  description: Leadsino IAM（Identity And Access Management）
+  matchers:
+    - location: body
+      words:
+        - LEADSINO IAM-WebVPN

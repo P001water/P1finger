@@ -1,0 +1,13 @@
+- id: skillsoft-skillport-lms
+  name: Skillsoft-skillport-lms
+  author: P001
+  tags:
+    - skillsoft-skillport-lms
+  description: Skillsoft-skillport-lms
+  matchers:
+    - location: body
+      words:
+        - <table border="0" width="100%" id="logobanner"><tr width="100%"><td  width="82%"><img src="https://customer.skillport.com/spcustom/
+    - location: body
+      words:
+        - value='com.skillsoft.scmlauncher.

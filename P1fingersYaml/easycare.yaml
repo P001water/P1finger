@@ -1,0 +1,13 @@
+- id: easycare
+  name: Easycare
+  author: P1finger
+  tags:
+    - easycare
+  description: Easycare
+  matchers:
+    - location: body
+      words:
+        - easycare
+    - location: header
+      words:
+        - easycare.session

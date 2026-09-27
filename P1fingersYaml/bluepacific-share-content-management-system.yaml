@@ -1,0 +1,10 @@
+- id: bluepacific-share-content
+  name: Bluepacific-share-content-management-system
+  author: P001
+  tags:
+    - bluepacific-share-content
+  description: Bluepacific-share-content-management-system
+  matchers:
+    - location: body
+      words:
+        - /visadmin/viscms/index.do

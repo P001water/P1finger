@@ -1,0 +1,11 @@
+- id: tomcat-monitor-uses-wadl
+  name: Tomcat-monitor-uses-wadl
+  author: P001
+  tags:
+  - tomcat
+  - tomcat-monitor-uses-wadl
+  description: Tomcat-monitor-uses-wadl
+  matchers:
+  - location: body
+    words:
+    - tomcat monitor uses wadl to describe services it can offer

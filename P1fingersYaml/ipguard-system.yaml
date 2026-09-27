@@ -1,0 +1,10 @@
+- id: ipguard
+  name: Ipguard-system
+  author: P001
+  tags:
+    - ipguard
+  description: Ipguard-system
+  matchers:
+    - location: body
+      words:
+        - onchange="is_empty('#txtusername','#lblemptyname')

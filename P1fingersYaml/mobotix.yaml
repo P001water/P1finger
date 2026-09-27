@@ -1,0 +1,21 @@
+- id: mobotix-3
+  name: Mobotix
+  author: Fofa
+  tags:
+    - mobotix
+  description: Mobotix
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="MOBOTIX AG
+    - condition: or
+      location: header
+      words:
+        - MOBOTIX Camera User
+    - location: body
+      words:
+        - content="MOBOTIX AG
+    - location: header
+      words:
+        - MOBOTIX Camera User

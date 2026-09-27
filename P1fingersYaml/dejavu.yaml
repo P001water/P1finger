@@ -1,0 +1,10 @@
+- id: dejavu
+  name: Dejavu
+  author: P001
+  tags:
+    - dejavu
+  description: Dejavu
+  matchers:
+    - location: body
+      words:
+        - dejavu, the missing web ui for elasticsearch

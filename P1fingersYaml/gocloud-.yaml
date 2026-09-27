@@ -1,0 +1,10 @@
+- id: gocloudgaoke
+  name: Gocloudgaoke
+  author: P1finger
+  tags:
+    - gocloudgaoke
+  description: Gocloudgaoke
+  matchers:
+    - location: body
+      words:
+        - GOCLOUD

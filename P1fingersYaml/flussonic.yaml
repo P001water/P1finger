@@ -1,0 +1,10 @@
+- id: flussonic
+  name: Flussonic
+  author: P1finger
+  tags:
+    - flussonic
+  description: Flussonic
+  matchers:
+    - hash:
+        - "-393788031"
+      location: favicon

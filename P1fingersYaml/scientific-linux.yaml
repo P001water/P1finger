@@ -1,0 +1,21 @@
+- id: scientific-linux
+  name: Scientific Linux
+  author: Fofa
+  tags:
+    - scientific-linux
+  description: Scientific Linux
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Scientific Linux
+- id: scientific-linux-2
+  name: Scientific Linux
+  author: P1finger
+  tags:
+    - scientific-linux
+  description: Scientific Linux
+  matchers:
+    - location: header
+      words:
+        - Scientific Linux

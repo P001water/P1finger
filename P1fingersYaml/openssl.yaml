@@ -1,0 +1,11 @@
+- id: openssl
+  name: OpenSSL
+  author: Fofa
+  tags:
+    - openssl
+  description: OpenSSL
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - OpenSSL

@@ -1,0 +1,13 @@
+- id: vop
+  name: Vop
+  author: P001
+  tags:
+    - vop
+  description: Vop
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - id="lgform" action="/sso/login
+        - vop
+        - lgdynacodebtn

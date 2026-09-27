@@ -1,0 +1,498 @@
+- id: bagecms-2
+  name: Bagecms
+  author: P1finger
+  tags:
+    - bagecms
+  description: Bagecms
+  matchers:
+    - location: body
+      words:
+        - content="BageCMS
+    - condition: and
+      location: body
+      words:
+        - content="BageCMS
+- id: damicms
+  name: DamiCMS
+  author: Fofa
+  tags:
+    - damicms
+  description: DamiCMS
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 大米CMS-
+    - condition: or
+      location: body
+      words:
+        - content="damicms
+    - condition: or
+      location: body
+      words:
+        - content="大米CMS
+    - location: body
+      words:
+        - 大米CMS-
+        - content="damicms
+        - content="大米CMS
+    - location: body
+      words:
+        - id="tp_dami_kf"
+        - content="damicms"
+- id: diguocms
+  name: DiguoCMS
+  author: P1finger
+  tags:
+    - diguocms
+  description: DiguoCMS
+  matchers:
+    - location: body
+      words:
+        - 从帝国CMS迁入网站数据
+- id: dipingxiancms
+  name: DipingxianCMS
+  author: Fofa
+  tags:
+    - dipingxiancms
+  description: DipingxianCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - labelOppInforStyle
+    - condition: or
+      location: title
+      words:
+        - Powered by deep soon
+    - condition: and
+      location: body
+      words:
+        - frmsearch")
+    - location: body
+      words:
+        - labelOppInforStyle
+        - Powered by deep soon
+        - search_result.aspx
+        - frmsearch
+- id: fenggoushangchengcms
+  name: FenggoushangchengCMS Management System
+  author: P1finger
+  tags:
+    - fenggoushangchengcms
+    - management-system
+  description: FenggoushangchengCMS Management System
+  matchers:
+    - location: body
+      words:
+        - 疯购商城CMS管理系统
+- id: haiyangcms
+  name: Haiyangcms
+  author: P1finger
+  tags:
+    - haiyangcms
+  description: Haiyangcms
+  matchers:
+    - location: body
+      words:
+        - seacms
+    - condition: or
+      location: title
+      words:
+        - seacms
+    - condition: or
+      location: body
+      words:
+        - Powered by SeaCms
+    - condition: or
+      location: body
+      words:
+        - content="seacms
+    - location: body
+      words:
+        - target="_blank">海洋cms
+- id: hanchencms
+  name: Hanchencms
+  author: P1finger
+  tags:
+    - hanchencms
+  description: Hanchencms
+  matchers:
+    - location: body
+      words:
+        - 翰臣科技
+- id: hezhengcms
+  name: Hezhengcms
+  author: P1finger
+  tags:
+    - hezhengcms
+  description: Hezhengcms
+  matchers:
+    - location: body
+      words:
+        - /cms/cmsadmin/infopub
+- id: jiducms
+  name: JiduCMS
+  author: P1finger
+  tags:
+    - jiducms
+  description: JiduCMS
+  matchers:
+    - location: body
+      words:
+        - content="几度CMS
+- id: jisucms
+  name: Jisucms
+  author: P1finger
+  tags:
+    - jisucms
+  description: Jisucms
+  matchers:
+    - location: body
+      words:
+        - 台州市极速网络有限公司
+- id: jingluncms
+  name: Jingluncms
+  author: P1finger
+  tags:
+    - jingluncms
+  description: Jingluncms
+  matchers:
+    - location: body
+      words:
+        - jltech.cn
+- id: keyicms
+  name: KeyiCMS
+  author: Fofa
+  tags:
+    - keyicms
+  description: KeyiCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - keyicms：keyicms
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.keyicms.com
+    - location: body
+      words:
+        - keyicms：keyicms
+        - Powered by <a href="http://www.keyicms.com
+    - location: body
+      words:
+        - KeyiCMS
+- id: longmaicms
+  name: LongmaiCMS
+  author: P1finger
+  tags:
+    - longmaicms
+  description: LongmaiCMS
+  matchers:
+    - location: body
+      words:
+        - 龙脉科技
+        - www.szlongmai.com
+- id: mingtengcms
+  name: Mingtengcms
+  author: P1finger
+  tags:
+    - mingtengcms
+  description: Mingtengcms
+  matchers:
+    - location: body
+      words:
+        - 明腾
+    - location: body
+      words:
+        - 明腾-西部商务网
+- id: moutongyongxingzhengfucms
+  name: Moutongyongxingzhengfucms
+  author: Fofa
+  tags:
+    - moutongyongxingzhengfucms
+  description: Moutongyongxingzhengfucms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /deptWebsiteAction.do
+    - location: body
+      words:
+        - /deptWebsiteAction.do
+- id: niubicms
+  name: Niubicms
+  author: Fofa
+  tags:
+    - niubicms
+  description: Niubicms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="niubicms
+    - location: body
+      words:
+        - content="niubicms
+- id: pingguocms
+  name: PingguoCMS
+  author: Fofa
+  tags:
+    - pingguocms
+  description: PingguoCMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - maccms:voddaycount
+    - location: body
+      words:
+        - maccms:voddaycount
+- id: puyuancms
+  name: Puyuancms
+  author: P1finger
+  tags:
+    - puyuancms
+  description: Puyuancms
+  matchers:
+    - location: body
+      words:
+        - /default/common/nui/nui.js
+- id: rongjicms
+  name: RongjiCMS
+  author: P1finger
+  tags:
+    - rongjicms
+  description: RongjiCMS
+  matchers:
+    - location: body
+      words:
+        - /filecenter/res_base/rjcms
+- id: ruishangqiyecms
+  name: RuishangqiyeCMS
+  author: Fofa
+  tags:
+    - ruishangqiyecms
+  description: RuishangqiyeCMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="/Writable/ClientImages/mycss.css
+    - location: body
+      words:
+        - content="博组客中国本地化定制系统 - 基于 COMSHARP CMS"/>
+- id: shangyijiankangcms
+  name: ShangyijiankangCMS Management System
+  author: P1finger
+  tags:
+    - shangyijiankangcms
+    - management-system
+  description: ShangyijiankangCMS Management System
+  matchers:
+    - location: body
+      words:
+        - 尚医健康CMS管理系统
+- id: shiziyushequtuangoucms-system
+  name: ShiziyushequtuangouCMS System
+  author: P1finger
+  tags:
+    - shiziyushequtuangoucms
+    - system
+  description: ShiziyushequtuangouCMS System
+  matchers:
+    - location: body
+      words:
+        - /seller.php?s=/Public/login
+    - location: header
+      words:
+        - 'X-Powered-By: oscshop'
+- id: situcms
+  name: SituCMS
+  author: P1finger
+  tags:
+    - situcms
+  description: SituCMS
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: computer=deleted;'
+- id: trs
+  name: TRS
+  author: P1finger
+  tags:
+    - trs
+  description: TRS
+  matchers:
+    - location: body
+      words:
+        - dreamer-cms
+- id: wangqicms
+  name: WangqiCMS
+  author: P1finger
+  tags:
+    - wangqicms
+  description: WangqiCMS
+  matchers:
+    - location: body
+      words:
+        - wangqi/style.css
+- id: wentucms-management-system
+  name: WentuCMS Management System
+  author: P1finger
+  tags:
+    - wentucms
+    - management-system
+  description: WentuCMS Management System
+  matchers:
+    - location: body
+      words:
+        - DOSSM 2.0 CMS管理系统
+- id: xianjikejicms
+  name: Xianjikejicms
+  author: P1finger
+  tags:
+    - xianjikejicms
+  description: Xianjikejicms
+  matchers:
+    - location: body
+      words:
+        - 南京先极科技有限公司
+- id: xindiancms
+  name: Xindiancms
+  author: P1finger
+  tags:
+    - xindiancms
+  description: Xindiancms
+  matchers:
+    - location: header
+      words:
+        - epointserver
+    - location: body
+      words:
+        - webBuilderCommon
+- id: xunruicms
+  name: XunruiCMS
+  author: P1finger
+  tags:
+    - xunruicms
+  description: XunruiCMS
+  matchers:
+    - location: body
+      words:
+        - xunruicms
+- id: xunyoucms
+  name: Xunyoucms
+  author: P1finger
+  tags:
+    - xunyoucms
+  description: Xunyoucms
+  matchers:
+    - location: body
+      words:
+        - 技术支持：青岛迅优网络科技有限公司
+- id: yidiancms
+  name: YidianCMS
+  author: Fofa
+  tags:
+    - yidiancms
+  description: YidianCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - DianCMS_SiteName
+    - condition: or
+      location: body
+      words:
+        - DianCMS_用户登陆引用
+    - location: body
+      words:
+        - DianCMS_SiteName
+        - DianCMS_用户登陆引用
+    - location: body
+      words:
+        - <meta name="generator" content="DianCMS">
+- id: yiqicms
+  name: Yiqicms
+  author: P1finger
+  tags:
+    - yiqicms
+  description: Yiqicms
+  matchers:
+    - location: body
+      words:
+        - content="YiqiCMS
+    - condition: and
+      location: body
+      words:
+        - content="YiqiCMS
+- id: youdiancms
+  name: YoudianCMS
+  author: P1finger
+  tags:
+    - youdiancms
+  description: YoudianCMS
+  matchers:
+    - location: body
+      words:
+        - 友点企业网站管理系统
+- id: yunmengcms
+  name: Yunmengcms
+  author: P1finger
+  tags:
+    - yunmengcms
+  description: Yunmengcms
+  matchers:
+    - location: body
+      words:
+        - wezhan.cn
+- id: zhongqidonglimenhucms
+  name: ZhongqidonglimenhuCMS
+  author: Fofa
+  tags:
+    - zhongqidonglimenhucms
+  description: ZhongqidonglimenhuCMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 中企动力提供技术支持
+    - location: body
+      words:
+        - 中企动力提供技术支持
+- id: jietucmsweixinyingxiao
+  name: JietuCMSweixinyingxiao Management System
+  author: P1finger
+  tags:
+    - jietucmsweixinyingxiao
+    - management-system
+  description: JietuCMSweixinyingxiao Management System
+  matchers:
+    - location: body
+      words:
+        - <title>捷兔CMS-微信营销管理系统</title>
+- id: manchengcms
+  name: ManchengCMS CMS
+  author: P1finger
+  tags:
+    - manchengcms
+    - cms
+  description: ManchengCMS CMS
+  matchers:
+    - location: body
+      words:
+        - <title>漫城CMS网站管理系统</title>
+- id: xiaozhucmsshenghuotongo2o
+  name: Xiaozhucmsshenghuotongo2o System
+  author: P1finger
+  tags:
+    - xiaozhucmsshenghuotongo2o
+    - system
+  description: Xiaozhucmsshenghuotongo2o System
+  matchers:
+    - location: body
+      words:
+        - 小猪cms生活通o2o系统
+        - 小猪cms生活通o2o系统

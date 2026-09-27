@@ -1,0 +1,10 @@
+- id: dotnetcms
+  name: DotNetCMS
+  author: P1finger
+  tags:
+    - dotnetcms
+  description: DotNetCMS
+  matchers:
+    - location: body
+      words:
+        - by DotNetCMS

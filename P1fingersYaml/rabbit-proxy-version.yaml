@@ -1,0 +1,10 @@
+- id: rabbit-proxy-version
+  name: RabbIT-proxy-version
+  author: P1finger
+  tags:
+    - rabbit-proxy-version
+  description: RabbIT-proxy-version
+  matchers:
+    - location: header
+      words:
+        - 'Server: RabbIT proxy version'

@@ -1,0 +1,11 @@
+- id: schoolcmsxuexiao
+  name: SchoolCMSxuexiao Management System
+  author: P1finger
+  tags:
+    - schoolcmsxuexiao
+    - management-system
+  description: SchoolCMSxuexiao Management System
+  matchers:
+    - location: body
+      words:
+        - SchoolCMS学校管理系统

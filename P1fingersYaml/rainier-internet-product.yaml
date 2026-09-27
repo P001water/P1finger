@@ -1,0 +1,10 @@
+- id: rainier-internet
+  name: Rainier-internet-product
+  author: P001
+  tags:
+    - rainier-internet
+  description: Rainier-internet-product
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.rainier.net.cn">北京润尼尔网络科技有限公司

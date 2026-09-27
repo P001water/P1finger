@@ -1,0 +1,10 @@
+- id: intelligence-parking-integrated
+  name: Intelligence-parking-integrated-management-platform
+  author: P001
+  tags:
+    - intelligence-parking-integrated
+  description: Intelligence-parking-integrated-management-platform
+  matchers:
+    - location: body
+      words:
+        - 厦门立智通讯科技有限公司 版权所有

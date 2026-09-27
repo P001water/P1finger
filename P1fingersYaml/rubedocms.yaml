@@ -1,0 +1,11 @@
+- id: rubedocms
+  name: RubedoCMS
+  author: P1finger
+  tags:
+    - rubedocms
+  description: RubedoCMS
+  matchers:
+    - location: body
+      words:
+        - ng-attr-lang="{{rubedo.current.page.locale}
+        - '{rubedo.current.page.title}'

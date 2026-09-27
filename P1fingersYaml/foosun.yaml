@@ -1,0 +1,27 @@
+- id: foosun
+  name: Foosun
+  author: Fofa
+  tags:
+    - foosun
+  description: Foosun
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Created by DotNetCMS
+    - condition: or
+      location: body
+      words:
+        - For Foosun
+    - condition: or
+      location: body
+      words:
+        - Powered by www.Foosun.net,Products:Foosun Content Manage system
+    - location: body
+      words:
+        - Created by DotNetCMS
+        - For Foosun
+        - Powered by www.Foosun.net,Products:Foosun Content Manage system
+    - location: body
+      words:
+        - For Foosun

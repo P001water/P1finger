@@ -1,0 +1,11 @@
+- id: yunkemail
+  name: Yunkemail
+  author: P001
+  tags:
+    - yunkemail
+  description: Yunkemail
+  matchers:
+    - location: body
+      words:
+        - action="/alimail/error/browserlog
+        - content="阿里企业邮箱

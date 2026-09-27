@@ -1,0 +1,24 @@
+- id: invoiceplane
+  name: InvoicePlane
+  author: Fofa
+  tags:
+    - invoiceplane
+  description: InvoicePlane
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - InvoicePlane
+    - condition: or
+      location: header
+      words:
+        - ci_session")
+    - location: body
+      words:
+        - InvoicePlane
+    - location: header
+      words:
+        - ci_session
+    - location: body
+      words:
+        - /InvoicePlane/

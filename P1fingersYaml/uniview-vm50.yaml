@@ -1,0 +1,10 @@
+- id: uniview-vm50
+  name: Uniview-vm50
+  author: P001
+  tags:
+    - uniview-vm50
+  description: Uniview-vm50
+  matchers:
+    - location: body
+      words:
+        - vm5.0

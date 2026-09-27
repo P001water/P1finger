@@ -1,0 +1,11 @@
+- id: victorysoft-performance
+  name: Victorysoft-performance-management-system
+  author: P001
+  tags:
+    - victorysoft-performance
+  description: Victorysoft-performance-management-system
+  matchers:
+    - location: body
+      words:
+        - casui/themes/siam/login.css
+        - class="row fl-controls-left

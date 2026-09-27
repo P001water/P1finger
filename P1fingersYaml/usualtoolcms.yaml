@@ -1,0 +1,10 @@
+- id: usualtoolcms
+  name: UsualToolCMS
+  author: P1finger
+  tags:
+    - usualtoolcms
+  description: UsualToolCMS
+  matchers:
+    - location: body
+      words:
+        - UsualToolCMS

@@ -1,0 +1,13 @@
+- id: h5s
+  name: H5s-video-platform
+  author: P001
+  tags:
+    - h5s
+  description: H5s-video-platform
+  matchers:
+    - hash:
+        - 71d350f81224c181b2fc5851fc61b0ba
+      location: favicon
+    - location: body
+      words:
+        - h5s视频平台|web

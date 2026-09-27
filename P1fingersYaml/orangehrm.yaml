@@ -1,0 +1,12 @@
+- id: orangehrm
+  name: Orangehrm
+  author: P001
+  tags:
+    - orangehrm
+  description: Orangehrm
+  matchers:
+    - location: body
+      words:
+        - href="http://www.orangehrm.com" target=
+        - name="hdnusertimezoneoffset
+        - welcome to the orangehrm ver

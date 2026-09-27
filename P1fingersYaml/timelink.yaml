@@ -1,0 +1,11 @@
+- id: timelink
+  name: Timelink
+  author: P001
+  tags:
+    - timelink
+  description: Timelink
+  matchers:
+    - location: body
+      words:
+        - <link rel="shortcut icon" location="image/png" href="/timelink/images/favicon.ico"/>
+        - link international corp. all rights reserved

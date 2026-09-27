@@ -1,0 +1,11 @@
+- id: druid-indexer-coordinator
+  name: Druid-Indexer-Coordinator
+  author: P1finger
+  tags:
+  - druid
+  - druid-indexer-coordinator
+  description: Druid-Indexer-Coordinator
+  matchers:
+  - location: body
+    words:
+    - <meta name="Description" content="Druid

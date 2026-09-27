@@ -1,0 +1,11 @@
+- id: p3p-enabled
+  name: P3p_enabled
+  author: Fofa
+  tags:
+    - p3p-enabled
+  description: P3p_enabled
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'P3p: CP'

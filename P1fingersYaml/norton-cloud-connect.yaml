@@ -1,0 +1,10 @@
+- id: norton-connect
+  name: Norton-cloud-connect
+  author: P001
+  tags:
+    - norton-connect
+  description: Norton-cloud-connect
+  matchers:
+    - location: body
+      words:
+        - '<h2 style="margin-left: 0px;">norton cloud connect</h2>'

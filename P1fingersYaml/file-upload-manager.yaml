@@ -1,0 +1,32 @@
+- id: file-upload-manager
+  name: File-upload-manager
+  author: P1finger
+  tags:
+    - file-upload-manager
+  description: File-upload-manager
+  matchers:
+    - location: body
+      words:
+        - File Upload Manager
+        - <IMG SRC="/images/header.jpg" ALT="File Upload Manager">
+    - location: body
+      words:
+        - File Upload Manager
+- id: file-upload-manager-2
+  name: File-Upload-Manager
+  author: Fofa
+  tags:
+    - file-upload-manager
+  description: File-Upload-Manager
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - File Upload Manager
+    - condition: or
+      location: body
+      words:
+        - <IMG SRC="/images/header.jpg" ALT="File Upload Manager">
+    - location: body
+      words:
+        - File Upload Manager

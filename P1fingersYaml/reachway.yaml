@@ -1,0 +1,10 @@
+- id: reachway
+  name: Reachway
+  author: P1finger
+  tags:
+    - reachway
+  description: Reachway
+  matchers:
+    - location: body
+      words:
+        - reachway.com.cn

@@ -1,0 +1,11 @@
+- id: cmailserver
+  name: Cmailserver
+  author: P001
+  tags:
+    - cmailserver
+  description: Cmailserver
+  matchers:
+    - location: body
+      words:
+        - <font size=2>username ( contatto email )</font>
+        - <input location=checkbox name="saveuserpass

@@ -1,0 +1,21 @@
+- id: fortiweb-waf
+  name: FortiWeb WAF
+  author: Fofa
+  tags:
+    - fortiweb-waf
+  description: FortiWeb WAF
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FORTIWAFSID=
+- id: fortiweb-waf-2
+  name: Fortiweb Waf
+  author: P1finger
+  tags:
+    - fortiweb-waf
+  description: Fortiweb Waf
+  matchers:
+    - location: header
+      words:
+        - FORTIWAFSID=

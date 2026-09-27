@@ -1,0 +1,20 @@
+- id: alibabaeagleeye
+  name: AlibabaEagleEye
+  author: P1finger
+  tags:
+    - alibabaeagleeye
+  description: AlibabaEagleEye
+  matchers:
+    - location: body
+      words:
+        - EagleEye
+- id: eagleeye
+  name: Eagleeye
+  author: P001
+  tags:
+    - eagleeye
+  description: Eagleeye
+  matchers:
+    - location: body
+      words:
+        - eagleeye 钉钉答疑群

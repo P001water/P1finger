@@ -1,0 +1,15 @@
+- id: spark-master
+  name: Spark_master
+  author: P1finger
+  tags:
+  - spark
+  - spark-master
+  description: Spark_master
+  matchers:
+  - location: body
+    words:
+    - Spark Master at
+  - condition: and
+    location: title
+    words:
+    - Spark Master at

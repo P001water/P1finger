@@ -1,0 +1,11 @@
+- id: opzoon-security-gateway
+  name: Opzoon Security Gateway
+  author: P001
+  tags:
+    - opzoon
+    - security-gateway
+  description: Opzoon Security Gateway
+  matchers:
+    - location: body
+      words:
+        - var opzoon_ver = document.getelementbyid("opzoon_version"

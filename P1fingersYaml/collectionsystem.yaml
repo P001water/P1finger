@@ -1,0 +1,11 @@
+- id: collectionsystem
+  name: Collectionsystem
+  author: P001
+  tags:
+    - collectionsystem
+  description: Collectionsystem
+  matchers:
+    - location: body
+      words:
+        - class="s_container_left"
+        - upgrade/ocx/ccdmsshell.cab#version

@@ -1,0 +1,10 @@
+- id: domoticz
+  name: Domoticz
+  author: P1finger
+  tags:
+    - domoticz
+  description: Domoticz
+  matchers:
+    - hash:
+        - "90680708"
+      location: favicon

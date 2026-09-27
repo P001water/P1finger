@@ -1,0 +1,22 @@
+- id: nps
+  name: Nps
+  author: P001
+  tags:
+    - nps
+  description: Nps
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ehang
+        - nps
+- id: npsneiwangchuantou
+  name: NPSneiwangchuantou
+  author: P1finger
+  tags:
+    - npsneiwangchuantou
+  description: NPSneiwangchuantou
+  matchers:
+    - location: body
+      words:
+        - nps admin login

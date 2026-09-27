@@ -1,0 +1,11 @@
+- id: sscms
+  name: Sscms
+  author: P1finger
+  tags:
+    - sscms
+  description: Sscms
+  matchers:
+    - location: body
+      words:
+        - SS CMS
+        - /sitefiles/assets

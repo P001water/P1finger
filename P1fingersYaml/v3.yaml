@@ -1,0 +1,10 @@
+- id: superdata-3
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - 速达V3.NET财务

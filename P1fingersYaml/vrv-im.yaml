@@ -1,0 +1,13 @@
+- id: vrv-im
+  name: Vrv-im
+  author: P001
+  tags:
+    - vrv-im
+  description: Vrv-im
+  matchers:
+    - location: body
+      words:
+        - <h3>连豆豆pc客户端 </h3>
+        - class="loginusername" value="" placeholder="连豆豆账号/邮箱/手机号
+        - class="wj-text wj-title">下载信源豆豆</p>
+        - href="http://im.vrv.cn/server-securitycenter/password/goretrieval.vrv

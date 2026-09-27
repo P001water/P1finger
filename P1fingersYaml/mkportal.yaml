@@ -1,0 +1,11 @@
+- id: mkportal
+  name: Mkportal
+  author: P001
+  tags:
+    - mkportal
+  description: Mkportal
+  matchers:
+    - location: body
+      words:
+        - content="mkportal
+        - target="_blank">mkportal</a>

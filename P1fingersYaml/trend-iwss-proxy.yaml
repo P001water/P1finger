@@ -1,0 +1,10 @@
+- id: trend-iwss-proxy
+  name: Trend-IWSS-Proxy
+  author: P1finger
+  tags:
+    - trend-iwss-proxy
+  description: Trend-IWSS-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Proxy-Agent: IWSS'

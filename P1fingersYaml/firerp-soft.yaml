@@ -1,0 +1,10 @@
+- id: firerp-soft
+  name: Firerp-soft
+  author: P001
+  tags:
+    - firerp-soft
+  description: Firerp-soft
+  matchers:
+    - location: body
+      words:
+        - mm_preloadimages('images/bt/bt_login_b.gif

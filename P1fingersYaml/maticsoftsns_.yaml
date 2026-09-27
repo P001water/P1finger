@@ -1,0 +1,20 @@
+- id: maticsoftsnsdongruanfenxiangshequ
+  name: MaticsoftSNSdongruanfenxiangshequ
+  author: Fofa
+  tags:
+    - maticsoftsnsdongruanfenxiangshequ
+  description: MaticsoftSNSdongruanfenxiangshequ
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - MaticsoftSNS
+    - condition: and
+      location: body
+      words:
+        - /Areas/SNS/")
+    - location: body
+      words:
+        - MaticsoftSNS
+        - maticsoft
+        - /Areas/SNS/

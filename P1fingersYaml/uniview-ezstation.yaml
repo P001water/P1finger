@@ -1,0 +1,10 @@
+- id: uniview-ezstation
+  name: Uniview-ezstation
+  author: P001
+  tags:
+    - uniview-ezstation
+  description: Uniview-ezstation
+  matchers:
+    - location: body
+      words:
+        - <h1>welcome to ezstation vc server

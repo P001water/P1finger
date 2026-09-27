@@ -1,0 +1,18 @@
+- id: allnewsmanager-net
+  name: AllNewsManager_NET
+  author: Fofa
+  tags:
+    - allnewsmanager-net
+  description: AllNewsManager_NET
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by
+    - condition: and
+      location: body
+      words:
+        - AllNewsManager
+    - location: body
+      words:
+        - AllNewsManager

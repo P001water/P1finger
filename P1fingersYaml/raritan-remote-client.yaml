@@ -1,0 +1,10 @@
+- id: raritan-client
+  name: Raritan-Remote-Client
+  author: P1finger
+  tags:
+    - raritan-client
+  description: Raritan-Remote-Client
+  matchers:
+    - location: body
+      words:
+        - Multi-Platform Client

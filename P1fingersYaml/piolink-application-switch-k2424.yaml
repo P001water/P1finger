@@ -1,0 +1,10 @@
+- id: piolink-switch-k2424
+  name: PIOLINK Application Switch K2424
+  author: P1finger
+  tags:
+    - piolink-switch-k2424
+  description: PIOLINK Application Switch K2424
+  matchers:
+    - location: body
+      words:
+        - piolink application switch k2424

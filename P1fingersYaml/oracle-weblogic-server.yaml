@@ -1,0 +1,20 @@
+- id: oracle-weblogic
+  name: Oracle-WebLogic-Server
+  author: P001
+  tags:
+  - weblogic
+  - oracle
+  - oracle-weblogic
+  description: Oracle-WebLogic-Server
+  matchers:
+  - accuracy: '100'
+    condition: or
+    location: body
+    words:
+    - /console/framework/skins/wlsconsole/images/login_weblogic_branding.png
+    - <i>hypertext transfer protocol -- http/1.1</i>
+    - error 403--
+    - error 404--not found
+    - hypertext transfer protocol
+    - oracle weblogic server
+    - welcome to weblogic application server

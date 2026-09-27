@@ -1,0 +1,10 @@
+- id: softether
+  name: Softether-vpn
+  author: P001
+  tags:
+    - softether
+  description: Softether-vpn
+  matchers:
+    - location: body
+      words:
+        - <li>manage this vpn server or vpn bridge<ul>

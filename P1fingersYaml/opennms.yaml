@@ -1,0 +1,26 @@
+- id: opennms
+  name: Opennms
+  author: Fofa
+  tags:
+    - opennms
+  description: Opennms
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - /opennms/login.jsp
+    - condition: or
+      location: body
+      words:
+        - /css/gwt-asset.css
+    - condition: or
+      location: body
+      words:
+        - OpenNMS® is a registered trademark of
+    - location: body
+      words:
+        - /css/gwt-asset.css
+        - OpenNMS® is a registered trademark of
+    - location: header
+      words:
+        - /opennms/login.jsp

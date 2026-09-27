@@ -1,0 +1,13 @@
+- id: 1caitong
+  name: 1Caitong Procurement System
+  author: P001
+  tags:
+  - 1caitong
+  description: 1Caitong Procurement System
+  matchers:
+  - location: body
+    words:
+    - /custom/groupnewslist.aspx?groupid=
+  - location: body
+    words:
+    - /custom/GroupNewsList

@@ -1,0 +1,11 @@
+- id: smartweb-management-system
+  name: Smartweb Management System
+  author: P1finger
+  tags:
+    - smartweb
+    - management-system
+  description: Smartweb Management System
+  matchers:
+    - location: body
+      words:
+        - 无线smartWeb 2129839604

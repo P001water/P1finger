@@ -1,0 +1,12 @@
+- id: microsoft-iis10
+  name: Microsoft-IIS10.5
+  author: Fofa
+  tags:
+  - microsoft
+  - microsoft-iis10
+  description: Microsoft-IIS10.5
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - IIS/10.5

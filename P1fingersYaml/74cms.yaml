@@ -1,0 +1,50 @@
+- id: 74cms
+  name: 74cms
+  author: P1finger
+  tags:
+    - 74cms
+  description: 74cms
+  matchers:
+    - location: body
+      words:
+        - 74cms
+    - location: body
+      words:
+        - 74cms.com
+        - 骑士CMS
+    - condition: or
+      location: body
+      words:
+        - content="74cms.com
+    - condition: or
+      location: body
+      words:
+        - content="骑士CMS
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.74cms.com/
+    - condition: and
+      location: body
+      words:
+        - selectjobscategory")
+- id: qishi74cms
+  name: Qishi74CMS
+  author: P001
+  tags:
+    - qishi74cms
+  description: Qishi74CMS
+  matchers:
+    - location: body
+      words:
+        - /templates/default/css/common.css
+        - content="74cms.com
+        - name="copyright" content="74cms.com"
+        - content="骑士cms
+        - powered by <a href="http://www.74cms.com/"
+        - selectjobscategory
+    - condition: and
+      location: body
+      words:
+        - https://www.74cms.com
+        - console.log('\n

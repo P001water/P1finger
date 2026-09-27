@@ -1,0 +1,21 @@
+- id: android-webcam
+  name: Android Webcam Server
+  author: Fofa
+  tags:
+    - android-webcam
+  description: Android Webcam Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Android Webcam Server
+- id: android-webcam-2
+  name: Android Webcam Server
+  author: P1finger
+  tags:
+    - android-webcam
+  description: Android Webcam Server
+  matchers:
+    - location: header
+      words:
+        - Android Webcam Server

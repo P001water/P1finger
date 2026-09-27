@@ -1,0 +1,14 @@
+- id: onethink
+  name: Onethink
+  author: P001
+  tags:
+    - onethink
+  description: Onethink
+  matchers:
+    - location: body
+      words:
+        - onethink管理平台
+        - onethink.css
+    - location: body
+      words:
+        - OneThink管理平台

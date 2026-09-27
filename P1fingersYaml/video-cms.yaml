@@ -1,0 +1,10 @@
+- id: video-cms
+  name: Video CMS
+  author: P1finger
+  tags:
+    - video-cms
+  description: Video CMS
+  matchers:
+    - location: body
+      words:
+        - <p>Video CMS by <a target="_blank" rel="nofollow" href="https://www.cobrasoftwares.org">Cobra Softwares Inc</a></p></footer>

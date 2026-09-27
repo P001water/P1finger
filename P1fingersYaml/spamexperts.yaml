@@ -1,0 +1,10 @@
+- id: spamexperts
+  name: Spamexperts
+  author: P1finger
+  tags:
+    - spamexperts
+  description: Spamexperts
+  matchers:
+    - hash:
+        - "-1688698891"
+      location: favicon

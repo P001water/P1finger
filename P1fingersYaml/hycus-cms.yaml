@@ -1,0 +1,26 @@
+- id: hycus
+  name: Hycus-cms
+  author: P1finger
+  tags:
+    - hycus
+  description: Hycus-cms
+  matchers:
+    - location: body
+      words:
+        - content="Hycus
+        - Powered By <a href="http://www.hycus.com
+- id: hycus-2
+  name: Hycus-CMS
+  author: Fofa
+  tags:
+    - hycus
+  description: Hycus-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Hycus
+    - condition: or
+      location: body
+      words:
+        - Powered By <a href="http://www.hycus.com

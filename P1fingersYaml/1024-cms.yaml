@@ -1,0 +1,38 @@
+- id: "1024"
+  name: 1024 CMS
+  author: Fofa
+  tags:
+    - "1024"
+  description: 1024 CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by 1024 CMS
+    - condition: or
+      location: body
+      words:
+        - content="1024 CMS
+- id: 1024-2
+  name: 1024 Cms
+  author: P1finger
+  tags:
+    - "1024"
+  description: 1024 Cms
+  matchers:
+    - location: body
+      words:
+        - Powered by 1024 CMS
+        - content="1024 CMS
+    - location: body
+      words:
+        - Powered by 1024 CMS
+        - generator" content="1024 CMS (c)
+    - condition: or
+      location: body
+      words:
+        - Powered by 1024 CMS
+    - condition: or
+      location: body
+      words:
+        - generator" content="1024 CMS (c)

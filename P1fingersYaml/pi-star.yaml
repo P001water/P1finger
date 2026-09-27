@@ -1,0 +1,10 @@
+- id: pi-star
+  name: Pi Star
+  author: P1finger
+  tags:
+    - pi-star
+  description: Pi Star
+  matchers:
+    - hash:
+        - "432733105"
+      location: favicon

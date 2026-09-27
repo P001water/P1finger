@@ -1,0 +1,10 @@
+- id: chelen
+  name: Chelen-system
+  author: P001
+  tags:
+    - chelen
+  description: Chelen-system
+  matchers:
+    - location: body
+      words:
+        - iaus/media/js/login/login.js

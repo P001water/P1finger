@@ -1,0 +1,14 @@
+- id: manageengine-adaudit
+  name: Manageengine-adaudit
+  author: P001
+  tags:
+    - manageengine-adaudit
+  description: Manageengine-adaudit
+  matchers:
+    - location: body
+      words:
+        - title="manageengine admanager plus
+    - location: body
+      words:
+        - <option value = "ADAuditPlus Authentication">
+        - ManageEngine - ADManager Plus

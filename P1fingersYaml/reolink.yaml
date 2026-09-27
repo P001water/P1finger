@@ -1,0 +1,10 @@
+- id: reolink
+  name: Reolink
+  author: P1finger
+  tags:
+    - reolink
+  description: Reolink
+  matchers:
+    - hash:
+        - "-38705358"
+      location: favicon

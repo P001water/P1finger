@@ -1,0 +1,17 @@
+- id: gsoap
+  name: GSOAP
+  author: Fofa
+  tags:
+    - gsoap
+  description: GSOAP
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - gSOAP
+    - location: header
+      words:
+        - gSOAP
+    - location: body
+      words:
+        - 'server: gsoap'

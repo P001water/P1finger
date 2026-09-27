@@ -1,0 +1,19 @@
+- id: itop
+  name: ITop
+  author: Fofa
+  tags:
+    - itop
+  description: ITop
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - iTop Login
+    - condition: or
+      location: body
+      words:
+        - href="http://www.combodo.com/itop
+    - location: body
+      words:
+        - iTop Login
+        - href="http://www.combodo.com/itop

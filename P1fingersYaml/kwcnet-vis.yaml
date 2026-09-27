@@ -1,0 +1,10 @@
+- id: kwcnet-vis
+  name: Kwcnet-vis
+  author: P001
+  tags:
+    - kwcnet-vis
+  description: Kwcnet-vis
+  matchers:
+    - location: body
+      words:
+        - content="北京开维创科技有限公司

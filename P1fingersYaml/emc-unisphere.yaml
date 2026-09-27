@@ -1,0 +1,20 @@
+- id: emc-unisphere
+  name: Emc-unisphere
+  author: P001
+  tags:
+    - emc-unisphere
+  description: Emc-unisphere
+  matchers:
+    - location: body
+      words:
+        - <script src="oemmessage.js
+- id: emc-unisphere-2
+  name: EMC Unisphere
+  author: P1finger
+  tags:
+    - emc-unisphere
+  description: EMC Unisphere
+  matchers:
+    - location: body
+      words:
+        - Unisphere<br>

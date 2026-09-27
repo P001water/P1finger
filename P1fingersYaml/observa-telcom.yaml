@@ -1,0 +1,11 @@
+- id: observa-telcom
+  name: OBSERVA Telcom
+  author: Fofa
+  tags:
+    - observa-telcom
+  description: OBSERVA Telcom
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - OBSERVA

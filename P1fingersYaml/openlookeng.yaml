@@ -1,0 +1,10 @@
+- id: openlookeng
+  name: OpenLooKeng
+  author: P1finger
+  tags:
+    - openlookeng
+  description: OpenLooKeng
+  matchers:
+    - location: body
+      words:
+        - OpenLooKeng Query Editor

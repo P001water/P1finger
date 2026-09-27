@@ -1,0 +1,12 @@
+- id: cmsjeecmsjiangxijinleikeji
+  name: CMSJEECMSjiangxijinleikeji
+  author: P001
+  tags:
+    - cmsjeecmsjiangxijinleikeji
+  description: CMSJEECMSjiangxijinleikeji
+  matchers:
+    - location: body
+      words:
+        - <script src="/r/cms/www/
+        - <script src="/u/cms/www/
+        - www.jeecms.com

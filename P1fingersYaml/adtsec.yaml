@@ -1,0 +1,34 @@
+- id: adtsec-gateway
+  name: ADTsec Gateway
+  author: P1finger
+  tags:
+    - adtsec
+    - gateway
+  description: ADTsec Gateway
+  matchers:
+    - location: body
+      words:
+        - IAM网关控制
+        - /adt.js
+- id: adtsec-74-gateway
+  name: ADTsec Gateway
+  author: P1finger
+  tags:
+    - adtsec
+    - gateway
+  description: ADTsec Gateway
+  matchers:
+    - location: body
+      words:
+        - SJW74 VPN网关控制台管理员登录
+- id: adtsec
+  name: ADTsec
+  author: P1finger
+  tags:
+    - adtsec
+  description: ADTsec
+  matchers:
+    - location: body
+      words:
+        - <title>SJW74 VPN网关控制台管理员登录</title>
+        - TPN-2G网关控制台管理员登录

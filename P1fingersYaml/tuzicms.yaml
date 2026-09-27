@@ -1,0 +1,10 @@
+- id: qingmulintuzicms
+  name: QingmulinTuziCMS
+  author: P1finger
+  tags:
+    - qingmulintuzicms
+  description: QingmulinTuziCMS
+  matchers:
+    - location: body
+      words:
+        - Powered by TuziCMS

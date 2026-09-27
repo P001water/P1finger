@@ -1,0 +1,33 @@
+- id: hfs
+  name: HFS
+  author: Fofa
+  tags:
+    - hfs
+  description: HFS
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'Server: FHFS'
+    - condition: or
+      location: header
+      words:
+        - 'Server: HFS'
+    - condition: or
+      location: header
+      words:
+        - HFS_SID_=
+    - condition: or
+      location: title
+      words:
+        - HFS
+    - location: header
+      words:
+        - HFS_SID_=
+    - hash:
+        - "731374291"
+        - "2124459909"
+      location: favicon
+    - location: body
+      words:
+        - <title>hfs /</title>

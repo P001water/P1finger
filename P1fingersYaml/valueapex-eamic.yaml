@@ -1,0 +1,10 @@
+- id: valueapex-eamic
+  name: Valueapex-eamic
+  author: P001
+  tags:
+    - valueapex-eamic
+  description: Valueapex-eamic
+  matchers:
+    - location: body
+      words:
+        - log into my eamic® account

@@ -1,0 +1,13 @@
+- id: prometheus
+  name: Prometheus
+  author: P1finger
+  tags:
+    - prometheus
+  description: Prometheus
+  matchers:
+    - hash:
+        - "-1399433489"
+      location: favicon
+    - location: body
+      words:
+        - <title>prometheus

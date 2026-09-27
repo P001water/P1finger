@@ -1,0 +1,10 @@
+- id: vanderbilt-spc
+  name: Vanderbilt Spc
+  author: P1finger
+  tags:
+    - vanderbilt-spc
+  description: Vanderbilt Spc
+  matchers:
+    - hash:
+        - "-1162730477"
+      location: favicon

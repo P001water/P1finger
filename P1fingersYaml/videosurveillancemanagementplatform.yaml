@@ -1,0 +1,10 @@
+- id: videosurveillancemanagementplatform
+  name: Videosurveillancemanagementplatform
+  author: P001
+  tags:
+    - videosurveillancemanagementplatform
+  description: Videosurveillancemanagementplatform
+  matchers:
+    - location: body
+      words:
+        - <span>平台采用最新图像化展现技术

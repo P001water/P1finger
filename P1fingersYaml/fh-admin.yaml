@@ -1,0 +1,10 @@
+- id: fh
+  name: FH Admin
+  author: P1finger
+  tags:
+    - fh
+  description: FH Admin
+  matchers:
+    - location: body
+      words:
+        - FH Admin

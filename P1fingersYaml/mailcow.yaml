@@ -1,0 +1,10 @@
+- id: mailcow
+  name: Mailcow
+  author: P1finger
+  tags:
+    - mailcow
+  description: Mailcow
+  matchers:
+    - hash:
+        - "2146763496"
+      location: favicon

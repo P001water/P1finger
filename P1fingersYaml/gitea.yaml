@@ -1,0 +1,14 @@
+- id: gitea
+  name: Gitea
+  author: P1finger
+  tags:
+    - gitea
+  description: Gitea
+  matchers:
+    - hash:
+        - "1969970750"
+      location: favicon
+    - location: body
+      words:
+        - 'set-cookie: i_like_gitea'
+        - content="gitea - git with a cup of tea"

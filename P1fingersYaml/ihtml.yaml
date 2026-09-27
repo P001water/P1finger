@@ -1,0 +1,14 @@
+- id: ihtml
+  name: IHTML
+  author: Fofa
+  tags:
+    - ihtml
+  description: IHTML
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - iHTML
+    - location: header
+      words:
+        - iHTML

@@ -1,0 +1,11 @@
+- id: myre-php
+  name: Myre-php
+  author: P001
+  tags:
+    - myre-php
+  description: Myre-php
+  matchers:
+    - location: body
+      words:
+        - '<!-- begin: menu footer don''t change anything'
+        - <b><u>my last viewed</u></b>

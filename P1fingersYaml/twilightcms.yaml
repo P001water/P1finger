@@ -1,0 +1,14 @@
+- id: twilightcms
+  name: TwilightCMS
+  author: Fofa
+  tags:
+    - twilightcms
+  description: TwilightCMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-Cms: Twilight CMS'
+    - location: header
+      words:
+        - 'X-Powered-Cms: Twilight CMS'

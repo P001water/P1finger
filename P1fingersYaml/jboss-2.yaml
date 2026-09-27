@@ -1,0 +1,10 @@
+- id: jboss-2
+  name: JBoss
+  author: nuclei
+  tags:
+  - jboss
+  description: JBoss
+  matchers:
+  - location: body
+    words:
+    - JBoss EAP 7

@@ -1,0 +1,10 @@
+- id: nextcloud
+  name: Nextcloud-product
+  author: P001
+  tags:
+    - nextcloud
+  description: Nextcloud-product
+  matchers:
+    - location: body
+      words:
+        - nextcloud</a> – 给您所有数据一个安全的家

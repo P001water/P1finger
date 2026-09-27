@@ -1,0 +1,10 @@
+- id: codesafe
+  name: Codesafe
+  author: P001
+  tags:
+    - codesafe
+  description: Codesafe
+  matchers:
+    - location: body
+      words:
+        - 'baseurl : ''app'',        //配置模块根路径到静态资源根目录。'

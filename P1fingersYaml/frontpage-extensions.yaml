@@ -1,0 +1,21 @@
+- id: frontpage-extensions
+  name: Frontpage-extensions
+  author: P1finger
+  tags:
+    - frontpage-extensions
+  description: Frontpage-extensions
+  matchers:
+    - location: header
+      words:
+        - FrontPage
+- id: frontpage-extensions-2
+  name: FrontPage-Extensions
+  author: Fofa
+  tags:
+    - frontpage-extensions
+  description: FrontPage-Extensions
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FrontPage

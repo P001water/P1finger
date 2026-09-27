@@ -1,0 +1,29 @@
+- id: active-test
+  name: ActiveFingerprint
+  author: test
+  description: active probe test fingerprint
+  tags:
+    - test
+  paths:
+    - /special
+  matchers:
+    - location: body
+      words:
+        - active-marker
+- id: probe-test
+  name: ProbeFingerprint
+  author: test
+  description: per-path probe matchers test
+  tags:
+    - test
+  probes:
+    - path: /special2
+      matchers:
+        - type: word
+          location: body
+          words:
+            - probe-marker
+  matchers:
+    - location: body
+      words:
+        - never-match-anywhere

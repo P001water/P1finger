@@ -1,0 +1,10 @@
+- id: toendacms
+  name: ToendaCMS
+  author: P1finger
+  tags:
+    - toendacms
+  description: ToendaCMS
+  matchers:
+    - location: body
+      words:
+        - content="toendaCMS

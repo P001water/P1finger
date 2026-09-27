@@ -1,0 +1,11 @@
+- id: victorysoft
+  name: Victorysoft
+  author: P001
+  tags:
+    - victorysoft
+  description: Victorysoft
+  matchers:
+    - location: body
+      words:
+        - href="webstyles/webstyle1/style1/css.css"
+        - value="style2012/style1/scripts/expressinstall.swf"

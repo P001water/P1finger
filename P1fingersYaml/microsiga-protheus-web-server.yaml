@@ -1,0 +1,10 @@
+- id: microsiga-protheus
+  name: Microsiga Protheus Web Server
+  author: P1finger
+  tags:
+    - microsiga-protheus
+  description: Microsiga Protheus Web Server
+  matchers:
+    - location: header
+      words:
+        - Microsiga Protheus Web Server

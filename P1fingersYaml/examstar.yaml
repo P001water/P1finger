@@ -1,0 +1,11 @@
+- id: examstar
+  name: Examstar
+  author: P001
+  tags:
+    - examstar
+  description: Examstar
+  matchers:
+    - location: body
+      words:
+        - /examstar_icon.ico
+        - <div class="content-bottom-text">考试星为您提供方便、高效的考试服务</div>

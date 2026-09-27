@@ -1,0 +1,11 @@
+- id: p3p
+  name: P3p
+  author: Fofa
+  tags:
+    - p3p
+  description: P3p
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - P3p

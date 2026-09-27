@@ -1,0 +1,145 @@
+- id: aliyun
+  name: Aliyun
+  author: P1finger
+  tags:
+    - aliyun
+  description: Aliyun
+  matchers:
+    - location: header
+      words:
+        - cdn.aliyuncs.com
+        - x-swift-cachetime
+    - location: body
+      words:
+        - cdn.aliyuncs.com
+    - condition: or
+      location: header
+      words:
+        - cdn.aliyuncs.com
+    - condition: or
+      location: body
+      words:
+        - cdn.aliyuncs.com
+- id: baidu-2
+  name: Baidu
+  author: P1finger
+  tags:
+    - baidu
+  description: Baidu
+  matchers:
+    - location: body
+      words:
+        - apps.bdimg.com
+        - libs.baidu.com
+    - location: header
+      words:
+        - libs.baidu.com
+    - condition: or
+      location: header
+      words:
+        - apps.bdimg.com
+    - condition: or
+      location: body
+      words:
+        - apps.bdimg.com
+    - condition: or
+      location: header
+      words:
+        - libs.baidu.com
+    - condition: or
+      location: body
+      words:
+        - libs.baidu.com
+- id: wangsucdn
+  name: WangsuCDN
+  author: P1finger
+  tags:
+    - wangsucdn
+  description: WangsuCDN
+  matchers:
+    - location: header
+      words:
+        - WS CDN Server
+- id: jiasulecdn
+  name: JiasuleCDN
+  author: P1finger
+  tags:
+    - jiasulecdn
+  description: JiasuleCDN
+  matchers:
+    - location: header
+      words:
+        - jiasule
+    - location: body
+      words:
+        - notice-jiasule
+- id: qiniucdn
+  name: Qiniucdn
+  author: P1finger
+  tags:
+    - qiniucdn
+  description: Qiniucdn
+  matchers:
+    - location: header
+      words:
+        - cdn.staticfile.org
+        - X-Qiniu-Zone
+    - condition: or
+      location: header
+      words:
+        - glb.clouddn.com
+    - condition: or
+      location: body
+      words:
+        - glb.clouddn.com
+    - condition: or
+      location: header
+      words:
+        - glb.qiniucdn.com
+    - condition: or
+      location: body
+      words:
+        - glb.qiniucdn.com
+    - condition: or
+      location: header
+      words:
+        - cdn.staticfile.org
+    - condition: or
+      location: body
+      words:
+        - cdn.staticfile.org
+- id: qianduangonggongkucdn
+  name: QianduangonggongkuCDN
+  author: Fofa
+  tags:
+    - qianduangonggongkucdn
+  description: QianduangonggongkuCDN
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - libs.cdnjs.net
+    - condition: or
+      location: body
+      words:
+        - libs.cdnjs.net
+- id: tencent
+  name: Tencent
+  author: P1finger
+  tags:
+    - tencent
+  description: Tencent
+  matchers:
+    - location: header
+      words:
+        - X-NWS-LOG-UUID
+- id: tianyiyuncdn
+  name: Tianyiyuncdn
+  author: P1finger
+  tags:
+    - tianyiyuncdn
+  description: Tianyiyuncdn
+  matchers:
+    - location: header
+      words:
+        - hotload rechange server uri format error

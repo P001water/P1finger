@@ -1,0 +1,10 @@
+- id: canvas-lms
+  name: Canvas Lms
+  author: P1finger
+  tags:
+    - canvas-lms
+  description: Canvas Lms
+  matchers:
+    - hash:
+        - "575613323"
+      location: favicon

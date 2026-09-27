@@ -1,0 +1,10 @@
+- id: monitoring-center
+  name: Monitoring-center
+  author: P001
+  tags:
+    - monitoring-center
+  description: Monitoring-center
+  matchers:
+    - location: body
+      words:
+        - content="鹰眼盒子监控中心

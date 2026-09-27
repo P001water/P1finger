@@ -1,0 +1,10 @@
+- id: fax
+  name: E-fax
+  author: P001
+  tags:
+    - fax
+  description: E-fax
+  matchers:
+    - location: body
+      words:
+        - content="e-fax

@@ -1,0 +1,11 @@
+- id: ktc-crm
+  name: KTC CRM
+  author: P1finger
+  tags:
+    - ktc
+    - crm
+  description: KTC CRM
+  matchers:
+    - location: body
+      words:
+        - KTC客户关系管理系统

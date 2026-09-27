@@ -1,0 +1,10 @@
+- id: panabit-ixcache
+  name: Panabit-ixcache
+  author: P001
+  tags:
+    - panabit-ixcache
+  description: Panabit-ixcache
+  matchers:
+    - location: body
+      words:
+        - <title>ixcache</title>

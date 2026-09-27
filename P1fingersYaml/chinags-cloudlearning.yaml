@@ -1,0 +1,10 @@
+- id: chinags-cloudlearning
+  name: Chinags-cloudlearning
+  author: P001
+  tags:
+    - chinags-cloudlearning
+  description: Chinags-cloudlearning
+  matchers:
+    - location: body
+      words:
+        - /integrats/gs.sub.systemmanager/dologin/json

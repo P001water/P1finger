@@ -1,0 +1,10 @@
+- id: huaweicloudwaf
+  name: HuaweiCloudWAF
+  author: P1finger
+  tags:
+    - huaweicloudwaf
+  description: HuaweiCloudWAF
+  matchers:
+    - location: header
+      words:
+        - HuaweiCloudWAF

@@ -1,0 +1,10 @@
+- id: bluedon-5
+  name: Bluedon
+  author: P1finger
+  tags:
+    - bluedon
+  description: Bluedon
+  matchers:
+    - location: body
+      words:
+        - 蓝盾网页防篡改保护系统

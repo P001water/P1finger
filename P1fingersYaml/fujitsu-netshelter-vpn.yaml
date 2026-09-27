@@ -1,0 +1,10 @@
+- id: fujitsu-netshelter
+  name: Fujitsu-netshelter-vpn
+  author: P001
+  tags:
+    - fujitsu-netshelter
+  description: Fujitsu-netshelter-vpn
+  matchers:
+    - location: body
+      words:
+        - welcome to netshelter

@@ -1,0 +1,10 @@
+- id: tapestry
+  name: Tapestry
+  author: P1finger
+  tags:
+    - tapestry
+  description: Tapestry
+  matchers:
+    - location: body
+      words:
+        - tapestry

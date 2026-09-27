@@ -1,0 +1,10 @@
+- id: centerm
+  name: Centerm
+  author: P001
+  tags:
+    - centerm
+  description: Centerm
+  matchers:
+    - location: body
+      words:
+        - new ct.extapp.aboutsystemwindow()

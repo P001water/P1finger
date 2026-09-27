@@ -1,0 +1,11 @@
+- id: kesioncms
+  name: CMS-KesionCMS
+  author: P001
+  tags:
+    - kesioncms
+  description: CMS-KesionCMS
+  matchers:
+    - location: body
+      words:
+        - Powered by Kesion.COM
+        - /ks_inc/ajax.js

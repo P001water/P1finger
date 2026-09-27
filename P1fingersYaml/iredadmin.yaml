@@ -1,0 +1,13 @@
+- id: iredadmin
+  name: Iredadmin
+  author: P1finger
+  tags:
+    - iredadmin
+  description: Iredadmin
+  matchers:
+    - location: body
+      words:
+        - iredadmin
+    - location: header
+      words:
+        - iredadmin

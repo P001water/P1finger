@@ -1,0 +1,26 @@
+- id: apache-cocoon
+  name: Apache-cocoon
+  author: P1finger
+  tags:
+  - apache
+  - apache-cocoon
+  description: Apache-cocoon
+  matchers:
+  - location: header
+    words:
+    - x-cocoon-version
+  - location: body
+    words:
+    - 'x-cocoon-version: *'
+- id: apache-cocoon-2
+  name: Apache-Cocoon
+  author: Fofa
+  tags:
+  - apache
+  - apache-cocoon
+  description: Apache-Cocoon
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - x-cocoon-version

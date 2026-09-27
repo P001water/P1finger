@@ -1,0 +1,12 @@
+- id: mdaemon
+  name: Mdaemon-email-server
+  author: P001
+  tags:
+    - mdaemon
+  description: Mdaemon-email-server
+  matchers:
+    - location: body
+      words:
+        - /worldclient.dll?view=main
+        - <strong>mdaemon/worldclient
+        - mdaemon

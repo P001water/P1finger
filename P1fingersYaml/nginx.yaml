@@ -1,0 +1,14 @@
+- id: nginx-2
+  name: Nginx
+  author: P1finger
+  tags:
+    - nginx
+  description: Nginx
+  matchers:
+    - location: header
+      type: regex
+      words:
+        - (?m)nginx(?:/([\d.]+))
+    - location: body
+      words:
+        - <title>Welcome to nginx!</title>

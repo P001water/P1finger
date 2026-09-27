@@ -1,0 +1,12 @@
+- id: chinatelecom-guestsupportsystem
+  name: Chinatelecom-guestsupportsystem
+  author: P001
+  tags:
+    - chinatelecom-guestsupportsystem
+  description: Chinatelecom-guestsupportsystem
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="nhmis.css"
+        - var requiredfieldvalidator2 = document.all

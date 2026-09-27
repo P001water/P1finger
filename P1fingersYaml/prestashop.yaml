@@ -1,0 +1,25 @@
+- id: prestashop
+  name: PrestaShop
+  author: Fofa
+  tags:
+    - prestashop
+  description: PrestaShop
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - PrestaShop
+    - condition: or
+      location: body
+      words:
+        - Shop powered by PrestaShop
+    - location: body
+      words:
+        - Shop powered by PrestaShop
+    - location: header
+      words:
+        - PrestaShop
+    - location: body
+      words:
+        - content="PrestaShop"
+        - 'Powered-By: PrestaShop'

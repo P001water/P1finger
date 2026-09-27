@@ -1,0 +1,11 @@
+- id: huawei-2050
+  name: Huawei
+  author: Fofa
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - HUAWEI ASG2050

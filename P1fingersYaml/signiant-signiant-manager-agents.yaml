@@ -1,0 +1,10 @@
+- id: signiant-signiant-manager-agents
+  name: Signiant-Signiant-Manager+Agents
+  author: P1finger
+  tags:
+    - signiant-signiant-manager-agents
+  description: Signiant-Signiant-Manager+Agents
+  matchers:
+    - location: header
+      words:
+        - 'Server: Signiant'

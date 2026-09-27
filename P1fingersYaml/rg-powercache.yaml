@@ -1,0 +1,12 @@
+- id: rgpowercacheneirongjiasu-system
+  name: RGPowerCacheneirongjiasu System
+  author: Fofa
+  tags:
+    - rgpowercacheneirongjiasu
+    - system
+  description: RGPowerCacheneirongjiasu System
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - RG-PowerCache

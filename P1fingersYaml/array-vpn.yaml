@@ -1,0 +1,22 @@
+- id: array
+  name: Array_vpn
+  author: P1finger
+  tags:
+  - array
+  description: Array_vpn
+  matchers:
+  - location: body
+    words:
+    - an_util.js
+    - /prx/000/http/
+- id: array-networks-2
+  name: Array-Networks-VPN
+  author: P001
+  tags:
+  - array
+  - array-networks
+  description: Array-Networks-VPN
+  matchers:
+  - location: body
+    words:
+    - an_util.js

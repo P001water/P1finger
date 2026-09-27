@@ -1,0 +1,15 @@
+- id: bootstrap-cdn
+  name: Bootstrap CDN
+  author: Fofa
+  tags:
+    - bootstrap-cdn
+  description: Bootstrap CDN
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - cdn.bootcss.com
+    - condition: or
+      location: body
+      words:
+        - cdn.bootcss.com

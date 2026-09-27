@@ -1,0 +1,23 @@
+- id: apache-storm
+  name: Apache-storm
+  author: P001
+  tags:
+  - apache
+  - apache-storm
+  description: Apache-storm
+  matchers:
+  - location: body
+    words:
+    - <title>storm ui</title>
+- id: apache-storm-2
+  name: Apache Storm
+  author: P1finger
+  tags:
+  - apache
+  - apache-storm
+  description: Apache Storm
+  matchers:
+  - location: body
+    words:
+    - Storm UI
+    - Storm Logviewer

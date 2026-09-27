@@ -1,0 +1,21 @@
+- id: heitel-digital
+  name: Heitel-digital-video-device
+  author: P1finger
+  tags:
+    - heitel-digital
+  description: Heitel-digital-video-device
+  matchers:
+    - location: header
+      words:
+        - HeiTel GmbH Web Server
+- id: heitel-digital-2
+  name: HeiTel-Digital-Video-Device
+  author: Fofa
+  tags:
+    - heitel-digital
+  description: HeiTel-Digital-Video-Device
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - HeiTel GmbH Web Server

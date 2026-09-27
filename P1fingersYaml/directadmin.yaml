@@ -1,0 +1,25 @@
+- id: directadmin
+  name: Directadmin
+  author: Fofa
+  tags:
+    - directadmin
+  description: Directadmin
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - X-Directadmin
+    - condition: or
+      location: header
+      words:
+        - DirectAdmin Daemon
+    - condition: or
+      location: title
+      words:
+        - DirectAdmin Login
+    - location: body
+      words:
+        - DirectAdmin Login
+    - location: header
+      words:
+        - DirectAdmin Daemon

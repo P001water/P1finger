@@ -1,0 +1,10 @@
+- id: dawatech
+  name: Dawatech
+  author: P1finger
+  tags:
+    - dawatech
+  description: Dawatech
+  matchers:
+    - location: body
+      words:
+        - Dawatech

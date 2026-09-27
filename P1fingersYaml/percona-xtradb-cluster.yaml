@@ -1,0 +1,10 @@
+- id: percona-xtradb-cluster
+  name: Percona-xtradb-cluster
+  author: P001
+  tags:
+    - percona-xtradb-cluster
+  description: Percona-xtradb-cluster
+  matchers:
+    - location: body
+      words:
+        - percona xtradb cluster node

@@ -1,0 +1,14 @@
+- id: swiftlet
+  name: Swiftlet
+  author: Fofa
+  tags:
+    - swiftlet
+  description: Swiftlet
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Swiftlet
+    - location: header
+      words:
+        - Swiftlet

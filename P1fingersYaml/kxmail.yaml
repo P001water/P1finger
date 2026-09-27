@@ -1,0 +1,24 @@
+- id: kexinruanjiankxmail
+  name: Kexinruanjiankxmail
+  author: P001
+  tags:
+    - kexinruanjiankxmail
+  description: Kexinruanjiankxmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by <a href="http://www.kxmail.net
+        - 科信邮件系统
+- id: kxmail
+  name: Kxmail
+  author: P001
+  tags:
+    - kxmail
+  description: Kxmail
+  matchers:
+    - location: body
+      words:
+        - /systemfunction.pack.js
+        - lo_computername
+        - powered by <a href="http://www.kxmail.net

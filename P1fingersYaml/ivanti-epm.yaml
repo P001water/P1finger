@@ -1,0 +1,18 @@
+- id: ivanti-epm
+  name: Ivanti Endpoint Manager (EPM)
+  author: nuclei
+  tags:
+  - ivanti
+  - emm
+  - mobileiron
+  - epm
+  description: 'An Ivanti Endpoint Manager was detected.
+
+    '
+  paths:
+  - /favicon.ico
+  - /images/favicon.ico
+  matchers:
+  - location: favicon
+    hash:
+    - '362091310'

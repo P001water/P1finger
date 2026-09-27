@@ -1,0 +1,21 @@
+- id: acmailer
+  name: Acmailer
+  author: P1finger
+  tags:
+    - acmailer
+  description: Acmailer
+  matchers:
+    - location: body
+      words:
+        - acmailer
+- id: acmailer-mail-system
+  name: Acmailer Mail System
+  author: P001
+  tags:
+    - acmailer
+    - mail-system
+  description: Acmailer Mail System
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.acmailer.jp"><img src="img/logo.jpg

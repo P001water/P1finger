@@ -1,0 +1,25 @@
+- id: geoserver
+  name: GeoServer
+  author: Fofa
+  tags:
+    - geoserver
+  description: GeoServer
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /org.geoserver.web.GeoServerBasePage/
+    - condition: or
+      location: body
+      words:
+        - class="geoserver lebeg
+    - location: body
+      words:
+        - GeoServer
+    - location: body
+      words:
+        - /org.geoserver.web.geoserverbasepage/
+        - \webapps\geoserver
+        - class="geoserver lebeg
+        - geoserver
+        - window.location.replace("web/");

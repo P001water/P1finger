@@ -1,0 +1,10 @@
+- id: 3cx
+  name: 3CX Phone System
+  author: P1finger
+  tags:
+  - 3cx
+  description: 3CX Phone System
+  matchers:
+  - location: favicon
+    hash:
+    - '970132176'

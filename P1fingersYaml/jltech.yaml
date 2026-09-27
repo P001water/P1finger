@@ -1,0 +1,12 @@
+- id: jltech
+  name: Jltech
+  author: P001
+  tags:
+    - jltech
+  description: Jltech
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jlwcs
+        - 京伦建站系统

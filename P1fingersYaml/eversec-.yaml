@@ -1,0 +1,11 @@
+- id: eversecqiyeanquanweixieganzhi
+  name: Eversecqiyeanquanweixieganzhi System
+  author: P001
+  tags:
+    - eversecqiyeanquanweixieganzhi
+    - system
+  description: Eversecqiyeanquanweixieganzhi System
+  matchers:
+    - location: body
+      words:
+        - action="/j_spring_security_check

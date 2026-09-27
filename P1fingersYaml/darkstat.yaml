@@ -1,0 +1,17 @@
+- id: darkstat
+  name: Darkstat
+  author: Fofa
+  tags:
+    - darkstat
+  description: Darkstat
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - darkstat
+    - location: header
+      words:
+        - darkstat
+    - location: body
+      words:
+        - 'server: darkstat'

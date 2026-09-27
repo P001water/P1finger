@@ -1,0 +1,21 @@
+- id: http-explorer
+  name: Http-explorer
+  author: P1finger
+  tags:
+    - http-explorer
+  description: Http-explorer
+  matchers:
+    - location: header
+      words:
+        - Http explorer
+- id: http-explorer-2
+  name: Http-Explorer
+  author: Fofa
+  tags:
+    - http-explorer
+  description: Http-Explorer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Http explorer

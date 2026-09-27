@@ -1,0 +1,33 @@
+- id: dotnetnuke
+  name: DotNetNuke
+  author: Fofa
+  tags:
+    - dotnetnuke
+  description: DotNetNuke
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - DotNetNukeAnonymous
+    - condition: or
+      location: header
+      words:
+        - Dnnoutputcache
+    - condition: or
+      location: body
+      words:
+        - content="DotNetNuke
+    - condition: or
+      location: body
+      words:
+        - content=",DotNetNuke
+    - location: body
+      words:
+        - content="DotNetNuke
+        - content=",DotNetNuke
+    - location: header
+      words:
+        - Dnnoutputcache
+    - location: body
+      words:
+        - www.dnnsoftware.com

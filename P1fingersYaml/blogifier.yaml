@@ -1,0 +1,10 @@
+- id: blogifier
+  name: Blogifier
+  author: P1finger
+  tags:
+    - blogifier
+  description: Blogifier
+  matchers:
+    - location: body
+      words:
+        - Blogifier

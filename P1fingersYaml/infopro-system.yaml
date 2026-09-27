@@ -1,0 +1,10 @@
+- id: infopro
+  name: Infopro-system
+  author: P001
+  tags:
+    - infopro
+  description: Infopro-system
+  matchers:
+    - location: body
+      words:
+        - <input location="submit" name="cmdsubmit" value=" 登 录 " onclick="javascript:webform_dopostbackwithoptions(new webform_postbackoptions(&quot;cmdsubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="cmdsubmit" class="colorbutton

@@ -1,0 +1,13 @@
+- id: emby
+  name: Emby
+  author: P001
+  tags:
+    - emby
+  description: Emby
+  matchers:
+    - location: body
+      words:
+        - content="emby server"
+    - location: body
+      words:
+        - content="Emby Server"

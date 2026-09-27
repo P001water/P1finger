@@ -1,0 +1,17 @@
+- id: phpweb
+  name: Phpweb
+  author: P1finger
+  tags:
+    - phpweb
+  description: Phpweb
+  matchers:
+    - location: body
+      words:
+        - PDV_PAGENAME
+    - condition: and
+      location: body
+      words:
+        - PDV_PAGENAME
+    - location: body
+      words:
+        - pdv_pagename

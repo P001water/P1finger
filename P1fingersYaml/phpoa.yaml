@@ -1,0 +1,18 @@
+- id: phpoa-2
+  name: Phpoa
+  author: P1finger
+  tags:
+    - phpoa
+  description: Phpoa
+  matchers:
+    - location: body
+      words:
+        - admin_img/msg_bg.png
+    - condition: and
+      location: body
+      words:
+        - admin_img/msg_bg.png
+    - location: body
+      words:
+        - PHPOA协同办公软件
+        - template/default/images/admin_img/msg.png

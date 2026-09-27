@@ -1,0 +1,10 @@
+- id: wing-ftp
+  name: Wing-ftp-server
+  author: P001
+  tags:
+    - wing-ftp
+  description: Wing-ftp-server
+  matchers:
+    - location: body
+      words:
+        - 'server: wing ftp server'

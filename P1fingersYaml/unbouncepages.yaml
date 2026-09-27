@@ -1,0 +1,14 @@
+- id: unbouncepages
+  name: Unbouncepages
+  author: Fofa
+  tags:
+    - unbouncepages
+  description: Unbouncepages
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Unbounce-Pageid
+    - location: header
+      words:
+        - X-Unbounce-Pageid

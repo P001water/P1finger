@@ -1,0 +1,10 @@
+- id: ibot
+  name: Ibot-cloud
+  author: P001
+  tags:
+    - ibot
+  description: Ibot-cloud
+  matchers:
+    - location: body
+      words:
+        - author:lvzhaohua

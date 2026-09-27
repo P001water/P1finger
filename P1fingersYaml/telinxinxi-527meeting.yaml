@@ -1,0 +1,11 @@
+- id: telinxinxi-527meeting
+  name: Telinxinxi-527meeting
+  author: P001
+  tags:
+    - telinxinxi-527meeting
+  description: Telinxinxi-527meeting
+  matchers:
+    - location: body
+      words:
+        - content="轻会议"
+        - 527meeting

@@ -1,0 +1,10 @@
+- id: secure-snapgear
+  name: Secure-SnapGear
+  author: P1finger
+  tags:
+    - secure-snapgear
+  description: Secure-SnapGear
+  matchers:
+    - location: body
+      words:
+        - SnapGear

@@ -1,0 +1,14 @@
+- id: mod-wsgi
+  name: Mod_wsgi
+  author: Fofa
+  tags:
+    - mod-wsgi
+  description: Mod_wsgi
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_wsgi
+    - location: header
+      words:
+        - mod_wsgi

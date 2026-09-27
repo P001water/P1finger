@@ -1,0 +1,10 @@
+- id: qidiguoxinuem
+  name: Qidiguoxinuem
+  author: P1finger
+  tags:
+    - qidiguoxinuem
+  description: Qidiguoxinuem
+  matchers:
+    - location: body
+      words:
+        - <span class="remember-pw" data-i18n="op.rmbAccount">

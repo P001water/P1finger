@@ -1,0 +1,24 @@
+- id: whelton-4
+  name: Whelton Internet Behavior Management System
+  author: P1finger
+  tags:
+    - whelton
+    - internet-behavior-management-system
+  description: Whelton Internet Behavior Management System
+  matchers:
+    - location: body
+      words:
+        - 惠尔顿安全接入平台
+        - /base/login/login.php
+        - 惠尔顿远程接入平台
+- id: whelton-5
+  name: Whelton Next-Generation Firewall
+  author: P1finger
+  tags:
+    - whelton
+    - next-generation-firewall
+  description: Whelton Next-Generation Firewall
+  matchers:
+    - location: body
+      words:
+        - 惠尔顿下一代防火墙

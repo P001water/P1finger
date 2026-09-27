@@ -1,0 +1,14 @@
+- id: airlink-modem
+  name: AirLink_modem
+  author: Fofa
+  tags:
+    - airlink-modem
+  description: AirLink_modem
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Modem@AirLink.com
+    - location: header
+      words:
+        - Modem@AirLink.com

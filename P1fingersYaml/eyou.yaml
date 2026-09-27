@@ -1,0 +1,11 @@
+- id: eyouda-mail-gateway
+  name: Eyouda Mail Gateway
+  author: P1finger
+  tags:
+    - eyouda
+    - mail-gateway
+  description: Eyouda Mail Gateway
+  matchers:
+    - location: body
+      words:
+        - 反垃圾邮件网关 - 亿邮通讯

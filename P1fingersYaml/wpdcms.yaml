@@ -1,0 +1,11 @@
+- id: wpdcms
+  name: WpdCms CMS
+  author: P1finger
+  tags:
+    - wpdcms
+    - cms
+  description: WpdCms CMS
+  matchers:
+    - location: body
+      words:
+        - WpdCms网站管理系统

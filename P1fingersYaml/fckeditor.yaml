@@ -1,0 +1,14 @@
+- id: fckeditor
+  name: Fckeditor
+  author: P1finger
+  tags:
+    - fckeditor
+  description: Fckeditor
+  matchers:
+    - location: body
+      words:
+        - FCKeditor
+    - condition: and
+      location: body
+      words:
+        - new FCKeditor

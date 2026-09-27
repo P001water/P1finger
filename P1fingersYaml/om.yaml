@@ -1,0 +1,12 @@
+- id: om-video-conferencing
+  name: OM Video Conferencing
+  author: P1finger
+  tags:
+    - om
+    - video-conferencing
+  description: OM Video Conferencing
+  matchers:
+    - location: body
+      words:
+        - OM视频会议
+        - Powered by <span style="color:#F60;">OM</span>eeting

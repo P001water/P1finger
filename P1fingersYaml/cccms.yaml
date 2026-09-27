@@ -1,0 +1,11 @@
+- id: cccmswangzhan
+  name: CcCmswangzhan CMS
+  author: P1finger
+  tags:
+    - cccmswangzhan
+    - cms
+  description: CcCmswangzhan CMS
+  matchers:
+    - location: body
+      words:
+        - CcCms网站内容管理系统

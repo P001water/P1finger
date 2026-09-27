@@ -1,0 +1,11 @@
+- id: shengbanganquanwebraywebyingyongfanghu
+  name: ShengbanganquanWebRAYWebyingyongfanghu System
+  author: P1finger
+  tags:
+    - shengbanganquanwebraywebyingyongfanghu
+    - system
+  description: ShengbanganquanWebRAYWebyingyongfanghu System
+  matchers:
+    - location: body
+      words:
+        - WebRAYWeb应用防护系统

@@ -1,0 +1,10 @@
+- id: abilis
+  name: Abilis
+  author: P1finger
+  tags:
+    - abilis
+  description: Abilis
+  matchers:
+    - hash:
+        - "-166151761"
+      location: favicon

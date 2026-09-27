@@ -1,0 +1,11 @@
+- id: yuysoftyuyoutongyongshuzihuaxiaoyuan
+  name: Yuysoftyuyoutongyongshuzihuaxiaoyuan Platform
+  author: P1finger
+  tags:
+    - yuysoftyuyoutongyongshuzihuaxiaoyuan
+    - platform
+  description: Yuysoftyuyoutongyongshuzihuaxiaoyuan Platform
+  matchers:
+    - location: body
+      words:
+        - 杭州育友软件有限公司

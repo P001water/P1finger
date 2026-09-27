@@ -1,0 +1,19 @@
+- id: iwebsns
+  name: IWebSNS
+  author: Fofa
+  tags:
+    - iwebsns
+  description: IWebSNS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /jooyea/images/sns_idea1.jpg
+    - condition: or
+      location: body
+      words:
+        - /jooyea/images/snslogo.gif
+    - location: body
+      words:
+        - /jooyea/images/sns_idea1.jpg
+        - /jooyea/images/snslogo.gif

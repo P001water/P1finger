@@ -1,0 +1,10 @@
+- id: webgui
+  name: WebGUI
+  author: P1finger
+  tags:
+    - webgui
+  description: WebGUI
+  matchers:
+    - location: header
+      words:
+        - 'Server: WebGUI'

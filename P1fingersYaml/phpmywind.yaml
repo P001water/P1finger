@@ -1,0 +1,22 @@
+- id: phpmywind
+  name: Phpmywind
+  author: P1finger
+  tags:
+    - phpmywind
+  description: Phpmywind
+  matchers:
+    - location: body
+      words:
+        - PHPMyWind
+    - condition: or
+      location: body
+      words:
+        - phpMyWind.com All Rights Reserved
+    - condition: or
+      location: body
+      words:
+        - content="PHPMyWind
+    - location: body
+      words:
+        - content="phpmywind
+        - phpmywind.com all rights reserved

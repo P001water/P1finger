@@ -1,0 +1,10 @@
+- id: 60cyclecms
+  name: 60cycleCMS
+  author: P1finger
+  tags:
+    - 60cyclecms
+  description: 60cycleCMS
+  matchers:
+    - location: body
+      words:
+        - 60cycleCMS

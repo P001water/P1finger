@@ -1,0 +1,10 @@
+- id: vmware
+  name: Vmware Center
+  author: P1finger
+  tags:
+    - vmware
+  description: Vmware Center
+  matchers:
+    - location: body
+      words:
+        - ID_VC_Welcome

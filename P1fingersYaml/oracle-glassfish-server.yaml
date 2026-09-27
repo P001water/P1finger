@@ -1,0 +1,12 @@
+- id: oracle-glassfish
+  name: Oracle GlassFish Server
+  author: P1finger
+  tags:
+  - glassfish
+  - oracle
+  - oracle-glassfish
+  description: Oracle GlassFish Server
+  matchers:
+  - location: header
+    words:
+    - 'Server: Oracle GlassFish Server'

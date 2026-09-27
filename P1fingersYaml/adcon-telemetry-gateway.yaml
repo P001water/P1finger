@@ -1,0 +1,28 @@
+- id: adcon-telemetry
+  name: Adcon Telemetry Gateway
+  author: Fofa
+  tags:
+    - adcon-telemetry
+  description: Adcon Telemetry Gateway
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - addUPI
+    - condition: or
+      location: body
+      words:
+        - Adcon Telemetry GmbH;
+- id: adcon-telemetry-2
+  name: Adcon Telemetry Gateway
+  author: P1finger
+  tags:
+    - adcon-telemetry
+  description: Adcon Telemetry Gateway
+  matchers:
+    - location: body
+      words:
+        - Adcon Telemetry GmbH;
+    - location: header
+      words:
+        - addUPI

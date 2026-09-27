@@ -1,0 +1,11 @@
+- id: phpyun-2
+  name: Phpyun
+  author: P1finger
+  tags:
+    - phpyun
+  description: Phpyun
+  matchers:
+    - location: body
+      words:
+        - href="http://www.phpyun.com"
+        - PHPYun

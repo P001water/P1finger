@@ -1,0 +1,11 @@
+- id: apache-griffin
+  name: Apache Griffin
+  author: P1finger
+  tags:
+  - apache
+  - apache-griffin
+  description: Apache Griffin
+  matchers:
+  - location: body
+    words:
+    - Griffin - Data Quality Service

@@ -1,0 +1,11 @@
+- id: wangfangg01
+  name: WangfangG01
+  author: P1finger
+  tags:
+    - wangfangg01
+  description: WangfangG01
+  matchers:
+    - location: body
+      words:
+        - 网防G01提示
+        - 设置拦截

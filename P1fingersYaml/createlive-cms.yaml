@@ -1,0 +1,28 @@
+- id: createlive
+  name: Createlive-cms
+  author: P1finger
+  tags:
+    - createlive
+  description: Createlive-cms
+  matchers:
+    - location: body
+      words:
+        - <!--By CreateLiveCms
+    - location: header
+      words:
+        - AspooKill=kill=
+- id: createlive-2
+  name: CreateLive-Cms
+  author: Fofa
+  tags:
+    - createlive
+  description: CreateLive-Cms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <!--By CreateLiveCms
+    - condition: or
+      location: header
+      words:
+        - AspooKill=kill=

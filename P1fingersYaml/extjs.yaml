@@ -1,0 +1,11 @@
+- id: extjs
+  name: ExtJS
+  author: Fofa
+  tags:
+    - extjs
+  description: ExtJS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ext-base.js

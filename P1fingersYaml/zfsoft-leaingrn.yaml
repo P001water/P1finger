@@ -1,0 +1,10 @@
+- id: zfsoft-leaingrn
+  name: Zfsoft-leaingrn
+  author: P001
+  tags:
+    - zfsoft-leaingrn
+  description: Zfsoft-leaingrn
+  matchers:
+    - location: body
+      words:
+        - href="/jwglxt/logo/favicon.ico"

@@ -1,0 +1,26 @@
+- id: claroline
+  name: Claroline
+  author: Fofa
+  tags:
+    - claroline
+  description: Claroline
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - target="_blank">Claroline</a>
+    - condition: or
+      location: body
+      words:
+        - http://www.claroline.net" rel="Copyright
+    - location: body
+      words:
+        - target="_blank">Claroline</a>
+        - http://www.claroline.net" rel="Copyright
+    - location: body
+      words:
+        - http://www.claroline.net" rel="copyright
+        - target="_blank">claroline</a>
+    - location: body
+      words:
+        - Y88888P' dP `88888P8 dP `88888P' dP dP dP dP `88888P'

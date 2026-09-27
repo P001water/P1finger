@@ -1,0 +1,24 @@
+- id: jasig-cas
+  name: Jasig-cas
+  author: P1finger
+  tags:
+    - jasig-cas
+  description: Jasig-cas
+  matchers:
+    - location: body
+      words:
+        - Powered by <a href="http://www.jasig.org/cas
+    - location: body
+      words:
+        - powered by <a href="http://www.jasig.org/cas
+- id: jasig-cas-2
+  name: Jasig-CAS
+  author: Fofa
+  tags:
+    - jasig-cas
+  description: Jasig-CAS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://www.jasig.org/cas

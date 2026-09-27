@@ -1,0 +1,10 @@
+- id: skype
+  name: Skype
+  author: P1finger
+  tags:
+    - skype
+  description: Skype
+  matchers:
+    - hash:
+        - "-1807411396"
+      location: favicon

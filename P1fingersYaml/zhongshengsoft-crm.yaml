@@ -1,0 +1,11 @@
+- id: zhongshengsoft-crm
+  name: Zhongshengsoft-crm
+  author: P001
+  tags:
+    - zhongshengsoft-crm
+  description: Zhongshengsoft-crm
+  matchers:
+    - location: body
+      words:
+        - alert("餐厅编号不能为空")
+        - clientutil.isff=!clientutil.isie

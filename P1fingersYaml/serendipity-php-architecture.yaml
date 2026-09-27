@@ -1,0 +1,10 @@
+- id: serendipity-php-architecture
+  name: Serendipity-php-architecture
+  author: P001
+  tags:
+    - serendipity-php-architecture
+  description: Serendipity-php-architecture
+  matchers:
+    - location: body
+      words:
+        - serendipity_editor.js

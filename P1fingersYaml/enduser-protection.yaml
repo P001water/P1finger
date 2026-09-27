@@ -1,0 +1,10 @@
+- id: enduser-protection
+  name: Enduser-Protection
+  author: P1finger
+  tags:
+    - enduser-protection
+  description: Enduser-Protection
+  matchers:
+    - location: body
+      words:
+        - User Portal

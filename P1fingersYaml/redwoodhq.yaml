@@ -1,0 +1,10 @@
+- id: redwoodhq
+  name: Redwoodhq
+  author: P001
+  tags:
+    - redwoodhq
+  description: Redwoodhq
+  matchers:
+    - location: body
+      words:
+        - stylesheets/redwoodtheme/resources/js/azzurra.js

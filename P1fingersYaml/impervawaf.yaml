@@ -1,0 +1,10 @@
+- id: impervawaf
+  name: ImpervaWAF
+  author: P1finger
+  tags:
+    - impervawaf
+  description: ImpervaWAF
+  matchers:
+    - location: body
+      words:
+        - 'The incident ID is:'

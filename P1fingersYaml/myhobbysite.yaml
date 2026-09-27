@@ -1,0 +1,10 @@
+- id: myhobbysite
+  name: MyHobbySite
+  author: P1finger
+  tags:
+    - myhobbysite
+  description: MyHobbySite
+  matchers:
+    - location: body
+      words:
+        - Powered by MyHobbySite

@@ -1,0 +1,22 @@
+- id: richmail
+  name: Richmail
+  author: P1finger
+  tags:
+    - richmail
+  description: Richmail
+  matchers:
+    - location: body
+      words:
+        - Richmail
+    - condition: or
+      location: title
+      words:
+        - Richmail
+    - condition: or
+      location: body
+      words:
+        - /resource/se/lang/se/mail_zh_CN.js
+    - condition: or
+      location: body
+      words:
+        - content="Richmail

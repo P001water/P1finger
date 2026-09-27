@@ -1,0 +1,13 @@
+- id: kedacomdvrjieru-gateway
+  name: Kedacomdvrjieru Gateway
+  author: P001
+  tags:
+    - kedacomdvrjieru
+    - gateway
+  description: Kedacomdvrjieru Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - src='images/ind_log_kedacom.png')
+        - 苏州科达科技有限公司

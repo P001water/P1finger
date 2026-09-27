@@ -1,0 +1,12 @@
+- id: igenus-webmail
+  name: Igenus-webmail
+  author: P001
+  tags:
+    - igenus-webmail
+  description: Igenus-webmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="http://www.igenus.org/" target="_blank">
+        - igenus webmail system

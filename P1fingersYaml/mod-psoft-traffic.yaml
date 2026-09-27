@@ -1,0 +1,14 @@
+- id: mod-psoft-traffic
+  name: Mod_psoft_traffic
+  author: Fofa
+  tags:
+    - mod-psoft-traffic
+  description: Mod_psoft_traffic
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_psoft_traffic
+    - location: header
+      words:
+        - mod_psoft_traffic

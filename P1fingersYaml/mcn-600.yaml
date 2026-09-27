@@ -1,0 +1,10 @@
+- id: dongweizhinengmcn600
+  name: DongweizhinengMCN600
+  author: P1finger
+  tags:
+    - dongweizhinengmcn600
+  description: DongweizhinengMCN600
+  matchers:
+    - location: header
+      words:
+        - Basic realm="McN600

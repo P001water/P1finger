@@ -1,0 +1,28 @@
+- id: axigen
+  name: Axigen-mail-server
+  author: P1finger
+  tags:
+    - axigen
+  description: Axigen-mail-server
+  matchers:
+    - location: body
+      words:
+        - 'AXIGEN Webmail - '
+    - location: header
+      words:
+        - Axigen-Webmail
+- id: axigen-2
+  name: Axigen-Mail-Server
+  author: Fofa
+  tags:
+    - axigen
+  description: Axigen-Mail-Server
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 'AXIGEN Webmail - '
+    - condition: or
+      location: header
+      words:
+        - Axigen-Webmail

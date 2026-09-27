@@ -1,0 +1,10 @@
+- id: smartping
+  name: Smartping
+  author: P1finger
+  tags:
+    - smartping
+  description: Smartping
+  matchers:
+    - hash:
+        - "430582574"
+      location: favicon

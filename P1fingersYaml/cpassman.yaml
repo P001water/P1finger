@@ -1,0 +1,14 @@
+- id: cpassman
+  name: CPassMan
+  author: Fofa
+  tags:
+    - cpassman
+  description: CPassMan
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Collaborative Passwords Manager
+    - location: body
+      words:
+        - Collaborative Passwords Manager

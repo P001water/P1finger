@@ -1,0 +1,17 @@
+- id: egroupware
+  name: EGroupWare
+  author: Fofa
+  tags:
+    - egroupware
+  description: EGroupWare
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="eGroupWare
+    - location: body
+      words:
+        - content="eGroupWare
+    - location: body
+      words:
+        - content="egroupware

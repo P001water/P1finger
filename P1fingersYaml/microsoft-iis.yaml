@@ -1,0 +1,12 @@
+- id: microsoft-iis
+  name: Microsoft IIS version
+  author: nuclei
+  tags:
+  - microsoft
+  - iis
+  description: Some Microsoft IIS servers have the version on the response header.
+    Useful when you need to find specific CVEs on your targets.
+  matchers:
+  - location: header
+    words:
+    - IIS

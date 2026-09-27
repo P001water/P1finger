@@ -1,0 +1,10 @@
+- id: installationqualitymanagementsystem
+  name: Installationqualitymanagementsystem
+  author: P001
+  tags:
+    - installationqualitymanagementsystem
+  description: Installationqualitymanagementsystem
+  matchers:
+    - location: body
+      words:
+        - images/ewuser_title.jpg

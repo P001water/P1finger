@@ -1,0 +1,13 @@
+- id: leadsec-ssl
+  name: Leadsec-ssl-vpn
+  author: P001
+  tags:
+  - leadsec
+  - leadsec-ssl
+  description: Leadsec-ssl-vpn
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /ssl/down/usbkey.exe
+    - 欢迎使用leadsec网御ssl vpn

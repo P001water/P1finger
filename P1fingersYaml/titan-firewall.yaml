@@ -1,0 +1,10 @@
+- id: titan
+  name: Titan-Firewall
+  author: P1finger
+  tags:
+    - titan
+  description: Titan-Firewall
+  matchers:
+    - location: body
+      words:
+        - Titan Firewall

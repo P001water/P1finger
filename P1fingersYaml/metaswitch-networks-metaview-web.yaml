@@ -1,0 +1,21 @@
+- id: metaswitch-networks-metaview
+  name: Metaswitch-networks-metaview-web
+  author: P001
+  tags:
+    - metaswitch-networks-metaview
+  description: Metaswitch-networks-metaview-web
+  matchers:
+    - location: body
+      words:
+        - content='dcl.metaview.web.client'
+        - src="dcl.metaview.web.client.nocache.js">
+- id: metaswitch-networks-metaview-2
+  name: Metaswitch Networks MetaView Web
+  author: P1finger
+  tags:
+    - metaswitch-networks-metaview
+  description: Metaswitch Networks MetaView Web
+  matchers:
+    - location: body
+      words:
+        - src="dcl.metaview.web.client.nocache.js">

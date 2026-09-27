@@ -1,0 +1,22 @@
+- id: weaver-office-system
+  name: Weaver Office System
+  author: P001
+  tags:
+    - weaver
+    - office-system
+  description: Weaver Office System
+  matchers:
+    - hash:
+        - 41eca7a9245394106a09b2534d8030df
+        - locationof poppedwindow
+      location: favicon
+    - location: header
+      words:
+        - testBanCookie
+        - ecology_jsessionid
+    - location: body
+      words:
+        - /theme/ecology8/jquery/js/zdialog_wev8.js
+        - /wui/common/css/w7ovfont.css
+        - client/jquery.client_wev8.js
+        - ecology8/lang/weaver_lang_7_wev8.js

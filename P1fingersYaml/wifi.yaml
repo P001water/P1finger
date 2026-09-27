@@ -1,0 +1,20 @@
+- id: wifianquanzhongduanshebeiguanli
+  name: Wifianquanzhongduanshebeiguanli
+  author: P001
+  tags:
+    - wifianquanzhongduanshebeiguanli
+  description: Wifianquanzhongduanshebeiguanli
+  matchers:
+    - location: body
+      words:
+        - <h1>wifi安全终端设备管理</h1>
+- id: wifianquanzhongduanshebeiguanli-2
+  name: Wifianquanzhongduanshebeiguanli
+  author: P1finger
+  tags:
+    - wifianquanzhongduanshebeiguanli
+  description: Wifianquanzhongduanshebeiguanli
+  matchers:
+    - location: body
+      words:
+        - <h1>wifi安全终端设备管理</h1>

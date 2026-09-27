@@ -1,0 +1,10 @@
+- id: matrix-3d
+  name: Matrix-3D-Firewall
+  author: P1finger
+  tags:
+    - matrix-3d
+  description: Matrix-3D-Firewall
+  matchers:
+    - location: header
+      words:
+        - Basic realm="(?P<app_name>Matrix 3D Firewall)"

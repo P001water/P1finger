@@ -1,0 +1,13 @@
+- id: frp
+  name: Frp
+  author: P1finger
+  tags:
+    - frp
+  description: Frp
+  matchers:
+    - location: body
+      words:
+        - Faithfully yours, frp
+    - location: body
+      words:
+        - <title>frps dashboard</title>

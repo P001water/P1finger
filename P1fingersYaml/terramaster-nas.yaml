@@ -1,0 +1,11 @@
+- id: terramaster-nas
+  name: TerraMaster NAS
+  author: P1finger
+  tags:
+  - terramaster
+  - terramaster-nas
+  description: TerraMaster NAS
+  matchers:
+  - location: header
+    words:
+    - 'X-Powered-By: TerraMaster'

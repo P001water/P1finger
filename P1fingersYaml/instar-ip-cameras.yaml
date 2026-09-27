@@ -1,0 +1,11 @@
+- id: instar-ip-cameras
+  name: Instar Ip Cameras
+  author: P1finger
+  tags:
+  - instar
+  - instar-ip-cameras
+  description: Instar Ip Cameras
+  matchers:
+  - hash:
+    - '-1169314298'
+    location: favicon

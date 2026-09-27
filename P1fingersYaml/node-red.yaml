@@ -1,0 +1,10 @@
+- id: node-red
+  name: Node-red
+  author: P1finger
+  tags:
+    - node-red
+  description: Node-red
+  matchers:
+    - hash:
+        - "321591353"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: teradata-ncluster
+  name: Teradata-ncluster
+  author: P001
+  tags:
+    - teradata-ncluster
+  description: Teradata-ncluster
+  matchers:
+    - location: body
+      words:
+        - redirecting to aster ncluster management console (amc)

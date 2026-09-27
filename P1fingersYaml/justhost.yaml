@@ -1,0 +1,10 @@
+- id: justhost
+  name: Justhost
+  author: P1finger
+  tags:
+    - justhost
+  description: Justhost
+  matchers:
+    - hash:
+        - "1734609466"
+      location: favicon

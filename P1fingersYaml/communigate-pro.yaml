@@ -1,0 +1,24 @@
+- id: communigate-pro
+  name: Communigate-pro
+  author: P1finger
+  tags:
+    - communigate-pro
+  description: Communigate-pro
+  matchers:
+    - location: header
+      words:
+        - CommuniGatePro
+    - location: body
+      words:
+        - 'server: communigatepro'
+- id: communigate-pro-2
+  name: CommuniGate-Pro
+  author: Fofa
+  tags:
+    - communigate-pro
+  description: CommuniGate-Pro
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CommuniGatePro

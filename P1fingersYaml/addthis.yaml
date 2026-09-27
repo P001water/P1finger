@@ -1,0 +1,14 @@
+- id: addthis
+  name: Addthis
+  author: Fofa
+  tags:
+    - addthis
+  description: Addthis
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - addthis.com/js/
+    - location: body
+      words:
+        - addthis.com/js/

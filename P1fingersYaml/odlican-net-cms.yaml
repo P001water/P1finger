@@ -1,0 +1,10 @@
+- id: odlican-net
+  name: Odlican.net Cms
+  author: P1finger
+  tags:
+    - odlican-net
+  description: Odlican.net Cms
+  matchers:
+    - location: body
+      words:
+        - Powered by odlican.net cms

@@ -1,0 +1,11 @@
+- id: promise-webpam
+  name: Promise-webpam
+  author: P001
+  tags:
+    - promise-webpam
+  description: Promise-webpam
+  matchers:
+    - location: body
+      words:
+        - js/promise/themes/apple/images/logo_promise.png
+        - src="js/dojo/promise.js

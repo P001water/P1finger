@@ -1,0 +1,30 @@
+- id: brother-fax
+  name: Brother-fax
+  author: P1finger
+  tags:
+  - brother
+  - brother-fax
+  description: Brother-fax
+  matchers:
+  - location: body
+    words:
+    - Brother MFC
+  - location: header
+    words:
+    - debut
+- id: brother-fax-2
+  name: Brother-Fax
+  author: Fofa
+  tags:
+  - brother
+  - brother-fax
+  description: Brother-Fax
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - debut
+  - condition: or
+    location: title
+    words:
+    - Brother MFC

@@ -1,0 +1,14 @@
+- id: aicache
+  name: Aicache
+  author: Fofa
+  tags:
+    - aicache
+  description: Aicache
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Aicache
+    - location: header
+      words:
+        - X-Aicache

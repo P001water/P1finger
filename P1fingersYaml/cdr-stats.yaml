@@ -1,0 +1,29 @@
+- id: cdr-stats
+  name: Cdr-stats
+  author: P1finger
+  tags:
+    - cdr-stats
+  description: Cdr-stats
+  matchers:
+    - location: body
+      words:
+        - CDR-Stats | Customer Interface
+        - /static/cdr-stats/js/jquery
+    - location: body
+      words:
+        - /static/cdr-stats/js/jquery
+- id: cdr-stats-2
+  name: CDR-Stats
+  author: Fofa
+  tags:
+    - cdr-stats
+  description: CDR-Stats
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - CDR-Stats | Customer Interface
+    - condition: or
+      location: body
+      words:
+        - /static/cdr-stats/js/jquery

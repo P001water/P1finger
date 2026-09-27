@@ -1,0 +1,10 @@
+- id: dfe-scada
+  name: Dfe-scada
+  author: P001
+  tags:
+    - dfe-scada
+  description: Dfe-scada
+  matchers:
+    - location: body
+      words:
+        - "536870912"

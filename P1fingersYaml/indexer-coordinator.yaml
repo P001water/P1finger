@@ -1,0 +1,21 @@
+- id: indexer-coordinator
+  name: Indexer-coordinator
+  author: P001
+  tags:
+    - indexer-coordinator
+  description: Indexer-coordinator
+  matchers:
+    - location: body
+      words:
+        - content="druid indexer coordinator console
+- id: indexer-coordinator-2
+  name: Indexer Coordinator
+  author: P1finger
+  tags:
+    - indexer-coordinator
+  description: Indexer Coordinator
+  matchers:
+    - location: body
+      words:
+        - druid indexer coordinator console
+        - content="druid indexer coordinator console

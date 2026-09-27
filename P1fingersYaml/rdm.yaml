@@ -1,0 +1,10 @@
+- id: qingtongqirdm
+  name: QingtongqiRDM
+  author: P1finger
+  tags:
+    - qingtongqirdm
+  description: QingtongqiRDM
+  matchers:
+    - location: body
+      words:
+        - 登录青铜器rdm</b></div>

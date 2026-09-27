@@ -1,0 +1,12 @@
+- id: vtiger-crm
+  name: VTiger CRM
+  author: P1finger
+  tags:
+    - vtiger-crm
+  description: VTiger CRM
+  matchers:
+    - location: body
+      words:
+        - vtiger CRM
+        - Powered by vtiger CRM
+        - themes/images/vtigercrm_icon.ico

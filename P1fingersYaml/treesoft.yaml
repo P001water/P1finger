@@ -1,0 +1,11 @@
+- id: treesoft
+  name: TreeSoft Database Management System
+  author: P1finger
+  tags:
+    - treesoft
+    - database-management-system
+  description: TreeSoft Database Management System
+  matchers:
+    - location: body
+      words:
+        - TreeSoft数据库管理系统

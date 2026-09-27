@@ -1,0 +1,25 @@
+- id: zend-framework
+  name: Zend Framework
+  author: Fofa
+  tags:
+    - zend-framework
+  description: Zend Framework
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Zend Framework
+    - condition: or
+      location: header
+      words:
+        - ZEND=
+- id: zend-framework-2
+  name: Zend Framework
+  author: P1finger
+  tags:
+    - zend-framework
+  description: Zend Framework
+  matchers:
+    - location: header
+      words:
+        - ZEND=

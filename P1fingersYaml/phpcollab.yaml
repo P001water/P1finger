@@ -1,0 +1,11 @@
+- id: phpcollab
+  name: Phpcollab
+  author: P001
+  tags:
+    - phpcollab
+  description: Phpcollab
+  matchers:
+    - location: body
+      words:
+        - <!-- powered by phpcollab
+        - content='phpcollab

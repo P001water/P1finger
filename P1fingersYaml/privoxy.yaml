@@ -1,0 +1,31 @@
+- id: privoxy
+  name: Privoxy
+  author: Fofa
+  tags:
+    - privoxy
+  description: Privoxy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Proxy-Agent: Privoxy'
+    - location: header
+      words:
+        - 'Proxy-Agent: Privoxy'
+- id: privoxydaili
+  name: Privoxydaili
+  author: Fofa
+  tags:
+    - privoxydaili
+  description: Privoxydaili
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Privoxy
+    - location: header
+      words:
+        - Privoxy
+    - location: body
+      words:
+        - Privoxy

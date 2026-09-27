@@ -1,0 +1,11 @@
+- id: iis6-3
+  name: IIS6
+  author: Fofa
+  tags:
+    - iis6
+  description: IIS6
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - iis/6

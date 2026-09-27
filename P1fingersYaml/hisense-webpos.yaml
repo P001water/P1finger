@@ -1,0 +1,11 @@
+- id: hisense-webpos
+  name: Hisense-webpos
+  author: P001
+  tags:
+    - hisense-webpos
+  description: Hisense-webpos
+  matchers:
+    - location: body
+      words:
+        - <legend><img src="../../content/images/hisense.bmp" style="height:20px; padding-left:-10px"/>webpos登录</legend>
+        - content/images/hisense.bmp

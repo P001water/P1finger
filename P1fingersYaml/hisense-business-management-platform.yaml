@@ -1,0 +1,12 @@
+- id: hisense-business
+  name: Hisense-business-management-platform
+  author: P001
+  tags:
+    - hisense-business
+  description: Hisense-business-management-platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - src="left.jpg"
+        - src="up.jpg"

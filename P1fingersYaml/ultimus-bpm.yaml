@@ -1,0 +1,10 @@
+- id: ultimus-bpm
+  name: Ultimus-bpm
+  author: P001
+  tags:
+    - ultimus-bpm
+  description: Ultimus-bpm
+  matchers:
+    - location: body
+      words:
+        - url=iportal/login.aspx

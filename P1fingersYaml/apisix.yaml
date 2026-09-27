@@ -1,0 +1,10 @@
+- id: apisix
+  name: Apisix
+  author: P1finger
+  tags:
+    - apisix
+  description: Apisix
+  matchers:
+    - location: body
+      words:
+        - 'error_msg: "failed to match any routes"'

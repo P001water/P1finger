@@ -1,0 +1,10 @@
+- id: cambium-networks
+  name: Cambium Networks
+  author: P1finger
+  tags:
+    - cambium-networks
+  description: Cambium Networks
+  matchers:
+    - hash:
+        - "-435817905"
+      location: favicon

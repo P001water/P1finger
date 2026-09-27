@@ -1,0 +1,24 @@
+- id: cgi-irc
+  name: CGI:IRC
+  author: Fofa
+  tags:
+    - cgi-irc
+  description: CGI:IRC
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - CGI:IRC Login
+    - condition: or
+      location: body
+      words:
+        - <!-- This is part of CGI:IRC
+    - condition: or
+      location: body
+      words:
+        - <small id="ietest"><a href="http://cgiirc.org/
+    - location: body
+      words:
+        - CGI:IRC Login
+        - <!-- This is part of CGI:IRC
+        - <small id="ietest"><a href="http://cgiirc.org/

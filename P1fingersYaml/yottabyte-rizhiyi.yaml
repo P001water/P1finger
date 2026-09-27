@@ -1,0 +1,10 @@
+- id: yottabyte-rizhiyi
+  name: Yottabyte-rizhiyi
+  author: P001
+  tags:
+    - yottabyte-rizhiyi
+  description: Yottabyte-rizhiyi
+  matchers:
+    - location: body
+      words:
+        - href="/static/assets/yottaweb-elements/index.css"

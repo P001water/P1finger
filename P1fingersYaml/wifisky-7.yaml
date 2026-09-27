@@ -1,0 +1,12 @@
+- id: wifisky7cengliukong-router
+  name: WIFISKY7cengliukong Router
+  author: P1finger
+  tags:
+    - wifisky7cengliukong
+    - router
+  description: WIFISKY7cengliukong Router
+  matchers:
+    - location: body
+      words:
+        - WIFISKY
+        - 深圳市领空技术

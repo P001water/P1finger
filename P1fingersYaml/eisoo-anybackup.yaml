@@ -1,0 +1,10 @@
+- id: eisoo-anybackup
+  name: Eisoo-anybackup
+  author: P001
+  tags:
+    - eisoo-anybackup
+  description: Eisoo-anybackup
+  matchers:
+    - location: body
+      words:
+        - id="topmask"

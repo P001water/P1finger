@@ -1,0 +1,12 @@
+- id: openconf
+  name: Openconf
+  author: P001
+  tags:
+    - openconf
+  description: Openconf
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: openconf='
+        - powered by <a href="http://www.openconf.org
+        - src="openconf.js?

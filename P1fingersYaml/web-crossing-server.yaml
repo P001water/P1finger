@@ -1,0 +1,10 @@
+- id: crossing
+  name: Web-crossing-server
+  author: P001
+  tags:
+    - crossing
+  description: Web-crossing-server
+  matchers:
+    - location: body
+      words:
+        - 'server: web crossing'

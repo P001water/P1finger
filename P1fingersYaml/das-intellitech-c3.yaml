@@ -1,0 +1,10 @@
+- id: das-intellitech-c3
+  name: Das-intellitech-c3
+  author: P001
+  tags:
+    - das-intellitech-c3
+  description: Das-intellitech-c3
+  matchers:
+    - location: body
+      words:
+        - window.location.href="single/empmain2.aspx

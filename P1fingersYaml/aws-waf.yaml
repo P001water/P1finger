@@ -1,0 +1,10 @@
+- id: aws-waf
+  name: AWS-WAF
+  author: P1finger
+  tags:
+    - aws-waf
+  description: AWS-WAF
+  matchers:
+    - location: header
+      words:
+        - awselb

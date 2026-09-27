@@ -1,0 +1,11 @@
+- id: airwatch
+  name: Airwatch
+  author: P1finger
+  tags:
+    - airwatch
+  description: Airwatch
+  matchers:
+    - hash:
+        - "-1153873472"
+        - "-1863663974"
+      location: favicon

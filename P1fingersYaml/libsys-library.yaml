@@ -1,0 +1,10 @@
+- id: libsys-library
+  name: Libsys-library
+  author: P001
+  tags:
+    - libsys-library
+  description: Libsys-library
+  matchers:
+    - location: body
+      words:
+        - <div class="header_opac_logo">

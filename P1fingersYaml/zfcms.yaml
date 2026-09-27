@@ -1,0 +1,10 @@
+- id: zfcms
+  name: ZFCMS
+  author: P1finger
+  tags:
+    - zfcms
+  description: ZFCMS
+  matchers:
+    - location: body
+      words:
+        - zfcms

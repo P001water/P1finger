@@ -1,0 +1,10 @@
+- id: anwang-wayosac
+  name: Anwang-wayosac
+  author: P001
+  tags:
+    - anwang-wayosac
+  description: Anwang-wayosac
+  matchers:
+    - hash:
+        - 715c49c5512d763084a4082c27d935e1
+      location: favicon

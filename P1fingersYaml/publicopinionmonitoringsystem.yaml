@@ -1,0 +1,10 @@
+- id: publicopinionmonitoringsystem
+  name: Publicopinionmonitoringsystem
+  author: P001
+  tags:
+    - publicopinionmonitoringsystem
+  description: Publicopinionmonitoringsystem
+  matchers:
+    - location: body
+      words:
+        - /mpoweb/a/login

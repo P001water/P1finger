@@ -1,0 +1,14 @@
+- id: freejoomlas-com
+  name: FreeJoomlas_com
+  author: Fofa
+  tags:
+    - freejoomlas-com
+  description: FreeJoomlas_com
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a title="free joomla hosting" href="http://freejoomlas.com
+    - location: body
+      words:
+        - freejoomlas

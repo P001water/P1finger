@@ -1,0 +1,16 @@
+- id: jeesite
+  name: Jeesite
+  author: P1finger
+  tags:
+    - jeesite
+  description: Jeesite
+  matchers:
+    - location: body
+      words:
+        - jeesite.min.css
+    - location: body
+      words:
+        - jeesite.com
+        - jeesite.css
+        - jeesite.js
+        - 'set-cookie: jeesite.session.id='

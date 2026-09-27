@@ -1,0 +1,15 @@
+- id: webcamxp
+  name: WebcamXP
+  author: Fofa
+  tags:
+    - webcamxp
+  description: WebcamXP
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - webcamXP
+    - condition: or
+      location: title
+      words:
+        - webcamXP

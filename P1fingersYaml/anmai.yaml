@@ -1,0 +1,11 @@
+- id: anmaianmaijiaoxue-system
+  name: ANMAIanmaijiaoxue System
+  author: P1finger
+  tags:
+    - anmaianmaijiaoxue
+    - system
+  description: ANMAIanmaijiaoxue System
+  matchers:
+    - location: body
+      words:
+        - ANMAI, All Rights Reserved

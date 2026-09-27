@@ -1,0 +1,10 @@
+- id: dubbo
+  name: Dubbo
+  author: P1finger
+  tags:
+    - dubbo
+  description: Dubbo
+  matchers:
+    - location: header
+      words:
+        - Basic realm="dubbo"

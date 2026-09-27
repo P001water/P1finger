@@ -1,0 +1,23 @@
+- id: sifudilogbase-bastion-host
+  name: Sifudilogbase Bastion Host
+  author: P1finger
+  tags:
+    - sifudilogbase
+    - bastion-host
+  description: Sifudilogbase Bastion Host
+  matchers:
+    - location: body
+      words:
+        - Logbase
+        - /manage/css/login.css
+- id: sifudilogbaserizhiguanlizongheshenji
+  name: SifudiLOGBASErizhiguanlizongheshenji System
+  author: P1finger
+  tags:
+    - sifudilogbaserizhiguanlizongheshenji
+    - system
+  description: SifudiLOGBASErizhiguanlizongheshenji System
+  matchers:
+    - location: body
+      words:
+        - /login/sls/auth?RequestedPage

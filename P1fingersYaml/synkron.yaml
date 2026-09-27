@@ -1,0 +1,10 @@
+- id: synkron
+  name: Synkron
+  author: P1finger
+  tags:
+    - synkron
+  description: Synkron
+  matchers:
+    - location: body
+      words:
+        - Synkron

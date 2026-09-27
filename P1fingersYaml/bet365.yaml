@@ -1,0 +1,10 @@
+- id: bet365
+  name: Bet365
+  author: P1finger
+  tags:
+    - bet365
+  description: Bet365
+  matchers:
+    - hash:
+        - "-2116540786"
+      location: favicon

@@ -1,0 +1,13 @@
+- id: ruvarhrm
+  name: Ruvarhrm
+  author: P001
+  tags:
+    - ruvarhrm
+  description: Ruvarhrm
+  matchers:
+    - location: body
+      words:
+        - src="/ruvarhrm/web_login/login.aspx
+    - location: body
+      words:
+        - href='/RuvarHRM/css/

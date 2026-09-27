@@ -1,0 +1,13 @@
+- id: yonyou-shop
+  name: Yonyou-shop
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-shop
+  description: Yonyou-shop
+  matchers:
+  - location: body
+    words:
+    - $.post("/shopfront/shoppingcar/gotoshoppingcartajax.action",function(data){
+    - url:"/shophome/ajaxgetcompetemessagelist.action",
+    - 北京用友政务软件股份有限公司

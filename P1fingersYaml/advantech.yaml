@@ -1,0 +1,10 @@
+- id: yanhuaadvantechwebaccess
+  name: YanhuaAdvantechWebAccess
+  author: P1finger
+  tags:
+    - yanhuaadvantechwebaccess
+  description: YanhuaAdvantechWebAccess
+  matchers:
+    - location: body
+      words:
+        - Advantech WebAccess

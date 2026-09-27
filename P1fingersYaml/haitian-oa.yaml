@@ -1,0 +1,12 @@
+- id: haitian
+  name: Haitian-oa
+  author: P001
+  tags:
+    - haitian
+  description: Haitian-oa
+  matchers:
+    - location: body
+      words:
+        - htvos.js
+        - images/myjs.js
+        - mshtml 8.00.6001.19298

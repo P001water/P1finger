@@ -1,0 +1,11 @@
+- id: vmware-view-planner
+  name: VMware View Planner
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-view-planner
+  description: VMware View Planner
+  matchers:
+  - location: body
+    words:
+    - Viewplanner

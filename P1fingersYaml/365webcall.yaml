@@ -1,0 +1,13 @@
+- id: 365webcall
+  name: 365webcall
+  author: P001
+  tags:
+    - 365webcall
+  description: 365webcall
+  matchers:
+    - location: body
+      words:
+        - src='http://www.365webcall.com/imme1.aspx?
+    - location: body
+      words:
+        - https://www.365webcall.com/sa.aspx?

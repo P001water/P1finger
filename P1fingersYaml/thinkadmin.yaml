@@ -1,0 +1,14 @@
+- id: thinkadmin
+  name: Thinkadmin
+  author: P001
+  tags:
+    - thinkadmin
+  description: Thinkadmin
+  matchers:
+    - location: body
+      words:
+        - thinkadmin</title>
+    - location: body
+      words:
+        - /static/admin.js
+        - layui.all.js

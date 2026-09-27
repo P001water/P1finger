@@ -1,0 +1,14 @@
+- id: edvr
+  name: Edvr
+  author: Fofa
+  tags:
+    - edvr
+  description: Edvr
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - edvs/edvr
+    - location: body
+      words:
+        - edvs/edvr

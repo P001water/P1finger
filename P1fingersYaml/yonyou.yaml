@@ -1,0 +1,281 @@
+- id: yonyou
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - C535AD4F2E753F29CE1118EDB8B7913FB96C145FC21A1E9BA9
+- id: yonyou-2
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - /hrss/rm/RmMain.jsp
+- id: yonyou-3
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - /nc/servlet/nc.ui.iufo.login.Index
+        - 用友新世纪
+        - logo/images/ufida
+- id: yonyou-4
+  name: Yonyou
+  author: Fofa
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /nc/servlet/nc.ui.iufo.login.Index
+    - condition: or
+      location: title
+      words:
+        - 用友新世纪
+- id: yonyou-9
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - R9iPortal/index.jsp
+- id: yonyou-8
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - 用友GRP-U8
+- id: yonyou-8-2
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - /R9iPortal/js/jquery.js
+- id: yonyou-system
+  name: Yonyou System
+  author: P1finger
+  tags:
+    - yonyou
+    - system
+  description: Yonyou System
+  matchers:
+    - location: body
+      words:
+        - 用友grp-rmis系统
+        - href="clientfile/rmisupdate.exe
+- id: yonyou-5
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - 用友_MA插件管理
+- id: yonyou-6
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - UFIDA
+        - /nc/servlet/nc.ui.iufo.login.Index
+- id: yonyou-7
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv=refresh content=0;url=nccloud>
+        - window.location.href="platform/pub/welcome.do";
+        - window.location.href="html/downloadBroswer.html";
+- id: yonyou-8
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - css/commonlogincomp.min.css
+- id: yonyou-platform
+  name: Yonyou Platform
+  author: Fofa
+  tags:
+    - yonyou
+    - platform
+  description: Yonyou Platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Login_Main_BG
+    - condition: and
+      location: body
+      words:
+        - Login_Owner
+    - location: body
+      words:
+        - Login_Main_BG
+        - Login_Owner
+- id: yonyou-9
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - mkbh = getCookie(
+- id: yonyou-10
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - /js/turboui.js"></script>
+        - /js/tfunction.js"></script>
+    - location: body
+      words:
+        - 用友TurboCRM
+    - location: body
+      words:
+        - 用友TurboCRM
+        - /js/turboui.js"></script>
+- id: yonyou-8-3
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - 用友优普信息技术有限公司
+        - U8远程接入
+- id: yonyou-8-4
+  name: Yonyou
+  author: Fofa
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - getFirstU8Accid
+    - location: body
+      words:
+        - getFirstU8Accid
+- id: yonyou-8-5
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - uclient.yonyou.com/api/uclient/public/download
+- id: yonyou-9-2
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - U9-登录
+- id: yonyou-11
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - location: body
+      words:
+        - /System/Login/Login.asp?
+- id: yonyou-12
+  name: Yonyou
+  author: Fofa
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /System/Login/Login.asp?AppID=
+    - location: body
+      words:
+        - /System/Login/Login.asp?AppID=
+- id: yonyou-management-system
+  name: Yonyou Management System
+  author: P1finger
+  tags:
+    - yonyou
+    - management-system
+  description: Yonyou Management System
+  matchers:
+    - location: body
+      words:
+        - img/login/ufida.ico
+- id: yonyou-13
+  name: Yonyou
+  author: P1finger
+  tags:
+    - yonyou
+  description: Yonyou
+  matchers:
+    - hash:
+        - "1183274548"
+      location: favicon
+- id: yonyou-gateway
+  name: Yonyou Gateway
+  author: P1finger
+  tags:
+    - yonyou
+    - gateway
+  description: Yonyou Gateway
+  matchers:
+    - location: body
+      words:
+        - /modules/core/client/views/header.client.view.html

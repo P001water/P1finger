@@ -1,0 +1,683 @@
+- id: h3c-am8000
+  name: H3C AM8000
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-am8000
+  description: H3C AM8000
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - AM8000
+- id: h3c-am8000-2
+  name: H3c-am8000
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-am8000
+  description: H3c-am8000
+  matchers:
+  - location: body
+    words:
+    - AM8000
+- id: h3canquangeliyuxinxijiaohuan
+  name: H3Canquangeliyuxinxijiaohuan System
+  author: P1finger
+  tags:
+  - h3canquangeliyuxinxijiaohuan
+  - system
+  description: H3Canquangeliyuxinxijiaohuan System
+  matchers:
+  - location: body
+    words:
+    - images/h3c.png
+    - 安全隔离与信息交换系统
+- id: h3c-cas
+  name: H3C-CAS
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-cas
+  description: H3C-CAS
+  matchers:
+  - location: header
+    words:
+    - 'Server: CVM'
+    - 'Server: H3C-CVM'
+  - location: body
+    words:
+    - href="cas.css
+  - location: body
+    words:
+    - cas.css
+  - location: header
+    words:
+    - Path=/cas
+- id: h3c
+  name: H3c-cloud
+  author: P001
+  tags:
+  - h3c
+  description: H3c-cloud
+  matchers:
+  - location: body
+    words:
+    - vstor
+    - 分布式存储管理系统 </p>
+- id: h3c-er2100
+  name: H3C ER2100
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er2100
+  description: H3C ER2100
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER2100系统管理
+- id: h3c-er2100n
+  name: H3C ER2100n
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er2100n
+  description: H3C ER2100n
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER2100n系统管理
+- id: h3c-er2100v2
+  name: H3C ER2100V2
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er2100v2
+  description: H3C ER2100V2
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER2100V2系统管理
+- id: h3c-er3100
+  name: H3C ER3100
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er3100
+  description: H3C ER3100
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER3100系统管理
+- id: h3c-er3100-2
+  name: H3c-er3100
+  author: P001
+  tags:
+  - h3c
+  - h3c-er3100
+  description: H3c-er3100
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - er3100
+    - h3c.com
+- id: h3c-er3108g
+  name: H3C ER3108G
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er3108g
+  description: H3C ER3108G
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER3108G系统管理
+- id: h3c-er3108gw
+  name: H3C ER3108GW
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er3108gw
+  description: H3C ER3108GW
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER3108GW系统管理
+- id: h3c-er3200
+  name: H3C ER3200
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er3200
+  description: H3C ER3200
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER3200系统管理
+- id: h3c-er3260
+  name: H3C ER3260
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er3260
+  description: H3C ER3260
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER3260系统管理
+- id: h3c-er3260g2
+  name: H3C ER3260G2
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er3260g2
+  description: H3C ER3260G2
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER3260G2系统管理
+- id: h3c-er5100
+  name: H3C ER5100
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er5100
+  description: H3C ER5100
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER5100系统管理
+- id: h3c-er5200
+  name: H3C ER5200
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er5200
+  description: H3C ER5200
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ="ER5200系统管理
+- id: h3c-er5200g2
+  name: H3C ER5200G2
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er5200g2
+  description: H3C ER5200G2
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER5200G2系统管理
+- id: h3c-er6300
+  name: H3C ER6300
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er6300
+  description: H3C ER6300
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER6300系统管理
+- id: h3c-er6300g2
+  name: H3C ER6300G2
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er6300g2
+  description: H3C ER6300G2
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER6300G2系统管理
+- id: h3c-er6300g2-2
+  name: H3c-er6300g2
+  author: P001
+  tags:
+  - h3c
+  - h3c-er6300g2
+  description: H3c-er6300g2
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - er6300g2
+    - h3c.com
+- id: h3c-er8300
+  name: H3C ER8300
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er8300
+  description: H3C ER8300
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER8300系统管理
+- id: h3c-er8300g2
+  name: H3C ER8300G2
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-er8300g2
+  description: H3C ER8300G2
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ER8300G2系统管理
+- id: h3cgongsichanpin
+  name: H3cgongsichanpin
+  author: P1finger
+  tags:
+  - h3cgongsichanpin
+  description: H3cgongsichanpin
+  matchers:
+  - location: body
+    words:
+    - <title>Web managerment Home
+    - .h3c.com
+    - service@h3c.com
+  - condition: or
+    location: body
+    words:
+    - service@h3c.com
+  - condition: or
+    location: body
+    words:
+    - H3C Corporation")
+  - condition: or
+    location: body
+    words:
+    - icg_helpScript.js
+  - location: body
+    words:
+    - service@h3c.com
+    - H3C Corporation
+    - icg_helpScript.js
+- id: h3ccasyunjisuan
+  name: H3CCASyunjisuan Management Platform
+  author: P1finger
+  tags:
+  - h3ccasyunjisuan
+  - management-platform
+  description: H3CCASyunjisuan Management Platform
+  matchers:
+  - location: body
+    words:
+    - H3Cloud
+- id: h3c-2
+  name: H3c Cloud
+  author: P1finger
+  tags:
+  - h3c
+  description: H3c Cloud
+  matchers:
+  - location: body
+    words:
+    - vstor
+    - 分布式存储管理系统
+- id: h3c-icg-1000
+  name: H3c Icg 1000
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-icg-1000
+  description: H3c Icg 1000
+  matchers:
+  - location: body
+    words:
+    - ICG 1000系统管理
+- id: h3c-msr
+  name: H3c Msr
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-msr
+  description: H3c Msr
+  matchers:
+  - location: body
+    words:
+    - wnm/ssl/web/frame/login.html
+- id: h3c-secblade
+  name: H3C-SecBlade-FireWall
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-secblade
+  description: H3C-SecBlade-FireWall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - js/MulPlatAPI.js
+  - location: body
+    words:
+    - h3c secblade fw
+- id: h3c-secpath
+  name: H3C SecPath
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-secpath
+  description: H3C SecPath
+  matchers:
+  - location: body
+    words:
+    - h3c secpath 运维审计
+    - <span>h3c secpath 运维审计系统</span></div>
+- id: h3csecpathyunweishenji-system
+  name: H3CSecPathyunweishenji System
+  author: P1finger
+  tags:
+  - h3csecpathyunweishenji
+  - system
+  description: H3CSecPathyunweishenji System
+  matchers:
+  - location: body
+    words:
+    - H3C SecPath 运维审计系统
+- id: h3c-secpath-f1000-ei
+  name: H3C SecPath F1000 A EI
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-secpath-f1000-ei
+  description: H3C SecPath F1000 A EI
+  matchers:
+  - location: body
+    words:
+    - h3c firewall secpath f1000-a-ei
+- id: h3c-secpath-f5000
+  name: H3C SecPath F5000 M
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-secpath-f5000
+  description: H3C SecPath F5000 M
+  matchers:
+  - location: body
+    words:
+    - h3c secpath f5000-m
+- id: h3c-secpath-2
+  name: H3C SecPath Firewall
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-secpath
+  description: H3C SecPath Firewall
+  matchers:
+  - location: body
+    words:
+    - h3c secpath firewall system
+    - h3c firewall secpath
+- id: h3c-ssl
+  name: H3C SSL VPN
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-ssl
+  description: H3C SSL VPN
+  matchers:
+  - location: body
+    words:
+    - SSLVPN Domain list
+- id: h3c-uis
+  name: H3C UIS
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-uis
+  description: H3C UIS
+  matchers:
+  - location: body
+    words:
+    - h3c uis 统一管理矩阵
+    - uisalert
+- id: h3cwebwangguan-system
+  name: H3CWebwangguan System
+  author: P1finger
+  tags:
+  - h3cwebwangguan
+  - system
+  description: H3CWebwangguan System
+  matchers:
+  - location: body
+    words:
+    - web网管用户登录
+- id: h3cweb-waf
+  name: H3CWEB WAF
+  author: P1finger
+  tags:
+  - h3cweb
+  - waf
+  description: H3CWEB WAF
+  matchers:
+  - location: body
+    words:
+    - h3c web应用防火墙
+- id: h3c-hdm
+  name: H3c-hdm
+  author: P001
+  tags:
+  - h3c
+  - h3c-hdm
+  description: H3c-hdm
+  matchers:
+  - location: body
+    words:
+    - /video_record.jnlp
+    - <iframe frameborder="0" class="framelayout" src="./page/blank.html" name="mainframe"
+      id="mainframe
+- id: h3c-icg-1000-2
+  name: H3C ICG 1000
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-icg-1000
+  description: H3C ICG 1000
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ICG 1000系统管理
+- id: h3c-icg1000
+  name: H3C ICG1000
+  author: Fofa
+  tags:
+  - h3c
+  - h3c-icg1000
+  description: H3C ICG1000
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ICG1000系统管理
+- id: h3c-imc
+  name: H3c-imc
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-imc
+  description: H3c-imc
+  matchers:
+  - location: body
+    words:
+    - primefaces-imc-classic-blue
+    - window.location.href='/imc/login.jsf'
+  - location: body
+    words:
+    - /imc/login.jsf
+    - <span class="cmn_mn_normalfont">h3c 智能管理中心
+    - action="/imc/login.jsf
+    - com_h3c_imc_usr_usermgr_alluser_overlaydiv
+    - href="/selfservice/javax.faces.resource/theme.css.xhtml?ln=primefaces-imc-classic-blue"
+    - imc来宾接入自助管理系统
+    - login_logo_h3c.png.jsf
+    - src="/imc/javax.faces.resource/images/login_logo_h3c.png.jsf?ln=primefaces-imc-new-webui
+    - h3c &#26234;&#33021;&#31649;&#29702;&#20013;&#24515;</span>
+    - src="/imc/faces/extensionresource/com.h3c.imc.component.util.extensionresourceloader/
+- id: h3c-router
+  name: H3c Router
+  author: Fofa
+  tags:
+  - h3c
+  - router
+  description: H3c Router
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Web user login
+  - condition: and
+    location: body
+    words:
+    - nLanguageSupported
+  - location: body
+    words:
+    - Web user login
+    - nLanguageSupported
+- id: h3c-3
+  name: H3c-router
+  author: P001
+  tags:
+  - h3c
+  description: H3c-router
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - restore.htm
+    - service@h3c.com
+- id: h3c-secblade-2
+  name: H3c-secblade-firewall
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-secblade
+  description: H3c-secblade-firewall
+  matchers:
+  - location: body
+    words:
+    - js/MulPlatAPI.js
+- id: h3c-seccenter
+  name: H3C-SecCenter
+  author: P1finger
+  tags:
+  - h3c
+  - h3c-seccenter
+  description: H3C-SecCenter
+  matchers:
+  - location: body
+    words:
+    - SecCenter
+- id: h3csecpath-firewall
+  name: H3csecpath Firewall
+  author: P001
+  tags:
+  - h3csecpath
+  - firewall
+  description: H3csecpath Firewall
+  matchers:
+  - location: body
+    words:
+    - h3c secpath series
+- id: h3c-ssl-2
+  name: H3c-ssl-vpn
+  author: P001
+  tags:
+  - h3c
+  - h3c-ssl
+  description: H3c-ssl-vpn
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - keep me signed in</span>
+    - welcome to ssl vpn</h1>
+- id: h3cwangluoshebei
+  name: H3cwangluoshebei
+  author: P1finger
+  tags:
+  - h3cwangluoshebei
+  description: H3cwangluoshebei
+  matchers:
+  - location: body
+    words:
+    - libs/MulPlatAPI.js
+- id: h3c-managerment-home
+  name: H3c-web-managerment-home
+  author: P001
+  tags:
+  - h3c
+  - h3c-managerment-home
+  description: H3c-web-managerment-home
+  matchers:
+  - location: body
+    words:
+    - /wnm/ssl/web/frame/login.html
+- id: h3cwebwangguan
+  name: H3cwebwangguan
+  author: P001
+  tags:
+  - h3cwebwangguan
+  description: H3cwebwangguan
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - web网管用户登录
+    - china_logo.jpg
+    - webui
+- id: h3cweb-waf-2
+  name: H3cweb WAF
+  author: P001
+  tags:
+  - h3cweb
+  - waf
+  description: H3cweb WAF
+  matchers:
+  - location: body
+    words:
+    - h3c web应用防火墙
+- id: h3c-next-generation-firewall
+  name: H3c Next-Generation Firewall
+  author: P001
+  tags:
+  - h3c
+  - next-generation-firewall
+  description: H3c Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - /php/common/checknum_creat.php?module=config_authnum
+    - class="dl_margin0" align="left">web网管用户登录</div>
+- id: h3c-next-generation-firewall-2
+  name: H3C Next-Generation Firewall
+  author: P1finger
+  tags:
+  - h3c
+  - next-generation-firewall
+  description: H3C Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - webui/images/basic/login/china_logo.jpg
+    - Web user login

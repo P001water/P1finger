@@ -1,0 +1,10 @@
+- id: wildfly-2
+  name: Wildfly
+  author: P1finger
+  tags:
+    - wildfly
+  description: Wildfly
+  matchers:
+    - hash:
+        - "-1666561833"
+      location: favicon

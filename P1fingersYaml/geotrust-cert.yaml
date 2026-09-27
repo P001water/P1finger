@@ -1,0 +1,24 @@
+- id: geotrust-cert
+  name: Geotrust-cert
+  author: P001
+  tags:
+    - geotrust-cert
+  description: Geotrust-cert
+  matchers:
+    - location: body
+      words:
+        - //smarticon.geotrust.com/si.js
+- id: geotrust-cert-2
+  name: GeoTrust_cert
+  author: Fofa
+  tags:
+    - geotrust-cert
+  description: GeoTrust_cert
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - //smarticon.geotrust.com/si.js
+    - location: body
+      words:
+        - //smarticon.geotrust.com/si.js

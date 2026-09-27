@@ -1,0 +1,12 @@
+- id: apache-pulsar
+  name: Apache Pulsar
+  author: P1finger
+  tags:
+  - apache
+  - apache-pulsar
+  description: Apache Pulsar
+  matchers:
+  - location: body
+    words:
+    - pulsar-express
+    - Simple Web Interface for Apache Pulsar

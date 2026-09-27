@@ -1,0 +1,10 @@
+- id: netposa
+  name: Netposa-system
+  author: P001
+  tags:
+    - netposa
+  description: Netposa-system
+  matchers:
+    - location: body
+      words:
+        - netposa

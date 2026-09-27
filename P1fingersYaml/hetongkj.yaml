@@ -1,0 +1,10 @@
+- id: hetongkj
+  name: Hetongkj
+  author: P001
+  tags:
+    - hetongkj
+  description: Hetongkj
+  matchers:
+    - location: body
+      words:
+        - href="/web/mainmenu/images/favicon.ico">

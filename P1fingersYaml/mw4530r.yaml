@@ -1,0 +1,14 @@
+- id: mw4530r
+  name: MW4530R
+  author: Fofa
+  tags:
+    - mw4530r
+  description: MW4530R
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MW4530R
+    - location: header
+      words:
+        - MW4530R

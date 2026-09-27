@@ -1,0 +1,26 @@
+- id: axis
+  name: Axis-network-camera
+  author: P1finger
+  tags:
+    - axis
+  description: Axis-network-camera
+  matchers:
+    - location: body
+      words:
+        - AXIS Video Server
+        - /incl/trash.shtml
+- id: axis-2
+  name: Axis-Network-Camera
+  author: Fofa
+  tags:
+    - axis
+  description: Axis-Network-Camera
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - AXIS Video Server
+    - condition: or
+      location: body
+      words:
+        - /incl/trash.shtml

@@ -1,0 +1,21 @@
+- id: extremeware
+  name: ExtremeWare
+  author: Fofa
+  tags:
+    - extremeware
+  description: ExtremeWare
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ExtremeWare
+    - condition: or
+      location: body
+      words:
+        - <frame src="extremetop
+    - location: body
+      words:
+        - <frame src="extremetop
+    - location: header
+      words:
+        - ExtremeWare

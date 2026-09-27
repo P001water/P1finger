@@ -1,0 +1,10 @@
+- id: dayrui
+  name: Dayrui-cms
+  author: P001
+  tags:
+    - dayrui
+  description: Dayrui-cms
+  matchers:
+    - location: body
+      words:
+        - dayrui/statics

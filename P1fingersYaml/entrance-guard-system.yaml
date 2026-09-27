@@ -1,0 +1,10 @@
+- id: entrance-guard
+  name: Entrance-guard-system
+  author: P001
+  tags:
+    - entrance-guard
+  description: Entrance-guard-system
+  matchers:
+    - location: body
+      words:
+        - /media/images/zkeco16.ico

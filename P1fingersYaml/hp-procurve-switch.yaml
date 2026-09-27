@@ -1,0 +1,27 @@
+- id: hp-procurve-switch
+  name: Hp-procurve-switch
+  author: P1finger
+  tags:
+  - hp
+  - hp-procurve-switch
+  description: Hp-procurve-switch
+  matchers:
+  - location: body
+    words:
+    - ProCurve Switch
+- id: hp-procurve-switch-2
+  name: HP-ProCurve-Switch
+  author: Fofa
+  tags:
+  - hp
+  - hp-procurve-switch
+  description: HP-ProCurve-Switch
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - eHTTP
+  - condition: or
+    location: title
+    words:
+    - ProCurve Switch

@@ -1,0 +1,10 @@
+- id: hongjinghr
+  name: Hongjinghr
+  author: P1finger
+  tags:
+    - hongjinghr
+  description: Hongjinghr
+  matchers:
+    - location: body
+      words:
+        - /js/hcmPNG.js

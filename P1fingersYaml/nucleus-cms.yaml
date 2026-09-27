@@ -1,0 +1,22 @@
+- id: nucleus
+  name: Nucleus-cms
+  author: P001
+  tags:
+    - nucleus
+  description: Nucleus-cms
+  matchers:
+    - location: body
+      words:
+        - nucleus_lf_name
+        - target="_blank">nucleus cms
+        - title="nucleus" href="http://nucleuscms.org/
+- id: nucleus-2
+  name: Nucleus CMS
+  author: P1finger
+  tags:
+    - nucleus
+  description: Nucleus CMS
+  matchers:
+    - location: body
+      words:
+        - Powered by Nucleus

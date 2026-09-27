@@ -1,0 +1,15 @@
+- id: sophos-appliance
+  name: Sophos_email_appliance
+  author: P1finger
+  tags:
+  - sophos
+  - sophos-appliance
+  description: Sophos_email_appliance
+  matchers:
+  - location: header
+    words:
+    - Sophos Email Appliance
+  - condition: and
+    location: header
+    words:
+    - Sophos Email Appliance

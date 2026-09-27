@@ -1,0 +1,10 @@
+- id: teradata-aster
+  name: Teradata-aster
+  author: P001
+  tags:
+    - teradata-aster
+  description: Teradata-aster
+  matchers:
+    - location: body
+      words:
+        - images/teradata_aster_logo.png

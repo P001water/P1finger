@@ -1,0 +1,12 @@
+- id: power-powerpms
+  name: Power-powerpms
+  author: P001
+  tags:
+    - power-powerpms
+  description: Power-powerpms
+  matchers:
+    - location: body
+      words:
+        - /app_themes/default/assets/css/style.min.css
+        - /scripts/boot.js
+        - apphub.server.registertohub(qrcodeid)

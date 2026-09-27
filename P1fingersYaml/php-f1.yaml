@@ -1,0 +1,10 @@
+- id: php-f1
+  name: PHP F1
+  author: P1finger
+  tags:
+    - php-f1
+  description: PHP F1
+  matchers:
+    - location: body
+      words:
+        - Powered by PHP F1

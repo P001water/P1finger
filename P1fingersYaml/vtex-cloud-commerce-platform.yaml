@@ -1,0 +1,13 @@
+- id: vtex-commerce
+  name: Vtex-Cloud-Commerce-Platform
+  author: P1finger
+  tags:
+    - vtex-commerce
+  description: Vtex-Cloud-Commerce-Platform
+  matchers:
+    - location: body
+      words:
+        - Vtex.Commerce.compare.js
+    - location: header
+      words:
+        - 'Server: Powered by Vtex'

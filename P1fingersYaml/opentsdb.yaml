@@ -1,0 +1,10 @@
+- id: opentsdb
+  name: OpenTSDB
+  author: P1finger
+  tags:
+    - opentsdb
+  description: OpenTSDB
+  matchers:
+    - hash:
+        - "407286339"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: solarwinds-2
+  name: Solarwinds
+  author: P001
+  tags:
+    - solarwinds
+  description: Solarwinds
+  matchers:
+    - hash:
+        - 53317933c27890ae9218697ecc0e97d9
+      location: favicon

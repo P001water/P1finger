@@ -1,0 +1,10 @@
+- id: yycms
+  name: Yycms
+  author: P1finger
+  tags:
+    - yycms
+  description: Yycms
+  matchers:
+    - location: body
+      words:
+        - /templets/yycms/js/

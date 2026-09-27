@@ -1,0 +1,19 @@
+- id: atmail-webmail
+  name: Atmail-WebMail
+  author: Fofa
+  tags:
+    - atmail-webmail
+  description: Atmail-WebMail
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Atmail
+    - condition: or
+      location: body
+      words:
+        - /index.php/mail/auth/processlogin
+    - condition: or
+      location: body
+      words:
+        - <input id="Mailserverinput

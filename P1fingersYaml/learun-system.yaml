@@ -1,0 +1,10 @@
+- id: learun
+  name: Learun-system
+  author: P001
+  tags:
+    - learun
+  description: Learun-system
+  matchers:
+    - location: body
+      words:
+        - content="力软敏捷开发框架，是一个web可视化开发平台

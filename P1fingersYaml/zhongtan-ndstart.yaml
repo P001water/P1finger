@@ -1,0 +1,11 @@
+- id: zhongtan-ndstart
+  name: Zhongtan-ndstart
+  author: P001
+  tags:
+    - zhongtan-ndstart
+  description: Zhongtan-ndstart
+  matchers:
+    - location: body
+      words:
+        - <title>南大之星信息发布系统
+        - var pubnewsarray

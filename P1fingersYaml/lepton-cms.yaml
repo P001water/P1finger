@@ -1,0 +1,26 @@
+- id: lepton
+  name: Lepton-cms
+  author: P1finger
+  tags:
+    - lepton
+  description: Lepton-cms
+  matchers:
+    - location: body
+      words:
+        - content="LEPTON-CMS
+        - Powered by LEPTON CMS
+- id: lepton-2
+  name: Lepton-cms
+  author: Fofa
+  tags:
+    - lepton
+  description: Lepton-cms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="LEPTON-CMS
+    - condition: or
+      location: body
+      words:
+        - Powered by LEPTON CMS

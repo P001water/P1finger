@@ -1,0 +1,11 @@
+- id: nzcms
+  name: NZCMS
+  author: P1finger
+  tags:
+    - nzcms
+  description: NZCMS
+  matchers:
+    - location: body
+      words:
+        - NZCMS
+        - /nzcms/plugin

@@ -1,0 +1,10 @@
+- id: solarwinds
+  name: Solarwinds-device
+  author: P1finger
+  tags:
+    - solarwinds
+  description: Solarwinds-device
+  matchers:
+    - location: body
+      words:
+        - SolarWinds

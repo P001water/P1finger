@@ -1,0 +1,10 @@
+- id: chenrui-access
+  name: Chenrui-video-security-access-system
+  author: P001
+  tags:
+    - chenrui-access
+  description: Chenrui-video-security-access-system
+  matchers:
+    - location: body
+      words:
+        - window.location="/vmonitor";

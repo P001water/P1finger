@@ -1,0 +1,11 @@
+- id: ymailzhineng-mail-system
+  name: YMailzhineng Mail System
+  author: P1finger
+  tags:
+    - ymailzhineng
+    - mail-system
+  description: YMailzhineng Mail System
+  matchers:
+    - location: body
+      words:
+        - YMail's 智能反垃圾邮件系统

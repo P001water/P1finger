@@ -1,0 +1,12 @@
+- id: apache-kafka
+  name: Apache Kafka Web Console
+  author: P1finger
+  tags:
+  - kafka
+  - apache
+  - apache-kafka
+  description: Apache Kafka Web Console
+  matchers:
+  - location: body
+    words:
+    - Kafka Web Console

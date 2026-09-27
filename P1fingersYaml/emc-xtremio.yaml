@@ -1,0 +1,13 @@
+- id: emc-xtremio
+  name: EMC XtremIO
+  author: P1finger
+  tags:
+    - emc-xtremio
+  description: EMC XtremIO
+  matchers:
+    - location: body
+      words:
+        - XtremIO Management Application
+        - href="mailto:xtremioinfo@emc.com"
+        - XtremIO - Download
+        - XtremIO - 下载

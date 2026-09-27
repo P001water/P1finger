@@ -1,0 +1,11 @@
+- id: druid
+  name: Druid
+  author: P1finger
+  tags:
+    - druid
+  description: Druid
+  matchers:
+    - location: body
+      words:
+        - druid/login.html
+        - druid.login

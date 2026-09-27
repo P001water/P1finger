@@ -1,0 +1,10 @@
+- id: tidb
+  name: Tidb-web
+  author: P1finger
+  tags:
+    - tidb
+  description: Tidb-web
+  matchers:
+    - location: body
+      words:
+        - TiDB Status

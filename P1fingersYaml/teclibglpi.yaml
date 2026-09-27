@@ -1,0 +1,14 @@
+- id: teclibglpi
+  name: TECLIBGLPI
+  author: P1finger
+  tags:
+    - teclibglpi
+  description: TECLIBGLPI
+  matchers:
+    - location: body
+      words:
+        - name="_glpi_csrf_token"
+    - location: body
+      words:
+        - _glpi_csrf_token
+        - glpi - 登陆入口

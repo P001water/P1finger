@@ -1,0 +1,13 @@
+- id: kongapi-gateway
+  name: KongAPI Gateway
+  author: P001
+  tags:
+    - kongapi
+    - gateway
+  description: KongAPI Gateway
+  matchers:
+    - location: body
+      words:
+        - 'server: kong'
+        - 'x-kong-response-latency: *'
+        - 'via: kong'

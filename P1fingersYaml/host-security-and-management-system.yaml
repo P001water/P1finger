@@ -1,0 +1,10 @@
+- id: host
+  name: Host-security-and-management-system
+  author: P001
+  tags:
+    - host
+  description: Host-security-and-management-system
+  matchers:
+    - location: body
+      words:
+        - href=./static/css/app.edb681c84a53277f9336fc297ebca96e.css

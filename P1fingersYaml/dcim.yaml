@@ -1,0 +1,13 @@
+- id: ruanpaidcim
+  name: RuanpaiDCIM
+  author: P1finger
+  tags:
+    - ruanpaidcim
+  description: RuanpaiDCIM
+  matchers:
+    - location: body
+      words:
+        - <link rel="stylesheet" href="../../../api/Plugin.Base/Theme/Css" />
+    - location: header
+      words:
+        - Plugin.Base

@@ -1,0 +1,11 @@
+- id: peoplesofthr-system
+  name: Peoplesofthr System
+  author: P1finger
+  tags:
+    - peoplesofthr
+    - system
+  description: Peoplesofthr System
+  matchers:
+    - location: body
+      words:
+        - /ps/signon.html

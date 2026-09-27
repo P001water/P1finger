@@ -1,0 +1,19 @@
+- id: fengcms
+  name: Fengcms
+  author: Fofa
+  tags:
+    - fengcms
+  description: Fengcms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by FengCms
+    - condition: or
+      location: body
+      words:
+        - content="FengCms
+    - location: body
+      words:
+        - Powered by FengCms
+        - content="FengCms

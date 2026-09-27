@@ -1,0 +1,22 @@
+- id: bluequartz
+  name: BlueQuartz
+  author: Fofa
+  tags:
+    - bluequartz
+  description: BlueQuartz
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - VALUE="Copyright (C) 2000, Cobalt Networks
+    - condition: or
+      location: title
+      words:
+        - Login - BlueQuartz
+    - location: body
+      words:
+        - VALUE="Copyright (C) 2000, Cobalt Networks
+        - Login - BlueQuartz
+    - location: body
+      words:
+        - value="copyright (c) 2000, cobalt networks

@@ -1,0 +1,19 @@
+- id: kesioncms-2
+  name: KesionCMS
+  author: Fofa
+  tags:
+    - kesioncms
+  description: KesionCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /ks_inc/common.js
+    - condition: or
+      location: body
+      words:
+        - publish by KesionCMS
+    - location: body
+      words:
+        - /ks_inc/common.js
+        - publish by KesionCMS

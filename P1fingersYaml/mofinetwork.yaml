@@ -1,0 +1,10 @@
+- id: mofinetwork
+  name: Mofinetwork
+  author: P1finger
+  tags:
+    - mofinetwork
+  description: Mofinetwork
+  matchers:
+    - hash:
+        - "-1702393021"
+      location: favicon

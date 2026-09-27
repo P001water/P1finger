@@ -1,0 +1,39 @@
+- id: oafeiqihulianfexiezuo-platform
+  name: OAfeiqihulianFExiezuo Platform
+  author: P001
+  tags:
+    - oafeiqihulianfexiezuo
+    - platform
+  description: OAfeiqihulianFExiezuo Platform
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - 'Location: login/index.jsp?code=null'
+        - js39/flyrise.stopbackspace.js
+        - /login/v2/images/FE_logo.png
+- id: oahuatiandonglioa8000
+  name: OAhuatiandongliOA8000
+  author: P001
+  tags:
+    - oahuatiandonglioa8000
+  description: OAhuatiandongliOA8000
+  matchers:
+    - location: body
+      words:
+        - /oaapp/webobjects/oaapp.woa
+        - /OAapp/htpages/app/module/login/8.0Login.jsp
+- id: oaxinhu-oa-system
+  name: OAxinhu OA System
+  author: P001
+  tags:
+    - oaxinhu
+    - oa-system
+  description: OAxinhu OA System
+  matchers:
+    - location: body
+      words:
+        - onclick="loginsubmit()"
+        - height:42px;width:100px;border-top-right-radius:5px;border-bottom-right-radius:5px
+        - 信呼开发团队
+        - 技术支持：<a href="http://www.rockoa.com/"

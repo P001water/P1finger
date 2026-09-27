@@ -1,0 +1,14 @@
+- id: mod-rack
+  name: Mod_rack
+  author: Fofa
+  tags:
+    - mod-rack
+  description: Mod_rack
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_rack
+    - location: header
+      words:
+        - mod_rack

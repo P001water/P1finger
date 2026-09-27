@@ -1,0 +1,10 @@
+- id: nowayer-ftp
+  name: Nowayer-ftp
+  author: P001
+  tags:
+    - nowayer-ftp
+  description: Nowayer-ftp
+  matchers:
+    - location: body
+      words:
+        - content="nowayer"

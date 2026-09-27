@@ -1,0 +1,10 @@
+- id: sqlitemanager
+  name: SQLiteManager
+  author: P1finger
+  tags:
+    - sqlitemanager
+  description: SQLiteManager
+  matchers:
+    - location: body
+      words:
+        - SQLiteManager

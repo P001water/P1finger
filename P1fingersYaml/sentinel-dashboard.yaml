@@ -1,0 +1,10 @@
+- id: sentinel-dashboard
+  name: Sentinel-dashboard
+  author: P001
+  tags:
+    - sentinel-dashboard
+  description: Sentinel-dashboard
+  matchers:
+    - location: body
+      words:
+        - ng-app="sentineldashboardapp"

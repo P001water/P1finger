@@ -1,0 +1,11 @@
+- id: openfiler
+  name: Openfiler
+  author: P001
+  tags:
+    - openfiler
+  description: Openfiler
+  matchers:
+    - location: body
+      words:
+        - </strong>openfiler nas/san appliance
+        - href="http://www.openfiler.com/">openfiler

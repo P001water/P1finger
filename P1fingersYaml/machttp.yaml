@@ -1,0 +1,10 @@
+- id: machttp
+  name: Machttp
+  author: P001
+  tags:
+    - machttp
+  description: Machttp
+  matchers:
+    - location: body
+      words:
+        - 'server: machttp'

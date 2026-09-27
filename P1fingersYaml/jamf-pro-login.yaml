@@ -1,0 +1,10 @@
+- id: jamf-pro
+  name: Jamf Pro Login
+  author: P1finger
+  tags:
+    - jamf-pro
+  description: Jamf Pro Login
+  matchers:
+    - hash:
+        - "1262005940"
+      location: favicon

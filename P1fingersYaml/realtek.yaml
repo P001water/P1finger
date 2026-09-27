@@ -1,0 +1,10 @@
+- id: realtek
+  name: Realtek
+  author: P1finger
+  tags:
+    - realtek
+  description: Realtek
+  matchers:
+    - hash:
+        - "2055322029"
+      location: favicon

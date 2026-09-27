@@ -1,0 +1,10 @@
+- id: farming-simulator-dedicated
+  name: Farming Simulator Dedicated Server
+  author: P1finger
+  tags:
+    - farming-simulator-dedicated
+  description: Farming Simulator Dedicated Server
+  matchers:
+    - hash:
+        - "509789953"
+      location: favicon

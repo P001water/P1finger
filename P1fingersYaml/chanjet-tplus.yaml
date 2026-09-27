@@ -1,0 +1,10 @@
+- id: chanjet-tplus
+  name: Chanjet-tplus
+  author: P001
+  tags:
+    - chanjet-tplus
+  description: Chanjet-tplus
+  matchers:
+    - location: body
+      words:
+        - '><script>location=''/tplus/'';</script></body>'

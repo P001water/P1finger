@@ -1,0 +1,17 @@
+- id: sitecore-cms
+  name: Sitecore CMS
+  author: nuclei
+  tags:
+  - sitecore
+  - cms
+  description: 'Detect Sitecore Content Management System (CMS) websites based on
+    a redirect from the sitecore media handler URL pattern to the notfound.aspx page.
+
+    '
+  paths:
+  - /-/media/doo-doo.ashx
+  matchers:
+  - type: regex
+    location: header
+    words:
+    - 'Location: /sitecore/service/notfound.aspx'

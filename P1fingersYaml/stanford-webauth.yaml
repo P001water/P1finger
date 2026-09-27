@@ -1,0 +1,10 @@
+- id: stanford-webauth
+  name: Stanford WebAuth
+  author: P1finger
+  tags:
+    - stanford-webauth
+  description: Stanford WebAuth
+  matchers:
+    - location: body
+      words:
+        - http://webauth.stanford.edu

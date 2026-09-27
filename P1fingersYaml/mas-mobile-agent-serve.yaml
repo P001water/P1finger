@@ -1,0 +1,11 @@
+- id: mas-mobile-agent-serve
+  name: Mas-mobile-agent-serve
+  author: P001
+  tags:
+    - mas-mobile-agent-serve
+  description: Mas-mobile-agent-serve
+  matchers:
+    - location: body
+      words:
+        - action='/mas_security_check'>
+        - if(!isnotnull(document.forms[0].filepath.value, "证书文件"))

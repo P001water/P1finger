@@ -1,0 +1,10 @@
+- id: zoommeeting
+  name: Zoommeeting
+  author: P001
+  tags:
+    - zoommeeting
+  description: Zoommeeting
+  matchers:
+    - location: body
+      words:
+        - class="alert alert-success hideme zoom-newmessage"

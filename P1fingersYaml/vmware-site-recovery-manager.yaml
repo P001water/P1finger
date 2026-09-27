@@ -1,0 +1,11 @@
+- id: vmware-site-recovery-manager
+  name: Vmware-site-recovery-manager
+  author: P001
+  tags:
+  - vmware
+  - vmware-site-recovery-manager
+  description: Vmware-site-recovery-manager
+  matchers:
+  - location: body
+    words:
+    - <header alt="vmware site recovery manager

@@ -1,0 +1,18 @@
+- id: rcms
+  name: Rcms
+  author: P1finger
+  tags:
+    - rcms
+  description: Rcms
+  matchers:
+    - location: body
+      words:
+        - /r/cms/www/
+    - condition: and
+      location: body
+      words:
+        - /r/cms/www/
+    - condition: and
+      location: body
+      words:
+        - jhtml

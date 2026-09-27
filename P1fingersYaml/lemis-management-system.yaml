@@ -1,0 +1,10 @@
+- id: lemis
+  name: Lemis-management-system
+  author: P001
+  tags:
+    - lemis
+  description: Lemis-management-system
+  matchers:
+    - location: body
+      words:
+        - lemis.web_app_name

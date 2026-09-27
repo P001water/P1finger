@@ -1,0 +1,10 @@
+- id: pligg
+  name: Pligg Cms
+  author: P1finger
+  tags:
+    - pligg
+  description: Pligg Cms
+  matchers:
+    - location: body
+      words:
+        - content="Pligg moded by EuropNet"

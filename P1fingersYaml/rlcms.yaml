@@ -1,0 +1,11 @@
+- id: rlcms
+  name: RLcms CMS
+  author: P1finger
+  tags:
+    - rlcms
+    - cms
+  description: RLcms CMS
+  matchers:
+    - location: body
+      words:
+        - RLcms网站管理系统

@@ -1,0 +1,10 @@
+- id: ghost
+  name: Ghost
+  author: P1finger
+  tags:
+    - ghost
+  description: Ghost
+  matchers:
+    - hash:
+        - "-1231681737"
+      location: favicon

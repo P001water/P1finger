@@ -1,0 +1,11 @@
+- id: laysns
+  name: Laysns-cms
+  author: P001
+  tags:
+    - laysns
+  description: Laysns-cms
+  matchers:
+    - location: body
+      words:
+        - href="http://www.laysns.com/"> laysns
+        - title="laysns"

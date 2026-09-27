@@ -1,0 +1,14 @@
+- id: simple-phishing-toolkit
+  name: Simple-phishing-toolkit
+  author: P001
+  tags:
+    - simple-phishing-toolkit
+  description: Simple-phishing-toolkit
+  matchers:
+    - location: body
+      words:
+        - <span id="spt"><a href="http://www.sptoolkit.com/download/" target="_blank">
+        - content="welcome to spt - simple phishing toolkit.  spt is a super simple but powerful phishing toolkit." />
+    - location: body
+      words:
+        - spt - simple phishing toolkit

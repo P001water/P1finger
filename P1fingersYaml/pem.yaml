@@ -1,0 +1,11 @@
+- id: pemjingxiaoshangfudao
+  name: PEMjingxiaoshangfudao Management System
+  author: P1finger
+  tags:
+    - pemjingxiaoshangfudao
+    - management-system
+  description: PEMjingxiaoshangfudao Management System
+  matchers:
+    - location: body
+      words:
+        - PEM经销商辅导管理系统

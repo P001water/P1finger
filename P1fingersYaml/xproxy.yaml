@@ -1,0 +1,10 @@
+- id: xproxy
+  name: XProxy
+  author: P1finger
+  tags:
+    - xproxy
+  description: XProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: xProxy'

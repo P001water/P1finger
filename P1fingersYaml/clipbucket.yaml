@@ -1,0 +1,36 @@
+- id: clipbucket
+  name: ClipBucket
+  author: Fofa
+  tags:
+    - clipbucket
+  description: ClipBucket
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="ClipBucket
+    - condition: or
+      location: body
+      words:
+        - <!-- ClipBucket
+    - condition: or
+      location: body
+      words:
+        - <!-- Forged by ClipBucket
+    - condition: or
+      location: body
+      words:
+        - href="http://clip-bucket.com/">ClipBucket
+    - location: body
+      words:
+        - content="ClipBucket
+        - <!-- ClipBucket
+        - <!-- Forged by ClipBucket
+        - href="http://clip-bucket.com/">ClipBucket
+    - condition: and
+      location: body
+      words:
+        - <!-- clipbucket
+        - content="clipbucket
+        - <!-- forged by clipbucket
+        - href="http://clip-bucket.com/">clipbucket

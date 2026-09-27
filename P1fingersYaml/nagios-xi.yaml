@@ -1,0 +1,11 @@
+- id: nagios-xi
+  name: Nagios-xi
+  author: P001
+  tags:
+    - nagios-xi
+  description: Nagios-xi
+  matchers:
+    - location: body
+      words:
+        - /nagiosxi/images/favicon.ico
+        - click the link below to get started using nagios xi.

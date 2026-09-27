@@ -1,0 +1,22 @@
+- id: asus-rtac66u
+  name: ASUS_RTAC66U
+  author: Fofa
+  tags:
+  - asus
+  - asus-rtac66u
+  description: ASUS_RTAC66U
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - RT-AC66U
+  - condition: or
+    location: header
+    words:
+    - RT-AC66U
+  - location: body
+    words:
+    - RT-AC66U
+  - location: header
+    words:
+    - RT-AC66U

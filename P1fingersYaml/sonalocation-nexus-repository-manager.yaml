@@ -1,0 +1,11 @@
+- id: sonalocation-nexus-repository-manager
+  name: Sonalocation Nexus Repository Manager
+  author: P1finger
+  tags:
+  - nexus
+  - sonalocation-nexus-repository-manager
+  description: Sonalocation Nexus Repository Manager
+  matchers:
+  - hash:
+    - '-1546574541'
+    location: favicon

@@ -1,0 +1,11 @@
+- id: huawei-2220
+  name: Huawei
+  author: Fofa
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - HUAWEI SRG2220

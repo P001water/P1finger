@@ -1,0 +1,28 @@
+- id: intermec-easylan
+  name: Intermec-easylan
+  author: P1finger
+  tags:
+    - intermec-easylan
+  description: Intermec-easylan
+  matchers:
+    - location: body
+      words:
+        - COLOR="BLACK" SIZE="5">Intermec EasyLAN
+    - location: header
+      words:
+        - XCD WebAdmin
+- id: intermec-easylan-2
+  name: Intermec-EasyLAN
+  author: Fofa
+  tags:
+    - intermec-easylan
+  description: Intermec-EasyLAN
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - XCD WebAdmin
+    - condition: or
+      location: body
+      words:
+        - COLOR="BLACK" SIZE="5">Intermec EasyLAN

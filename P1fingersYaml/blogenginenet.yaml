@@ -1,0 +1,11 @@
+- id: blogenginenet
+  name: Blogenginenet
+  author: P001
+  tags:
+    - blogenginenet
+  description: Blogenginenet
+  matchers:
+    - location: body
+      words:
+        - http://www.dotnetblogengine.net
+        - pics/blogengine.ico

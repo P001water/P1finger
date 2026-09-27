@@ -1,0 +1,10 @@
+- id: sitestar
+  name: Sitestar
+  author: P1finger
+  tags:
+    - sitestar
+  description: Sitestar
+  matchers:
+    - location: body
+      words:
+        - title='建站之星(sitestar)网站建设系统'

@@ -1,0 +1,20 @@
+- id: superdata-5
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - 速达荣耀G5.net
+- id: superdata-5-2
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - 速达荣耀G5.XP

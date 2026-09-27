@@ -1,0 +1,10 @@
+- id: dockerui
+  name: DockerUI
+  author: P1finger
+  tags:
+    - dockerui
+  description: DockerUI
+  matchers:
+    - location: body
+      words:
+        - DockerUI

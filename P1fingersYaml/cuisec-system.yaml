@@ -1,0 +1,10 @@
+- id: cuisec
+  name: Cuisec-system
+  author: P001
+  tags:
+    - cuisec
+  description: Cuisec-system
+  matchers:
+    - location: body
+      words:
+        - r=e&&e.__esmodule?function

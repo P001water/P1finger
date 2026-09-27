@@ -1,0 +1,10 @@
+- id: opzoon
+  name: Opzoon-Security-gateway
+  author: P1finger
+  tags:
+    - opzoon
+  description: Opzoon-Security-gateway
+  matchers:
+    - location: body
+      words:
+        - opzoon -

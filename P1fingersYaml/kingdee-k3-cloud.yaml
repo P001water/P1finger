@@ -1,0 +1,12 @@
+- id: kingdee-k3
+  name: Kingdee K3 Cloud
+  author: P1finger
+  tags:
+  - kingdee
+  - kingdee-k3
+  description: Kingdee K3 Cloud
+  matchers:
+  - location: body
+    words:
+    - k/3 cloud
+    - class="kd-div-loading-ct"

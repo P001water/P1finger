@@ -1,0 +1,17 @@
+- id: muracms
+  name: MuraCMS
+  author: Fofa
+  tags:
+    - muracms
+  description: MuraCMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Mura CMS
+    - location: header
+      words:
+        - Mura CMS
+    - location: header
+      words:
+        - 'Generator: Mura CMS'

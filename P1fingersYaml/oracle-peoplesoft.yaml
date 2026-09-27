@@ -1,0 +1,11 @@
+- id: oracle-peoplesoft
+  name: Oracle PeopleSoft
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-peoplesoft
+  description: Oracle PeopleSoft
+  matchers:
+  - location: body
+    words:
+    - Oracle PeopleSoft

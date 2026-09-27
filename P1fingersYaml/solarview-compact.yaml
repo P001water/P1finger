@@ -1,0 +1,10 @@
+- id: solarview-compact
+  name: Solarview-compact
+  author: P001
+  tags:
+    - solarview-compact
+  description: Solarview-compact
+  matchers:
+    - location: body
+      words:
+        - refresh" content="3; url=solar_menu.php

@@ -1,0 +1,14 @@
+- id: dublincore
+  name: DublinCore
+  author: Fofa
+  tags:
+    - dublincore
+  description: DublinCore
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - name="DC.title
+    - location: body
+      words:
+        - name="DC.title

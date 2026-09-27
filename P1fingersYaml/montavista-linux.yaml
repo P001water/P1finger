@@ -1,0 +1,21 @@
+- id: montavista-linux
+  name: MontaVista Linux
+  author: Fofa
+  tags:
+    - montavista-linux
+  description: MontaVista Linux
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MontaVista
+- id: montavista-linux-2
+  name: Montavista Linux
+  author: P1finger
+  tags:
+    - montavista-linux
+  description: Montavista Linux
+  matchers:
+    - location: header
+      words:
+        - MontaVista

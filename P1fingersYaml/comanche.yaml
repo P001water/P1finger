@@ -1,0 +1,14 @@
+- id: comanche
+  name: Comanche
+  author: Fofa
+  tags:
+    - comanche
+  description: Comanche
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Comanche
+    - location: header
+      words:
+        - Comanche

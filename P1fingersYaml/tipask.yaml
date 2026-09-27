@@ -1,0 +1,17 @@
+- id: tipask
+  name: Tipask
+  author: Fofa
+  tags:
+    - tipask
+  description: Tipask
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="tipask
+    - location: body
+      words:
+        - content="tipask
+    - location: body
+      words:
+        - <meta name="author" content="Tipask Team"

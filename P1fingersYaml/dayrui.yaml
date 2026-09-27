@@ -1,0 +1,31 @@
+- id: dayruixiliecms
+  name: DayruixilieCMS
+  author: P1finger
+  tags:
+    - dayruixiliecms
+  description: DayruixilieCMS
+  matchers:
+    - location: body
+      words:
+        - href="dayrui/statics/default/
+- id: dayruixiliechanpin
+  name: Dayruixiliechanpin
+  author: Fofa
+  tags:
+    - dayruixiliechanpin
+  description: Dayruixiliechanpin
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - dr_ci_session
+    - condition: or
+      location: body
+      words:
+        - dayrui/statics
+    - location: body
+      words:
+        - dayrui/statics
+    - location: header
+      words:
+        - dr_ci_session

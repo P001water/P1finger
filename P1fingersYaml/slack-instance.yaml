@@ -1,0 +1,10 @@
+- id: slack-instance
+  name: Slack-instance
+  author: P1finger
+  tags:
+    - slack-instance
+  description: Slack-instance
+  matchers:
+    - hash:
+        - "99395752"
+      location: favicon

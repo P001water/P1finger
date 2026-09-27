@@ -1,0 +1,11 @@
+- id: zeroshell-firewall
+  name: Zeroshell Firewall
+  author: P001
+  tags:
+    - zeroshell
+    - firewall
+  description: Zeroshell Firewall
+  matchers:
+    - location: body
+      words:
+        - zeroshell

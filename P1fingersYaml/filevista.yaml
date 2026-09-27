@@ -1,0 +1,27 @@
+- id: filevista
+  name: FileVista
+  author: Fofa
+  tags:
+    - filevista
+  description: FileVista
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Welcome to FileVista
+    - condition: or
+      location: body
+      words:
+        - <a href="http://www.gleamtech.com/products/filevista/web-file-manager
+    - location: body
+      words:
+        - Welcome to FileVista
+        - <a href="http://www.gleamtech.com/products/filevista/web-file-manager
+    - condition: and
+      location: body
+      words:
+        - <a href="http://www.gleamtech.com/products/filevista/web-file-manager
+        - welcome to filevista
+    - location: body
+      words:
+        - FileVista

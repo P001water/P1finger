@@ -1,0 +1,19 @@
+- id: kooboocms
+  name: Kooboocms
+  author: Fofa
+  tags:
+    - kooboocms
+  description: Kooboocms
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Kooboocms
+    - location: header
+      words:
+        - Kooboocms
+    - location: body
+      words:
+        - Kooboo CMS
+        - action="/Kooboo-Submit
+        - src="/Kooboo-WebResource

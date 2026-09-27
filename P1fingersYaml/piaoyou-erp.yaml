@@ -1,0 +1,12 @@
+- id: piaoyou-erp
+  name: Piaoyou-erp
+  author: P001
+  tags:
+    - piaoyou-erp
+  description: Piaoyou-erp
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ajax/confirm.ashx
+        - css/sexybuttons.css

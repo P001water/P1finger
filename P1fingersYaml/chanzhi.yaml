@@ -1,0 +1,10 @@
+- id: chanzhi
+  name: Chanzhi
+  author: P1finger
+  tags:
+    - chanzhi
+  description: Chanzhi
+  matchers:
+    - location: body
+      words:
+        - www.chanzhi.org

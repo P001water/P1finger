@@ -1,0 +1,11 @@
+- id: opac
+  name: Opac
+  author: P1finger
+  tags:
+    - opac
+  description: Opac
+  matchers:
+    - location: body
+      words:
+        - /opac/search/simsearch
+        - /opac/struts/dojo

@@ -1,0 +1,10 @@
+- id: etlin-proxy
+  name: Etlin-Proxy
+  author: P1finger
+  tags:
+    - etlin-proxy
+  description: Etlin-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Etlin-Proxy'

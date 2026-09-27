@@ -1,0 +1,12 @@
+- id: kissy
+  name: Kissy
+  author: P001
+  tags:
+    - kissy
+  description: Kissy
+  matchers:
+    - location: body
+      words:
+        - kissy-min.js
+        - kissy.js
+        - kissy.ready

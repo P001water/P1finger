@@ -1,0 +1,14 @@
+- id: octopussy
+  name: Octopussy
+  author: P001
+  tags:
+    - octopussy
+  description: Octopussy
+  matchers:
+    - location: body
+      words:
+        - align="center" >octopussy
+        - value="connect to octopussy
+    - location: body
+      words:
+        - Octopussy

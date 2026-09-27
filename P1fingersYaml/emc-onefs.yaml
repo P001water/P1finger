@@ -1,0 +1,10 @@
+- id: emc-onefs
+  name: Emc-onefs
+  author: P001
+  tags:
+    - emc-onefs
+  description: Emc-onefs
+  matchers:
+    - location: body
+      words:
+        - href="/onefs/styles/onefs.css

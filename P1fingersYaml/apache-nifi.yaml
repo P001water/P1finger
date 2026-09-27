@@ -1,0 +1,11 @@
+- id: apache-nifi
+  name: Apache-nifi
+  author: P001
+  tags:
+  - apache
+  - apache-nifi
+  description: Apache-nifi
+  matchers:
+  - location: body
+    words:
+    - <a href="/nifi/">/nifi</a>

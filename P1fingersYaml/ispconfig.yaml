@@ -1,0 +1,20 @@
+- id: ispconfig
+  name: ISPConfig
+  author: Fofa
+  tags:
+    - ispconfig
+  description: ISPConfig
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by <a HREF="http://www.ispconfig.org
+    - location: body
+      words:
+        - powered by <a HREF="http://www.ispconfig.org
+    - hash:
+        - "483383992"
+      location: favicon
+    - location: body
+      words:
+        - powered by <a href="http://www.ispconfig.org

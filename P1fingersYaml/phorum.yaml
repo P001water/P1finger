@@ -1,0 +1,10 @@
+- id: phorum
+  name: Phorum
+  author: P001
+  tags:
+    - phorum
+  description: Phorum
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.phorum.org

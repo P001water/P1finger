@@ -1,0 +1,10 @@
+- id: yichao
+  name: Yichao-system
+  author: P001
+  tags:
+    - yichao
+  description: Yichao-system
+  matchers:
+    - location: body
+      words:
+        - src="amy/webos/jpmanager.js"

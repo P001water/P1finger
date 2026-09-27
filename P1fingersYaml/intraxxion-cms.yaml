@@ -1,0 +1,29 @@
+- id: intraxxion
+  name: Intraxxion-cms
+  author: P1finger
+  tags:
+    - intraxxion
+  description: Intraxxion-cms
+  matchers:
+    - location: body
+      words:
+        - content="Intraxxion
+        - <!-- site built by Intraxxion
+- id: intraxxion-2
+  name: Intraxxion-CMS
+  author: Fofa
+  tags:
+    - intraxxion
+  description: Intraxxion-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Intraxxion
+    - condition: or
+      location: body
+      words:
+        - <!-- site built by Intraxxion
+    - location: body
+      words:
+        - site built by Intraxxion

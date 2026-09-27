@@ -1,0 +1,11 @@
+- id: qianxing
+  name: Qianxing-oa
+  author: P001
+  tags:
+    - qianxing
+  description: Qianxing-oa
+  matchers:
+    - location: body
+      words:
+        - count/mystat.asp
+        - input name="s1" location="image"

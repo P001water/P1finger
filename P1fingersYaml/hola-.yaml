@@ -1,0 +1,11 @@
+- id: deyakejihola
+  name: DeyakejiHOLA Document Management System
+  author: P1finger
+  tags:
+    - deyakejihola
+    - document-management-system
+  description: DeyakejiHOLA Document Management System
+  matchers:
+    - location: body
+      words:
+        - 德雅科技HOLA文档管理系统

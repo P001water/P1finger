@@ -1,0 +1,14 @@
+- id: squid
+  name: Squid
+  author: Fofa
+  tags:
+    - squid
+  description: Squid
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - squid
+    - location: header
+      words:
+        - squid

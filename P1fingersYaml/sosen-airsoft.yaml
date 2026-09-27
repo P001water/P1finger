@@ -1,0 +1,10 @@
+- id: sosen-airsoft
+  name: Sosen-airsoft
+  author: P001
+  tags:
+    - sosen-airsoft
+  description: Sosen-airsoft
+  matchers:
+    - location: body
+      words:
+        - pages/login_@del.jsp

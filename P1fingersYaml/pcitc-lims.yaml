@@ -1,0 +1,10 @@
+- id: pcitc-lims
+  name: Pcitc-lims
+  author: P001
+  tags:
+    - pcitc-lims
+  description: Pcitc-lims
+  matchers:
+    - location: body
+      words:
+        - /home/plug_in_download

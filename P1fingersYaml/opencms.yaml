@@ -1,0 +1,22 @@
+- id: opencms
+  name: Opencms
+  author: Fofa
+  tags:
+    - opencms
+  description: Opencms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="OpenCms
+    - condition: or
+      location: body
+      words:
+        - Powered by OpenCms
+    - location: body
+      words:
+        - content="OpenCms
+        - Powered by OpenCms
+    - location: header
+      words:
+        - 'Server: OpenCms'

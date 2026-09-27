@@ -1,0 +1,12 @@
+- id: yadongkejishendunfs3wendanganquangongxiang
+  name: Yadongkejishendunfs3wendanganquangongxiang
+  author: P001
+  tags:
+    - yadongkejishendunfs3wendanganquangongxiang
+  description: Yadongkejishendunfs3wendanganquangongxiang
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 神盾fs3文档安全共享系统v2.0
+        - 神盾fs<sup>3</sup>文档安全共享系统v2.0</div>

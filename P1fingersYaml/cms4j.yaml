@@ -1,0 +1,14 @@
+- id: cms4j
+  name: Cms4j
+  author: P001
+  tags:
+    - cms4j
+  description: Cms4j
+  matchers:
+    - location: body
+      words:
+        - href="/cms4jadmin/login.jsp
+        - method="post" name="cms4jsearchform" id="cms4jsearchform
+    - location: body
+      words:
+        - name="CMS4JSearchForm" id="CMS4JSearchForm"

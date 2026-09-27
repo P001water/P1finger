@@ -1,0 +1,10 @@
+- id: lotus
+  name: Lotus CMS
+  author: P1finger
+  tags:
+    - lotus
+  description: Lotus CMS
+  matchers:
+    - location: body
+      words:
+        - LOTUSCMS

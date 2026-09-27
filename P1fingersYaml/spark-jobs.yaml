@@ -1,0 +1,12 @@
+- id: spark-jobs
+  name: Spark-jobs
+  author: P001
+  tags:
+  - spark
+  - spark-jobs
+  description: Spark-jobs
+  matchers:
+  - location: body
+    words:
+    - href="/jobs/job?id=
+    - spark jobs

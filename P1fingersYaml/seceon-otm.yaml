@@ -1,0 +1,10 @@
+- id: seceon-otm
+  name: Seceon-otm
+  author: P001
+  tags:
+    - seceon-otm
+  description: Seceon-otm
+  matchers:
+    - location: body
+      words:
+        - use this if you want to run the seceon module of kibana.

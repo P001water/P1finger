@@ -1,0 +1,10 @@
+- id: lg-storage
+  name: LG-Network-Storage
+  author: P1finger
+  tags:
+    - lg-storage
+  description: LG-Network-Storage
+  matchers:
+    - location: body
+      words:
+        - form_bg_LG_NAS_Storage.gif

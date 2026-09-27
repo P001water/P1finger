@@ -1,0 +1,11 @@
+- id: cenovus-energy-access
+  name: Cenovus_Energy Remote Access Portal
+  author: P1finger
+  tags:
+    - cenovus-energy-access
+  description: Cenovus_Energy Remote Access Portal
+  matchers:
+    - location: body
+      words:
+        - Welcome to Cenovus
+        - remote access portal

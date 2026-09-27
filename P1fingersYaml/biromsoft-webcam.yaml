@@ -1,0 +1,21 @@
+- id: biromsoft-webcam
+  name: Biromsoft-webcam
+  author: P1finger
+  tags:
+    - biromsoft-webcam
+  description: Biromsoft-webcam
+  matchers:
+    - location: body
+      words:
+        - Biromsoft WebCam
+- id: biromsoft-webcam-2
+  name: Biromsoft-WebCam
+  author: Fofa
+  tags:
+    - biromsoft-webcam
+  description: Biromsoft-WebCam
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Biromsoft WebCam

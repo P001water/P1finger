@@ -1,0 +1,11 @@
+- id: saltstack
+  name: Saltstack
+  author: P001
+  tags:
+    - saltstack
+  description: Saltstack
+  matchers:
+    - location: body
+      words:
+        - 'server: tornadoserver'
+        - <title>saltstack</title>

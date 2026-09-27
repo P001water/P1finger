@@ -1,0 +1,10 @@
+- id: sendmail
+  name: Sendmail
+  author: P1finger
+  tags:
+    - sendmail
+  description: Sendmail
+  matchers:
+    - location: header
+      words:
+        - ESMTP Sendmail

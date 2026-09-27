@@ -1,0 +1,10 @@
+- id: chainpoint
+  name: Chainpoint
+  author: P1finger
+  tags:
+    - chainpoint
+  description: Chainpoint
+  matchers:
+    - hash:
+        - "2128230701"
+      location: favicon

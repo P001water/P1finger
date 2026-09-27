@@ -1,0 +1,11 @@
+- id: webengine-site
+  name: Webengine-site
+  author: P001
+  tags:
+    - webengine-site
+  description: Webengine-site
+  matchers:
+    - location: body
+      words:
+        - href="/webengine/images/common.css
+        - location.href = "/webengine/web/";

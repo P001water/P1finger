@@ -1,0 +1,10 @@
+- id: tikiwiki
+  name: Tikiwiki
+  author: P001
+  tags:
+    - tikiwiki
+  description: Tikiwiki
+  matchers:
+    - hash:
+        - e789cc1db6eefad0b58c9dda94f57d3c
+      location: favicon

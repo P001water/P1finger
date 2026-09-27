@@ -1,0 +1,12 @@
+- id: xstream
+  name: Xstream
+  author: P001
+  tags:
+    - xstream
+  description: Xstream
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - exception
+        - com.thoughtworks.xstream

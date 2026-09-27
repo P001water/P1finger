@@ -1,0 +1,14 @@
+- id: cpanel-svg
+  name: Cpanel.svg
+  author: Fofa
+  tags:
+    - cpanel-svg
+  description: Cpanel.svg
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered_by_cpanel.svg
+    - location: body
+      words:
+        - powered_by_cpanel.svg

@@ -1,0 +1,10 @@
+- id: worldclient-mdaemon
+  name: Worldclient For Mdaemon
+  author: P1finger
+  tags:
+    - worldclient-mdaemon
+  description: Worldclient For Mdaemon
+  matchers:
+    - hash:
+        - "-35107086"
+      location: favicon

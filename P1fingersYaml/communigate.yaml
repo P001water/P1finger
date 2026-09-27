@@ -1,0 +1,10 @@
+- id: communigate
+  name: Communigate
+  author: P1finger
+  tags:
+    - communigate
+  description: Communigate
+  matchers:
+    - hash:
+        - "-1588746893"
+      location: favicon

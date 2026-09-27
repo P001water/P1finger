@@ -1,0 +1,15 @@
+- id: springboot
+  name: Springboot
+  author: P1finger
+  tags:
+    - springboot
+  description: Springboot
+  matchers:
+    - location: body
+      words:
+        - Whitelabel Error Page
+        - No message available
+        - '{"timestamp":'
+    - hash:
+        - "116323821"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: netapp-ontap
+  name: Netapp-data-ontap
+  author: P001
+  tags:
+    - netapp-ontap
+  description: Netapp-data-ontap
+  matchers:
+    - location: body
+      words:
+        - 'server: data ontap'

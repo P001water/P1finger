@@ -1,0 +1,12 @@
+- id: subsonic-as-subsonic
+  name: Subsonic-as-subsonic
+  author: P001
+  tags:
+    - subsonic-as-subsonic
+  description: Subsonic-as-subsonic
+  matchers:
+    - location: body
+      words:
+        - onload="document.getelementbyid('j_username').focus()"
+        - parent.frames.upper.keyboardshortcut("showindex", index.touppercase());
+        - subsonic

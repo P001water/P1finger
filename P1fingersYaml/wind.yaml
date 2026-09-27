@@ -1,0 +1,14 @@
+- id: wandewindchanpin
+  name: WandeWindchanpin
+  author: P1finger
+  tags:
+    - wandewindchanpin
+  description: WandeWindchanpin
+  matchers:
+    - hash:
+        - "1885964798"
+      location: favicon
+    - location: body
+      words:
+        - Wind Information All Rights Reserved
+        - 万得信息技术股份有限公司版权所有

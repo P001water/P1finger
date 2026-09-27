@@ -1,0 +1,14 @@
+- id: shinaideschneiderpowerlogicpm800
+  name: ShinaideSchneiderPowerLogicPM800
+  author: Fofa
+  tags:
+    - shinaideschneiderpowerlogicpm800
+  description: ShinaideSchneiderPowerLogicPM800
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - PM800
+    - location: header
+      words:
+        - PM800

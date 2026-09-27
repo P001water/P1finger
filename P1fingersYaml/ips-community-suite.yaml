@@ -1,0 +1,10 @@
+- id: ips-community-suite
+  name: IPS Community Suite
+  author: P1finger
+  tags:
+    - ips-community-suite
+  description: IPS Community Suite
+  matchers:
+    - location: body
+      words:
+        - https://invisioncommunity.com

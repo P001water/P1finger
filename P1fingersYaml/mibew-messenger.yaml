@@ -1,0 +1,11 @@
+- id: mibew-messenger
+  name: Mibew-messenger
+  author: P001
+  tags:
+    - mibew-messenger
+  description: Mibew-messenger
+  matchers:
+    - location: body
+      words:
+        - class="empty_inner
+        - class="flink">mibew messenger

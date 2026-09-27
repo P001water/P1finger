@@ -1,0 +1,18 @@
+- id: baocms
+  name: Baocms
+  author: Fofa
+  tags:
+    - baocms
+  description: Baocms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="BAOCMS
+    - condition: or
+      location: title
+      words:
+        - baocms
+    - location: body
+      words:
+        - baocms

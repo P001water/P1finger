@@ -1,0 +1,12 @@
+- id: alibaba-nacos-2
+  name: Alibaba_Nacos
+  author: P1finger
+  tags:
+  - nacos
+  - alibaba-nacos
+  description: Alibaba_Nacos
+  matchers:
+  - location: webPath
+    path: /nacos
+    words:
+    - <title>Nacos</title>

@@ -1,0 +1,10 @@
+- id: phpcom
+  name: PHPcom-cms
+  author: P1finger
+  tags:
+    - phpcom
+  description: PHPcom-cms
+  matchers:
+    - location: body
+      words:
+        - PHPcom Team and cnxinyun UI Team

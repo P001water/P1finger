@@ -1,0 +1,10 @@
+- id: sxt234
+  name: Sxt234-system
+  author: P001
+  tags:
+    - sxt234
+  description: Sxt234-system
+  matchers:
+    - location: body
+      words:
+        - <div class="head_right" onclick="window_close()">

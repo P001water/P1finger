@@ -1,0 +1,10 @@
+- id: mailsite-express
+  name: Mailsite-express
+  author: P001
+  tags:
+    - mailsite-express
+  description: Mailsite-express
+  matchers:
+    - location: body
+      words:
+        - <b>mailsite <em>express

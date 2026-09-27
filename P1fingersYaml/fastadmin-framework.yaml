@@ -1,0 +1,15 @@
+- id: fastadmin-framework
+  name: Fastadmin-framework
+  author: P001
+  tags:
+    - fastadmin-framework
+  description: Fastadmin-framework
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - fastadmin
+        - fastadmin.net
+        - <a href="/" class="navbar-brand">fastadmin</a>
+        - copyright © fastadmin.net
+        - fastadmin.net

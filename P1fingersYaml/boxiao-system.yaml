@@ -1,0 +1,10 @@
+- id: boxiao
+  name: Boxiao-system
+  author: P001
+  tags:
+    - boxiao
+  description: Boxiao-system
+  matchers:
+    - location: body
+      words:
+        - var bxnstaticresroot='/bxn-static-resource/resources'

@@ -1,0 +1,11 @@
+- id: oracle-testing-suite
+  name: Oracle Application Testing Suite
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-testing-suite
+  description: Oracle Application Testing Suite
+  matchers:
+  - location: body
+    words:
+    - Oracle Application Testing Suite

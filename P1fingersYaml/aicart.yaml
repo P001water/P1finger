@@ -1,0 +1,17 @@
+- id: aicart
+  name: AiCart
+  author: Fofa
+  tags:
+    - aicart
+  description: AiCart
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - APP_authenticate
+    - location: body
+      words:
+        - APP_authenticate
+    - location: body
+      words:
+        - <meta name="generator" content="AiCart

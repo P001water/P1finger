@@ -1,0 +1,11 @@
+- id: ldapyonghutongbuyidu
+  name: LDAPyonghutongbuyidu Document Management System
+  author: P1finger
+  tags:
+    - ldapyonghutongbuyidu
+    - document-management-system
+  description: LDAPyonghutongbuyidu Document Management System
+  matchers:
+    - location: body
+      words:
+        - LDAP用户同步-易度文档管理系统

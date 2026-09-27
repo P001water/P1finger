@@ -1,0 +1,14 @@
+- id: php
+  name: Php-cloud
+  author: P001
+  tags:
+    - php
+  description: Php-cloud
+  matchers:
+    - location: body
+      words:
+        - $(this).removeclass('dn'
+        - <div class="index_link_list_name">
+        - phpyun
+        - yun_index.css
+        - yun_toplogin a.yun_more

@@ -1,0 +1,10 @@
+- id: kedacom-4
+  name: Kedacom
+  author: P1finger
+  tags:
+    - kedacom
+  description: Kedacom
+  matchers:
+    - location: body
+      words:
+        - ViewShot

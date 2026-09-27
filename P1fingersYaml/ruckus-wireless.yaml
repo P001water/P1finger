@@ -1,0 +1,24 @@
+- id: ruckus-wireless
+  name: Ruckus-wireless
+  author: P001
+  tags:
+    - ruckus-wireless
+  description: Ruckus-wireless
+  matchers:
+    - hash:
+        - ed8cf53ef6836184587ee3a987be074a
+      location: favicon
+    - location: body
+      words:
+        - <title>ruckus wireless admin</title>
+        - alt="ruckus wireless" title=
+- id: ruckus-wireless-2
+  name: Ruckus Wireless
+  author: P1finger
+  tags:
+    - ruckus-wireless
+  description: Ruckus Wireless
+  matchers:
+    - hash:
+        - "-2069844696"
+      location: favicon

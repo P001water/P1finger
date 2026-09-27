@@ -1,0 +1,10 @@
+- id: bomgar-support
+  name: Bomgar Support Portal
+  author: P1finger
+  tags:
+    - bomgar-support
+  description: Bomgar Support Portal
+  matchers:
+    - hash:
+        - "829321644"
+      location: favicon

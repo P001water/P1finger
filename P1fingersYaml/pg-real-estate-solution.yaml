@@ -1,0 +1,10 @@
+- id: pg-real-estate-solution
+  name: Pg-real-estate-solution
+  author: P001
+  tags:
+    - pg-real-estate-solution
+  description: Pg-real-estate-solution
+  matchers:
+    - location: body
+      words:
+        - '>pg real estate solution - real estate web site design'

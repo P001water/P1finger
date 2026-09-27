@@ -1,0 +1,11 @@
+- id: netcore-nr238
+  name: NETCORE NR238
+  author: Fofa
+  tags:
+    - netcore-nr238
+  description: NETCORE NR238
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - NETCORE NR238

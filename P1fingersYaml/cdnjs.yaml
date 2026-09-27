@@ -1,0 +1,15 @@
+- id: cdnjs
+  name: Cdnjs
+  author: Fofa
+  tags:
+    - cdnjs
+  description: Cdnjs
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - cdnjs.cloudflare.com/ajax/libs
+    - condition: or
+      location: body
+      words:
+        - cdnjs.cloudflare.com/ajax/libs

@@ -1,0 +1,14 @@
+- id: apache-skywalking
+  name: Apache-skywalking
+  author: P001
+  tags:
+  - apache
+  - apache-skywalking
+  description: Apache-skywalking
+  matchers:
+  - location: body
+    words:
+    - sorry but skywalking doesn't work
+  - hash:
+    - '1929532064'
+    location: favicon

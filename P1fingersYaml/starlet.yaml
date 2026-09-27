@@ -1,0 +1,14 @@
+- id: starlet
+  name: Starlet
+  author: Fofa
+  tags:
+    - starlet
+  description: Starlet
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Plack::Handler::Starlet
+    - location: header
+      words:
+        - Plack::Handler::Starlet

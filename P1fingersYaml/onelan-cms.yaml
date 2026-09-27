@@ -1,0 +1,10 @@
+- id: onelan
+  name: Onelan_cms
+  author: P1finger
+  tags:
+    - onelan
+  description: Onelan_cms
+  matchers:
+    - location: body
+      words:
+        - alt="ONELAN"

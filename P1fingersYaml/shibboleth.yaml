@@ -1,0 +1,15 @@
+- id: shibboleth
+  name: Shibboleth SSO
+  author: nuclei
+  tags:
+  - shibboleth
+  - sso
+  description: 'A Shibboleth SSO panel was detected
+
+    '
+  paths:
+  - /shibboleth-idp
+  matchers:
+  - location: body
+    words:
+    - <title>Shibboleth IdP</title>

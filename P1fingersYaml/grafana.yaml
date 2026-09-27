@@ -1,0 +1,22 @@
+- id: grafana
+  name: Grafana
+  author: P1finger
+  tags:
+    - grafana
+  description: Grafana
+  matchers:
+    - location: body
+      words:
+        - Grafana</title>
+- id: grafana-2
+  name: Grafana
+  author: P001
+  tags:
+    - grafana
+  description: Grafana
+  matchers:
+    - location: body
+      words:
+        - grafana_icon.svg
+        - grafana-app
+        - window.grafanabootdata =

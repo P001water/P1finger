@@ -1,0 +1,10 @@
+- id: varmour
+  name: Varmour-product
+  author: P001
+  tags:
+    - varmour
+  description: Varmour-product
+  matchers:
+    - location: body
+      words:
+        - function loadmunchkinkey()

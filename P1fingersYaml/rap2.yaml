@@ -1,0 +1,10 @@
+- id: rap2
+  name: Rap2
+  author: P001
+  tags:
+    - rap2
+  description: Rap2
+  matchers:
+    - location: body
+      words:
+        - webpackjsonprap2-dolores

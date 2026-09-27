@@ -1,0 +1,23 @@
+- id: honeywell-netaxs
+  name: Honeywell NetAXS
+  author: Fofa
+  tags:
+  - honeywell
+  - honeywell-netaxs
+  description: Honeywell NetAXS
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Honeywell NetAXS
+- id: honeywell-netaxs-2
+  name: Honeywell Netaxs
+  author: P1finger
+  tags:
+  - honeywell
+  - honeywell-netaxs
+  description: Honeywell Netaxs
+  matchers:
+  - location: body
+    words:
+    - Honeywell NetAXS

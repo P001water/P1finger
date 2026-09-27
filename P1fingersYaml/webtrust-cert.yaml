@@ -1,0 +1,24 @@
+- id: webtrust-cert
+  name: Webtrust-cert
+  author: P001
+  tags:
+    - webtrust-cert
+  description: Webtrust-cert
+  matchers:
+    - location: body
+      words:
+        - https://cert.webtrust.org/viewseal
+- id: webtrust-cert-2
+  name: Webtrust_cert
+  author: Fofa
+  tags:
+    - webtrust-cert
+  description: Webtrust_cert
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - https://cert.webtrust.org/ViewSeal
+    - location: body
+      words:
+        - https://cert.webtrust.org/ViewSeal

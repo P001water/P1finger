@@ -1,0 +1,10 @@
+- id: unifi-controller
+  name: Unifi Video Controller
+  author: P1finger
+  tags:
+    - unifi-controller
+  description: Unifi Video Controller
+  matchers:
+    - hash:
+        - "768816037"
+      location: favicon

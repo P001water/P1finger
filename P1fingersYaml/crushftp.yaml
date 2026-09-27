@@ -1,0 +1,20 @@
+- id: crushftp
+  name: CrushFTP
+  author: Fofa
+  tags:
+    - crushftp
+  description: CrushFTP
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'Server: CrushFTP HTTP Server'
+    - location: body
+      words:
+        - CrushFTP WebInterface
+    - location: header
+      words:
+        - 'Server: CrushFTP HTTP Server'
+    - hash:
+        - "-1022206565"
+      location: favicon

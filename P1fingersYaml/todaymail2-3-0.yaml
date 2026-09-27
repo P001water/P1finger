@@ -1,0 +1,10 @@
+- id: todaymail2
+  name: TodayMail2.3.0
+  author: P1finger
+  tags:
+    - todaymail2
+  description: TodayMail2.3.0
+  matchers:
+    - location: body
+      words:
+        - TodayMail Anti-Spam Police

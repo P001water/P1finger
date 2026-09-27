@@ -1,0 +1,10 @@
+- id: observium
+  name: Observium
+  author: P001
+  tags:
+    - observium
+  description: Observium
+  matchers:
+    - location: body
+      words:
+        - href="images/observium-icon.png"

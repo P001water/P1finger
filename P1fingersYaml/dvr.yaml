@@ -1,0 +1,10 @@
+- id: dvr-3
+  name: Dvr
+  author: P1finger
+  tags:
+    - dvr
+  description: Dvr
+  matchers:
+    - hash:
+        - "-560297467"
+      location: favicon

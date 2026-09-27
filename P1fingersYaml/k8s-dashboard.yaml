@@ -1,0 +1,11 @@
+- id: k8s-dashboard
+  name: K8s_dashboard
+  author: P1finger
+  tags:
+  - k8s
+  - k8s-dashboard
+  description: K8s_dashboard
+  matchers:
+  - location: body
+    words:
+    - assets/images/kubernetes-logo.png

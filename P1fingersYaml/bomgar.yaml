@@ -1,0 +1,19 @@
+- id: bomgar
+  name: Bomgar
+  author: Fofa
+  tags:
+    - bomgar
+  description: Bomgar
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - alt="Remote Support by BOMGAR
+    - condition: or
+      location: body
+      words:
+        - <a href="http://www.bomgar.com/products" class="inverse
+    - location: body
+      words:
+        - alt="Remote Support by BOMGAR
+        - <a href="http://www.bomgar.com/products" class="inverse

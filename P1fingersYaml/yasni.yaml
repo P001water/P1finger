@@ -1,0 +1,10 @@
+- id: yasni
+  name: Yasni
+  author: P1finger
+  tags:
+    - yasni
+  description: Yasni
+  matchers:
+    - hash:
+        - "-178685903"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: aptproxy
+  name: Aptproxy
+  author: P1finger
+  tags:
+    - aptproxy
+  description: Aptproxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Apt-proxy'

@@ -1,0 +1,10 @@
+- id: vectr
+  name: Vectr
+  author: P001
+  tags:
+    - vectr
+  description: Vectr
+  matchers:
+    - location: body
+      words:
+        - 'location: /sra-purpletools-webui/app'

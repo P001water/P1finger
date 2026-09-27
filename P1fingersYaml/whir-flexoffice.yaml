@@ -1,0 +1,10 @@
+- id: whir-flexoffice
+  name: Whir-flexoffice
+  author: P001
+  tags:
+    - whir-flexoffice
+  description: Whir-flexoffice
+  matchers:
+    - location: body
+      words:
+        - var flexofficepath="\/flexoffice"

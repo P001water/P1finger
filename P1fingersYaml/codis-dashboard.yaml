@@ -1,0 +1,10 @@
+- id: codis-dashboard
+  name: Codis Dashboard
+  author: P1finger
+  tags:
+    - codis-dashboard
+  description: Codis Dashboard
+  matchers:
+    - location: body
+      words:
+        - Codis

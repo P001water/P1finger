@@ -1,0 +1,10 @@
+- id: traccar-gps-tracking
+  name: Traccar Gps Tracking
+  author: P1finger
+  tags:
+    - traccar-gps-tracking
+  description: Traccar Gps Tracking
+  matchers:
+    - hash:
+        - "-335153896"
+      location: favicon

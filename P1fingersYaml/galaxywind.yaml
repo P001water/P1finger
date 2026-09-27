@@ -1,0 +1,14 @@
+- id: yinhefengyungalaxywind
+  name: YinhefengyunGalaxywind
+  author: P1finger
+  tags:
+    - yinhefengyungalaxywind
+  description: YinhefengyunGalaxywind
+  matchers:
+    - hash:
+        - "-803559422"
+      location: favicon
+    - location: body
+      words:
+        - Galaxywind. All Rights Reserved
+        - logo_galaxywind.png

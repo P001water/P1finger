@@ -1,0 +1,19 @@
+- id: liferay-2
+  name: Liferay
+  author: Fofa
+  tags:
+    - liferay
+  description: Liferay
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Liferay-Portal
+    - location: header
+      words:
+        - Liferay-Portal
+    - location: body
+      words:
+        - liferay.aui
+        - liferay.currenturl
+        - powered by liferay portal

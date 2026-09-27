@@ -1,0 +1,11 @@
+- id: whmcs
+  name: Whmcs
+  author: P001
+  tags:
+    - whmcs
+  description: Whmcs
+  matchers:
+    - location: body
+      words:
+        - <div id="welcome_box">please <a href="clientarea.php" title="login"><strong>login</strong></a> or <a href="register.php" title="register"><strong>register</strong></a></div>
+        - powered by <a href="http://www.whmcs.com

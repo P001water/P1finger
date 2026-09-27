@@ -1,0 +1,15 @@
+- id: sogouzhanzhang-platform
+  name: Sogouzhanzhang Platform
+  author: Fofa
+  tags:
+    - sogouzhanzhang
+    - platform
+  description: Sogouzhanzhang Platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - sogou_site_verification
+    - location: body
+      words:
+        - sogou_site_verification

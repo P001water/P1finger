@@ -1,0 +1,14 @@
+- id: openeap
+  name: OpenEAP
+  author: Fofa
+  tags:
+    - openeap
+  description: OpenEAP
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - openEAP_统一登录门户
+    - location: body
+      words:
+        - openEAP_统一登录门户

@@ -1,0 +1,10 @@
+- id: itest
+  name: ITEST
+  author: P1finger
+  tags:
+    - itest
+  description: ITEST
+  matchers:
+    - location: body
+      words:
+        - href="/itest/itest/aboutus"

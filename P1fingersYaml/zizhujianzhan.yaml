@@ -1,0 +1,11 @@
+- id: zizhujianzhan
+  name: Zizhujianzhan
+  author: P001
+  tags:
+    - zizhujianzhan
+  description: Zizhujianzhan
+  matchers:
+    - location: body
+      words:
+        - content="模板系统xinnet
+        - href="msnim:chat?contact=xinnet@hotmail.com

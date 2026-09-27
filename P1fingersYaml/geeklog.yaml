@@ -1,0 +1,17 @@
+- id: geeklog
+  name: GeekLog
+  author: Fofa
+  tags:
+    - geeklog
+  description: GeekLog
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered By <a href="http://www.geeklog.net/
+    - location: body
+      words:
+        - Powered By <a href="http://www.geeklog.net/
+    - location: body
+      words:
+        - Powered by <a href="http://www.geeklog.net/">Geeklog

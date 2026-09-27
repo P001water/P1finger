@@ -1,0 +1,10 @@
+- id: sentry
+  name: Sentry-cloud
+  author: P001
+  tags:
+    - sentry
+  description: Sentry-cloud
+  matchers:
+    - location: body
+      words:
+        - 'src: url(/static/fonts/lcdd.eot) format("truelocation"), url(/static/fonts/lcdd.ttf) format("truelocation");'

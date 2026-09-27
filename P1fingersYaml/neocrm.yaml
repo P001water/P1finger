@@ -1,0 +1,11 @@
+- id: neocrm-management-system
+  name: Neocrm Management System
+  author: P1finger
+  tags:
+    - neocrm
+    - management-system
+  description: Neocrm Management System
+  matchers:
+    - location: body
+      words:
+        - neocrm管理系统

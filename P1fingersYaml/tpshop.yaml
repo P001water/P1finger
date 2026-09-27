@@ -1,0 +1,32 @@
+- id: tpshop
+  name: Tpshop
+  author: P1finger
+  tags:
+    - tpshop
+  description: Tpshop
+  matchers:
+    - location: body
+      words:
+        - /index.php/Mobile/Index/index.html
+        - TPshop
+    - condition: and
+      location: body
+      words:
+        - mn-c-top
+    - condition: or
+      location: body
+      words:
+        - /index.php/Mobile/Index/index.html
+    - condition: or
+      location: body
+      words:
+        - '>TPshop开源商城<'
+    - condition: and
+      location: body
+      words:
+        - tpshop.css
+        - tpshop_config
+    - location: body
+      words:
+        - goodsList/id/
+        - TPshop

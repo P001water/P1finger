@@ -1,0 +1,10 @@
+- id: aspentech-aspen-infoplus21
+  name: Aspentech-aspen-infoplus21
+  author: P001
+  tags:
+    - aspentech-aspen-infoplus21
+  description: Aspentech-aspen-infoplus21
+  matchers:
+    - location: body
+      words:
+        - src="/aspencui/css/appstyles.js

@@ -1,0 +1,22 @@
+- id: storm
+  name: Storm
+  author: Fofa
+  tags:
+    - storm
+  description: Storm
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Storm UI
+    - condition: or
+      location: body
+      words:
+        - stormtimestr
+    - location: body
+      words:
+        - Storm UI
+        - stormtimestr
+    - location: body
+      words:
+        - stormtimestr

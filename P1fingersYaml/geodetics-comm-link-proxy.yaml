@@ -1,0 +1,10 @@
+- id: geodetics-comm-link-proxy
+  name: Geodetics-Comm-Link-Proxy
+  author: P1finger
+  tags:
+    - geodetics-comm-link-proxy
+  description: Geodetics-Comm-Link-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Geodetics Comm Link Proxy'

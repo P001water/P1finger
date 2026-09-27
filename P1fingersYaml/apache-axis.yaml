@@ -1,0 +1,12 @@
+- id: apache-axis
+  name: Apache-axis
+  author: P001
+  tags:
+  - axis
+  - apache
+  - apache-axis
+  description: Apache-axis
+  matchers:
+  - location: body
+    words:
+    - http://ws.apache.org/axis2

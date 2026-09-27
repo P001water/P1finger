@@ -1,0 +1,13 @@
+- id: mu-yun-webvpn
+  name: Mu-yun-webvpn
+  author: P001
+  tags:
+    - mu-yun-webvpn
+  description: Mu-yun-webvpn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content=木云科技
+        - webvpn
+        - 应用安全网关

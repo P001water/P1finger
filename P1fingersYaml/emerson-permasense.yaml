@@ -1,0 +1,10 @@
+- id: emerson-permasense
+  name: Emerson-permasense
+  author: P001
+  tags:
+    - emerson-permasense
+  description: Emerson-permasense
+  matchers:
+    - location: body
+      words:
+        - href="/permasense/app/webroot/flot/css/layout.print.ie.css

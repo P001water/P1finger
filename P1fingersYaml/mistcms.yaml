@@ -1,0 +1,10 @@
+- id: mistcms
+  name: MistCMS
+  author: P1finger
+  tags:
+    - mistcms
+  description: MistCMS
+  matchers:
+    - location: body
+      words:
+        - Powered by MistCMS

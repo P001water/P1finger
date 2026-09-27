@@ -1,0 +1,10 @@
+- id: drweb-antivirus
+  name: DrWeb-AntiVirus
+  author: P1finger
+  tags:
+    - drweb-antivirus
+  description: DrWeb-AntiVirus
+  matchers:
+    - location: body
+      words:
+        - <div id="DrWeb">

@@ -1,0 +1,14 @@
+- id: fw300r
+  name: FW300R
+  author: Fofa
+  tags:
+    - fw300r
+  description: FW300R
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FW300R
+    - location: header
+      words:
+        - FW300R

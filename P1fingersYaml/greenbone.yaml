@@ -1,0 +1,10 @@
+- id: greenbone
+  name: Greenbone
+  author: P1finger
+  tags:
+    - greenbone
+  description: Greenbone
+  matchers:
+    - location: body
+      words:
+        - Greenbone Security Assistant

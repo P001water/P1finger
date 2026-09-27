@@ -1,0 +1,12 @@
+- id: apache-druid
+  name: Apache-druid
+  author: P001
+  tags:
+  - druid
+  - apache
+  - apache-druid
+  description: Apache-druid
+  matchers:
+  - location: body
+    words:
+    - content="apache druid console"

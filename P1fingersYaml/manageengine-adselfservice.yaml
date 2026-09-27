@@ -1,0 +1,13 @@
+- id: manageengine-adselfservice
+  name: Manageengine-adselfservice
+  author: P001
+  tags:
+    - manageengine-adselfservice
+  description: Manageengine-adselfservice
+  matchers:
+    - location: body
+      words:
+        - href="images/adssp_favicon.ico
+        - manageengine
+        - small_status_box
+        - src="adsf/js/

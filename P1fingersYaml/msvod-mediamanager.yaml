@@ -1,0 +1,12 @@
+- id: msvod-mediamanager
+  name: Msvod-mediamanager
+  author: P001
+  tags:
+    - msvod-mediamanager
+  description: Msvod-mediamanager
+  matchers:
+    - location: body
+      words:
+        - $('.sign-btn').addclass("completion");
+        - content="魅思cms
+        - static/js/meisicms.js

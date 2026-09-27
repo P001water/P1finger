@@ -1,0 +1,10 @@
+- id: symantec-client
+  name: Symantec-client-security
+  author: P001
+  tags:
+    - symantec-client
+  description: Symantec-client-security
+  matchers:
+    - location: body
+      words:
+        - <!-- symantec client security web based installation -->

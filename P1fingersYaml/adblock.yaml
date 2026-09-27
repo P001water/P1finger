@@ -1,0 +1,14 @@
+- id: adblock
+  name: Adblock
+  author: Fofa
+  tags:
+    - adblock
+  description: Adblock
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Adblock-Key
+    - location: header
+      words:
+        - X-Adblock-Key

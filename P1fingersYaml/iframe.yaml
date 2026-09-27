@@ -1,0 +1,11 @@
+- id: iframe
+  name: Iframe
+  author: Fofa
+  tags:
+    - iframe
+  description: Iframe
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <iframe

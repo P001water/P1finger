@@ -1,0 +1,14 @@
+- id: kafka-manager
+  name: Kafka-manager
+  author: P1finger
+  tags:
+  - kafka
+  - kafka-manager
+  description: Kafka-manager
+  matchers:
+  - location: body
+    words:
+    - Kafka Manager
+  - location: body
+    words:
+    - vassets/images/2af62f58ee2baf495c9b3a9a1c30ce03-favicon.png

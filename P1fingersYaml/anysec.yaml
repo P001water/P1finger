@@ -1,0 +1,21 @@
+- id: anysec
+  name: Anysec
+  author: P1finger
+  tags:
+    - anysec
+  description: Anysec
+  matchers:
+    - location: body
+      words:
+        - anysec login
+- id: zhongkewangwei-firewall
+  name: Zhongkewangwei Firewall
+  author: P1finger
+  tags:
+    - zhongkewangwei
+    - firewall
+  description: Zhongkewangwei Firewall
+  matchers:
+    - location: body
+      words:
+        - Anysec Login

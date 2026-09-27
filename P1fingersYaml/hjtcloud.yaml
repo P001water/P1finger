@@ -1,0 +1,10 @@
+- id: hjtcloud
+  name: Hjtcloud
+  author: P001
+  tags:
+    - hjtcloud
+  description: Hjtcloud
+  matchers:
+    - location: body
+      words:
+        - '"/him/api/rest/v1.0/node/role"'

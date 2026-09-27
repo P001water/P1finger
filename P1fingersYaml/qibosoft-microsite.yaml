@@ -1,0 +1,10 @@
+- id: qibosoft-microsite
+  name: Qibosoft-microsite
+  author: P001
+  tags:
+    - qibosoft-microsite
+  description: Qibosoft-microsite
+  matchers:
+    - location: body
+      words:
+        - powered by qibosoft v1.0

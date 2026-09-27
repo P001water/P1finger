@@ -1,0 +1,12 @@
+- id: om-conferencing
+  name: Om-video-conferencing
+  author: P001
+  tags:
+    - om-conferencing
+  description: Om-video-conferencing
+  matchers:
+    - location: body
+      words:
+        - <p><a href="http://www.omeeting.com" target='_blank'>powered by
+        - content="om视频会议
+        - onclick="gotomeeting('/gotomeeting.php

@@ -1,0 +1,20 @@
+- id: samanportal
+  name: SamanPortal
+  author: Fofa
+  tags:
+    - samanportal
+  description: SamanPortal
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - sisRapid
+    - location: header
+      words:
+        - sisRapid
+    - location: header
+      words:
+        - 'X-Powered-By: sisRapid Framework'
+    - location: body
+      words:
+        - content="Saman Information Structure"

@@ -1,0 +1,10 @@
+- id: shoutcast
+  name: Shoutcast Server
+  author: P1finger
+  tags:
+    - shoutcast
+  description: Shoutcast Server
+  matchers:
+    - hash:
+        - "-632583950"
+      location: favicon

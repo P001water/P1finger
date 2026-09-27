@@ -1,0 +1,21 @@
+- id: axis2
+  name: Axis2-web
+  author: P1finger
+  tags:
+    - axis2
+  description: Axis2-web
+  matchers:
+    - location: body
+      words:
+        - axis2-web/css/axis-style.css
+- id: axis2-2
+  name: Axis2-web
+  author: Fofa
+  tags:
+    - axis2
+  description: Axis2-web
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - axis2-web/css/axis-style.css

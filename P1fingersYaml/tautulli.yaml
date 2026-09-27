@@ -1,0 +1,10 @@
+- id: tautulli
+  name: Tautulli
+  author: P001
+  tags:
+    - tautulli
+  description: Tautulli
+  matchers:
+    - location: body
+      words:
+        - alt="plexpy"

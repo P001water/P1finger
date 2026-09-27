@@ -1,0 +1,11 @@
+- id: phpcms
+  name: CMS-PHPCMS
+  author: P001
+  tags:
+    - phpcms
+  description: CMS-PHPCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="PHPCMS">
+        - <a href="http://www.phpcms.cn" target="_blank">phpcms</a>

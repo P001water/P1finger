@@ -1,0 +1,10 @@
+- id: mattermost
+  name: Mattermost
+  author: P1finger
+  tags:
+    - mattermost
+  description: Mattermost
+  matchers:
+    - location: body
+      words:
+        - To use Mattermost

@@ -1,0 +1,21 @@
+- id: manage-myschool
+  name: E-manage-myschool
+  author: P1finger
+  tags:
+    - manage-myschool
+  description: E-manage-myschool
+  matchers:
+    - location: body
+      words:
+        - E-Manage All Rights Reserved MySchool Version
+- id: manage-myschool-2
+  name: E-Manage-MySchool
+  author: Fofa
+  tags:
+    - manage-myschool
+  description: E-Manage-MySchool
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - E-Manage All Rights Reserved MySchool Version

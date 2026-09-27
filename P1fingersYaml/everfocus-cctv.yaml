@@ -1,0 +1,21 @@
+- id: everfocus-cctv
+  name: Everfocus-cctv
+  author: P1finger
+  tags:
+    - everfocus-cctv
+  description: Everfocus-cctv
+  matchers:
+    - location: header
+      words:
+        - http server/everfocus
+- id: everfocus-cctv-2
+  name: EverFocus-CCTV
+  author: Fofa
+  tags:
+    - everfocus-cctv
+  description: EverFocus-CCTV
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - http server/everfocus

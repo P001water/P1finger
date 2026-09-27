@@ -1,0 +1,10 @@
+- id: sabros-us
+  name: Sabros_us
+  author: P1finger
+  tags:
+    - sabros-us
+  description: Sabros_us
+  matchers:
+    - location: body
+      words:
+        - content="sabros.us

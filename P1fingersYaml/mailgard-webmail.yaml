@@ -1,0 +1,22 @@
+- id: mailgard-webmail
+  name: Mailgard-webmail
+  author: P001
+  tags:
+    - mailgard-webmail
+  description: Mailgard-webmail
+  matchers:
+    - location: body
+      words:
+        - window.open('http://www.hechen.com')
+- id: youyoumailgardwebmail
+  name: Youyoumailgardwebmail
+  author: P001
+  tags:
+    - youyoumailgardwebmail
+  description: Youyoumailgardwebmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - mailgard webmail
+        - window.open('http://www.hechen.com')

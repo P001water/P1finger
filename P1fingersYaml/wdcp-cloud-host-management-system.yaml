@@ -1,0 +1,10 @@
+- id: wdcp-host
+  name: Wdcp Cloud Host Management System
+  author: P1finger
+  tags:
+    - wdcp-host
+  description: Wdcp Cloud Host Management System
+  matchers:
+    - hash:
+        - "255892555"
+      location: favicon

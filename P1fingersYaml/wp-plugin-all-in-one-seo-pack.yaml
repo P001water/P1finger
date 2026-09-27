@@ -1,0 +1,11 @@
+- id: wp-plugin-all-in-one-seo-pack
+  name: WP Plugin All-in-one-SEO-Pack
+  author: Fofa
+  tags:
+    - wp-plugin-all-in-one-seo-pack
+  description: WP Plugin All-in-one-SEO-Pack
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <!-- /all in one seo pack -->

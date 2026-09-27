@@ -1,0 +1,10 @@
+- id: forcepoint-websense
+  name: Forcepoint-websense-email-security-gateway
+  author: P001
+  tags:
+    - forcepoint-websense
+  description: Forcepoint-websense-email-security-gateway
+  matchers:
+    - location: body
+      words:
+        - websense email security gateway

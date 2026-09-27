@@ -1,0 +1,10 @@
+- id: ubiquiti-portals
+  name: Ubiquiti Login Portals
+  author: P1finger
+  tags:
+    - ubiquiti-portals
+  description: Ubiquiti Login Portals
+  matchers:
+    - hash:
+        - "-1446794564"
+      location: favicon

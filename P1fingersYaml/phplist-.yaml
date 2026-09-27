@@ -1,0 +1,13 @@
+- id: phplist-mail-system
+  name: Phplist Mail System
+  author: P001
+  tags:
+    - phplist
+    - mail-system
+  description: Phplist Mail System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="michiel dethmers - http://www.phplist.com
+        - content="phplist version

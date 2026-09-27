@@ -1,0 +1,12 @@
+- id: smartertools-smartermail
+  name: Smartertools-smartermail
+  author: P001
+  tags:
+    - smartertools-smartermail
+  description: Smartertools-smartermail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href='http://www.smartertools.com/smartermail/mail-server-software.aspx' target='_blank'>smartermail
+        - login - smartermail

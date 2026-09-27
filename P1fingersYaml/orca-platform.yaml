@@ -1,0 +1,10 @@
+- id: orca
+  name: ORCA Platform
+  author: P1finger
+  tags:
+    - orca
+  description: ORCA Platform
+  matchers:
+    - location: body
+      words:
+        - content="ORCA Platform

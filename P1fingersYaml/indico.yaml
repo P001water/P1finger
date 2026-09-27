@@ -1,0 +1,24 @@
+- id: indico
+  name: Indico
+  author: Fofa
+  tags:
+    - indico
+  description: Indico
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - MAKACSESSION
+    - condition: or
+      location: body
+      words:
+        - href="http://cern.ch/indico
+    - location: body
+      words:
+        - href="http://cern.ch/indico
+    - location: header
+      words:
+        - MAKACSESSION
+    - location: body
+      words:
+        - <title>Indico

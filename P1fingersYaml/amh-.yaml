@@ -1,0 +1,12 @@
+- id: amhyunzhujimianban
+  name: Amhyunzhujimianban
+  author: P1finger
+  tags:
+    - amhyunzhujimianban
+  description: Amhyunzhujimianban
+  matchers:
+    - location: body
+      words:
+        - 登录 - AMH
+        - 403 Forbidden - 403.html - AMH
+        - 404 Not Found - 404.html - AMH

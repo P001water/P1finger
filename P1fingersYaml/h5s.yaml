@@ -1,0 +1,11 @@
+- id: h5s-video-platform
+  name: H5S Video Platform
+  author: P1finger
+  tags:
+    - h5s
+    - video-platform
+  description: H5S Video Platform
+  matchers:
+    - location: body
+      words:
+        - h5s视频平台|web

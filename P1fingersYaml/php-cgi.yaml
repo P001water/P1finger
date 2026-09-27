@@ -1,0 +1,21 @@
+- id: php-cgi
+  name: Php-cgi
+  author: P1finger
+  tags:
+    - php-cgi
+  description: Php-cgi
+  matchers:
+    - location: header
+      words:
+        - PHP-CGI
+- id: php-cgi-2
+  name: PHP-CGI
+  author: Fofa
+  tags:
+    - php-cgi
+  description: PHP-CGI
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - PHP-CGI

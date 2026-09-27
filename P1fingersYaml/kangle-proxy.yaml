@@ -1,0 +1,10 @@
+- id: kangle-proxy
+  name: Kangle-proxy
+  author: P1finger
+  tags:
+    - kangle-proxy
+  description: Kangle-proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: kangle-proxy'

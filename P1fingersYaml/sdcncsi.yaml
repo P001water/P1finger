@@ -1,0 +1,11 @@
+- id: sdcncsi
+  name: Sdcncsi
+  author: P001
+  tags:
+    - sdcncsi
+  description: Sdcncsi
+  matchers:
+    - location: body
+      words:
+        - <em class="wk-fl">在沃系统</em>
+        - refreshcaptchaimgfun

@@ -1,0 +1,27 @@
+- id: eqmail
+  name: Eqmail
+  author: P001
+  tags:
+    - eqmail
+  description: Eqmail
+  matchers:
+    - location: body
+      words:
+        - <frame src="/cgi-bin/eqwebmail?empty=1
+        - href="eqmail.ico
+    - location: body
+      words:
+        - eqmail.ico
+        - powered by eqmail!
+- id: minxunkejieqmail
+  name: Minxunkejieqmail
+  author: P001
+  tags:
+    - minxunkejieqmail
+  description: Minxunkejieqmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="eqmail.ico
+        - powered by eqmail!

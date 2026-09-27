@@ -1,0 +1,12 @@
+- id: chuangxiangdamall-system
+  name: ChuangxiangDamall System
+  author: P1finger
+  tags:
+    - chuangxiangdamall
+    - system
+  description: ChuangxiangDamall System
+  matchers:
+    - location: body
+      words:
+        - httphandler/getdata.ashx
+        - DaMall

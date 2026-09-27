@@ -1,0 +1,13 @@
+- id: phpwcms
+  name: Phpwcms
+  author: P1finger
+  tags:
+    - phpwcms
+  description: Phpwcms
+  matchers:
+    - location: body
+      words:
+        - content="phpwcms"
+    - location: header
+      words:
+        - phpwcms

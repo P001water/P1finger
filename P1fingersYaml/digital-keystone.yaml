@@ -1,0 +1,10 @@
+- id: digital-keystone
+  name: Digital Keystone
+  author: P1finger
+  tags:
+    - digital-keystone
+  description: Digital Keystone
+  matchers:
+    - hash:
+        - "-373674173"
+      location: favicon

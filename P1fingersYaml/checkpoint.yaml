@@ -1,0 +1,13 @@
+- id: checkpoint
+  name: Checkpoint
+  author: P1finger
+  tags:
+    - checkpoint
+  description: Checkpoint
+  matchers:
+    - hash:
+        - "794809961"
+      location: favicon
+    - hash:
+        - "-1822098181"
+      location: favicon

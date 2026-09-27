@@ -1,0 +1,10 @@
+- id: shiro-2
+  name: Detect Shiro Framework
+  author: nuclei
+  tags:
+  - shiro
+  description: Detect Shiro Framework
+  matchers:
+  - location: header
+    words:
+    - rememberMe=deleteMe

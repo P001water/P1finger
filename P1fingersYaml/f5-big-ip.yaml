@@ -1,0 +1,12 @@
+- id: f5-big-ip
+  name: F5-big-ip
+  author: P001
+  tags:
+  - f5
+  - f5-big-ip
+  description: F5-big-ip
+  matchers:
+  - location: body
+    words:
+    - 'set-cookie: bigipserverpool'
+    - content="f5 networks, inc."

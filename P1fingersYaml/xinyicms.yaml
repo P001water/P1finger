@@ -1,0 +1,12 @@
+- id: xinyicmsxinyi
+  name: XinYiCMSxinyi CMS
+  author: P1finger
+  tags:
+    - xinyicmsxinyi
+    - cms
+  description: XinYiCMSxinyi CMS
+  matchers:
+    - location: body
+      words:
+        - XinYiCMS
+        - 新亿内容管理系统

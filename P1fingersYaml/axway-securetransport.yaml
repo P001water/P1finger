@@ -1,0 +1,31 @@
+- id: axway-securetransport
+  name: Axway-securetransport
+  author: P1finger
+  tags:
+    - axway-securetransport
+  description: Axway-securetransport
+  matchers:
+    - location: body
+      words:
+        - Welcome to SecureTransport
+    - location: header
+      words:
+        - SecureTransport
+    - location: header
+      words:
+        - 'Server: SecureTransport'
+- id: axway-securetransport-2
+  name: Axway-SecureTransport
+  author: Fofa
+  tags:
+    - axway-securetransport
+  description: Axway-SecureTransport
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - SecureTransport
+    - condition: or
+      location: title
+      words:
+        - Welcome to SecureTransport

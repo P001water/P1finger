@@ -1,0 +1,14 @@
+- id: suduserver
+  name: Suduserver
+  author: Fofa
+  tags:
+    - suduserver
+  description: Suduserver
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - suduserver
+    - location: header
+      words:
+        - suduserver

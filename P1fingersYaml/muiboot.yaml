@@ -1,0 +1,11 @@
+- id: muibootquanxian
+  name: MUIBOOTquanxian Management System
+  author: P1finger
+  tags:
+    - muibootquanxian
+    - management-system
+  description: MUIBOOTquanxian Management System
+  matchers:
+    - location: body
+      words:
+        - MUIBOOT权限管理系统-用户登录

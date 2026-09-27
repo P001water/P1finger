@@ -1,0 +1,10 @@
+- id: nukedit
+  name: Nukedit
+  author: P1finger
+  tags:
+    - nukedit
+  description: Nukedit
+  matchers:
+    - location: body
+      words:
+        - Powered by Nukedit

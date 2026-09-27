@@ -1,0 +1,21 @@
+- id: ioffice
+  name: Ioffice
+  author: P1finger
+  tags:
+    - ioffice
+  description: Ioffice
+  matchers:
+    - location: body
+      words:
+        - ioffice.net
+        - hongfan. all rights reserved
+- id: hongfanioffice
+  name: Hongfanioffice
+  author: P001
+  tags:
+    - hongfanioffice
+  description: Hongfanioffice
+  matchers:
+    - location: body
+      words:
+        - <title>ioffice.net</title>

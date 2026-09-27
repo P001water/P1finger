@@ -1,0 +1,14 @@
+- id: wimax-cpe
+  name: Wimax_CPE
+  author: Fofa
+  tags:
+    - wimax-cpe
+  description: Wimax_CPE
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Wimax CPE Configuration
+    - location: body
+      words:
+        - Wimax CPE Configuration

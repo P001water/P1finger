@@ -1,0 +1,14 @@
+- id: simit-framework
+  name: SIMIT_framework
+  author: Fofa
+  tags:
+    - simit-framework
+  description: SIMIT_framework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - SIMIT framework
+    - location: header
+      words:
+        - SIMIT framework

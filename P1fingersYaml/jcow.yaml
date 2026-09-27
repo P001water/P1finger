@@ -1,0 +1,27 @@
+- id: jcow
+  name: Jcow
+  author: Fofa
+  tags:
+    - jcow
+  description: Jcow
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Jcow
+    - condition: or
+      location: body
+      words:
+        - content="Powered by Jcow
+    - condition: or
+      location: body
+      words:
+        - end jcow_application_box
+    - location: body
+      words:
+        - content="Jcow
+        - content="Powered by Jcow
+        - end jcow_application_box
+    - location: body
+      words:
+        - Powered by Jcow

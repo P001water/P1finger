@@ -1,0 +1,10 @@
+- id: securepoint
+  name: Securepoint
+  author: P1finger
+  tags:
+    - securepoint
+  description: Securepoint
+  matchers:
+    - hash:
+        - "1051648103"
+      location: favicon

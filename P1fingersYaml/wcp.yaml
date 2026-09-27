@@ -1,0 +1,11 @@
+- id: wcpzhishi-management-system
+  name: WCPzhishi Management System
+  author: P1finger
+  tags:
+    - wcpzhishi
+    - management-system
+  description: WCPzhishi Management System
+  matchers:
+    - location: body
+      words:
+        - WCP知识管理系统

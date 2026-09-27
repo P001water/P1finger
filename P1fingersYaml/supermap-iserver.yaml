@@ -1,0 +1,11 @@
+- id: supermap-iserver
+  name: Supermap-iserver
+  author: P001
+  tags:
+    - supermap-iserver
+  description: Supermap-iserver
+  matchers:
+    - location: body
+      words:
+        - id="copyright"><a href="http://www.supermap.com.cn
+        - window.location.href="iserver";

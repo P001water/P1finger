@@ -1,0 +1,13 @@
+- id: vmware-vrealize-operations-manager
+  name: Vmware-vrealize-operations-manager
+  author: P001
+  tags:
+  - vmware
+  - vmware-vrealize-operations-manager
+  description: Vmware-vrealize-operations-manager
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - identity manager
+    - vmware

@@ -1,0 +1,10 @@
+- id: lpse
+  name: Lpse
+  author: P001
+  tags:
+    - lpse
+  description: Lpse
+  matchers:
+    - location: body
+      words:
+        - href="/eproc/assets/application.css

@@ -1,0 +1,14 @@
+- id: wamp
+  name: Wamp
+  author: Fofa
+  tags:
+    - wamp
+  description: Wamp
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - WAMPSERVER
+    - location: body
+      words:
+        - WAMPSERVER

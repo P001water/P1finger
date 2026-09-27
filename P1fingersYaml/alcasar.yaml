@@ -1,0 +1,17 @@
+- id: alcasar
+  name: ALCASAR
+  author: Fofa
+  tags:
+    - alcasar
+  description: ALCASAR
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - valoriserDiv5
+    - location: body
+      words:
+        - valoriserDiv5
+    - location: body
+      words:
+        - valoriserdiv5

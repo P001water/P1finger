@@ -1,0 +1,10 @@
+- id: hoperun-hr
+  name: Hoperun-hr
+  author: P001
+  tags:
+    - hoperun-hr
+  description: Hoperun-hr
+  matchers:
+    - location: body
+      words:
+        - <title>考核评测系统</title>

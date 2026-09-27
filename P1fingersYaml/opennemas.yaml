@@ -1,0 +1,10 @@
+- id: opennemas
+  name: Opennemas
+  author: P001
+  tags:
+    - opennemas
+  description: Opennemas
+  matchers:
+    - location: body
+      words:
+        - content="opennemas

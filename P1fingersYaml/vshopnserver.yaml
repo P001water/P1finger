@@ -1,0 +1,10 @@
+- id: vshopnserver
+  name: VShopNServer
+  author: P1finger
+  tags:
+    - vshopnserver
+  description: VShopNServer
+  matchers:
+    - location: header
+      words:
+        - 'Server: VShopNServer'

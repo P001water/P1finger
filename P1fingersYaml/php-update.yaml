@@ -1,0 +1,10 @@
+- id: php-update
+  name: PHP Update
+  author: P1finger
+  tags:
+    - php-update
+  description: PHP Update
+  matchers:
+    - location: body
+      words:
+        - PHP-Update

@@ -1,0 +1,10 @@
+- id: openshift
+  name: OpenShift
+  author: P1finger
+  tags:
+    - openshift
+  description: OpenShift
+  matchers:
+    - location: body
+      words:
+        - apis/apps.openshift.io/v1

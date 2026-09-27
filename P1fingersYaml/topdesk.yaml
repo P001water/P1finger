@@ -1,0 +1,15 @@
+- id: topdesk
+  name: TOPdesk
+  author: nuclei
+  tags:
+  - topdesk
+  description: 'Detects the use of TOPdesk, a web-based IT service management (ITSM)
+    and helpdesk platform. Identification is based on unique page titles, HTML patterns.
+
+    '
+  matchers:
+  - location: body
+    words:
+    - href="/tas/
+    - topdeskidploginforwardurl
+    condition: or

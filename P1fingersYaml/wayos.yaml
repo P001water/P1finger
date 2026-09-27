@@ -1,0 +1,34 @@
+- id: wayosweimengacjizhong
+  name: WayOSweimengACjizhong Management Platform
+  author: P1finger
+  tags:
+    - wayosweimengacjizhong
+    - management-platform
+  description: WayOSweimengACjizhong Management Platform
+  matchers:
+    - location: body
+      words:
+        - AC集中管理平台
+        - /images/login_25.jpg
+- id: wayosweimengacjizhong-2
+  name: Wayosweimengacjizhong Management System
+  author: P001
+  tags:
+    - wayosweimengacjizhong
+    - management-system
+  description: Wayosweimengacjizhong Management System
+  matchers:
+    - location: body
+      words:
+        - <title>维盟（wayos）智能路由管理系统  www.wayos.cn</title>
+- id: weimengwayoszhinengluyou
+  name: WeimengWayOSzhinengluyou Management System
+  author: P1finger
+  tags:
+    - weimengwayoszhinengluyou
+    - management-system
+  description: WeimengWayOSzhinengluyou Management System
+  matchers:
+    - location: body
+      words:
+        - <title>维盟（WayOS）智能路由管理系统 www.wayos.cn</title>

@@ -1,0 +1,17 @@
+- id: blackjumbodog
+  name: BlackJumboDog
+  author: Fofa
+  tags:
+    - blackjumbodog
+  description: BlackJumboDog
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - BlackJumboDog
+    - location: header
+      words:
+        - BlackJumboDog
+    - location: body
+      words:
+        - 'server: blackjumbodog'

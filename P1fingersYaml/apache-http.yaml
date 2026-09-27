@@ -1,0 +1,11 @@
+- id: apache-http
+  name: Apache-http
+  author: P001
+  tags:
+  - apache
+  - apache-http
+  description: Apache-http
+  matchers:
+  - location: body
+    words:
+    - 'server: apache'

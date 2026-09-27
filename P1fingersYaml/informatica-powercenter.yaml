@@ -1,0 +1,22 @@
+- id: informatica-powercenter
+  name: Informatica-powercenter
+  author: P001
+  tags:
+    - informatica-powercenter
+  description: Informatica-powercenter
+  matchers:
+    - location: body
+      words:
+        - 'server: informatica'
+        - action="/adminconsole/loginsubmit.do
+- id: informatica-powercenter-2
+  name: Informatica PowerCenter
+  author: P1finger
+  tags:
+    - informatica-powercenter
+  description: Informatica PowerCenter
+  matchers:
+    - location: body
+      words:
+        - informatica administrator
+        - action="/adminconsole/loginsubmit.do

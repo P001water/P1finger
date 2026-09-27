@@ -1,0 +1,13 @@
+- id: roxy-wi
+  name: Roxy-wi
+  author: P001
+  tags:
+    - roxy-wi
+  description: Roxy-wi
+  matchers:
+    - hash:
+        - 115a65bda90efe228d692227dc196f74
+      location: favicon
+    - location: body
+      words:
+        - roxy-wi

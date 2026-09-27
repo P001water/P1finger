@@ -1,0 +1,20 @@
+- id: jupyterhub
+  name: Jupyterhub
+  author: P1finger
+  tags:
+    - jupyterhub
+  description: Jupyterhub
+  matchers:
+    - hash:
+        - "1248917303"
+      location: favicon
+    - location: body
+      words:
+        - <title>jupyterhub</title>
+    - hash:
+        - "-1212628902"
+      location: favicon
+    - location: body
+      words:
+        - Jupyter Hub
+        - /hub/static/images/jupyter.png

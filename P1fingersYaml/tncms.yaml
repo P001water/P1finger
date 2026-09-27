@@ -1,0 +1,14 @@
+- id: tncms
+  name: Tncms
+  author: Fofa
+  tags:
+    - tncms
+  description: Tncms
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Tncms-Version
+    - location: header
+      words:
+        - X-Tncms-Version

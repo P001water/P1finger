@@ -1,0 +1,14 @@
+- id: mod
+  name: Mod_Security
+  author: Fofa
+  tags:
+    - mod
+  description: Mod_Security
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Mod_Security
+    - location: header
+      words:
+        - Mod_Security

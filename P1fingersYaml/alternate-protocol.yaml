@@ -1,0 +1,21 @@
+- id: alternate-protocol
+  name: Alternate-protocol
+  author: P1finger
+  tags:
+    - alternate-protocol
+  description: Alternate-protocol
+  matchers:
+    - location: header
+      words:
+        - Alternate-Protocol
+- id: alternate-protocol-2
+  name: Alternate-Protocol
+  author: Fofa
+  tags:
+    - alternate-protocol
+  description: Alternate-Protocol
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Alternate-Protocol

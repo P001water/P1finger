@@ -1,0 +1,20 @@
+- id: roundcubemail
+  name: RoundcubeMail
+  author: P1finger
+  tags:
+    - roundcubemail
+  description: RoundcubeMail
+  matchers:
+    - hash:
+        - ef9c0362bf20a086bb7c2e8ea346b9f0
+      location: favicon
+    - location: header
+      words:
+        - roundcube_sessid
+    - location: body
+      words:
+        - <title>Roundcube
+        - id="rcmloginsubmit"
+        - id="rcmlogintz"
+        - rcmail.init();
+        - matchMedia('(prefers-color-schem

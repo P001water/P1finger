@@ -1,0 +1,21 @@
+- id: bmc-remedy
+  name: Bmc-remedy
+  author: P1finger
+  tags:
+    - bmc-remedy
+  description: Bmc-remedy
+  matchers:
+    - location: body
+      words:
+        - Remedy Mid Tier
+- id: bmc-remedy-2
+  name: BMC-Remedy
+  author: Fofa
+  tags:
+    - bmc-remedy
+  description: BMC-Remedy
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Remedy Mid Tier

@@ -1,0 +1,10 @@
+- id: iswebcms
+  name: IswebCMS
+  author: P1finger
+  tags:
+    - iswebcms
+  description: IswebCMS
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-By: PleskLin'

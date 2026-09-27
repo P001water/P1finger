@@ -1,0 +1,46 @@
+- id: lenovo-disk
+  name: Lenovo-enterprise-network-disk
+  author: P001
+  tags:
+  - lenovo
+  - lenovo-disk
+  description: Lenovo-enterprise-network-disk
+  matchers:
+  - location: body
+    words:
+    - alt="联想企业网盘android客户端下载"
+    - client/android/bin/lenovobox.apk
+- id: lenovo-firewall
+  name: Lenovo Firewall
+  author: P001
+  tags:
+  - lenovo
+  - firewall
+  description: Lenovo Firewall
+  matchers:
+  - location: body
+    words:
+    - 联想防火墙
+- id: lenovo-doc
+  name: Lenovo Doc
+  author: P1finger
+  tags:
+  - lenovo
+  - lenovo-doc
+  description: Lenovo Doc
+  matchers:
+  - location: body
+    words:
+    - lenovoDocs
+    - lenovodata
+- id: lenovo-thinkserver
+  name: Lenovo-thinkserver
+  author: P001
+  tags:
+  - lenovo
+  - lenovo-thinkserver
+  description: Lenovo-thinkserver
+  matchers:
+  - location: body
+    words:
+    - thinkserver

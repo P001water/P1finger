@@ -1,0 +1,21 @@
+- id: panasonic
+  name: Panasonic Network Camera
+  author: Fofa
+  tags:
+    - panasonic
+  description: Panasonic Network Camera
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - MultiCameraFrame?Mode=Motion&Language
+- id: panasonic-2
+  name: Panasonic Network Camera
+  author: P1finger
+  tags:
+    - panasonic
+  description: Panasonic Network Camera
+  matchers:
+    - location: body
+      words:
+        - MultiCameraFrame?Mode=Motion&Language

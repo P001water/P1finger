@@ -1,0 +1,23 @@
+- id: winrm
+  name: Windows Remote Management
+  author: nuclei
+  tags:
+  - network
+  - winrm
+  - windows
+  description: 'Detects Windows Remote Management (WinRM) by checking HTTP response
+    headers on ports 5985 (HTTP) and 5986 (HTTPS).
+
+    '
+  paths:
+  - /wsman
+  matchers:
+  - type: regex
+    location: header
+    words:
+    - Microsoft-HTTPAPI\/[0-9\.]+
+  - location: header
+    words:
+    - 'Www-Authenticate: NTLM'
+    - 'Www-Authenticate: Negotiate'
+    condition: or

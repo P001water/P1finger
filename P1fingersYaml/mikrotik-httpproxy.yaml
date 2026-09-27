@@ -1,0 +1,22 @@
+- id: mikrotik-httpproxy
+  name: Mikrotik-httpproxy
+  author: P001
+  tags:
+  - mikrotik
+  - mikrotik-httpproxy
+  description: Mikrotik-httpproxy
+  matchers:
+  - location: body
+    words:
+    - 'server: mikrotik httpproxy'
+- id: mikrotik-httpproxy-2
+  name: Mikrotik HttpProxy
+  author: P1finger
+  tags:
+  - mikrotik
+  - mikrotik-httpproxy
+  description: Mikrotik HttpProxy
+  matchers:
+  - location: header
+    words:
+    - Mikrotik HttpProxy

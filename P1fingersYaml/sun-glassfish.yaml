@@ -1,0 +1,13 @@
+- id: sun-glassfish
+  name: Sun-glassfish
+  author: P001
+  tags:
+  - glassfish
+  - sun-glassfish
+  description: Sun-glassfish
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - glassfish community
+    - webui/jsf

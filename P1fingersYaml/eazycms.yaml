@@ -1,0 +1,19 @@
+- id: eazycms
+  name: EazyCMS
+  author: Fofa
+  tags:
+    - eazycms
+  description: EazyCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by eazyCMS
+    - condition: or
+      location: body
+      words:
+        - <a class="actionlink" href="http://www.eazyCMS.com
+    - location: body
+      words:
+        - powered by eazyCMS
+        - <a class="actionlink" href="http://www.eazyCMS.com

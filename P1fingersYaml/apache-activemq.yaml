@@ -1,0 +1,12 @@
+- id: apache-activemq
+  name: Apache-activemq
+  author: P001
+  tags:
+  - activemq
+  - apache
+  - apache-activemq
+  description: Apache-activemq
+  matchers:
+  - location: body
+    words:
+    - <title>apache activemq</title>

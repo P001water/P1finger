@@ -1,0 +1,10 @@
+- id: oracle-3
+  name: Oracle Database Firewall
+  author: P1finger
+  tags:
+    - oracle
+  description: Oracle Database Firewall
+  matchers:
+    - location: body
+      words:
+        - oracle database firewall

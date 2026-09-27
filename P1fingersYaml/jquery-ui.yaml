@@ -1,0 +1,11 @@
+- id: jquery-ui
+  name: Jquery-ui
+  author: Fofa
+  tags:
+    - jquery-ui
+  description: Jquery-ui
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jquery-ui

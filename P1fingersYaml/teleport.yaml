@@ -1,0 +1,11 @@
+- id: teleport-bastion-host
+  name: TELEPORT Bastion Host
+  author: P1finger
+  tags:
+    - teleport
+    - bastion-host
+  description: TELEPORT Bastion Host
+  matchers:
+    - location: body
+      words:
+        - blur/background-blur.js

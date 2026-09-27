@@ -1,0 +1,10 @@
+- id: qbittorrent
+  name: QBittorrent-Веб-интерфейс
+  author: P1finger
+  tags:
+    - qbittorrent
+  description: QBittorrent-Веб-интерфейс
+  matchers:
+    - location: body
+      words:
+        - qBittorrent Веб-интерфейс

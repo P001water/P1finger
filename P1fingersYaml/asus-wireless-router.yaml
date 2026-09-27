@@ -1,0 +1,11 @@
+- id: asus-wireless
+  name: ASUS Wireless Router
+  author: P1finger
+  tags:
+  - asus
+  - asus-wireless
+  description: ASUS Wireless Router
+  matchers:
+  - location: body
+    words:
+    - ASUS Wireless Router

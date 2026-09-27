@@ -1,0 +1,14 @@
+- id: mod-ssl
+  name: Mod_ssl
+  author: Fofa
+  tags:
+    - mod-ssl
+  description: Mod_ssl
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_ssl
+    - location: header
+      words:
+        - mod_ssl

@@ -1,0 +1,10 @@
+- id: analyticscloudfenxiyun
+  name: AnalyticsCloudfenxiyun
+  author: P1finger
+  tags:
+    - analyticscloudfenxiyun
+  description: AnalyticsCloudfenxiyun
+  matchers:
+    - location: body
+      words:
+        - Analytics Cloud 分析云

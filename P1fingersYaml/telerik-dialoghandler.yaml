@@ -1,0 +1,11 @@
+- id: telerik-dialoghandler
+  name: Detect Telerik Web UI Dialog Handler
+  author: nuclei
+  tags:
+  - telerik
+  - asp
+  description: This template detects the Telerik Web UI Dialog Handler.
+  matchers:
+  - location: body
+    words:
+    - Invalid length for a Base-64 char array

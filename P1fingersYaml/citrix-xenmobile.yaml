@@ -1,0 +1,15 @@
+- id: citrix-xenmobile
+  name: Citrix-xenmobile
+  author: P001
+  tags:
+  - citrix
+  - citrix-xenmobile
+  description: Citrix-xenmobile
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 'citrix-transactionid: *'
+    - 'set-cookie: xmscookie'
+    - <title>xenmobile
+    - citrix_logo

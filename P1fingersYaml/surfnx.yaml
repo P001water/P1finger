@@ -1,0 +1,13 @@
+- id: surfilter-security-gateway
+  name: Surfilter Security Gateway
+  author: P001
+  tags:
+    - surfilter
+    - security-gateway
+  description: Surfilter Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - lib/templates/surfilter/images/logo_big.png
+        - 安全网关

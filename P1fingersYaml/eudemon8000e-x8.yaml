@@ -1,0 +1,10 @@
+- id: eudemon8000e-x8
+  name: Eudemon8000E X8
+  author: P1finger
+  tags:
+    - eudemon8000e-x8
+  description: Eudemon8000E X8
+  matchers:
+    - location: header
+      words:
+        - huawei eudemon8000e-x8

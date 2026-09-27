@@ -1,0 +1,14 @@
+- id: aethra-telecommunications-operating
+  name: Aethra_Telecommunications_Operating_System
+  author: Fofa
+  tags:
+    - aethra-telecommunications-operating
+  description: Aethra_Telecommunications_Operating_System
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - atos
+    - location: header
+      words:
+        - atos

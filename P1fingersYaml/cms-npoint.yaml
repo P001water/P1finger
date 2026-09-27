@@ -1,0 +1,13 @@
+- id: npoint
+  name: CMS-NPOINT
+  author: P001
+  tags:
+    - npoint
+  description: CMS-NPOINT
+  matchers:
+    - location: body
+      words:
+        - /inc/usercode.asp?npoint=
+        - content="n点虚拟主机管理系统
+        - js/ajax_x.js
+        - Powered By Npoint</title>

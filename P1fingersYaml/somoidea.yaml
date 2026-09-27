@@ -1,0 +1,14 @@
+- id: somoidea
+  name: SOMOIDEA
+  author: Fofa
+  tags:
+    - somoidea
+  description: SOMOIDEA
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - DESIGN BY SOMOIDEA
+    - location: body
+      words:
+        - DESIGN BY SOMOIDEA

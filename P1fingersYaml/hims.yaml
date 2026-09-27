@@ -1,0 +1,20 @@
+- id: himsjiudianyunjisuanfuwu
+  name: HIMSjiudianyunjisuanfuwu
+  author: Fofa
+  tags:
+    - himsjiudianyunjisuanfuwu
+  description: HIMSjiudianyunjisuanfuwu
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - maincontent.css")
+    - condition: or
+      location: body
+      words:
+        - HIMS酒店云计算服务
+    - location: body
+      words:
+        - GB_ROOT_DIR
+        - maincontent.css
+        - HIMS酒店云计算服务

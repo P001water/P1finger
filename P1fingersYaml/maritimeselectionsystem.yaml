@@ -1,0 +1,10 @@
+- id: maritimeselectionsystem
+  name: Maritimeselectionsystem
+  author: P001
+  tags:
+    - maritimeselectionsystem
+  description: Maritimeselectionsystem
+  matchers:
+    - location: body
+      words:
+        - 海事选船系统</el-col>

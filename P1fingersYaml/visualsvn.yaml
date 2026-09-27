@@ -1,0 +1,18 @@
+- id: visualsvn
+  name: Visualsvn
+  author: P1finger
+  tags:
+    - visualsvn
+  description: Visualsvn
+  matchers:
+    - location: body
+      words:
+        - VisualSVN Server
+        - =svn/
+    - condition: and
+      location: title
+      words:
+        - VisualSVN Server
+    - location: body
+      words:
+        - VisualSVN Server

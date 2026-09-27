@@ -1,0 +1,24 @@
+- id: hfish
+  name: Hfish
+  author: P001
+  tags:
+    - hfish
+  description: Hfish
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>hfish
+        - href="https://github.com/hacklcx/hfish"
+        - src="/static/images/hfish.png"
+- id: hfish-honeypot
+  name: HFish Honeypot
+  author: P1finger
+  tags:
+    - hfish
+    - honeypot
+  description: HFish Honeypot
+  matchers:
+    - location: body
+      words:
+        - /static/x.js

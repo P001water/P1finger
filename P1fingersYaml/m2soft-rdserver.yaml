@@ -1,0 +1,10 @@
+- id: m2soft-rdserver
+  name: M2soft-rdserver
+  author: P001
+  tags:
+    - m2soft-rdserver
+  description: M2soft-rdserver
+  matchers:
+    - location: body
+      words:
+        - 'server: rdserver'

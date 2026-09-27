@@ -1,0 +1,10 @@
+- id: rabbitmq
+  name: Rabbitmq
+  author: P001
+  tags:
+    - rabbitmq
+  description: Rabbitmq
+  matchers:
+    - location: body
+      words:
+        - <title>rabbitmq management</title>

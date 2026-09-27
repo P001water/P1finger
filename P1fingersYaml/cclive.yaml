@@ -1,0 +1,11 @@
+- id: cclive
+  name: CCLive Online Customer Service System
+  author: P1finger
+  tags:
+    - cclive
+    - online-customer-service-system
+  description: CCLive Online Customer Service System
+  matchers:
+    - location: body
+      words:
+        - CCLive在线客服系统

@@ -1,0 +1,12 @@
+- id: jifusen-1010
+  name: Jifusen ERP Management System
+  author: P1finger
+  tags:
+    - jifusen
+    - erp-management-system
+  description: Jifusen ERP Management System
+  matchers:
+    - location: body
+      words:
+        - 1010ERP管理系统
+        - 河南吉夫森软件开发有限公司

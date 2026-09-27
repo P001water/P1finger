@@ -1,0 +1,14 @@
+- id: alloyui
+  name: Alloyui
+  author: P1finger
+  tags:
+    - alloyui
+  description: Alloyui
+  matchers:
+    - location: body
+      words:
+        - cdn.alloyui.com
+    - condition: and
+      location: body
+      words:
+        - cdn.alloyui.com

@@ -1,0 +1,10 @@
+- id: cancosoft-asset
+  name: Cancosoft-asset-management
+  author: P001
+  tags:
+    - cancosoft-asset
+  description: Cancosoft-asset-management
+  matchers:
+    - location: body
+      words:
+        - var path = "/cassets";

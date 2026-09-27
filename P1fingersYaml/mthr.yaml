@@ -1,0 +1,11 @@
+- id: mthrrenshixinzikaoqin
+  name: MTHRrenshixinzikaoqin Management System
+  author: P1finger
+  tags:
+    - mthrrenshixinzikaoqin
+    - management-system
+  description: MTHRrenshixinzikaoqin Management System
+  matchers:
+    - location: body
+      words:
+        - MTHR+人事薪资考勤管理系统

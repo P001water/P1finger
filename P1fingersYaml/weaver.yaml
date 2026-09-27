@@ -1,0 +1,135 @@
+- id: weaver
+  name: Weaver
+  author: P1finger
+  tags:
+    - weaver
+  description: Weaver
+  matchers:
+    - location: header
+      words:
+        - ecology_JSessionid
+    - location: body
+      words:
+        - /wui/theme/ecology
+        - /cloudstore/resource/pc/com
+- id: weaver-2
+  name: Weaver
+  author: P001
+  tags:
+    - weaver
+  description: Weaver
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /images/login_logo@2x.png
+        - action="/verifylogin.do
+        - content="weaver e-mobile"
+        - e-mobile&nbsp;
+        - window.apiprifix = "/emp";
+        - e-mobile
+        - weaver
+- id: weaver-3
+  name: Weaver
+  author: P1finger
+  tags:
+    - weaver
+  description: Weaver
+  matchers:
+    - location: body
+      words:
+        - /page/manage/css/main.css
+        - weaver,e-mobile
+- id: office
+  name: E-office
+  author: P1finger
+  tags:
+    - office
+  description: E-office
+  matchers:
+    - location: body
+      words:
+        - /general/login/view//images/updateLoad.gif
+    - location: header
+      words:
+        - general/login/index.php
+- id: weaver-4
+  name: Weaver
+  author: P001
+  tags:
+    - weaver
+  description: Weaver
+  matchers:
+    - location: body
+      words:
+        - /general/login/view//images/updateload.gif
+        - szfeatures
+        - dynamicode
+        - isignatureportal
+    - location: body
+      words:
+        - /lang/cn/javascript.lang.js
+- id: office-2
+  name: E-office
+  author: Fofa
+  tags:
+    - office
+  description: E-office
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - general/login/index.php
+    - condition: or
+      location: body
+      words:
+        - /general/login/view//images/updateLoad.gif
+- id: weaver-management-platform
+  name: Weaver Management Platform
+  author: P1finger
+  tags:
+    - weaver
+    - management-platform
+  description: Weaver Management Platform
+  matchers:
+    - location: body
+      words:
+        - 移动管理平台消息服务
+- id: weaver-5
+  name: Weaver
+  author: Fofa
+  tags:
+    - weaver
+  description: Weaver
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - testBanCookie
+    - condition: or
+      location: body
+      words:
+        - /wui/common/css/w7OVFont.css
+- id: weaver-6
+  name: Weaver
+  author: P1finger
+  tags:
+    - weaver
+  description: Weaver
+  matchers:
+    - location: body
+      words:
+        - /main/assets/images/favicon.ico
+- id: weaver-7
+  name: Weaver
+  author: P001
+  tags:
+    - weaver
+  description: Weaver
+  matchers:
+    - location: body
+      words:
+        - <meta name="searchtitle" content="泛微云桥e-bridge">
+        - content="泛微云桥e-bridge"
+        - e-bridge
+        - wx.weaver

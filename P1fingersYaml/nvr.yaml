@@ -1,0 +1,11 @@
+- id: nvryuancheng-management-system
+  name: NVRyuancheng Management System
+  author: P1finger
+  tags:
+    - nvryuancheng
+    - management-system
+  description: NVRyuancheng Management System
+  matchers:
+    - location: body
+      words:
+        - NVR远程管理系统

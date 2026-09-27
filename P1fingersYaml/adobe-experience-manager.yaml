@@ -1,0 +1,11 @@
+- id: adobe-experience-manager
+  name: Adobe-experience-manager
+  author: P001
+  tags:
+  - adobe
+  - adobe-experience-manager
+  description: Adobe-experience-manager
+  matchers:
+  - location: body
+    words:
+    - tag{background:url(login/clientlib/resources/adobe-logo.png)

@@ -1,0 +1,11 @@
+- id: npubv6qiyebanlianwangshuzibiaopai
+  name: NPUBv6qiyebanlianwangshuzibiaopai Management System
+  author: P1finger
+  tags:
+    - npubv6qiyebanlianwangshuzibiaopai
+    - management-system
+  description: NPUBv6qiyebanlianwangshuzibiaopai Management System
+  matchers:
+    - location: body
+      words:
+        - nPUBv6 (企業版)联网数字标牌管理系统

@@ -1,0 +1,24 @@
+- id: xxl-job
+  name: XXL-JOB
+  author: P001
+  tags:
+    - xxl-job
+  description: XXL-JOB
+  matchers:
+    - location: body
+      words:
+        - admin_name_full":"分布式任务调度平台XXL-JOB
+        - /plugins/iCheck/square/blue.css
+- id: xxl-job-2
+  name: Xxl-job
+  author: P1finger
+  tags:
+    - xxl-job
+  description: Xxl-job
+  matchers:
+    - location: body
+      words:
+        - XXL-JOB
+    - location: body
+      words:
+        - /xxl-job-admin/static/favicon.ico

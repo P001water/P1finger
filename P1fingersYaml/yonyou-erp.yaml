@@ -1,0 +1,12 @@
+- id: yonyou-erp
+  name: Yonyou-erp
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-erp
+  description: Yonyou-erp
+  matchers:
+  - location: body
+    words:
+    - login_main_bg
+    - login_owner

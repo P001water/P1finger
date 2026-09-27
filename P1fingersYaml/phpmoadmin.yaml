@@ -1,0 +1,17 @@
+- id: phpmoadmin
+  name: Phpmoadmin
+  author: P1finger
+  tags:
+    - phpmoadmin
+  description: Phpmoadmin
+  matchers:
+    - location: body
+      words:
+        - phpmoadmin
+    - condition: and
+      location: title
+      words:
+        - phpmoadmin
+    - location: body
+      words:
+        - phpMoAdmin

@@ -1,0 +1,13 @@
+- id: xyhcms
+  name: Xyhcms
+  author: P001
+  tags:
+    - xyhcms
+  description: Xyhcms
+  matchers:
+    - location: body
+      words:
+        - power by xyhcms
+    - location: header
+      words:
+        - 'X-Powered-By: XYHCMS'

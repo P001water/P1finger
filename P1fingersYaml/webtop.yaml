@@ -1,0 +1,10 @@
+- id: webtop
+  name: Webtop
+  author: P1finger
+  tags:
+    - webtop
+  description: Webtop
+  matchers:
+    - location: body
+      words:
+        - webtop/help/help.jsp

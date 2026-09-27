@@ -1,0 +1,12 @@
+- id: yizhitonge7renliziyuan-system
+  name: YizhitongE7renliziyuan System
+  author: P1finger
+  tags:
+    - yizhitonge7renliziyuan
+    - system
+  description: YizhitongE7renliziyuan System
+  matchers:
+    - location: body
+      words:
+        - href='http://www.xmyzt.com.cn
+        - 一指通

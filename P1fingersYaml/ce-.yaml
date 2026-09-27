@@ -1,0 +1,12 @@
+- id: ceyunyou
+  name: Ceyunyou
+  author: P001
+  tags:
+    - ceyunyou
+  description: Ceyunyou
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="/page/help/mailconfig/config/index.html
+        - href="http://webmail.zmail300.cn

@@ -1,0 +1,10 @@
+- id: myasp
+  name: Myasp
+  author: P1finger
+  tags:
+    - myasp
+  description: Myasp
+  matchers:
+    - hash:
+        - "-736276076"
+      location: favicon

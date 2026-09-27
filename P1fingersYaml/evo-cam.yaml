@@ -1,0 +1,26 @@
+- id: evo-cam
+  name: Evo-cam
+  author: P1finger
+  tags:
+    - evo-cam
+  description: Evo-cam
+  matchers:
+    - location: body
+      words:
+        - value="evocam.jar
+        - <applet archive="evocam.jar
+- id: evo-cam-2
+  name: Evo-Cam
+  author: Fofa
+  tags:
+    - evo-cam
+  description: Evo-Cam
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - value="evocam.jar
+    - condition: or
+      location: body
+      words:
+        - <applet archive="evocam.jar

@@ -1,0 +1,10 @@
+- id: siangsoft-filesystem
+  name: Siangsoft-filesystem
+  author: P001
+  tags:
+    - siangsoft-filesystem
+  description: Siangsoft-filesystem
+  matchers:
+    - location: body
+      words:
+        - $.cookie('sianglng' , null)

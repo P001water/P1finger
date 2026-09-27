@@ -1,0 +1,14 @@
+- id: openvas
+  name: OpenVAS
+  author: P1finger
+  tags:
+    - openvas
+  description: OpenVAS
+  matchers:
+    - hash:
+        - "20649669"
+      location: favicon
+    - location: body
+      words:
+        - openvas.css
+        - OpenVAS

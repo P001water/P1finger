@@ -1,0 +1,10 @@
+- id: lasso-engine
+  name: Lasso-web-data-engine
+  author: P001
+  tags:
+    - lasso-engine
+  description: Lasso-web-data-engine
+  matchers:
+    - location: body
+      words:
+        - 'server: lasso'

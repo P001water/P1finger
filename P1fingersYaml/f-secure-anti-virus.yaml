@@ -1,0 +1,10 @@
+- id: secure-anti-virus
+  name: F_Secure-Anti-Virus
+  author: P1finger
+  tags:
+    - secure-anti-virus
+  description: F_Secure-Anti-Virus
+  matchers:
+    - location: body
+      words:
+        - F-Secure Anti-Virus for Internet Mail

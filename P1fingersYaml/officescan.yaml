@@ -1,0 +1,10 @@
+- id: officescan
+  name: Officescan
+  author: P1finger
+  tags:
+    - officescan
+  description: Officescan
+  matchers:
+    - location: header
+      words:
+        - 'Server: Officescan Client'

@@ -1,0 +1,21 @@
+- id: osclass
+  name: Osclass
+  author: Fofa
+  tags:
+    - osclass
+  description: Osclass
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - generator" content="Osclass
+    - condition: or
+      location: header
+      words:
+        - osclass
+    - location: body
+      words:
+        - generator" content="Osclass
+    - location: header
+      words:
+        - osclass

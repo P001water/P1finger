@@ -1,0 +1,11 @@
+- id: destoonb2b-cms
+  name: DESTOONB2B CMS
+  author: P1finger
+  tags:
+    - destoonb2b
+    - cms
+  description: DESTOONB2B CMS
+  matchers:
+    - location: body
+      words:
+        - DESTOON B2B网站管理系统

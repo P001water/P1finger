@@ -1,0 +1,21 @@
+- id: ilas
+  name: Ilas
+  author: P001
+  tags:
+    - ilas
+  description: Ilas
+  matchers:
+    - location: body
+      words:
+        - <iframe name="content"  src="index_middle.html" frameborder="auto
+        - <select id="selprovince"   onchange="getcity(this.options[this.selectedindex].value)">
+- id: ilaswangshangtushuguan
+  name: ILASwangshangtushuguan
+  author: P1finger
+  tags:
+    - ilaswangshangtushuguan
+  description: ILASwangshangtushuguan
+  matchers:
+    - location: body
+      words:
+        - 欢迎使用ilas网上图书馆

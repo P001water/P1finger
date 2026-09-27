@@ -1,0 +1,11 @@
+- id: aj-hyip
+  name: AJ HYIP
+  author: P1finger
+  tags:
+    - aj-hyip
+  description: AJ HYIP
+  matchers:
+    - location: body
+      words:
+        - ajhyip.com
+        - content="AJ HYIP"

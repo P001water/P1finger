@@ -1,0 +1,11 @@
+- id: fxacs-management-system
+  name: FXACS Management System
+  author: P1finger
+  tags:
+    - fxacs
+    - management-system
+  description: FXACS Management System
+  matchers:
+    - location: body
+      words:
+        - <title>FXACS管理系统

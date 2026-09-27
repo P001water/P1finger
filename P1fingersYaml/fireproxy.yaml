@@ -1,0 +1,10 @@
+- id: fireproxy
+  name: FireProxy
+  author: P1finger
+  tags:
+    - fireproxy
+  description: FireProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: FireProxy'

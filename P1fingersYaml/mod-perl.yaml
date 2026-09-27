@@ -1,0 +1,14 @@
+- id: mod-perl
+  name: Mod_perl
+  author: Fofa
+  tags:
+    - mod-perl
+  description: Mod_perl
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_perl
+    - location: header
+      words:
+        - mod_perl

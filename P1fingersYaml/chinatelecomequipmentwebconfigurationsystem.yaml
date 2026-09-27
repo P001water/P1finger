@@ -1,0 +1,10 @@
+- id: chinatelecomequipmentwebconfigurationsystem
+  name: Chinatelecomequipmentwebconfigurationsystem
+  author: P001
+  tags:
+    - chinatelecomequipmentwebconfigurationsystem
+  description: Chinatelecomequipmentwebconfigurationsystem
+  matchers:
+    - location: body
+      words:
+        - 设备web配置</font

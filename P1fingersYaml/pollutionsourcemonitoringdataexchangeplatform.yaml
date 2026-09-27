@@ -1,0 +1,10 @@
+- id: pollutionsourcemonitoringdataexchangeplatform
+  name: Pollutionsourcemonitoringdataexchangeplatform
+  author: P001
+  tags:
+    - pollutionsourcemonitoringdataexchangeplatform
+  description: Pollutionsourcemonitoringdataexchangeplatform
+  matchers:
+    - location: body
+      words:
+        - window.location.href = '/syncmodule/synchome/index';

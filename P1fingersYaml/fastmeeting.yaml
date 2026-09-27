@@ -1,0 +1,24 @@
+- id: haoshitongfastmeeting
+  name: Haoshitongfastmeeting
+  author: P1finger
+  tags:
+    - haoshitongfastmeeting
+  description: Haoshitongfastmeeting
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv="description" content="fsmeeting">
+        - fastmeeting
+- id: haoshitongfastmeeting-2
+  name: Haoshitongfastmeeting
+  author: P001
+  tags:
+    - haoshitongfastmeeting
+  description: Haoshitongfastmeeting
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - login/createqrcode.do
+        - resources/commonimage/favicon.ico
+        - 用户登录

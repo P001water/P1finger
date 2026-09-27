@@ -1,0 +1,10 @@
+- id: sierra-wireless-ace-manager
+  name: Sierra Wireless Ace Manager
+  author: P1finger
+  tags:
+    - sierra-wireless-ace-manager
+  description: Sierra Wireless Ace Manager
+  matchers:
+    - hash:
+        - "-1571472432"
+      location: favicon

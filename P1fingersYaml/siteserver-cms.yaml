@@ -1,0 +1,14 @@
+- id: siteserver
+  name: SiteServer-CMS
+  author: P001
+  tags:
+    - siteserver
+  description: SiteServer-CMS
+  matchers:
+    - location: body
+      words:
+        - http://www.siteserver.cn
+        - sitefiles
+        - siteserver cms
+        - siteserver
+        - t_系统首页模板

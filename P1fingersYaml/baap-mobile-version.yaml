@@ -1,0 +1,21 @@
+- id: baap-mobile-version
+  name: Baap-mobile-version
+  author: P1finger
+  tags:
+    - baap-mobile-version
+  description: Baap-mobile-version
+  matchers:
+    - location: header
+      words:
+        - x-mobilized-by
+- id: baap-mobile-version-2
+  name: BAAP-Mobile-Version
+  author: Fofa
+  tags:
+    - baap-mobile-version
+  description: BAAP-Mobile-Version
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - x-mobilized-by

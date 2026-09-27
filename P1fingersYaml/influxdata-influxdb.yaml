@@ -1,0 +1,11 @@
+- id: influxdata-influxdb
+  name: Influxdata-InfluxDB
+  author: P001
+  tags:
+    - influxdata-influxdb
+  description: Influxdata-InfluxDB
+  matchers:
+    - location: body
+      words:
+        - class="influxdb-version"
+        - influxdb

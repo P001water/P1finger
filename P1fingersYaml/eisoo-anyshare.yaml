@@ -1,0 +1,11 @@
+- id: eisoo-anyshare
+  name: Eisoo-anyshare
+  author: P001
+  tags:
+    - eisoo-anyshare
+  description: Eisoo-anyshare
+  matchers:
+    - location: body
+      words:
+        - res/libs/webuploader/webuploader.css
+        - src="/res/libs/base64.min.js"

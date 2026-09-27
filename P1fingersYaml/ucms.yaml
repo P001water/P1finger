@@ -1,0 +1,10 @@
+- id: ucms
+  name: UCMS
+  author: P1finger
+  tags:
+    - ucms
+  description: UCMS
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-By: UCMS'

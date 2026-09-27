@@ -1,0 +1,24 @@
+- id: mbedthis-appweb
+  name: Mbedthis-appweb
+  author: P1finger
+  tags:
+    - mbedthis-appweb
+  description: Mbedthis-appweb
+  matchers:
+    - location: header
+      words:
+        - Mbedthis-Appweb
+    - location: body
+      words:
+        - 'server: mbedthis-appweb'
+- id: mbedthis-appweb-2
+  name: Mbedthis-Appweb
+  author: Fofa
+  tags:
+    - mbedthis-appweb
+  description: Mbedthis-Appweb
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Mbedthis-Appweb

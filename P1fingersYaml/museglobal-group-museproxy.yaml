@@ -1,0 +1,10 @@
+- id: museglobal-group-museproxy
+  name: MuseGlobal-Group-MuseProxy
+  author: P1finger
+  tags:
+    - museglobal-group-museproxy
+  description: MuseGlobal-Group-MuseProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: MuseProxy'

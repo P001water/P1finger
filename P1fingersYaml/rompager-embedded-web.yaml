@@ -1,0 +1,21 @@
+- id: rompager-embedded
+  name: RomPager Embedded Web
+  author: Fofa
+  tags:
+    - rompager-embedded
+  description: RomPager Embedded Web
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - RomPager
+- id: rompager-embedded-2
+  name: Rompager Embedded Web
+  author: P1finger
+  tags:
+    - rompager-embedded
+  description: Rompager Embedded Web
+  matchers:
+    - location: header
+      words:
+        - RomPager

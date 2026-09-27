@@ -1,0 +1,29 @@
+- id: webray
+  name: Webray
+  author: Fofa
+  tags:
+    - webray
+  description: Webray
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Rayengine
+    - condition: or
+      location: header
+      words:
+        - 'Drivedby: RaySrv'
+    - location: header
+      words:
+        - 'Drivedby: RaySrv'
+- id: webrayyitihuasaomiaoqi
+  name: WebRayyitihuasaomiaoqi
+  author: P1finger
+  tags:
+    - webrayyitihuasaomiaoqi
+  description: WebRayyitihuasaomiaoqi
+  matchers:
+    - location: body
+      words:
+        - 一体化扫描器
+        - var charindex = math.floor(math.random() * 32);

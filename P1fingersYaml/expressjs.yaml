@@ -1,0 +1,11 @@
+- id: expressjs
+  name: Expressjs
+  author: P001
+  tags:
+    - expressjs
+  description: Expressjs
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: express'
+        - <p>welcome to express</p>

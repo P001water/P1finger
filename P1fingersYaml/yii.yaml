@@ -1,0 +1,14 @@
+- id: yii
+  name: Yii
+  author: Fofa
+  tags:
+    - yii
+  description: Yii
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - YII_CSRF_TOKEN
+    - location: header
+      words:
+        - YII_CSRF_TOKEN

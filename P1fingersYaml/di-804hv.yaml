@@ -1,0 +1,21 @@
+- id: di-804hv
+  name: Di-804hv
+  author: P1finger
+  tags:
+    - di-804hv
+  description: Di-804hv
+  matchers:
+    - location: header
+      words:
+        - DI-804HV
+- id: di-804hv-2
+  name: DI-804HV
+  author: Fofa
+  tags:
+    - di-804hv
+  description: DI-804HV
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - DI-804HV

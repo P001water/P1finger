@@ -1,0 +1,14 @@
+- id: gocdn
+  name: Gocdn
+  author: P1finger
+  tags:
+    - gocdn
+  description: Gocdn
+  matchers:
+    - location: header
+      words:
+        - GOCDN
+    - condition: and
+      location: header
+      words:
+        - GOCDN

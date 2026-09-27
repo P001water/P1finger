@@ -1,0 +1,15 @@
+- id: iredadmin-roundcube
+  name: Iredadmin(Roundcube?)
+  author: Fofa
+  tags:
+    - iredadmin-roundcube
+  description: Iredadmin(Roundcube?)
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - iredadmin
+    - condition: or
+      location: body
+      words:
+        - iredadmin

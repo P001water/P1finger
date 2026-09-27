@@ -1,0 +1,29 @@
+- id: zhulangzoomla
+  name: Zhulangzoomla
+  author: P1finger
+  tags:
+    - zhulangzoomla
+  description: Zhulangzoomla
+  matchers:
+    - location: body
+      words:
+        - zoomla
+        - NodePage.aspx
+    - condition: or
+      location: body
+      words:
+        - script src="http://code.zoomla.cn/
+        - /style/images/win8_symbol_140x140.png
+- id: zoomlazhulangcms
+  name: ZoomlazhulangCMS
+  author: P1finger
+  tags:
+    - zoomlazhulangcms
+  description: ZoomlazhulangCMS
+  matchers:
+    - location: body
+      words:
+        - alt="最新版Zoomla逐浪CMS
+        - 提供专业的广告源码与站长工具以及Zoomla!逐浪CMS下载
+        - http://www.z01.com/pub/
+        - 逐浪软件z01.com版权所有

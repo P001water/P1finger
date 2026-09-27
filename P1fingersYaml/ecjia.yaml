@@ -1,0 +1,10 @@
+- id: ecjia
+  name: ECJIA
+  author: P1finger
+  tags:
+    - ecjia
+  description: ECJIA
+  matchers:
+    - location: header
+      words:
+        - ECJIA

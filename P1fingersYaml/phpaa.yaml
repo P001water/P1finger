@@ -1,0 +1,10 @@
+- id: phpaa
+  name: PhpAA
+  author: P1finger
+  tags:
+    - phpaa
+  description: PhpAA
+  matchers:
+    - location: body
+      words:
+        - www.phpaa.cn

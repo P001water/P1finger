@@ -1,0 +1,11 @@
+- id: symphonycms
+  name: SymphonyCMS
+  author: P1finger
+  tags:
+    - symphonycms
+  description: SymphonyCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="Symphony CMS">
+        - Symphony

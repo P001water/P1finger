@@ -1,0 +1,12 @@
+- id: lexmark
+  name: Lexmark
+  author: P001
+  tags:
+    - lexmark
+  description: Lexmark
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /status
+        - <title>lexmark

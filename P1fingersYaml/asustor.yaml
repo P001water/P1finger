@@ -1,0 +1,10 @@
+- id: asustor
+  name: Asustor
+  author: P1finger
+  tags:
+    - asustor
+  description: Asustor
+  matchers:
+    - hash:
+        - "1678170702"
+      location: favicon

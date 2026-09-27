@@ -1,0 +1,10 @@
+- id: epygi-ecqx
+  name: Epygi EcQX
+  author: P1finger
+  tags:
+    - epygi-ecqx
+  description: Epygi EcQX
+  matchers:
+    - location: body
+      words:
+        - epygi <span class="product-name">ecqx

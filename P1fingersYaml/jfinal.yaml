@@ -1,0 +1,13 @@
+- id: jfinal
+  name: JFinal
+  author: P1finger
+  tags:
+    - jfinal
+  description: JFinal
+  matchers:
+    - location: body
+      words:
+        - JFinal
+    - location: header
+      words:
+        - 'Server: JFinal'

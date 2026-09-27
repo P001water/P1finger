@@ -1,0 +1,20 @@
+- id: xinyadaim
+  name: XinyadaIM
+  author: P1finger
+  tags:
+    - xinyadaim
+  description: XinyadaIM
+  matchers:
+    - location: body
+      words:
+        - css/theme.full.css
+- id: xinyuandoudouim
+  name: XinyuandoudouIM
+  author: P1finger
+  tags:
+    - xinyuandoudouim
+  description: XinyuandoudouIM
+  matchers:
+    - location: body
+      words:
+        - 信源豆豆官网

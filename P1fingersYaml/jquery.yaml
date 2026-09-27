@@ -1,0 +1,26 @@
+- id: jquery
+  name: Jquery
+  author: Fofa
+  tags:
+    - jquery
+  description: Jquery
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jquery
+- id: jqueryguanwangcdn
+  name: JqueryguanwangCDN
+  author: Fofa
+  tags:
+    - jqueryguanwangcdn
+  description: JqueryguanwangCDN
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - code.jquery.com
+    - condition: or
+      location: body
+      words:
+        - code.jquery.com

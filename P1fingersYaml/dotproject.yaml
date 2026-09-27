@@ -1,0 +1,10 @@
+- id: dotproject
+  name: Dotproject
+  author: P001
+  tags:
+    - dotproject
+  description: Dotproject
+  matchers:
+    - location: body
+      words:
+        - /images/dp_icon.gif

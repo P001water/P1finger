@@ -1,0 +1,10 @@
+- id: kouton-ctbs
+  name: Kouton-ctbs
+  author: P001
+  tags:
+    - kouton-ctbs
+  description: Kouton-ctbs
+  matchers:
+    - location: body
+      words:
+        - 欢迎使用 kouton ctbs advanced web client 系统!

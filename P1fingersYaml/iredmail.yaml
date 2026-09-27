@@ -1,0 +1,10 @@
+- id: iredmail
+  name: Iredmail
+  author: P001
+  tags:
+    - iredmail
+  description: Iredmail
+  matchers:
+    - location: body
+      words:
+        - iredadmin

@@ -1,0 +1,14 @@
+- id: gpsweb
+  name: GPSweb
+  author: Fofa
+  tags:
+    - gpsweb
+  description: GPSweb
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - GPSweb
+    - location: body
+      words:
+        - GPSweb

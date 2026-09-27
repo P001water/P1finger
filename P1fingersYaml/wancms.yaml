@@ -1,0 +1,11 @@
+- id: wancmsyouxi
+  name: Wancmsyouxi CMS
+  author: P1finger
+  tags:
+    - wancmsyouxi
+    - cms
+  description: Wancmsyouxi CMS
+  matchers:
+    - location: body
+      words:
+        - wancms游戏内容管理系统

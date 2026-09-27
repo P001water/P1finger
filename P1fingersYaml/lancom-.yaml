@@ -1,0 +1,37 @@
+- id: lancom-firewall
+  name: LANCOM Firewall
+  author: P1finger
+  tags:
+    - lancom
+    - firewall
+  description: LANCOM Firewall
+  matchers:
+    - location: body
+      words:
+        - LANCOM
+- id: lancom-firewall-2
+  name: Lancom Firewall
+  author: P001
+  tags:
+    - lancom
+    - firewall
+  description: Lancom Firewall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href="http://www.lancom-systems.de">
+        - firewall
+- id: lancomshebei
+  name: LANCOMshebei
+  author: P1finger
+  tags:
+    - lancomshebei
+  description: LANCOMshebei
+  matchers:
+    - location: body
+      words:
+        - Copyright (c) LANCOM Systems
+    - location: header
+      words:
+        - 'Server: LANCOM'

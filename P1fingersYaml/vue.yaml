@@ -1,0 +1,14 @@
+- id: vuekuangjia
+  name: Vuekuangjia
+  author: Fofa
+  tags:
+    - vuekuangjia
+  description: Vuekuangjia
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - vue.js
+    - location: body
+      words:
+        - vue.js

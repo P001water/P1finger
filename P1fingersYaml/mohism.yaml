@@ -1,0 +1,11 @@
+- id: mohismcms20
+  name: MOHISMCMS20 CMS
+  author: P1finger
+  tags:
+    - mohismcms20
+    - cms
+  description: MOHISMCMS20 CMS
+  matchers:
+    - location: body
+      words:
+        - MOHISM CMS2.0 网站管理系统

@@ -1,0 +1,25 @@
+- id: oracle-fusion-middleware
+  name: Oracle-fusion-middleware
+  author: P001
+  tags:
+  - oracle
+  - oracle-fusion-middleware
+  description: Oracle-fusion-middleware
+  matchers:
+  - location: body
+    words:
+    - href="css/fmw_bottom_area.css
+- id: oracle-fusion-middleware-2
+  name: Oracle Fusion Middleware
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-fusion-middleware
+  description: Oracle Fusion Middleware
+  matchers:
+  - location: body
+    words:
+    - Welcome to Oracle Fusion Middleware
+  - location: header
+    words:
+    - Oracle-Application-Server

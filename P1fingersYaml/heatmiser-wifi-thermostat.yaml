@@ -1,0 +1,10 @@
+- id: heatmiser-wifi-thermostat
+  name: Heatmiser Wifi Thermostat
+  author: P1finger
+  tags:
+    - heatmiser-wifi-thermostat
+  description: Heatmiser Wifi Thermostat
+  matchers:
+    - location: body
+      words:
+        - Heatmiser Wifi Thermostat

@@ -1,0 +1,13 @@
+- id: graylog
+  name: Graylog
+  author: P001
+  tags:
+    - graylog
+  description: Graylog
+  matchers:
+    - location: body
+      words:
+        - org.graylog.plugins.pipelineprocessor.processorplugin
+    - location: body
+      words:
+        - Graylog Web Interface

@@ -1,0 +1,10 @@
+- id: liquidfiles
+  name: Liquidfiles
+  author: P1finger
+  tags:
+    - liquidfiles
+  description: Liquidfiles
+  matchers:
+    - hash:
+        - "541087742"
+      location: favicon

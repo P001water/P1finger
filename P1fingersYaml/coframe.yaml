@@ -1,0 +1,10 @@
+- id: puyuancoframe
+  name: Puyuancoframe
+  author: P1finger
+  tags:
+    - puyuancoframe
+  description: Puyuancoframe
+  matchers:
+    - location: body
+      words:
+        - coframe

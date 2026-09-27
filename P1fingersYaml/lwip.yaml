@@ -1,0 +1,10 @@
+- id: lwip
+  name: Lwip
+  author: P1finger
+  tags:
+    - lwip
+  description: Lwip
+  matchers:
+    - hash:
+        - "-1205024243"
+      location: favicon

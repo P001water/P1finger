@@ -1,0 +1,13 @@
+- id: typo3cms
+  name: TYPO3CMS
+  author: P1finger
+  tags:
+    - typo3cms
+  description: TYPO3CMS
+  matchers:
+    - location: body
+      words:
+        - This website is powered by TYPO3
+    - location: header
+      words:
+        - fe_typo_user

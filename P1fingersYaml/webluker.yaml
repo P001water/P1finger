@@ -1,0 +1,14 @@
+- id: webluker
+  name: Webluker
+  author: Fofa
+  tags:
+    - webluker
+  description: Webluker
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Webluker-Edge
+    - location: header
+      words:
+        - Webluker-Edge

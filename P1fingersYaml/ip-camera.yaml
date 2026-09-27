@@ -1,0 +1,10 @@
+- id: ip
+  name: Ip Camera
+  author: P1finger
+  tags:
+    - ip
+  description: Ip Camera
+  matchers:
+    - hash:
+        - "492290497"
+      location: favicon

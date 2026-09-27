@@ -1,0 +1,11 @@
+- id: yundianiconnzhongduanyonghujisuan
+  name: YundianiConnzhongduanyonghujisuan
+  author: P1finger
+  tags:
+    - yundianiconnzhongduanyonghujisuan
+  description: YundianiConnzhongduanyonghujisuan
+  matchers:
+    - location: body
+      words:
+        - OWVM_PRODUCT_NAME
+        - Owtware

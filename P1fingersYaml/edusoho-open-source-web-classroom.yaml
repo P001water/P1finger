@@ -1,0 +1,10 @@
+- id: edusoho-open-source-classroom
+  name: Edusoho-open-source-web-classroom-
+  author: P001
+  tags:
+    - edusoho-open-source-classroom
+  description: Edusoho-open-source-web-classroom-
+  matchers:
+    - location: body
+      words:
+        - powered by edusoho

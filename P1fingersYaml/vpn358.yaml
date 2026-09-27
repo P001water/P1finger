@@ -1,0 +1,11 @@
+- id: 35mail-358-system
+  name: 35mail System
+  author: P1finger
+  tags:
+    - 35mail
+    - system
+  description: 35mail System
+  matchers:
+    - location: body
+      words:
+        - 源授权访问系统

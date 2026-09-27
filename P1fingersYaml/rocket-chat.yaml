@@ -1,0 +1,10 @@
+- id: rocket-chat
+  name: Rocket Chat
+  author: P1finger
+  tags:
+    - rocket-chat
+  description: Rocket Chat
+  matchers:
+    - hash:
+        - "225632504"
+      location: favicon

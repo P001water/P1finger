@@ -1,0 +1,17 @@
+- id: mysqlman
+  name: Mysqlman
+  author: P001
+  tags:
+    - mysqlman
+  description: Mysqlman
+  matchers:
+    - location: body
+      words:
+        - href="mysql.cgi?do=top_level_op
+        - size="1">mysqlman
+    - location: body
+      words:
+        - MySQLMan
+    - location: header
+      words:
+        - MySQLMan_url

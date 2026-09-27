@@ -1,0 +1,10 @@
+- id: blackboard-learn
+  name: Blackboard Learn
+  author: P1finger
+  tags:
+    - blackboard-learn
+  description: Blackboard Learn
+  matchers:
+    - location: body
+      words:
+        - Blackboard Learn

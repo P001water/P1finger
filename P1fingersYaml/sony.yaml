@@ -1,0 +1,20 @@
+- id: sony-camera-2
+  name: Sony Camera
+  author: Fofa
+  tags:
+    - sony
+    - camera
+  description: Sony Camera
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Sony Network Camera
+    - condition: or
+      location: body
+      words:
+        - inquiry.cgi?inqjs=system&inqjs=camera
+    - location: body
+      words:
+        - Sony Network Camera
+        - inquiry.cgi?inqjs=system&inqjs=camera

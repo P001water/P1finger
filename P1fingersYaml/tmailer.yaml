@@ -1,0 +1,33 @@
+- id: taixintmailer-mail-system
+  name: Taixintmailer Mail System
+  author: P1finger
+  tags:
+    - taixintmailer
+    - mail-system
+  description: Taixintmailer Mail System
+  matchers:
+    - location: body
+      words:
+        - Tmailer
+    - condition: or
+      location: title
+      words:
+        - Tmailer
+    - condition: or
+      location: body
+      words:
+        - content="Tmailer
+    - condition: or
+      location: body
+      words:
+        - href="/tmailer/img/logo/favicon.ico
+- id: tmailer
+  name: Tmailer
+  author: P001
+  tags:
+    - tmailer
+  description: Tmailer
+  matchers:
+    - location: body
+      words:
+        - href="/tmailer/img/logo/favicon.ico

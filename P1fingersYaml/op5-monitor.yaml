@@ -1,0 +1,10 @@
+- id: op5-monitor
+  name: Op5-monitor
+  author: P001
+  tags:
+    - op5-monitor
+  description: Op5-monitor
+  matchers:
+    - location: body
+      words:
+        - /monitor/application/views/themes/default/css/default/common.css

@@ -1,0 +1,14 @@
+- id: mod-hive
+  name: Mod_hive
+  author: Fofa
+  tags:
+    - mod-hive
+  description: Mod_hive
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_hive
+    - location: header
+      words:
+        - mod_hive

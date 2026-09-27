@@ -1,0 +1,10 @@
+- id: nos
+  name: Nos Router
+  author: P1finger
+  tags:
+    - nos
+  description: Nos Router
+  matchers:
+    - hash:
+        - "-831826827"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: topwalk-mtp
+  name: Topwalk-mtp
+  author: P001
+  tags:
+    - topwalk-mtp
+  description: Topwalk-mtp
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv="refresh" content="0;url=/usercertloginaction.action" />

@@ -1,0 +1,10 @@
+- id: teambition
+  name: Teambition
+  author: P1finger
+  tags:
+    - teambition
+  description: Teambition
+  matchers:
+    - location: body
+      words:
+        - Teambition

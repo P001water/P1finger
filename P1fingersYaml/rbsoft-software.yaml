@@ -1,0 +1,10 @@
+- id: rbsoft
+  name: Rbsoft-software
+  author: P001
+  tags:
+    - rbsoft
+  description: Rbsoft-software
+  matchers:
+    - location: body
+      words:
+        - name="redirectto" value="/zym/rbkj.nsf"

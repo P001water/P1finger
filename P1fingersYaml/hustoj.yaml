@@ -1,0 +1,10 @@
+- id: hustoj
+  name: HUSTOJ
+  author: P1finger
+  tags:
+    - hustoj
+  description: HUSTOJ
+  matchers:
+    - location: body
+      words:
+        - zhblue/hustoj'>HUSTOJ Project

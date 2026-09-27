@@ -1,0 +1,10 @@
+- id: etherpad
+  name: Etherpad
+  author: P1finger
+  tags:
+    - etherpad
+  description: Etherpad
+  matchers:
+    - location: header
+      words:
+        - Etherpad

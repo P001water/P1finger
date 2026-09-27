@@ -1,0 +1,12 @@
+- id: hphu
+  name: Hphu-system
+  author: P001
+  tags:
+    - hphu
+  description: Hphu-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - id='psssdiv'
+        - src='kss_inc/js/jquery.1.3.2.pack.js'

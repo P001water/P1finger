@@ -1,0 +1,10 @@
+- id: pluck
+  name: Pluck CMS
+  author: P1finger
+  tags:
+    - pluck
+  description: Pluck CMS
+  matchers:
+    - location: body
+      words:
+        - content="pluck

@@ -1,0 +1,32 @@
+- id: changjietong
+  name: Changjietong
+  author: Fofa
+  tags:
+    - changjietong
+  description: Changjietong
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 畅捷通
+- id: changjietongtplus
+  name: ChangjietongTplus
+  author: P1finger
+  tags:
+    - changjietongtplus
+  description: ChangjietongTplus
+  matchers:
+    - location: body
+      words:
+        - 畅捷通 T+
+        - tp.control.css.ashx
+- id: changjietongt3qiyetong
+  name: ChangjietongT3qiyetong
+  author: P1finger
+  tags:
+    - changjietongt3qiyetong
+  description: ChangjietongT3qiyetong
+  matchers:
+    - location: body
+      words:
+        - 畅捷通服务专线

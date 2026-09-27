@@ -1,0 +1,11 @@
+- id: wanmishangyun-1248
+  name: Wanmishangyun Mall Management System
+  author: P1finger
+  tags:
+    - wanmishangyun
+    - mall-management-system
+  description: Wanmishangyun Mall Management System
+  matchers:
+    - location: body
+      words:
+        - 1248-商城管理系统

@@ -1,0 +1,13 @@
+- id: asynqmon
+  name: Asynqmon
+  author: P001
+  tags:
+    - asynqmon
+  description: Asynqmon
+  matchers:
+    - hash:
+        - 7d56c3bcc4d9522bdc958785f1866776
+      location: favicon
+    - location: body
+      words:
+        - content="asynq monitoring web console"

@@ -1,0 +1,14 @@
+- id: puppet-node-manager
+  name: Puppet_Node_Manager
+  author: Fofa
+  tags:
+    - puppet-node-manager
+  description: Puppet_Node_Manager
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Puppet Node Manager
+    - location: body
+      words:
+        - Puppet Node Manager

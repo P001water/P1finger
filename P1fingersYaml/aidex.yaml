@@ -1,0 +1,21 @@
+- id: aidex
+  name: AIDeX
+  author: Fofa
+  tags:
+    - aidex
+  description: AIDeX
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - aidex
+    - condition: and
+      location: body
+      words:
+        - http://www.aidex.de/")
+    - location: body
+      words:
+        - http://www.aidex.de/
+    - location: header
+      words:
+        - aidex

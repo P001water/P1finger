@@ -1,0 +1,11 @@
+- id: elitecms
+  name: EliteCMS
+  author: P1finger
+  tags:
+    - elitecms
+  description: EliteCMS
+  matchers:
+    - location: body
+      words:
+        - ELITE CMS
+        - 陕西益利德软件科技有限公司

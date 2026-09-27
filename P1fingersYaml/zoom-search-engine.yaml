@@ -1,0 +1,21 @@
+- id: zoom-search-engine
+  name: Zoom-search-engine
+  author: P1finger
+  tags:
+    - zoom-search-engine
+  description: Zoom-search-engine
+  matchers:
+    - location: body
+      words:
+        - name="zoom_query"
+- id: zoom-search-engine-2
+  name: Zoom-Search-Engine
+  author: Fofa
+  tags:
+    - zoom-search-engine
+  description: Zoom-Search-Engine
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - name="zoom_query

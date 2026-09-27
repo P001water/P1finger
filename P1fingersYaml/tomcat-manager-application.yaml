@@ -1,0 +1,12 @@
+- id: tomcat-manager
+  name: Tomcat Manager Application
+  author: Fofa
+  tags:
+  - tomcat
+  - tomcat-manager
+  description: Tomcat Manager Application
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Tomcat Manager Application

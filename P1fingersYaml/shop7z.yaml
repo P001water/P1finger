@@ -1,0 +1,23 @@
+- id: shop7z
+  name: Shop7Z
+  author: Fofa
+  tags:
+    - shop7z
+  description: Shop7Z
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - sitekeyword
+    - condition: and
+      location: body
+      words:
+        - headlist")
+    - location: body
+      words:
+        - function www_zzjs_net_change
+        - id="www_zzjs_net_loding"
+    - location: body
+      words:
+        - Shop7z购物系统
+        - http://www.Shop7z.com

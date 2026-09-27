@@ -1,0 +1,21 @@
+- id: coyotepoint-load-balancer
+  name: Coyotepoint-load-balancer
+  author: P1finger
+  tags:
+    - coyotepoint-load-balancer
+  description: Coyotepoint-load-balancer
+  matchers:
+    - location: header
+      words:
+        - CoyotePoint
+- id: coyotepoint-load-balancer-2
+  name: CoyotePoint-Load-Balancer
+  author: Fofa
+  tags:
+    - coyotepoint-load-balancer
+  description: CoyotePoint-Load-Balancer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CoyotePoint

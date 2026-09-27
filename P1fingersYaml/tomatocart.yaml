@@ -1,0 +1,14 @@
+- id: tomatocart
+  name: Tomatocart
+  author: P001
+  tags:
+    - tomatocart
+  description: Tomatocart
+  matchers:
+    - location: body
+      words:
+        - content="tomatocart open source shopping cart solutions" />
+        - powered by <a href="http://www.tomatocart.com" target="_blank">tomatocart</a>
+    - location: body
+      words:
+        - content="TomatoCart

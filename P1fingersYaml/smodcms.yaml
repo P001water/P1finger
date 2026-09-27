@@ -1,0 +1,10 @@
+- id: smodcms
+  name: SmodCMS
+  author: P1finger
+  tags:
+    - smodcms
+  description: SmodCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="Generator" content="SmodCMS" />

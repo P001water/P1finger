@@ -1,0 +1,14 @@
+- id: keycloak
+  name: Keycloak
+  author: P1finger
+  tags:
+    - keycloak
+  description: Keycloak
+  matchers:
+    - hash:
+        - "-1105083093"
+      location: favicon
+    - location: body
+      words:
+        - Welcome to Keycloak
+        - www.keycloak.org

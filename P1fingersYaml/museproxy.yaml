@@ -1,0 +1,10 @@
+- id: museproxy
+  name: MuseProxy
+  author: P1finger
+  tags:
+    - museproxy
+  description: MuseProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: MuseProxy'

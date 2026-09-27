@@ -1,0 +1,16 @@
+- id: xiaomayi-2
+  name: Xiaomayi
+  author: P001
+  tags:
+    - xiaomayi
+  description: Xiaomayi
+  matchers:
+    - location: body
+      words:
+        - /template/ant/css/anthomecomm.css
+    - location: body
+      words:
+        - /Template/Ant/Css/AntHomeComm.css
+    - location: header
+      words:
+        - AntXiaouserslogin

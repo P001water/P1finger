@@ -1,0 +1,11 @@
+- id: vidyo-video-conferencing
+  name: Vidyo Video Conferencing
+  author: P1finger
+  tags:
+    - vidyo
+    - video-conferencing
+  description: Vidyo Video Conferencing
+  matchers:
+    - location: body
+      words:
+        - VidyoRouter Configuration

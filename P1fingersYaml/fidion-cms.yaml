@@ -1,0 +1,34 @@
+- id: fidion
+  name: Fidion-cms
+  author: P1finger
+  tags:
+    - fidion
+  description: Fidion-cms
+  matchers:
+    - location: body
+      words:
+        - <!-- fCMS-Template head.tpl begins
+    - location: header
+      words:
+        - fCMS=
+    - location: body
+      words:
+        - <!-- fcms-template head.tpl begins
+    - location: body
+      words:
+        - <meta name="generator" content="fCMS by fidion
+- id: fidion-2
+  name: Fidion-CMS
+  author: Fofa
+  tags:
+    - fidion
+  description: Fidion-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <!-- fCMS-Template head.tpl begins
+    - condition: or
+      location: header
+      words:
+        - fCMS=

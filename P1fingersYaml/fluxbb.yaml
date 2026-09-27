@@ -1,0 +1,17 @@
+- id: fluxbb
+  name: FluxBB
+  author: Fofa
+  tags:
+    - fluxbb
+  description: FluxBB
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://fluxbb.org/
+    - location: body
+      words:
+        - Powered by <a href="http://fluxbb.org/
+    - location: body
+      words:
+        - powered by <a href="http://fluxbb.org/

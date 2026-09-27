@@ -1,0 +1,21 @@
+- id: easylink-solutions
+  name: Easylink-web-solutions
+  author: P1finger
+  tags:
+    - easylink-solutions
+  description: Easylink-web-solutions
+  matchers:
+    - location: body
+      words:
+        - content="easyLink
+- id: easylink-solutions-2
+  name: EasyLink-Web-Solutions
+  author: Fofa
+  tags:
+    - easylink-solutions
+  description: EasyLink-Web-Solutions
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="easyLink

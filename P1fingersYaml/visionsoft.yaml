@@ -1,0 +1,14 @@
+- id: visionsoft
+  name: VisionSoft
+  author: P1finger
+  tags:
+    - visionsoft
+  description: VisionSoft
+  matchers:
+    - hash:
+        - "-1590619462"
+      location: favicon
+    - location: body
+      words:
+        - CopyRight(C) Visionsoft
+        - Visionsoft

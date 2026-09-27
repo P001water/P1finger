@@ -1,0 +1,11 @@
+- id: dlink-sharecenter
+  name: DLink ShareCenter
+  author: P1finger
+  tags:
+  - dlink
+  - dlink-sharecenter
+  description: DLink ShareCenter
+  matchers:
+  - location: body
+    words:
+    - In order to access the ShareCenter

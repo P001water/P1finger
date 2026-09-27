@@ -1,0 +1,10 @@
+- id: chinatelecomarrearsrecoverymanagementsystem
+  name: Chinatelecomarrearsrecoverymanagementsystem
+  author: P001
+  tags:
+    - chinatelecomarrearsrecoverymanagementsystem
+  description: Chinatelecomarrearsrecoverymanagementsystem
+  matchers:
+    - location: body
+      words:
+        - id="v_login_container"

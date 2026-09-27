@@ -1,0 +1,11 @@
+- id: diancms
+  name: Diancms
+  author: P001
+  tags:
+    - diancms
+  description: Diancms
+  matchers:
+    - location: body
+      words:
+        - diancms_sitename
+        - diancms_用户登陆引用

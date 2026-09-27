@@ -1,0 +1,11 @@
+- id: risingwangluoanquanyujing
+  name: Risingwangluoanquanyujing System
+  author: P001
+  tags:
+    - risingwangluoanquanyujing
+    - system
+  description: Risingwangluoanquanyujing System
+  matchers:
+    - location: body
+      words:
+        - 瑞星网络安全预警系统

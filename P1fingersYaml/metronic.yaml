@@ -1,0 +1,10 @@
+- id: metronic
+  name: Metronic
+  author: P1finger
+  tags:
+    - metronic
+  description: Metronic
+  matchers:
+    - location: body
+      words:
+        - metronic. admin dashboard template.

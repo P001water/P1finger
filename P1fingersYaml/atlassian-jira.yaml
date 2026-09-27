@@ -1,0 +1,14 @@
+- id: atlassian-jira
+  name: Atlassian-jira
+  author: P001
+  tags:
+  - jira
+  - atlassian-jira
+  description: Atlassian-jira
+  matchers:
+  - location: body
+    words:
+    - 'location: /secure/setupmode!default.jspa'
+    - ams-build-number
+    - com.atlassian.jira
+    - jira.webresources

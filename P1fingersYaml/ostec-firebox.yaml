@@ -1,0 +1,28 @@
+- id: ostec-firebox
+  name: Ostec-firebox
+  author: P001
+  tags:
+    - ostec-firebox
+  description: Ostec-firebox
+  matchers:
+    - location: body
+      words:
+        - 'background-image: url(''/icones/fundo_firebox.png'')'
+        - http://colorzilla.com/
+    - hash:
+        - "635541900"
+      location: favicon
+    - location: body
+      words:
+        - OSTEC FireBox
+- id: ostec-firebox-2
+  name: Ostec Firebox
+  author: P1finger
+  tags:
+    - ostec-firebox
+  description: Ostec Firebox
+  matchers:
+    - location: body
+      words:
+        - http://colorzilla.com/
+        - OSTEC FireBox

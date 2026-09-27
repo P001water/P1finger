@@ -1,0 +1,10 @@
+- id: secbi
+  name: Secbi-product
+  author: P001
+  tags:
+    - secbi
+  description: Secbi-product
+  matchers:
+    - location: body
+      words:
+        - /secbiutils.min.js

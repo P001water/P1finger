@@ -1,0 +1,22 @@
+- id: freenas
+  name: FreeNAS
+  author: Fofa
+  tags:
+    - freenas
+  description: FreeNAS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - title="Welcome to FreeNAS
+    - condition: or
+      location: body
+      words:
+        - /images/ui/freenas-logo.png
+    - location: body
+      words:
+        - FreeNAS
+    - location: body
+      words:
+        - /images/ui/freenas-logo.png
+        - title="welcome to freenas

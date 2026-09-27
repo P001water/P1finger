@@ -1,0 +1,10 @@
+- id: peoplenet-ikey
+  name: Peoplenet-ikey
+  author: P001
+  tags:
+    - peoplenet-ikey
+  description: Peoplenet-ikey
+  matchers:
+    - location: body
+      words:
+        - content="ikey,众人科技,ikey

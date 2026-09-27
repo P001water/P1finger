@@ -1,0 +1,10 @@
+- id: adaptec-maxview
+  name: Adaptec-maxview
+  author: P001
+  tags:
+    - adaptec-maxview
+  description: Adaptec-maxview
+  matchers:
+    - location: body
+      words:
+        - action="/maxview/manager/login.xhtml

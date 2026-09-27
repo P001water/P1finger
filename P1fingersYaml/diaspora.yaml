@@ -1,0 +1,22 @@
+- id: diaspora
+  name: Diaspora
+  author: Fofa
+  tags:
+    - diaspora
+  description: Diaspora
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - _diaspora_session
+    - condition: or
+      location: header
+      words:
+        - x-git-update
+    - condition: or
+      location: header
+      words:
+        - x-git-revision
+    - location: header
+      words:
+        - x-git-revision

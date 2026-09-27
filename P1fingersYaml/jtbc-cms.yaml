@@ -1,0 +1,22 @@
+- id: jtbc
+  name: JTBC(CMS)
+  author: Fofa
+  tags:
+    - jtbc
+  description: JTBC(CMS)
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /js/jtbc.js
+    - condition: or
+      location: body
+      words:
+        - content="JTBC
+    - location: body
+      words:
+        - /js/jtbc.js
+        - content="JTBC
+    - location: body
+      words:
+        - jtbc.frontend.ready();

@@ -1,0 +1,11 @@
+- id: yulong-hids
+  name: Yulong-hids
+  author: P001
+  tags:
+    - yulong-hids
+  description: Yulong-hids
+  matchers:
+    - location: body
+      words:
+        - <h1>驭龙</h1>
+        - <h2>yulong - a cool hids system.</h2>

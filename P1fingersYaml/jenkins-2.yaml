@@ -1,0 +1,16 @@
+- id: jenkins-2
+  name: Jenkins
+  author: nuclei
+  tags:
+  - jenkins
+  - jenkins
+  description: Jenkins
+  paths:
+  - /whoAmI/
+  matchers:
+  - location: header
+    words:
+    - 'x-jenkins:'
+  - location: body
+    words:
+    - Jenkins

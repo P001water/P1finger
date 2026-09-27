@@ -1,0 +1,11 @@
+- id: glawaymomzhizaoyunying
+  name: GlawayMOMzhizaoyunying Management System
+  author: P1finger
+  tags:
+    - glawaymomzhizaoyunying
+    - management-system
+  description: GlawayMOMzhizaoyunying Management System
+  matchers:
+    - location: body
+      words:
+        - <title>Glaway MOM制造运营管理系统

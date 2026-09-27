@@ -1,0 +1,11 @@
+- id: rap
+  name: Rap
+  author: Fofa
+  tags:
+    - rap
+  description: Rap
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /jscripts/rap_util.js

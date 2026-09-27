@@ -1,0 +1,10 @@
+- id: hanwei
+  name: Hanwei-cms
+  author: P001
+  tags:
+    - hanwei
+  description: Hanwei-cms
+  matchers:
+    - location: body
+      words:
+        - showsubpage.jsp

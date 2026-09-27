@@ -1,0 +1,21 @@
+- id: ontap
+  name: Data-ontap
+  author: P1finger
+  tags:
+    - ontap
+  description: Data-ontap
+  matchers:
+    - location: header
+      words:
+        - Data ONTAP
+- id: ontap-2
+  name: Data-ONTAP
+  author: Fofa
+  tags:
+    - ontap
+  description: Data-ONTAP
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Data ONTAP

@@ -1,0 +1,29 @@
+- id: imageview
+  name: Imageview
+  author: Fofa
+  tags:
+    - imageview
+  description: Imageview
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Imageview
+    - condition: or
+      location: body
+      words:
+        - By Jorge Schrauwen
+    - condition: or
+      location: body
+      words:
+        - href="http://www.blackdot.be" title="Blackdot.be
+    - location: body
+      words:
+        - content="Imageview
+        - By Jorge Schrauwen
+        - href="http://www.blackdot.be" title="Blackdot.be
+    - location: body
+      words:
+        - by jorge schrauwen
+        - content="imageview
+        - href="http://www.blackdot.be" title="blackdot.be

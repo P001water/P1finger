@@ -1,0 +1,10 @@
+- id: scrapydweb
+  name: ScrapydWeb
+  author: P1finger
+  tags:
+    - scrapydweb
+  description: ScrapydWeb
+  matchers:
+    - location: body
+      words:
+        - servers - ScrapydWeb

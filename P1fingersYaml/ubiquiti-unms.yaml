@@ -1,0 +1,24 @@
+- id: ubiquiti-unms
+  name: Ubiquiti-unms
+  author: P001
+  tags:
+    - ubiquiti-unms
+  description: Ubiquiti-unms
+  matchers:
+    - location: body
+      words:
+        - content="unms"
+- id: ubiquiti-unms-2
+  name: Ubiquiti Unms
+  author: P1finger
+  tags:
+    - ubiquiti-unms
+  description: Ubiquiti Unms
+  matchers:
+    - hash:
+        - "1157789622"
+      location: favicon
+    - location: body
+      words:
+        - content="unms"
+        - unms

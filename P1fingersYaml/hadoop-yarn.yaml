@@ -1,0 +1,11 @@
+- id: hadoop-yarn
+  name: Hadoop Yarn
+  author: P1finger
+  tags:
+  - hadoop
+  - hadoop-yarn
+  description: Hadoop Yarn
+  matchers:
+  - location: body
+    words:
+    - /static/yarn.css

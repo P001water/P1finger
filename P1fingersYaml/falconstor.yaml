@@ -1,0 +1,10 @@
+- id: falconstor
+  name: FalconStor
+  author: P1finger
+  tags:
+    - falconstor
+  description: FalconStor
+  matchers:
+    - location: body
+      words:
+        - <title>FalconStor Console Web Start

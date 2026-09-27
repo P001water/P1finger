@@ -1,0 +1,10 @@
+- id: yichao-crmreporting
+  name: Yichao-crmreporting
+  author: P001
+  tags:
+    - yichao-crmreporting
+  description: Yichao-crmreporting
+  matchers:
+    - location: body
+      words:
+        - href="/css/vendors~index.acfeb.css"

@@ -1,0 +1,11 @@
+- id: screwturn-wiki
+  name: Screwturn-wiki-web-service
+  author: P001
+  tags:
+    - screwturn-wiki
+  description: Screwturn-wiki-web-service
+  matchers:
+    - location: body
+      words:
+        - 'powered by <a class="externallink" href="http:'
+        - title="screwturn wiki" target="_blank">screwturn wiki

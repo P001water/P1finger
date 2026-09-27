@@ -1,0 +1,14 @@
+- id: anneca-intouch-crm
+  name: Anneca-intouch-crm
+  author: P001
+  tags:
+    - anneca-intouch-crm
+  description: Anneca-intouch-crm
+  matchers:
+    - location: body
+      words:
+        - href="http://www.anneca.cz"
+    - location: body
+      words:
+        - InTouch CRM
+        - intouch.js?version

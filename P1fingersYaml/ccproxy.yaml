@@ -1,0 +1,17 @@
+- id: ccproxy
+  name: CCProxy
+  author: Fofa
+  tags:
+    - ccproxy
+  description: CCProxy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: CCProxy'
+    - location: header
+      words:
+        - 'Server: CCProxy'
+    - location: header
+      words:
+        - CCProxy

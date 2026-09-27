@@ -1,0 +1,10 @@
+- id: aliyunmqs
+  name: AliyunMQS
+  author: P1finger
+  tags:
+    - aliyunmqs
+  description: AliyunMQS
+  matchers:
+    - location: header
+      words:
+        - 'Server: AliyunMQS'

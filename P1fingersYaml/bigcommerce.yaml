@@ -1,0 +1,18 @@
+- id: bigcommerce
+  name: Bigcommerce
+  author: Fofa
+  tags:
+    - bigcommerce
+  description: Bigcommerce
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - SHOP_SESSION_TOKEN
+    - location: header
+      words:
+        - SHOP_SESSION_TOKEN
+    - location: body
+      words:
+        - .BigCommerce.com
+        - .BigCommerce.com

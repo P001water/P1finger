@@ -1,0 +1,10 @@
+- id: w3-total-cache
+  name: W3-total-cache
+  author: P001
+  tags:
+    - w3-total-cache
+  description: W3-total-cache
+  matchers:
+    - location: body
+      words:
+        - '<!-- performance optimized by w3 total cache. learn more: http://www.w3-edge.com/wordpress-plugins/'

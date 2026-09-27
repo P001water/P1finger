@@ -1,0 +1,13 @@
+- id: maipuisg1000-security-gateway
+  name: Maipuisg1000 Security Gateway
+  author: P001
+  tags:
+    - maipuisg1000
+    - security-gateway
+  description: Maipuisg1000 Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /php/common/checknum_creat.php?module=config_authnum")?
+        - isg1000

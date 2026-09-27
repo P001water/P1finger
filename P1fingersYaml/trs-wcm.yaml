@@ -1,0 +1,48 @@
+- id: trs-wcm
+  name: Trs-wcm
+  author: P001
+  tags:
+  - trs
+  - trs-wcm
+  description: Trs-wcm
+  matchers:
+  - location: body
+    words:
+    - /wcm" target="_blank">网站管理
+    - /wcm" target="_blank">管理
+    - /wcm/app/js
+    - 0;url=/wcm
+    - forum.trs.com.cn
+    - window.location.href = "/wcm";
+- id: trs-wcm-2
+  name: Trs_wcm
+  author: Fofa
+  tags:
+  - trs
+  - trs-wcm
+  description: Trs_wcm
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /wcm/app/js
+  - condition: or
+    location: body
+    words:
+    - 0;URL=/wcm
+  - condition: or
+    location: body
+    words:
+    - window.location.href = "/wcm";
+  - condition: or
+    location: body
+    words:
+    - wcm")
+  - condition: or
+    location: body
+    words:
+    - /wcm" target="_blank">网站管理
+  - condition: or
+    location: body
+    words:
+    - /wcm" target="_blank">管理

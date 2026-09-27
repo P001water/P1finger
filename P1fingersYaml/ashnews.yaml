@@ -1,0 +1,18 @@
+- id: ashnews
+  name: Ashnews
+  author: Fofa
+  tags:
+    - ashnews
+  description: Ashnews
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by
+    - condition: and
+      location: body
+      words:
+        - ashnews
+    - location: body
+      words:
+        - ashnews

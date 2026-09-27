@@ -1,0 +1,11 @@
+- id: apache-subversion
+  name: Apache Subversion
+  author: P1finger
+  tags:
+  - apache
+  - apache-subversion
+  description: Apache Subversion
+  matchers:
+  - location: body
+    words:
+    - CollabNet Subversion Edge 登录

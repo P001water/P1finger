@@ -1,0 +1,10 @@
+- id: pear-project
+  name: Pear-project
+  author: P001
+  tags:
+    - pear-project
+  description: Pear-project
+  matchers:
+    - hash:
+        - 4a912be52af99e4407d53651ccde64e6
+      location: favicon

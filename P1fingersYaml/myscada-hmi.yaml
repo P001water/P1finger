@@ -1,0 +1,10 @@
+- id: myscada-hmi
+  name: Myscada-hmi
+  author: P001
+  tags:
+    - myscada-hmi
+  description: Myscada-hmi
+  matchers:
+    - location: body
+      words:
+        - if(window.__myscadaversion)

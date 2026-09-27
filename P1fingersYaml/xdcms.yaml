@@ -1,0 +1,13 @@
+- id: xdcms
+  name: Xdcms
+  author: P001
+  tags:
+    - xdcms
+  description: Xdcms
+  matchers:
+    - location: body
+      words:
+        - system/templates/xdcms/
+    - location: body
+      words:
+        - /system/templates/xdcms/

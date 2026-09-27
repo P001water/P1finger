@@ -1,0 +1,14 @@
+- id: opendocman
+  name: Opendocman
+  author: P001
+  tags:
+    - opendocman
+  description: Opendocman
+  matchers:
+    - location: body
+      words:
+        - target="_new">opendocman
+        - welcome to opendocman
+    - location: body
+      words:
+        - www.opendocman.com

@@ -1,0 +1,15 @@
+- id: proxmox-ve
+  name: Proxmox-ve
+  author: P001
+  tags:
+    - proxmox-ve
+  description: Proxmox-ve
+  matchers:
+    - location: body
+      words:
+        - class="boxheadline">proxmox virtual environment
+        - ext.create('pve.stdworkspace')
+        - href='http://www.proxmox.com' target='_blank' class="boxheadline
+    - location: header
+      words:
+        - pve-api-daemon

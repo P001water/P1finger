@@ -1,0 +1,13 @@
+- id: bitbucket
+  name: Bitbucket
+  author: P001
+  tags:
+    - bitbucket
+  description: Bitbucket
+  matchers:
+    - location: body
+      words:
+        - bitbucket.page.login
+    - location: body
+      words:
+        - Bitbucket

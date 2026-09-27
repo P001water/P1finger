@@ -1,0 +1,10 @@
+- id: asp-net-requestvalidationmode
+  name: ASP.NET RequestValidationMode
+  author: P1finger
+  tags:
+    - asp-net-requestvalidationmode
+  description: ASP.NET RequestValidationMode
+  matchers:
+    - location: body
+      words:
+        - <title>It's not possibile to initialize shared session without an organization

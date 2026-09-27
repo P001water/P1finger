@@ -1,0 +1,14 @@
+- id: bestshoppro
+  name: BestShopPro
+  author: Fofa
+  tags:
+    - bestshoppro
+  description: BestShopPro
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="www.bst.pl
+    - location: body
+      words:
+        - content="www.bst.pl

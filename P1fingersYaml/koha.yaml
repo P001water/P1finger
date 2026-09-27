@@ -1,0 +1,11 @@
+- id: koha
+  name: Koha
+  author: P001
+  tags:
+    - koha
+  description: Koha
+  matchers:
+    - location: body
+      words:
+        - content="koha
+        - name="koha_login_context

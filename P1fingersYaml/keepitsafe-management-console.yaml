@@ -1,0 +1,10 @@
+- id: keepitsafe
+  name: Keepitsafe Management Console
+  author: P1finger
+  tags:
+    - keepitsafe
+  description: Keepitsafe Management Console
+  matchers:
+    - hash:
+        - "-1738727418"
+      location: favicon

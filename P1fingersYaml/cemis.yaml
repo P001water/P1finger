@@ -1,0 +1,39 @@
+- id: beijingqingkeruihuacemis
+  name: BeijingqingkeruihuaCEMIS
+  author: Fofa
+  tags:
+    - beijingqingkeruihuacemis
+  description: BeijingqingkeruihuaCEMIS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /theme/2009/image
+        - login.asp
+    - condition: and
+      location: body
+      words:
+        - /theme/2009/image
+    - condition: and
+      location: body
+      words:
+        - login.asp
+- id: cemis
+  name: CEMIS
+  author: Fofa
+  tags:
+    - cemis
+  description: CEMIS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <div id="demo" style="overflow:hidden
+    - condition: and
+      location: title
+      words:
+        - 综合项目管理系统登录
+    - location: body
+      words:
+        - <div id="demo" style="overflow:hidden
+        - 综合项目管理系统登录

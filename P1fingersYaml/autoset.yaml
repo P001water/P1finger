@@ -1,0 +1,10 @@
+- id: autoset
+  name: Autoset
+  author: P001
+  tags:
+    - autoset
+  description: Autoset
+  matchers:
+    - location: body
+      words:
+        - .logo-autoset

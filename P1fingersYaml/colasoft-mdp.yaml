@@ -1,0 +1,11 @@
+- id: colasoft-mdp
+  name: Colasoft-mdp
+  author: P001
+  tags:
+    - colasoft-mdp
+  description: Colasoft-mdp
+  matchers:
+    - location: body
+      words:
+        - <div id="processtime" time="0.000033" >#processtime</div>
+        - 科来 版权所有 保留所有权利

@@ -1,0 +1,11 @@
+- id: weaver-ebridge
+  name: Weaver-ebridge
+  author: P1finger
+  tags:
+  - weaver
+  - weaver-ebridge
+  description: Weaver-ebridge
+  matchers:
+  - location: body
+    words:
+    - e-Bridge

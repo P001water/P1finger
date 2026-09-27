@@ -1,0 +1,10 @@
+- id: bodavsb
+  name: Bodavsb
+  author: P1finger
+  tags:
+    - bodavsb
+  description: Bodavsb
+  matchers:
+    - location: body
+      words:
+        - Visual SiteBuilder

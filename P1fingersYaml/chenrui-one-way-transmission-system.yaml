@@ -1,0 +1,10 @@
+- id: chenrui-one-way-transmission
+  name: ChenRui One Way Transmission System
+  author: P1finger
+  tags:
+    - chenrui-one-way-transmission
+  description: ChenRui One Way Transmission System
+  matchers:
+    - location: body
+      words:
+        - 辰锐单向传输系统

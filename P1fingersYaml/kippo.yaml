@@ -1,0 +1,11 @@
+- id: kippo-honeypot
+  name: Kippo Honeypot
+  author: P1finger
+  tags:
+    - kippo
+    - honeypot
+  description: Kippo Honeypot
+  matchers:
+    - location: body
+      words:
+        - 'SSH Honeypot location: Kippo'

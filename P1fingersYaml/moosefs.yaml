@@ -1,0 +1,24 @@
+- id: moosefs
+  name: Moosefs
+  author: Fofa
+  tags:
+    - moosefs
+  description: Moosefs
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - mfs.cgi
+    - condition: or
+      location: body
+      words:
+        - under-goal files
+    - location: body
+      words:
+        - mfs.cgi
+        - under-goal files
+    - condition: and
+      location: body
+      words:
+        - mfs.cgi
+        - under-goal files

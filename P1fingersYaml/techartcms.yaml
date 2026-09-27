@@ -1,0 +1,14 @@
+- id: techartcms
+  name: TechartCMS
+  author: Fofa
+  tags:
+    - techartcms
+  description: TechartCMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-Cms: Techart CMS'
+    - location: header
+      words:
+        - 'X-Powered-Cms: Techart CMS'

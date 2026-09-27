@@ -1,0 +1,10 @@
+- id: black-box-http-proxy
+  name: Black-Box-HTTP-Proxy
+  author: P1finger
+  tags:
+    - black-box-http-proxy
+  description: Black-Box-HTTP-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Black Box HTTP Proxy Service'

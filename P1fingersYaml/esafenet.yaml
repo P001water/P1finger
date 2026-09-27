@@ -1,0 +1,14 @@
+- id: yisaitongdlp
+  name: YisaitongDLP
+  author: Fofa
+  tags:
+    - yisaitongdlp
+  description: YisaitongDLP
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - CDGServer3
+    - location: body
+      words:
+        - CDGServer3

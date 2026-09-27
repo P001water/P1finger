@@ -1,0 +1,10 @@
+- id: phpcow
+  name: Phpcow
+  author: P1finger
+  tags:
+    - phpcow
+  description: Phpcow
+  matchers:
+    - location: body
+      words:
+        - CONTENT="Phpcow"

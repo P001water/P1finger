@@ -1,0 +1,11 @@
+- id: ghostcms
+  name: Ghostcms
+  author: P001
+  tags:
+    - ghostcms
+  description: Ghostcms
+  matchers:
+    - location: body
+      words:
+        - search this site" data-ghost-search><
+        - noopener">powered by ghost</a></div>

@@ -1,0 +1,10 @@
+- id: idirect-canada
+  name: Idirect Canada
+  author: P1finger
+  tags:
+    - idirect-canada
+  description: Idirect Canada
+  matchers:
+    - hash:
+        - "-256828986"
+      location: favicon

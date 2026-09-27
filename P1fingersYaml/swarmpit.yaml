@@ -1,0 +1,10 @@
+- id: swarmpit
+  name: Swarmpit
+  author: P1finger
+  tags:
+    - swarmpit
+  description: Swarmpit
+  matchers:
+    - location: body
+      words:
+        - swarmpit

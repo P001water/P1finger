@@ -1,0 +1,10 @@
+- id: aijiacms
+  name: AiJiaCMS
+  author: P1finger
+  tags:
+    - aijiacms
+  description: AiJiaCMS
+  matchers:
+    - location: body
+      words:
+        - AiJiaCMS

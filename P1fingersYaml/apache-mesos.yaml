@@ -1,0 +1,11 @@
+- id: apache-mesos
+  name: Apache-mesos
+  author: P001
+  tags:
+  - apache
+  - apache-mesos
+  description: Apache-mesos
+  matchers:
+  - location: body
+    words:
+    - <img src="/static/img/mesos_logo.png" alt="apache mesos">

@@ -1,0 +1,21 @@
+- id: reviewboard
+  name: Reviewboard
+  author: Fofa
+  tags:
+    - reviewboard
+  description: Reviewboard
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /static/rb/images/delete
+    - condition: or
+      location: header
+      words:
+        - rbsessionid
+    - location: body
+      words:
+        - /static/rb/images/delete
+    - location: header
+      words:
+        - rbsessionid

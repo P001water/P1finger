@@ -1,0 +1,25 @@
+- id: bigdump
+  name: BigDump
+  author: Fofa
+  tags:
+    - bigdump
+  description: BigDump
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - BigDump
+    - condition: or
+      location: body
+      words:
+        - 'BigDump: Staggered MySQL Dump Importer'
+    - location: body
+      words:
+        - BigDump
+        - 'BigDump: Staggered MySQL Dump Importer'
+    - location: body
+      words:
+        - 'bigdump: staggered mysql dump importer'
+    - location: body
+      words:
+        - BigDump

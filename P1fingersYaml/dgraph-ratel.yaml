@@ -1,0 +1,10 @@
+- id: dgraph-ratel
+  name: Dgraph Ratel
+  author: P1finger
+  tags:
+    - dgraph-ratel
+  description: Dgraph Ratel
+  matchers:
+    - hash:
+        - "-1961046099"
+      location: favicon

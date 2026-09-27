@@ -1,0 +1,42 @@
+- id: beixinyuanedr
+  name: Beixinyuanedr
+  author: P1finger
+  tags:
+    - beixinyuanedr
+  description: Beixinyuanedr
+  matchers:
+    - location: body
+      words:
+        - 北信源网络防病毒系统
+- id: kingsoft
+  name: Kingsoft
+  author: P1finger
+  tags:
+    - kingsoft
+  description: Kingsoft
+  matchers:
+    - location: body
+      words:
+        - 终端安全系统Web控制台
+- id: leagsoft
+  name: Leagsoft
+  author: P1finger
+  tags:
+    - leagsoft
+  description: Leagsoft
+  matchers:
+    - location: body
+      words:
+        - Resource/views/images/common/logo2.png
+        - 联软IT安全运维管理系统
+- id: tongruanedr
+  name: Tongruanedr
+  author: P1finger
+  tags:
+    - tongruanedr
+  description: Tongruanedr
+  matchers:
+    - location: body
+      words:
+        - /default/uninstall.html
+        - /Gsc/

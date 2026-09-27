@@ -1,0 +1,10 @@
+- id: wispr
+  name: Wispr
+  author: P1finger
+  tags:
+    - wispr
+  description: Wispr
+  matchers:
+    - hash:
+        - "-106646451"
+      location: favicon

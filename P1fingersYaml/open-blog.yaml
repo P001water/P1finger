@@ -1,0 +1,10 @@
+- id: open-blog
+  name: Open-blog
+  author: P001
+  tags:
+    - open-blog
+  description: Open-blog
+  matchers:
+    - location: body
+      words:
+        - target="_blank">open blog

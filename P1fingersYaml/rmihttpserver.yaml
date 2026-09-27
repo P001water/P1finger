@@ -1,0 +1,10 @@
+- id: rmihttpserver
+  name: Rmihttpserver
+  author: P001
+  tags:
+    - rmihttpserver
+  description: Rmihttpserver
+  matchers:
+    - location: body
+      words:
+        - cloudclient httpserver is running...

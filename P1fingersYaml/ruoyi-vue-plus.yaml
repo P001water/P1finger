@@ -1,0 +1,13 @@
+- id: ruoyi-vue-plus
+  name: RuoYi-Vue-Plus
+  author: P001
+  tags:
+    - ruoyi-vue-plus
+  description: RuoYi-Vue-Plus
+  matchers:
+    - location: body
+      words:
+        - <title>RuoYi-Vue-Plus后台管理系统</title>
+        - load_title>正在加载系统资源，请耐心等待
+    - bodyHash: 6235a14e6e4d8dbd0c530b74b7434ef7
+      location: bodyHash

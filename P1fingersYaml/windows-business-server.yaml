@@ -1,0 +1,11 @@
+- id: windows-business
+  name: Windows-business-server
+  author: P001
+  tags:
+    - windows-business
+  description: Windows-business-server
+  matchers:
+    - location: body
+      words:
+        - href="/remote">remote web workplace
+        - src="images/sbslogo.gif

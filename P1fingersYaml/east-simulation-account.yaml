@@ -1,0 +1,10 @@
+- id: east-simulation-account
+  name: East-simulation-account
+  author: P001
+  tags:
+    - east-simulation-account
+  description: East-simulation-account
+  matchers:
+    - location: body
+      words:
+        - src="/scripts/eastsimutility.js"

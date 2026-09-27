@@ -1,0 +1,21 @@
+- id: ix-series
+  name: IX Series
+  author: Fofa
+  tags:
+    - ix-series
+  description: IX Series
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IX Series
+- id: ix-series-2
+  name: Ix Series
+  author: P1finger
+  tags:
+    - ix-series
+  description: Ix Series
+  matchers:
+    - location: header
+      words:
+        - IX Series

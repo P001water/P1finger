@@ -1,0 +1,17 @@
+- id: gitblit
+  name: Gitblit
+  author: P1finger
+  tags:
+    - gitblit
+  description: Gitblit
+  matchers:
+    - hash:
+        - "573035254"
+      location: favicon
+    - location: body
+      words:
+        - Gitblit
+        - <a title="gitblit homepage" href="http://gitblit.com/">
+    - location: body
+      words:
+        - Gitblit

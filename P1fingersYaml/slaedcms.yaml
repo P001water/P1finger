@@ -1,0 +1,10 @@
+- id: slaedcms
+  name: SLAEDCMS
+  author: P1finger
+  tags:
+    - slaedcms
+  description: SLAEDCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="SLAED CMS">

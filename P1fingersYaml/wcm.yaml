@@ -1,0 +1,10 @@
+- id: trs-7
+  name: TRS
+  author: P1finger
+  tags:
+    - trs
+  description: TRS
+  matchers:
+    - location: body
+      words:
+        - forum.trs.com.cn

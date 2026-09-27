@@ -1,0 +1,16 @@
+- id: livezilla
+  name: Livezilla
+  author: P001
+  tags:
+    - livezilla
+  description: Livezilla
+  matchers:
+    - location: body
+      words:
+        - content="livezilla
+        - href="http://www.livezilla.net" target="_blank
+        - livezilla is a registered trademark of livezilla gmbh</div>
+        - thank you for using livezilla!
+    - location: body
+      words:
+        - LiveZilla Server Page

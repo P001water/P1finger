@@ -1,0 +1,24 @@
+- id: arab
+  name: Arab-portal
+  author: P1finger
+  tags:
+    - arab
+  description: Arab-portal
+  matchers:
+    - location: body
+      words:
+        - 'Powered by: Arab'
+    - location: body
+      words:
+        - 'powered by: arab'
+- id: arab-2
+  name: Arab-Portal
+  author: Fofa
+  tags:
+    - arab
+  description: Arab-Portal
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'Powered by: Arab'

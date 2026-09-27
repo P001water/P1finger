@@ -1,0 +1,13 @@
+- id: arris
+  name: Arris
+  author: P1finger
+  tags:
+    - arris
+  description: Arris
+  matchers:
+    - hash:
+        - "-1477563858"
+      location: favicon
+    - hash:
+        - "-360566773"
+      location: favicon

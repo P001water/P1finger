@@ -1,0 +1,22 @@
+- id: dadabik
+  name: DaDaBIK
+  author: Fofa
+  tags:
+    - dadabik
+  description: DaDaBIK
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="DaDaBIK
+    - condition: or
+      location: body
+      words:
+        - class="powered_by_dadabik
+    - location: body
+      words:
+        - content="DaDaBIK
+        - class="powered_by_dadabik
+    - location: body
+      words:
+        - DaDaBIK

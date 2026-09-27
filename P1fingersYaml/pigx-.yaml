@@ -1,0 +1,10 @@
+- id: pigxkuaisukaifakuangjia
+  name: PigXkuaisukaifakuangjia
+  author: P1finger
+  tags:
+    - pigxkuaisukaifakuangjia
+  description: PigXkuaisukaifakuangjia
+  matchers:
+    - location: body
+      words:
+        - PigX

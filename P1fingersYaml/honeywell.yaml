@@ -1,0 +1,10 @@
+- id: honeywell
+  name: Honeywell
+  author: P1finger
+  tags:
+    - honeywell
+  description: Honeywell
+  matchers:
+    - hash:
+        - "903086190"
+      location: favicon

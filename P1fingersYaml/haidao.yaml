@@ -1,0 +1,24 @@
+- id: haidaoyunshanghaidao
+  name: HaidaoyunshangHaidao
+  author: Fofa
+  tags:
+    - haidaoyunshanghaidao
+  description: HaidaoyunshangHaidao
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - haidao.web.general.js
+- id: haidaoyunshanghaidao-2
+  name: Haidaoyunshanghaidao
+  author: P1finger
+  tags:
+    - haidaoyunshanghaidao
+  description: Haidaoyunshanghaidao
+  matchers:
+    - location: body
+      words:
+        - haidao.web.general.js
+    - location: body
+      words:
+        - /haidao.css

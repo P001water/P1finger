@@ -1,0 +1,31 @@
+- id: usp-secure-entry
+  name: USP Secure Entry Server
+  author: Fofa
+  tags:
+    - usp-secure-entry
+  description: USP Secure Entry Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Secure Entry Server
+- id: usp-secure-entry-2
+  name: USP-Secure-Entry-Server
+  author: P1finger
+  tags:
+    - usp-secure-entry
+  description: USP-Secure-Entry-Server
+  matchers:
+    - location: header
+      words:
+        - Secure Entry Server
+- id: usp-secure-entry-3
+  name: Usp Secure Entry Server
+  author: P1finger
+  tags:
+    - usp-secure-entry
+  description: Usp Secure Entry Server
+  matchers:
+    - location: header
+      words:
+        - Secure Entry Server

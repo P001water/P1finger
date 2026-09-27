@@ -1,0 +1,21 @@
+- id: grandtec-guard
+  name: Grandtec-x-guard
+  author: P1finger
+  tags:
+    - grandtec-guard
+  description: Grandtec-x-guard
+  matchers:
+    - location: header
+      words:
+        - WalkGuard
+- id: grandtec-guard-2
+  name: GrandTec-X-Guard
+  author: Fofa
+  tags:
+    - grandtec-guard
+  description: GrandTec-X-Guard
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WalkGuard

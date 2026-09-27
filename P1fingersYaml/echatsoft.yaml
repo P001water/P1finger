@@ -1,0 +1,16 @@
+- id: yiqiaechatsoft
+  name: Yiqiaechatsoft Online Customer Service System
+  author: P1finger
+  tags:
+    - yiqiaechatsoft
+    - online-customer-service-system
+  description: Yiqiaechatsoft Online Customer Service System
+  matchers:
+    - hash:
+        - "-900552206"
+      location: favicon
+    - location: body
+      words:
+        - www.echatsoft.com
+        - Echat客服
+        - 一洽客服

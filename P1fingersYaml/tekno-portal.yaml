@@ -1,0 +1,10 @@
+- id: tekno
+  name: Tekno Portal
+  author: P1finger
+  tags:
+    - tekno
+  description: Tekno Portal
+  matchers:
+    - location: body
+      words:
+        - Tekno.Portal

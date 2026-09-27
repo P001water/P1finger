@@ -1,0 +1,10 @@
+- id: fortinetwaf
+  name: FortinetWAF
+  author: P1finger
+  tags:
+    - fortinetwaf
+  description: FortinetWAF
+  matchers:
+    - location: body
+      words:
+        - Server Unavailable!

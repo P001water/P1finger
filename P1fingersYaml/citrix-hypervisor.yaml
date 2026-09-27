@@ -1,0 +1,14 @@
+- id: citrix-hypervisor
+  name: Citrix Hypervisor Page
+  author: nuclei
+  tags:
+  - citrix
+  - hypervisor
+  - default-page
+  description: Citrix Hypervisor Page
+  matchers:
+  - location: body
+    words:
+    - Welcome to Citrix Hypervisor
+    - XenCenter
+    condition: and

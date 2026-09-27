@@ -1,0 +1,24 @@
+- id: google-talk-chatback
+  name: Google-talk-chatback
+  author: P001
+  tags:
+    - google-talk-chatback
+  description: Google-talk-chatback
+  matchers:
+    - location: body
+      words:
+        - www.google.com/talk/service/
+- id: google-talk-chatback-2
+  name: Google-Talk-Chatback
+  author: Fofa
+  tags:
+    - google-talk-chatback
+  description: Google-Talk-Chatback
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - www.google.com/talk/service/
+    - location: body
+      words:
+        - http://www.google.com/talk/service/badge

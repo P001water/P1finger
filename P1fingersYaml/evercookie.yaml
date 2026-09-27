@@ -1,0 +1,19 @@
+- id: evercookie
+  name: Evercookie
+  author: Fofa
+  tags:
+    - evercookie
+  description: Evercookie
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - evercookie.js
+    - condition: or
+      location: body
+      words:
+        - var ec = new evercookie();
+    - location: body
+      words:
+        - evercookie.js
+        - var ec = new evercookie();

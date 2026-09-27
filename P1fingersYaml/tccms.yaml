@@ -1,0 +1,27 @@
+- id: tccms
+  name: TCCMS
+  author: Fofa
+  tags:
+    - tccms
+  description: TCCMS
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Power By TCCMS
+    - condition: and
+      location: body
+      words:
+        - index.php?ac=news_list")
+    - location: body
+      words:
+        - Power By TCCMS
+        - index.php?ac=link_more
+        - index.php?ac=news_list
+    - location: body
+      words:
+        - index.php?ac=link_more
+        - index.php?ac=news_list
+    - location: body
+      words:
+        - Power By TCCMS

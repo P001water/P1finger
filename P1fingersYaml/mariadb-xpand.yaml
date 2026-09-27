@@ -1,0 +1,10 @@
+- id: mariadb-xpand
+  name: MariaDB Xpand
+  author: P1finger
+  tags:
+    - mariadb-xpand
+  description: MariaDB Xpand
+  matchers:
+    - location: body
+      words:
+        - MariaDB Xpand Web UI

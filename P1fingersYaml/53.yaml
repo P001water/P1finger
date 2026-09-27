@@ -1,0 +1,14 @@
+- id: 53kefu
+  name: 53kefu
+  author: Fofa
+  tags:
+    - 53kefu
+  description: 53kefu
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - tb.53kf.com/code/
+    - location: body
+      words:
+        - tb.53kf.com/code/

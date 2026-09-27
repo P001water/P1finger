@@ -1,0 +1,26 @@
+- id: dota-openstats
+  name: Dota-openstats
+  author: P1finger
+  tags:
+    - dota-openstats
+  description: Dota-openstats
+  matchers:
+    - location: body
+      words:
+        - content="dota OpenStats
+        - content="openstats.iz.rs
+- id: dota-openstats-2
+  name: DotA-OpenStats
+  author: Fofa
+  tags:
+    - dota-openstats
+  description: DotA-OpenStats
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="dota OpenStats
+    - condition: or
+      location: body
+      words:
+        - content="openstats.iz.rs

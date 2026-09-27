@@ -1,0 +1,13 @@
+- id: craft
+  name: Craft CMS
+  author: P1finger
+  tags:
+    - craft
+  description: Craft CMS
+  matchers:
+    - location: body
+      words:
+        - Welcome to Craft CMS
+    - location: header
+      words:
+        - 'X-Powered-By: Craft CMS'

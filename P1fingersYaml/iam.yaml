@@ -1,0 +1,23 @@
+- id: adtsec-gateway-2
+  name: ADTsec Gateway
+  author: P001
+  tags:
+    - adtsec
+    - gateway
+  description: ADTsec Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - iam
+        - src="/page/assets/javascripts/adt.js"
+- id: zhuyuniam
+  name: ZhuyunIAM
+  author: P1finger
+  tags:
+    - zhuyuniam
+  description: ZhuyunIAM
+  matchers:
+    - location: body
+      words:
+        - idp/AuthnEngine

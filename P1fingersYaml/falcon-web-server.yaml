@@ -1,0 +1,21 @@
+- id: falcon
+  name: Falcon-web-server
+  author: P1finger
+  tags:
+    - falcon
+  description: Falcon-web-server
+  matchers:
+    - location: header
+      words:
+        - Falcon Web Server
+- id: falcon-2
+  name: Falcon-Web-Server
+  author: Fofa
+  tags:
+    - falcon
+  description: Falcon-Web-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Falcon Web Server

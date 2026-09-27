@@ -1,0 +1,14 @@
+- id: dlink-2
+  name: Dlink
+  author: Fofa
+  tags:
+    - dlink
+  description: Dlink
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - dlinkrouter
+    - location: header
+      words:
+        - dlinkrouter

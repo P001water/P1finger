@@ -1,0 +1,18 @@
+- id: ubntunifixilieluyou
+  name: UBNTUniFixilieluyou
+  author: Fofa
+  tags:
+    - ubntunifixilieluyou
+  description: UBNTUniFixilieluyou
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - ="UniFi
+    - condition: and
+      location: body
+      words:
+        - <div class="appGlobalHeader">
+    - location: body
+      words:
+        - <div class="appGlobalHeader">

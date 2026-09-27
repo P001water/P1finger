@@ -1,0 +1,10 @@
+- id: upyun-js-library
+  name: Upyun-js-library
+  author: P001
+  tags:
+    - upyun-js-library
+  description: Upyun-js-library
+  matchers:
+    - location: body
+      words:
+        - b0.upaiyun.com

@@ -1,0 +1,12 @@
+- id: aspcms-2
+  name: CMS-ASPCMS
+  author: P001
+  tags:
+    - aspcms
+  description: CMS-ASPCMS
+  matchers:
+    - location: body
+      words:
+        - content="aspcms
+        - AspCms_AdvJs.asp?location=pf
+        - AspCms_AdvJs.asp

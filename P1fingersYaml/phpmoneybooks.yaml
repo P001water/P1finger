@@ -1,0 +1,13 @@
+- id: phpmoneybooks
+  name: Phpmoneybooks
+  author: P001
+  tags:
+    - phpmoneybooks
+  description: Phpmoneybooks
+  matchers:
+    - location: body
+      words:
+        - href='http://phpmoneybooks.com'>phpmoneybooks
+    - location: body
+      words:
+        - <strong>phpMoneyBooks</strong>

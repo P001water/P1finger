@@ -1,0 +1,14 @@
+- id: open-adstream
+  name: Open_AdStream
+  author: Fofa
+  tags:
+    - open-adstream
+  description: Open_AdStream
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - OAS_AD
+    - location: body
+      words:
+        - OAS_AD

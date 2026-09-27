@@ -1,0 +1,31 @@
+- id: zimbra
+  name: Zimbra
+  author: Fofa
+  tags:
+    - zimbra
+  description: Zimbra
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ZM_TEST
+    - location: header
+      words:
+        - ZM_TEST
+- id: zimbra-2
+  name: Zimbra
+  author: P001
+  tags:
+    - zimbra
+  description: Zimbra
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ZM_TEST
+    - location: body
+      words:
+        - 'set-cookie: zm_login_csrf'
+        - imgzimbraicon
+        - content="zimbra
+        - window._zimbramail

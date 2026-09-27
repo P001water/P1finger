@@ -1,0 +1,10 @@
+- id: ami-megarac-spx
+  name: Ami-megarac-spx
+  author: P001
+  tags:
+    - ami-megarac-spx
+  description: Ami-megarac-spx
+  matchers:
+    - location: body
+      words:
+        - <modelname>ami megarac spx</modelname>

@@ -1,0 +1,22 @@
+- id: enigma2
+  name: Enigma2
+  author: Fofa
+  tags:
+    - enigma2
+  description: Enigma2
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - href="/web/movielist.rss?tag
+    - condition: or
+      location: title
+      words:
+        - Enigma2 WebControl
+    - location: body
+      words:
+        - href="/web/movielist.rss?tag
+        - Enigma2 WebControl
+    - location: body
+      words:
+        - href="/web/movielist.rss?tag

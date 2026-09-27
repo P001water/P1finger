@@ -1,0 +1,14 @@
+- id: sql-buddy
+  name: Sql-buddy
+  author: P001
+  tags:
+    - sql-buddy
+  description: Sql-buddy
+  matchers:
+    - location: body
+      words:
+        - h3><a href="http://www.sqlbuddy.com/help
+        - href="themes/bittersweet/css/main.css
+    - location: body
+      words:
+        - SQL Buddy

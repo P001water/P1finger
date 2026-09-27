@@ -1,0 +1,18 @@
+- id: easytrace-botwave
+  name: EasyTrace(botwave)
+  author: Fofa
+  tags:
+    - easytrace-botwave
+  description: EasyTrace(botwave)
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - EasyTrace
+    - condition: and
+      location: body
+      words:
+        - login_page
+    - location: body
+      words:
+        - EasyTrace

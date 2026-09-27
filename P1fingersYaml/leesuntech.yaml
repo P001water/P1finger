@@ -1,0 +1,10 @@
+- id: leshangshangchengleesuntech
+  name: Leshangshangchengleesuntech
+  author: P1finger
+  tags:
+    - leshangshangchengleesuntech
+  description: Leshangshangchengleesuntech
+  matchers:
+    - location: body
+      words:
+        - <meta name="copyright" content="leesuntech.com" />

@@ -1,0 +1,613 @@
+- id: cisco8600-router
+  name: Cisco8600 Router
+  author: Fofa
+  tags:
+  - cisco8600
+  - router
+  description: Cisco8600 Router
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco 8600
+- id: cisco-acceleration
+  name: Cisco Acceleration
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-acceleration
+  description: Cisco Acceleration
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco Acceleration
+- id: cisco-ace
+  name: Cisco ACE
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ace
+  description: Cisco ACE
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - ACE XML Gateway
+- id: cisco-acs
+  name: Cisco-acs
+  author: P001
+  tags:
+  - cisco
+  - cisco-acs
+  description: Cisco-acs
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <meta http-equiv="refresh" content="0;url=/acsadmin" />
+    - cisco
+    - href="/acsadmin">launch acs
+- id: cisco-asa
+  name: Cisco ASA
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-asa
+  description: Cisco ASA
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco ASA
+- id: cisco-asr
+  name: CISCO ASR
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-asr
+  description: CISCO ASR
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - CISCO ASR
+- id: cisco-aware
+  name: Cisco AWARE
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-aware
+  description: Cisco AWARE
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco AWARE
+- id: cisco-cable-modem
+  name: Cisco_Cable_Modem
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-cable-modem
+  description: Cisco_Cable_Modem
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Cisco Cable Modem
+- id: cisco-adaptive-appliance
+  name: Cisco-Adaptive-Security-Appliance
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-adaptive-appliance
+  description: Cisco-Adaptive-Security-Appliance
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Adaptive Security Appliance HTTP
+- id: cisco-asr-2
+  name: Cisco Asr
+  author: P1finger
+  tags:
+  - cisco
+  - cisco-asr
+  description: Cisco Asr
+  matchers:
+  - location: body
+    words:
+    - CISCO ASR
+- id: cisco-cds
+  name: Cisco-CDS
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-cds
+  description: Cisco-CDS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-CDS
+- id: cisco-cx20
+  name: CISCO-CX20
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-cx20
+  description: CISCO-CX20
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - CISCO-CX20
+- id: cisco-dlt
+  name: Cisco-DLT
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-dlt
+  description: Cisco-DLT
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - Cisco-DLT
+  - condition: or
+    location: body
+    words:
+    - 'System name: Cisco DLT'
+- id: cisco-ecds
+  name: Cisco-ECDS
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ecds
+  description: Cisco-ECDS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-ECDS/
+- id: cisco-hyperflex-connect
+  name: Cisco HyperFlex Connect
+  author: P1finger
+  tags:
+  - cisco
+  - cisco-hyperflex-connect
+  description: Cisco HyperFlex Connect
+  matchers:
+  - location: body
+    words:
+    - Cisco HyperFlex Connect
+- id: cisco-ip-phone
+  name: Cisco-IP-Phone
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ip-phone
+  description: Cisco-IP-Phone
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - Cisco Unified Wireless IP Phone
+- id: cisco-mweb
+  name: Cisco-MWEB
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-mweb
+  description: Cisco-MWEB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-MWEB
+- id: cisco-sx20
+  name: Cisco-SX20
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-sx20
+  description: Cisco-SX20
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-SX20
+- id: cisco-sx80
+  name: Cisco-SX80
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-sx80
+  description: Cisco-SX80
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-SX80
+- id: cisco-vds
+  name: Cisco-VDS
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-vds
+  description: Cisco-VDS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-VDS
+- id: cisco-vos
+  name: Cisco-VOS
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-vos
+  description: Cisco-VOS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-VOS
+- id: cisco-3000-concentrator
+  name: Cisco-VPN-3000-Concentrator
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-3000-concentrator
+  description: Cisco-VPN-3000-Concentrator
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Cisco Systems, Inc. VPN 3000 Concentrator
+- id: cisco-wsa
+  name: Cisco-WSA
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-wsa
+  description: Cisco-WSA
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco-WSA
+- id: cisco-css
+  name: Cisco CSS
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-css
+  description: Cisco CSS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco CSS
+- id: cisco-epc3925
+  name: Cisco_epc3925
+  author: P1finger
+  tags:
+  - cisco
+  - cisco-epc3925
+  description: Cisco_epc3925
+  matchers:
+  - location: body
+    words:
+    - Docsis_system
+  - condition: and
+    location: body
+    words:
+    - Docsis_system
+  - condition: and
+    location: body
+    words:
+    - EPC3925
+- id: cisco-expert-talks
+  name: Cisco Expert Talks
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-expert-talks
+  description: Cisco Expert Talks
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco Expert Talks
+- id: cisco-expressway
+  name: Cisco-expressway
+  author: P001
+  tags:
+  - cisco
+  - cisco-expressway
+  description: Cisco-expressway
+  matchers:
+  - location: body
+    words:
+    - expressway-e</legend>
+- id: cisco-gct
+  name: Cisco GCT
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-gct
+  description: Cisco GCT
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco GCT
+- id: cisco-imc-supervisor
+  name: Cisco-imc-supervisor
+  author: P001
+  tags:
+  - cisco
+  - cisco-imc-supervisor
+  description: Cisco-imc-supervisor
+  matchers:
+  - location: body
+    words:
+    - cisco imc supervisor
+    - 'font-family: "ciscosansthin"'
+- id: cisco-ios
+  name: Cisco IOS
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ios
+  description: Cisco IOS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 'Server: cisco-IOS'
+- id: cisco-ios-xr
+  name: Cisco IOS-XR
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ios-xr
+  description: Cisco IOS-XR
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco IOS-XR
+- id: cisco-iox
+  name: Cisco-iox
+  author: P001
+  tags:
+  - cisco
+  - cisco-iox
+  description: Cisco-iox
+  matchers:
+  - location: body
+    words:
+    - var g_url_version = "/iox/api/v2"
+- id: cisco-ironport
+  name: Cisco IronPort
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ironport
+  description: Cisco IronPort
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco IronPort
+- id: cisco-meeting-app
+  name: Cisco-meeting-app
+  author: P001
+  tags:
+  - cisco
+  - cisco-meeting-app
+  description: Cisco-meeting-app
+  matchers:
+  - location: body
+    words:
+    - <div id="cisco_meeting_application">
+- id: cisco-nexus-broker
+  name: Cisco-nexus-data-broker
+  author: P001
+  tags:
+  - nexus
+  - cisco
+  - cisco-nexus-broker
+  description: Cisco-nexus-data-broker
+  matchers:
+  - location: body
+    words:
+    - window.location.href = '/monitor';
+- id: cisco-prime-infrastructure
+  name: Cisco-prime-infrastructure
+  author: P001
+  tags:
+  - cisco
+  - cisco-prime-infrastructure
+  description: Cisco-prime-infrastructure
+  matchers:
+  - location: body
+    words:
+    - 'server: prime'
+    - /webacs/lib/xwt/themes/prime/prime-xwt.css
+    - <div class="xwtproductname" >cisco prime infrastructure
+    - webacs/welcomeaction.do
+- id: cisco-prime-registrar
+  name: Cisco-prime-network-registrar
+  author: P001
+  tags:
+  - cisco
+  - cisco-prime-registrar
+  description: Cisco-prime-network-registrar
+  matchers:
+  - location: body
+    words:
+    - productname="network registrar
+- id: cisco
+  name: Cisco-router
+  author: P1finger
+  tags:
+  - cisco
+  description: Cisco-router
+  matchers:
+  - location: body
+    words:
+    - Cisco Systems Login
+- id: cisco-ssl
+  name: Cisco-ssl-vpn
+  author: P001
+  tags:
+  - cisco
+  - cisco-ssl
+  description: Cisco-ssl-vpn
+  matchers:
+  - location: body
+    words:
+    - 'set-cookie: webvpncontext='
+- id: cisco-ucc
+  name: Cisco UCC
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ucc
+  description: Cisco UCC
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - Cisco Unified Contact Center
+  - condition: and
+    location: header
+    words:
+    - cisco
+- id: cisco-ucm
+  name: Cisco UCM
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ucm
+  description: Cisco UCM
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /ccmadmin/
+  - condition: or
+    location: title
+    words:
+    - Cisco Unified
+- id: cisco-ucm-2
+  name: Cisco-ucm
+  author: P001
+  tags:
+  - cisco
+  - cisco-ucm
+  description: Cisco-ucm
+  matchers:
+  - location: body
+    words:
+    - /ccmadmin/
+- id: cisco-ucs-director
+  name: Cisco-ucs-director
+  author: P001
+  tags:
+  - cisco
+  - cisco-ucs-director
+  description: Cisco-ucs-director
+  matchers:
+  - location: body
+    words:
+    - cisco ucs director
+- id: cisco-vci
+  name: Cisco VCI
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-vci
+  description: Cisco VCI
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco VCI
+- id: cisco-ven401
+  name: Cisco VEN401
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-ven401
+  description: Cisco VEN401
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco VEN401
+- id: cisco-2
+  name: Cisco_vpn
+  author: P1finger
+  tags:
+  - cisco
+  description: Cisco_vpn
+  matchers:
+  - location: header
+    words:
+    - webvpn
+  - condition: and
+    location: header
+    words:
+    - webvpn
+- id: cisco-webex
+  name: Cisco-webex
+  author: P001
+  tags:
+  - cisco
+  - cisco-webex
+  description: Cisco-webex
+  matchers:
+  - location: body
+    words:
+    - alt="cisco webex meetings server"
+- id: ciscoxiaoquwangluo
+  name: Ciscoxiaoquwangluo Management System
+  author: Fofa
+  tags:
+  - ciscoxiaoquwangluo
+  - management-system
+  description: Ciscoxiaoquwangluo Management System
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco小区网络管理系统
+- id: cisco-xnc
+  name: Cisco XNC
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-xnc
+  description: Cisco XNC
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco XNC
+- id: cisco-xseries
+  name: Cisco XSeries
+  author: Fofa
+  tags:
+  - cisco
+  - cisco-xseries
+  description: Cisco XSeries
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Cisco xSeries

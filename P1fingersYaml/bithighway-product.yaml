@@ -1,0 +1,10 @@
+- id: bithighway
+  name: Bithighway-product
+  author: P001
+  tags:
+    - bithighway
+  description: Bithighway-product
+  matchers:
+    - location: body
+      words:
+        - href='http://www.bithighway.com' target=_blank>北京碧海威科技有限公司<

@@ -1,0 +1,14 @@
+- id: netsurveillance
+  name: NETSurveillance
+  author: Fofa
+  tags:
+    - netsurveillance
+  description: NETSurveillance
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - NETSurveillance
+    - location: body
+      words:
+        - NETSurveillance

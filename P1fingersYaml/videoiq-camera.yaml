@@ -1,0 +1,21 @@
+- id: videoiq
+  name: VideoIQ Camera
+  author: Fofa
+  tags:
+    - videoiq
+  description: VideoIQ Camera
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - VideoIQ Camera Login
+- id: videoiq-2
+  name: Videoiq Camera
+  author: P1finger
+  tags:
+    - videoiq
+  description: Videoiq Camera
+  matchers:
+    - location: body
+      words:
+        - VideoIQ Camera Login

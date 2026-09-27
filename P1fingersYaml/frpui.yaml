@@ -1,0 +1,11 @@
+- id: frpui
+  name: FrpUI
+  author: P1finger
+  tags:
+    - frpui
+  description: FrpUI
+  matchers:
+    - location: body
+      words:
+        - frp client admin UI
+        - frps dashboard

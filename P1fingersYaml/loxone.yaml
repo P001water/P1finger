@@ -1,0 +1,10 @@
+- id: loxone
+  name: Loxone
+  author: P1finger
+  tags:
+    - loxone
+  description: Loxone
+  matchers:
+    - hash:
+        - "904434662"
+      location: favicon

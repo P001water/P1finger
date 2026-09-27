@@ -1,0 +1,10 @@
+- id: xunruicms-2
+  name: Xunruicms
+  author: P001
+  tags:
+    - xunruicms
+  description: Xunruicms
+  matchers:
+    - location: body
+      words:
+        - alt="xunruicms"

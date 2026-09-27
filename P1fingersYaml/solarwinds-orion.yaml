@@ -1,0 +1,10 @@
+- id: solarwinds-orion
+  name: SolarWinds Orion
+  author: P1finger
+  tags:
+    - solarwinds-orion
+  description: SolarWinds Orion
+  matchers:
+    - location: body
+      words:
+        - SolarWinds orion

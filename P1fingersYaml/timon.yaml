@@ -1,0 +1,10 @@
+- id: kingsoft-6
+  name: Kingsoft
+  author: P1finger
+  tags:
+    - kingsoft
+  description: Kingsoft
+  matchers:
+    - location: body
+      words:
+        - iepngfix_tilebg.js

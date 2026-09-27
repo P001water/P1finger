@@ -1,0 +1,10 @@
+- id: cipafilter
+  name: Cipafilter
+  author: P1finger
+  tags:
+    - cipafilter
+  description: Cipafilter
+  matchers:
+    - location: header
+      words:
+        - Basic realm="Cipafilter Web management"

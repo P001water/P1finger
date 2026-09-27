@@ -1,0 +1,10 @@
+- id: scriptis
+  name: Scriptis
+  author: P1finger
+  tags:
+    - scriptis
+  description: Scriptis
+  matchers:
+    - location: body
+      words:
+        - Scriptis

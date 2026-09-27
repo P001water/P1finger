@@ -1,0 +1,10 @@
+- id: kafkaoffsetmonitor
+  name: Kafkaoffsetmonitor
+  author: P001
+  tags:
+    - kafkaoffsetmonitor
+  description: Kafkaoffsetmonitor
+  matchers:
+    - location: body
+      words:
+        - css/cluster-viz.css

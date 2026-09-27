@@ -1,0 +1,223 @@
+- id: 360-8
+  name: '360'
+  author: P1finger
+  tags:
+  - '360'
+  description: '360'
+  matchers:
+  - location: body
+    words:
+    - 360天擎终端安全管理系统
+- id: qax-bastion-host
+  name: QAX Bastion Host
+  author: P1finger
+  tags:
+  - qax
+  - bastion-host
+  description: QAX Bastion Host
+  matchers:
+  - location: body
+    words:
+    - location.href='/fort'
+    - SecFox运维安全管理
+    - embedRzx location=application/htnpapi-plugin
+- id: qax
+  name: QAX
+  author: P001
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 360代码卫士
+    - 'baseurl : ''app'',        //配置模块根路径到静态资源根目录'
+- id: qax-2
+  name: QAX
+  author: P001
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - ngsoc关联规则引擎
+    - ngsoc日志采集探针
+- id: qax-3
+  name: QAX
+  author: P001
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - location: body
+    words:
+    - 360企业安全部署
+- id: qax-enterprise-edition
+  name: QAX Enterprise Edition
+  author: P001
+  tags:
+  - qax
+  - enterprise-edition
+  description: QAX Enterprise Edition
+  matchers:
+  - location: body
+    words:
+    - 360企业版控制中心
+- id: qax-system
+  name: QAX System
+  author: P001
+  tags:
+  - qax
+  - system
+  description: QAX System
+  matchers:
+  - location: body
+    words:
+    - <a href="#!/home" class="sysname">360网神数据脱敏系统
+- id: qax-4
+  name: QAX
+  author: P001
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 360天机管理中心
+    - src="/resource/img/login/logo_403.png" alt="360天机"/></a>"
+- id: qax-5
+  name: QAX
+  author: P001
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 360新天擎
+    - appid":"skylar6
+- id: qax-6
+  name: QAX
+  author: P001
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - location: body
+    words:
+    - 360天眼
+- id: qax-7
+  name: QAX
+  author: P001
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - qianxinvpn
+    - 卸载奇安信vpn
+  - hash:
+    - 4cf31d7e53197f79b435b66cc8cb3098
+    location: favicon
+- id: qax-management-system
+  name: QAX Management System
+  author: P001
+  tags:
+  - qax
+  - management-system
+  description: QAX Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - id="rsapubkey"
+    - 奇安信新天擎
+- id: qax-8
+  name: QAX
+  author: P1finger
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - location: header
+    words:
+    - QiAnXin
+  - location: body
+    words:
+    - 网神
+    - 网康
+    - secfox
+- id: qax-9
+  name: QAX
+  author: P1finger
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - location: body
+    words:
+    - new_style/deepblue.css
+    - admin/js/json2.js
+- id: qax-360-firewall
+  name: QAX Firewall
+  author: P1finger
+  tags:
+  - '360'
+  - qax
+  - firewall
+  description: QAX Firewall
+  matchers:
+  - location: body
+    words:
+    - resources/image/logo_header.png
+- id: qax-system-2
+  name: QAX System
+  author: P1finger
+  tags:
+  - qax
+  - system
+  description: QAX System
+  matchers:
+  - location: body
+    words:
+    - 网神上网行为管理与审计系统
+- id: qax-system-3
+  name: QAX System
+  author: P1finger
+  tags:
+  - qax
+  - system
+  description: QAX System
+  matchers:
+  - location: body
+    words:
+    - 网神数据库审计与防护系统许可协议
+- id: qax-10
+  name: QAX
+  author: P1finger
+  tags:
+  - qax
+  description: QAX
+  matchers:
+  - location: body
+    words:
+    - 新天擎
+    - /res/css/tools/index.css
+- id: qax-system-4
+  name: QAX System
+  author: P1finger
+  tags:
+  - qax
+  - system
+  description: QAX System
+  matchers:
+  - location: body
+    words:
+    - 行为感知分析系统

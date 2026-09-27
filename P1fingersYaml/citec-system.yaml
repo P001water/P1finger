@@ -1,0 +1,10 @@
+- id: citec
+  name: Citec-system
+  author: P001
+  tags:
+    - citec
+  description: Citec-system
+  matchers:
+    - location: body
+      words:
+        - 正在使用腾讯qq帐号登录消防联网系统

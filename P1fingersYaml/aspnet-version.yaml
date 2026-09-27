@@ -1,0 +1,15 @@
+- id: aspnet-version
+  name: AspNet Version Disclosure
+  author: nuclei
+  tags:
+  - aspnet
+  description: 'Detects version disclosed via ''X-AspNet-Version'' header.
+
+    '
+  paths:
+  - /%3f
+  matchers:
+  - type: regex
+    location: header
+    words:
+    - (?i)^X-AspNet-Version:\s*$

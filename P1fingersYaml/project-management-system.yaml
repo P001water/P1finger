@@ -1,0 +1,11 @@
+- id: project
+  name: Project-management-system
+  author: P001
+  tags:
+    - project
+  description: Project-management-system
+  matchers:
+    - location: body
+      words:
+        - var right = regexp.rightcontext
+        - window.top.location = "login.aspx?url=" + right"

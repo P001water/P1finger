@@ -1,0 +1,24 @@
+- id: isolsoft-support
+  name: Isolsoft-support-center
+  author: P1finger
+  tags:
+    - isolsoft-support
+  description: Isolsoft-support-center
+  matchers:
+    - location: body
+      words:
+        - 'Powered by: Support Center'
+    - location: body
+      words:
+        - 'powered by: support center'
+- id: isolsoft-support-2
+  name: Isolsoft-Support-Center
+  author: Fofa
+  tags:
+    - isolsoft-support
+  description: Isolsoft-Support-Center
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'Powered by: Support Center'

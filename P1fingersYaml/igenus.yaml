@@ -1,0 +1,33 @@
+- id: igenus-mail-system
+  name: Igenus Mail System
+  author: P001
+  tags:
+    - igenus
+    - mail-system
+  description: Igenus Mail System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - form.action = "login.php?cmd=login";
+        - igenus
+- id: igenus-mail-system-2
+  name: Igenus Mail System
+  author: P1finger
+  tags:
+    - igenus
+    - mail-system
+  description: Igenus Mail System
+  matchers:
+    - location: body
+      words:
+        - Copyright by<A HREF="http://www.igenus.org
+        - iGENUS webmail
+    - condition: or
+      location: body
+      words:
+        - Copyright by<A HREF="http://www.igenus.org
+    - condition: or
+      location: title
+      words:
+        - iGENUS webmail

@@ -1,0 +1,13 @@
+- id: microsoft-sharepoint
+  name: Microsoft SharePoint
+  author: nuclei
+  tags:
+  - sharepoint
+  - iis
+  - microsoft
+  description: Check for SharePoint, using HTTP header MicrosoftSharePointTeamServices
+  matchers:
+  - type: regex
+    location: header
+    words:
+    - (?i)(Microsoftsharepointteamservices:)

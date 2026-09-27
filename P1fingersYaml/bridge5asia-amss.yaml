@@ -1,0 +1,11 @@
+- id: bridge5asia-amss
+  name: Bridge5asia-amss
+  author: P001
+  tags:
+    - bridge5asia-amss
+  description: Bridge5asia-amss
+  matchers:
+    - location: body
+      words:
+        - /statics/js/mdo-angular-cryptography.js
+        - 'education area management support system : amss++'

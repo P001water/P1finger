@@ -1,0 +1,12 @@
+- id: shenri-elevator
+  name: Shenri-elevator
+  author: P001
+  tags:
+    - shenri-elevator
+  description: Shenri-elevator
+  matchers:
+    - location: body
+      words:
+        - /frameworks/images/ico.ico
+        - copyright 2015 shenri habiliment co.,ltd. all rights reserved
+        - images/login/btnmobile.gif

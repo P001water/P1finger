@@ -1,0 +1,25 @@
+- id: neusoft-senginx
+  name: Neusoft-senginx
+  author: P001
+  tags:
+  - neusoft
+  - neusoft-senginx
+  description: Neusoft-senginx
+  matchers:
+  - location: body
+    words:
+    - senginx-robot-mitigation
+- id: neusoft-senginx-2
+  name: Neusoft SEnginx
+  author: P1finger
+  tags:
+  - neusoft
+  - neusoft-senginx
+  description: Neusoft SEnginx
+  matchers:
+  - location: body
+    words:
+    - senginx-robot-mitigation
+  - location: header
+    words:
+    - senginx

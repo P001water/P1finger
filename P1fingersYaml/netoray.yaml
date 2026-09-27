@@ -1,0 +1,11 @@
+- id: netoraynsg
+  name: NetorayNSG Internet Behavior Management System
+  author: P1finger
+  tags:
+    - netoraynsg
+    - internet-behavior-management-system
+  description: NetorayNSG Internet Behavior Management System
+  matchers:
+    - location: body
+      words:
+        - Netoray NSG 上网行为管理系统

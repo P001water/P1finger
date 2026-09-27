@@ -1,0 +1,11 @@
+- id: mokazhinenghuazhaopin
+  name: Mokazhinenghuazhaopin Management System
+  author: P1finger
+  tags:
+    - mokazhinenghuazhaopin
+    - management-system
+  description: Mokazhinenghuazhaopin Management System
+  matchers:
+    - location: body
+      words:
+        - Moka智能化招聘管理系统

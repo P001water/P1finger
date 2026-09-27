@@ -1,0 +1,10 @@
+- id: dmz-proxy
+  name: Dmz-proxy
+  author: P1finger
+  tags:
+    - dmz-proxy
+  description: Dmz-proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: dmz-proxy'

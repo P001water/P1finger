@@ -1,0 +1,11 @@
+- id: 5ikq
+  name: 5ikq
+  author: P001
+  tags:
+    - 5ikq
+  description: 5ikq
+  matchers:
+    - location: body
+      words:
+        - content="我爱考勤云平台
+        - 我爱考勤云平台</span>

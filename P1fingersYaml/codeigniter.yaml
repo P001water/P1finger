@@ -1,0 +1,14 @@
+- id: codeigniter
+  name: Codeigniter
+  author: P1finger
+  tags:
+    - codeigniter
+  description: Codeigniter
+  matchers:
+    - location: header
+      words:
+        - ci_session
+    - condition: and
+      location: header
+      words:
+        - ci_session

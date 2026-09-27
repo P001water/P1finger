@@ -1,0 +1,20 @@
+- id: haitaikeyyanzheng
+  name: Haitaikeyyanzheng
+  author: P1finger
+  tags:
+    - haitaikeyyanzheng
+  description: Haitaikeyyanzheng
+  matchers:
+    - location: body
+      words:
+        - /general/login/index.php
+- id: jingekeyyanzheng
+  name: Jingekeyyanzheng
+  author: P1finger
+  tags:
+    - jingekeyyanzheng
+  description: Jingekeyyanzheng
+  matchers:
+    - location: body
+      words:
+        - /general/login/index.php

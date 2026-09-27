@@ -1,0 +1,10 @@
+- id: wondercms
+  name: WonderCMS
+  author: P1finger
+  tags:
+    - wondercms
+  description: WonderCMS
+  matchers:
+    - location: body
+      words:
+        - WonderCMS

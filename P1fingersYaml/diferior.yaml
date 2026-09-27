@@ -1,0 +1,14 @@
+- id: diferior
+  name: Diferior
+  author: Fofa
+  tags:
+    - diferior
+  description: Diferior
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by Diferior
+    - location: body
+      words:
+        - Powered by Diferior

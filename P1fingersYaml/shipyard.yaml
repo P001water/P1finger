@@ -1,0 +1,10 @@
+- id: shipyard
+  name: Shipyard
+  author: P1finger
+  tags:
+    - shipyard
+  description: Shipyard
+  matchers:
+    - location: body
+      words:
+        - shipyard

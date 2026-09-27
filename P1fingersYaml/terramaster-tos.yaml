@@ -1,0 +1,11 @@
+- id: terramaster-tos
+  name: TerraMaster TOS
+  author: P1finger
+  tags:
+  - terramaster
+  - terramaster-tos
+  description: TerraMaster TOS
+  matchers:
+  - location: body
+    words:
+    - TOS Loading

@@ -1,0 +1,14 @@
+- id: 2z-project
+  name: 2Z Project
+  author: Fofa
+  tags:
+  - 2z-project
+  description: 2Z Project
+  matchers:
+  - location: body
+    words:
+    - Generator" content="2z project
+    condition: and
+  - location: body
+    words:
+    - Generator" content="2z project

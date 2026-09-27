@@ -1,0 +1,10 @@
+- id: onlyoffice
+  name: ONLYOFFICE
+  author: P1finger
+  tags:
+    - onlyoffice
+  description: ONLYOFFICE
+  matchers:
+    - location: body
+      words:
+        - ONLYOFFICE

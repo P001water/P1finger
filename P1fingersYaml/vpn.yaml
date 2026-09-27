@@ -1,0 +1,116 @@
+- id: adtsec-2
+  name: ADTsec
+  author: P001
+  tags:
+    - adtsec
+  description: ADTsec
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - $('#submitid').bind('click',checksubmitfn);"
+        - sjw74 vpn网关控制台管理员登录
+- id: dptech-2
+  name: DPtech
+  author: P1finger
+  tags:
+    - dptech
+  description: DPtech
+  matchers:
+    - location: body
+      words:
+        - dptech_ssl
+- id: ruizhikangchengvpn
+  name: Ruizhikangchengvpn
+  author: P001
+  tags:
+    - ruizhikangchengvpn
+  description: Ruizhikangchengvpn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - class="col-md-12 col-xs-12 col-lg-12 external_signin_links"
+        - class="no-js">请先启用javascript
+- id: tianqinghanmavpn
+  name: TianqinghanmaVPN
+  author: P1finger
+  tags:
+    - tianqinghanmavpn
+  description: TianqinghanmaVPN
+  matchers:
+    - location: body
+      words:
+        - /vpn/common/js/leadsec.js
+        - /vpn/user/common/custom/auth_home.css
+- id: wangyuxingyunvpn
+  name: Wangyuxingyunvpn
+  author: P1finger
+  tags:
+    - wangyuxingyunvpn
+  description: Wangyuxingyunvpn
+  matchers:
+    - location: body
+      words:
+        - /ssl/down/usbkey.exe
+        - /js/leadsec.js
+- id: whelton-3
+  name: Whelton
+  author: P001
+  tags:
+    - whelton
+  description: Whelton
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - images/l_name.jpg
+        - jtpsoft style1
+- id: venustech-3
+  name: Venustech
+  author: P001
+  tags:
+    - venustech
+  description: Venustech
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - auth_home.css
+        - jquery.sslvpn.js
+    - hash:
+        - 92a4ac20544830e4f8b7abf686a7dbf6
+      location: favicon
+- id: wangshen
+  name: WangShen
+  author: P1finger
+  tags:
+    - wangshen
+  description: WangShen
+  matchers:
+    - location: body
+      words:
+        - admin/js/virtual_keyboard.js
+    - location: header
+      words:
+        - host_for_cookie
+    - condition: or
+      location: body
+      words:
+        - admin/js/virtual_keyboard.js
+    - condition: or
+      location: header
+      words:
+        - host_for_cookie
+- id: wangshen-2
+  name: WangShen
+  author: P001
+  tags:
+    - wangshen
+  description: WangShen
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - admin/js/virtual_keyboard.js
+        - src="images/login_logo.gif"

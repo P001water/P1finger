@@ -1,0 +1,11 @@
+- id: rax-business-management-system
+  name: RAX Business Management System
+  author: P1finger
+  tags:
+    - rax
+    - business-management-system
+  description: RAX Business Management System
+  matchers:
+    - location: body
+      words:
+        - RAX业务管理系统

@@ -1,0 +1,12 @@
+- id: movable-location
+  name: Movable-location
+  author: P001
+  tags:
+    - movable-location
+  description: Movable-location
+  matchers:
+    - location: body
+      words:
+        - content="movable location
+        - movable location version
+        - rel="generator">movable location

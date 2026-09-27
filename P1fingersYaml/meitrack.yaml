@@ -1,0 +1,11 @@
+- id: meitrack
+  name: Meitrack
+  author: P001
+  tags:
+    - meitrack
+  description: Meitrack
+  matchers:
+    - location: body
+      words:
+        - _trackermain_gtvtseries
+        - action="trackerlogin.aspx

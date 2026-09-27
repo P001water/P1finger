@@ -1,0 +1,10 @@
+- id: bosch-systems
+  name: Bosch Security Systems
+  author: P1finger
+  tags:
+    - bosch-systems
+  description: Bosch Security Systems
+  matchers:
+    - hash:
+        - "-1702769256"
+      location: favicon

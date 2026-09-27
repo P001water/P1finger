@@ -1,0 +1,11 @@
+- id: mindocjiekouwendangzaixian
+  name: MinDocjiekouwendangzaixian Management System
+  author: P1finger
+  tags:
+    - mindocjiekouwendangzaixian
+    - management-system
+  description: MinDocjiekouwendangzaixian Management System
+  matchers:
+    - location: body
+      words:
+        - content="MinDoc

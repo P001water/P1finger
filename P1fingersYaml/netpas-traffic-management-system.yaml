@@ -1,0 +1,10 @@
+- id: netpas-traffic
+  name: Netpas-traffic-management-system
+  author: P001
+  tags:
+    - netpas-traffic
+  description: Netpas-traffic-management-system
+  matchers:
+    - location: body
+      words:
+        - 版权所有 <a href="http://www.netpas.cc

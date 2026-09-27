@@ -1,0 +1,22 @@
+- id: calendarscript
+  name: CalendarScript
+  author: Fofa
+  tags:
+    - calendarscript
+  description: CalendarScript
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 'Calendar Administration : Login'
+    - condition: or
+      location: body
+      words:
+        - Powered by <A HREF="http://www.CalendarScript.com
+    - location: body
+      words:
+        - 'Calendar Administration : Login'
+        - CalendarScript.com
+    - location: body
+      words:
+        - powered by <a href="http://www.calendarscript.com

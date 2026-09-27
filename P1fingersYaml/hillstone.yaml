@@ -1,0 +1,90 @@
+- id: hillstone-hsa
+  name: Hillstone-hsa
+  author: P001
+  tags:
+  - hillstone
+  - hillstone-hsa
+  description: Hillstone-hsa
+  matchers:
+  - location: body
+    words:
+    - href="resources/login-all.css"
+- id: hillstone-stoneos
+  name: Hillstone-stoneos
+  author: P001
+  tags:
+  - hillstone
+  - hillstone-stoneos
+  description: Hillstone-stoneos
+  matchers:
+  - location: body
+    words:
+    - '''hillstone stoneos software version'
+- id: hillstone-6000
+  name: Hillstone
+  author: P1finger
+  tags:
+  - hillstone
+  description: Hillstone
+  matchers:
+  - location: body
+    words:
+    - Web Management
+  - location: header
+    words:
+    - 'Set-Cookie: _WebSessionId'
+- id: hillstone
+  name: Hillstone
+  author: P1finger
+  tags:
+  - hillstone
+  description: Hillstone
+  matchers:
+  - location: body
+    words:
+    - Hillstone StoneOS Software Version
+- id: hillstonezhinenganquanyunying
+  name: Hillstonezhinenganquanyunying System
+  author: P001
+  tags:
+  - hillstonezhinenganquanyunying
+  - system
+  description: Hillstonezhinenganquanyunying System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /static/css/main.4672616b.chunk.css
+    - 智源
+- id: hillstone-security-device
+  name: Hillstone Security Device
+  author: P1finger
+  tags:
+  - hillstone
+  - security-device
+  description: Hillstone Security Device
+  matchers:
+  - location: body
+    words:
+    - HILLSTONE NETWORKS
+- id: hillstone-security-audit
+  name: Hillstone Security Audit
+  author: P1finger
+  tags:
+  - hillstone
+  - security-audit
+  description: Hillstone Security Audit
+  matchers:
+  - location: body
+    words:
+    - Hillstone安全审计平台
+- id: hillstone-2
+  name: Hillstone
+  author: P1finger
+  tags:
+  - hillstone
+  description: Hillstone
+  matchers:
+  - location: body
+    words:
+    - HILLSTONE

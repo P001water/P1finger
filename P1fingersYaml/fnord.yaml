@@ -1,0 +1,17 @@
+- id: fnord
+  name: Fnord
+  author: Fofa
+  tags:
+    - fnord
+  description: Fnord
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - fnord
+    - location: header
+      words:
+        - fnord
+    - location: body
+      words:
+        - 'server: fnord'

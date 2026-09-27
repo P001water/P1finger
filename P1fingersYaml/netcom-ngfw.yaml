@@ -1,0 +1,15 @@
+- id: netcom-ngfw
+  name: Netcom-ngfw
+  author: P001
+  tags:
+    - netcom-ngfw
+  description: Netcom-ngfw
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>网康下一代防火墙</title>
+        - netentsec.css
+    - hash:
+        - 9252bd07dbb6277f7ae898da87dada3a
+      location: favicon

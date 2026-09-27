@@ -1,0 +1,10 @@
+- id: niagara
+  name: Niagara Web Server
+  author: P1finger
+  tags:
+    - niagara
+  description: Niagara Web Server
+  matchers:
+    - hash:
+        - "-676077969"
+      location: favicon

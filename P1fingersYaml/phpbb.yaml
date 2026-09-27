@@ -1,0 +1,45 @@
+- id: phpbb
+  name: Phpbb
+  author: P1finger
+  tags:
+    - phpbb
+  description: Phpbb
+  matchers:
+    - location: body
+      words:
+        - phpBB
+    - location: header
+      words:
+        - HttpOnly, phpbb3_
+    - condition: or
+      location: header
+      words:
+        - 'Set-Cookie: phpbb3_'
+    - condition: or
+      location: header
+      words:
+        - HttpOnly, phpbb3_
+    - condition: and
+      location: body
+      words:
+        - http://www.longluntan.com/zh/phpbb/
+    - condition: or
+      location: body
+      words:
+        - phpBB")
+    - condition: or
+      location: body
+      words:
+        - phpBB Group" />
+    - condition: or
+      location: body
+      words:
+        - START QUICK HACK - phpBB Statistics MOD
+    - condition: and
+      location: body
+      words:
+        - phpbb
+        - phpbb group" />
+        - 'set-cookie: phpbb3_'
+        - http://www.longluntan.com/zh/phpbb/
+        - start quick hack - phpbb statistics mod

@@ -1,0 +1,10 @@
+- id: pcitc-cameras
+  name: Pcitc-cameras-and-surveillance
+  author: P001
+  tags:
+    - pcitc-cameras
+  description: Pcitc-cameras-and-surveillance
+  matchers:
+    - location: body
+      words:
+        - images/slider/banner-gis.png

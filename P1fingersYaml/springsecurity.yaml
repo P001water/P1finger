@@ -1,0 +1,27 @@
+- id: springsecurity
+  name: Springsecurity
+  author: P1finger
+  tags:
+    - springsecurity
+  description: Springsecurity
+  matchers:
+    - location: body
+      words:
+        - Full authentication is required
+    - location: body
+      words:
+        - j_spring_security_check
+    - location: header
+      words:
+        - Spring Security Application
+    - location: body
+      words:
+        - _security_check
+        - oauth/authorize
+        - spring-security-redirect
+        - j_spring_cas_security
+        - _security_check
+    - location: header
+      words:
+        - Basic realm="Spring Security Application"
+        - j_spring_cas_security

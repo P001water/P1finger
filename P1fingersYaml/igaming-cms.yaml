@@ -1,0 +1,22 @@
+- id: igaming
+  name: Igaming-cms
+  author: P1finger
+  tags:
+    - igaming
+  description: Igaming-cms
+  matchers:
+    - location: body
+      words:
+        - http://www.igamingcms.com/
+- id: igaming-2
+  name: IGaming-CMS
+  author: Fofa
+  tags:
+    - igaming
+  description: IGaming-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by
+        - http://www.igamingcms.com/

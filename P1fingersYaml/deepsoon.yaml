@@ -1,0 +1,11 @@
+- id: deepsoon
+  name: Deepsoon
+  author: P1finger
+  tags:
+    - deepsoon
+  description: Deepsoon
+  matchers:
+    - location: body
+      words:
+        - www.deepsoon.com
+        - Powered by deep soon

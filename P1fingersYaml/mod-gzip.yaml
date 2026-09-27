@@ -1,0 +1,14 @@
+- id: mod-gzip
+  name: Mod_gzip
+  author: Fofa
+  tags:
+    - mod-gzip
+  description: Mod_gzip
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_gzip
+    - location: header
+      words:
+        - mod_gzip

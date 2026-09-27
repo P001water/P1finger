@@ -1,0 +1,22 @@
+- id: jamroom
+  name: Jamroom
+  author: Fofa
+  tags:
+    - jamroom
+  description: Jamroom
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Talldude Networks
+    - condition: or
+      location: body
+      words:
+        - content="Jamroom
+    - location: body
+      words:
+        - content="Talldude Networks
+        - content="Jamroom
+    - location: body
+      words:
+        - Jamroom

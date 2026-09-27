@@ -1,0 +1,22 @@
+- id: dswjcms
+  name: Dswjcms
+  author: Fofa
+  tags:
+    - dswjcms
+  description: Dswjcms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Dswjcms
+    - condition: or
+      location: body
+      words:
+        - Powered by Dswjcms
+    - location: body
+      words:
+        - content="Dswjcms
+        - Powered by Dswjcms
+    - location: body
+      words:
+        - Dswjcms

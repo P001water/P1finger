@@ -1,0 +1,12 @@
+- id: anmai
+  name: Anmai-system
+  author: P001
+  tags:
+    - anmai
+  description: Anmai-system
+  matchers:
+    - location: body
+      words:
+        - id="lblname">版权所有：上海安脉计算机科技有限公司
+        - <font color="#000000">上海安脉计算机科技有限公司</font>
+        - id="lblname1">版权所有：上海安脉计算机科技有限公司

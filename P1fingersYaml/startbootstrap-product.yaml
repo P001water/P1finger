@@ -1,0 +1,11 @@
+- id: startbootstrap
+  name: Startbootstrap-product
+  author: P001
+  tags:
+    - startbootstrap
+  description: Startbootstrap-product
+  matchers:
+    - location: body
+      words:
+        - src="img/portfolio/thumbnails/4.jpg"
+        - we've got what you need!</h2>

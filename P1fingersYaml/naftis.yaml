@@ -1,0 +1,10 @@
+- id: naftis
+  name: Naftis
+  author: P1finger
+  tags:
+    - naftis
+  description: Naftis
+  matchers:
+    - location: body
+      words:
+        - Naftis

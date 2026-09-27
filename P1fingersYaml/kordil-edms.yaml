@@ -1,0 +1,10 @@
+- id: kordil-edms
+  name: Kordil-edms
+  author: P001
+  tags:
+    - kordil-edms
+  description: Kordil-edms
+  matchers:
+    - location: body
+      words:
+        - '>kordil edms'

@@ -1,0 +1,21 @@
+- id: imailserver
+  name: Imailserver
+  author: P1finger
+  tags:
+    - imailserver
+  description: Imailserver
+  matchers:
+    - location: body
+      words:
+        - myICalUserName
+    - location: header
+      words:
+        - Ipswitch-IMail
+    - condition: or
+      location: body
+      words:
+        - myICalUserName
+    - condition: or
+      location: header
+      words:
+        - Ipswitch-IMail

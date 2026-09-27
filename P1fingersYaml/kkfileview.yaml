@@ -1,0 +1,13 @@
+- id: kkfileview
+  name: KkFileView
+  author: P1finger
+  tags:
+    - kkfileview
+  description: KkFileView
+  matchers:
+    - location: body
+      words:
+        - /onlinePreview?url=
+    - location: body
+      words:
+        - 'repo: ''kkfileview'''

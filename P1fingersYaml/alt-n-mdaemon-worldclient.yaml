@@ -1,0 +1,28 @@
+- id: alt-mdaemon-worldclient
+  name: Alt-n-mdaemon-worldclient
+  author: P1finger
+  tags:
+    - alt-mdaemon-worldclient
+  description: Alt-n-mdaemon-worldclient
+  matchers:
+    - location: body
+      words:
+        - /WorldClient.dll
+    - location: header
+      words:
+        - WDaemon
+- id: alt-mdaemon-worldclient-2
+  name: Alt-N-MDaemon-WorldClient
+  author: Fofa
+  tags:
+    - alt-mdaemon-worldclient
+  description: Alt-N-MDaemon-WorldClient
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /WorldClient.dll
+    - condition: or
+      location: header
+      words:
+        - WDaemon

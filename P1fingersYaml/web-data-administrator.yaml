@@ -1,0 +1,13 @@
+- id: administrator
+  name: Web-data-administrator
+  author: P001
+  tags:
+    - administrator
+  description: Web-data-administrator
+  matchers:
+    - location: body
+      words:
+        - <form name="webform1" method="post" action="default.aspx" onsubmit="javascript:return webform_onsubmit();" id="webform1
+    - location: body
+      words:
+        - Web Data Administrator

@@ -1,0 +1,21 @@
+- id: xinruiqiyeap
+  name: XinruiqiyeAP
+  author: P1finger
+  tags:
+    - xinruiqiyeap
+  description: XinruiqiyeAP
+  matchers:
+    - location: body
+      words:
+        - http://bbs.sundray.com.cn
+        - index.php/welcome/login
+- id: xinruiqiyejiap
+  name: XinruiqiyejiAP
+  author: P1finger
+  tags:
+    - xinruiqiyejiap
+  description: XinruiqiyejiAP
+  matchers:
+    - location: header
+      words:
+        - 'Server: Hydra/0.1.8'

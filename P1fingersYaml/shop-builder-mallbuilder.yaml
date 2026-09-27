@@ -1,0 +1,12 @@
+- id: shop-builder-mallbuilder
+  name: Shop_builder-mallbuilder
+  author: P001
+  tags:
+    - shop-builder-mallbuilder
+  description: Shop_builder-mallbuilder
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="mallbuilder
+        - powered by mallbuilder

@@ -1,0 +1,10 @@
+- id: phpeasydata
+  name: Phpeasydata
+  author: P1finger
+  tags:
+    - phpeasydata
+  description: Phpeasydata
+  matchers:
+    - location: body
+      words:
+        - content="Phpeasydata

@@ -1,0 +1,10 @@
+- id: joinf-erp
+  name: Joinf-erp
+  author: P001
+  tags:
+    - joinf-erp
+  description: Joinf-erp
+  matchers:
+    - location: body
+      words:
+        - <h1>富通天下erp</h1>

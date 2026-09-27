@@ -1,0 +1,24 @@
+- id: comcast-business-2
+  name: Comcast-business
+  author: P001
+  tags:
+    - comcast-business
+  description: Comcast-business
+  matchers:
+    - location: body
+      words:
+        - cmn/css/common-min.css
+- id: comcast-business-3
+  name: Comcast_Business
+  author: Fofa
+  tags:
+    - comcast-business
+  description: Comcast_Business
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - cmn/css/common-min.css
+    - location: body
+      words:
+        - cmn/css/common-min.css

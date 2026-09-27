@@ -1,0 +1,14 @@
+- id: pretsashop
+  name: PretsaShop
+  author: Fofa
+  tags:
+    - pretsashop
+  description: PretsaShop
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="PrestaShop
+    - location: body
+      words:
+        - content="PrestaShop"

@@ -1,0 +1,19 @@
+- id: jira-serverinfo
+  name: Jira Rest API Server Information
+  author: nuclei
+  tags:
+  - jira
+  description: 'Detected Jira REST API serverInfo endpoint is accessible without authentication,
+    exposing sensitive server information including version, build number, server
+    title, base URL, and server time.
+
+    '
+  paths:
+  - /rest/api/latest/serverInfo
+  - /rest/api/2/serverInfo
+  matchers:
+  - location: body
+    words:
+    - '"baseUrl"'
+    - '"deploymentType"'
+    condition: and

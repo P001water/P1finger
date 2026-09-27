@@ -1,0 +1,37 @@
+- id: byzoro-security-gateway
+  name: Byzoro Security Gateway
+  author: P001
+  tags:
+    - byzoro
+    - security-gateway
+  description: Byzoro Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - '&nbsp;patrolflow 多业务安全网关'
+        - patrolflow
+- id: byzorobaizhuoshenji-gateway
+  name: Byzorobaizhuoshenji Gateway
+  author: P001
+  tags:
+    - byzorobaizhuoshenji
+    - gateway
+  description: Byzorobaizhuoshenji Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title> technology, inc.</title>
+        - 百卓网络
+- id: byzoro-next-generation-firewall
+  name: Byzoro Next-Generation Firewall
+  author: P001
+  tags:
+    - byzoro
+    - next-generation-firewall
+  description: Byzoro Next-Generation Firewall
+  matchers:
+    - location: body
+      words:
+        - class="login_main_text">下一代防火墙</div>

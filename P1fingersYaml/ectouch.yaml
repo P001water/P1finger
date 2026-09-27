@@ -1,0 +1,13 @@
+- id: ectouch
+  name: ECTouch
+  author: P1finger
+  tags:
+    - ectouch
+  description: ECTouch
+  matchers:
+    - location: body
+      words:
+        - content="ECTouch
+    - location: header
+      words:
+        - 'X-Powered-By: ECTouch'

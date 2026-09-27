@@ -1,0 +1,11 @@
+- id: oracle-dms
+  name: Oracle-dms
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-dms
+  description: Oracle-dms
+  matchers:
+  - location: header
+    words:
+    - X-Oracle-Dms-Ecid

@@ -1,0 +1,10 @@
+- id: picus
+  name: Picus-Security
+  author: P1finger
+  tags:
+    - picus
+  description: Picus-Security
+  matchers:
+    - location: body
+      words:
+        - Picus Security

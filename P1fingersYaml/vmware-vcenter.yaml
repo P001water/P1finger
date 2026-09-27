@@ -1,0 +1,14 @@
+- id: vmware-vcenter
+  name: VMware-vCenter
+  author: P001
+  tags:
+  - vmware
+  - vmware-vcenter
+  description: VMware-vCenter
+  matchers:
+  - location: body
+    words:
+    - /ui/#?extensionId=com.vmware.vsphere.client.h5.devcenter.apiexplorer">
+    - document.write(ID_LogInH5Client);</script>
+    - the vshield manager requires
+    - ID_BrowseVCDatacenters

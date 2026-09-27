@@ -1,0 +1,10 @@
+- id: loyaa-information-automatic-editing
+  name: Loyaa-information-automatic-editing-system
+  author: P001
+  tags:
+    - loyaa-information-automatic-editing
+  description: Loyaa-information-automatic-editing-system
+  matchers:
+    - location: body
+      words:
+        - /loyaa/common.lib.js

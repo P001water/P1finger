@@ -1,0 +1,11 @@
+- id: instar-full-hd-ip
+  name: Instar Full-hd Ip-camera
+  author: P1finger
+  tags:
+  - instar
+  - instar-full-hd-ip
+  description: Instar Full-hd Ip-camera
+  matchers:
+  - hash:
+    - '-1748763891'
+    location: favicon

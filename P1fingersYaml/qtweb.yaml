@@ -1,0 +1,10 @@
+- id: qtweb
+  name: Qtweb
+  author: P001
+  tags:
+    - qtweb
+  description: Qtweb
+  matchers:
+    - location: body
+      words:
+        - url=gqrtweb

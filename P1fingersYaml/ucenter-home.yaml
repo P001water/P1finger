@@ -1,0 +1,10 @@
+- id: ucenter-home
+  name: UCenter Home
+  author: P1finger
+  tags:
+    - ucenter-home
+  description: UCenter Home
+  matchers:
+    - location: body
+      words:
+        - Powered by UCenter Home

@@ -1,0 +1,13 @@
+- id: zhongyuanqiliniaudit
+  name: Zhongyuanqiliniaudit Bastion Host
+  author: P001
+  tags:
+    - zhongyuanqiliniaudit
+    - bastion-host
+  description: Zhongyuanqiliniaudit Bastion Host
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - (alocation=="fingersecauth"||alocation=="localfingersecauth")
+        - www.tosec.com.cn/doc

@@ -1,0 +1,11 @@
+- id: sophos-cyberoam-ssl
+  name: Sophos-cyberoam-ssl-vpn
+  author: P001
+  tags:
+  - sophos
+  - sophos-cyberoam-ssl
+  description: Sophos-cyberoam-ssl-vpn
+  matchers:
+  - location: body
+    words:
+    - src="/images/customizeimages/uploadedlogo.jpg"

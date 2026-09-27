@@ -1,0 +1,10 @@
+- id: csdjcms
+  name: CSDJCMS
+  author: P1finger
+  tags:
+    - csdjcms
+  description: CSDJCMS
+  matchers:
+    - location: body
+      words:
+        - 程氏舞曲DJ

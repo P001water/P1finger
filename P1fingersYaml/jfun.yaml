@@ -1,0 +1,11 @@
+- id: jfunboxjiefang-cloud-drive
+  name: JFunBoxjiefang Cloud Drive
+  author: P1finger
+  tags:
+    - jfunboxjiefang
+    - cloud-drive
+  description: JFunBoxjiefang Cloud Drive
+  matchers:
+    - location: body
+      words:
+        - JFun Box

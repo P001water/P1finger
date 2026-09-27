@@ -1,0 +1,28 @@
+- id: vmware-horizon
+  name: Vmware-horizon
+  author: P001
+  tags:
+  - vmware
+  - vmware-horizon
+  description: Vmware-horizon
+  matchers:
+  - location: body
+    words:
+    - alt="vmware horizon">
+    - href='https://www.vmware.com/go/viewclients'
+- id: vmware-horizon-2
+  name: Vmware Horizon
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-horizon
+  description: Vmware Horizon
+  matchers:
+  - location: body
+    words:
+    - VMware&nbsp;Horizon
+    - vmware horizon
+  - hash:
+    - '-1255992602'
+    - '-991123252'
+    location: favicon

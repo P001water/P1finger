@@ -1,0 +1,14 @@
+- id: pmwiki
+  name: Pmwiki
+  author: P001
+  tags:
+    - pmwiki
+  description: Pmwiki
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.pmwiki.org/" target=
+        - <span class='commentout-pmwikiorg'>
+    - location: body
+      words:
+        - pmwiki.php

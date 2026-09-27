@@ -1,0 +1,11 @@
+- id: novell-groupwise
+  name: Novell-groupwise
+  author: P001
+  tags:
+    - novell-groupwise
+  description: Novell-groupwise
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: njscn='
+        - <!-- start novell services

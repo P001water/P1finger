@@ -1,0 +1,14 @@
+- id: viewgood-streammedia
+  name: Viewgood-streammedia
+  author: P001
+  tags:
+    - viewgood-streammedia
+  description: Viewgood-streammedia
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - var webvirtualdiretory = 'viewgood';
+        - fgetquery
+        - src='/viewgood/pc/
+        - viewgood

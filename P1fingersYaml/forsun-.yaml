@@ -1,0 +1,11 @@
+- id: forsunkedunkongzhitai
+  name: Forsunkedunkongzhitai Security Gateway
+  author: P001
+  tags:
+    - forsunkedunkongzhitai
+    - security-gateway
+  description: Forsunkedunkongzhitai Security Gateway
+  matchers:
+    - location: body
+      words:
+        - 科盾网关控制台

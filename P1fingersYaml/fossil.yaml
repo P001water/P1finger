@@ -1,0 +1,17 @@
+- id: fossil
+  name: Fossil
+  author: Fofa
+  tags:
+    - fossil
+  description: Fossil
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href="http://fossil-scm.org
+    - location: body
+      words:
+        - <a href="http://fossil-scm.org
+    - location: body
+      words:
+        - by Fossil

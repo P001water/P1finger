@@ -1,0 +1,10 @@
+- id: xiuno
+  name: Xiuno
+  author: P001
+  tags:
+    - xiuno
+  description: Xiuno
+  matchers:
+    - location: body
+      words:
+        - xiuno/xiunobbs

@@ -1,0 +1,22 @@
+- id: cmsimple
+  name: Cmsimple
+  author: P1finger
+  tags:
+    - cmsimple
+  description: Cmsimple
+  matchers:
+    - location: body
+      words:
+        - Powered by CMSimple.dk
+        - content="CMSimple
+    - condition: or
+      location: body
+      words:
+        - Powered by CMSimple.dk
+    - condition: or
+      location: body
+      words:
+        - content="CMSimple
+    - location: body
+      words:
+        - CMSimple

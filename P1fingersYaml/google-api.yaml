@@ -1,0 +1,15 @@
+- id: google-api
+  name: Google Api
+  author: Fofa
+  tags:
+    - google-api
+  description: Google Api
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - www.google.com/jsapi
+    - condition: or
+      location: body
+      words:
+        - ajax.googleapis.com/

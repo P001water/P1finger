@@ -1,0 +1,28 @@
+- id: broadwin-webaccess
+  name: Broadwin-webaccess
+  author: P1finger
+  tags:
+    - broadwin-webaccess
+  description: Broadwin-webaccess
+  matchers:
+    - location: body
+      words:
+        - '<!-- #BeginTemplate "/Templates/bw_templete1.dwt" -->'
+    - location: header
+      words:
+        - /broadWeb/bwRoot.asp?username=
+- id: broadwin-webaccess-2
+  name: BroadWin-WebAccess
+  author: Fofa
+  tags:
+    - broadwin-webaccess
+  description: BroadWin-WebAccess
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - '<!-- #BeginTemplate "/Templates/bw_templete1.dwt" -->'
+    - condition: or
+      location: header
+      words:
+        - /broadWeb/bwRoot.asp?username=

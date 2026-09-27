@@ -1,0 +1,10 @@
+- id: adminmongo
+  name: AdminMongo
+  author: P1finger
+  tags:
+    - adminmongo
+  description: AdminMongo
+  matchers:
+    - location: body
+      words:
+        - adminmongo

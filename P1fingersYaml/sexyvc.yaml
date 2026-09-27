@@ -1,0 +1,11 @@
+- id: sexyvc-cms
+  name: SexyVC CMS
+  author: P1finger
+  tags:
+    - sexyvc
+    - cms
+  description: SexyVC CMS
+  matchers:
+    - location: body
+      words:
+        - SexyVC 内容管理系统

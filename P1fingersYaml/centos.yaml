@@ -1,0 +1,27 @@
+- id: centos
+  name: Centos
+  author: Fofa
+  tags:
+    - centos
+  description: Centos
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - centos
+    - location: header
+      words:
+        - centos
+- id: centosmorenyemian
+  name: Centosmorenyemian
+  author: P001
+  tags:
+    - centosmorenyemian
+  description: Centosmorenyemian
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>welcome to centos</title>
+        - centos.org
+        - img/centos-logo.png

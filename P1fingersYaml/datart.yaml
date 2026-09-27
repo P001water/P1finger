@@ -1,0 +1,10 @@
+- id: datart
+  name: Datart
+  author: P1finger
+  tags:
+    - datart
+  description: Datart
+  matchers:
+    - location: body
+      words:
+        - datart

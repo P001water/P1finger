@@ -1,0 +1,10 @@
+- id: smart-cms
+  name: Smart-cms
+  author: P001
+  tags:
+    - smart-cms
+  description: Smart-cms
+  matchers:
+    - location: body
+      words:
+        - name="formdoc" action="/hz/sys/login/logined.jsp

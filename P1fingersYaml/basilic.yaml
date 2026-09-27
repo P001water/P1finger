@@ -1,0 +1,11 @@
+- id: basilic
+  name: Basilic
+  author: Fofa
+  tags:
+    - basilic
+  description: Basilic
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /Software/Basilic

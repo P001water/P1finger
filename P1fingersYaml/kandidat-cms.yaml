@@ -1,0 +1,24 @@
+- id: kandidat
+  name: Kandidat-cms
+  author: P1finger
+  tags:
+    - kandidat
+  description: Kandidat-cms
+  matchers:
+    - location: body
+      words:
+        - content="Kandidat-CMS
+- id: kandidat-2
+  name: Kandidat-CMS
+  author: Fofa
+  tags:
+    - kandidat
+  description: Kandidat-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Kandidat-CMS
+    - location: body
+      words:
+        - content="Kandidat-CMS"

@@ -1,0 +1,21 @@
+- id: iball-wrx300n
+  name: IBall WRX300N
+  author: Fofa
+  tags:
+    - iball-wrx300n
+  description: IBall WRX300N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - iB-WRX300N
+- id: iball-wrx300n-2
+  name: Iball Wrx300n
+  author: P1finger
+  tags:
+    - iball-wrx300n
+  description: Iball Wrx300n
+  matchers:
+    - location: header
+      words:
+        - iB-WRX300N

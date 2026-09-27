@@ -1,0 +1,11 @@
+- id: iis6-2
+  name: IIS6.5
+  author: Fofa
+  tags:
+    - iis6
+  description: IIS6.5
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - iis/6.5

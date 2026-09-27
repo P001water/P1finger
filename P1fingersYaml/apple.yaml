@@ -1,0 +1,10 @@
+- id: apple
+  name: Apple
+  author: P1finger
+  tags:
+    - apple
+  description: Apple
+  matchers:
+    - hash:
+        - "-1498185948"
+      location: favicon

@@ -1,0 +1,23 @@
+- id: vicworl
+  name: Vicworl
+  author: Fofa
+  tags:
+    - vicworl
+  description: Vicworl
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Vicworl
+    - condition: or
+      location: body
+      words:
+        - content="Vicworl
+    - condition: or
+      location: body
+      words:
+        - vindex_right_d
+    - location: body
+      words:
+        - Vicworl
+        - vindex_right_d

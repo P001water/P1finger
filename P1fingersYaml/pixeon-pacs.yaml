@@ -1,0 +1,10 @@
+- id: pixeon-pacs
+  name: Pixeon-pacs
+  author: P001
+  tags:
+    - pixeon-pacs
+  description: Pixeon-pacs
+  matchers:
+    - location: body
+      words:
+        - <span class="apptitle" id="apppixviewer">

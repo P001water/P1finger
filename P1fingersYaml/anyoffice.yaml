@@ -1,0 +1,10 @@
+- id: huawei
+  name: Huawei
+  author: P1finger
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - location: body
+      words:
+        - /MDMServer/loginPage.action

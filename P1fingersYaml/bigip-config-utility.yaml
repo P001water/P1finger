@@ -1,0 +1,24 @@
+- id: bigip-config-utility
+  name: BIG-IP Configuration Utility
+  author: nuclei
+  tags:
+  - bigip
+  description: BIG-IP Configuration Utility
+  paths:
+  - /tmui/login.jsp
+  - /tmui/tmui/login/welcome.jsp
+  - /mgmt/tm/sys/management-ip
+  matchers:
+  - location: body
+    words:
+    - Welcome to the BIG-IP
+    - Configuration Utility
+    condition: and
+  - location: header
+    words:
+    - 'Www-Authenticate: Basic realm'
+    - Enterprise Manager
+    condition: and
+  - location: body
+    words:
+    - check your user-id and password and try again

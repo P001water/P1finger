@@ -1,0 +1,11 @@
+- id: phpoa
+  name: OA-PHPOA
+  author: P001
+  tags:
+    - phpoa
+  description: OA-PHPOA
+  matchers:
+    - location: body
+      words:
+        - admin_img/msg_bg.png
+        - url(template/default/images/admin_img/msg.png)

@@ -1,0 +1,11 @@
+- id: hanwei-hazardous-chemicals-early-warning-prevention
+  name: Hanwei-hazardous-chemicals-enterprise-early-warning-and-prevention-system
+  author: P001
+  tags:
+    - hanwei-hazardous-chemicals-early-warning-prevention
+  description: Hanwei-hazardous-chemicals-enterprise-early-warning-and-prevention-system
+  matchers:
+    - location: body
+      words:
+        - default value is bootstrapdialog.location_primary
+        - var objheight = document.documentelement.clientheight

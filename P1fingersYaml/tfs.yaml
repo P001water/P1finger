@@ -1,0 +1,11 @@
+- id: tfskehu-management-system
+  name: TFSkehu Management System
+  author: P1finger
+  tags:
+    - tfskehu
+    - management-system
+  description: TFSkehu Management System
+  matchers:
+    - location: body
+      words:
+        - TFS客户管理系统

@@ -1,0 +1,10 @@
+- id: ultrapower-identity
+  name: Ultrapower-identity
+  author: P001
+  tags:
+    - ultrapower-identity
+  description: Ultrapower-identity
+  matchers:
+    - location: body
+      words:
+        - <li><p>欢迎进入身份与安全管控系统</p></li>

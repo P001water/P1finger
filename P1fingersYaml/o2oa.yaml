@@ -1,0 +1,11 @@
+- id: o2oa
+  name: O2OA
+  author: P1finger
+  tags:
+    - o2oa
+  description: O2OA
+  matchers:
+    - location: body
+      words:
+        - O2OA
+        - o2_core

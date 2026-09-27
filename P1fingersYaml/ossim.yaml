@@ -1,0 +1,10 @@
+- id: ossim
+  name: OSSIM
+  author: P1finger
+  tags:
+    - ossim
+  description: OSSIM
+  matchers:
+    - location: body
+      words:
+        - AlienVault OSSIM

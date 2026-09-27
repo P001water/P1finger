@@ -1,0 +1,10 @@
+- id: piolink-switch
+  name: PIOLINK Application Switch
+  author: P1finger
+  tags:
+    - piolink-switch
+  description: PIOLINK Application Switch
+  matchers:
+    - location: body
+      words:
+        - piolink application switch

@@ -1,0 +1,11 @@
+- id: yonyou-rmis
+  name: Yonyou-rmis
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-rmis
+  description: Yonyou-rmis
+  matchers:
+  - location: body
+    words:
+    - href="clientfile/rmisupdate.exe

@@ -1,0 +1,12 @@
+- id: gelgoogwenjian
+  name: GELGOOGwenjian Management System
+  author: P1finger
+  tags:
+    - gelgoogwenjian
+    - management-system
+  description: GELGOOGwenjian Management System
+  matchers:
+    - location: body
+      words:
+        - <meta name="application-name" content="GELGOOG文件管理系统" />
+        - <title>GELGOOG文件管理系统</title>

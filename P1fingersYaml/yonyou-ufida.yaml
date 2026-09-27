@@ -1,0 +1,11 @@
+- id: yonyou-ufida
+  name: Yonyou-ufida
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-ufida
+  description: Yonyou-ufida
+  matchers:
+  - location: body
+    words:
+    - /system/login/login.asp?appid=

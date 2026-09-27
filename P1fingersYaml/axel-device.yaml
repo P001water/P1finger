@@ -1,0 +1,21 @@
+- id: axel
+  name: Axel-device
+  author: P1finger
+  tags:
+    - axel
+  description: Axel-device
+  matchers:
+    - location: header
+      words:
+        - Axel Admin Server
+- id: axel-2
+  name: Axel-Device
+  author: Fofa
+  tags:
+    - axel
+  description: Axel-Device
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Axel Admin Server

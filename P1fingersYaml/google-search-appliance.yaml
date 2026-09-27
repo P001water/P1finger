@@ -1,0 +1,15 @@
+- id: google-search-appliance
+  name: Google-Search-Appliance
+  author: Fofa
+  tags:
+    - google-search-appliance
+  description: Google-Search-Appliance
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Google Search Appliance
+    - condition: or
+      location: header
+      words:
+        - Google Search Appliance

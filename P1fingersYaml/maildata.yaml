@@ -1,0 +1,13 @@
+- id: langgemaildata
+  name: LanggeMailData
+  author: P1finger
+  tags:
+    - langgemaildata
+  description: LanggeMailData
+  matchers:
+    - location: body
+      words:
+        - MailData电子邮件安全网关系统
+    - hash:
+        - "-1869497338"
+      location: favicon

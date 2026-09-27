@@ -1,0 +1,10 @@
+- id: uproxy
+  name: Uproxy
+  author: P1finger
+  tags:
+    - uproxy
+  description: Uproxy
+  matchers:
+    - location: header
+      words:
+        - uproxy

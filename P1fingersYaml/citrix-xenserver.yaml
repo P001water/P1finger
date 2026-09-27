@@ -1,0 +1,35 @@
+- id: citrix-xenserver
+  name: Citrix-xenserver
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-xenserver
+  description: Citrix-xenserver
+  matchers:
+  - location: body
+    words:
+    - Citrix Systems, Inc. XenServer
+  - location: body
+    words:
+    - <a href="xencentersetup.exe">xencenter installer</a>
+    - citrix systems, inc. xenserver
+- id: citrix-xenserver-2
+  name: Citrix-XenServer
+  author: Fofa
+  tags:
+  - citrix
+  - citrix-xenserver
+  description: Citrix-XenServer
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - Citrix Systems, Inc. XenServer
+  - condition: or
+    location: body
+    words:
+    - <a href="XenCenterSetup.exe">XenCenter installer</a>
+  - location: body
+    words:
+    - XenServer
+    - Citrix Systems

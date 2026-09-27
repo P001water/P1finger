@@ -1,0 +1,27 @@
+- id: redmine
+  name: Redmine
+  author: P1finger
+  tags:
+    - redmine
+  description: Redmine
+  matchers:
+    - location: body
+      words:
+        - Redmine
+        - authenticity_token
+    - condition: and
+      location: body
+      words:
+        - Redmine
+    - condition: and
+      location: body
+      words:
+        - authenticity_token
+    - hash:
+        - "603314"
+      location: favicon
+    - location: body
+      words:
+        - redmine
+        - content="redmine
+        - powered by <a href="http://www.redmine.org/

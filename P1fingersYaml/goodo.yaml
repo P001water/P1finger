@@ -1,0 +1,10 @@
+- id: shanghaidingchuanggoodo
+  name: ShanghaidingchuangGoodo
+  author: P1finger
+  tags:
+    - shanghaidingchuanggoodo
+  description: ShanghaidingchuangGoodo
+  matchers:
+    - location: body
+      words:
+        - 上海鼎创信息科技有限公司

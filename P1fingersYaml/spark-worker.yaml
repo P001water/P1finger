@@ -1,0 +1,15 @@
+- id: spark-worker
+  name: Spark_Worker
+  author: Fofa
+  tags:
+  - spark
+  - spark-worker
+  description: Spark_Worker
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Spark Worker at
+  - location: body
+    words:
+    - Spark Worker at

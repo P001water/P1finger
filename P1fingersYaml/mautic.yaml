@@ -1,0 +1,10 @@
+- id: mautic
+  name: Mautic
+  author: P1finger
+  tags:
+    - mautic
+  description: Mautic
+  matchers:
+    - hash:
+        - "1273982002"
+      location: favicon

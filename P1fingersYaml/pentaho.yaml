@@ -1,0 +1,10 @@
+- id: pentaho
+  name: Pentaho
+  author: P1finger
+  tags:
+    - pentaho
+  description: Pentaho
+  matchers:
+    - location: body
+      words:
+        - Pentaho 用户控制台

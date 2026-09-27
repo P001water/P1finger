@@ -1,0 +1,10 @@
+- id: sitegenius
+  name: Sitegenius
+  author: P001
+  tags:
+    - sitegenius
+  description: Sitegenius
+  matchers:
+    - location: body
+      words:
+        - var portalbrowser = window.open('popup.php?page_location='+page_location+'&lang=

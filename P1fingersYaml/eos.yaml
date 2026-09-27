@@ -1,0 +1,15 @@
+- id: puyuaneos
+  name: Puyuaneos
+  author: P1finger
+  tags:
+    - puyuaneos
+  description: Puyuaneos
+  matchers:
+    - location: body
+      words:
+        - EOSOperator
+        - eos-web.js
+        - org.gocom
+    - location: header
+      words:
+        - eos_style_cookie

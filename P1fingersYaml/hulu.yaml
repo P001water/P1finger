@@ -1,0 +1,11 @@
+- id: huludianshang-management-system
+  name: HULUdianshang Management System
+  author: P1finger
+  tags:
+    - huludianshang
+    - management-system
+  description: HULUdianshang Management System
+  matchers:
+    - location: body
+      words:
+        - <title>HULU电商平台管理系统

@@ -1,0 +1,17 @@
+- id: seafile
+  name: Seafile
+  author: P1finger
+  tags:
+    - seafile
+  description: Seafile
+  matchers:
+    - hash:
+        - "-12700016"
+      location: favicon
+    - location: body
+      words:
+        - css/seahub.min.css
+    - location: body
+      words:
+        - /captcha/refresh
+        - Seafile

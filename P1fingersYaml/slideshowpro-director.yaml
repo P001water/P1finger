@@ -1,0 +1,11 @@
+- id: slideshowpro-director
+  name: Slideshowpro-director
+  author: P001
+  tags:
+    - slideshowpro-director
+  description: Slideshowpro-director
+  matchers:
+    - location: body
+      words:
+        - </div> <!--close login-container--></body>
+        - <div id="simple-footer"><span>slideshowpro director

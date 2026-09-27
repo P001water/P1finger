@@ -1,0 +1,33 @@
+- id: polycom
+  name: Polycom
+  author: Fofa
+  tags:
+    - polycom
+  description: Polycom
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Polycom
+    - condition: and
+      location: body
+      words:
+        - kAllowDirectHTMLFileAccess
+    - location: body
+      words:
+        - Polycom
+        - kAllowDirectHTMLFileAccess
+    - hash:
+        - "77044418"
+      location: favicon
+- id: polycomfuwuqi
+  name: Polycomfuwuqi Video Conferencing
+  author: P1finger
+  tags:
+    - polycomfuwuqi
+    - video-conferencing
+  description: Polycomfuwuqi Video Conferencing
+  matchers:
+    - location: body
+      words:
+        - EMA at Carmel

@@ -1,0 +1,14 @@
+- id: uplusftp
+  name: UPlusFtp
+  author: Fofa
+  tags:
+    - uplusftp
+  description: UPlusFtp
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - uPlusFtp
+    - location: header
+      words:
+        - uPlusFtp

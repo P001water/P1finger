@@ -1,0 +1,10 @@
+- id: seagate-technology
+  name: Seagate Technology
+  author: P1finger
+  tags:
+    - seagate-technology
+  description: Seagate Technology
+  matchers:
+    - hash:
+        - "240136437"
+      location: favicon

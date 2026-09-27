@@ -1,0 +1,10 @@
+- id: firestorm
+  name: Firestorm
+  author: P1finger
+  tags:
+    - firestorm
+  description: Firestorm
+  matchers:
+    - location: body
+      words:
+        - Firestorm Apps

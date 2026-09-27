@@ -1,0 +1,10 @@
+- id: mobile-office
+  name: Mobile-office-system
+  author: P001
+  tags:
+    - mobile-office
+  description: Mobile-office-system
+  matchers:
+    - location: body
+      words:
+        - window.location.href = '/ui/html/login.html';

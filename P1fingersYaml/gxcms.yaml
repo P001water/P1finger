@@ -1,0 +1,10 @@
+- id: gxcms
+  name: Gxcms
+  author: P1finger
+  tags:
+    - gxcms
+  description: Gxcms
+  matchers:
+    - location: body
+      words:
+        - gxcms

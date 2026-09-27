@@ -1,0 +1,11 @@
+- id: vmware-carbon-black-edr
+  name: VMware Carbon Black EDR
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-carbon-black-edr
+  description: VMware Carbon Black EDR
+  matchers:
+  - location: body
+    words:
+    - VMware Carbon Black EDR

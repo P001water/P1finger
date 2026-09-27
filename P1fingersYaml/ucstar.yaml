@@ -1,0 +1,14 @@
+- id: ucstar
+  name: UcSTAR
+  author: Fofa
+  tags:
+    - ucstar
+  description: UcSTAR
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - UcSTAR 管理控制台
+    - location: body
+      words:
+        - UcSTAR 管理控制台

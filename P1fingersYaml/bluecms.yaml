@@ -1,0 +1,19 @@
+- id: bluecms
+  name: Bluecms
+  author: P1finger
+  tags:
+    - bluecms
+  description: Bluecms
+  matchers:
+    - location: body
+      words:
+        - power by bcms
+        - bcms_plugin
+    - condition: or
+      location: body
+      words:
+        - power by bcms
+    - condition: or
+      location: body
+      words:
+        - bcms_plugin

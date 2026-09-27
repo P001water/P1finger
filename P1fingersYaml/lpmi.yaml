@@ -1,0 +1,12 @@
+- id: inspur-3
+  name: Inspur
+  author: P001
+  tags:
+    - inspur
+  description: Inspur
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - management system
+        - img/inspur_logo.png

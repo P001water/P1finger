@@ -1,0 +1,26 @@
+- id: asus-aicloud
+  name: Asus-aicloud
+  author: P001
+  tags:
+  - asus
+  - asus-aicloud
+  description: Asus-aicloud
+  matchers:
+  - location: body
+    words:
+    - href="/smb/css/startup.png"
+- id: asus-aicloud-2
+  name: Asus Aicloud
+  author: P1finger
+  tags:
+  - asus
+  - asus-aicloud
+  description: Asus Aicloud
+  matchers:
+  - hash:
+    - '552592949'
+    location: favicon
+  - location: body
+    words:
+    - href="/smb/css/startup.png"
+    - AiCloud

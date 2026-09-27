@@ -1,0 +1,2269 @@
+- id: netgear
+  name: Netgear
+  author: P1finger
+  tags:
+  - netgear
+  description: Netgear
+  matchers:
+  - hash:
+    - '-1319025408'
+    location: favicon
+  - location: body
+    words:
+    - gigabit dual wan ssl vpn firewall fvs336gv3</div>
+- id: netgearchanpin
+  name: NETGEARchanpin
+  author: Fofa
+  tags:
+  - netgearchanpin
+  description: NETGEARchanpin
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR
+  - location: header
+    words:
+    - NETGEAR
+- id: netgear-ac1450
+  name: NETGEAR AC1450
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-ac1450
+  description: NETGEAR AC1450
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR AC1450
+- id: netgear-c3000-100nas
+  name: NETGEAR C3000-100NAS
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-c3000-100nas
+  description: NETGEAR C3000-100NAS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR C3000-100NAS
+- id: netgear-c3700-100nas
+  name: NETGEAR C3700-100NAS
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-c3700-100nas
+  description: NETGEAR C3700-100NAS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR C3700-100NAS
+- id: netgear-c6250-100nas
+  name: NETGEAR C6250-100NAS
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-c6250-100nas
+  description: NETGEAR C6250-100NAS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR C6250-100NAS
+- id: netgear-c6300
+  name: NETGEAR C6300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-c6300
+  description: NETGEAR C6300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR C6300
+- id: netgear-c7000-100nas
+  name: NETGEAR C7000-100NAS
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-c7000-100nas
+  description: NETGEAR C7000-100NAS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR C7000-100NAS
+- id: netgear-cg3700emr-1cmnds
+  name: NETGEAR CG3700EMR-1CMNDS
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-cg3700emr-1cmnds
+  description: NETGEAR CG3700EMR-1CMNDS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR CG3700EMR-1CMNDS
+- id: netgear-cwge111
+  name: Netgear CWGE111
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-cwge111
+  description: Netgear CWGE111
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear CWGE111
+- id: netgear-d1500
+  name: NETGEAR D1500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-d1500
+  description: NETGEAR D1500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR D1500
+- id: netgear-d500
+  name: NETGEAR D500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-d500
+  description: NETGEAR D500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR D500
+- id: netgear-d6200
+  name: NETGEAR D6200
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-d6200
+  description: NETGEAR D6200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR D6200
+- id: netgear-d6220
+  name: NETGEAR D6220
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-d6220
+  description: NETGEAR D6220
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR D6220
+- id: netgear-d6300
+  name: NETGEAR D6300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-d6300
+  description: NETGEAR D6300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR D6300
+- id: netgear-d6400
+  name: NETGEAR D6400
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-d6400
+  description: NETGEAR D6400
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR D6400
+- id: netgear-d8500
+  name: NETGEAR D8500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-d8500
+  description: NETGEAR D8500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR D8500
+- id: netgear-dc112a
+  name: NETGEAR DC112A
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dc112a
+  description: NETGEAR DC112A
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DC112A
+- id: netgear-dd-wrt
+  name: NetGear DD-wrt
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dd-wrt
+  description: NetGear DD-wrt
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NetGear DD-wrt
+- id: netgear-dg834
+  name: NETGEAR DG834
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834
+  description: NETGEAR DG834
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834
+- id: netgear-dg834-2
+  name: NETGEAR DG834(G)
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834
+  description: NETGEAR DG834(G)
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834(G)
+- id: netgear-dg834g
+  name: Netgear DG834G
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834g
+  description: Netgear DG834G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear DG834G
+- id: netgear-dg834gb
+  name: NETGEAR DG834GB
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834gb
+  description: NETGEAR DG834GB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834GB
+- id: netgear-dg834gl
+  name: NETGEAR DG834GL
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834gl
+  description: NETGEAR DG834GL
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834GL
+- id: netgear-dg834gt
+  name: NETGEAR DG834GT
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834gt
+  description: NETGEAR DG834GT
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834GT
+- id: netgear-dg834gtb
+  name: NETGEAR DG834GTB
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834gtb
+  description: NETGEAR DG834GTB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834GTB
+- id: netgear-dg834guv5
+  name: NETGEAR DG834GUv5
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834guv5
+  description: NETGEAR DG834GUv5
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834GUv5
+- id: netgear-dg834gv
+  name: NETGEAR DG834GV
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834gv
+  description: NETGEAR DG834GV
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834GV
+- id: netgear-dg834gv5
+  name: NETGEAR DG834Gv5
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834gv5
+  description: NETGEAR DG834Gv5
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834Gv5
+- id: netgear-dg834n
+  name: NETGEAR DG834N
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834n
+  description: NETGEAR DG834N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834N
+- id: netgear-dg834nbv2
+  name: NETGEAR DG834NBv2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834nbv2
+  description: NETGEAR DG834NBv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834NBv2
+- id: netgear-dg834pn
+  name: NETGEAR DG834PN
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834pn
+  description: NETGEAR DG834PN
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834PN
+- id: netgear-dg834pnb
+  name: NETGEAR DG834PNB
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dg834pnb
+  description: NETGEAR DG834PNB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DG834PNB
+- id: netgear-dgn1000
+  name: NETGEAR DGN1000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn1000
+  description: NETGEAR DGN1000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN1000
+- id: netgear-dgn1000b
+  name: NETGEAR DGN1000B
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn1000b
+  description: NETGEAR DGN1000B
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN1000B
+- id: netgear-dgn1000sp
+  name: Netgear DGN1000SP
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn1000sp
+  description: Netgear DGN1000SP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear DGN1000SP
+- id: netgear-dgn1000v3
+  name: NETGEAR DGN1000v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn1000v3
+  description: NETGEAR DGN1000v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN1000v3
+- id: netgear-dgn2000
+  name: NETGEAR DGN2000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2000
+  description: NETGEAR DGN2000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2000
+- id: netgear-dgn2000b
+  name: NETGEAR DGN2000B
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2000b
+  description: NETGEAR DGN2000B
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2000B
+- id: netgear-dgn2200
+  name: NETGEAR DGN2200
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200
+  description: NETGEAR DGN2200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200
+- id: netgear-dgn2200bv3
+  name: NETGEAR DGN2200Bv3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200bv3
+  description: NETGEAR DGN2200Bv3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200Bv3
+- id: netgear-dgn2200bv4
+  name: NETGEAR DGN2200Bv4
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200bv4
+  description: NETGEAR DGN2200Bv4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200Bv4
+- id: netgear-dgn2200m
+  name: NETGEAR DGN2200M
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200m
+  description: NETGEAR DGN2200M
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200M
+- id: netgear-dgn2200mb
+  name: NETGEAR DGN2200MB
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200mb
+  description: NETGEAR DGN2200MB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200MB
+- id: netgear-dgn2200mv2telkom
+  name: NETGEAR DGN2200Mv2TELKOM
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200mv2telkom
+  description: NETGEAR DGN2200Mv2TELKOM
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200Mv2TELKOM
+- id: netgear-dgn2200v2bezeq
+  name: NETGEAR DGN2200v2BEZEQ
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200v2bezeq
+  description: NETGEAR DGN2200v2BEZEQ
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200v2BEZEQ
+- id: netgear-dgn2200v3
+  name: NETGEAR DGN2200v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200v3
+  description: NETGEAR DGN2200v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200v3
+- id: netgear-dgn2200v4
+  name: NETGEAR DGN2200v4
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn2200v4
+  description: NETGEAR DGN2200v4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN2200v4
+- id: netgear-dgn3500
+  name: NETGEAR DGN3500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn3500
+  description: NETGEAR DGN3500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN3500
+- id: netgear-dgn3500-ssh
+  name: NETGEAR DGN3500_SSH
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn3500-ssh
+  description: NETGEAR DGN3500_SSH
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN3500_SSH
+- id: netgear-dgn3500b
+  name: NETGEAR DGN3500B
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgn3500b
+  description: NETGEAR DGN3500B
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGN3500B
+- id: netgear-dgnd3300
+  name: NETGEAR DGND3300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgnd3300
+  description: NETGEAR DGND3300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGND3300
+- id: netgear-dgnd3700
+  name: NETGEAR DGND3700
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgnd3700
+  description: NETGEAR DGND3700
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGND3700
+- id: netgear-dgnd3700v2
+  name: NETGEAR DGND3700v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgnd3700v2
+  description: NETGEAR DGND3700v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGND3700v2
+- id: netgear-dgnd4000
+  name: NETGEAR DGND4000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dgnd4000
+  description: NETGEAR DGND4000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DGND4000
+- id: netgear-dm111
+  name: NETGEAR DM111
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dm111
+  description: NETGEAR DM111
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DM111
+- id: netgear-dm111p
+  name: NETGEAR DM111P
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dm111p
+  description: NETGEAR DM111P
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DM111P
+- id: netgear-dm111psp
+  name: NETGEAR DM111PSP
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dm111psp
+  description: NETGEAR DM111PSP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DM111PSP
+- id: netgear-dm111pspv2
+  name: NETGEAR DM111PSPv2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dm111pspv2
+  description: NETGEAR DM111PSPv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DM111PSPv2
+- id: netgear-dm111pusp
+  name: NETGEAR DM111PUSP
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dm111pusp
+  description: NETGEAR DM111PUSP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DM111PUSP
+- id: netgear-dm111puspv2
+  name: Netgear DM111PUSPv2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dm111puspv2
+  description: Netgear DM111PUSPv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear DM111PUSPv2
+- id: netgear-dst6501
+  name: NETGEAR DST6501
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dst6501
+  description: NETGEAR DST6501
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR DST6501
+- id: netgear-dvg1000
+  name: NetGear DVG1000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-dvg1000
+  description: NetGear DVG1000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NetGear DVG1000
+- id: netgear-evg1500
+  name: Netgear EVG1500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-evg1500
+  description: Netgear EVG1500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear EVG1500
+- id: netgear-evg2000
+  name: NETGEAR EVG2000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-evg2000
+  description: NETGEAR EVG2000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR EVG2000
+- id: netgear-ex2700
+  name: NETGEAR EX2700
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-ex2700
+  description: NETGEAR EX2700
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR EX2700
+- id: netgear-jndr3000
+  name: NETGEAR JNDR3000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jndr3000
+  description: NETGEAR JNDR3000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JNDR3000
+- id: netgear-jnr1010
+  name: NETGEAR JNR1010
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jnr1010
+  description: NETGEAR JNR1010
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JNR1010
+- id: netgear-jnr1010v2
+  name: NETGEAR JNR1010v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jnr1010v2
+  description: NETGEAR JNR1010v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JNR1010v2
+- id: netgear-jnr3000
+  name: NETGEAR JNR3000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jnr3000
+  description: NETGEAR JNR3000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JNR3000
+- id: netgear-jnr3210
+  name: NETGEAR JNR3210
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jnr3210
+  description: NETGEAR JNR3210
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JNR3210
+- id: netgear-jnr3300
+  name: NETGEAR JNR3300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jnr3300
+  description: NETGEAR JNR3300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JNR3300
+- id: netgear-jr6150
+  name: NETGEAR JR6150
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jr6150
+  description: NETGEAR JR6150
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JR6150
+- id: netgear-jwnr2000t
+  name: NETGEAR JWNR2000T
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jwnr2000t
+  description: NETGEAR JWNR2000T
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JWNR2000T
+- id: netgear-jwnr2000tv3
+  name: NETGEAR JWNR2000Tv3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jwnr2000tv3
+  description: NETGEAR JWNR2000Tv3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JWNR2000Tv3
+- id: netgear-jwnr2000v2
+  name: NETGEAR JWNR2000v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jwnr2000v2
+  description: NETGEAR JWNR2000v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JWNR2000v2
+- id: netgear-jwnr2000v3
+  name: NETGEAR JWNR2000v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jwnr2000v3
+  description: NETGEAR JWNR2000v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JWNR2000v3
+- id: netgear-jwnr2000v5
+  name: NETGEAR JWNR2000v5
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jwnr2000v5
+  description: NETGEAR JWNR2000v5
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JWNR2000v5
+- id: netgear-jwnr2010
+  name: NETGEAR JWNR2010
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jwnr2010
+  description: NETGEAR JWNR2010
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JWNR2010
+- id: netgear-jwnr2010v5
+  name: NETGEAR JWNR2010v5
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-jwnr2010v5
+  description: NETGEAR JWNR2010v5
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR JWNR2010v5
+- id: netgear-mbr1210
+  name: NETGEAR MBR1210
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mbr1210
+  description: NETGEAR MBR1210
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MBR1210
+- id: netgear-mbr1310
+  name: NETGEAR MBR1310
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mbr1310
+  description: NETGEAR MBR1310
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MBR1310
+- id: netgear-mbr1515
+  name: NETGEAR MBR1515
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mbr1515
+  description: NETGEAR MBR1515
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MBR1515
+- id: netgear-mbr1516
+  name: NETGEAR MBR1516
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mbr1516
+  description: NETGEAR MBR1516
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MBR1516
+- id: netgear-mbr1517v2
+  name: NETGEAR MBR1517v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mbr1517v2
+  description: NETGEAR MBR1517v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MBR1517v2
+- id: netgear-mbr624gu
+  name: NETGEAR MBR624GU
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mbr624gu
+  description: NETGEAR MBR624GU
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MBR624GU
+- id: netgear-mbrn3000
+  name: NETGEAR MBRN3000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mbrn3000
+  description: NETGEAR MBRN3000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MBRN3000
+- id: netgear-mvbr1210c
+  name: NETGEAR MVBR1210C
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-mvbr1210c
+  description: NETGEAR MVBR1210C
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR MVBR1210C
+- id: netgear-n300
+  name: Netgear N300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-n300
+  description: Netgear N300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear N300
+- id: netgear-readynas
+  name: Netgear Readynas
+  author: P1finger
+  tags:
+  - netgear
+  - netgear-readynas
+  description: Netgear Readynas
+  matchers:
+  - hash:
+    - '-137295400'
+    location: favicon
+- id: netgear-wnr3500l
+  name: Netgear-WNR3500l
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr3500l
+  description: Netgear-WNR3500l
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear-WNR3500l
+- id: netgear-nighthawk
+  name: Netgear Nighthawk
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-nighthawk
+  description: Netgear Nighthawk
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear Nighthawk
+- id: netgear-plw1000
+  name: NETGEAR PLW1000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-plw1000
+  description: NETGEAR PLW1000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR PLW1000
+- id: netgear-plw1010
+  name: NETGEAR PLW1010
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-plw1010
+  description: NETGEAR PLW1010
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR PLW1010
+- id: netgear-ps121v2
+  name: NETGEAR PS121v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-ps121v2
+  description: NETGEAR PS121v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR PS121v2
+- id: netgear-r6050
+  name: NETGEAR R6050
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6050
+  description: NETGEAR R6050
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6050
+- id: netgear-r6100
+  name: NETGEAR R6100
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6100
+  description: NETGEAR R6100
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6100
+- id: netgear-r6200
+  name: NETGEAR R6200
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6200
+  description: NETGEAR R6200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6200
+- id: netgear-r6200v2
+  name: NETGEAR R6200v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6200v2
+  description: NETGEAR R6200v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6200v2
+- id: netgear-r6220
+  name: NETGEAR R6220
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6220
+  description: NETGEAR R6220
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6220
+- id: netgear-r6250
+  name: NETGEAR R6250
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6250
+  description: NETGEAR R6250
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6250
+- id: netgear-r6300
+  name: NETGEAR R6300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6300
+  description: NETGEAR R6300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6300
+- id: netgear-r6300v2
+  name: NETGEAR R6300v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6300v2
+  description: NETGEAR R6300v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6300v2
+- id: netgear-r6400
+  name: NETGEAR R6400
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6400
+  description: NETGEAR R6400
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6400
+- id: netgear-r6700
+  name: NETGEAR R6700
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6700
+  description: NETGEAR R6700
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6700
+- id: netgear-r6900
+  name: NETGEAR R6900
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r6900
+  description: NETGEAR R6900
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R6900
+- id: netgear-r7000
+  name: NETGEAR R7000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r7000
+  description: NETGEAR R7000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R7000
+- id: netgear-r7100lg
+  name: NETGEAR R7100LG
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r7100lg
+  description: NETGEAR R7100LG
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R7100LG
+- id: netgear-r7300
+  name: NETGEAR R7300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r7300
+  description: NETGEAR R7300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R7300
+- id: netgear-r7500
+  name: NETGEAR R7500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r7500
+  description: NETGEAR R7500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R7500
+- id: netgear-r7900
+  name: NETGEAR R7900
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r7900
+  description: NETGEAR R7900
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R7900
+- id: netgear-r8000
+  name: NETGEAR R8000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r8000
+  description: NETGEAR R8000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R8000
+- id: netgear-r8300
+  name: NETGEAR R8300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r8300
+  description: NETGEAR R8300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R8300
+- id: netgear-r8500
+  name: NETGEAR R8500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-r8500
+  description: NETGEAR R8500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR R8500
+- id: netgear-2
+  name: NETGEAR ROUTER
+  author: Fofa
+  tags:
+  - netgear
+  description: NETGEAR ROUTER
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR ROUTER
+- id: netgear-vegn2610
+  name: NETGEAR VEGN2610
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-vegn2610
+  description: NETGEAR VEGN2610
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR VEGN2610
+- id: netgear-vevg2660
+  name: NETGEAR VEVG2660
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-vevg2660
+  description: NETGEAR VEVG2660
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR VEVG2660
+- id: netgear-vvg2000
+  name: NETGEAR VVG2000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-vvg2000
+  description: NETGEAR VVG2000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR VVG2000
+- id: netgear-wag302v2
+  name: Netgear WAG302v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wag302v2
+  description: Netgear WAG302v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear WAG302v2
+- id: netgear-wgr614l
+  name: Netgear WGR614L
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wgr614l
+  description: Netgear WGR614L
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear WGR614L
+- id: netgear-wgr614ss
+  name: NETGEAR WGR614SS
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wgr614ss
+  description: NETGEAR WGR614SS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WGR614SS
+- id: netgear-wgr614v10
+  name: NETGEAR WGR614v10
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wgr614v10
+  description: NETGEAR WGR614v10
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WGR614v10
+- id: netgear-wgr614v8
+  name: NETGEAR WGR614v8
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wgr614v8
+  description: NETGEAR WGR614v8
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WGR614v8
+- id: netgear-wgr614v9
+  name: NETGEAR WGR614v9
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wgr614v9
+  description: NETGEAR WGR614v9
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WGR614v9
+- id: netgear-wgt624v4
+  name: NETGEAR WGT624v4
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wgt624v4
+  description: NETGEAR WGT624v4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WGT624v4
+- id: netgear-wifi5ghz
+  name: NetGear [WIFI5GHz]
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wifi5ghz
+  description: NetGear [WIFI5GHz]
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NetGear [WIFI5GHz]
+- id: netgear-wn1000rp
+  name: NETGEAR WN1000RP
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wn1000rp
+  description: NETGEAR WN1000RP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WN1000RP
+- id: netgear-wn2000rpt
+  name: NETGEAR WN2000RPT
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wn2000rpt
+  description: NETGEAR WN2000RPT
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WN2000RPT
+- id: netgear-wn2000rptv2
+  name: NETGEAR WN2000RPTv2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wn2000rptv2
+  description: NETGEAR WN2000RPTv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WN2000RPTv2
+- id: netgear-wn2000rptv3
+  name: NETGEAR WN2000RPTv3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wn2000rptv3
+  description: NETGEAR WN2000RPTv3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WN2000RPTv3
+- id: netgear-wn3000rpv2
+  name: NETGEAR WN3000RPv2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wn3000rpv2
+  description: NETGEAR WN3000RPv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WN3000RPv2
+- id: netgear-wn3000rpv3
+  name: NETGEAR WN3000RPv3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wn3000rpv3
+  description: NETGEAR WN3000RPv3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WN3000RPv3
+- id: netgear-wn3100rp
+  name: NETGEAR WN3100RP
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wn3100rp
+  description: NETGEAR WN3100RP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WN3100RP
+- id: netgear-wndr3300
+  name: NETGEAR WNDR3300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3300
+  description: NETGEAR WNDR3300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3300
+- id: netgear-wndr3400
+  name: NETGEAR WNDR3400
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3400
+  description: NETGEAR WNDR3400
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3400
+- id: netgear-wndr3400v2
+  name: NETGEAR WNDR3400v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3400v2
+  description: NETGEAR WNDR3400v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3400v2
+- id: netgear-wndr3400v3
+  name: NETGEAR WNDR3400v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3400v3
+  description: NETGEAR WNDR3400v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3400v3
+- id: netgear-wndr3600
+  name: NETGEAR WNDR3600
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3600
+  description: NETGEAR WNDR3600
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3600
+- id: netgear-wndr3700
+  name: NETGEAR WNDR3700
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3700
+  description: NETGEAR WNDR3700
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3700
+- id: netgear-wndr3700v2
+  name: NETGEAR WNDR3700v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3700v2
+  description: NETGEAR WNDR3700v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3700v2
+- id: netgear-wndr3700v3
+  name: NETGEAR WNDR3700v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3700v3
+  description: NETGEAR WNDR3700v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3700v3
+- id: netgear-wndr3700v4
+  name: Netgear WNDR3700v4
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3700v4
+  description: Netgear WNDR3700v4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear WNDR3700v4
+- id: netgear-wndr3700v5
+  name: NETGEAR WNDR3700v5
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3700v5
+  description: NETGEAR WNDR3700v5
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3700v5
+- id: netgear-wndr3800
+  name: NETGEAR WNDR3800
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr3800
+  description: NETGEAR WNDR3800
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR3800
+- id: netgear-wndr4000
+  name: NETGEAR WNDR4000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4000
+  description: NETGEAR WNDR4000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4000
+- id: netgear-wndr4300
+  name: NETGEAR WNDR4300
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4300
+  description: NETGEAR WNDR4300
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4300
+- id: netgear-wndr4300sw
+  name: NETGEAR WNDR4300SW
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4300sw
+  description: NETGEAR WNDR4300SW
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4300SW
+- id: netgear-wndr4300-tn
+  name: NETGEAR WNDR4300-TN
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4300-tn
+  description: NETGEAR WNDR4300-TN
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4300-TN
+- id: netgear-wndr4300v2
+  name: NETGEAR WNDR4300v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4300v2
+  description: NETGEAR WNDR4300v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4300v2
+- id: netgear-wndr4500
+  name: NETGEAR WNDR4500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4500
+  description: NETGEAR WNDR4500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4500
+- id: netgear-wndr4500v2
+  name: NETGEAR WNDR4500v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4500v2
+  description: NETGEAR WNDR4500v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4500v2
+- id: netgear-wndr4700
+  name: NETGEAR WNDR4700
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wndr4700
+  description: NETGEAR WNDR4700
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNDR4700
+- id: netgear-wnhd3002g
+  name: NETGEAR WNHD3002G
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnhd3002g
+  description: NETGEAR WNHD3002G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNHD3002G
+- id: netgear-wnhd3004
+  name: NETGEAR WNHD3004
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnhd3004
+  description: NETGEAR WNHD3004
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNHD3004
+- id: netgear-wnhd3004v2
+  name: NetGear WNHD3004v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnhd3004v2
+  description: NetGear WNHD3004v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NetGear WNHD3004v2
+- id: netgear-wnr1000
+  name: NETGEAR WNR1000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr1000
+  description: NETGEAR WNR1000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR1000
+- id: netgear-wnr1000v2
+  name: NETGEAR WNR1000v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr1000v2
+  description: NETGEAR WNR1000v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR1000v2
+- id: netgear-wnr1000v2-vc
+  name: NETGEAR WNR1000v2-VC
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr1000v2-vc
+  description: NETGEAR WNR1000v2-VC
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR1000v2-VC
+- id: netgear-wnr1000v3
+  name: NETGEAR WNR1000v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr1000v3
+  description: NETGEAR WNR1000v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR1000v3
+- id: netgear-wnr1000v4
+  name: NETGEAR WNR1000v4
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr1000v4
+  description: NETGEAR WNR1000v4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR1000v4
+- id: netgear-wnr1500
+  name: NETGEAR WNR1500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr1500
+  description: NETGEAR WNR1500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR1500
+- id: netgear-wnr2000
+  name: NETGEAR WNR2000
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2000
+  description: NETGEAR WNR2000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR2000
+- id: netgear-wnr2000v2
+  name: NETGEAR WNR2000v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2000v2
+  description: NETGEAR WNR2000v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR2000v2
+- id: netgear-wnr2000v3
+  name: NETGEAR Wnr2000v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2000v3
+  description: NETGEAR Wnr2000v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR wnr2000v3
+- id: netgear-wnr2000v4
+  name: NETGEAR Wnr2000v4
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2000v4
+  description: NETGEAR Wnr2000v4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR wnr2000v4
+- id: netgear-wnr2000v5
+  name: NETGEAR WNR2000v5
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2000v5
+  description: NETGEAR WNR2000v5
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR2000v5
+- id: netgear-wnr2020
+  name: NETGEAR WNR2020
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2020
+  description: NETGEAR WNR2020
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR2020
+- id: netgear-wnr2200
+  name: NETGEAR Wnr2200
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2200
+  description: NETGEAR Wnr2200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR wnr2200
+- id: netgear-wnr2500
+  name: NETGEAR WNR2500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr2500
+  description: NETGEAR WNR2500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR2500
+- id: netgear-wnr3500
+  name: NETGEAR WNR3500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr3500
+  description: NETGEAR WNR3500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR3500
+- id: netgear-wnr3500l-2
+  name: NETGEAR WNR3500L
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr3500l
+  description: NETGEAR WNR3500L
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR3500L
+- id: netgear-wnr3500lv1
+  name: Netgear WNR3500Lv1
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr3500lv1
+  description: Netgear WNR3500Lv1
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear WNR3500Lv1
+- id: netgear-wnr3500lv2
+  name: NETGEAR WNR3500Lv2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr3500lv2
+  description: NETGEAR WNR3500Lv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR3500Lv2
+- id: netgear-wnr3500v2
+  name: NETGEAR WNR3500v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr3500v2
+  description: NETGEAR WNR3500v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR3500v2
+- id: netgear-wnr500
+  name: NETGEAR WNR500
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr500
+  description: NETGEAR WNR500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR500
+- id: netgear-wnr612ert
+  name: NETGEAR WNR612ERT
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr612ert
+  description: NETGEAR WNR612ERT
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR612ERT
+- id: netgear-wnr612v2
+  name: NETGEAR WNR612v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr612v2
+  description: NETGEAR WNR612v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR612v2
+- id: netgear-wnr612v3
+  name: NETGEAR WNR612v3
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr612v3
+  description: NETGEAR WNR612v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR612v3
+- id: netgear-wnr614
+  name: NETGEAR WNR614
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr614
+  description: NETGEAR WNR614
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR614
+- id: netgear-wnr618
+  name: NETGEAR WNR618
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr618
+  description: NETGEAR WNR618
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR618
+- id: netgear-wnr834b
+  name: Netgear WNR834B
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr834b
+  description: Netgear WNR834B
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Netgear WNR834B
+- id: netgear-wnr834bv2
+  name: NETGEAR WNR834Bv2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr834bv2
+  description: NETGEAR WNR834Bv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR834Bv2
+- id: netgear-wnr854t
+  name: NETGEAR WNR854T
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wnr854t
+  description: NETGEAR WNR854T
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WNR854T
+- id: netgear-wpn824n
+  name: NETGEAR WPN824N
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wpn824n
+  description: NETGEAR WPN824N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WPN824N
+- id: netgear-wpnt834
+  name: NETGEAR WPNT834
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-wpnt834
+  description: NETGEAR WPNT834
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR WPNT834
+- id: netgear-xau2511
+  name: NETGEAR XAU2511
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-xau2511
+  description: NETGEAR XAU2511
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR XAU2511
+- id: netgear-xavn2001v2
+  name: NETGEAR XAVN2001v2
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-xavn2001v2
+  description: NETGEAR XAVN2001v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR XAVN2001v2
+- id: netgear-xwn5001
+  name: NETGEAR XWN5001
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-xwn5001
+  description: NETGEAR XWN5001
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR XWN5001
+- id: netgear-xwn5021
+  name: NETGEAR XWN5021
+  author: Fofa
+  tags:
+  - netgear
+  - netgear-xwn5021
+  description: NETGEAR XWN5021
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NETGEAR XWN5021

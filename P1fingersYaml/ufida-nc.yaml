@@ -1,0 +1,16 @@
+- id: ufida-nc
+  name: UFIDA_NC
+  author: Fofa
+  tags:
+  - yonyou
+  - ufida-nc
+  description: UFIDA_NC
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - logo/images/")
+  - condition: or
+    location: body
+    words:
+    - logo/images/ufida_nc.png

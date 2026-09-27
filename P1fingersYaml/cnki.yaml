@@ -1,0 +1,11 @@
+- id: cnkikeyanchengxinyanjiuzhongxin
+  name: CNKIkeyanchengxinyanjiuzhongxin Management System
+  author: P1finger
+  tags:
+    - cnkikeyanchengxinyanjiuzhongxin
+    - management-system
+  description: CNKIkeyanchengxinyanjiuzhongxin Management System
+  matchers:
+    - location: body
+      words:
+        - CNKI科研诚信管理系统研究中心

@@ -1,0 +1,10 @@
+- id: yizhitong-e7
+  name: Yizhitong-e7
+  author: P001
+  tags:
+    - yizhitong-e7
+  description: Yizhitong-e7
+  matchers:
+    - location: body
+      words:
+        - name="hidden_isbiaozhun"

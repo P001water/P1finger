@@ -1,0 +1,10 @@
+- id: ibase4j
+  name: IBase4J
+  author: P1finger
+  tags:
+    - ibase4j
+  description: IBase4J
+  matchers:
+    - location: body
+      words:
+        - <meta name="description" content="iBase4J" />

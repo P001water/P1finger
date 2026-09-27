@@ -1,0 +1,10 @@
+- id: xiao5uxiaowuyou
+  name: Xiao5uxiaowuyou
+  author: P1finger
+  tags:
+    - xiao5uxiaowuyou
+  description: Xiao5uxiaowuyou
+  matchers:
+    - location: body
+      words:
+        - 校无忧软件

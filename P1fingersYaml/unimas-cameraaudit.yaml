@@ -1,0 +1,10 @@
+- id: unimas-cameraaudit
+  name: Unimas-cameraaudit
+  author: P001
+  tags:
+    - unimas-cameraaudit
+  description: Unimas-cameraaudit
+  matchers:
+    - location: body
+      words:
+        - txtpasswordcssclass

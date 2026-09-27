@@ -1,0 +1,12 @@
+- id: leagsoft-system-3
+  name: Leagsoft System
+  author: P1finger
+  tags:
+    - leagsoft
+    - system
+  description: Leagsoft System
+  matchers:
+    - location: body
+      words:
+        - UniNID网络智能防御系统
+        - /agentless/login.jsp

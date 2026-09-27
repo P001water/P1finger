@@ -1,0 +1,10 @@
+- id: ffay-lanproxy
+  name: Ffay-lanproxy
+  author: P001
+  tags:
+    - ffay-lanproxy
+  description: Ffay-lanproxy
+  matchers:
+    - location: body
+      words:
+        - '"/lanproxy-config/"'

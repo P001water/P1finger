@@ -1,0 +1,14 @@
+- id: cern
+  name: CERN
+  author: Fofa
+  tags:
+    - cern
+  description: CERN
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CERN
+    - location: header
+      words:
+        - CERN

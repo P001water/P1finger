@@ -1,0 +1,13 @@
+- id: phpdenora
+  name: Phpdenora
+  author: P001
+  tags:
+    - phpdenora
+  description: Phpdenora
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="chat4all phpdenora
+        - powered by phpdenora
+        - powered by <a href="http://denorastats.org/

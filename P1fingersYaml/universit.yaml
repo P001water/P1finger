@@ -1,0 +1,10 @@
+- id: universit-toulouse-capitole
+  name: Université Toulouse 1 Capitole
+  author: P1finger
+  tags:
+    - universit-toulouse-capitole
+  description: Université Toulouse 1 Capitole
+  matchers:
+    - hash:
+        - "1632780968"
+      location: favicon

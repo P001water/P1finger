@@ -1,0 +1,10 @@
+- id: librespeed
+  name: LibreSpeed
+  author: P1finger
+  tags:
+    - librespeed
+  description: LibreSpeed
+  matchers:
+    - location: body
+      words:
+        - LibreSpeed

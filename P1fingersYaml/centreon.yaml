@@ -1,0 +1,22 @@
+- id: centreon
+  name: Centreon
+  author: Fofa
+  tags:
+    - centreon
+  description: Centreon
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Generator" content="Centreon - Copyright
+    - condition: or
+      location: title
+      words:
+        - Centreon - IT & Network Monitoring
+    - location: body
+      words:
+        - Generator" content="Centreon - Copyright
+        - Centreon - IT & Network Monitoring
+    - location: body
+      words:
+        - generator" content="centreon - copyright

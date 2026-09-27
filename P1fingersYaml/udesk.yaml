@@ -1,0 +1,11 @@
+- id: udesk
+  name: Udesk
+  author: P001
+  tags:
+    - udesk
+  description: Udesk
+  matchers:
+    - location: body
+      words:
+        - assets-cli.udesk.cn/im_client/js/udeskapi.js
+        - udesk.cn/im_client/?web_plugin_id=

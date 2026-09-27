@@ -1,0 +1,14 @@
+- id: badblue
+  name: BadBlue
+  author: Fofa
+  tags:
+    - badblue
+  description: BadBlue
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - BadBlue
+    - location: header
+      words:
+        - BadBlue

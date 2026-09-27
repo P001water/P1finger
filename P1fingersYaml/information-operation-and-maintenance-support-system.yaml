@@ -1,0 +1,10 @@
+- id: information-support
+  name: Information-operation-and-maintenance-support-system
+  author: P001
+  tags:
+    - information-support
+  description: Information-operation-and-maintenance-support-system
+  matchers:
+    - location: body
+      words:
+        - placeholder="ad域账号 / 系统账号"

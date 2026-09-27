@@ -1,0 +1,10 @@
+- id: trs-5
+  name: TRS
+  author: P1finger
+  tags:
+    - trs
+  description: TRS
+  matchers:
+    - location: body
+      words:
+        - TRS Hybase管理台

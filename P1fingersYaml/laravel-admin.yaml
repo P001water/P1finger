@@ -1,0 +1,11 @@
+- id: laravel
+  name: Laravel-admin
+  author: P001
+  tags:
+    - laravel
+  description: Laravel-admin
+  matchers:
+    - location: body
+      words:
+        - vendor/laravel-admin/
+        - 欢迎登录laravel-admin</p>

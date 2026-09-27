@@ -1,0 +1,11 @@
+- id: monxin-mall-system
+  name: Monxin Mall System
+  author: P1finger
+  tags:
+    - monxin
+    - mall-system
+  description: Monxin Mall System
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: monxin_device='

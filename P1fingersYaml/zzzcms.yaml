@@ -1,0 +1,13 @@
+- id: zzzcms
+  name: Zzzcms
+  author: P1finger
+  tags:
+    - zzzcms
+  description: Zzzcms
+  matchers:
+    - location: body
+      words:
+        - zzzcms
+    - location: body
+      words:
+        - powered by <a href='http://zzzcms.com'>zzzcms</a>

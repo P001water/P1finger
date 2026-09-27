@@ -1,0 +1,14 @@
+- id: abyss
+  name: Abyss
+  author: Fofa
+  tags:
+    - abyss
+  description: Abyss
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: Abyss'
+    - location: header
+      words:
+        - 'Server: Abyss'

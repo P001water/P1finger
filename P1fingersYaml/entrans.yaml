@@ -1,0 +1,14 @@
+- id: entrans
+  name: Entrans
+  author: Fofa
+  tags:
+    - entrans
+  description: Entrans
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Entrans
+    - location: body
+      words:
+        - Entrans

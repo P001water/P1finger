@@ -1,0 +1,14 @@
+- id: 1und1
+  name: 1und1
+  author: Fofa
+  tags:
+  - 1und1
+  description: 1und1
+  matchers:
+  - location: body
+    words:
+    - /shop/catalog/browse?sessid=
+    condition: and
+  - location: body
+    words:
+    - /shop/catalog/browse?sessid=

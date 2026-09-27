@@ -1,0 +1,32 @@
+- id: jboss-2
+  name: Jboss
+  author: P1finger
+  tags:
+    - jboss
+  description: Jboss
+  matchers:
+    - location: body
+      words:
+        - Welcome to JBoss
+        - jboss.css
+    - location: header
+      words:
+        - JBoss
+    - condition: and
+      location: header
+      words:
+        - 'Server: JBoss'
+    - location: header
+      words:
+        - 'Server: JBoss'
+    - hash:
+        - "-656811182"
+      location: favicon
+    - hash:
+        - 799f70b71314a7508326d1d2f68f7519
+      location: favicon
+    - location: body
+      words:
+        - 'x-powered-by: jboss'
+        - <a href="http://jboss.org">
+        - jboss.css

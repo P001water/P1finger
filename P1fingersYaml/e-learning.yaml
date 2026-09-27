@@ -1,0 +1,35 @@
+- id: learning
+  name: E-learning
+  author: P001
+  tags:
+    - learning
+  description: E-learning
+  matchers:
+    - location: body
+      words:
+        - method="post" action="/eln3_asp/login.do
+- id: shidaiguanghuaelearningxuexi
+  name: ShidaiguanghuaElearningxuexi Platform
+  author: P001
+  tags:
+    - shidaiguanghuaelearningxuexi
+    - platform
+  description: ShidaiguanghuaElearningxuexi Platform
+  matchers:
+    - location: body
+      words:
+        - /login/html/login/login.toFindPassWord.do?corpCode
+        - /webos/js/jquery.js
+        - /login/login.init.do?returnUrl
+        - https://hefeitbcfy-demo.21tb.com/
+- id: xinweiruanjianelearning
+  name: XinweiruanjianELearning
+  author: P1finger
+  tags:
+    - xinweiruanjianelearning
+  description: XinweiruanjianELearning
+  matchers:
+    - location: body
+      words:
+        - content="新为，新为软件，
+        - Copyright &copy; 深圳市新为软件有限公司

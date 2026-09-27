@@ -1,0 +1,10 @@
+- id: bw-codemeter
+  name: Bw-CodeMeter
+  author: P1finger
+  tags:
+    - bw-codemeter
+  description: Bw-CodeMeter
+  matchers:
+    - location: body
+      words:
+        - CodeMeter许可管理系统

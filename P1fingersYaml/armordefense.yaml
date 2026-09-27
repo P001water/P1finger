@@ -1,0 +1,10 @@
+- id: armordefense
+  name: ArmorDefense
+  author: P1finger
+  tags:
+    - armordefense
+  description: ArmorDefense
+  matchers:
+    - location: body
+      words:
+        - protection from Armor

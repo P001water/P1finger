@@ -1,0 +1,33 @@
+- id: calypso-ion-8r
+  name: Calypso-ion-8r-device
+  author: P1finger
+  tags:
+    - calypso-ion-8r
+  description: Calypso-ion-8r-device
+  matchers:
+    - location: body
+      words:
+        - Calypso ION-8r Device
+        - /A/cfg/entercmd.stm
+    - location: header
+      words:
+        - Calypso ION8r Device
+- id: calypso-ion-8r-2
+  name: Calypso-ION-8r-Device
+  author: Fofa
+  tags:
+    - calypso-ion-8r
+  description: Calypso-ION-8r-Device
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Calypso ION-8r Device
+    - condition: or
+      location: header
+      words:
+        - Calypso ION8r Device
+    - condition: or
+      location: body
+      words:
+        - /A/cfg/entercmd.stm

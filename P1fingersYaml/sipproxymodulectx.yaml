@@ -1,0 +1,13 @@
+- id: sipproxymodulectx
+  name: SipProxyModuleCtx
+  author: P1finger
+  tags:
+    - sipproxymodulectx
+  description: SipProxyModuleCtx
+  matchers:
+    - location: body
+      words:
+        - SipProxyModuleCtx
+    - location: header
+      words:
+        - SipProxyModuleCtx

@@ -1,0 +1,14 @@
+- id: ubuntu
+  name: Ubuntu
+  author: Fofa
+  tags:
+    - ubuntu
+  description: Ubuntu
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Ubuntu
+    - location: body
+      words:
+        - welcome to nginx on ubuntu!

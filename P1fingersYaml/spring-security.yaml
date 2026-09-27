@@ -1,0 +1,11 @@
+- id: spring
+  name: Spring Security
+  author: Fofa
+  tags:
+    - spring
+  description: Spring Security
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Spring Security Application

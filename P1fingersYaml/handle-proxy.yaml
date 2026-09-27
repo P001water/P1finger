@@ -1,0 +1,10 @@
+- id: handle-proxy
+  name: Handle Proxy
+  author: P1finger
+  tags:
+    - handle-proxy
+  description: Handle Proxy
+  matchers:
+    - hash:
+        - "926501571"
+      location: favicon

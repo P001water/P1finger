@@ -1,0 +1,24 @@
+- id: batavi
+  name: Batavi
+  author: Fofa
+  tags:
+    - batavi
+  description: Batavi
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Batavi.org
+    - condition: or
+      location: header
+      words:
+        - Batavi
+    - location: body
+      words:
+        - content="Batavi.org
+    - location: header
+      words:
+        - Batavi
+    - location: header
+      words:
+        - 'X-Powered-By: Batavi'

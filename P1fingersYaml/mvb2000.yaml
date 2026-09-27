@@ -1,0 +1,19 @@
+- id: mvb2000
+  name: MVB2000
+  author: Fofa
+  tags:
+    - mvb2000
+  description: MVB2000
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - MVB2000
+    - condition: or
+      location: body
+      words:
+        - The Magic Voice Box
+    - location: body
+      words:
+        - MVB2000
+        - The Magic Voice Box

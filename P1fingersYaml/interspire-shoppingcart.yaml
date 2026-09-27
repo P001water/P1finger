@@ -1,0 +1,10 @@
+- id: interspire-shoppingcart
+  name: Interspire-ShoppingCart
+  author: P1finger
+  tags:
+    - interspire-shoppingcart
+  description: Interspire-ShoppingCart
+  matchers:
+    - location: body
+      words:
+        - content="Interspire Shopping Cart"

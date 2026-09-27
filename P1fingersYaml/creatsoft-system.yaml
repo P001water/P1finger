@@ -1,0 +1,11 @@
+- id: creatsoft
+  name: Creatsoft-system
+  author: P001
+  tags:
+    - creatsoft
+  description: Creatsoft-system
+  matchers:
+    - location: body
+      words:
+        - href="/corrosion/charts/ph.jsp"
+        - href="/corrosion/charts/water-pid.jsp

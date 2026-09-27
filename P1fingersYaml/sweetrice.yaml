@@ -1,0 +1,11 @@
+- id: sweetrice
+  name: Sweetrice
+  author: P001
+  tags:
+    - sweetrice
+  description: Sweetrice
+  matchers:
+    - location: body
+      words:
+        - content="sweetrice
+        - powered by <a href="http://www.basic-cms.org">basic cms sweetrice</a>

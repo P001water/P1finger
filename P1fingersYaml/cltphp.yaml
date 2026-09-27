@@ -1,0 +1,10 @@
+- id: cltphp
+  name: CLTPHP
+  author: P1finger
+  tags:
+    - cltphp
+  description: CLTPHP
+  matchers:
+    - location: body
+      words:
+        - CLTPHP

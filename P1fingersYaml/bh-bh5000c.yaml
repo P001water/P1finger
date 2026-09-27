@@ -1,0 +1,10 @@
+- id: bh-bh5000c
+  name: Bh-bh5000c
+  author: P001
+  tags:
+    - bh-bh5000c
+  description: Bh-bh5000c
+  matchers:
+    - location: body
+      words:
+        - bhclientcer:"/modules/web/common/data/bhclient.cer

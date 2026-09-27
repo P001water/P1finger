@@ -1,0 +1,11 @@
+- id: openfire-2
+  name: Openfire
+  author: P001
+  tags:
+    - openfire
+  description: Openfire
+  matchers:
+    - location: body
+      words:
+        - <title>openfire 管理界面</title>
+        - 'background: transparent url(images/login_logo.gif) no-repeat'

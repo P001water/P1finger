@@ -1,0 +1,11 @@
+- id: beward-camera
+  name: Beward Camera
+  author: P1finger
+  tags:
+    - beward
+    - camera
+  description: Beward Camera
+  matchers:
+    - location: header
+      words:
+        - 'Server: IPCamera-Webs'

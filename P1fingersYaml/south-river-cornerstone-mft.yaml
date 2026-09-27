@@ -1,0 +1,10 @@
+- id: south-river-cornerstone-mft
+  name: South_River-CORNERSTONE-MFT
+  author: P1finger
+  tags:
+    - south-river-cornerstone-mft
+  description: South_River-CORNERSTONE-MFT
+  matchers:
+    - location: header
+      words:
+        - 'Server: SouthRiver'

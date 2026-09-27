@@ -1,0 +1,11 @@
+- id: adminsetquanzidonghuayunwei
+  name: Adminsetquanzidonghuayunwei Platform
+  author: P1finger
+  tags:
+    - adminsetquanzidonghuayunwei
+    - platform
+  description: Adminsetquanzidonghuayunwei Platform
+  matchers:
+    - location: body
+      words:
+        - AdminSet Login

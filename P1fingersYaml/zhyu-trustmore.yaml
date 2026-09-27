@@ -1,0 +1,13 @@
+- id: zhyu-trustmore
+  name: ZHYU TrustMore
+  author: P1finger
+  tags:
+    - zhyu-trustmore
+  description: ZHYU TrustMore
+  matchers:
+    - location: body
+      words:
+        - alt="trustmore 安全可信的应用授权平台"
+    - location: header
+      words:
+        - trustmore proxy

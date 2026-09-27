@@ -1,0 +1,10 @@
+- id: savant
+  name: Savant-web-server
+  author: P001
+  tags:
+    - savant
+  description: Savant-web-server
+  matchers:
+    - location: body
+      words:
+        - 'server: savant'

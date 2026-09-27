@@ -1,0 +1,17 @@
+- id: symantec-endpoint-protection-manager
+  name: Symantec-endpoint-protection-manager
+  author: P001
+  tags:
+    - symantec-endpoint-protection-manager
+  description: Symantec-endpoint-protection-manager
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /portal/about.jsp
+        - <!-- now, if it is ie on windows platform, we check to see which version of jws is installed -->
+        - '<div style="font-family: tahoma, verdana, arial, helvetica, sans-serif; font-size:11px;">version'
+        - <tr><td align="left" style="font-family:arial; font-size:18pt"><b>symantec endpoint protection manager<br>web access</b></td></tr>
+    - location: body
+      words:
+        - Symantec Endpoint Protection Manager

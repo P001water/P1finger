@@ -1,0 +1,12 @@
+- id: 42gears-suremdm
+  name: 42gears-suremdm
+  author: P001
+  tags:
+    - 42gears-suremdm
+  description: 42gears-suremdm
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - astrocontacts
+        - suremdm

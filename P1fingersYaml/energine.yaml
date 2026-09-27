@@ -1,0 +1,25 @@
+- id: energine
+  name: Energine
+  author: Fofa
+  tags:
+    - energine
+  description: Energine
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - scripts/Energine.js
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href= "http://energine.org/
+    - condition: or
+      location: body
+      words:
+        - stylesheets/energine.css
+    - location: body
+      words:
+        - energine
+    - location: body
+      words:
+        - /energine.css

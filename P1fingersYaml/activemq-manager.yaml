@@ -1,0 +1,11 @@
+- id: activemq-manager
+  name: Activemq-manager
+  author: P1finger
+  tags:
+  - activemq
+  - activemq-manager
+  description: Activemq-manager
+  matchers:
+  - location: body
+    words:
+    - Apache ActiveMQ

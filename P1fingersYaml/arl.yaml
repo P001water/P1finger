@@ -1,0 +1,10 @@
+- id: arl
+  name: Arl
+  author: P001
+  tags:
+    - arl
+  description: Arl
+  matchers:
+    - location: body
+      words:
+        - <title>资产灯塔系统</title>

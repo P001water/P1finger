@@ -1,0 +1,10 @@
+- id: krisonav
+  name: KrisonAV CMS
+  author: P1finger
+  tags:
+    - krisonav
+  description: KrisonAV CMS
+  matchers:
+    - location: body
+      words:
+        - KrisonAV

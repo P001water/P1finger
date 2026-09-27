@@ -1,0 +1,21 @@
+- id: dv-cart
+  name: Dv-cart
+  author: P1finger
+  tags:
+    - dv-cart
+  description: Dv-cart
+  matchers:
+    - location: body
+      words:
+        - class="KT_tngtable
+- id: dv-cart-2
+  name: DV-Cart
+  author: Fofa
+  tags:
+    - dv-cart
+  description: DV-Cart
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - class="KT_tngtable

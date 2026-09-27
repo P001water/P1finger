@@ -1,0 +1,10 @@
+- id: gateone
+  name: GateOne
+  author: P1finger
+  tags:
+    - gateone
+  description: GateOne
+  matchers:
+    - location: header
+      words:
+        - 'Server: GateOne'

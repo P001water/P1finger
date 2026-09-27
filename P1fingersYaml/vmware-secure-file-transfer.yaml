@@ -1,0 +1,11 @@
+- id: vmware-secure-file-transfer
+  name: Vmware Secure File Transfer
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-secure-file-transfer
+  description: Vmware Secure File Transfer
+  matchers:
+  - hash:
+    - '1642701741'
+    location: favicon

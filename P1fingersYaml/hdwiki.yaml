@@ -1,0 +1,35 @@
+- id: hdwiki
+  name: HDWiki
+  author: Fofa
+  tags:
+    - hdwiki
+  description: HDWiki
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - powered by hdwiki!
+    - condition: or
+      location: body
+      words:
+        - content="HDWiki
+    - condition: or
+      location: body
+      words:
+        - http://kaiyuan.hudong.com?hf=hdwiki_copyright_kaiyuan
+    - condition: or
+      location: header
+      words:
+        - hd_sid=
+    - location: body
+      words:
+        - powered by hdwiki!
+        - content="HDWiki
+        - http://kaiyuan.hudong.com?hf=hdwiki_copyright_kaiyuan
+    - location: header
+      words:
+        - hd_sid=
+    - location: body
+      words:
+        - content="hdwiki
+        - http://kaiyuan.hudong.com?hf=hdwiki_copyright_kaiyuan

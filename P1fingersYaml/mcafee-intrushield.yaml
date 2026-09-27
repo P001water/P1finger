@@ -1,0 +1,22 @@
+- id: mcafee-intrushield
+  name: Mcafee-intrushield
+  author: P001
+  tags:
+    - mcafee-intrushield
+  description: Mcafee-intrushield
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - intrushield
+        - intruvert
+- id: mcafee-intrushield-2
+  name: McAfee IntruShield
+  author: P1finger
+  tags:
+    - mcafee-intrushield
+  description: McAfee IntruShield
+  matchers:
+    - location: body
+      words:
+        - intruvert

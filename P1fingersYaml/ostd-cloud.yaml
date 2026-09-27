@@ -1,0 +1,10 @@
+- id: ostd
+  name: Ostd-cloud
+  author: P001
+  tags:
+    - ostd
+  description: Ostd-cloud
+  matchers:
+    - location: body
+      words:
+        - class="sys-title-right">智联云服务

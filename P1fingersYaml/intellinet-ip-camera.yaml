@@ -1,0 +1,28 @@
+- id: intellinet-ip
+  name: Intellinet-ip-camera
+  author: P1finger
+  tags:
+  - intellinet
+  - intellinet-ip
+  description: Intellinet-ip-camera
+  matchers:
+  - location: body
+    words:
+    - Copyright &copy;  INTELLINET NETWORK SOLUTIONS
+    - http://www.intellinet-network.com/driver/NetCam.exe
+- id: intellinet-ip-2
+  name: Intellinet-IP-Camera
+  author: Fofa
+  tags:
+  - intellinet
+  - intellinet-ip
+  description: Intellinet-IP-Camera
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - Copyright &copy;  INTELLINET NETWORK SOLUTIONS
+  - condition: or
+    location: body
+    words:
+    - http://www.intellinet-network.com/driver/NetCam.exe

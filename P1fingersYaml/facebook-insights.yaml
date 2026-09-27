@@ -1,0 +1,14 @@
+- id: facebook-insights
+  name: Facebook_insights
+  author: Fofa
+  tags:
+    - facebook-insights
+  description: Facebook_insights
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - fb:app_id
+    - location: body
+      words:
+        - fb:app_id

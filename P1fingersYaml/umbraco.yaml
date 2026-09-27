@@ -1,0 +1,10 @@
+- id: umbraco
+  name: Umbraco
+  author: P1finger
+  tags:
+    - umbraco
+  description: Umbraco
+  matchers:
+    - location: body
+      words:
+        - <html xmlns:umbraco="http://umbraco.org"

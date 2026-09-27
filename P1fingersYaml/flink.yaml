@@ -1,0 +1,10 @@
+- id: flink
+  name: Flink
+  author: P1finger
+  tags:
+    - flink
+  description: Flink
+  matchers:
+    - location: body
+      words:
+        - flink

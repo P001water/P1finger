@@ -1,0 +1,14 @@
+- id: dorado
+  name: Dorado
+  author: Fofa
+  tags:
+    - dorado
+  description: Dorado
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Dorado Login Page
+    - location: body
+      words:
+        - Dorado Login Page

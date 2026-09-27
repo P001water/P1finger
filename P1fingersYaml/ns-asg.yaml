@@ -1,0 +1,24 @@
+- id: wangkangkejinsasg
+  name: Wangkangkejinsasg Security Gateway
+  author: P001
+  tags:
+    - wangkangkejinsasg
+    - security-gateway
+  description: Wangkangkejinsasg Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 400-678-3600
+        - client/thickbox.css
+- id: wangkangnsasg-waf-gateway
+  name: WangkangNSASG WAF Gateway
+  author: P1finger
+  tags:
+    - wangkangnsasg
+    - waf-gateway
+  description: WangkangNSASG WAF Gateway
+  matchers:
+    - location: body
+      words:
+        - 网康NS-ASG应用安全网关

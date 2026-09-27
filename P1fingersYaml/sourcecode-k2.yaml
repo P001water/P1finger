@@ -1,0 +1,11 @@
+- id: sourcecode-k2
+  name: Sourcecode-k2
+  author: P001
+  tags:
+    - sourcecode-k2
+  description: Sourcecode-k2
+  matchers:
+    - location: body
+      words:
+        - document.getelementbyid("redirectform").action = "../mxworkspace/login.aspx
+        - document.getelementbyid("redirectform").action = "../workspace/default.aspx

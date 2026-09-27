@@ -1,0 +1,10 @@
+- id: webrtc-proxy
+  name: WebRTC-Proxy
+  author: P1finger
+  tags:
+    - webrtc-proxy
+  description: WebRTC-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: WebRTCProxy'

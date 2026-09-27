@@ -1,0 +1,23 @@
+- id: backuppc
+  name: BackupPC
+  author: Fofa
+  tags:
+    - backuppc
+  description: BackupPC
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - BackupPC_Admin
+    - condition: or
+      location: header
+      words:
+        - Backup
+    - location: body
+      words:
+        - BackupPC_Admin
+        - BackupPC Server Status
+    - location: header
+      words:
+        - BackupPC_Admin
+        - Basic realm="BackupPC

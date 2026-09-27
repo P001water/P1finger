@@ -1,0 +1,11 @@
+- id: hp
+  name: Hp-system-management
+  author: P001
+  tags:
+    - hp
+  description: Hp-system-management
+  matchers:
+    - location: body
+      words:
+        - 'server: compaqhttpserver'
+        - 'set-cookie: compaq-hmmd'

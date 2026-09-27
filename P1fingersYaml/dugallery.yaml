@@ -1,0 +1,19 @@
+- id: dugallery
+  name: DUgallery
+  author: Fofa
+  tags:
+    - dugallery
+  description: DUgallery
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by DUportal
+    - condition: or
+      location: body
+      words:
+        - DUgallery
+    - location: body
+      words:
+        - Powered by DUportal
+        - DUgallery

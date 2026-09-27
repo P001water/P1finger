@@ -1,0 +1,11 @@
+- id: redshop
+  name: RedShop
+  author: P1finger
+  tags:
+    - redshop
+  description: RedShop
+  matchers:
+    - location: body
+      words:
+        - /redshop/
+        - /redshop/

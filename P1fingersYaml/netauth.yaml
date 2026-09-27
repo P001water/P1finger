@@ -1,0 +1,22 @@
+- id: netauth
+  name: Netauth
+  author: P001
+  tags:
+    - netauth
+  description: Netauth
+  matchers:
+    - location: body
+      words:
+        - onmouseover="mm_swapimage('image1','','image/loginok_after.gif',1)"
+        - src="image/loginauthorize.png"
+- id: xinanshijinetauthtongyishenfenrenzheng
+  name: XinanshijiNetAuthtongyishenfenrenzheng Management System
+  author: P1finger
+  tags:
+    - xinanshijinetauthtongyishenfenrenzheng
+    - management-system
+  description: XinanshijiNetAuthtongyishenfenrenzheng Management System
+  matchers:
+    - location: body
+      words:
+        - NetAuth统一身份认证管理系统

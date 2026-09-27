@@ -1,0 +1,10 @@
+- id: ppvod-videosystem
+  name: Ppvod-videosystem
+  author: P001
+  tags:
+    - ppvod-videosystem
+  description: Ppvod-videosystem
+  matchers:
+    - location: body
+      words:
+        - ppvod copyright

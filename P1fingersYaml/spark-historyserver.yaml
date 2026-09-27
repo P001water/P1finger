@@ -1,0 +1,11 @@
+- id: spark-historyserver
+  name: Spark-HistoryServer
+  author: P1finger
+  tags:
+  - spark
+  - spark-historyserver
+  description: Spark-HistoryServer
+  matchers:
+  - location: body
+    words:
+    - spark.history

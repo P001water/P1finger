@@ -1,0 +1,11 @@
+- id: yulonghidszhuji
+  name: YulongHIDSzhuji Intrusion Detection System
+  author: P1finger
+  tags:
+    - yulonghidszhuji
+    - intrusion-detection-system
+  description: YulongHIDSzhuji Intrusion Detection System
+  matchers:
+    - location: body
+      words:
+        - https://github.com/ysrc/

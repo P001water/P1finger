@@ -1,0 +1,11 @@
+- id: ultimate-bulletin-board
+  name: Ultimate-bulletin-board
+  author: P001
+  tags:
+    - ultimate-bulletin-board
+  description: Ultimate-bulletin-board
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.groupee.com/landing/goto.php?a=ubb.classic">powered by ubb.classic&trade
+        - <meta name="generator" content="ubb.threads

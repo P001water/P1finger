@@ -1,0 +1,10 @@
+- id: bot-factory
+  name: Bot Factory
+  author: P1finger
+  tags:
+    - bot-factory
+  description: Bot Factory
+  matchers:
+    - location: body
+      words:
+        - Bot factory

@@ -1,0 +1,31 @@
+- id: ez-publish
+  name: Ez-publish
+  author: P1finger
+  tags:
+    - ez-publish
+  description: Ez-publish
+  matchers:
+    - location: body
+      words:
+        - eZ publish administration
+    - location: header
+      words:
+        - eZSessionCookie
+    - location: body
+      words:
+        - 'set-cookie: ezsessioncookie'
+- id: ez-publish-2
+  name: EZ-Publish
+  author: Fofa
+  tags:
+    - ez-publish
+  description: EZ-Publish
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - eZ publish administration
+    - condition: or
+      location: header
+      words:
+        - eZSessionCookie

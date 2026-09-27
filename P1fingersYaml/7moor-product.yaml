@@ -1,0 +1,11 @@
+- id: 7moor
+  name: 7moor-product
+  author: P001
+  tags:
+    - 7moor
+  description: 7moor-product
+  matchers:
+    - location: body
+      words:
+        - /javascripts/qiniu/qiniu.js
+        - class="ds_do_action domain_aboutus"

@@ -1,0 +1,23 @@
+- id: spring-boot
+  name: Spring-boot-admin
+  author: P001
+  tags:
+  - spring
+  - spring-boot
+  description: Spring-boot-admin
+  matchers:
+  - location: body
+    words:
+    - <img src="assets/img/icon-spring-boot-admin.svg
+    - spring boot admin
+- id: spring-boot-2
+  name: Spring Boot Admin
+  author: P1finger
+  tags:
+  - spring
+  - spring-boot
+  description: Spring Boot Admin
+  matchers:
+  - location: body
+    words:
+    - Spring Boot Admin

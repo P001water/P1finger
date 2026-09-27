@@ -1,0 +1,11 @@
+- id: goodway-integrated-information
+  name: Goodway-integrated-management-information-system
+  author: P001
+  tags:
+    - goodway-integrated-information
+  description: Goodway-integrated-management-information-system
+  matchers:
+    - location: body
+      words:
+        - option value="enterprise"
+        - 是否域账户登录

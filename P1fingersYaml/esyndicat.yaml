@@ -1,0 +1,17 @@
+- id: esyndicat
+  name: ESyndiCat
+  author: Fofa
+  tags:
+    - esyndicat
+  description: ESyndiCat
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="eSyndiCat
+    - location: body
+      words:
+        - content="eSyndiCat
+    - location: body
+      words:
+        - content="esyndicat

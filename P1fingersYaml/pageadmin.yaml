@@ -1,0 +1,28 @@
+- id: pageadmin-2
+  name: PageAdmin
+  author: Fofa
+  tags:
+    - pageadmin
+  description: PageAdmin
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="PageAdmin CMS
+    - condition: or
+      location: body
+      words:
+        - /e/images/favicon.ico
+    - location: body
+      words:
+        - content="PageAdmin CMS"
+        - /e/images/favicon.ico
+    - location: body
+      words:
+        - /e/images/favicon.ico
+        - content="pageadmin cms"
+    - location: body
+      words:
+        - Powered By PageAdmin Cms
+        - content="PageAdmin CMS"
+        - PageAdmin企业网站管理系统

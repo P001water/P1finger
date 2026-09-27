@@ -1,0 +1,20 @@
+- id: firewall
+  name: Firewall
+  author: P1finger
+  tags:
+    - firewall
+  description: Firewall
+  matchers:
+    - location: body
+      words:
+        - 睿峰网云防火墙
+- id: zhongxinwanganzhongxinjindunfirewall
+  name: ZhongxinwanganzhongxinjindunFireWall
+  author: P1finger
+  tags:
+    - zhongxinwanganzhongxinjindunfirewall
+  description: ZhongxinwanganzhongxinjindunFireWall
+  matchers:
+    - location: body
+      words:
+        - 中新金盾防火墙ZXFW

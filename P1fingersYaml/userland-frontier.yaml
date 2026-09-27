@@ -1,0 +1,10 @@
+- id: userland-frontier
+  name: UserLand Frontier
+  author: P1finger
+  tags:
+    - userland-frontier
+  description: UserLand Frontier
+  matchers:
+    - location: header
+      words:
+        - 'Server: UserLand Frontier'

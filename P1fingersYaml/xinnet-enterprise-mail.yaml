@@ -1,0 +1,10 @@
+- id: xinnet
+  name: Xinnet-enterprise-mail
+  author: P001
+  tags:
+    - xinnet
+  description: Xinnet-enterprise-mail
+  matchers:
+    - location: body
+      words:
+        - 北京新网数码信息技术有限公司 版权所有</span>

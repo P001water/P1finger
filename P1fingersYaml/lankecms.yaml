@@ -1,0 +1,10 @@
+- id: lankecms
+  name: LankeCms
+  author: P1finger
+  tags:
+    - lankecms
+  description: LankeCms
+  matchers:
+    - location: body
+      words:
+        - All Right Reserved 蓝科外贸网站

@@ -1,0 +1,10 @@
+- id: zeroshell
+  name: ZeroShell
+  author: P1finger
+  tags:
+    - zeroshell
+  description: ZeroShell
+  matchers:
+    - location: body
+      words:
+        - ZeroShell

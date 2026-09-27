@@ -1,0 +1,10 @@
+- id: kamailio
+  name: Kamailio
+  author: P1finger
+  tags:
+    - kamailio
+  description: Kamailio
+  matchers:
+    - location: header
+      words:
+        - kamailio

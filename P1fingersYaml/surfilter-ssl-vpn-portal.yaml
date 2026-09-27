@@ -1,0 +1,11 @@
+- id: surfilter-ssl
+  name: Surfilter Ssl Vpn Portal
+  author: P1finger
+  tags:
+  - surfilter
+  - surfilter-ssl
+  description: Surfilter Ssl Vpn Portal
+  matchers:
+  - hash:
+    - '-590892202'
+    location: favicon

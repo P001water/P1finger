@@ -1,0 +1,38 @@
+- id: u-mail
+  name: U-mail
+  author: P1finger
+  tags:
+    - u-mail
+  description: U-mail
+  matchers:
+    - location: body
+      words:
+        - <BODY LINK="White" VLINK="White" ALINK="White">
+    - location: body
+      words:
+        - <body link="white" vlink="white" alink="white">
+        - <meta http-equiv="refresh" content="0;url=./webmail/">
+        - power by <a href="http://www.comingchina.com">u-mail邮件服务器</a>
+        - u-mail webadmin 要求启用 javascript
+- id: u-mail-2
+  name: U-Mail
+  author: Fofa
+  tags:
+    - u-mail
+  description: U-Mail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <BODY LINK="White" VLINK="White" ALINK="White">
+- id: umailyoujianyingxiao-platform
+  name: UMAILyoujianyingxiao Platform
+  author: P1finger
+  tags:
+    - umailyoujianyingxiao
+    - platform
+  description: UMAILyoujianyingxiao Platform
+  matchers:
+    - location: body
+      words:
+        - u-mail

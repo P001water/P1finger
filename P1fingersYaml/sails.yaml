@@ -1,0 +1,10 @@
+- id: sails
+  name: Sails
+  author: P1finger
+  tags:
+    - sails
+  description: Sails
+  matchers:
+    - hash:
+        - "552597979"
+      location: favicon

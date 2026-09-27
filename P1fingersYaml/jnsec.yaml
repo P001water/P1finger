@@ -1,0 +1,10 @@
+- id: jiangnanxinanjnsecusg
+  name: JiangnanxinanJNSECUSG
+  author: P1finger
+  tags:
+    - jiangnanxinanjnsecusg
+  description: JiangnanxinanJNSECUSG
+  matchers:
+    - location: body
+      words:
+        - content="jnsec web ui"

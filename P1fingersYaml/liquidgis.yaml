@@ -1,0 +1,14 @@
+- id: liquidgis
+  name: LiquidGIS
+  author: Fofa
+  tags:
+    - liquidgis
+  description: LiquidGIS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Productname: LiquidGIS'
+    - location: header
+      words:
+        - 'Productname: LiquidGIS'

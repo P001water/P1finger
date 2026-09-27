@@ -1,0 +1,10 @@
+- id: starface-voip
+  name: Starface Voip Software
+  author: P1finger
+  tags:
+    - starface-voip
+  description: Starface Voip Software
+  matchers:
+    - hash:
+        - "-332324409"
+      location: favicon

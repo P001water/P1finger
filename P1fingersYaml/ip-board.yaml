@@ -1,0 +1,14 @@
+- id: ip-board
+  name: IP.Board
+  author: Fofa
+  tags:
+    - ip-board
+  description: IP.Board
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ipb.vars
+    - location: body
+      words:
+        - ipb.vars

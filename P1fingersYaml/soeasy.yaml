@@ -1,0 +1,20 @@
+- id: soeasywangzhanjiqun-system
+  name: Soeasywangzhanjiqun System
+  author: Fofa
+  tags:
+    - soeasywangzhanjiqun
+    - system
+  description: Soeasywangzhanjiqun System
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - EGSS_User
+    - condition: or
+      location: title
+      words:
+        - SoEasy网站集群
+    - location: body
+      words:
+        - EGSS_User
+        - SoEasy网站集群

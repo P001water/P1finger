@@ -1,0 +1,10 @@
+- id: aliyundun
+  name: AliYunDun
+  author: P1finger
+  tags:
+    - aliyundun
+  description: AliYunDun
+  matchers:
+    - location: body
+      words:
+        - errors.aliyun.com

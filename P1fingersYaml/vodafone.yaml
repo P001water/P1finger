@@ -1,0 +1,10 @@
+- id: vodafone
+  name: Vodafone
+  author: P1finger
+  tags:
+    - vodafone
+  description: Vodafone
+  matchers:
+    - hash:
+        - "165976831"
+      location: favicon

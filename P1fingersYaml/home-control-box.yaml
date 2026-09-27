@@ -1,0 +1,21 @@
+- id: home-box
+  name: Home-control-box
+  author: P1finger
+  tags:
+    - home-box
+  description: Home-control-box
+  matchers:
+    - location: header
+      words:
+        - hcb_web
+- id: home-box-2
+  name: Home-Control-Box
+  author: Fofa
+  tags:
+    - home-box
+  description: Home-Control-Box
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - hcb_web

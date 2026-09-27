@@ -1,0 +1,10 @@
+- id: arbor-networks
+  name: Arbor Networks
+  author: P1finger
+  tags:
+    - arbor-networks
+  description: Arbor Networks
+  matchers:
+    - hash:
+        - "-1745552996"
+      location: favicon

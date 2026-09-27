@@ -1,0 +1,10 @@
+- id: chinags-sc
+  name: Chinags-sc
+  author: P001
+  tags:
+    - chinags-sc
+  description: Chinags-sc
+  matchers:
+    - location: body
+      words:
+        - src="/animation/images/teacher_2.png"

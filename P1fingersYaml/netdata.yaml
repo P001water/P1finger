@@ -1,0 +1,10 @@
+- id: netdata
+  name: Netdata
+  author: P1finger
+  tags:
+    - netdata
+  description: Netdata
+  matchers:
+    - hash:
+        - "1302486561"
+      location: favicon

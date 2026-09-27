@@ -1,0 +1,11 @@
+- id: canonwangluo-camera
+  name: Canonwangluo Camera
+  author: P1finger
+  tags:
+    - canonwangluo
+    - camera
+  description: Canonwangluo Camera
+  matchers:
+    - location: header
+      words:
+        - 'Server: VB'

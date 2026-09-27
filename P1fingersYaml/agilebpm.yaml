@@ -1,0 +1,14 @@
+- id: agilebpm
+  name: Agilebpm
+  author: P001
+  tags:
+    - agilebpm
+  description: Agilebpm
+  matchers:
+    - location: body
+      words:
+        - class="logo-element">agile-bpm
+        - class="logo-element">bpm
+    - location: body
+      words:
+        - class="logo-element">agile-bpm

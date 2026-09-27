@@ -1,0 +1,10 @@
+- id: sauruscms
+  name: SaurusCMS
+  author: P1finger
+  tags:
+    - sauruscms
+  description: SaurusCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="Saurus CMS">

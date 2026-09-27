@@ -1,0 +1,10 @@
+- id: netzone-webcache
+  name: Netzone-webcache
+  author: P001
+  tags:
+    - netzone-webcache
+  description: Netzone-webcache
+  matchers:
+    - location: body
+      words:
+        - 广州高度软件有限公司版权所有

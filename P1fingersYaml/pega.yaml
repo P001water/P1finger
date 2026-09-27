@@ -1,0 +1,15 @@
+- id: pega
+  name: Pega Infinity
+  author: nuclei
+  tags:
+  - pega
+  description: Pega Infinity
+  paths:
+  - /prweb/PRRestService/unauthenticatedAPI/v1/docs
+  matchers:
+  - location: body
+    words:
+    - '"description" :"The Pega API'
+  - location: header
+    words:
+    - application/json

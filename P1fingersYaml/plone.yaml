@@ -1,0 +1,24 @@
+- id: plone
+  name: Plone
+  author: Fofa
+  tags:
+    - plone
+  description: Plone
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - plone.content
+    - condition: or
+      location: body
+      words:
+        - generator" content="Plone
+    - location: body
+      words:
+        - generator" content="Plone
+    - location: header
+      words:
+        - plone.content
+    - location: body
+      words:
+        - content="Plone - http://plone.org"

@@ -1,0 +1,22 @@
+- id: blueonyx
+  name: BlueOnyx
+  author: Fofa
+  tags:
+    - blueonyx
+  description: BlueOnyx
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Login - BlueOnyx
+    - condition: or
+      location: body
+      words:
+        - Thank you for using the BlueOnyx
+    - location: body
+      words:
+        - Login - BlueOnyx
+        - Thank you for using the BlueOnyx
+    - location: body
+      words:
+        - thank you for using the blueonyx

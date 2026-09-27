@@ -1,0 +1,10 @@
+- id: superdata-2
+  name: Superdata-oa
+  author: P001
+  tags:
+    - superdata
+  description: Superdata-oa
+  matchers:
+    - location: body
+      words:
+        - 速达软件技术（广州）有限公司

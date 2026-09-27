@@ -1,0 +1,10 @@
+- id: tracker
+  name: Network-tracker
+  author: P001
+  tags:
+    - tracker
+  description: Network-tracker
+  matchers:
+    - location: body
+      words:
+        - '>network tracker<'

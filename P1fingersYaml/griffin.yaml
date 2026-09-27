@@ -1,0 +1,11 @@
+- id: griffinshujuzhiliangjiankong
+  name: Griffinshujuzhiliangjiankong Platform
+  author: P1finger
+  tags:
+    - griffinshujuzhiliangjiankong
+    - platform
+  description: Griffinshujuzhiliangjiankong Platform
+  matchers:
+    - location: body
+      words:
+        - Griffin - Data Quality Service

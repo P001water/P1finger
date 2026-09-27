@@ -1,0 +1,11 @@
+- id: sentcms
+  name: SentCMS CMS
+  author: P1finger
+  tags:
+    - sentcms
+    - cms
+  description: SentCMS CMS
+  matchers:
+    - location: body
+      words:
+        - SentCMS网站管理系统

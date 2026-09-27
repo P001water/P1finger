@@ -1,0 +1,10 @@
+- id: kt-cems
+  name: KT-U-CEMS
+  author: P1finger
+  tags:
+    - kt-cems
+  description: KT-U-CEMS
+  matchers:
+    - location: body
+      words:
+        - Digest realm="ktcems.com"

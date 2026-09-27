@@ -1,0 +1,11 @@
+- id: godaddywaf
+  name: GoDaddyWAF
+  author: P1finger
+  tags:
+    - godaddywaf
+  description: GoDaddyWAF
+  matchers:
+    - location: body
+      words:
+        - GoDaddy Security
+        - GoDaddy Website Firewall

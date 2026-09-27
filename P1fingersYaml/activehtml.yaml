@@ -1,0 +1,14 @@
+- id: activehtml
+  name: ActiveHTML
+  author: Fofa
+  tags:
+    - activehtml
+  description: ActiveHTML
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ActiveHTML
+    - location: header
+      words:
+        - ActiveHTML

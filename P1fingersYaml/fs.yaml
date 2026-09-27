@@ -1,0 +1,12 @@
+- id: fswenjian-management-system
+  name: FSwenjian Management System
+  author: P1finger
+  tags:
+    - fswenjian
+    - management-system
+  description: FSwenjian Management System
+  matchers:
+    - location: body
+      words:
+        - <title>FS 文件管理系统
+        - <h2>FS 文件管理系统

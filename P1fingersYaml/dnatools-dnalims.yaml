@@ -1,0 +1,12 @@
+- id: dnatools-dnalims
+  name: Dnatools-dnalims
+  author: P001
+  tags:
+    - dnatools-dnalims
+  description: Dnatools-dnalims
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /cgi-bin/dna/password.cgi
+        - dnalims

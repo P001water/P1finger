@@ -1,0 +1,12 @@
+- id: promail
+  name: Promail
+  author: P001
+  tags:
+    - promail
+  description: Promail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by squirrelmail.org. squirrelmail
+        - promail &trade; - login

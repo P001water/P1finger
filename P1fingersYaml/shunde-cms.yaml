@@ -1,0 +1,10 @@
+- id: shunde
+  name: Shunde-cms
+  author: P001
+  tags:
+    - shunde
+  description: Shunde-cms
+  matchers:
+    - location: body
+      words:
+        - for="ctl00_cph_l_login_username">crm帐号

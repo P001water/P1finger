@@ -1,0 +1,10 @@
+- id: koala
+  name: Koala-web-server
+  author: P001
+  tags:
+    - koala
+  description: Koala-web-server
+  matchers:
+    - location: body
+      words:
+        - 'server: koala web server'

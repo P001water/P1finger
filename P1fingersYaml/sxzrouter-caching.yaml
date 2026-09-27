@@ -1,0 +1,11 @@
+- id: sxzrouter-caching
+  name: Sxzrouter-caching
+  author: P001
+  tags:
+    - sxzrouter-caching
+  description: Sxzrouter-caching
+  matchers:
+    - location: body
+      words:
+        - href="http://www.dwcache.com"
+        - src="/public/sec/assets/js/libs/jquery.placeholder.min.js">

@@ -1,0 +1,14 @@
+- id: arn01154u4
+  name: ARN01154U4
+  author: Fofa
+  tags:
+    - arn01154u4
+  description: ARN01154U4
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ARN01154U4
+    - location: header
+      words:
+        - ARN01154U4

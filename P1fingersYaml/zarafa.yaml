@@ -1,0 +1,10 @@
+- id: zarafa
+  name: Zarafa
+  author: P1finger
+  tags:
+    - zarafa
+  description: Zarafa
+  matchers:
+    - location: body
+      words:
+        - Zarafa WebAccess

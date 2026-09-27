@@ -1,0 +1,13 @@
+- id: oauth2
+  name: Oauth2
+  author: P1finger
+  tags:
+    - oauth2
+  description: Oauth2
+  matchers:
+    - location: header
+      words:
+        - bearer
+    - location: body
+      words:
+        - bearer

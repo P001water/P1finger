@@ -1,0 +1,19 @@
+- id: dorg
+  name: DORG
+  author: Fofa
+  tags:
+    - dorg
+  description: DORG
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 'DORG - '
+    - condition: or
+      location: body
+      words:
+        - CONTENT="DORG
+    - location: body
+      words:
+        - 'DORG - '
+        - CONTENT="DORG

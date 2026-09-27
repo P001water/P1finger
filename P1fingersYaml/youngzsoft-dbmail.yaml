@@ -1,0 +1,10 @@
+- id: youngzsoft-dbmail
+  name: Youngzsoft-dbmail
+  author: P001
+  tags:
+    - youngzsoft-dbmail
+  description: Youngzsoft-dbmail
+  matchers:
+    - location: body
+      words:
+        - href="http://www.dbmailserver.com" target=_blank

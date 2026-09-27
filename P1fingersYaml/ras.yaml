@@ -1,0 +1,62 @@
+- id: kelairas
+  name: KelaiRAS
+  author: P1finger
+  tags:
+    - kelairas
+  description: KelaiRAS
+  matchers:
+    - location: body
+      words:
+        - 科来网络回溯分析系统 - 服务器
+- id: kelairas-2
+  name: Kelairas
+  author: P1finger
+  tags:
+    - kelairas
+  description: Kelairas
+  matchers:
+    - location: body
+      words:
+        - 科来网络回溯
+        - 科来软件 版权所有
+        - i18ninit.min.js
+    - condition: or
+      location: title
+      words:
+        - 科来网络回溯
+    - condition: or
+      location: body
+      words:
+        - 科来软件 版权所有
+    - condition: or
+      location: body
+      words:
+        - i18ninit.min.js
+- id: kemairas-system
+  name: KemaiRAS System
+  author: Fofa
+  tags:
+    - kemairas
+    - system
+  description: KemaiRAS System
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 科迈RAS
+    - condition: or
+      location: body
+      words:
+        - location="application/npRas
+    - condition: or
+      location: body
+      words:
+        - 远程技术支持请求：<a href="http://www.comexe.cn
+    - location: body
+      words:
+        - 科迈RAS
+        - location="application/npRas
+        - 远程技术支持请求：<a href="http://www.comexe.cn
+    - location: body
+      words:
+        - 科迈

@@ -1,0 +1,19 @@
+- id: xfinity
+  name: Xfinity
+  author: Fofa
+  tags:
+    - xfinity
+  description: Xfinity
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - ="Xfinity
+    - condition: or
+      location: body
+      words:
+        - /reset-meyer-1.0.min.css
+    - location: body
+      words:
+        - Xfinity
+        - /reset-meyer-1.0.min.css

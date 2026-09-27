@@ -1,0 +1,23 @@
+- id: document
+  name: Document-security-management-system
+  author: P001
+  tags:
+    - document
+  description: Document-security-management-system
+  matchers:
+    - location: body
+      words:
+        - action="/drm/login.do"
+        - href="/drm/template/css/login.css"
+        - src="/drm/encjs/barrett.js"
+- id: document-2
+  name: Document Security Management System
+  author: P1finger
+  tags:
+    - document
+  description: Document Security Management System
+  matchers:
+    - location: body
+      words:
+        - 前沿文档安全管理软件
+        - src="/drm/encjs/barrett.js"

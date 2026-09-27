@@ -1,0 +1,10 @@
+- id: snmp-manage
+  name: SNMP-manage
+  author: P1finger
+  tags:
+    - snmp-manage
+  description: SNMP-manage
+  matchers:
+    - location: body
+      words:
+        - 'WwW-Authenticate: Basic realm="SNMP'

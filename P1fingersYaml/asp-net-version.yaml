@@ -1,0 +1,11 @@
+- id: asp-net-version
+  name: ASP.NET-Version
+  author: Fofa
+  tags:
+    - asp-net-version
+  description: ASP.NET-Version
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Aspnet-Version

@@ -1,0 +1,23 @@
+- id: lancom
+  name: Lancom
+  author: P1finger
+  tags:
+    - lancom
+  description: Lancom
+  matchers:
+    - hash:
+        - "-325082670"
+      location: favicon
+- id: lancomshebei-2
+  name: LANCOMshebei
+  author: P1finger
+  tags:
+    - lancomshebei
+  description: LANCOMshebei
+  matchers:
+    - location: body
+      words:
+        - Copyright (c) LANCOM Systems
+    - location: header
+      words:
+        - 'Server: LANCOM'

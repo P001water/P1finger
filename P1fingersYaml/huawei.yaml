@@ -1,0 +1,663 @@
+- id: huawei-2
+  name: Huawei
+  author: P1finger
+  tags:
+  - huawei
+  description: Huawei
+  matchers:
+  - hash:
+    - '561563906'
+    location: favicon
+  - hash:
+    - '-884776764'
+    location: favicon
+- id: huawei-security-device
+  name: Huawei Security Device
+  author: P1finger
+  tags:
+  - huawei
+  - security-device
+  description: Huawei Security Device
+  matchers:
+  - location: body
+    words:
+    - sweb-lib/resource/
+  - condition: and
+    location: body
+    words:
+    - sweb-lib/resource/
+- id: huawei-anyoffice
+  name: Huawei-anyoffice
+  author: P001
+  tags:
+  - huawei
+  - huawei-anyoffice
+  description: Huawei-anyoffice
+  matchers:
+  - location: body
+    words:
+    - <form id="jvform" action="admin/business/login
+    - cancelchangepwbtn
+    - mdmserver
+    - src="assets/conn-service/admin/
+  - location: body
+    words:
+    - cancelchangepwbtn
+- id: huawei-management-platform
+  name: Huawei Management Platform
+  author: P1finger
+  tags:
+  - huawei
+  - management-platform
+  description: Huawei Management Platform
+  matchers:
+  - location: body
+    words:
+    - ar web登录
+- id: huaweiarminjie-gateway
+  name: Huaweiarminjie Gateway
+  author: P001
+  tags:
+  - huaweiarminjie
+  - gateway
+  description: Huaweiarminjie Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /verifycode.cgi?vrfcodeid=
+    - document.title = 'ar web登录
+- id: huawei-asg2100
+  name: HuaWei-ASG2100
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-asg2100
+  description: HuaWei-ASG2100
+  matchers:
+  - location: body
+    words:
+    - asg2100
+  - location: header
+    words:
+    - huawei asg2050
+- id: huawei-auth
+  name: Huawei-auth-server
+  author: P001
+  tags:
+  - huawei
+  - huawei-auth
+  description: Huawei-auth-server
+  matchers:
+  - location: body
+    words:
+    - 75718c9a-f029-11d1-a1ac-00c04fb6c223
+- id: huawei-auth-2
+  name: Huawei_auth_server
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-auth
+  description: Huawei_auth_server
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 75718C9A-F029-11d1-A1AC-00C04FB6C223
+  - location: body
+    words:
+    - 75718C9A-F029-11d1-A1AC-00C04FB6C223
+- id: huawei-b683
+  name: Huawei B683
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-b683
+  description: Huawei B683
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Huawei B683
+- id: huawei-b683v
+  name: Huawei B683V
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-b683v
+  description: Huawei B683V
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Huawei B683V
+- id: huawei-csp
+  name: HUAWEI CSP
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-csp
+  description: HUAWEI CSP
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - HUAWEI CSP
+- id: huawei-easysuite
+  name: Huawei-EasySuite
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-easysuite
+  description: Huawei-EasySuite
+  matchers:
+  - location: body
+    words:
+    - /static/easysuite/js/vendor.js
+    - <title>EasySuite</title>
+- id: huawei-esight
+  name: Huawei-esight
+  author: P001
+  tags:
+  - huawei
+  - huawei-esight
+  description: Huawei-esight
+  matchers:
+  - location: body
+    words:
+    - <body onload="gotologin()">
+    - esight_login_copy_right_font
+    - location.replace('login.action?_='+ new date().gettime());
+- id: huawei-espace-7910
+  name: HUAWEI ESPACE 7910
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-espace-7910
+  description: HUAWEI ESPACE 7910
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - HUAWEI ESPACE 7910
+- id: huawei-3
+  name: Huawei-firewall
+  author: P1finger
+  tags:
+  - huawei
+  description: Huawei-firewall
+  matchers:
+  - location: body
+    words:
+    - Modify by wangxiangguang
+  - location: header
+    words:
+    - Eudemon Server
+- id: huawei-fusioncloud-desktop
+  name: Huawei-fusioncloud-desktop
+  author: P001
+  tags:
+  - huawei
+  - huawei-fusioncloud-desktop
+  description: Huawei-fusioncloud-desktop
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - href=/webui/default/img/logo.ico
+    - huawei
+- id: huawei-fusioncompute
+  name: Huawei-fusioncompute
+  author: P001
+  tags:
+  - huawei
+  - huawei-fusioncompute
+  description: Huawei-fusioncompute
+  matchers:
+  - location: body
+    words:
+    - /omsportal/
+    - resources/themes/images/logo/favicon.ico
+- id: huawei-hg520-adsl2
+  name: Huawei HG520 ADSL2+ Router
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-hg520-adsl2
+  description: Huawei HG520 ADSL2+ Router
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Huawei HG520
+- id: huawei-hg630
+  name: Huawei HG630
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-hg630
+  description: Huawei HG630
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Huawei HG630
+- id: huawei-b683-2
+  name: Huawei B683
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-b683
+  description: Huawei B683
+  matchers:
+  - location: body
+    words:
+    - Huawei B683
+- id: huawei-b683v-2
+  name: Huawei B683v
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-b683v
+  description: Huawei B683v
+  matchers:
+  - location: body
+    words:
+    - Huawei B683V
+- id: huawei-csp-2
+  name: Huawei Csp
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-csp
+  description: Huawei Csp
+  matchers:
+  - location: body
+    words:
+    - HUAWEI CSP
+- id: huawei-espace-7910-2
+  name: Huawei Espace 7910
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-espace-7910
+  description: Huawei Espace 7910
+  matchers:
+  - location: body
+    words:
+    - HUAWEI ESPACE 7910
+- id: huawei-4
+  name: Huawei-Firewall
+  author: Fofa
+  tags:
+  - huawei
+  description: Huawei-Firewall
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - Eudemon Server
+  - condition: or
+    location: body
+    words:
+    - Modify by wangxiangguang
+- id: huawei-fusioninsight
+  name: HuaWei FusionInsight
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-fusioninsight
+  description: HuaWei FusionInsight
+  matchers:
+  - location: header
+    words:
+    - fusioninsight
+- id: huawei-hg520-adsl2-2
+  name: Huawei Hg520 Adsl2+ Router
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-hg520-adsl2
+  description: Huawei Hg520 Adsl2+ Router
+  matchers:
+  - location: body
+    words:
+    - Huawei HG520
+- id: huawei-hg630-2
+  name: Huawei Hg630
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-hg630
+  description: Huawei Hg630
+  matchers:
+  - location: body
+    words:
+    - Huawei HG630
+- id: huawei-ibmc
+  name: Huawei Ibmc
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-ibmc
+  description: Huawei Ibmc
+  matchers:
+  - location: body
+    words:
+    - bmc/resources/css/frame
+- id: huawei-inner
+  name: Huawei Inner Web
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-inner
+  description: Huawei Inner Web
+  matchers:
+  - location: body
+    words:
+    - HUAWEI Inner Web
+    - hidden_frame.html
+- id: huawei-official-site
+  name: Huawei Official Site
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-official-site
+  description: Huawei Official Site
+  matchers:
+  - location: body
+    words:
+    - Huawei Official Site
+- id: huawei-quidway-switch
+  name: Huawei-Quidway-Switch
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-quidway-switch
+  description: Huawei-Quidway-Switch
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 'Lanswitch - '
+- id: huawei-smartax
+  name: Huawei Smartax
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-smartax
+  description: Huawei Smartax
+  matchers:
+  - location: header
+    words:
+    - Basic realm="Huawei SmartAX"
+- id: huawei-srg1220
+  name: HuaWei SRG1220
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-srg1220
+  description: HuaWei SRG1220
+  matchers:
+  - location: body
+    words:
+    - srg1220
+  - location: header
+    words:
+    - huawei srg1220
+- id: huawei-srg2210
+  name: HuaWei SRG2210
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-srg2210
+  description: HuaWei SRG2210
+  matchers:
+  - location: body
+    words:
+    - srg2210
+- id: huawei-srg3230
+  name: HuaWei SRG3230
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-srg3230
+  description: HuaWei SRG3230
+  matchers:
+  - location: body
+    words:
+    - srg3230
+- id: huawei-srg3240
+  name: HuaWei SRG3240
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-srg3240
+  description: HuaWei SRG3240
+  matchers:
+  - location: body
+    words:
+    - srg3240
+- id: huawei-usg6320
+  name: HuaWei USG6320
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-usg6320
+  description: HuaWei USG6320
+  matchers:
+  - location: body
+    words:
+    - usg6320
+- id: huawei-inner-2
+  name: HUAWEI Inner Web
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-inner
+  description: HUAWEI Inner Web
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - HUAWEI Inner Web
+  - condition: or
+    location: body
+    words:
+    - hidden_frame.html
+- id: huawei-inner-3
+  name: Huawei-inner-web
+  author: P001
+  tags:
+  - huawei
+  - huawei-inner
+  description: Huawei-inner-web
+  matchers:
+  - location: body
+    words:
+    - hidden_frame.html
+- id: huawei-ivs
+  name: Huawei-ivs
+  author: P001
+  tags:
+  - huawei
+  - huawei-ivs
+  description: Huawei-ivs
+  matchers:
+  - location: body
+    words:
+    - var iever = scriptenginemajorversion()
+- id: huawei-jump
+  name: Huawei-jump-server
+  author: P001
+  tags:
+  - huawei
+  - huawei-jump
+  description: Huawei-jump-server
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - event_onusbkeychange=onusbkeychange
+    - id=mtokenplugin
+    - value=pluginloaded
+  - hash:
+    - 1f2d27250647de902d396b75d9a2b0cf
+    location: favicon
+- id: huawei-netopen
+  name: Huawei-netopen
+  author: P001
+  tags:
+  - huawei
+  - huawei-netopen
+  description: Huawei-netopen
+  matchers:
+  - location: body
+    words:
+    - /netopen/theme/css/inframe.css
+- id: huawei-official-site-2
+  name: Huawei Official Site
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-official-site
+  description: Huawei Official Site
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Huawei Official Site
+- id: huawei-quidway-switch-2
+  name: Huawei-quidway-switch
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-quidway-switch
+  description: Huawei-quidway-switch
+  matchers:
+  - location: header
+    words:
+    - 'Lanswitch - '
+- id: huaweirbt-management-system
+  name: Huaweirbt Management System
+  author: P001
+  tags:
+  - huaweirbt
+  - management-system
+  description: Huaweirbt Management System
+  matchers:
+  - location: body
+    words:
+    - rbt gateway management system
+- id: huawei-5
+  name: Huawei_router
+  author: P1finger
+  tags:
+  - huawei
+  description: Huawei_router
+  matchers:
+  - location: body
+    words:
+    - UI_component/css/xtheme-black
+  - hash:
+    - '-1395400951'
+    location: favicon
+- id: huawei-secoway
+  name: Huawei-secoway
+  author: P001
+  tags:
+  - huawei
+  - huawei-secoway
+  description: Huawei-secoway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - sweb-lib/plat/login/login_new.js
+    - sweb-lib/resource/
+- id: huawei-secoway-2
+  name: HuaWei-Secoway-Firewall
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-secoway
+  description: HuaWei-Secoway-Firewall
+  matchers:
+  - location: header
+    words:
+    - secoway
+- id: huawei-6
+  name: Huawei
+  author: P1finger
+  tags:
+  - huawei
+  description: Huawei
+  matchers:
+  - location: body
+    words:
+    - Secoway
+  - condition: and
+    location: header
+    words:
+    - Secoway
+  - location: header
+    words:
+    - Secoway
+- id: huawei-smartax-2
+  name: Huawei SmartAX
+  author: Fofa
+  tags:
+  - huawei
+  - huawei-smartax
+  description: Huawei SmartAX
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Basic realm="Huawei SmartAX
+- id: huawei-srg2220
+  name: Huawei_srg2220
+  author: P1finger
+  tags:
+  - huawei
+  - huawei-srg2220
+  description: Huawei_srg2220
+  matchers:
+  - location: body
+    words:
+    - HUAWEI SRG2220
+- id: huawei-ssl
+  name: Huawei-ssl-vpn
+  author: P001
+  tags:
+  - huawei
+  - huawei-ssl
+  description: Huawei-ssl-vpn
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - clear ssl cache successfully
+    - svn_getlogincontextvalue(
+    - getcookie("sgdportal")
+- id: huawei-usg
+  name: Huawei-usg-firewall
+  author: P001
+  tags:
+  - huawei
+  - huawei-usg
+  description: Huawei-usg-firewall
+  matchers:
+  - location: body
+    words:
+    - ui_component/css/xtheme-black.css
+- id: huawei-7
+  name: Huawei-vpn
+  author: P001
+  tags:
+  - huawei
+  description: Huawei-vpn
+  matchers:
+  - location: body
+    words:
+    - oncompleted(hresult,perrorobject, pasynccontext)

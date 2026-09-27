@@ -1,0 +1,42 @@
+- id: zcms
+  name: ZCMS
+  author: Fofa
+  tags:
+    - zcms
+  description: ZCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - _ZCMS_ShowNewMessage
+    - condition: or
+      location: body
+      words:
+        - zcms_skin
+    - condition: or
+      location: title
+      words:
+        - ZCMS泽元内容管理
+    - condition: and
+      location: body
+      words:
+        - _zcms_shownewmessage
+        - zcms_skin
+        - _zcms_shownewmessage
+        - zcms_skin
+        - app=zcms
+    - location: body
+      words:
+        - Zcms内容管理系统
+- id: zeyuanzcms
+  name: Zeyuanzcms
+  author: P1finger
+  tags:
+    - zeyuanzcms
+  description: Zeyuanzcms
+  matchers:
+    - location: body
+      words:
+        - zcms_stat
+        - zcms_skin
+        - 泽元

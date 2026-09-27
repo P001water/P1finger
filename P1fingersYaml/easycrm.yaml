@@ -1,0 +1,10 @@
+- id: easycrm
+  name: EasyCrm
+  author: P1finger
+  tags:
+    - easycrm
+  description: EasyCrm
+  matchers:
+    - location: body
+      words:
+        - EasyCrm

@@ -1,0 +1,11 @@
+- id: mixcall-seat
+  name: Mixcall-seat-management-center
+  author: P001
+  tags:
+    - mixcall-seat
+  description: Mixcall-seat-management-center
+  matchers:
+    - location: body
+      words:
+        - /admin/modules/admin/statics/images/
+        - 深圳市深海捷科技有限公司

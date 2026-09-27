@@ -1,0 +1,138 @@
+- id: zte-4
+  name: Zte
+  author: P1finger
+  tags:
+  - zte
+  description: Zte
+  matchers:
+  - hash:
+    - '1427976651'
+    location: favicon
+- id: zte-iad
+  name: Zte-iad
+  author: P1finger
+  tags:
+  - zte
+  - zte-iad
+  description: Zte-iad
+  matchers:
+  - location: body
+    words:
+    - /image/banner_I532.jpg
+    - /image/I202.gif
+    - /image/banner_top.jpg
+- id: zteiadyuyin-gateway
+  name: Zteiadyuyin Gateway
+  author: P001
+  tags:
+  - zteiadyuyin
+  - gateway
+  description: Zteiadyuyin Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /image/banner_i532.jpg
+    - /image/i202.gif
+- id: zte-mifi-une
+  name: ZTE_MiFi_UNE
+  author: Fofa
+  tags:
+  - zte
+  - zte-mifi-une
+  description: ZTE_MiFi_UNE
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - MiFi UNE 4G LTE
+  - location: body
+    words:
+    - MiFi UNE 4G LTE
+- id: zte-police-research
+  name: Zte-police-research-system
+  author: P001
+  tags:
+  - zte
+  - zte-police-research
+  description: Zte-police-research-system
+  matchers:
+  - location: body
+    words:
+    - src="img/gonanlogo.jpg
+    - 深圳市中兴信息技术有限公司版权所有
+- id: zte-platform
+  name: ZTE Platform
+  author: P1finger
+  tags:
+  - zte
+  - platform
+  description: ZTE Platform
+  matchers:
+  - location: body
+    words:
+    - uSmartView
+- id: zte-zsrv2
+  name: ZTE_ZSRV2_Router
+  author: Fofa
+  tags:
+  - zte
+  - zte-zsrv2
+  description: ZTE_ZSRV2_Router
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ZSRV2路由器Web管理系统
+  - condition: and
+    location: body
+    words:
+    - ZTE Corporation. All Rights Reserved.
+  - location: body
+    words:
+    - ZSRV2路由器Web管理系统
+    - ZTE Corporation. All Rights Reserved.
+- id: zte-corporation
+  name: Zte Corporation
+  author: P1finger
+  tags:
+  - zte
+  - zte-corporation
+  description: Zte Corporation
+  matchers:
+  - hash:
+    - '459900502'
+    location: favicon
+- id: zte-iad-2
+  name: ZTE-IAD
+  author: Fofa
+  tags:
+  - zte
+  - zte-iad
+  description: ZTE-IAD
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /image/banner_I532.jpg
+  - condition: or
+    location: body
+    words:
+    - /image/I202.gif
+  - condition: and
+    location: body
+    words:
+    - System Log In")
+- id: ztezxsectongyi-security-gateway
+  name: Ztezxsectongyi Security Gateway
+  author: P001
+  tags:
+  - ztezxsectongyi
+  - security-gateway
+  description: Ztezxsectongyi Security Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - welcome to login gateway system
+    - 安全网关

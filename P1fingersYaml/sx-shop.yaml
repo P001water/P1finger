@@ -1,0 +1,11 @@
+- id: sx-shop
+  name: Sx-shop
+  author: P001
+  tags:
+    - sx-shop
+  description: Sx-shop
+  matchers:
+    - location: body
+      words:
+        - alert("ihr suchbegriff muss mind. aus 3 zeichen bestehen.");
+        - content="source worx - software development">

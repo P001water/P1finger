@@ -1,0 +1,11 @@
+- id: feqiyeyunying
+  name: FEqiyeyunying Management Platform
+  author: P1finger
+  tags:
+    - feqiyeyunying
+    - management-platform
+  description: FEqiyeyunying Management Platform
+  matchers:
+    - hash:
+        - "-391577146"
+      location: favicon

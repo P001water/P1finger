@@ -1,0 +1,21 @@
+- id: intrinsyc-deviceweb
+  name: Intrinsyc-deviceweb
+  author: P1finger
+  tags:
+    - intrinsyc-deviceweb
+  description: Intrinsyc-deviceweb
+  matchers:
+    - location: header
+      words:
+        - Intrinsyc deviceWEB
+- id: intrinsyc-deviceweb-2
+  name: Intrinsyc-deviceWEB
+  author: Fofa
+  tags:
+    - intrinsyc-deviceweb
+  description: Intrinsyc-deviceWEB
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Intrinsyc deviceWEB

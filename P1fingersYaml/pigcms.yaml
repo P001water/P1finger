@@ -1,0 +1,14 @@
+- id: pigcms
+  name: PigCms
+  author: Fofa
+  tags:
+    - pigcms
+  description: PigCms
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-By: PigCms.com'
+    - location: header
+      words:
+        - 'X-Powered-By: PigCms.com'

@@ -1,0 +1,10 @@
+- id: xpshop
+  name: XpShop
+  author: P1finger
+  tags:
+    - xpshop
+  description: XpShop
+  matchers:
+    - location: body
+      words:
+        - /Template/xpshop_currents/

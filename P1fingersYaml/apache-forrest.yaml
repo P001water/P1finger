@@ -1,0 +1,32 @@
+- id: apache-forrest
+  name: Apache-forrest
+  author: P1finger
+  tags:
+  - apache
+  - apache-forrest
+  description: Apache-forrest
+  matchers:
+  - location: body
+    words:
+    - content="Apache Forrest
+    - name="Forrest
+  - location: body
+    words:
+    - content="apache forrest
+    - name="forrest
+- id: apache-forrest-2
+  name: Apache-Forrest
+  author: Fofa
+  tags:
+  - apache
+  - apache-forrest
+  description: Apache-Forrest
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - content="Apache Forrest
+  - condition: or
+    location: body
+    words:
+    - name="Forrest

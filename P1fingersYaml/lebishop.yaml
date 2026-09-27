@@ -1,0 +1,10 @@
+- id: lebishop
+  name: Lebishop
+  author: P1finger
+  tags:
+    - lebishop
+  description: Lebishop
+  matchers:
+    - location: body
+      words:
+        - Powered by lebishop

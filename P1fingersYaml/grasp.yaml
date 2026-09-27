@@ -1,0 +1,21 @@
+- id: renwoxing-3
+  name: Renwoxing
+  author: P1finger
+  tags:
+    - renwoxing
+  description: Renwoxing
+  matchers:
+    - location: body
+      words:
+        - 任我行信息技术有限公司
+- id: renwoxing-system
+  name: Renwoxing System
+  author: P1finger
+  tags:
+    - renwoxing
+    - system
+  description: Renwoxing System
+  matchers:
+    - location: body
+      words:
+        - '&Site=任我行'

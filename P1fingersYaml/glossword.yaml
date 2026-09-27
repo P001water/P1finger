@@ -1,0 +1,17 @@
+- id: glossword
+  name: Glossword
+  author: Fofa
+  tags:
+    - glossword
+  description: Glossword
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Glossword
+    - location: body
+      words:
+        - content="Glossword
+    - location: body
+      words:
+        - content="glossword

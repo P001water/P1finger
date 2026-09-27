@@ -1,0 +1,14 @@
+- id: freepbx
+  name: FreePBX
+  author: Fofa
+  tags:
+    - freepbx
+  description: FreePBX
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FreePBX
+    - location: header
+      words:
+        - FreePBX

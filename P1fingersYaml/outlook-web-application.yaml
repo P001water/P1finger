@@ -1,0 +1,10 @@
+- id: outlook
+  name: Outlook Web Application
+  author: P1finger
+  tags:
+    - outlook
+  description: Outlook Web Application
+  matchers:
+    - hash:
+        - "1356662359"
+      location: favicon

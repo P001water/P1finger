@@ -1,0 +1,10 @@
+- id: webpa
+  name: Webpa
+  author: P001
+  tags:
+    - webpa
+  description: Webpa
+  matchers:
+    - location: body
+      words:
+        - <td align="right"><div id="inst_logo"><img src=

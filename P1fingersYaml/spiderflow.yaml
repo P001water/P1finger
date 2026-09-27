@@ -1,0 +1,10 @@
+- id: spiderflow
+  name: SpiderFlow
+  author: P1finger
+  tags:
+    - spiderflow
+  description: SpiderFlow
+  matchers:
+    - location: body
+      words:
+        - SpiderFlow

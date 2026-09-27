@@ -1,0 +1,10 @@
+- id: posthog
+  name: PostHog
+  author: P1finger
+  tags:
+    - posthog
+  description: PostHog
+  matchers:
+    - location: body
+      words:
+        - PostHog

@@ -1,0 +1,10 @@
+- id: paloaltowaf
+  name: PaloaltoWAF
+  author: P1finger
+  tags:
+    - paloaltowaf
+  description: PaloaltoWAF
+  matchers:
+    - location: body
+      words:
+        - Palo Alto Next Generation Security Platform

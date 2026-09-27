@@ -1,0 +1,10 @@
+- id: angular-io
+  name: Angular Io
+  author: P1finger
+  tags:
+    - angular-io
+  description: Angular Io
+  matchers:
+    - hash:
+        - "-1255347784"
+      location: favicon

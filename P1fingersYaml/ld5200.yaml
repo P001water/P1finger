@@ -1,0 +1,10 @@
+- id: ld5200
+  name: LD5200
+  author: P1finger
+  tags:
+    - ld5200
+  description: LD5200
+  matchers:
+    - location: header
+      words:
+        - Basic realm="RLE-CF LD5200"

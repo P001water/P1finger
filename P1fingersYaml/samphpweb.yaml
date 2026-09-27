@@ -1,0 +1,13 @@
+- id: samphpweb
+  name: Samphpweb
+  author: P001
+  tags:
+    - samphpweb
+  description: Samphpweb
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv="refresh" content="0;url=playing.html">
+        - copyright spacial audio solutions
+        - href="http://www.spacialaudio.com/products/sambroadcaster/"
+        - songinfo.php

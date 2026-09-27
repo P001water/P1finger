@@ -1,0 +1,17 @@
+- id: debian
+  name: Debian
+  author: Fofa
+  tags:
+    - debian
+  description: Debian
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Debian
+    - location: header
+      words:
+        - Debian
+    - location: body
+      words:
+        - <h1>welcome to nginx on debian!</h1>

@@ -1,0 +1,10 @@
+- id: gfsoft-akuntansi-2008
+  name: Gfsoft-akuntansi-2008
+  author: P001
+  tags:
+    - gfsoft-akuntansi-2008
+  description: Gfsoft-akuntansi-2008
+  matchers:
+    - location: body
+      words:
+        - src="images/box%20akuntansi%202008.png"

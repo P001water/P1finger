@@ -1,0 +1,10 @@
+- id: threatconnect
+  name: Threatconnect-platform
+  author: P001
+  tags:
+    - threatconnect
+  description: Threatconnect-platform
+  matchers:
+    - location: body
+      words:
+        - content="threatconnect" />

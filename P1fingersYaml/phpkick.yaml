@@ -1,0 +1,10 @@
+- id: phpkick
+  name: PHPKick
+  author: P1finger
+  tags:
+    - phpkick
+  description: PHPKick
+  matchers:
+    - location: body
+      words:
+        - PHPKick

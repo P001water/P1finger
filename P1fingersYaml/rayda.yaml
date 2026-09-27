@@ -1,0 +1,11 @@
+- id: raydacrm
+  name: RAYDACRM CRM
+  author: P1finger
+  tags:
+    - raydacrm
+    - crm
+  description: RAYDACRM CRM
+  matchers:
+    - location: body
+      words:
+        - RAYDA CRM 客户关系管理系统

@@ -1,0 +1,12 @@
+- id: websphere
+  name: Websphere
+  author: P1finger
+  tags:
+    - websphere
+  description: Websphere
+  matchers:
+    - location: body
+      words:
+        - SRVE0255E
+        - ibm.ws.webcontainer.servlet
+        - IBM WebSphere Application Server

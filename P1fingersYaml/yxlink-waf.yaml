@@ -1,0 +1,13 @@
+- id: yxlink-waf
+  name: Yxlink-WAF
+  author: P1finger
+  tags:
+    - yxlink-waf
+  description: Yxlink-WAF
+  matchers:
+    - location: body
+      words:
+        - 铱迅web应用防护系统
+    - location: header
+      words:
+        - yxlinkwaf

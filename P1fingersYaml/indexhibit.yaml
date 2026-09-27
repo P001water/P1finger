@@ -1,0 +1,10 @@
+- id: indexhibit
+  name: Indexhibit
+  author: P1finger
+  tags:
+    - indexhibit
+  description: Indexhibit
+  matchers:
+    - location: body
+      words:
+        - indexhibit

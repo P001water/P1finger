@@ -1,0 +1,10 @@
+- id: acsoft-2
+  name: AcSoft
+  author: P1finger
+  tags:
+    - acsoft
+  description: AcSoft
+  matchers:
+    - location: body
+      words:
+        - 费用报销系统

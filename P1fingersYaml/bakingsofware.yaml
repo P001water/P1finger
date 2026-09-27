@@ -1,0 +1,10 @@
+- id: bakingsofware
+  name: BakingSofware
+  author: P1finger
+  tags:
+    - bakingsofware
+  description: BakingSofware
+  matchers:
+    - location: body
+      words:
+        - Baking Sofware - bFirmware -

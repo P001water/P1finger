@@ -1,0 +1,11 @@
+- id: boa-webserver
+  name: Boa-WebServer
+  author: Fofa
+  tags:
+    - boa-webserver
+  description: Boa-WebServer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Boa

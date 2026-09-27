@@ -1,0 +1,11 @@
+- id: pinpoint
+  name: Pinpoint
+  author: P001
+  tags:
+    - pinpoint
+  description: Pinpoint
+  matchers:
+    - location: body
+      words:
+        - <body id="pinpoint">
+        - <title>pinpoint</title>

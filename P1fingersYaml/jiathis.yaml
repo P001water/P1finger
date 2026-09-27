@@ -1,0 +1,14 @@
+- id: jiathis
+  name: Jiathis
+  author: Fofa
+  tags:
+    - jiathis
+  description: Jiathis
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jiathis.com/code/jia.js
+    - location: body
+      words:
+        - jiathis.com/code/jia.js

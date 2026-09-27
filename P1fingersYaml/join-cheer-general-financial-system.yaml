@@ -1,0 +1,17 @@
+- id: join-cheer-general-financial
+  name: Join-cheer-general-financial-system
+  author: P001
+  tags:
+    - join-cheer-general-financial
+  description: Join-cheer-general-financial-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /netrep/intf
+        - /netrep/message2/
+        - <meta http-equiv="refresh" content="0";url="../netrep">
+        - 北京久其软件股份有限公司 版权所有
+    - location: body
+      words:
+        - 久其报表大厅

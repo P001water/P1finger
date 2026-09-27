@@ -1,0 +1,25 @@
+- id: wuzhicms
+  name: Wuzhicms
+  author: Fofa
+  tags:
+    - wuzhicms
+  description: Wuzhicms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by wuzhicms
+    - condition: or
+      location: body
+      words:
+        - content="wuzhicms
+    - location: body
+      words:
+        - Powered by wuzhicms
+        - content="wuzhicms
+    - condition: and
+      location: body
+      words:
+        - content="wuzhicms
+        - powered by wuzhicms
+        - <meta name="generator" content="wuzhicms

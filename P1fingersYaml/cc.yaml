@@ -1,0 +1,17 @@
+- id: cckefu
+  name: CCkefu
+  author: Fofa
+  tags:
+    - cckefu
+  description: CCkefu
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <script src="http://kefu.qycn.com/
+    - location: body
+      words:
+        - <script src="http://kefu.qycn.com/
+    - location: body
+      words:
+        - http://kefu.qycn.com/vclient/state.php

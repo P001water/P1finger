@@ -1,0 +1,24 @@
+- id: mini-httpd
+  name: Mini-httpd
+  author: P001
+  tags:
+    - mini-httpd
+  description: Mini-httpd
+  matchers:
+    - location: body
+      words:
+        - 'server: mini_httpd'
+- id: mini-httpd-2
+  name: Mini_httpd
+  author: Fofa
+  tags:
+    - mini-httpd
+  description: Mini_httpd
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mini_httpd
+    - location: header
+      words:
+        - mini_httpd

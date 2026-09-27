@@ -1,0 +1,29 @@
+- id: custom
+  name: Custom-cms
+  author: P1finger
+  tags:
+    - custom
+  description: Custom-cms
+  matchers:
+    - location: body
+      words:
+        - content="CustomCMS
+        - title="Powered by CCMS
+- id: custom-2
+  name: Custom-CMS
+  author: Fofa
+  tags:
+    - custom
+  description: Custom-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="CustomCMS
+    - condition: or
+      location: body
+      words:
+        - title="Powered by CCMS
+    - location: body
+      words:
+        - <meta name="generator" content="CustomCMS">

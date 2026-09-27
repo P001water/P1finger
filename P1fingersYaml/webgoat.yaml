@@ -1,0 +1,10 @@
+- id: webgoat
+  name: WebGoat
+  author: P1finger
+  tags:
+    - webgoat
+  description: WebGoat
+  matchers:
+    - location: header
+      words:
+        - Basic realm="WebGoat Application"

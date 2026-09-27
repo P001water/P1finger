@@ -1,0 +1,11 @@
+- id: medion-lifecloud
+  name: MEDION LifeCloud
+  author: P1finger
+  tags:
+    - medion-lifecloud
+  description: MEDION LifeCloud
+  matchers:
+    - location: body
+      words:
+        - MEDION
+        - LifeCloud

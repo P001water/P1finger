@@ -1,0 +1,11 @@
+- id: adimoney
+  name: Adimoney
+  author: P001
+  tags:
+    - adimoney
+  description: Adimoney
+  matchers:
+    - location: body
+      words:
+        - <img src="/img/logo.png" alt="adimoney"/>
+        - content="adimoney.com mobile advertisement network.

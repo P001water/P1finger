@@ -1,0 +1,10 @@
+- id: uportal
+  name: Uportal
+  author: P001
+  tags:
+    - uportal
+  description: Uportal
+  matchers:
+    - location: body
+      words:
+        - alt="powered by uportal

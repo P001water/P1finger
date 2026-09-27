@@ -1,0 +1,10 @@
+- id: jaws
+  name: Jaws Web Server
+  author: P1finger
+  tags:
+    - jaws
+  description: Jaws Web Server
+  matchers:
+    - hash:
+        - "768231242"
+      location: favicon

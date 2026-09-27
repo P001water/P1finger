@@ -1,0 +1,26 @@
+- id: browsercms
+  name: Browsercms
+  author: P1finger
+  tags:
+    - browsercms
+  description: Browsercms
+  matchers:
+    - location: body
+      words:
+        - Powered by BrowserCMS
+        - content="BrowserCMS
+    - condition: or
+      location: body
+      words:
+        - Powered by BrowserCMS
+    - condition: or
+      location: body
+      words:
+        - content="BrowserCMS
+    - location: body
+      words:
+        - content="browsercms
+        - powered by browsercms
+    - location: body
+      words:
+        - BrowserCMS

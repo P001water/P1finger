@@ -1,0 +1,11 @@
+- id: open-xchange
+  name: Open-xchange
+  author: P001
+  tags:
+    - open-xchange
+  description: Open-xchange
+  matchers:
+    - location: body
+      words:
+        - id="browserchecktext_id
+        - you need to enable javascript to access the open-xchange server

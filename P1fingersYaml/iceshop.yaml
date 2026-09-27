@@ -1,0 +1,22 @@
+- id: iceshop
+  name: ICEshop
+  author: Fofa
+  tags:
+    - iceshop
+  description: ICEshop
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by ICEshop
+    - condition: or
+      location: body
+      words:
+        - <div id="iceshop">
+    - location: body
+      words:
+        - Powered by ICEshop
+        - <div id="iceshop">
+    - location: body
+      words:
+        - Powered By ICEshop

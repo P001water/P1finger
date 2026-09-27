@@ -1,0 +1,10 @@
+- id: powerjob
+  name: Powerjob
+  author: P001
+  tags:
+    - powerjob
+  description: Powerjob
+  matchers:
+    - location: body
+      words:
+        - <title>powerjob</title>

@@ -1,0 +1,11 @@
+- id: niuhaoguangshang
+  name: NIUHAOguangshang Management System
+  author: P1finger
+  tags:
+    - niuhaoguangshang
+    - management-system
+  description: NIUHAOguangshang Management System
+  matchers:
+    - location: body
+      words:
+        - NIUHAO广商管理系统

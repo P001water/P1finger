@@ -1,0 +1,14 @@
+- id: airtiesrouter
+  name: AirTiesRouter
+  author: Fofa
+  tags:
+    - airtiesrouter
+  description: AirTiesRouter
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Airties
+    - location: body
+      words:
+        - Airties

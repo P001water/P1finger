@@ -1,0 +1,11 @@
+- id: mail2000-mail-system
+  name: Mail2000 Mail System
+  author: P001
+  tags:
+    - mail2000
+    - mail-system
+  description: Mail2000 Mail System
+  matchers:
+    - location: body
+      words:
+        - mail2000郵件系統

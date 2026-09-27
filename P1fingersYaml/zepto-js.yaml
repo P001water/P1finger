@@ -1,0 +1,15 @@
+- id: zepto-js
+  name: Zepto.js
+  author: Fofa
+  tags:
+    - zepto-js
+  description: Zepto.js
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - zepto.js
+    - condition: or
+      location: body
+      words:
+        - zepto.min.js

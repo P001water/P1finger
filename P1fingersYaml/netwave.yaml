@@ -1,0 +1,10 @@
+- id: netwave
+  name: Netwave
+  author: P1finger
+  tags:
+    - netwave
+  description: Netwave
+  matchers:
+    - location: header
+      words:
+        - Netwave IP Camera

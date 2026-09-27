@@ -1,0 +1,14 @@
+- id: ntlmrenzheng
+  name: Ntlmrenzheng
+  author: P1finger
+  tags:
+    - ntlmrenzheng
+  description: Ntlmrenzheng
+  matchers:
+    - location: header
+      words:
+        - NTLM
+    - condition: and
+      location: header
+      words:
+        - NTLM

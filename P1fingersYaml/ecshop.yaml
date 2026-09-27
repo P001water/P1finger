@@ -1,0 +1,40 @@
+- id: ecshop
+  name: ECShop
+  author: Fofa
+  tags:
+    - ecshop
+  description: ECShop
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Powered by ECShop
+    - condition: or
+      location: header
+      words:
+        - ECS_ID
+    - condition: or
+      location: body
+      words:
+        - content="ECSHOP
+    - condition: or
+      location: body
+      words:
+        - /api/cron.php
+    - location: body
+      words:
+        - Powered by ECShop
+        - content="ECSHOP
+        - /api/cron.php
+    - location: header
+      words:
+        - ECS_ID
+    - location: body
+      words:
+        - 'set-cookie: ecs_id='
+        - content="ecshop
+        - id="ecs_cartinfo"
+    - location: body
+      words:
+        - content="ECShop
+        - content="68ECShop

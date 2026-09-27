@@ -1,0 +1,11 @@
+- id: pivot
+  name: Pivot
+  author: P001
+  tags:
+    - pivot
+  description: Pivot
+  matchers:
+    - location: body
+      words:
+        - href="http://www.pivotlog.net/?ver=pivot
+        - powered bypivot

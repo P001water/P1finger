@@ -1,0 +1,23 @@
+- id: aurion
+  name: Aurion
+  author: Fofa
+  tags:
+    - aurion
+  description: Aurion
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <!-- Aurion Teal will be used as the login-time default
+    - condition: or
+      location: body
+      words:
+        - /aurion.js
+    - location: body
+      words:
+        - <!-- Aurion Teal will be used as the login-time default
+        - /aurion.js
+    - location: body
+      words:
+        - /aurion.js
+        - <!-- aurion teal will be used as the login-time default

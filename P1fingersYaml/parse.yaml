@@ -1,0 +1,10 @@
+- id: parse
+  name: Parse
+  author: P1finger
+  tags:
+    - parse
+  description: Parse
+  matchers:
+    - hash:
+        - "246145559"
+      location: favicon

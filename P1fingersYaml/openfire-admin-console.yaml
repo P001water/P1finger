@@ -1,0 +1,10 @@
+- id: openfire
+  name: Openfire Admin Console
+  author: P1finger
+  tags:
+    - openfire
+  description: Openfire Admin Console
+  matchers:
+    - hash:
+        - "1211608009"
+      location: favicon

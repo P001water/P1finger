@@ -1,0 +1,13 @@
+- id: osticket
+  name: Osticket
+  author: P001
+  tags:
+    - osticket
+  description: Osticket
+  matchers:
+    - location: body
+      words:
+        - href="http://osticket.com">osticket.com
+    - location: body
+      words:
+        - osTicket Installer

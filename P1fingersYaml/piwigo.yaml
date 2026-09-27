@@ -1,0 +1,24 @@
+- id: piwigo
+  name: Piwigo
+  author: Fofa
+  tags:
+    - piwigo
+  description: Piwigo
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - generator" content="Piwigo
+    - condition: or
+      location: header
+      words:
+        - pwg_id
+    - location: body
+      words:
+        - generator" content="Piwigo
+    - location: header
+      words:
+        - pwg_id
+    - location: body
+      words:
+        - generator" content="piwigo

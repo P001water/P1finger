@@ -1,0 +1,10 @@
+- id: cmscnvpjcmsshenzhenjiedian
+  name: CMSCNVPJCMSshenzhenjiedian
+  author: P001
+  tags:
+    - cmscnvpjcmsshenzhenjiedian
+  description: CMSCNVPJCMSshenzhenjiedian
+  matchers:
+    - location: body
+      words:
+        - publish by jcms2010

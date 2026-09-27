@@ -1,0 +1,13 @@
+- id: oracle-adf-faces
+  name: Oracle-adf-faces
+  author: P001
+  tags:
+  - oracle
+  - oracle-adf-faces
+  description: Oracle-adf-faces
+  matchers:
+  - location: body
+    words:
+    - <!-- created by oracle adf faces
+    - content="oracle adf
+    - var _adfwindowopenerror

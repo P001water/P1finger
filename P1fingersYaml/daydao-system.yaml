@@ -1,0 +1,10 @@
+- id: daydao
+  name: Daydao-system
+  author: P001
+  tags:
+    - daydao
+  description: Daydao-system
+  matchers:
+    - location: body
+      words:
+        - $(document).attr("title","我被修改啦.哈哈"

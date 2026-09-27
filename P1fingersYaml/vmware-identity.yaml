@@ -1,0 +1,12 @@
+- id: vmware-identity
+  name: Vmware Identity
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-identity
+  description: Vmware Identity
+  matchers:
+  - location: body
+    words:
+    - cfg/js-lib
+    - VMware Identity

@@ -1,0 +1,10 @@
+- id: yiyongtms
+  name: YiyongTMS
+  author: P1finger
+  tags:
+    - yiyongtms
+  description: YiyongTMS
+  matchers:
+    - location: body
+      words:
+        - 'title: ''TMS'','

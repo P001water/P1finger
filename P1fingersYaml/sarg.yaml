@@ -1,0 +1,10 @@
+- id: sarg
+  name: Sarg
+  author: P001
+  tags:
+    - sarg
+  description: Sarg
+  matchers:
+    - location: body
+      words:
+        - class="logo"><a href="http://sarg.sourceforge.net"

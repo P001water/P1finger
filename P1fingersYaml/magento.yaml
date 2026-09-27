@@ -1,0 +1,37 @@
+- id: magento
+  name: Magento
+  author: Fofa
+  tags:
+    - magento
+  description: Magento
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - BLANK_IMG")
+    - condition: or
+      location: body
+      words:
+        - Magento, Varien, E-commerce
+    - location: body
+      words:
+        - /skin/frontend/
+        - BLANK_IMG
+        - Magento, Varien, E-commerce
+    - hash:
+        - "-38580010"
+      location: favicon
+    - location: body
+      words:
+        - Magentothem
+- id: magentowenjian
+  name: Magentowenjian Management System
+  author: P1finger
+  tags:
+    - magentowenjian
+    - management-system
+  description: Magentowenjian Management System
+  matchers:
+    - location: body
+      words:
+        - Magento文件管理系统

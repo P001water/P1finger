@@ -1,0 +1,19 @@
+- id: mikrotik
+  name: Mikrotik
+  author: Fofa
+  tags:
+    - mikrotik
+  description: Mikrotik
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - RouterOS
+    - condition: and
+      location: body
+      words:
+        - mikrotik
+    - location: body
+      words:
+        - RouterOS
+        - mikrotik

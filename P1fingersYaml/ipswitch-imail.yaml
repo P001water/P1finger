@@ -1,0 +1,21 @@
+- id: ipswitch-imail
+  name: Ipswitch-imail
+  author: P1finger
+  tags:
+    - ipswitch-imail
+  description: Ipswitch-imail
+  matchers:
+    - location: header
+      words:
+        - Ipswitch-IMail
+- id: ipswitch-imail-2
+  name: Ipswitch-IMail
+  author: Fofa
+  tags:
+    - ipswitch-imail
+  description: Ipswitch-IMail
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Ipswitch-IMail

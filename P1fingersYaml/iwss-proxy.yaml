@@ -1,0 +1,21 @@
+- id: iwss-proxy
+  name: Iwss-proxy
+  author: P1finger
+  tags:
+    - iwss-proxy
+  description: Iwss-proxy
+  matchers:
+    - location: header
+      words:
+        - IWSS
+- id: iwss-proxy-2
+  name: IWSS-Proxy
+  author: Fofa
+  tags:
+    - iwss-proxy
+  description: IWSS-Proxy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IWSS

@@ -1,0 +1,12 @@
+- id: ad-script
+  name: Ad Network Script
+  author: Fofa
+  tags:
+    - ad-script
+  description: Ad Network Script
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Web Administration Panel
+        - copyright

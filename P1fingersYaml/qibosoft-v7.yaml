@@ -1,0 +1,10 @@
+- id: qibosoft-v7
+  name: Qibosoft-v7
+  author: P001
+  tags:
+    - qibosoft-v7
+  description: Qibosoft-v7
+  matchers:
+    - location: body
+      words:
+        - /images/v7/cms.css">

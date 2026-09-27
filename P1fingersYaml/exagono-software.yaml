@@ -1,0 +1,10 @@
+- id: exagono
+  name: Exagono Software
+  author: P1finger
+  tags:
+    - exagono
+  description: Exagono Software
+  matchers:
+    - location: body
+      words:
+        - content="Exagono Software"

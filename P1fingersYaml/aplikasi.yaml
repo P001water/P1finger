@@ -1,0 +1,10 @@
+- id: aplikasi
+  name: Aplikasi
+  author: P1finger
+  tags:
+    - aplikasi
+  description: Aplikasi
+  matchers:
+    - hash:
+        - "494866796"
+      location: favicon

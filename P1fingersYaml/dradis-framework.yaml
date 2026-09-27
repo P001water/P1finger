@@ -1,0 +1,31 @@
+- id: dradis-framework
+  name: Dradis-framework
+  author: P1finger
+  tags:
+    - dradis-framework
+  description: Dradis-framework
+  matchers:
+    - location: body
+      words:
+        - <p class="copyright">Dradis
+    - location: header
+      words:
+        - _dradis_session=
+    - location: body
+      words:
+        - <p class="copyright">dradis
+- id: dradis-framework-2
+  name: Dradis-Framework
+  author: Fofa
+  tags:
+    - dradis-framework
+  description: Dradis-Framework
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - _dradis_session=
+    - condition: or
+      location: body
+      words:
+        - <p class="copyright">Dradis

@@ -1,0 +1,15 @@
+- id: dlink-dsl-320b
+  name: Dlink_DSL_320B
+  author: Fofa
+  tags:
+  - dlink
+  - dlink-dsl-320b
+  description: Dlink_DSL_320B
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - DSL-320B
+  - location: header
+    words:
+    - DSL-320B

@@ -1,0 +1,11 @@
+- id: kenna
+  name: Kenna-system
+  author: P001
+  tags:
+    - kenna
+  description: Kenna-system
+  matchers:
+    - location: body
+      words:
+        - class="kenna sessions new"
+        - href="/favicon.ico?kenna"

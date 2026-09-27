@@ -1,0 +1,10 @@
+- id: house5
+  name: House5
+  author: P001
+  tags:
+    - house5
+  description: House5
+  matchers:
+    - location: body
+      words:
+        - /house5-style1/

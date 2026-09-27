@@ -1,0 +1,10 @@
+- id: telsso-proxy
+  name: Telsso-Cloud-Proxy
+  author: P1finger
+  tags:
+    - telsso-proxy
+  description: Telsso-Cloud-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Telsso Cloud Proxy'

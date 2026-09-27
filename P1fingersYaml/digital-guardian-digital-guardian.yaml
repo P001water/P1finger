@@ -1,0 +1,10 @@
+- id: digital-guardian-digital-guardian
+  name: Digital-Guardian-Digital-Guardian
+  author: P1finger
+  tags:
+    - digital-guardian-digital-guardian
+  description: Digital-Guardian-Digital-Guardian
+  matchers:
+    - location: body
+      words:
+        - class="theme_default brand_Guardian mode_ wizard_

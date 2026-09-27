@@ -1,0 +1,10 @@
+- id: ms-mfc-httpsvr
+  name: Ms-mfc-httpsvr
+  author: P001
+  tags:
+    - ms-mfc-httpsvr
+  description: Ms-mfc-httpsvr
+  matchers:
+    - location: body
+      words:
+        - action="i.cgi

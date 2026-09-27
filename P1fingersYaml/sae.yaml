@@ -1,0 +1,21 @@
+- id: xinlangsae
+  name: XinlangSAE
+  author: Fofa
+  tags:
+    - xinlangsae
+  description: XinlangSAE
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - lib.sinaapp.com
+    - condition: or
+      location: body
+      words:
+        - lib.sinaapp.com
+    - location: body
+      words:
+        - lib.sinaapp.com
+    - location: header
+      words:
+        - lib.sinaapp.com

@@ -1,0 +1,17 @@
+- id: umi
+  name: UMI.CMS
+  author: Fofa
+  tags:
+    - umi
+  description: UMI.CMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - UMI.CMS
+    - location: header
+      words:
+        - UMI.CMS
+    - location: header
+      words:
+        - 'X-Generated-By: UMI.CMS'

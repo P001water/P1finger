@@ -1,0 +1,10 @@
+- id: squirrelcart
+  name: Squirrelcart
+  author: P1finger
+  tags:
+    - squirrelcart
+  description: Squirrelcart
+  matchers:
+    - location: body
+      words:
+        - /Squirrelcart/

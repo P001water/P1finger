@@ -1,0 +1,16 @@
+- id: vmware-vrealize-2
+  name: VMware vRealize
+  author: nuclei
+  tags:
+  - vmware
+  - vrealize
+  description: Version of VMware vRealize Operations Manager
+  paths:
+  - /ui/login.action
+  matchers:
+  - location: header
+    words:
+    - text/html
+  - location: body
+    words:
+    - <title>vRealize Operations Manager</title>

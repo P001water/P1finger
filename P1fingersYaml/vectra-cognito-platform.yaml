@@ -1,0 +1,10 @@
+- id: vectra-cognito
+  name: Vectra-Cognito-Platform
+  author: P1finger
+  tags:
+    - vectra-cognito
+  description: Vectra-Cognito-Platform
+  matchers:
+    - location: body
+      words:
+        - <h1>Vectra Cognito Login</h1>

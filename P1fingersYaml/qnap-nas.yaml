@@ -1,0 +1,12 @@
+- id: qnap-nas
+  name: QNAP NAS
+  author: P1finger
+  tags:
+  - qnap
+  - qnap-nas
+  description: QNAP NAS
+  matchers:
+  - location: body
+    words:
+    - redirect_suffix
+    - location.hostname.indexOf

@@ -1,0 +1,11 @@
+- id: pmway-e4
+  name: Pmway-e4
+  author: P001
+  tags:
+    - pmway-e4
+  description: Pmway-e4
+  matchers:
+    - location: body
+      words:
+        - 热情似火</option>
+        - '风<span style="padding-left: 12px;"></span>格'

@@ -1,0 +1,10 @@
+- id: php168cms
+  name: Php168cms
+  author: P001
+  tags:
+    - php168cms
+  description: Php168cms
+  matchers:
+    - location: body
+      words:
+        - var system = 'cms

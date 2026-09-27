@@ -1,0 +1,11 @@
+- id: webyxm
+  name: WEBYXM Document Management System
+  author: P1finger
+  tags:
+    - webyxm
+    - document-management-system
+  description: WEBYXM Document Management System
+  matchers:
+    - location: body
+      words:
+        - WEBYXM文档管理系统

@@ -1,0 +1,11 @@
+- id: venustech-tianqing-ips
+  name: Venustech TianQing IPS
+  author: P1finger
+  tags:
+  - venustech
+  - venustech-tianqing-ips
+  description: Venustech TianQing IPS
+  matchers:
+  - location: body
+    words:
+    - 天清入侵防御系统

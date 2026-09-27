@@ -1,0 +1,10 @@
+- id: jienohan-journal
+  name: Jienohan-journal
+  author: P001
+  tags:
+    - jienohan-journal
+  description: Jienohan-journal
+  matchers:
+    - location: body
+      words:
+        - tougao/misc.js

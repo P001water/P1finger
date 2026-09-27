@@ -1,0 +1,10 @@
+- id: whfst
+  name: Whfst-cms
+  author: P001
+  tags:
+    - whfst
+  description: Whfst-cms
+  matchers:
+    - location: body
+      words:
+        - 武汉富思特

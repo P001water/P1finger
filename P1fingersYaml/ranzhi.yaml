@@ -1,0 +1,22 @@
+- id: ranzhi-2
+  name: Ranzhi
+  author: Fofa
+  tags:
+    - ranzhi
+  description: Ranzhi
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /sys/index.php?m=user&f=login&referer=
+    - condition: and
+      location: header
+      words:
+        - theme
+    - condition: and
+      location: header
+      words:
+        - lang")
+    - location: body
+      words:
+        - /sys/index.php?m=user&f=login&referer=

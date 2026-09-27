@@ -1,0 +1,11 @@
+- id: shengan-30-mail-system
+  name: Shengan Mail System
+  author: P1finger
+  tags:
+    - shengan
+    - mail-system
+  description: Shengan Mail System
+  matchers:
+    - location: body
+      words:
+        - 30san.all

@@ -1,0 +1,11 @@
+- id: jianhengxinan-jh-las
+  name: Jianhengxinan-jh-las
+  author: P001
+  tags:
+    - jianhengxinan-jh-las
+  description: Jianhengxinan-jh-las
+  matchers:
+    - location: body
+      words:
+        - jh-la3600
+        - 建恒信安日志审计系统

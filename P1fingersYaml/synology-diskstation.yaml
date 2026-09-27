@@ -1,0 +1,31 @@
+- id: synology-diskstation
+  name: Synology_DiskStation
+  author: Fofa
+  tags:
+  - synology
+  - synology-diskstation
+  description: Synology_DiskStation
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - Synology DiskStation
+  - condition: or
+    location: body
+    words:
+    - SYNO.SDS.Session
+  - location: body
+    words:
+    - Synology DiskStation
+    - SYNO.SDS.Session
+- id: synology-diskstation-2
+  name: Synology Diskstation
+  author: P1finger
+  tags:
+  - synology
+  - synology-diskstation
+  description: Synology Diskstation
+  matchers:
+  - hash:
+    - '149371702'
+    location: favicon

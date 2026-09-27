@@ -1,0 +1,21 @@
+- id: goahead-webs
+  name: Goahead-webs
+  author: P1finger
+  tags:
+    - goahead-webs
+  description: Goahead-webs
+  matchers:
+    - location: header
+      words:
+        - GoAhead-Webs
+- id: goahead-webs-2
+  name: GoAhead-Webs
+  author: Fofa
+  tags:
+    - goahead-webs
+  description: GoAhead-Webs
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - GoAhead-Webs

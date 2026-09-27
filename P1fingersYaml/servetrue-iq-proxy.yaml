@@ -1,0 +1,10 @@
+- id: servetrue-iq-proxy
+  name: ServeTrue-IQ-Proxy
+  author: P1finger
+  tags:
+    - servetrue-iq-proxy
+  description: ServeTrue-IQ-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: ServeTrue IQProxy'

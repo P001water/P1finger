@@ -1,0 +1,11 @@
+- id: chuangqiicpipdizhixinxibeian
+  name: ChuangqiICPIPdizhixinxibeian Management System
+  author: P1finger
+  tags:
+    - chuangqiicpipdizhixinxibeian
+    - management-system
+  description: ChuangqiICPIPdizhixinxibeian Management System
+  matchers:
+    - location: body
+      words:
+        - 创旗ICP/IP地址信息备案管理系统

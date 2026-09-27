@@ -1,0 +1,10 @@
+- id: advantech-wise
+  name: Advantech_wise
+  author: P001
+  tags:
+    - advantech-wise
+  description: Advantech_wise
+  matchers:
+    - location: body
+      words:
+        - remote manage your intelligent systems

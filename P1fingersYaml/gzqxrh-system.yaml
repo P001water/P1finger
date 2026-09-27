@@ -1,0 +1,13 @@
+- id: gzqxrh
+  name: Gzqxrh-system
+  author: P001
+  tags:
+    - gzqxrh
+  description: Gzqxrh-system
+  matchers:
+    - location: body
+      words:
+        - src="/scripts/easyui/jquery.easyui.min.js"
+        - 'style="vertical-align: middle; cursor: pointer'
+        - 响应键盘的回车事件
+        - 广州全息若海信息科技有限公司

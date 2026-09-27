@@ -1,0 +1,21 @@
+- id: donations
+  name: Donations-cloud
+  author: P1finger
+  tags:
+    - donations
+  description: Donations-cloud
+  matchers:
+    - location: body
+      words:
+        - /donationscloud.css
+- id: donations-2
+  name: Donations-Cloud
+  author: Fofa
+  tags:
+    - donations
+  description: Donations-Cloud
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /donationscloud.css

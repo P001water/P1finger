@@ -1,0 +1,21 @@
+- id: go-json-rest
+  name: Go-json-rest
+  author: P1finger
+  tags:
+    - go-json-rest
+  description: Go-json-rest
+  matchers:
+    - location: header
+      words:
+        - go-json-rest
+- id: go-json-rest-2
+  name: Go-Json-Rest
+  author: Fofa
+  tags:
+    - go-json-rest
+  description: Go-Json-Rest
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - go-json-rest

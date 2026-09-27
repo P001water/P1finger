@@ -1,0 +1,13 @@
+- id: netpilot
+  name: Netpilot
+  author: P001
+  tags:
+    - netpilot
+  description: Netpilot
+  matchers:
+    - location: body
+      words:
+        - href="/sys/images/tree.css" title="netpilot
+    - location: header
+      words:
+        - netpilot

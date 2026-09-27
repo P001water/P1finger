@@ -1,0 +1,12 @@
+- id: shanshanes
+  name: Shanshanes-system
+  author: P001
+  tags:
+    - shanshanes
+  description: Shanshanes-system
+  matchers:
+    - location: body
+      words:
+        - /dist/libs/layui/css/layui.css
+        - <title>杉杉储能监控平台</title>
+        - amap.mousetool,amap.districtsearch

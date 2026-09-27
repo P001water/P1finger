@@ -1,0 +1,30 @@
+- id: burning-board-lite
+  name: Burning-board-lite
+  author: P1finger
+  tags:
+    - burning-board-lite
+  description: Burning-board-lite
+  matchers:
+    - location: body
+      words:
+        - www.woltlab.de
+        - Powered by <b>Burning Board
+    - location: body
+      words:
+        - powered by <b><a href="http://www.woltlab.de
+        - powered by <b>burning board
+- id: burning-board-lite-2
+  name: Burning-Board-Lite
+  author: Fofa
+  tags:
+    - burning-board-lite
+  description: Burning-Board-Lite
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <b><a href="http://www.woltlab.de
+    - condition: or
+      location: body
+      words:
+        - Powered by <b>Burning Board

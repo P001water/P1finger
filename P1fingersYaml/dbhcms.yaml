@@ -1,0 +1,14 @@
+- id: dbhcms
+  name: DBHcms
+  author: Fofa
+  tags:
+    - dbhcms
+  description: DBHcms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by DBHcms
+    - location: body
+      words:
+        - powered by DBHcms

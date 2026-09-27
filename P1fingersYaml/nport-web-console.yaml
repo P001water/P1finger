@@ -1,0 +1,10 @@
+- id: nport
+  name: NPort Web Console
+  author: P1finger
+  tags:
+    - nport
+  description: NPort Web Console
+  matchers:
+    - location: body
+      words:
+        - NPort web console

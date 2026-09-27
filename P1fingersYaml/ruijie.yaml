@@ -1,0 +1,270 @@
+- id: ruijie
+  name: Ruijie
+  author: P1finger
+  tags:
+  - ruijie
+  description: Ruijie
+  matchers:
+  - location: body
+    words:
+    - common.sea.config.js
+- id: ruijie-2
+  name: Ruijie-cloud
+  author: P001
+  tags:
+  - ruijie
+  description: Ruijie-cloud
+  matchers:
+  - location: body
+    words:
+    - content="rcp, 管理平台"
+- id: ruijieegyi-gateway
+  name: Ruijieegyi Gateway
+  author: P001
+  tags:
+  - ruijieegyi
+  - gateway
+  description: Ruijieegyi Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - href="eg.css
+    - ruijie
+- id: ruijie-eweb
+  name: Ruijie-eweb
+  author: P001
+  tags:
+  - ruijie
+  - ruijie-eweb
+  description: Ruijie-eweb
+  matchers:
+  - location: body
+    words:
+    - 机器人，闪电兔，小睿哥
+    - <span class="resource" mark="login.copyright">锐捷网络</span>
+- id: ruijie-3
+  name: Ruijie
+  author: P1finger
+  tags:
+  - ruijie
+  description: Ruijie
+  matchers:
+  - location: body
+    words:
+    - pub/ui/rui-min.css
+    - NBR路由器
+- id: ruijieewebwangguan-system
+  name: Ruijieewebwangguan System
+  author: P001
+  tags:
+  - ruijieewebwangguan
+  - system
+  description: Ruijieewebwangguan System
+  matchers:
+  - location: body
+    words:
+    - <title>锐捷网络-eweb网管系统</title>
+- id: ruijie-firewall
+  name: Ruijie Firewall
+  author: P001
+  tags:
+  - ruijie
+  - firewall
+  description: Ruijie Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 4008 111 000
+    - ssl_index_next.html
+- id: ruijie-firewall-2
+  name: Ruijie Firewall
+  author: P1finger
+  tags:
+  - ruijie
+  - firewall
+  description: Ruijie Firewall
+  matchers:
+  - location: body
+    words:
+    - 锐捷网络
+- id: ruijie-it
+  name: Ruijie-it
+  author: P001
+  tags:
+  - ruijie
+  - ruijie-it
+  description: Ruijie-it
+  matchers:
+  - location: body
+    words:
+    - var logincookiename = 'riil_id'
+- id: ruijie-router
+  name: Ruijie Router
+  author: Fofa
+  tags:
+  - ruijie
+  - router
+  description: Ruijie Router
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - free_nbr_login_form.png
+- id: ruijie-4
+  name: Ruijie
+  author: P1finger
+  tags:
+  - ruijie
+  description: Ruijie
+  matchers:
+  - location: body
+    words:
+    - /css/impl-security.css
+    - /dbaudit/authenticate
+- id: ruijie-rg-uac
+  name: Ruijie-rg-uac
+  author: P001
+  tags:
+  - ruijie
+  - ruijie-rg-uac
+  description: Ruijie-rg-uac
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - bbs.ruijie.com.cn
+    - 锐捷统一上网行为管理与审计系统
+    - src='images/free_login.png'
+- id: ruijie-5
+  name: Ruijie
+  author: Fofa
+  tags:
+  - ruijie
+  description: Ruijie
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /css/impl-security.css
+  - condition: or
+    location: body
+    words:
+    - /dbaudit/authenticate
+- id: ruijie-rgos
+  name: Ruijie-rgos
+  author: P001
+  tags:
+  - ruijie
+  - ruijie-rgos
+  description: Ruijie-rgos
+  matchers:
+  - location: body
+    words:
+    - 'server: rgos http-server'
+- id: ruijie-nbr
+  name: Ruijie-router-nbr
+  author: P001
+  tags:
+  - ruijie
+  - ruijie-nbr
+  description: Ruijie-router-nbr
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 锐捷网络 --NBR路由器--登录界面
+    - web_monitor_config.htm
+    - 锐捷网络
+    - nbr路由器
+    - support.ruijie.com.cn
+- id: ruijie-1200
+  name: Ruijie
+  author: P001
+  tags:
+  - ruijie
+  description: Ruijie
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /static/img/title.ico
+    - 锐捷
+- id: ruijie-networks
+  name: Ruijie Networks
+  author: P1finger
+  tags:
+  - ruijie
+  - ruijie-networks
+  description: Ruijie Networks
+  matchers:
+  - hash:
+    - '-692947551'
+    location: favicon
+- id: ruijie-6
+  name: Ruijie-smart-web
+  author: P001
+  tags:
+  - ruijie
+  description: Ruijie-smart-web
+  matchers:
+  - location: body
+    words:
+    - 锐捷交换机
+- id: ruijie-sslvpn
+  name: Ruijie-sslvpn
+  author: P001
+  tags:
+  - ruijie
+  - ruijie-sslvpn
+  description: Ruijie-sslvpn
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - sslvpn
+    - rjsslvpn_encookie
+    - document.cookie = "rjsslvpn_encookie=yes;"
+- id: ruijie-7
+  name: Ruijie
+  author: P1finger
+  tags:
+  - ruijie
+  description: Ruijie
+  matchers:
+  - hash:
+    - '-1525950034'
+    location: favicon
+- id: ruijie-next-generation-firewall
+  name: Ruijie Next-Generation Firewall
+  author: P001
+  tags:
+  - ruijie
+  - next-generation-firewall
+  description: Ruijie Next-Generation Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - webui/images/ruijie
+    - 锐捷
+- id: ruijie-8
+  name: Ruijie
+  author: Fofa
+  tags:
+  - ruijie
+  description: Ruijie
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - window.open("/login.do","airWin
+  - condition: or
+    location: title
+    words:
+    - 锐捷应用控制引擎
+  - location: body
+    words:
+    - window.open("/login.do","airWin
+    - 锐捷应用控制引擎

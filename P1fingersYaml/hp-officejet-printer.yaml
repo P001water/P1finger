@@ -1,0 +1,28 @@
+- id: hp-officejet-printer
+  name: Hp-officejet-printer
+  author: P1finger
+  tags:
+  - hp
+  - hp-officejet-printer
+  description: Hp-officejet-printer
+  matchers:
+  - location: body
+    words:
+    - HP Officejet
+    - align="center">HP Officejet
+- id: hp-officejet-printer-2
+  name: HP-OfficeJet-Printer
+  author: Fofa
+  tags:
+  - hp
+  - hp-officejet-printer
+  description: HP-OfficeJet-Printer
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - HP Officejet
+  - condition: or
+    location: body
+    words:
+    - align="center">HP Officejet

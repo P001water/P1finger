@@ -1,0 +1,11 @@
+- id: sitefactory
+  name: SiteFactory
+  author: P1finger
+  tags:
+    - sitefactory
+  description: SiteFactory
+  matchers:
+    - location: body
+      words:
+        - /sitefactory/assets/download.aspx
+        - id="SiteFactoryForm"

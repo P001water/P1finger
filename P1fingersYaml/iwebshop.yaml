@@ -1,0 +1,24 @@
+- id: iwebshop
+  name: IWebShop
+  author: Fofa
+  tags:
+    - iwebshop
+  description: IWebShop
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /runtime/default/systemjs
+    - location: body
+      words:
+        - /runtime/default/systemjs
+    - condition: and
+      location: body
+      words:
+        - _skinpath
+        - _themepath
+        - _weburl
+        - class="pro_title">iwebshop支付测试
+    - location: body
+      words:
+        - iWebShopUrl

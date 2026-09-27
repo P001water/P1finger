@@ -1,0 +1,10 @@
+- id: loggix
+  name: Loggix
+  author: P1finger
+  tags:
+    - loggix
+  description: Loggix
+  matchers:
+    - location: body
+      words:
+        - content="Loggix"

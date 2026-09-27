@@ -1,0 +1,10 @@
+- id: gargoyle
+  name: Gargoyle Router
+  author: P1finger
+  tags:
+    - gargoyle
+  description: Gargoyle Router
+  matchers:
+    - hash:
+        - "1862132268"
+      location: favicon

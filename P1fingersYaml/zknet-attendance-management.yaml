@@ -1,0 +1,14 @@
+- id: zknet-attendance
+  name: Zknet-attendance-management
+  author: P001
+  tags:
+    - zknet-attendance
+  description: Zknet-attendance-management
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - zknet
+        - zksoftware inc.
+        - onclick="showstate(gettext('forgotten password'))
+        - web考勤管理系统

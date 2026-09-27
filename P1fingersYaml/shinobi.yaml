@@ -1,0 +1,10 @@
+- id: shinobi
+  name: Shinobi
+  author: P1finger
+  tags:
+    - shinobi
+  description: Shinobi
+  matchers:
+    - hash:
+        - "-10974981"
+      location: favicon

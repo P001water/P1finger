@@ -1,0 +1,10 @@
+- id: binarysec-defense
+  name: BinarySec-Cloud-Defense
+  author: P1finger
+  tags:
+    - binarysec-defense
+  description: BinarySec-Cloud-Defense
+  matchers:
+    - location: header
+      words:
+        - x-binarysec-nocache

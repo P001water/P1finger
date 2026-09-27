@@ -1,0 +1,14 @@
+- id: videosoon
+  name: Videosoon
+  author: P001
+  tags:
+    - videosoon
+  description: Videosoon
+  matchers:
+    - location: body
+      words:
+        - href="skin/anysoondefault/anystyles.css
+        - power by linksoon - videosoon
+    - location: body
+      words:
+        - content="VideoSoon

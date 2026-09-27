@@ -1,0 +1,10 @@
+- id: hitron-technologies
+  name: Hitron Technologies
+  author: P1finger
+  tags:
+    - hitron-technologies
+  description: Hitron Technologies
+  matchers:
+    - hash:
+        - "607846949"
+      location: favicon

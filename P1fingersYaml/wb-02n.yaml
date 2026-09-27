@@ -1,0 +1,10 @@
+- id: youwangwb02n
+  name: YouwangWB02N
+  author: P1finger
+  tags:
+    - youwangwb02n
+  description: YouwangWB02N
+  matchers:
+    - location: body
+      words:
+        - <title>WB-02N </title>

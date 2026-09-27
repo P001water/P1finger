@@ -1,0 +1,17 @@
+- id: fluentnet
+  name: FluentNET
+  author: Fofa
+  tags:
+    - fluentnet
+  description: FluentNET
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Fluent
+    - location: body
+      words:
+        - content="Fluent
+    - location: body
+      words:
+        - Fluent

@@ -1,0 +1,10 @@
+- id: lenovoemc-ix4-300d
+  name: LenovoEMC-ix4-300d
+  author: P1finger
+  tags:
+    - lenovoemc-ix4-300d
+  description: LenovoEMC-ix4-300d
+  matchers:
+    - location: header
+      words:
+        - <h2 id="devicename">ix4-300d - 主页</h2>

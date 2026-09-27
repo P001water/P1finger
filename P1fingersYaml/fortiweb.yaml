@@ -1,0 +1,18 @@
+- id: fortiweb
+  name: FortiWeb
+  author: Fofa
+  tags:
+    - fortiweb
+  description: FortiWeb
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FortiWeb
+    - location: header
+      words:
+        - FortiWeb
+    - location: header
+      words:
+        - FORTIWAFSID
+        - FortiWeb

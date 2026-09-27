@@ -1,0 +1,14 @@
+- id: hudson
+  name: Hudson
+  author: Fofa
+  tags:
+    - hudson
+  description: Hudson
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Hudson
+    - location: header
+      words:
+        - X-Hudson

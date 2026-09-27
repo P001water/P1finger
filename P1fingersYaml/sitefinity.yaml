@@ -1,0 +1,10 @@
+- id: sitefinity
+  name: Sitefinity
+  author: P1finger
+  tags:
+    - sitefinity
+  description: Sitefinity
+  matchers:
+    - location: body
+      words:
+        - Sitefinity

@@ -1,0 +1,11 @@
+- id: jymusic
+  name: Jymusic
+  author: P001
+  tags:
+    - jymusic
+  description: Jymusic
+  matchers:
+    - location: body
+      words:
+        - content="jymusic音乐管理系统
+        - public/static/libs/jymusic/css

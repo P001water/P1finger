@@ -1,0 +1,11 @@
+- id: minyouminyoocms
+  name: Minyouminyoocms
+  author: P1finger
+  tags:
+    - minyouminyoocms
+  description: Minyouminyoocms
+  matchers:
+    - location: body
+      words:
+        - Minyoo
+        - /tpl/8/images

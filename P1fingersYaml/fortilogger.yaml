@@ -1,0 +1,10 @@
+- id: fortilogger
+  name: FortiLogger
+  author: P1finger
+  tags:
+    - fortilogger
+  description: FortiLogger
+  matchers:
+    - location: body
+      words:
+        - FortiLogger

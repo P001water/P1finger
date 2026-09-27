@@ -1,0 +1,17 @@
+- id: imgallery
+  name: IMGallery
+  author: Fofa
+  tags:
+    - imgallery
+  description: IMGallery
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="http://www.imgallery.zor.pl"><b>IMGallery
+    - location: body
+      words:
+        - href="http://www.imgallery.zor.pl"><b>IMGallery
+    - location: body
+      words:
+        - href="http://www.imgallery.zor.pl"><b>imgallery

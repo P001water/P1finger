@@ -1,0 +1,33 @@
+- id: exponent
+  name: Exponent-cms
+  author: P1finger
+  tags:
+    - exponent
+  description: Exponent-cms
+  matchers:
+    - location: body
+      words:
+        - content="Exponent Content Management System
+        - Powered by Exponent CMS
+    - location: body
+      words:
+        - content="exponent content management system
+        - powered by exponent cms
+- id: exponent-2
+  name: Exponent-CMS
+  author: Fofa
+  tags:
+    - exponent
+  description: Exponent-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Exponent Content Management System
+    - condition: or
+      location: body
+      words:
+        - Powered by Exponent CMS
+    - location: body
+      words:
+        - content="Exponent Content Management System

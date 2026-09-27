@@ -1,0 +1,14 @@
+- id: lumanager
+  name: LuManager
+  author: Fofa
+  tags:
+    - lumanager
+  description: LuManager
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - LuManager
+    - location: body
+      words:
+        - LuManager

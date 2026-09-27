@@ -1,0 +1,14 @@
+- id: adrsshebei
+  name: ADRSshebei
+  author: Fofa
+  tags:
+    - adrsshebei
+  description: ADRSshebei
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - AD_RS_COOKIE
+    - location: header
+      words:
+        - AD_RS_COOKIE

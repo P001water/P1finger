@@ -1,0 +1,10 @@
+- id: nms
+  name: WEB NMS
+  author: P1finger
+  tags:
+    - nms
+  description: WEB NMS
+  matchers:
+    - location: body
+      words:
+        - WEB NMS

@@ -1,0 +1,10 @@
+- id: barracuda
+  name: Barracuda
+  author: P1finger
+  tags:
+    - barracuda
+  description: Barracuda
+  matchers:
+    - hash:
+        - "1436966696"
+      location: favicon

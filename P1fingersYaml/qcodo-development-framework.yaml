@@ -1,0 +1,11 @@
+- id: qcodo-development-framework
+  name: Qcodo-development-framework
+  author: P001
+  tags:
+    - qcodo-development-framework
+  description: Qcodo-development-framework
+  matchers:
+    - location: body
+      words:
+        - '<b>qcodo version:'
+        - zend engine version:</b>

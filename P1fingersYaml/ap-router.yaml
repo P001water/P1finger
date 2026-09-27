@@ -1,0 +1,21 @@
+- id: ap
+  name: Ap-router
+  author: P1finger
+  tags:
+    - ap
+  description: Ap-router
+  matchers:
+    - location: body
+      words:
+        - AP Router New Generation
+- id: ap-2
+  name: AP-Router
+  author: Fofa
+  tags:
+    - ap
+  description: AP-Router
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - AP Router New Generation

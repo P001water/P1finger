@@ -1,0 +1,13 @@
+- id: leagsoft-data-exchange
+  name: Leagsoft Data Exchange
+  author: P1finger
+  tags:
+  - exchange
+  - leagsoft
+  - data-exchange
+  description: Leagsoft Data Exchange
+  matchers:
+  - location: body
+    words:
+    - 安全数据摆渡系统
+    - /UniExServices/

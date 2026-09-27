@@ -1,0 +1,11 @@
+- id: xinxiuwenzhangsinsiucms10beta6
+  name: Xinxiuwenzhangsinsiucms10beta6 Management System
+  author: P1finger
+  tags:
+    - xinxiuwenzhangsinsiucms10beta6
+    - management-system
+  description: Xinxiuwenzhangsinsiucms10beta6 Management System
+  matchers:
+    - location: body
+      words:
+        - <title>新秀文章管理系统 sinsiu cms 1.0 beta6</title>

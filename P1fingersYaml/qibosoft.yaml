@@ -1,0 +1,10 @@
+- id: qibosoft
+  name: Qibosoft
+  author: P1finger
+  tags:
+    - qibosoft
+  description: Qibosoft
+  matchers:
+    - location: body
+      words:
+        - qibosoft

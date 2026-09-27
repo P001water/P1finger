@@ -1,0 +1,11 @@
+- id: dlink-webcam
+  name: Dlink Webcam
+  author: P1finger
+  tags:
+  - dlink
+  - dlink-webcam
+  description: Dlink Webcam
+  matchers:
+  - hash:
+    - '-1354933624'
+    location: favicon

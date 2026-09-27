@@ -1,0 +1,33 @@
+- id: horde-framework
+  name: Horde-application-framework
+  author: P1finger
+  tags:
+    - horde-framework
+  description: Horde-application-framework
+  matchers:
+    - location: body
+      words:
+        - Powered by Horde
+        - <img src="/themes/default/graphics/horde-power1.png
+    - location: header
+      words:
+        - horde_secret_key
+- id: horde-framework-2
+  name: Horde-Application-Framework
+  author: Fofa
+  tags:
+    - horde-framework
+  description: Horde-Application-Framework
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Horde
+    - condition: or
+      location: header
+      words:
+        - horde_secret_key
+    - condition: or
+      location: body
+      words:
+        - <img src="/themes/default/graphics/horde-power1.png

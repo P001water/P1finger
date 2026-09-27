@@ -1,0 +1,10 @@
+- id: multilaser
+  name: Multilaser
+  author: P1finger
+  tags:
+    - multilaser
+  description: Multilaser
+  matchers:
+    - hash:
+        - "916642917"
+      location: favicon

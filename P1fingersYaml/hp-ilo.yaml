@@ -1,0 +1,25 @@
+- id: hp-ilo
+  name: Hp-ilo
+  author: P001
+  tags:
+  - ilo
+  - hp
+  - hp-ilo
+  description: Hp-ilo
+  matchers:
+  - location: body
+    words:
+    - href="http://www.hp.com/go/ilo
+    - js/ilo.js
+- id: hp-ilo-2
+  name: Hp Ilo
+  author: P1finger
+  tags:
+  - ilo
+  - hp
+  - hp-ilo
+  description: Hp Ilo
+  matchers:
+  - hash:
+    - '2059618623'
+    location: favicon

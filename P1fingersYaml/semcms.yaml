@@ -1,0 +1,22 @@
+- id: semcms
+  name: SEMcms
+  author: Fofa
+  tags:
+    - semcms
+  description: SEMcms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - semcms PHP
+    - condition: or
+      location: body
+      words:
+        - sc_mid_c_left_c sc_mid_left_bt
+    - location: body
+      words:
+        - semcms PHP
+        - sc_mid_c_left_c sc_mid_left_bt
+    - location: body
+      words:
+        - semcms PHP

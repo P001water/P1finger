@@ -1,0 +1,28 @@
+- id: conexant-emweb
+  name: Conexant-emweb
+  author: P1finger
+  tags:
+    - conexant-emweb
+  description: Conexant-emweb
+  matchers:
+    - location: header
+      words:
+        - Virata-EmWeb
+    - location: body
+      words:
+        - 'server: virata-emweb'
+- id: conexant-emweb-2
+  name: Conexant-EmWeb
+  author: Fofa
+  tags:
+    - conexant-emweb
+  description: Conexant-EmWeb
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Conexant-EmWeb
+    - condition: or
+      location: header
+      words:
+        - Virata-EmWeb

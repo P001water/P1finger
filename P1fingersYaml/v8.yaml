@@ -1,0 +1,25 @@
+- id: kingsoft-8-system
+  name: Kingsoft System
+  author: P001
+  tags:
+    - kingsoft
+    - system
+  description: Kingsoft System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - class="anouncetext">为了更好的保障企业内网的安全公司决定从即日起全面部署金山企业安全终端防护优化系统
+        - 在线安装-v8+终端安全系统web控制台
+- id: v8zhongduananquanwebkongzhitai
+  name: V8zhongduananquanwebkongzhitai System
+  author: P1finger
+  tags:
+    - v8zhongduananquanwebkongzhitai
+    - system
+  description: V8zhongduananquanwebkongzhitai System
+  matchers:
+    - location: body
+      words:
+        - 在线安装-v8+终端安全系统web控制台
+        - href="mobiletools/android/net.ejinshan.avclient.apk

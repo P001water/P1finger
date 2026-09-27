@@ -1,0 +1,14 @@
+- id: honghaiehr-hr-management-system
+  name: HonghaieHR HR Management System
+  author: P1finger
+  tags:
+    - honghaiehr
+    - hr-management-system
+  description: HonghaieHR HR Management System
+  matchers:
+    - hash:
+        - "-1015496453"
+      location: favicon
+    - location: body
+      words:
+        - 登录 - 门店运营管理系统

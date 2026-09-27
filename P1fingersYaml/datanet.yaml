@@ -1,0 +1,10 @@
+- id: datanet
+  name: Datanet
+  author: P001
+  tags:
+    - datanet
+  description: Datanet
+  matchers:
+    - location: body
+      words:
+        - href='/scada'>datanet scada interface

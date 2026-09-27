@@ -1,0 +1,10 @@
+- id: sentrifugo
+  name: Sentrifugo
+  author: P1finger
+  tags:
+    - sentrifugo
+  description: Sentrifugo
+  matchers:
+    - location: body
+      words:
+        - <title>Sentrifugo

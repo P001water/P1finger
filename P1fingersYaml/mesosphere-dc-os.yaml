@@ -1,0 +1,10 @@
+- id: mesosphere-dc-os
+  name: Mesosphere DC/OS
+  author: P1finger
+  tags:
+    - mesosphere-dc-os
+  description: Mesosphere DC/OS
+  matchers:
+    - location: body
+      words:
+        - 天宫dc/os

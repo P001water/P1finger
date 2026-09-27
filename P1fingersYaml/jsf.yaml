@@ -1,0 +1,17 @@
+- id: jsf
+  name: JSF
+  author: Fofa
+  tags:
+    - jsf
+  description: JSF
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - JSF/
+    - location: header
+      words:
+        - JSF
+    - location: body
+      words:
+        - 'x-powered-by: jsf'

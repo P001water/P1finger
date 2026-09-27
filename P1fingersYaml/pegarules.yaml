@@ -1,0 +1,15 @@
+- id: pegarules
+  name: Pegarules
+  author: P001
+  tags:
+    - pegarules
+  description: Pegarules
+  matchers:
+    - location: body
+      words:
+        - href="images/pzpegaicon.ico
+        - unable to logon to the pegarules system
+    - location: body
+      words:
+        - <span> PegaCRM
+        - /prweb/k7RhhW4GOJ_jZo5IJ84-_XCXCyLw1nlE

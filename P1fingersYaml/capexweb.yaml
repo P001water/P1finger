@@ -1,0 +1,19 @@
+- id: capexweb
+  name: CApexWEB
+  author: Fofa
+  tags:
+    - capexweb
+  description: CApexWEB
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /capexweb.parentvalidatepassword
+    - condition: or
+      location: body
+      words:
+        - name="dfparentdb
+    - location: body
+      words:
+        - /capexweb.parentvalidatepassword
+        - name="dfparentdb

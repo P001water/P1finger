@@ -1,0 +1,14 @@
+- id: mod-throttle
+  name: Mod_throttle
+  author: Fofa
+  tags:
+    - mod-throttle
+  description: Mod_throttle
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_throttle
+    - location: header
+      words:
+        - mod_throttle

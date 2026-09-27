@@ -1,0 +1,10 @@
+- id: avtech-ip
+  name: Avtech Ip Surveillance
+  author: P1finger
+  tags:
+    - avtech-ip
+  description: Avtech Ip Surveillance
+  matchers:
+    - hash:
+        - "-194439630"
+      location: favicon

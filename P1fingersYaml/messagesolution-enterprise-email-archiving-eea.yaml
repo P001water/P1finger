@@ -1,0 +1,10 @@
+- id: messagesolution-archiving-eea
+  name: MessageSolution Enterprise Email Archiving (EEA)
+  author: P1finger
+  tags:
+    - messagesolution-archiving-eea
+  description: MessageSolution Enterprise Email Archiving (EEA)
+  matchers:
+    - location: body
+      words:
+        - MessageSolution

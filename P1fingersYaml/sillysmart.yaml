@@ -1,0 +1,10 @@
+- id: sillysmart
+  name: Sillysmart
+  author: P001
+  tags:
+    - sillysmart
+  description: Sillysmart
+  matchers:
+    - location: body
+      words:
+        - var slsbuild

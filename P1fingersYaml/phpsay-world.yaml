@@ -1,0 +1,10 @@
+- id: phpsay-world
+  name: PHPSay World
+  author: P1finger
+  tags:
+    - phpsay-world
+  description: PHPSay World
+  matchers:
+    - location: body
+      words:
+        - content="PHPSay World

@@ -1,0 +1,11 @@
+- id: yidaoedoc2qiyeshuju
+  name: Yidaoedoc2qiyeshuju Management Platform
+  author: P1finger
+  tags:
+    - yidaoedoc2qiyeshuju
+    - management-platform
+  description: Yidaoedoc2qiyeshuju Management Platform
+  matchers:
+    - location: body
+      words:
+        - href="Content/themes/blue/edoc2-page.min.css

@@ -1,0 +1,41 @@
+- id: jinhe
+  name: Jinhe
+  author: P1finger
+  tags:
+    - jinhe
+  description: Jinhe
+  matchers:
+    - location: body
+      words:
+        - 金和协同管理平台
+        - JHSoft
+- id: jinhe-management-platform
+  name: Jinhe Management Platform
+  author: P001
+  tags:
+    - jinhe
+    - management-platform
+  description: Jinhe Management Platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jhsoft.web.login
+        - password.aspx
+        - c6/jhsoft.web.login
+        - closewindownoask
+        - jinher network
+        - js/passwordcommon.js
+        - js/passwordnew.js
+- id: jinhe-management-platform-2
+  name: Jinhe Management Platform
+  author: Fofa
+  tags:
+    - jinhe
+    - management-platform
+  description: Jinhe Management Platform
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 金和协同管理平台

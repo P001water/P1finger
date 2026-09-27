@@ -1,0 +1,21 @@
+- id: bm-classifieds
+  name: Bm-classifieds
+  author: P1finger
+  tags:
+    - bm-classifieds
+  description: Bm-classifieds
+  matchers:
+    - location: body
+      words:
+        - <!-- START HEADER TABLE - HOLDS GRAPHIC AND SITE NAME -->
+- id: bm-classifieds-2
+  name: BM-Classifieds
+  author: Fofa
+  tags:
+    - bm-classifieds
+  description: BM-Classifieds
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <!-- START HEADER TABLE - HOLDS GRAPHIC AND SITE NAME -->

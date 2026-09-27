@@ -1,0 +1,44 @@
+- id: atutor-elearning
+  name: ATutor Elearning
+  author: Fofa
+  tags:
+    - atutor-elearning
+  description: ATutor Elearning
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="ATutor
+    - condition: or
+      location: header
+      words:
+        - ATutorID
+    - condition: or
+      location: body
+      words:
+        - ATutor.course
+- id: atutor-elearning-2
+  name: Atutor-elearning
+  author: P001
+  tags:
+    - atutor-elearning
+  description: Atutor-elearning
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: atutorid'
+        - content="atutor
+- id: atutor-elearning-3
+  name: Atutor Elearning
+  author: P1finger
+  tags:
+    - atutor-elearning
+  description: Atutor Elearning
+  matchers:
+    - location: body
+      words:
+        - content="ATutor
+        - ATutor.course
+    - location: header
+      words:
+        - ATutorID

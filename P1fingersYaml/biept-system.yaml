@@ -1,0 +1,10 @@
+- id: biept
+  name: Biept-system
+  author: P001
+  tags:
+    - biept
+  description: Biept-system
+  matchers:
+    - location: body
+      words:
+        - class="loginin loginin1"

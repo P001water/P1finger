@@ -1,0 +1,451 @@
+- id: topsec-management-platform
+  name: Topsec Management Platform
+  author: Fofa
+  tags:
+  - topsec
+  - management-platform
+  description: Topsec Management Platform
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信ADS管理平台
+- id: topsec-management-system
+  name: Topsec Management System
+  author: Fofa
+  tags:
+  - topsec
+  - management-system
+  description: Topsec Management System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信安全管理
+- id: topsec-management-system-2
+  name: Topsec Management System
+  author: Fofa
+  tags:
+  - topsec
+  - management-system
+  description: Topsec Management System
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - 天融信脆弱性扫描与管理系统
+  - condition: or
+    location: body
+    words:
+    - /js/report/horizontalReportPanel.js
+- id: topsec-dlp
+  name: Topsec-dlp
+  author: P001
+  tags:
+  - topsec
+  - topsec-dlp
+  description: Topsec-dlp
+  matchers:
+  - location: body
+    words:
+    - <img src="static/images/login/loading.gif" /><span id="message">loading......</span>
+- id: topsec
+  name: Topsec
+  author: P1finger
+  tags:
+  - topsec
+  description: Topsec
+  matchers:
+  - location: body
+    words:
+    - 天融信终端威胁防御系统
+- id: topsec-firewall
+  name: Topsec Firewall
+  author: P1finger
+  tags:
+  - topsec
+  - firewall
+  description: Topsec Firewall
+  matchers:
+  - location: body
+    words:
+    - WEB User Interface
+  - location: header
+    words:
+    - TopWebServer
+  - condition: and
+    location: header
+    words:
+    - TopWebServer
+  - condition: and
+    location: body
+    words:
+    - WEB User Interface
+- id: topsec-2
+  name: Topsec-firewall
+  author: P001
+  tags:
+  - topsec
+  description: Topsec-firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - topsec
+    - image/aaa.png
+    - username
+- id: topsec-system
+  name: Topsec System
+  author: Fofa
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信日志收集与分析系统
+  - location: body
+    words:
+    - 天融信日志收集与分析系统
+- id: topsec-system-2
+  name: Topsec System
+  author: Fofa
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 天融信入侵防御系统TopIDP
+- id: topsec-3
+  name: Topsec Intrusion Detection System
+  author: Fofa
+  tags:
+  - topsec
+  - intrusion-detection-system
+  description: Topsec Intrusion Detection System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信入侵检测系统TopSentry
+- id: topsec-4
+  name: Topsec
+  author: P1finger
+  tags:
+  - topsec
+  description: Topsec
+  matchers:
+  - location: body
+    words:
+    - dkey_activex_download.php"
+    - <title>Technology, Inc.</title>
+    - <title>Login @ Reporter</title>
+- id: topsec-5
+  name: Topsec
+  author: P1finger
+  tags:
+  - topsec
+  description: Topsec
+  matchers:
+  - hash:
+    - '162934974'
+    location: favicon
+  - location: body
+    words:
+    - topsec
+    - 天融信
+- id: topsec-management-system-3
+  name: Topsec Management System
+  author: P001
+  tags:
+  - topsec
+  - management-system
+  description: Topsec Management System
+  matchers:
+  - location: body
+    words:
+    - 天融信安全管理
+- id: topsec-security-audit
+  name: Topsec Security Audit
+  author: P001
+  tags:
+  - topsec
+  - security-audit
+  description: Topsec Security Audit
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <p>安全审计</p>
+    - <title>topsec单点登录系统
+- id: topsec-system-3
+  name: Topsec System
+  author: P001
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - location: body
+    words:
+    - 天融信入侵防御系统topidp
+- id: topsec-management-system-4
+  name: Topsec Management System
+  author: P001
+  tags:
+  - topsec
+  - management-system
+  description: Topsec Management System
+  matchers:
+  - location: body
+    words:
+    - 天融信数据安全管理系统
+- id: topsec-system-4
+  name: Topsec System
+  author: P001
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - location: body
+    words:
+    - 天融信数据安全系统sbu
+- id: topsec-system-5
+  name: Topsec System
+  author: P001
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - topdlp_show
+    - 天融信数据防泄漏系统
+- id: topsec-6
+  name: Topsec
+  author: P001
+  tags:
+  - topsec
+  description: Topsec
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - window.location.href="/vone/pub/pda.html";
+    - window.location="/portal_default/index.html";</script>
+- id: topsec-gateway
+  name: Topsec Gateway
+  author: P001
+  tags:
+  - topsec
+  - gateway
+  description: Topsec Gateway
+  matchers:
+  - location: body
+    words:
+    - 天融信网络卫士过滤网关
+- id: topsec-system-6
+  name: Topsec System
+  author: P001
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - class="logintop"
+    - web应用安全防护系统
+- id: topsec-waf-gateway
+  name: Topsec WAF Gateway
+  author: P001
+  tags:
+  - topsec
+  - waf-gateway
+  description: Topsec WAF Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - this.src='/style/images/rand.php?update=1'
+    - 天融信web应用安全网关
+- id: topsec-waf
+  name: Topsec WAF
+  author: P001
+  tags:
+  - topsec
+  - waf
+  description: Topsec WAF
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - evpng.fix('div, ul, img, li, input'); //evpng.fix('pngid1, pngid2')
+    - web user login
+- id: topsec-system-7
+  name: Topsec System
+  author: P001
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - location: body
+    words:
+    - <title>天融信 topapp</title>
+- id: topsec-7
+  name: Topsec
+  author: Fofa
+  tags:
+  - topsec
+  description: Topsec
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信 TopAD
+- id: topsec-system-8
+  name: Topsec System
+  author: P1finger
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - location: body
+    words:
+    - TopAPP负载均衡系统
+- id: topsec-8
+  name: Topsec
+  author: Fofa
+  tags:
+  - topsec
+  description: Topsec
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 天融信TopFlow
+- id: topsec-9
+  name: Topsec-vpn
+  author: P001
+  tags:
+  - topsec
+  description: Topsec-vpn
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 'server: topwebserver'
+    - 'set-cookie: topsecsvuilanguage'
+    - /portal_default/index.html
+- id: topsec-10
+  name: Topsec
+  author: P1finger
+  tags:
+  - topsec
+  description: Topsec
+  matchers:
+  - location: header
+    words:
+    - topsecsvportalname
+  - condition: or
+    location: header
+    words:
+    - TopWebServer
+  - condition: or
+    location: header
+    words:
+    - topsecsvportalname
+- id: topsec-system-9
+  name: Topsec System
+  author: Fofa
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - onclick="dlg_download()
+- id: topsec-gateway-2
+  name: Topsec Gateway
+  author: Fofa
+  tags:
+  - topsec
+  - gateway
+  description: Topsec Gateway
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信网络卫士过滤网关
+- id: topsec-system-10
+  name: Topsec System
+  author: Fofa
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信网站监测与自动修复系统
+- id: topsec-system-11
+  name: Topsec System
+  author: Fofa
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信异常流量管理与抗拒绝服务系统
+- id: topsec-system-12
+  name: Topsec System
+  author: Fofa
+  tags:
+  - topsec
+  - system
+  description: Topsec System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信Web应用安全防护系统
+- id: topsec-waf-2
+  name: Topsec WAF
+  author: Fofa
+  tags:
+  - topsec
+  - waf
+  description: Topsec WAF
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 天融信WEB应用防火墙
+- id: topsec-security-audit-2
+  name: Topsec Security Audit
+  author: P1finger
+  tags:
+  - topsec
+  - security-audit
+  description: Topsec Security Audit
+  matchers:
+  - location: body
+    words:
+    - 天融信运维安全审计系统

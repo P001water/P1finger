@@ -1,0 +1,10 @@
+- id: oscshop
+  name: Oscshop
+  author: P001
+  tags:
+    - oscshop
+  description: Oscshop
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: oscshop'

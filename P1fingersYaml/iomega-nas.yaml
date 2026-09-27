@@ -1,0 +1,16 @@
+- id: iomega-nas
+  name: Iomega Nas
+  author: P1finger
+  tags:
+  - iomega
+  - iomega-nas
+  description: Iomega Nas
+  matchers:
+  - hash:
+    - '-689902428'
+    - '-600508822'
+    - '-2056503929'
+    - '-1656695885'
+    - '-401934945'
+    - '-613216179'
+    location: favicon

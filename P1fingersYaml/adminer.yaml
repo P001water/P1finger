@@ -1,0 +1,13 @@
+- id: adminer
+  name: Adminer
+  author: P001
+  tags:
+    - adminer
+  description: Adminer
+  matchers:
+    - location: body
+      words:
+        - ://www.adminer.org/' target="_blank" rel="noreferrer
+    - location: body
+      words:
+        - Adminer</a> <span class="version">

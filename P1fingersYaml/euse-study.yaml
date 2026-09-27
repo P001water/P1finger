@@ -1,0 +1,14 @@
+- id: euse-study
+  name: Euse_study
+  author: Fofa
+  tags:
+    - euse-study
+  description: Euse_study
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - UserInfo/UserFP.aspx
+    - location: body
+      words:
+        - UserInfo/UserFP.aspx

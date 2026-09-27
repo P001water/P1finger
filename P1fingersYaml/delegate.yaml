@@ -1,0 +1,14 @@
+- id: delegate
+  name: DeleGate
+  author: Fofa
+  tags:
+    - delegate
+  description: DeleGate
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - DeleGate
+    - location: header
+      words:
+        - DeleGate

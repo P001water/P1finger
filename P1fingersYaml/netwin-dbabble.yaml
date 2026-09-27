@@ -1,0 +1,15 @@
+- id: netwin-dbabble
+  name: Netwin-dbabble
+  author: P001
+  tags:
+    - netwin-dbabble
+  description: Netwin-dbabble
+  matchers:
+    - location: body
+      words:
+        - /cgi/dbabble.cgi
+        - '>dbabble online help</a>'
+        - action="/dbabble
+    - location: header
+      words:
+        - 'Server: DBabble'

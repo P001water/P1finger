@@ -1,0 +1,20 @@
+- id: alcatel-lucent-omnivista-cirrus
+  name: Alcatel_lucent-omnivista-cirrus
+  author: P001
+  tags:
+    - alcatel-lucent-omnivista-cirrus
+  description: Alcatel_lucent-omnivista-cirrus
+  matchers:
+    - location: body
+      words:
+        - /help/en-us/others/ov-cirrus_cookiepolicy.html
+- id: alcatel-lucent-omnivista-cirrus-2
+  name: Alcatel_Lucent OmniVista Cirrus
+  author: P1finger
+  tags:
+    - alcatel-lucent-omnivista-cirrus
+  description: Alcatel_Lucent OmniVista Cirrus
+  matchers:
+    - location: body
+      words:
+        - /help/en-us/others/ov-cirrus_cookiepolicy.html

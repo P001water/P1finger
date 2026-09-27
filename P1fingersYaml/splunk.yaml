@@ -1,0 +1,28 @@
+- id: splunk
+  name: Splunk
+  author: Fofa
+  tags:
+    - splunk
+  description: Splunk
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Splunk.util.normalizeBoolean
+    - location: body
+      words:
+        - Splunk.util.normalizeBoolean
+    - condition: and
+      location: body
+      words:
+        - 'server: splunkd'
+        - 'set-cookie: splunkweb_uid'
+        - 'set-cookie: routeid'
+        - <title>303 see other</title>
+        - content="splunk inc."
+    - location: body
+      words:
+        - Splunk
+    - location: header
+      words:
+        - Splunkd

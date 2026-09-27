@@ -1,0 +1,11 @@
+- id: aladdin-hasp-license-manager
+  name: Aladdin-HASP-License-Manager
+  author: Fofa
+  tags:
+    - aladdin-hasp-license-manager
+  description: Aladdin-HASP-License-Manager
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - HASP

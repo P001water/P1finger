@@ -1,0 +1,11 @@
+- id: 51la
+  name: 51la
+  author: Fofa
+  tags:
+    - 51la
+  description: 51la
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - js.users.51.la

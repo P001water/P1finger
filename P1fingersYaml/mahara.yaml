@@ -1,0 +1,15 @@
+- id: mahara
+  name: Mahara
+  author: P001
+  tags:
+    - mahara
+  description: Mahara
+  matchers:
+    - location: body
+      words:
+        - id="powered-by"><a href="http://mahara.org/
+        - this site is powered by mahara
+        - '{"namedfieldempty":'
+    - location: body
+      words:
+        - content="Mahara

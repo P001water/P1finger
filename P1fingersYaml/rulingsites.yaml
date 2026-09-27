@@ -1,0 +1,10 @@
+- id: rulingsites
+  name: RulingSiteS
+  author: P1finger
+  tags:
+    - rulingsites
+  description: RulingSiteS
+  matchers:
+    - location: body
+      words:
+        - RulingSite-S

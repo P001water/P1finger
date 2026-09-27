@@ -1,0 +1,10 @@
+- id: jfinalshop
+  name: Jfinalshop
+  author: P1finger
+  tags:
+    - jfinalshop
+  description: Jfinalshop
+  matchers:
+    - location: body
+      words:
+        - content="jfinalshop" Powered By jfinalshop

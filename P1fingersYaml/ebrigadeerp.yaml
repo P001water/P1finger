@@ -1,0 +1,13 @@
+- id: ebrigadeerp
+  name: EbrigadeERP
+  author: P1finger
+  tags:
+    - ebrigadeerp
+  description: EbrigadeERP
+  matchers:
+    - location: body
+      words:
+        - .btn-ebrigade {
+    - location: body
+      words:
+        - class='btn btn-ebrigade btn-lg'

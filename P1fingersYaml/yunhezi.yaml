@@ -1,0 +1,12 @@
+- id: yunhezi-2
+  name: Yunhezi
+  author: P001
+  tags:
+    - yunhezi
+  description: Yunhezi
+  matchers:
+    - location: body
+      words:
+        - class="client-list dm-clear">
+        - ui/js/seaconfig.js
+        - ui/skins/black/style.css

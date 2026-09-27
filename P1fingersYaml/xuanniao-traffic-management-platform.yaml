@@ -1,0 +1,10 @@
+- id: xuanniao-traffic
+  name: Xuanniao-traffic-management-platform
+  author: P001
+  tags:
+    - xuanniao-traffic
+  description: Xuanniao-traffic-management-platform
+  matchers:
+    - location: body
+      words:
+        - 玄鸟流量管理平台

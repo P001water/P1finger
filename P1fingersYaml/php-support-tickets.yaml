@@ -1,0 +1,11 @@
+- id: php-support-tickets
+  name: Php-support-tickets
+  author: P001
+  tags:
+    - php-support-tickets
+  description: Php-support-tickets
+  matchers:
+    - location: body
+      words:
+        - content="triangle solutions ltd
+        - title="php support tickets">php support tickets

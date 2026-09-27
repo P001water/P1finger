@@ -1,0 +1,11 @@
+- id: trend-protection
+  name: Trend-smart-protection-server
+  author: P001
+  tags:
+    - trend-protection
+  description: Trend-smart-protection-server
+  matchers:
+    - location: body
+      words:
+        - lastrow_right
+        - redirect_reason

@@ -1,0 +1,26 @@
+- id: interspire-shopping-cart
+  name: Interspire-shopping-cart
+  author: P1finger
+  tags:
+    - interspire-shopping-cart
+  description: Interspire-shopping-cart
+  matchers:
+    - location: body
+      words:
+        - content="Interspire Shopping Cart
+        - class="PoweredBy">Interspire Shopping Cart
+- id: interspire-shopping-cart-2
+  name: Interspire-Shopping-Cart
+  author: Fofa
+  tags:
+    - interspire-shopping-cart
+  description: Interspire-Shopping-Cart
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Interspire Shopping Cart
+    - condition: or
+      location: body
+      words:
+        - class="PoweredBy">Interspire Shopping Cart

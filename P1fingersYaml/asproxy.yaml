@@ -1,0 +1,26 @@
+- id: asproxy
+  name: ASProxy
+  author: Fofa
+  tags:
+    - asproxy
+  description: ASProxy
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Surf the web invisibly using ASProxy power
+    - condition: or
+      location: body
+      words:
+        - btnASProxyDisplayButton
+    - location: body
+      words:
+        - Surf the web invisibly using ASProxy power
+        - btnASProxyDisplayButton
+    - location: body
+      words:
+        - btnasproxydisplaybutton
+        - surf the web invisibly using asproxy power
+    - location: body
+      words:
+        - ASProxy

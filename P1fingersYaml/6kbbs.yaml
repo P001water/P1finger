@@ -1,0 +1,23 @@
+- id: 6kbbs
+  name: 6kbbs
+  author: P1finger
+  tags:
+    - 6kbbs
+  description: 6kbbs
+  matchers:
+    - location: body
+      words:
+        - Powered by 6kbbs
+        - generator" content="6KBBS
+    - condition: or
+      location: body
+      words:
+        - Powered by 6kbbs
+    - condition: or
+      location: body
+      words:
+        - generator" content="6KBBS
+    - location: body
+      words:
+        - generator" content="6kbbs
+        - powered by 6kbbs

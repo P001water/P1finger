@@ -1,0 +1,13 @@
+- id: tmailersuitetmailer-mail-system
+  name: Tmailersuitetmailer Mail System
+  author: P001
+  tags:
+    - tmailersuitetmailer
+    - mail-system
+  description: Tmailersuitetmailer Mail System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="tmailer
+        - tmailer

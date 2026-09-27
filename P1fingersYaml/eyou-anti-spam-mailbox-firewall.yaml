@@ -1,0 +1,10 @@
+- id: eyou-anti-spam-mailbox
+  name: Eyou-anti-spam-mailbox-firewall
+  author: P001
+  tags:
+    - eyou-anti-spam-mailbox
+  description: Eyou-anti-spam-mailbox-firewall
+  matchers:
+    - location: body
+      words:
+        - content="亿邮大容量电子邮件系统，反垃圾邮件网关

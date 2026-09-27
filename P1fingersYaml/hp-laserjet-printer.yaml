@@ -1,0 +1,39 @@
+- id: hp-laserjet-printer
+  name: Hp-laserjet-printer
+  author: P1finger
+  tags:
+  - hp
+  - hp-laserjet-printer
+  description: Hp-laserjet-printer
+  matchers:
+  - location: body
+    words:
+    - HP Color LaserJet
+    - hp LaserJet
+  - location: header
+    words:
+    - HP-ChaiSOE
+- id: hp-laserjet-printer-2
+  name: HP-LaserJet-Printer
+  author: Fofa
+  tags:
+  - hp
+  - hp-laserjet-printer
+  description: HP-LaserJet-Printer
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - HP-ChaiServer
+  - condition: or
+    location: header
+    words:
+    - HP-ChaiSOE
+  - condition: or
+    location: title
+    words:
+    - HP Color LaserJet
+  - condition: or
+    location: title
+    words:
+    - hp LaserJet

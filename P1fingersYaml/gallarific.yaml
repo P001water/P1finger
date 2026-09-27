@@ -1,0 +1,18 @@
+- id: gallarific
+  name: Gallarific
+  author: Fofa
+  tags:
+    - gallarific
+  description: Gallarific
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Gallarific
+    - condition: or
+      location: title
+      words:
+        - Gallarific > Sign in
+    - location: body
+      words:
+        - Gallarific

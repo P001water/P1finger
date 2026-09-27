@@ -1,0 +1,28 @@
+- id: yonyou-grp-u8
+  name: Yonyou-grp-u8
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-grp-u8
+  description: Yonyou-grp-u8
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - key2 = "grp", key3 = "u8"
+    - 用友grp-u8
+  - hash:
+    - b41be1ccc6f9f2894e0cfcf23acf5fc0
+    location: favicon
+- id: yonyou-grp-u8-2
+  name: Yonyou GRP U8
+  author: P1finger
+  tags:
+  - yonyou
+  - yonyou-grp-u8
+  description: Yonyou GRP U8
+  matchers:
+  - location: body
+    words:
+    - window.location.replace("login.jsp?up=1")
+    - 用友grp-u8

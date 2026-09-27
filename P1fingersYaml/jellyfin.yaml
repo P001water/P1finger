@@ -1,0 +1,15 @@
+- id: jellyfin
+  name: Jellyfin
+  author: P001
+  tags:
+    - jellyfin
+  description: Jellyfin
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>jellyfin</title>
+        - content="jellyfin"
+    - location: body
+      words:
+        - Jellyfin

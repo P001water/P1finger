@@ -1,0 +1,11 @@
+- id: g4studio
+  name: G4studio
+  author: P1finger
+  tags:
+    - g4studio
+  description: G4studio
+  matchers:
+    - location: body
+      words:
+        - g4it
+        - g4.ico

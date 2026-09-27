@@ -1,0 +1,10 @@
+- id: simplecartjs
+  name: Simplecartjs
+  author: P1finger
+  tags:
+    - simplecartjs
+  description: Simplecartjs
+  matchers:
+    - location: body
+      words:
+        - simplecart.min.js

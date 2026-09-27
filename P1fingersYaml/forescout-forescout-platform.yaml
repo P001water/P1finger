@@ -1,0 +1,10 @@
+- id: forescout-forescout
+  name: ForeScout-ForeScout-Platform
+  author: P1finger
+  tags:
+    - forescout-forescout
+  description: ForeScout-ForeScout-Platform
+  matchers:
+    - location: body
+      words:
+        - <title>Forescout Portal

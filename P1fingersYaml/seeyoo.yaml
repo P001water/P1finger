@@ -1,0 +1,11 @@
+- id: seeyooguanggaoji
+  name: Seeyooguanggaoji
+  author: Fofa
+  tags:
+    - seeyooguanggaoji
+  description: Seeyooguanggaoji
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - AC_Config.js

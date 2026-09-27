@@ -1,0 +1,10 @@
+- id: tinyhttpproxy
+  name: TinyHTTPProxy
+  author: P1finger
+  tags:
+    - tinyhttpproxy
+  description: TinyHTTPProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: TinyHTTPProxy'

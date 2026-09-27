@@ -1,0 +1,12 @@
+- id: fourseasonsvpn
+  name: Fourseasonsvpn
+  author: P001
+  tags:
+    - fourseasonsvpn
+  description: Fourseasonsvpn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - fs vpn
+        - imgs/fs-black-box.jpg

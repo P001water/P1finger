@@ -1,0 +1,14 @@
+- id: fancybox
+  name: FancyBox
+  author: Fofa
+  tags:
+    - fancybox
+  description: FancyBox
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - jquery.fancybox.js
+    - location: body
+      words:
+        - jquery.fancybox.js

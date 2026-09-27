@@ -1,0 +1,11 @@
+- id: k8s-api
+  name: K8s_api
+  author: P1finger
+  tags:
+  - k8s
+  - k8s-api
+  description: K8s_api
+  matchers:
+  - location: body
+    words:
+    - '"kind": "Status"'

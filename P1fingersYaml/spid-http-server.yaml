@@ -1,0 +1,21 @@
+- id: spid-http
+  name: SPID HTTP Server
+  author: Fofa
+  tags:
+    - spid-http
+  description: SPID HTTP Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - SPID HTTP Server
+- id: spid-http-2
+  name: Spid Http Server
+  author: P1finger
+  tags:
+    - spid-http
+  description: Spid Http Server
+  matchers:
+    - location: header
+      words:
+        - SPID HTTP Server

@@ -1,0 +1,48 @@
+- id: huawei-8
+  name: Huawei
+  author: Fofa
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - McuR5-min.js
+    - condition: or
+      location: body
+      words:
+        - MCUlocation.js
+    - condition: or
+      location: title
+      words:
+        - huawei MCU
+- id: huawei-9
+  name: Huawei
+  author: P1finger
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - location: body
+      words:
+        - McuR5-min.js
+    - location: body
+      words:
+        - McuR5-min.js
+        - MCUlocation.js
+        - huawei MCU
+- id: mcu-video-conferencing
+  name: Mcu Video Conferencing
+  author: P1finger
+  tags:
+    - mcu
+    - video-conferencing
+  description: Mcu Video Conferencing
+  matchers:
+    - location: body
+      words:
+        - MCU Default Page
+    - location: header
+      words:
+        - 'Server: GoAhead-Webs'

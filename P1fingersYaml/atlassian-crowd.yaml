@@ -1,0 +1,10 @@
+- id: atlassian-crowd
+  name: Atlassian Crowd
+  author: P1finger
+  tags:
+    - atlassian-crowd
+  description: Atlassian Crowd
+  matchers:
+    - location: body
+      words:
+        - Atlassian Crowd

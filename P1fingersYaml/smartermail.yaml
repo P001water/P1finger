@@ -1,0 +1,13 @@
+- id: smartermail
+  name: Smartermail
+  author: P1finger
+  tags:
+    - smartermail
+  description: Smartermail
+  matchers:
+    - hash:
+        - "-1935525788"
+      location: favicon
+    - location: body
+      words:
+        - <a href='http://www.smartertools.com/smartermail/mail-server-software.aspx' target='_blank>smartermail

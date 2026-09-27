@@ -1,0 +1,14 @@
+- id: webissues
+  name: Webissues
+  author: P001
+  tags:
+    - webissues
+  description: Webissues
+  matchers:
+    - location: body
+      words:
+        - <div id="header-right">webissues
+        - <div><input location="hidden" name="__formid" id="field-login-__formid" value="login" />
+    - location: body
+      words:
+        - /images/webissues.ico

@@ -1,0 +1,14 @@
+- id: mod-auth-pam
+  name: Mod_auth_pam
+  author: Fofa
+  tags:
+    - mod-auth-pam
+  description: Mod_auth_pam
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_auth_pam
+    - location: header
+      words:
+        - mod_auth_pam

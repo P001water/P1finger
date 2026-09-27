@@ -1,0 +1,13 @@
+- id: glpi
+  name: Glpi
+  author: P1finger
+  tags:
+    - glpi
+  description: Glpi
+  matchers:
+    - hash:
+        - "-1474875778"
+      location: favicon
+    - hash:
+        - c9339a2ecde0980f40ba22c2d237b94b
+      location: favicon

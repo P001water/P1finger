@@ -1,0 +1,10 @@
+- id: phpvms
+  name: PhpVMS
+  author: P1finger
+  tags:
+    - phpvms
+  description: PhpVMS
+  matchers:
+    - location: body
+      words:
+        - powered by phpVMS

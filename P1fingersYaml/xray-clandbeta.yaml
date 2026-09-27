@@ -1,0 +1,13 @@
+- id: xray-clandbeta
+  name: Xray-clandbeta
+  author: P001
+  tags:
+    - xray-clandbeta
+  description: Xray-clandbeta
+  matchers:
+    - hash:
+        - 2fdaf65cb9342b76c97b027fc6f545e8
+      location: favicon
+    - location: body
+      words:
+        - /cland/css/

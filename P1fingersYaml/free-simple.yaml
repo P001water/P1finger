@@ -1,0 +1,10 @@
+- id: free-simple
+  name: Free Simple
+  author: P1finger
+  tags:
+    - free-simple
+  description: Free Simple
+  matchers:
+    - location: body
+      words:
+        - freesimple

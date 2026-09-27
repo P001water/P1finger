@@ -1,0 +1,10 @@
+- id: litemall
+  name: Litemall
+  author: P1finger
+  tags:
+    - litemall
+  description: Litemall
+  matchers:
+    - location: body
+      words:
+        - litemall-admin

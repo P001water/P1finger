@@ -1,0 +1,10 @@
+- id: phocas
+  name: Phocas
+  author: P001
+  tags:
+    - phocas
+  description: Phocas
+  matchers:
+    - location: body
+      words:
+        - href="https://www.phocassoftware.com"

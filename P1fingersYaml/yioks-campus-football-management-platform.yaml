@@ -1,0 +1,10 @@
+- id: yioks-campus-football
+  name: Yioks-campus-football-management-platform
+  author: P001
+  tags:
+    - yioks-campus-football
+  description: Yioks-campus-football-management-platform
+  matchers:
+    - location: body
+      words:
+        - <script>document.location='/index.mpl?a=login'</script>

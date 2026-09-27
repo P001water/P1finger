@@ -1,0 +1,17 @@
+- id: cinvoice
+  name: CInvoice
+  author: Fofa
+  tags:
+    - cinvoice
+  description: CInvoice
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://www.forperfect.com/
+    - location: body
+      words:
+        - forperfect.com/
+    - location: body
+      words:
+        - powered by <a href="http://www.forperfect.com/

@@ -1,0 +1,39 @@
+- id: zkteco-3
+  name: Zkteco
+  author: P001
+  tags:
+    - zkteco
+  description: Zkteco
+  matchers:
+    - hash:
+        - 67c76f647cb8d42a71eb295e003394d2
+      location: favicon
+    - location: body
+      words:
+        - 智慧园区综合管理平台
+- id: zktecogongsichanpin
+  name: Zktecogongsichanpin
+  author: Fofa
+  tags:
+    - zktecogongsichanpin
+  description: Zktecogongsichanpin
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /media/images/ZKECO16.ico
+    - condition: or
+      location: header
+      words:
+        - sessionidadms
+    - condition: or
+      location: body
+      words:
+        - ZKTeco Inc. All Rights Reserved
+    - location: body
+      words:
+        - /media/images/ZKECO16.ico
+        - ZKTeco Inc. All Rights Reserved
+    - location: header
+      words:
+        - sessionidadms

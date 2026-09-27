@@ -1,0 +1,14 @@
+- id: wstmart
+  name: Wstmart
+  author: P001
+  tags:
+    - wstmart
+  description: Wstmart
+  matchers:
+    - location: body
+      words:
+        - href="/wstmart/home/
+        - powered by wstmart
+    - location: body
+      words:
+        - Powered By WSTMart

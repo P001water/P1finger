@@ -1,0 +1,17 @@
+- id: drupal
+  name: CMS-Drupal
+  author: P001
+  tags:
+    - drupal
+  description: CMS-Drupal
+  matchers:
+    - location: body
+      words:
+        - '"generator" content="Drupal'
+        - /misc/drupal.js
+        - /sites/all/modules/
+        - /sites/all/themes/
+        - /sites/default/files/
+        - drupal.settings
+        - powered by <a href="https://www.drupal.org">drupal</a>
+        - jquery.extend(drupal.settings

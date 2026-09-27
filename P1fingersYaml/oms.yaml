@@ -1,0 +1,21 @@
+- id: leyuoms
+  name: LeyuOMS
+  author: P1finger
+  tags:
+    - leyuoms
+  description: LeyuOMS
+  matchers:
+    - location: body
+      words:
+        - looyu.com
+- id: omsjiekou-management-system
+  name: OMSjiekou Management System
+  author: P1finger
+  tags:
+    - omsjiekou
+    - management-system
+  description: OMSjiekou Management System
+  matchers:
+    - location: body
+      words:
+        - OMS接口管理系统

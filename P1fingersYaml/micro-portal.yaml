@@ -1,0 +1,10 @@
+- id: micro-2
+  name: Micro-portal
+  author: P001
+  tags:
+    - micro
+  description: Micro-portal
+  matchers:
+    - location: body
+      words:
+        - /tpl/home/weimeng/common/css/

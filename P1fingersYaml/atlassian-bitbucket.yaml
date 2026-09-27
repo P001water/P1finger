@@ -1,0 +1,10 @@
+- id: atlassian-bitbucket
+  name: Atlassian-Bitbucket
+  author: P1finger
+  tags:
+    - atlassian-bitbucket
+  description: Atlassian-Bitbucket
+  matchers:
+    - location: body
+      words:
+        - <li>Atlassian Bitbucket

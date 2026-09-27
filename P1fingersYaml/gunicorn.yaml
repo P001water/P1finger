@@ -1,0 +1,14 @@
+- id: gunicorn
+  name: Gunicorn
+  author: Fofa
+  tags:
+    - gunicorn
+  description: Gunicorn
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - gunicorn
+    - location: header
+      words:
+        - gunicorn

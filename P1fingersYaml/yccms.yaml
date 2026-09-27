@@ -1,0 +1,10 @@
+- id: yccms
+  name: YCCMS
+  author: P1finger
+  tags:
+    - yccms
+  description: YCCMS
+  matchers:
+    - location: body
+      words:
+        - YCCMS

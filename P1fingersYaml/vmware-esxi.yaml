@@ -1,0 +1,26 @@
+- id: vmware-esxi
+  name: Vmware Esxi
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-esxi
+  description: Vmware Esxi
+  matchers:
+  - location: body
+    words:
+    - ID_EESX_Welcome
+    - ID_ESX_Welcome
+    - 0;URL='/ui'
+- id: vmware-esxi-2
+  name: VMware-ESXI
+  author: P001
+  tags:
+  - vmware
+  - vmware-esxi
+  description: VMware-ESXI
+  matchers:
+  - location: body
+    words:
+    - <title ng-bind="$root.title">
+    - ng-app="esxuiapp"
+    - content="0;URL='/ui'"/>

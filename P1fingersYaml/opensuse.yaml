@@ -1,0 +1,14 @@
+- id: opensuse
+  name: OpenSUSE
+  author: Fofa
+  tags:
+    - opensuse
+  description: OpenSUSE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - openSUSE
+    - location: header
+      words:
+        - openSUSE

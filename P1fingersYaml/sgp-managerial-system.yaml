@@ -1,0 +1,20 @@
+- id: sgp-managerial
+  name: Sgp-managerial-system
+  author: P001
+  tags:
+    - sgp-managerial
+  description: Sgp-managerial-system
+  matchers:
+    - location: body
+      words:
+        - /static/all/img/logo/sgp
+- id: sgp-managerial-2
+  name: SGP Managerial System
+  author: P1finger
+  tags:
+    - sgp-managerial
+  description: SGP Managerial System
+  matchers:
+    - location: body
+      words:
+        - /static/all/img/logo/sgp

@@ -1,0 +1,21 @@
+- id: jakarta-project
+  name: Jakarta-project
+  author: P001
+  tags:
+    - jakarta-project
+  description: Jakarta-project
+  matchers:
+    - location: body
+      words:
+        - <a href="http://jakarta.apache.org/">
+        - alt="the jakarta project
+- id: jakarta-project-2
+  name: Jakarta Project
+  author: P1finger
+  tags:
+    - jakarta-project
+  description: Jakarta Project
+  matchers:
+    - location: body
+      words:
+        - alt=\"the jakarta project

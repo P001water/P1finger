@@ -1,0 +1,10 @@
+- id: pcitc
+  name: Pcitc-management-platform
+  author: P001
+  tags:
+    - pcitc
+  description: Pcitc-management-platform
+  matchers:
+    - location: body
+      words:
+        - window.open("http://itmc.mmsh.sinopec.com/itgk/sysmgr/productregister/yunweiproregister.view"); }

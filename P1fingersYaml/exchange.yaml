@@ -1,0 +1,28 @@
+- id: exchange
+  name: Exchange
+  author: P1finger
+  tags:
+    - exchange
+  description: Exchange
+  matchers:
+    - location: body
+      words:
+        - /owa/auth.owa
+    - location: body
+      words:
+        - owaLgnBdy
+    - location: header
+      words:
+        - OutlookSession
+    - condition: or
+      location: header
+      words:
+        - owa
+    - condition: or
+      location: body
+      words:
+        - owaLgnBdy
+    - condition: or
+      location: header
+      words:
+        - OutlookSession

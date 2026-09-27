@@ -1,0 +1,10 @@
+- id: fangbiaocsmail
+  name: Fangbiaocsmail
+  author: P001
+  tags:
+    - fangbiaocsmail
+  description: Fangbiaocsmail
+  matchers:
+    - location: body
+      words:
+        - <frame src="/mainframe_zh-cn.html" />

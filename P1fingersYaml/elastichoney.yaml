@@ -1,0 +1,12 @@
+- id: elastichoney-honeypot
+  name: Elastichoney Honeypot
+  author: P1finger
+  tags:
+    - elastichoney
+    - honeypot
+  description: Elastichoney Honeypot
+  matchers:
+    - location: body
+      words:
+        - Green Goblin
+        - 89d3241d670db65f994242c8e838b169779e2d4

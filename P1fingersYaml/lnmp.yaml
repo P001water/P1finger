@@ -1,0 +1,13 @@
+- id: lnmp
+  name: Lnmp
+  author: P1finger
+  tags:
+    - lnmp
+  description: Lnmp
+  matchers:
+    - location: body
+      words:
+        - lnmp.gif
+    - location: body
+      words:
+        - lnmp一键安装包

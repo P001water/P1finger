@@ -1,0 +1,27 @@
+- id: foxphp
+  name: FoxPHP
+  author: Fofa
+  tags:
+    - foxphp
+  description: FoxPHP
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - FoxPHPScroll
+    - condition: or
+      location: body
+      words:
+        - FoxPHP_ImList
+    - condition: or
+      location: body
+      words:
+        - content="FoxPHP
+    - location: body
+      words:
+        - FoxPHPScroll
+        - FoxPHP_ImList
+        - content="FoxPHP
+    - location: header
+      words:
+        - 'Set-Cookie: foxphp_ok='

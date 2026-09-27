@@ -1,0 +1,31 @@
+- id: coremail
+  name: Coremail
+  author: Fofa
+  tags:
+    - coremail
+  description: Coremail
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - /coremail/common/assets
+    - condition: or
+      location: title
+      words:
+        - Coremail邮件系统
+- id: coremailshangyi-enterprise-mail
+  name: Coremailshangyi Enterprise Mail
+  author: P1finger
+  tags:
+    - coremailshangyi
+    - enterprise-mail
+  description: Coremailshangyi Enterprise Mail
+  matchers:
+    - location: body
+      words:
+        - /coremail/common/assets
+        - Coremail邮件系统
+        - /coremail/bundle/
+        - <a href="http://www.coremail.cn" target="_blank">
+        - action="/coremail/index.jsp
+        - 'fmt_logoalt: "coremail 电子邮件系统'

@@ -1,0 +1,10 @@
+- id: endian
+  name: Endian Firewall
+  author: P1finger
+  tags:
+    - endian
+  description: Endian Firewall
+  matchers:
+    - hash:
+        - "-1225484776"
+      location: favicon

@@ -1,0 +1,14 @@
+- id: dircms
+  name: DirCMS
+  author: Fofa
+  tags:
+    - dircms
+  description: DirCMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="DirCMS
+    - location: body
+      words:
+        - content="DirCMS

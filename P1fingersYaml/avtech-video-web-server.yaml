@@ -1,0 +1,41 @@
+- id: avtech
+  name: Avtech-video-web-server
+  author: P1finger
+  tags:
+    - avtech
+  description: Avtech-video-web-server
+  matchers:
+    - location: body
+      words:
+        - '--- VIDEO WEB SERVER ---'
+        - /AV732E/setup.exe
+    - location: header
+      words:
+        - 'Server: AV-TECH'
+    - hash:
+        - ed8cf53ef6836184587ee3a987be074a
+      location: favicon
+    - location: body
+      words:
+        - /av732e/setup.exe
+        - <title>remote surveillance, any time &amp; any where</title>
+        - please visit 'www.avtech.com.tw'
+- id: avtech-2
+  name: AVTech-Video-Web-Server
+  author: Fofa
+  tags:
+    - avtech
+  description: AVTech-Video-Web-Server
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - '--- VIDEO WEB SERVER ---'
+    - condition: or
+      location: body
+      words:
+        - /AV732E/setup.exe
+    - condition: or
+      location: header
+      words:
+        - 'Server: AV-TECH'

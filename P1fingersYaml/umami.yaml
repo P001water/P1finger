@@ -1,0 +1,10 @@
+- id: umami
+  name: Umami
+  author: P001
+  tags:
+    - umami
+  description: Umami
+  matchers:
+    - hash:
+        - e7acd200faa2134fc17bce2e39304292
+      location: favicon

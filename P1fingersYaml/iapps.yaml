@@ -1,0 +1,14 @@
+- id: iapps
+  name: IAPPS
+  author: Fofa
+  tags:
+    - iapps
+  description: IAPPS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - iAPPSCookie
+    - location: header
+      words:
+        - iAPPSCookie

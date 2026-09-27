@@ -1,0 +1,13 @@
+- id: emlog
+  name: CMS-emlog
+  author: P001
+  tags:
+    - emlog
+  description: CMS-emlog
+  matchers:
+    - location: body
+      words:
+        - content="emlog
+        - title="采用emlog系统"
+        - target="_blank">Emlog</a></div>
+        - content="使用emlog搭建的站点

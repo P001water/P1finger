@@ -1,0 +1,26 @@
+- id: webmanager-pro
+  name: CMS-WebManager-Pro
+  author: Fofa
+  tags:
+    - webmanager-pro
+  description: CMS-WebManager-Pro
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Webmanager-pro
+    - condition: or
+      location: body
+      words:
+        - href="http://webmanager-pro.com">Web.Manager
+- id: webmanager-pro-2
+  name: Cms-webmanager-pro
+  author: P1finger
+  tags:
+    - webmanager-pro
+  description: Cms-webmanager-pro
+  matchers:
+    - location: body
+      words:
+        - content="Webmanager-pro
+        - href="http://webmanager-pro.com">Web.Manager

@@ -1,0 +1,10 @@
+- id: axis2-3
+  name: Axis2
+  author: P1finger
+  tags:
+    - axis2
+  description: Axis2
+  matchers:
+    - location: body
+      words:
+        - faultstring

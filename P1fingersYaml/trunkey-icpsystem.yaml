@@ -1,0 +1,10 @@
+- id: trunkey-icpsystem
+  name: Trunkey-icpsystem
+  author: P001
+  tags:
+    - trunkey-icpsystem
+  description: Trunkey-icpsystem
+  matchers:
+    - location: body
+      words:
+        - href="http://www.trunkey.com/"

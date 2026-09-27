@@ -1,0 +1,45 @@
+- id: citrix-netscaler-2
+  name: Citrix-netscaler
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-netscaler
+  description: Citrix-netscaler
+  matchers:
+  - location: body
+    words:
+    - NS-CACHE
+  - location: body
+    words:
+    - 'set-cookie: citrix_ns_id'
+    - netscape/firefox/opera
+- id: citrix-netscaler-3
+  name: Citrix_netscaler
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-netscaler
+  description: Citrix_netscaler
+  matchers:
+  - location: body
+    words:
+    - ns_af
+  - condition: and
+    location: header
+    words:
+    - ns_af
+  - location: header
+    words:
+    - ns_af
+- id: citrix-netscaler-4
+  name: Citrix-NetScaler
+  author: Fofa
+  tags:
+  - citrix
+  - citrix-netscaler
+  description: Citrix-NetScaler
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - NS-CACHE

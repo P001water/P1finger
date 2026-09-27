@@ -1,0 +1,11 @@
+- id: anymacro-mail-system
+  name: Anymacro Mail System
+  author: P001
+  tags:
+    - anymacro
+    - mail-system
+  description: Anymacro Mail System
+  matchers:
+    - location: body
+      words:
+        - document.aa.f_email

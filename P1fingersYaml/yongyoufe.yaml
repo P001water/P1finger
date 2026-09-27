@@ -1,0 +1,18 @@
+- id: yongyoufe
+  name: Yongyoufe
+  author: Fofa
+  tags:
+    - yongyoufe
+  description: Yongyoufe
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - FE协作
+    - condition: and
+      location: body
+      words:
+        - V_hedden")
+    - location: body
+      words:
+        - FE协作

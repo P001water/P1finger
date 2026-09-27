@@ -1,0 +1,10 @@
+- id: link-5
+  name: Link Admin
+  author: P1finger
+  tags:
+    - link
+  description: Link Admin
+  matchers:
+    - location: body
+      words:
+        - Link Admin

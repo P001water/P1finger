@@ -1,0 +1,14 @@
+- id: mod-antiloris
+  name: Mod_antiloris
+  author: Fofa
+  tags:
+    - mod-antiloris
+  description: Mod_antiloris
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_antiloris
+    - location: header
+      words:
+        - mod_antiloris

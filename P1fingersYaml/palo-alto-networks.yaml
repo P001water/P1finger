@@ -1,0 +1,10 @@
+- id: palo-alto-networks
+  name: Palo Alto Networks
+  author: P1finger
+  tags:
+    - palo-alto-networks
+  description: Palo Alto Networks
+  matchers:
+    - hash:
+        - "-318947884"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: powereasy
+  name: Powereasy
+  author: P1finger
+  tags:
+    - powereasy
+  description: Powereasy
+  matchers:
+    - location: body
+      words:
+        - Powered by PowerEasy

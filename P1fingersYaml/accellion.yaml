@@ -1,0 +1,16 @@
+- id: accellion
+  name: Accellion
+  author: nuclei
+  tags:
+  - accellion
+  description: 'Dectection of Accellion File Transfer Appliance.
+
+    '
+  paths:
+  - /cfadmin/
+  matchers:
+  - location: body
+    words:
+    - /cfadmin/img/accellion-logo.png
+    - secured by accellion
+    condition: or

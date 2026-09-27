@@ -1,0 +1,19 @@
+- id: cmsqlite
+  name: Cmsqlite
+  author: P1finger
+  tags:
+    - cmsqlite
+  description: Cmsqlite
+  matchers:
+    - location: body
+      words:
+        - powered by CMSQLite
+        - content="www.CMSQLite.net
+    - condition: or
+      location: body
+      words:
+        - powered by CMSQLite
+    - condition: or
+      location: body
+      words:
+        - content="www.CMSQLite.net

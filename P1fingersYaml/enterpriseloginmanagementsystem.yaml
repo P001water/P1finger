@@ -1,0 +1,11 @@
+- id: enterpriseloginmanagementsystem
+  name: Enterpriseloginmanagementsystem
+  author: P001
+  tags:
+    - enterpriseloginmanagementsystem
+  description: Enterpriseloginmanagementsystem
+  matchers:
+    - location: body
+      words:
+        - themes/scripts/functionjs.js
+        - txtusername").focus(); //默认焦点

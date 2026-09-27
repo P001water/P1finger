@@ -1,0 +1,17 @@
+- id: daisy
+  name: Daisy
+  author: Fofa
+  tags:
+    - daisy
+  description: Daisy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - x-daisy-version
+    - location: header
+      words:
+        - x-daisy-version
+    - location: body
+      words:
+        - <meta content="Daisy

@@ -1,0 +1,14 @@
+- id: doubleclick-ad
+  name: Doubleclick_ad
+  author: Fofa
+  tags:
+    - doubleclick-ad
+  description: Doubleclick_ad
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ad.doubleclick.net
+    - location: body
+      words:
+        - ad.doubleclick.net

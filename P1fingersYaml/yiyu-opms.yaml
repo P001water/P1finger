@@ -1,0 +1,12 @@
+- id: yiyu-opms
+  name: Yiyu-opms
+  author: P001
+  tags:
+    - yiyu-opms
+  description: Yiyu-opms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - opms
+        - opms管理系统,织蝶-企业应用系统为您的企业保驾护航

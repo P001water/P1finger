@@ -1,0 +1,23 @@
+- id: hp-storageworks-library
+  name: Hp-storageworks-library
+  author: P1finger
+  tags:
+  - hp
+  - hp-storageworks-library
+  description: Hp-storageworks-library
+  matchers:
+  - location: body
+    words:
+    - HP StorageWorks
+- id: hp-storageworks-library-2
+  name: HP-StorageWorks-Library
+  author: Fofa
+  tags:
+  - hp
+  - hp-storageworks-library
+  description: HP-StorageWorks-Library
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - HP StorageWorks

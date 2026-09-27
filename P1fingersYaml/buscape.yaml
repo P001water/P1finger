@@ -1,0 +1,14 @@
+- id: buscape
+  name: Buscape
+  author: Fofa
+  tags:
+    - buscape
+  description: Buscape
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - sessao3
+    - location: header
+      words:
+        - sessao3

@@ -1,0 +1,22 @@
+- id: magicmail
+  name: Magicmail
+  author: P001
+  tags:
+    - magicmail
+  description: Magicmail
+  matchers:
+    - location: body
+      words:
+        - /aboutus/magicmail.gif
+- id: maijiemagicmail-mail-system
+  name: MaijieMagicMail Mail System
+  author: Fofa
+  tags:
+    - maijiemagicmail
+    - mail-system
+  description: MaijieMagicMail Mail System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /aboutus/magicmail.gif

@@ -1,0 +1,11 @@
+- id: bitrix-site-manager
+  name: Bitrix-site-manager
+  author: P001
+  tags:
+    - bitrix-site-manager
+  description: Bitrix-site-manager
+  matchers:
+    - location: body
+      words:
+        - bitrix_sm_time_zone
+        - bx.setcsslist

@@ -1,0 +1,30 @@
+- id: bugfree
+  name: BugFree
+  author: Fofa
+  tags:
+    - bugfree
+  description: BugFree
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - id="logo" alt=BugFree
+    - condition: or
+      location: body
+      words:
+        - class="loginBgImage" alt="BugFree
+    - condition: or
+      location: title
+      words:
+        - BugFree
+    - condition: or
+      location: body
+      words:
+        - name="BugUserPWD
+    - location: body
+      words:
+        - BugFree
+    - location: body
+      words:
+        - class="loginbgimage" alt="bugfree
+        - id="logo" alt=bugfree

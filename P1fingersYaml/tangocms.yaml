@@ -1,0 +1,10 @@
+- id: tangocms
+  name: TangoCMS
+  author: P1finger
+  tags:
+    - tangocms
+  description: TangoCMS
+  matchers:
+    - location: body
+      words:
+        - title="Open Source CMS">TangoCMS

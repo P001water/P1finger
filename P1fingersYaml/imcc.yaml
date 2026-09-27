@@ -1,0 +1,10 @@
+- id: yunruanimcc
+  name: YunruanIMCC
+  author: P1finger
+  tags:
+    - yunruanimcc
+  description: YunruanIMCC
+  matchers:
+    - location: body
+      words:
+        - 云软云客服

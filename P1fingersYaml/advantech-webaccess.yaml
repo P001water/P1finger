@@ -1,0 +1,36 @@
+- id: advantech-webaccess
+  name: Advantech-webaccess
+  author: P1finger
+  tags:
+    - advantech-webaccess
+  description: Advantech-webaccess
+  matchers:
+    - location: body
+      words:
+        - /bw_templete1.dwt
+        - /broadweb/WebAccessClientSetup.exe
+        - /broadWeb/bwuconfig.asp
+    - location: body
+      words:
+        - /broadweb/bwuconfig.asp
+        - /broadweb/webaccessclientsetup.exe
+        - /bw_templete1.dwt
+- id: advantech-webaccess-2
+  name: Advantech-WebAccess
+  author: Fofa
+  tags:
+    - advantech-webaccess
+  description: Advantech-WebAccess
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /bw_templete1.dwt
+    - condition: or
+      location: body
+      words:
+        - /broadweb/WebAccessClientSetup.exe
+    - condition: or
+      location: body
+      words:
+        - /broadWeb/bwuconfig.asp

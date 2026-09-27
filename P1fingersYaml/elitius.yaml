@@ -1,0 +1,23 @@
+- id: elitius
+  name: ELitius
+  author: Fofa
+  tags:
+    - elitius
+  description: ELitius
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="eLitius
+    - condition: or
+      location: body
+      words:
+        - target="_blank" title="Affiliate
+    - location: body
+      words:
+        - content="eLitius
+        - target="_blank" title="Affiliate
+    - location: body
+      words:
+        - content="elitius
+        - target="_blank" title="affiliate

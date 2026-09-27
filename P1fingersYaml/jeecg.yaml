@@ -1,0 +1,14 @@
+- id: jeecg
+  name: Jeecg
+  author: P1finger
+  tags:
+    - jeecg
+  description: Jeecg
+  matchers:
+    - location: body
+      words:
+        - jeecg
+        - window._CONFIG['onlinePreviewDomainURL
+    - location: body
+      words:
+        - plug-in/ace/

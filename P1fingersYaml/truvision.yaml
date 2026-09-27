@@ -1,0 +1,10 @@
+- id: truvision
+  name: Truvision
+  author: P1finger
+  tags:
+    - truvision
+  description: Truvision
+  matchers:
+    - hash:
+        - "-1093172228"
+      location: favicon

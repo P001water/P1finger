@@ -1,0 +1,19 @@
+- id: ourphp
+  name: Ourphp
+  author: Fofa
+  tags:
+    - ourphp
+  description: Ourphp
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="OURPHP
+    - condition: or
+      location: body
+      words:
+        - Powered by ourphp
+    - location: body
+      words:
+        - content="OURPHP
+        - Powered by ourphp

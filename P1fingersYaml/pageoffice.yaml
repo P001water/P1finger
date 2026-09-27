@@ -1,0 +1,10 @@
+- id: pageoffice
+  name: Pageoffice
+  author: P1finger
+  tags:
+    - pageoffice
+  description: Pageoffice
+  matchers:
+    - location: body
+      words:
+        - PageOffice

@@ -1,0 +1,11 @@
+- id: puridiom
+  name: Puridiom
+  author: P001
+  tags:
+    - puridiom
+  description: Puridiom
+  matchers:
+    - location: body
+      words:
+        - content="/puridiom/system/header.jsp
+        - src="/puridiom/system/processing.jsp

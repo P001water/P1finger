@@ -1,0 +1,14 @@
+- id: wdlinux
+  name: WDlinux
+  author: Fofa
+  tags:
+    - wdlinux
+  description: WDlinux
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - wdOS
+    - location: body
+      words:
+        - wdOS

@@ -1,0 +1,13 @@
+- id: map-reduce
+  name: Map/Reduce
+  author: P1finger
+  tags:
+    - map-reduce
+  description: Map/Reduce
+  matchers:
+    - location: body
+      words:
+        - it looks like you are making an http request to a hadoop ipc port
+    - location: header
+      words:
+        - mapreduce

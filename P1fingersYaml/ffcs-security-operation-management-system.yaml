@@ -1,0 +1,10 @@
+- id: ffcs
+  name: FFCS-Security-Operation-Management-System
+  author: P1finger
+  tags:
+    - ffcs
+  description: FFCS-Security-Operation-Management-System
+  matchers:
+    - location: body
+      words:
+        - align="center">福富软件

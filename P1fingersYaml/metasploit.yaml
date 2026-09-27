@@ -1,0 +1,32 @@
+- id: metasploit
+  name: Metasploit
+  author: Fofa
+  tags:
+    - metasploit
+  description: Metasploit
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Metasploit is initializing...
+    - condition: or
+      location: header
+      words:
+        - https://dev.metasploit.com
+    - condition: or
+      location: body
+      words:
+        - metasploit")
+    - condition: and
+      location: body
+      words:
+        - metasploit")
+    - hash:
+        - "-127886975"
+        - "-1235192469"
+      location: favicon
+    - condition: and
+      location: body
+      words:
+        - metasploit
+        - r7bottom-strip

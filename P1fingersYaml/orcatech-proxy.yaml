@@ -1,0 +1,10 @@
+- id: orcatech-proxy
+  name: OrcaTech-Proxy
+  author: P1finger
+  tags:
+    - orcatech-proxy
+  description: OrcaTech-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Www-Authenticate: Basic realm="Orca Proxy"'

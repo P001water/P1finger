@@ -1,0 +1,16 @@
+- id: azure-databricks
+  name: Azure Databricks
+  author: P1finger
+  tags:
+    - azure-databricks
+  description: Azure Databricks
+  matchers:
+    - hash:
+        - "-491607480"
+      location: favicon
+    - location: body
+      words:
+        - Databricks - Sign In
+    - location: header
+      words:
+        - databricks

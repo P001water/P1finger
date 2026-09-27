@@ -1,0 +1,10 @@
+- id: otrs
+  name: Otrs
+  author: P1finger
+  tags:
+    - otrs
+  description: Otrs
+  matchers:
+    - hash:
+        - "-2006308185"
+      location: favicon

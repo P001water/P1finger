@@ -1,0 +1,10 @@
+- id: plex
+  name: Plex Server
+  author: P1finger
+  tags:
+    - plex
+  description: Plex Server
+  matchers:
+    - hash:
+        - "-895890586"
+      location: favicon

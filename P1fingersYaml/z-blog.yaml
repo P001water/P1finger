@@ -1,0 +1,10 @@
+- id: blog
+  name: Z-blog
+  author: P001
+  tags:
+    - blog
+  description: Z-blog
+  matchers:
+    - location: body
+      words:
+        - generator" content="z-blog

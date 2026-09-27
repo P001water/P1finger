@@ -1,0 +1,14 @@
+- id: lezhixing
+  name: Lezhixing
+  author: P001
+  tags:
+    - lezhixing
+  description: Lezhixing
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /static/thirdparty/jquery/
+        - var contextpath = "/datacenter
+        - action="/datacenter/authentication/login.do" method="post
+        - location.href=contextpath+"/login/password/password.jsp

@@ -1,0 +1,15 @@
+- id: tightvnc
+  name: Tightvnc
+  author: P001
+  tags:
+    - tightvnc
+  description: Tightvnc
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.tightvnc.com/">www.tightvnc.com
+        - js/thinvnc.app.js
+        - js/thinvnc.sdk.js
+    - location: body
+      words:
+        - <APPLET ARCHIVE="tightvnc-jviewer.jar"

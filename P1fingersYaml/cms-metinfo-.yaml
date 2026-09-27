@@ -1,0 +1,13 @@
+- id: cmsmetinfomituoxinxi
+  name: CMSMetInfomituoxinxi
+  author: P001
+  tags:
+    - cmsmetinfomituoxinxi
+  description: CMSMetInfomituoxinxi
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="metinfo
+        - class="powered_by_metinfo"
+        - content="MetInfo
+        - content="MetInfo

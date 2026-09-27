@@ -1,0 +1,26 @@
+- id: interred
+  name: InterRed
+  author: Fofa
+  tags:
+    - interred
+  description: InterRed
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="InterRed
+    - condition: or
+      location: body
+      words:
+        - Created with InterRed
+    - location: body
+      words:
+        - content="InterRed
+        - Created with InterRed
+    - location: body
+      words:
+        - content="interred
+        - created with interred
+    - location: body
+      words:
+        - InterRed

@@ -1,0 +1,10 @@
+- id: openproject
+  name: Openproject
+  author: P1finger
+  tags:
+    - openproject
+  description: Openproject
+  matchers:
+    - hash:
+        - "1836828108"
+      location: favicon

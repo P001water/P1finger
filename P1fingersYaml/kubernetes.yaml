@@ -1,0 +1,21 @@
+- id: kubernetes
+  name: Kubernetes
+  author: P1finger
+  tags:
+    - kubernetes
+  description: Kubernetes
+  matchers:
+    - location: header
+      words:
+        - Basic realm="kubernetes-master"
+    - location: body
+      words:
+        - Kubernetes Dashboard
+        - Kubeconsole
+    - location: body
+      words:
+        - 'www-authenticate: realm="kubernetes'
+        - <article class="post kubernetes
+        - <b>kubernetes</b> listening
+        - href="assets/images/kubernetes-logo.png
+        - value="kubernetes

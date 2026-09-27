@@ -1,0 +1,11 @@
+- id: iis8-2
+  name: IIS8.5
+  author: Fofa
+  tags:
+    - iis8
+  description: IIS8.5
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IIS/8.5

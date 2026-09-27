@@ -1,0 +1,12 @@
+- id: xjhyt
+  name: Xjhyt-system
+  author: P001
+  tags:
+    - xjhyt
+  description: Xjhyt-system
+  matchers:
+    - location: body
+      words:
+        - <input class="an1" name="btnrst" id="btnrst" location="reset" value=" " />
+        - class="wrap login_wrap"
+        - url(images/yh.jpg)

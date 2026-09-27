@@ -1,0 +1,10 @@
+- id: meetingplaza
+  name: Meetingplaza
+  author: P001
+  tags:
+    - meetingplaza
+  description: Meetingplaza
+  matchers:
+    - location: body
+      words:
+        - meetingplaza http tunneling

@@ -1,0 +1,32 @@
+- id: apache-wicket
+  name: Apache-wicket
+  author: P1finger
+  tags:
+  - apache
+  - apache-wicket
+  description: Apache-wicket
+  matchers:
+  - location: body
+    words:
+    - xmlns:wicket=
+    - /org.apache.wicket.
+  - location: body
+    words:
+    - /org.apache.wicket.
+    - xmlns:wicket=
+- id: apache-wicket-2
+  name: Apache-Wicket
+  author: Fofa
+  tags:
+  - apache
+  - apache-wicket
+  description: Apache-Wicket
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - xmlns:wicket=
+  - condition: or
+    location: body
+    words:
+    - /org.apache.wicket.

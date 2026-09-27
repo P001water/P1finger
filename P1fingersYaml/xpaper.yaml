@@ -1,0 +1,10 @@
+- id: xpaper
+  name: Xpaper
+  author: P001
+  tags:
+    - xpaper
+  description: Xpaper
+  matchers:
+    - location: body
+      words:
+        - src="template/paper/

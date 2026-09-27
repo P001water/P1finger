@@ -1,0 +1,28 @@
+- id: tcn
+  name: Tcn
+  author: P1finger
+  tags:
+    - tcn
+  description: Tcn
+  matchers:
+    - hash:
+        - "-702384832"
+      location: favicon
+- id: tcnxieyi
+  name: TCNxieyi
+  author: Fofa
+  tags:
+    - tcnxieyi
+  description: TCNxieyi
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'Tcn: choice'
+    - condition: or
+      location: header
+      words:
+        - 'Tcn: list'
+    - location: header
+      words:
+        - 'Tcn: list'

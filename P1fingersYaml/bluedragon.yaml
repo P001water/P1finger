@@ -1,0 +1,14 @@
+- id: bluedragon
+  name: BlueDragon
+  author: Fofa
+  tags:
+    - bluedragon
+  description: BlueDragon
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - BlueDragon
+    - location: header
+      words:
+        - BlueDragon

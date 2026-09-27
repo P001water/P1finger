@@ -1,0 +1,25 @@
+- id: sq-webcam
+  name: Sq-webcam
+  author: P1finger
+  tags:
+    - sq-webcam
+  description: Sq-webcam
+  matchers:
+    - location: header
+      words:
+        - SQ-WEBCAM
+- id: sq-webcam-2
+  name: SQ-WEBCAM
+  author: Fofa
+  tags:
+    - sq-webcam
+  description: SQ-WEBCAM
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - SQ-WEBCAM
+    - condition: or
+      location: header
+      words:
+        - SQ-WEBCAM

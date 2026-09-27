@@ -1,0 +1,11 @@
+- id: stahuanjingbug
+  name: STAhuanjingBUG Management System
+  author: P1finger
+  tags:
+    - stahuanjingbug
+    - management-system
+  description: STAhuanjingBUG Management System
+  matchers:
+    - location: body
+      words:
+        - STA环境BUG管理系统

@@ -1,0 +1,13 @@
+- id: hbase
+  name: Hbase
+  author: P001
+  tags:
+    - hbase
+  description: Hbase
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv="refresh" content="0;url=/master-status"/>
+    - location: body
+      words:
+        - <title>HBase Region Server

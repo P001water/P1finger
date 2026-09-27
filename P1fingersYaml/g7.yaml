@@ -1,0 +1,10 @@
+- id: superdata-7
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - <img src="images/top/top_g7net.gif"

@@ -1,0 +1,11 @@
+- id: xampp
+  name: Xampp
+  author: P001
+  tags:
+    - xampp
+  description: Xampp
+  matchers:
+    - location: body
+      words:
+        - content="xampp
+        - 'font-size: 1.2em; color: red;">new xampp'

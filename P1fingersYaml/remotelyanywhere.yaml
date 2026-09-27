@@ -1,0 +1,14 @@
+- id: remotelyanywhere
+  name: Remotelyanywhere
+  author: P001
+  tags:
+    - remotelyanywhere
+  description: Remotelyanywhere
+  matchers:
+    - location: body
+      words:
+        - 'server: remotelyanywhere'
+        - /img/ralogo.png" alt="remotelyanywhere
+    - location: header
+      words:
+        - 'Server: RemotelyAnywhere'

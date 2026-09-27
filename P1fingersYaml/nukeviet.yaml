@@ -1,0 +1,10 @@
+- id: nukeviet
+  name: NukeViet
+  author: P1finger
+  tags:
+    - nukeviet
+  description: NukeViet
+  matchers:
+    - location: body
+      words:
+        - content="NukeViet

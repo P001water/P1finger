@@ -1,0 +1,10 @@
+- id: trs-6
+  name: TRS
+  author: P1finger
+  tags:
+    - trs
+  description: TRS
+  matchers:
+    - location: body
+      words:
+        - trs_web_style.css

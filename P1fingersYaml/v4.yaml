@@ -1,0 +1,22 @@
+- id: feixinshuzihuagongmuxinxiv40
+  name: FeixinshuzihuagongmuxinxiV40 Management System
+  author: P1finger
+  tags:
+    - feixinshuzihuagongmuxinxiv40
+    - management-system
+  description: FeixinshuzihuagongmuxinxiV40 Management System
+  matchers:
+    - location: body
+      words:
+        - 飞信数字化公墓信息管理系统V4.0
+- id: superdata-4-management-system
+  name: Superdata Management System
+  author: P1finger
+  tags:
+    - superdata
+    - management-system
+  description: Superdata Management System
+  matchers:
+    - location: body
+      words:
+        - 速达V4.Net财务

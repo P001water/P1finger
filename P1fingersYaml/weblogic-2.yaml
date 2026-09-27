@@ -1,0 +1,15 @@
+- id: weblogic-2
+  name: Detect Weblogic
+  author: nuclei
+  tags:
+  - weblogic
+  - intrusive
+  description: Detect Weblogic
+  paths:
+  - /{{randstr}}
+  matchers:
+  - location: body
+    words:
+    - From RFC 2068
+    - Error 404--Not Found
+    condition: and

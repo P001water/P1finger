@@ -1,0 +1,15 @@
+- id: rancher
+  name: Rancher
+  author: P001
+  tags:
+    - rancher
+  description: Rancher
+  matchers:
+    - hash:
+        - 51c2a7a38f5eb8b2c5577375a2633827
+      location: favicon
+    - condition: and
+      location: body
+      words:
+        - <title>loading&hellip;</title>
+        - ember-basic-dropdown-wormhole

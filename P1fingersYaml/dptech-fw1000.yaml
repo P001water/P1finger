@@ -1,0 +1,12 @@
+- id: dptech-fw1000
+  name: Dptech FW1000
+  author: P1finger
+  tags:
+  - dptech
+  - dptech-fw1000
+  description: Dptech FW1000
+  matchers:
+  - location: body
+    words:
+    - dptech fw1000
+    - 图片中显示迪普科技

@@ -1,0 +1,12 @@
+- id: easethinkyixiangtuangou
+  name: Easethinkyixiangtuangou Management System
+  author: P1finger
+  tags:
+    - easethinkyixiangtuangou
+    - management-system
+  description: Easethinkyixiangtuangou Management System
+  matchers:
+    - location: body
+      words:
+        - easethink
+        - 易想团购管理系统

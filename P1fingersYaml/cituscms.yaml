@@ -1,0 +1,22 @@
+- id: cituscms
+  name: CitusCMS
+  author: Fofa
+  tags:
+    - cituscms
+  description: CitusCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by CitusCMS
+    - condition: or
+      location: body
+      words:
+        - <strong>CitusCMS</strong>
+    - condition: or
+      location: body
+      words:
+        - content="CitusCMS
+    - location: body
+      words:
+        - CitusCMS

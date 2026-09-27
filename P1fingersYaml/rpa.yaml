@@ -1,0 +1,11 @@
+- id: daguanrpa
+  name: DaguanRPA
+  author: P1finger
+  tags:
+    - daguanrpa
+  description: DaguanRPA
+  matchers:
+    - location: body
+      words:
+        - <title>RPA</title>
+        - DataGrand

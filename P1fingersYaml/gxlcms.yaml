@@ -1,0 +1,11 @@
+- id: gxlcms
+  name: GxlCMS
+  author: P1finger
+  tags:
+    - gxlcms
+  description: GxlCMS
+  matchers:
+    - location: body
+      words:
+        - uploads/ting
+        - bookShadow

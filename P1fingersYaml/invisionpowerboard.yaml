@@ -1,0 +1,14 @@
+- id: invisionpowerboard
+  name: InvisionPowerBoard
+  author: Fofa
+  tags:
+    - invisionpowerboard
+  description: InvisionPowerBoard
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://www.invisionboard.com
+    - location: body
+      words:
+        - Powered by <a href="http://www.invisionboard.com

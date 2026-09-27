@@ -1,0 +1,26 @@
+- id: jumpserver
+  name: Jumpserver
+  author: P1finger
+  tags:
+    - jumpserver
+  description: Jumpserver
+  matchers:
+    - location: body
+      words:
+        - /static/img/facio.jico
+        - JumpServer</title>
+- id: jumpserver-2
+  name: JumpServer
+  author: P001
+  tags:
+    - jumpserver
+  description: JumpServer
+  matchers:
+    - hash:
+        - 20334371817c7368907b5ea52aab2d9e
+      location: favicon
+    - location: body
+      words:
+        - <a href="/users/password/forgot/">
+        - csrfmiddlewaretoken
+        - jumpserver

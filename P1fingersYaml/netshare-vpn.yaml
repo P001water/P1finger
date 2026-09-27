@@ -1,0 +1,12 @@
+- id: chengdouruikenetsharevpn
+  name: ChengdouruikeNetShareVPN
+  author: Fofa
+  tags:
+    - chengdouruikenetsharevpn
+  description: ChengdouruikeNetShareVPN
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - NetShare
+        - VPN

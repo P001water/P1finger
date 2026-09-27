@@ -1,0 +1,10 @@
+- id: aruba-3
+  name: Aruba
+  author: P1finger
+  tags:
+    - aruba
+  description: Aruba
+  matchers:
+    - hash:
+        - "1142227528"
+      location: favicon

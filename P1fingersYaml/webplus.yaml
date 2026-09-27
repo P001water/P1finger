@@ -1,0 +1,18 @@
+- id: webplus
+  name: Webplus
+  author: Fofa
+  tags:
+    - webplus
+  description: Webplus
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - webplus
+    - condition: and
+      location: body
+      words:
+        - 高校网站群管理平台
+    - location: body
+      words:
+        - Webplus

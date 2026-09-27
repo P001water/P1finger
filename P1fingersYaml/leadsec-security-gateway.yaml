@@ -1,0 +1,12 @@
+- id: leadsec
+  name: Leadsec-security-gateway
+  author: P001
+  tags:
+    - leadsec
+  description: Leadsec-security-gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 安全系统
+        - 网御星云

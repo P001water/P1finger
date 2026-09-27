@@ -1,0 +1,15 @@
+- id: blognplus
+  name: BlognPlus
+  author: Fofa
+  tags:
+    - blognplus
+  description: BlognPlus
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="http://www.blogn.org
+        - Powered by
+    - location: body
+      words:
+        - href="http://www.blogn.org

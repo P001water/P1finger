@@ -1,0 +1,10 @@
+- id: oceanbase
+  name: OceanBase
+  author: P1finger
+  tags:
+    - oceanbase
+  description: OceanBase
+  matchers:
+    - location: body
+      words:
+        - OceanBase 云平台

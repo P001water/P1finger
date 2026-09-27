@@ -1,0 +1,10 @@
+- id: cloudwise-dodp
+  name: Cloudwise-dodp
+  author: P001
+  tags:
+    - cloudwise-dodp
+  description: Cloudwise-dodp
+  matchers:
+    - location: body
+      words:
+        - /public/vendor/monaco/vs/loader.js

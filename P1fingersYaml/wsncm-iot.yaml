@@ -1,0 +1,10 @@
+- id: wsncm-iot
+  name: Wsncm-iot
+  author: P001
+  tags:
+    - wsncm-iot
+  description: Wsncm-iot
+  matchers:
+    - location: body
+      words:
+        - class="login">物联网供应链与金融风险管理服务

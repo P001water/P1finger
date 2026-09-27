@@ -1,0 +1,12 @@
+- id: oracle-iplanet
+  name: Oracle IPlanet
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-iplanet
+  description: Oracle IPlanet
+  matchers:
+  - location: header
+    words:
+    - Oracle-iPlanet
+    - Oracle iPlanet Web Server

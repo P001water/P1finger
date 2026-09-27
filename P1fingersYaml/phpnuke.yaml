@@ -1,0 +1,10 @@
+- id: phpnuke
+  name: Phpnuke
+  author: P1finger
+  tags:
+    - phpnuke
+  description: Phpnuke
+  matchers:
+    - location: body
+      words:
+        - phpnuke.gif

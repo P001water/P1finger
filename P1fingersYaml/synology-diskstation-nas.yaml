@@ -1,0 +1,15 @@
+- id: synology-diskstation-nas
+  name: Synology-diskstation-nas
+  author: P001
+  tags:
+  - synology
+  - synology-diskstation-nas
+  description: Synology-diskstation-nas
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - diskstation
+    - modules
+    - <meta name="application-name" content="synology diskstation
+    - webman/modules

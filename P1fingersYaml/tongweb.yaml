@@ -1,0 +1,21 @@
+- id: dongfangtongyingyongfuwuqitongweb
+  name: DongfangtongyingyongfuwuqiTongWeb
+  author: Fofa
+  tags:
+    - dongfangtongyingyongfuwuqitongweb
+  description: DongfangtongyingyongfuwuqiTongWeb
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - TongWeb Server
+- id: tongweb
+  name: Tongweb
+  author: P1finger
+  tags:
+    - tongweb
+  description: Tongweb
+  matchers:
+    - location: header
+      words:
+        - TongWeb Serve

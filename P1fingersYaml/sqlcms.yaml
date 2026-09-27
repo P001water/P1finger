@@ -1,0 +1,10 @@
+- id: sqlcms
+  name: SQLCMS
+  author: P1finger
+  tags:
+    - sqlcms
+  description: SQLCMS
+  matchers:
+    - location: body
+      words:
+        - title="SQLCMS

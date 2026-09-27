@@ -1,0 +1,10 @@
+- id: gleezcms
+  name: GleezCMS
+  author: P1finger
+  tags:
+    - gleezcms
+  description: GleezCMS
+  matchers:
+    - location: body
+      words:
+        - 'X-Powered-By: Gleez CMS'

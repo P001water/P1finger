@@ -1,0 +1,10 @@
+- id: netflix
+  name: Netflix
+  author: P1finger
+  tags:
+    - netflix
+  description: Netflix
+  matchers:
+    - hash:
+        - "902521196"
+      location: favicon

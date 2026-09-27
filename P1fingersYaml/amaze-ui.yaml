@@ -1,0 +1,12 @@
+- id: amaze-ui
+  name: Amaze-ui
+  author: P001
+  tags:
+    - amaze-ui
+  description: Amaze-ui
+  matchers:
+    - location: body
+      words:
+        - amazeui.css
+        - amazeui.js
+        - amazeui.min.js

@@ -1,0 +1,10 @@
+- id: pcitc-sslvpn
+  name: Pcitc-sslvpn
+  author: P001
+  tags:
+    - pcitc-sslvpn
+  description: Pcitc-sslvpn
+  matchers:
+    - location: body
+      words:
+        - src="new_style/placeholderfriend.js"

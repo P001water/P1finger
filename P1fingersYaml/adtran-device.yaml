@@ -1,0 +1,25 @@
+- id: adtran
+  name: Adtran-device
+  author: P1finger
+  tags:
+    - adtran
+  description: Adtran-device
+  matchers:
+    - location: header
+      words:
+        - NetVanta
+- id: adtran-2
+  name: ADTRAN-Device
+  author: Fofa
+  tags:
+    - adtran
+  description: ADTRAN-Device
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ADTRAN
+    - condition: or
+      location: header
+      words:
+        - NetVanta

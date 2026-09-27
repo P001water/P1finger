@@ -1,0 +1,30 @@
+- id: chiliproject
+  name: ChiliProject
+  author: Fofa
+  tags:
+    - chiliproject
+  description: ChiliProject
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="https://www.chiliproject.org/
+    - condition: or
+      location: body
+      words:
+        - content="ChiliProject
+    - condition: or
+      location: header
+      words:
+        - _chiliproject_session=
+    - location: body
+      words:
+        - chiliproject.org
+        - content="ChiliProject
+    - location: header
+      words:
+        - _chiliproject_session=
+    - location: body
+      words:
+        - content="chiliproject
+        - powered by <a href="https://www.chiliproject.org/

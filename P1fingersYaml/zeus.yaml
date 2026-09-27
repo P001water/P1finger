@@ -1,0 +1,14 @@
+- id: zeus
+  name: Zeus
+  author: Fofa
+  tags:
+    - zeus
+  description: Zeus
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: Zeus'
+    - location: header
+      words:
+        - 'Server: Zeus'

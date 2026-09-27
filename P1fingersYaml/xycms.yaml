@@ -1,0 +1,13 @@
+- id: xycms
+  name: Xycms
+  author: P001
+  tags:
+    - xycms
+  description: Xycms
+  matchers:
+    - location: body
+      words:
+        - advfile/ad12.js
+    - location: body
+      words:
+        - powered by xycms

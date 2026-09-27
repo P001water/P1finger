@@ -1,0 +1,13 @@
+- id: apache-axis2
+  name: Apache-axis2
+  author: P001
+  tags:
+  - apache
+  - apache-axis2
+  description: Apache-axis2
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - axis2-admin
+    - axis2-web

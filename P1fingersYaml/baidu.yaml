@@ -1,0 +1,48 @@
+- id: baidu
+  name: Baidu
+  author: P1finger
+  tags:
+    - baidu
+  description: Baidu
+  matchers:
+    - hash:
+        - "-1507567067"
+      location: favicon
+- id: baiduguanggaolianmeng
+  name: Baiduguanggaolianmeng
+  author: Fofa
+  tags:
+    - baiduguanggaolianmeng
+  description: Baiduguanggaolianmeng
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - http://cpro.baidu.com/cpro/ui/c.js
+    - condition: or
+      location: body
+      words:
+        - http://cbjs.baidu.com/js/m.js
+- id: baidutongji
+  name: Baidutongji
+  author: Fofa
+  tags:
+    - baidutongji
+  description: Baidutongji
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - hm.baidu.com/h.js
+- id: baiduzhanzhang-platform
+  name: Baiduzhanzhang Platform
+  author: Fofa
+  tags:
+    - baiduzhanzhang
+    - platform
+  description: Baiduzhanzhang Platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - baidu-site-verification

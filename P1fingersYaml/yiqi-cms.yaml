@@ -1,0 +1,10 @@
+- id: yiqi
+  name: Yiqi-cms
+  author: P001
+  tags:
+    - yiqi
+  description: Yiqi-cms
+  matchers:
+    - location: body
+      words:
+        - content="yiqicms

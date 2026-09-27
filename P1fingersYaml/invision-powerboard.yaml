@@ -1,0 +1,10 @@
+- id: invision-powerboard
+  name: Invision-powerboard
+  author: P001
+  tags:
+    - invision-powerboard
+  description: Invision-powerboard
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.invisionboard.com

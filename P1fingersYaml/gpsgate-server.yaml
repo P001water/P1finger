@@ -1,0 +1,21 @@
+- id: gpsgate
+  name: Gpsgate-server
+  author: P1finger
+  tags:
+    - gpsgate
+  description: Gpsgate-server
+  matchers:
+    - location: body
+      words:
+        - 'GpsGate Server - '
+- id: gpsgate-2
+  name: GpsGate-Server
+  author: Fofa
+  tags:
+    - gpsgate
+  description: GpsGate-Server
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 'GpsGate Server - '

@@ -1,0 +1,10 @@
+- id: westell-secure
+  name: Westell-secure
+  author: P001
+  tags:
+    - westell-secure
+  description: Westell-secure
+  matchers:
+    - location: body
+      words:
+        - 'server: wstl cpe'

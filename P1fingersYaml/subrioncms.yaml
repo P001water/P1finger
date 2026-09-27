@@ -1,0 +1,14 @@
+- id: subrioncms
+  name: SubrionCMS
+  author: Fofa
+  tags:
+    - subrioncms
+  description: SubrionCMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-Cms: Subrion CMS'
+    - location: header
+      words:
+        - 'X-Powered-Cms: Subrion CMS'

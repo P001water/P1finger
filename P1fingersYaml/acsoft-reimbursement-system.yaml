@@ -1,0 +1,13 @@
+- id: acsoft-reimbursement
+  name: Acsoft-reimbursement-system
+  author: P001
+  tags:
+    - acsoft-reimbursement
+  description: Acsoft-reimbursement-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <div id="dsitetitle"
+        - by:lin.zhibin
+        - indow.external.addfavorite(location.href,document.title);

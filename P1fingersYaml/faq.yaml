@@ -1,0 +1,10 @@
+- id: nanjingyunwenfaqkefujiqiren
+  name: NanjingyunwenFAQkefujiqiren
+  author: P1finger
+  tags:
+    - nanjingyunwenfaqkefujiqiren
+  description: NanjingyunwenFAQkefujiqiren
+  matchers:
+    - location: body
+      words:
+        - <meta name="keywords" content="FAQ客服机器人,

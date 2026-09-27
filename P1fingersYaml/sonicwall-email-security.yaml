@@ -1,0 +1,12 @@
+- id: sonicwall-email-security
+  name: SonicWall Email Security Panel
+  author: nuclei
+  tags:
+  - sonicwall
+  description: SonicWall Email Security panel was detected.
+  paths:
+  - /favicon.ico
+  matchers:
+  - location: favicon
+    hash:
+    - '2063459123'

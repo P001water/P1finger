@@ -1,0 +1,22 @@
+- id: atomic-photo-album
+  name: Atomic-photo-album
+  author: P1finger
+  tags:
+    - atomic-photo-album
+  description: Atomic-photo-album
+  matchers:
+    - location: body
+      words:
+        - Atomic Photo Album
+- id: atomic-photo-album-2
+  name: Atomic-Photo-Album
+  author: Fofa
+  tags:
+    - atomic-photo-album
+  description: Atomic-Photo-Album
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by
+        - Atomic Photo Album

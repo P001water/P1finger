@@ -1,0 +1,10 @@
+- id: kliqqicms
+  name: KliqqiCMS
+  author: P1finger
+  tags:
+    - kliqqicms
+  description: KliqqiCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="Kliqqi" />

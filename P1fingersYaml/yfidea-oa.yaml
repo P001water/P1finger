@@ -1,0 +1,10 @@
+- id: yfidea
+  name: Yfidea-oa
+  author: P001
+  tags:
+    - yfidea
+  description: Yfidea-oa
+  matchers:
+    - location: body
+      words:
+        - background="oa/images/index/oalogin.jpg"

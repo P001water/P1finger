@@ -1,0 +1,30 @@
+- id: astaro-command
+  name: Astaro-command-center
+  author: P1finger
+  tags:
+    - astaro-command
+  description: Astaro-command-center
+  matchers:
+    - location: body
+      words:
+        - /acc_aggregated_reporting.js
+        - /js/_variables_from_backend.js?
+    - location: body
+      words:
+        - /js/_variables_from_backend.js?
+        - commandcenter
+- id: astaro-command-2
+  name: Astaro-Command-Center
+  author: Fofa
+  tags:
+    - astaro-command
+  description: Astaro-Command-Center
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /acc_aggregated_reporting.js
+    - condition: or
+      location: body
+      words:
+        - /js/_variables_from_backend.js?

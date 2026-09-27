@@ -1,0 +1,15 @@
+- id: lime-survey
+  name: Lime-survey
+  author: P001
+  tags:
+    - lime-survey
+  description: Lime-survey
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="limesurvey
+        - href="http://www.limesurvey.org" target="_blank
+    - location: body
+      words:
+        - content="LimeSurvey

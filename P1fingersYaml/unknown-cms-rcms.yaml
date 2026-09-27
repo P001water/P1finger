@@ -1,0 +1,15 @@
+- id: unknown-rcms
+  name: Unknown_cms_rcms
+  author: Fofa
+  tags:
+    - unknown-rcms
+  description: Unknown_cms_rcms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - r/cms/www
+    - condition: and
+      location: header
+      words:
+        - clientlanguage

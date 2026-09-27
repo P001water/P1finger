@@ -1,0 +1,12 @@
+- id: conking-schoolgroup
+  name: Conking-schoolgroup
+  author: P001
+  tags:
+    - conking-schoolgroup
+  description: Conking-schoolgroup
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - javascripts/float.js
+        - vcxvcxv

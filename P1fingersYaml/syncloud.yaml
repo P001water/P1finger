@@ -1,0 +1,10 @@
+- id: syncloud
+  name: Syncloud
+  author: P1finger
+  tags:
+    - syncloud
+  description: Syncloud
+  matchers:
+    - location: body
+      words:
+        - syncloud

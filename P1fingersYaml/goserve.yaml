@@ -1,0 +1,14 @@
+- id: goserve
+  name: GoServe
+  author: Fofa
+  tags:
+    - goserve
+  description: GoServe
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - GoServe
+    - location: header
+      words:
+        - GoServe

@@ -1,0 +1,21 @@
+- id: escenic
+  name: Escenic
+  author: Fofa
+  tags:
+    - escenic
+  description: Escenic
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Escenic
+    - condition: or
+      location: body
+      words:
+        - <!-- Start Escenic Analysis Engine client script -->
+    - location: body
+      words:
+        - Escenic
+    - location: body
+      words:
+        - content="Escenic"

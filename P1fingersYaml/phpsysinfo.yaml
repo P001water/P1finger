@@ -1,0 +1,13 @@
+- id: phpsysinfo
+  name: Phpsysinfo
+  author: P001
+  tags:
+    - phpsysinfo
+  description: Phpsysinfo
+  matchers:
+    - location: body
+      words:
+        - /templates/phpsysinfo.css
+        - content="phpsysinfo
+        - href="http://phpsysinfo.sourceforge.net/">phpsysinfo
+        - var stargeturl = "index.php?disp=dynamic

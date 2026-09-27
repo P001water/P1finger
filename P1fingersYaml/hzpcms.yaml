@@ -1,0 +1,11 @@
+- id: hzpcms-management-system
+  name: HZPCMS Management System
+  author: P1finger
+  tags:
+    - hzpcms
+    - management-system
+  description: HZPCMS Management System
+  matchers:
+    - location: body
+      words:
+        - <title>HZPCMS管理系统

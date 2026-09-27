@@ -1,0 +1,11 @@
+- id: byzoro
+  name: Byzoro Security Gateway
+  author: P1finger
+  tags:
+    - byzoro
+  description: Byzoro Security Gateway
+  matchers:
+    - location: body
+      words:
+        - patflow--管理平台
+        - '&nbsp;patrolflow 多业务安全网关'

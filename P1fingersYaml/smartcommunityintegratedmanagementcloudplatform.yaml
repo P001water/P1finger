@@ -1,0 +1,10 @@
+- id: smartcommunityintegratedmanagementcloudplatform
+  name: Smartcommunityintegratedmanagementcloudplatform
+  author: P001
+  tags:
+    - smartcommunityintegratedmanagementcloudplatform
+  description: Smartcommunityintegratedmanagementcloudplatform
+  matchers:
+    - location: body
+      words:
+        - class="container_huanlegendtext"

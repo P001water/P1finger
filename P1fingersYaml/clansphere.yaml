@@ -1,0 +1,19 @@
+- id: clansphere
+  name: ClanSphere
+  author: Fofa
+  tags:
+    - clansphere
+  description: ClanSphere
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="ClanSphere
+    - condition: or
+      location: body
+      words:
+        - index.php?mod=clansphere&amp;action=about
+    - location: body
+      words:
+        - content="ClanSphere
+        - index.php?mod=clansphere&amp;action=about

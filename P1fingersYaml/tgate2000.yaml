@@ -1,0 +1,10 @@
+- id: tgate2000
+  name: TGate2000
+  author: P1finger
+  tags:
+    - tgate2000
+  description: TGate2000
+  matchers:
+    - location: body
+      words:
+        - TGate2000

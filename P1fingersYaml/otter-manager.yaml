@@ -1,0 +1,12 @@
+- id: alibabaottermanager
+  name: Alibabaottermanager
+  author: P001
+  tags:
+    - alibabaottermanager
+  description: Alibabaottermanager
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - otter manager
+        - channellist

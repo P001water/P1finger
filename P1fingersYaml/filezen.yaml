@@ -1,0 +1,10 @@
+- id: filezen
+  name: FileZen
+  author: P1finger
+  tags:
+    - filezen
+  description: FileZen
+  matchers:
+    - location: body
+      words:
+        - FileZen

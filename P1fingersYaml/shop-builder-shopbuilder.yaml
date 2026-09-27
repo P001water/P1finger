@@ -1,0 +1,13 @@
+- id: shop-builder-shopbuilder
+  name: Shop_builder-shopbuilder
+  author: P001
+  tags:
+    - shop-builder-shopbuilder
+  description: Shop_builder-shopbuilder
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="shopbuilder
+        - powered by shopbuilder
+        - shopbuilder版权所有

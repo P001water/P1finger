@@ -1,0 +1,10 @@
+- id: crafter
+  name: Crafter CMS
+  author: P1finger
+  tags:
+    - crafter
+  description: Crafter CMS
+  matchers:
+    - location: body
+      words:
+        - Crafter CMS

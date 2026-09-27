@@ -1,0 +1,44 @@
+- id: tcljingyunshuju
+  name: TCLjingyunshuju Management Platform
+  author: P1finger
+  tags:
+    - tcljingyunshuju
+    - management-platform
+  description: TCLjingyunshuju Management Platform
+  matchers:
+    - location: body
+      words:
+        - TCL警云数据管理平台
+- id: tclrencai-management-system
+  name: TCLrencai Management System
+  author: P1finger
+  tags:
+    - tclrencai
+    - management-system
+  description: TCLrencai Management System
+  matchers:
+    - location: body
+      words:
+        - TCL人才管理系统
+- id: tclo2o
+  name: TCLO2O Document Management System
+  author: P1finger
+  tags:
+    - tclo2o
+    - document-management-system
+  description: TCLO2O Document Management System
+  matchers:
+    - location: body
+      words:
+        - TCL O2O 文档管理系统
+- id: tclzhinengnuantong-erp-system
+  name: TCLzhinengnuantong ERP System
+  author: P1finger
+  tags:
+    - tclzhinengnuantong
+    - erp-system
+  description: TCLzhinengnuantong ERP System
+  matchers:
+    - location: body
+      words:
+        - TCL智能暖通ERP系统

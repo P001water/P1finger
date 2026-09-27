@@ -1,0 +1,24 @@
+- id: esvon-classifieds
+  name: Esvon-classifieds
+  author: P1finger
+  tags:
+    - esvon-classifieds
+  description: Esvon-classifieds
+  matchers:
+    - location: body
+      words:
+        - Powered by Esvon
+    - location: body
+      words:
+        - powered by esvon
+- id: esvon-classifieds-2
+  name: Esvon-Classifieds
+  author: Fofa
+  tags:
+    - esvon-classifieds
+  description: Esvon-Classifieds
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by Esvon

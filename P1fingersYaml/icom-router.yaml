@@ -1,0 +1,21 @@
+- id: icom
+  name: Icom-router
+  author: P1finger
+  tags:
+    - icom
+  description: Icom-router
+  matchers:
+    - location: header
+      words:
+        - Icom HTTP Server
+- id: icom-2
+  name: ICOM-Router
+  author: Fofa
+  tags:
+    - icom
+  description: ICOM-Router
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Icom HTTP Server

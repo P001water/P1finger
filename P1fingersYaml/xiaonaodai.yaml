@@ -1,0 +1,10 @@
+- id: xiaonaodai-2
+  name: Xiaonaodai
+  author: P001
+  tags:
+    - xiaonaodai
+  description: Xiaonaodai
+  matchers:
+    - location: body
+      words:
+        - http://stat.xiaonaodai.com/stat.php

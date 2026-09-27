@@ -1,0 +1,10 @@
+- id: pragmamx
+  name: PragmaMx
+  author: P1finger
+  tags:
+    - pragmamx
+  description: PragmaMx
+  matchers:
+    - location: body
+      words:
+        - content="pragmaMx

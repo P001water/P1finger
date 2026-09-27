@@ -1,0 +1,19 @@
+- id: qno
+  name: QNO_Router
+  author: Fofa
+  tags:
+    - qno
+  description: QNO_Router
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /QNOVirtual_Keyboard.js
+    - condition: and
+      location: body
+      words:
+        - /images/login_img01_03.gif
+    - location: body
+      words:
+        - /QNOVirtual_Keyboard.js
+        - /images/login_img01_03.gif

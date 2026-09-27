@@ -1,0 +1,25 @@
+- id: content-policy
+  name: Content-security-policy
+  author: P1finger
+  tags:
+    - content-policy
+  description: Content-security-policy
+  matchers:
+    - location: header
+      words:
+        - x-webkit-csp
+- id: content-policy-2
+  name: Content-Security-Policy
+  author: Fofa
+  tags:
+    - content-policy
+  description: Content-Security-Policy
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - x-content-security-policy
+    - condition: or
+      location: header
+      words:
+        - x-webkit-csp

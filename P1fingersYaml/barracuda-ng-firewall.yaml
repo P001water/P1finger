@@ -1,0 +1,10 @@
+- id: barracuda-ng
+  name: Barracuda NG Firewall
+  author: P1finger
+  tags:
+    - barracuda-ng
+  description: Barracuda NG Firewall
+  matchers:
+    - location: header
+      words:
+        - barracuda ng firewall

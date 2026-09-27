@@ -1,0 +1,13 @@
+- id: jstorm
+  name: Jstorm
+  author: P001
+  tags:
+    - jstorm
+  description: Jstorm
+  matchers:
+    - location: body
+      words:
+        - content="jstorm
+    - location: body
+      words:
+        - <title>Jstorm</title>

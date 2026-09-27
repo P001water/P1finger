@@ -1,0 +1,10 @@
+- id: honeypot
+  name: Honeypot
+  author: P001
+  tags:
+    - honeypot
+  description: Honeypot
+  matchers:
+    - location: body
+      words:
+        - <h2>blog comments</h2>

@@ -1,0 +1,34 @@
+- id: bacula
+  name: Bacula-web
+  author: P1finger
+  tags:
+    - bacula
+  description: Bacula-web
+  matchers:
+    - location: body
+      words:
+        - Webacula
+        - bacula-web
+- id: bacula-2
+  name: Bacula-web
+  author: Fofa
+  tags:
+    - bacula
+  description: Bacula-web
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Webacula
+    - condition: or
+      location: title
+      words:
+        - Bacula Web
+    - condition: or
+      location: title
+      words:
+        - Bacula-Web
+    - condition: or
+      location: title
+      words:
+        - bacula-web

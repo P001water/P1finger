@@ -1,0 +1,10 @@
+- id: bowen-providence-car-loading-reservation
+  name: Bowen-providence-car-loading-reservation-system
+  author: P001
+  tags:
+    - bowen-providence-car-loading-reservation
+  description: Bowen-providence-car-loading-reservation-system
+  matchers:
+    - location: body
+      words:
+        - /public/base/js/plugins/crypto/rsa.js

@@ -1,0 +1,11 @@
+- id: mjniohttpdaemon
+  name: Mjniohttpdaemon
+  author: P001
+  tags:
+    - mjniohttpdaemon
+  description: Mjniohttpdaemon
+  matchers:
+    - location: body
+      words:
+        - 'server: mjniohttpdaemon'
+        - 'set-cookie: mjniohttpdsessionid'

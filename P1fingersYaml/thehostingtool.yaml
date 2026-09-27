@@ -1,0 +1,12 @@
+- id: thehostingtool
+  name: Thehostingtool
+  author: P001
+  tags:
+    - thehostingtool
+  description: Thehostingtool
+  matchers:
+    - location: body
+      words:
+        - <a href="http://thehostingtool.com" target="_blank">thehostingtool</a>
+        - <td width="20%"><strong>server os:</strong></td>
+        - page=status&sub=phpinfo">phpinfo</a>)</td>

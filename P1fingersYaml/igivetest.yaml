@@ -1,0 +1,21 @@
+- id: igivetest
+  name: IGiveTest
+  author: Fofa
+  tags:
+    - igivetest
+  description: IGiveTest
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by iGiveTest
+    - condition: or
+      location: header
+      words:
+        - IGTSESSID
+    - location: body
+      words:
+        - Powered by iGiveTest
+    - location: header
+      words:
+        - IGTSESSID

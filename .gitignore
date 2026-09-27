@@ -8,11 +8,7 @@ Makefile
 compile_commands.json
 
 release/
-p1finger.json
-output.yaml
-test/
-test/redTeam.yaml
-test/redteam.txt
+.gocache/
 
 sync.ffs_db
 

@@ -1,0 +1,13 @@
+- id: lidakexunldt-security-gateway
+  name: Lidakexunldt Security Gateway
+  author: P001
+  tags:
+    - lidakexunldt
+    - security-gateway
+  description: Lidakexunldt Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <body onload="chkversion();setlanguage();loading()" onkeydown="keylogin(event);">
+        - 湖北力达科讯

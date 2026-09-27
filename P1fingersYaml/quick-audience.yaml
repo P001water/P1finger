@@ -1,0 +1,10 @@
+- id: quick-audience
+  name: Quick Audience
+  author: P1finger
+  tags:
+    - quick-audience
+  description: Quick Audience
+  matchers:
+    - location: body
+      words:
+        - Quick Audience账号

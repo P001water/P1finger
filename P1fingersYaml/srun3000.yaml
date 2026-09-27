@@ -1,0 +1,15 @@
+- id: srun3000jifeirenzheng-system
+  name: Srun3000jifeirenzheng System
+  author: Fofa
+  tags:
+    - srun3000jifeirenzheng
+    - system
+  description: Srun3000jifeirenzheng System
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - srun3000
+    - location: body
+      words:
+        - srun3000

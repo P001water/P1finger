@@ -1,0 +1,14 @@
+- id: lanyeye
+  name: Lanyeye
+  author: P001
+  tags:
+    - lanyeye
+  description: Lanyeye
+  matchers:
+    - location: body
+      words:
+        - /skin/admin/img/login/laneye.png
+        - <font>兰眼下一代威胁感知系统</font>
+    - location: body
+      words:
+        - /skin/admin/img/login/laneye.png

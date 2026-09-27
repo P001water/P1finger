@@ -1,0 +1,15 @@
+- id: yui
+  name: Yui
+  author: Fofa
+  tags:
+    - yui
+  description: Yui
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - yui.js
+    - condition: or
+      location: body
+      words:
+        - yui.min.js

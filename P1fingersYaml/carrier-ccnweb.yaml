@@ -1,0 +1,26 @@
+- id: carrier-ccnweb
+  name: Carrier-ccnweb
+  author: P1finger
+  tags:
+    - carrier-ccnweb
+  description: Carrier-ccnweb
+  matchers:
+    - location: body
+      words:
+        - /images/CCNWeb.gif
+        - <APPLET CODE="JLogin.class" ARCHIVE="JLogin.jar
+- id: carrier-ccnweb-2
+  name: Carrier-CCNWeb
+  author: Fofa
+  tags:
+    - carrier-ccnweb
+  description: Carrier-CCNWeb
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /images/CCNWeb.gif
+    - condition: or
+      location: body
+      words:
+        - <APPLET CODE="JLogin.class" ARCHIVE="JLogin.jar

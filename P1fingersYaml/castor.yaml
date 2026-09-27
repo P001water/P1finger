@@ -1,0 +1,14 @@
+- id: castor
+  name: CAStor
+  author: Fofa
+  tags:
+    - castor
+  description: CAStor
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CAStor
+    - location: header
+      words:
+        - CAStor

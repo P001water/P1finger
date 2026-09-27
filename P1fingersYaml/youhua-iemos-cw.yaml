@@ -1,0 +1,10 @@
+- id: youhua-iemos-cw
+  name: Youhua-iemos_cw
+  author: P001
+  tags:
+    - youhua-iemos-cw
+  description: Youhua-iemos_cw
+  matchers:
+    - location: body
+      words:
+        - var id = document.getelementbyid("txtyhmm").value

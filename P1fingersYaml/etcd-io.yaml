@@ -1,0 +1,13 @@
+- id: etcd-io
+  name: Etcd-io
+  author: P001
+  tags:
+  - etcd
+  - etcd-io
+  description: Etcd-io
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - etcdcluster
+    - etcdserver

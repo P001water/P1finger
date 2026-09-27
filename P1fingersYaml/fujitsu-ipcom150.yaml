@@ -1,0 +1,10 @@
+- id: fujitsu-ipcom150
+  name: Fujitsu IPCOM150
+  author: P1finger
+  tags:
+    - fujitsu-ipcom150
+  description: Fujitsu IPCOM150
+  matchers:
+    - location: header
+      words:
+        - fujitsu-ipcom150

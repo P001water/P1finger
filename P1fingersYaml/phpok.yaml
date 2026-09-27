@@ -1,0 +1,31 @@
+- id: phpok
+  name: Phpok
+  author: P1finger
+  tags:
+    - phpok
+  description: Phpok
+  matchers:
+    - location: body
+      words:
+        - phpok
+        - Powered By phpok.com
+        - content="phpok
+    - condition: or
+      location: title
+      words:
+        - phpok
+    - condition: or
+      location: body
+      words:
+        - Powered By phpok.com
+    - condition: or
+      location: body
+      words:
+        - content="phpok
+    - hash:
+        - 1091f8722e63111e50302ecbfdd6e975
+        - aea2803f24d6f4156bde7681f17c3253
+      location: favicon
+    - location: body
+      words:
+        - <meta name="author" content="phpok,

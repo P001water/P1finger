@@ -1,0 +1,10 @@
+- id: jit-connector
+  name: Jit-web-connector
+  author: P001
+  tags:
+    - jit-connector
+  description: Jit-web-connector
+  matchers:
+    - location: body
+      words:
+        - location.href='/cgi-bin/cgiproxy.exe?action=start';

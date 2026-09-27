@@ -1,0 +1,14 @@
+- id: ewebeditor
+  name: Ewebeditor
+  author: Fofa
+  tags:
+    - ewebeditor
+  description: Ewebeditor
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /ewebeditor.htm?
+    - location: body
+      words:
+        - /ewebeditor.htm?

@@ -1,0 +1,31 @@
+- id: sma-sunny-webbox
+  name: Sma-sunny_webbox
+  author: P001
+  tags:
+    - sma-sunny-webbox
+  description: Sma-sunny_webbox
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv="refresh" content="0; url=/culture/index.dml">
+- id: sma-sunny-webbox-2
+  name: SMA_Sunny_Webbox
+  author: Fofa
+  tags:
+    - sma-sunny-webbox
+  description: SMA_Sunny_Webbox
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - SMA Sunny Webbox
+    - condition: or
+      location: header
+      words:
+        - 'Server: WebBox-20'
+    - location: body
+      words:
+        - SMA Sunny Webbox
+    - location: header
+      words:
+        - 'Server: WebBox-20'

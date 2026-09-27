@@ -1,0 +1,12 @@
+- id: phplist
+  name: Phplist
+  author: P001
+  tags:
+    - phplist
+  description: Phplist
+  matchers:
+    - location: body
+      words:
+        - '&copy; <a href="http://phplist.com" target'
+        - content="michiel dethmers - http://www.phplist.com
+        - content="phplist version

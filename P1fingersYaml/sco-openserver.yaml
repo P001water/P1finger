@@ -1,0 +1,11 @@
+- id: sco-openserver
+  name: Sco-openserver
+  author: P001
+  tags:
+    - sco-openserver
+  description: Sco-openserver
+  matchers:
+    - location: body
+      words:
+        - gif/rlogo1.gif
+        - sco corporate web site

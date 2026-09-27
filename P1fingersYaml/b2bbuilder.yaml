@@ -1,0 +1,28 @@
+- id: b2bbuilder
+  name: B2bbuilder
+  author: Fofa
+  tags:
+    - b2bbuilder
+  description: B2bbuilder
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="B2Bbuilder
+    - condition: or
+      location: body
+      words:
+        - translateButtonId = "B2Bbuilder
+    - location: body
+      words:
+        - content="B2Bbuilder
+        - translateButtonId = "B2Bbuilder
+    - hash:
+        - "492941040"
+      location: favicon
+    - location: body
+      words:
+        - B2BBuilder
+    - location: header
+      words:
+        - B2Bbuilder

@@ -1,0 +1,12 @@
+- id: ueditor
+  name: UEditor
+  author: P1finger
+  tags:
+    - ueditor
+  description: UEditor
+  matchers:
+    - location: body
+      words:
+        - ueditor.all
+        - UE.getEditor
+        - ueditor.config.js

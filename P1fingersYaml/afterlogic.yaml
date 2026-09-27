@@ -1,0 +1,13 @@
+- id: afterlogic
+  name: Afterlogic
+  author: P1finger
+  tags:
+    - afterlogic
+  description: Afterlogic
+  matchers:
+    - location: body
+      words:
+        - AfterLogic WebMail Pro
+    - location: header
+      words:
+        - PHPWEBMAILSESSID

@@ -1,0 +1,10 @@
+- id: phpecms
+  name: Phpecms
+  author: P001
+  tags:
+    - phpecms
+  description: Phpecms
+  matchers:
+    - location: body
+      words:
+        - /plus/laydate/laydate.js

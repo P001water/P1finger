@@ -1,0 +1,11 @@
+- id: rocketmq
+  name: Rocketmq-console
+  author: P001
+  tags:
+    - rocketmq
+  description: Rocketmq-console
+  matchers:
+    - location: body
+      words:
+        - <title>rocketmq-console-ng</title>
+        - 'www-authenticate: basic realm="rocketmq"'

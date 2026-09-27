@@ -1,0 +1,24 @@
+- id: cybozu-garoon
+  name: Cybozu-garoon
+  author: P1finger
+  tags:
+    - cybozu-garoon
+  description: Cybozu-garoon
+  matchers:
+    - location: header
+      words:
+        - Cybozu-WS
+    - location: body
+      words:
+        - 'server: cybozu-ws'
+- id: cybozu-garoon-2
+  name: Cybozu-Garoon
+  author: Fofa
+  tags:
+    - cybozu-garoon
+  description: Cybozu-Garoon
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Cybozu-WS

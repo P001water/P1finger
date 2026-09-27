@@ -1,0 +1,10 @@
+- id: shopxx
+  name: Shopxx
+  author: P1finger
+  tags:
+    - shopxx
+  description: Shopxx
+  matchers:
+    - location: body
+      words:
+        - shopxx.net

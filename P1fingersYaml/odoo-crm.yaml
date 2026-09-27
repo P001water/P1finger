@@ -1,0 +1,10 @@
+- id: odoo-crm
+  name: Odoo CRM
+  author: P1finger
+  tags:
+    - odoo-crm
+  description: Odoo CRM
+  matchers:
+    - location: body
+      words:
+        - odoo

@@ -1,0 +1,11 @@
+- id: alicms
+  name: Alicms
+  author: P1finger
+  tags:
+    - alicms
+  description: Alicms
+  matchers:
+    - location: body
+      words:
+        - Alicms.chatPlugin
+        - Alicms.userNav

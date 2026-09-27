@@ -1,0 +1,10 @@
+- id: socomec-webserver
+  name: Socomec-webserver
+  author: P001
+  tags:
+    - socomec-webserver
+  description: Socomec-webserver
+  matchers:
+    - location: body
+      words:
+        - diag.htm?src=index

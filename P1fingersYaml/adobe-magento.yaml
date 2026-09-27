@@ -1,0 +1,13 @@
+- id: adobe-magento
+  name: Adobe-magento
+  author: P001
+  tags:
+  - magento
+  - adobe
+  - adobe-magento
+  description: Adobe-magento
+  matchers:
+  - location: body
+    words:
+    - /skin/frontend/
+    - blank_img

@@ -1,0 +1,10 @@
+- id: funadmin
+  name: FunAdmin
+  author: P1finger
+  tags:
+    - funadmin
+  description: FunAdmin
+  matchers:
+    - location: body
+      words:
+        - FunAdmin

@@ -1,0 +1,10 @@
+- id: 54kefu
+  name: 54kefu
+  author: P1finger
+  tags:
+    - 54kefu
+  description: 54kefu
+  matchers:
+    - location: body
+      words:
+        - http://code2.54kefu.net/kefu/

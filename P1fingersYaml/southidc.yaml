@@ -1,0 +1,12 @@
+- id: southidc
+  name: Southidc
+  author: P001
+  tags:
+    - southidc
+  description: Southidc
+  matchers:
+    - location: body
+      words:
+        - /southidcj2f.js
+        - /southidckefu.js
+        - content="copyright 2003-2015 - southidc.net

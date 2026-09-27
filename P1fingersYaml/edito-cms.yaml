@@ -1,0 +1,29 @@
+- id: edito
+  name: Edito-cms
+  author: P1finger
+  tags:
+    - edito
+  description: Edito-cms
+  matchers:
+    - location: body
+      words:
+        - content="edito
+        - title="CMS" href="http://www.edito.pl/
+    - location: body
+      words:
+        - title="Edito CMS
+- id: edito-2
+  name: Edito-CMS
+  author: Fofa
+  tags:
+    - edito
+  description: Edito-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="edito
+    - condition: or
+      location: body
+      words:
+        - title="CMS" href="http://www.edito.pl/

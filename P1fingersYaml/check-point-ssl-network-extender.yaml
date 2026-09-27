@@ -1,0 +1,21 @@
+- id: check-point-ssl-extender
+  name: Check-point-ssl-network-extender
+  author: P1finger
+  tags:
+    - check-point-ssl-extender
+  description: Check-point-ssl-network-extender
+  matchers:
+    - location: header
+      words:
+        - Check Point SVN foundation
+- id: check-point-ssl-extender-2
+  name: Check-Point-SSL-Network-Extender
+  author: Fofa
+  tags:
+    - check-point-ssl-extender
+  description: Check-Point-SSL-Network-Extender
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Check Point SVN foundation

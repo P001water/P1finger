@@ -1,0 +1,14 @@
+- id: mod-evasive
+  name: Mod_evasive
+  author: Fofa
+  tags:
+    - mod-evasive
+  description: Mod_evasive
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_evasive
+    - location: header
+      words:
+        - mod_evasive

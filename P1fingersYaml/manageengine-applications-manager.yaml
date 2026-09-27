@@ -1,0 +1,10 @@
+- id: manageengine-applications-manager
+  name: Manageengine-applications-manager
+  author: P001
+  tags:
+    - manageengine-applications-manager
+  description: Manageengine-applications-manager
+  matchers:
+    - location: body
+      words:
+        - /appmanager.js

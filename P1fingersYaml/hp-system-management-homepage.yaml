@@ -1,0 +1,34 @@
+- id: hp-homepage
+  name: Hp-system-management-homepage
+  author: P1finger
+  tags:
+  - hp
+  - hp-homepage
+  description: Hp-system-management-homepage
+  matchers:
+  - location: body
+    words:
+    - HP System Management Homepage
+  - location: header
+    words:
+    - CompaqHTTPServer
+- id: hp-homepage-2
+  name: HP-System-Management-Homepage
+  author: Fofa
+  tags:
+  - hp
+  - hp-homepage
+  description: HP-System-Management-Homepage
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - HP System Management Homepage
+  - condition: or
+    location: header
+    words:
+    - Compaq-HMMD
+  - condition: or
+    location: header
+    words:
+    - CompaqHTTPServer

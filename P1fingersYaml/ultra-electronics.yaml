@@ -1,0 +1,22 @@
+- id: ultra-electronics
+  name: Ultra_Electronics
+  author: Fofa
+  tags:
+    - ultra-electronics
+  description: Ultra_Electronics
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /preauth/login.cgi
+    - condition: or
+      location: body
+      words:
+        - /preauth/style.css
+    - location: body
+      words:
+        - /preauth/login.cgi
+        - /preauth/style.css
+    - location: body
+      words:
+        - href="/preauth/manifest.json"

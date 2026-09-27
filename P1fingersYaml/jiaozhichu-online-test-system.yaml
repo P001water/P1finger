@@ -1,0 +1,11 @@
+- id: jiaozhichu-online-test
+  name: Jiaozhichu-online-test-system
+  author: P001
+  tags:
+    - jiaozhichu-online-test
+  description: Jiaozhichu-online-test-system
+  matchers:
+    - location: body
+      words:
+        - content="jiaozhichu
+        - href="/ksxt/h5/images/jiaozhichu.ico

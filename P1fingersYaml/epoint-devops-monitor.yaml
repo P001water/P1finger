@@ -1,0 +1,12 @@
+- id: epoint-devops-monitor
+  name: Epoint-devops-monitor
+  author: P001
+  tags:
+    - epoint-devops-monitor
+  description: Epoint-devops-monitor
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>新点运维监控平台单机版</title>
+        - 新点运维监控平台单机版,请耐心等待

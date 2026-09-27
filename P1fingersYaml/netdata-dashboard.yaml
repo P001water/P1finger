@@ -1,0 +1,10 @@
+- id: netdata-dashboard
+  name: Netdata Dashboard
+  author: P1finger
+  tags:
+    - netdata-dashboard
+  description: Netdata Dashboard
+  matchers:
+    - hash:
+        - "-182423204"
+      location: favicon

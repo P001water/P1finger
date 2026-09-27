@@ -1,0 +1,10 @@
+- id: schoolsindia
+  name: Schoolsindia Cms
+  author: P1finger
+  tags:
+    - schoolsindia
+  description: Schoolsindia Cms
+  matchers:
+    - location: body
+      words:
+        - Schoolsindia

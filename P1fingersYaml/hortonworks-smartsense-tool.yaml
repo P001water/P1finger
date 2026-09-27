@@ -1,0 +1,10 @@
+- id: hortonworks-smartsense-tool
+  name: Hortonworks-smartsense-tool
+  author: P001
+  tags:
+    - hortonworks-smartsense-tool
+  description: Hortonworks-smartsense-tool
+  matchers:
+    - location: body
+      words:
+        - name="hstapp/config/environment"

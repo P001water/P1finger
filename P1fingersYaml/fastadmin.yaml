@@ -1,0 +1,13 @@
+- id: fastadmin
+  name: Fastadmin
+  author: P1finger
+  tags:
+    - fastadmin
+  description: Fastadmin
+  matchers:
+    - location: body
+      words:
+        - fastadmin
+    - location: body
+      words:
+        - Powered by FastAdmin

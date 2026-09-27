@@ -1,0 +1,10 @@
+- id: ruubikcms
+  name: RuubikCMS
+  author: P1finger
+  tags:
+    - ruubikcms
+  description: RuubikCMS
+  matchers:
+    - location: body
+      words:
+        - RuubikCMS

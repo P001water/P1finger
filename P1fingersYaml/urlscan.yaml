@@ -1,0 +1,14 @@
+- id: urlscan
+  name: UrlScan
+  author: Fofa
+  tags:
+    - urlscan
+  description: UrlScan
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Rejected-By-UrlScan
+    - location: header
+      words:
+        - Rejected-By-UrlScan

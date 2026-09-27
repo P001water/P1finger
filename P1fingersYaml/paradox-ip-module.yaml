@@ -1,0 +1,10 @@
+- id: paradox-ip-module
+  name: Paradox Ip Module
+  author: P1finger
+  tags:
+    - paradox-ip-module
+  description: Paradox Ip Module
+  matchers:
+    - hash:
+        - "727253975"
+      location: favicon

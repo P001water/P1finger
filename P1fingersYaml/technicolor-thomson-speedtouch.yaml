@@ -1,0 +1,10 @@
+- id: technicolor-thomson-speedtouch
+  name: Technicolor / Thomson Speedtouch
+  author: P1finger
+  tags:
+    - technicolor-thomson-speedtouch
+  description: Technicolor / Thomson Speedtouch
+  matchers:
+    - hash:
+        - "156312019"
+      location: favicon

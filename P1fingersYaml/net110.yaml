@@ -1,0 +1,13 @@
+- id: surfilter-110-security-audit
+  name: Surfilter Security Audit
+  author: P001
+  tags:
+    - surfilter
+    - security-audit
+  description: Surfilter Security Audit
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - net110网络安全审计系统
+        - simplemodal.1.4.1.min.js

@@ -1,0 +1,10 @@
+- id: automatedlogiccorporation-webctrl
+  name: Automatedlogiccorporation-webctrl
+  author: P001
+  tags:
+    - automatedlogiccorporation-webctrl
+  description: Automatedlogiccorporation-webctrl
+  matchers:
+    - location: body
+      words:
+        - href="/_common/lvl5/about/eula.jsp"

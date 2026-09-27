@@ -1,0 +1,10 @@
+- id: armorlogic
+  name: ArmorLogic
+  author: P1finger
+  tags:
+    - armorlogic
+  description: ArmorLogic
+  matchers:
+    - location: header
+      words:
+        - Profense

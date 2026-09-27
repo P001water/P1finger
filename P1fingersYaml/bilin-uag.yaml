@@ -1,0 +1,11 @@
+- id: bilinuagxilie-gateway
+  name: Bilinuagxilie Gateway
+  author: P001
+  tags:
+    - bilinuagxilie
+    - gateway
+  description: Bilinuagxilie Gateway
+  matchers:
+    - location: body
+      words:
+        - 智慧网关配置平台

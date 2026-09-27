@@ -1,0 +1,10 @@
+- id: feehicms
+  name: FeehiCMS
+  author: P1finger
+  tags:
+    - feehicms
+  description: FeehiCMS
+  matchers:
+    - location: body
+      words:
+        - title="FeehiCMS"

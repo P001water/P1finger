@@ -1,0 +1,122 @@
+- id: aliwaf
+  name: AliWAF
+  author: P1finger
+  tags:
+    - aliwaf
+  description: AliWAF
+  matchers:
+    - location: header
+      words:
+        - acw_tc
+- id: anquanbaowaf
+  name: AnquanbaoWAF
+  author: P1finger
+  tags:
+    - anquanbaowaf
+  description: AnquanbaoWAF
+  matchers:
+    - location: body
+      words:
+        - /aqb_cc/error/
+- id: anquangouwaf
+  name: AnquangouWAF
+  author: P1finger
+  tags:
+    - anquangouwaf
+  description: AnquangouWAF
+  matchers:
+    - location: header
+      words:
+        - WAF/2.0
+- id: baidu-6
+  name: Baidu
+  author: P1finger
+  tags:
+    - baidu
+  description: Baidu
+  matchers:
+    - location: body
+      words:
+        - DuEdge
+- id: chuangyudunwaf
+  name: Chuangyudunwaf
+  author: P1finger
+  tags:
+    - chuangyudunwaf
+  description: Chuangyudunwaf
+  matchers:
+    - location: body
+      words:
+        - 当前访问疑似黑客攻击，已被创宇盾拦截
+- id: dbappsecurity-2
+  name: DBAppSecurity
+  author: P1finger
+  tags:
+    - dbappsecurity
+  description: DBAppSecurity
+  matchers:
+    - location: body
+      words:
+        - 因权限问题或行为非法，您的访问被拒绝
+- id: tencent-6
+  name: Tencent
+  author: P1finger
+  tags:
+    - tencent
+  description: Tencent
+  matchers:
+    - location: body
+      words:
+        - waf.tencent-cloud.com
+- id: dbappsecurity-3
+  name: DBAppSecurity
+  author: P1finger
+  tags:
+    - dbappsecurity
+  description: DBAppSecurity
+  matchers:
+    - location: body
+      words:
+        - 玄武盾
+- id: wangyuwaf
+  name: WangyuWAF
+  author: Fofa
+  tags:
+    - wangyuwaf
+  description: WangyuWAF
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - ="网御WAF
+- id: wangyuwafshebei
+  name: Wangyuwafshebei
+  author: P1finger
+  tags:
+    - wangyuwafshebei
+  description: Wangyuwafshebei
+  matchers:
+    - location: body
+      words:
+        - 网御WAF
+- id: yixunwaf
+  name: YixunWAF
+  author: P1finger
+  tags:
+    - yixunwaf
+  description: YixunWAF
+  matchers:
+    - location: body
+      words:
+        - 检测到可疑访问，事件编号
+        - <TITLE>访问禁止</TITLE>
+- id: zhidaochuangyuwaf
+  name: ZhidaochuangyuWAF
+  author: P1finger
+  tags:
+    - zhidaochuangyuwaf
+  description: ZhidaochuangyuWAF
+  matchers:
+    - location: body
+      words:
+        - ks-waf-error

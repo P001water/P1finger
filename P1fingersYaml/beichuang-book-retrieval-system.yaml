@@ -1,0 +1,10 @@
+- id: beichuang-book-retrieval
+  name: Beichuang-book-retrieval-system
+  author: P001
+  tags:
+    - beichuang-book-retrieval
+  description: Beichuang-book-retrieval-system
+  matchers:
+    - location: body
+      words:
+        - opac_two

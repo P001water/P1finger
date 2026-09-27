@@ -1,0 +1,10 @@
+- id: odoo
+  name: Odoo CMS
+  author: P1finger
+  tags:
+    - odoo
+  description: Odoo CMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="Odoo"/>

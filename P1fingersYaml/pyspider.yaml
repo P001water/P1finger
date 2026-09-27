@@ -1,0 +1,13 @@
+- id: pyspider
+  name: Pyspider
+  author: P001
+  tags:
+    - pyspider
+  description: Pyspider
+  matchers:
+    - location: body
+      words:
+        - content="pyspider dashboard"
+    - location: body
+      words:
+        - pyspider dashboard

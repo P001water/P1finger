@@ -1,0 +1,10 @@
+- id: dayrui-poscms
+  name: Dayrui-poscms
+  author: P001
+  tags:
+    - dayrui-poscms
+  description: Dayrui-poscms
+  matchers:
+    - location: body
+      words:
+        - /statics/admin/global/plugins/font-awesome/css/font-awesome.min.css

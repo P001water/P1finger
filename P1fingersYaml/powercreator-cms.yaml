@@ -1,0 +1,22 @@
+- id: powercreator
+  name: Powercreator-cms
+  author: P001
+  tags:
+    - powercreator
+  description: Powercreator-cms
+  matchers:
+    - location: body
+      words:
+        - <span class="bottom_versionno">
+        - email:support@powercreator.com.cn<br />
+        - powercreator
+- id: powercreator-2
+  name: PowerCreator CMS
+  author: P1finger
+  tags:
+    - powercreator
+  description: PowerCreator CMS
+  matchers:
+    - location: body
+      words:
+        - PowerCreator CMS

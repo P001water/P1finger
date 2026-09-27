@@ -1,0 +1,26 @@
+- id: anymacro
+  name: Anymacro
+  author: Fofa
+  tags:
+    - anymacro
+  description: Anymacro
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - LOGIN_KEY
+    - condition: or
+      location: body
+      words:
+        - document.aa.F_email
+    - condition: or
+      location: body
+      words:
+        - AnyWebApp
+    - location: body
+      words:
+        - document.aa.F_email
+        - AnyWebApp
+    - location: header
+      words:
+        - LOGIN_KEY

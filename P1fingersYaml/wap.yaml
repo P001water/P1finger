@@ -1,0 +1,10 @@
+- id: wap
+  name: Wap
+  author: P001
+  tags:
+    - wap
+  description: Wap
+  matchers:
+    - location: body
+      words:
+        - window.location = 'wap.htm'

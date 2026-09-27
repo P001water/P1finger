@@ -1,0 +1,10 @@
+- id: erp
+  name: Web-erp-network-system
+  author: P001
+  tags:
+    - erp
+  description: Web-erp-network-system
+  matchers:
+    - location: body
+      words:
+        - window.location='/www/login.html'

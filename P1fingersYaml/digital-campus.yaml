@@ -1,0 +1,10 @@
+- id: digital-campus
+  name: Digital Campus
+  author: P1finger
+  tags:
+    - digital-campus
+  description: Digital Campus
+  matchers:
+    - location: body
+      words:
+        - Digital Campus

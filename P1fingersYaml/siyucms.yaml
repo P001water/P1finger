@@ -1,0 +1,10 @@
+- id: siyucms
+  name: SIYUCMS
+  author: P1finger
+  tags:
+    - siyucms
+  description: SIYUCMS
+  matchers:
+    - location: body
+      words:
+        - content="SIYUCMS

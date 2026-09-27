@@ -1,0 +1,11 @@
+- id: bluedon-intrusion-detection
+  name: Bluedon Intrusion Detection
+  author: P1finger
+  tags:
+  - bluedon
+  - bluedon-intrusion-detection
+  description: Bluedon Intrusion Detection
+  matchers:
+  - location: body
+    words:
+    - bluedon-idp

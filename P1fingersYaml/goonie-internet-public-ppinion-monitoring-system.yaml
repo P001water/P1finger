@@ -1,0 +1,11 @@
+- id: goonie-internet-public-ppinion
+  name: Goonie-internet-public-ppinion-monitoring-system
+  author: P001
+  tags:
+    - goonie-internet-public-ppinion
+  description: Goonie-internet-public-ppinion-monitoring-system
+  matchers:
+    - location: body
+      words:
+        - alert("菜单层数量和内容层数量不一样!")
+        - 网络舆情监控系统

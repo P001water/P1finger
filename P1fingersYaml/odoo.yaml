@@ -1,0 +1,20 @@
+- id: odoo-2
+  name: Odoo
+  author: P1finger
+  tags:
+    - odoo
+  description: Odoo
+  matchers:
+    - hash:
+        - "-617743584"
+      location: favicon
+    - hash:
+        - a342fe863a8e41dff2a55410c7f118c5
+      location: favicon
+    - location: body
+      words:
+        - <script id="web.layout.odooscript
+        - odoo.__session_info__ = {
+    - location: body
+      words:
+        - Odoo

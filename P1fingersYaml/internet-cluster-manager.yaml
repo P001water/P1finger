@@ -1,0 +1,24 @@
+- id: internet-cluster-manager
+  name: Internet-cluster-manager
+  author: P1finger
+  tags:
+    - internet-cluster-manager
+  description: Internet-cluster-manager
+  matchers:
+    - location: header
+      words:
+        - Internet Cluster Manager
+    - location: body
+      words:
+        - 'server: internet cluster manager'
+- id: internet-cluster-manager-2
+  name: Internet-Cluster-Manager
+  author: Fofa
+  tags:
+    - internet-cluster-manager
+  description: Internet-Cluster-Manager
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Internet Cluster Manager

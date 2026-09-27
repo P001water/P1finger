@@ -1,0 +1,11 @@
+- id: windows-32bit
+  name: WINDOWS 32bit
+  author: Fofa
+  tags:
+    - windows-32bit
+  description: WINDOWS 32bit
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Win32

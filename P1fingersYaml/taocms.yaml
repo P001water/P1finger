@@ -1,0 +1,22 @@
+- id: taocms
+  name: Taocms
+  author: Fofa
+  tags:
+    - taocms
+  description: Taocms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - '>taoCMS<'
+    - location: body
+      words:
+        - '>taoCMS<'
+    - location: body
+      words:
+        - src="/taocms/code/calendar.js"
+        - template/taocms
+    - location: body
+      words:
+        - content="Welcome to taoCMS
+        - /template/taoCMS/

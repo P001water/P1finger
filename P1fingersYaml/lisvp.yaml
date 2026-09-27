@@ -1,0 +1,11 @@
+- id: lisvplinglisixunihua
+  name: LisVPlinglisixunihua Management System
+  author: P1finger
+  tags:
+    - lisvplinglisixunihua
+    - management-system
+  description: LisVPlinglisixunihua Management System
+  matchers:
+    - location: body
+      words:
+        - LisVP -- 领立斯虚拟化管理系统

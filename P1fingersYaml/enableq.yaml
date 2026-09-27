@@ -1,0 +1,21 @@
+- id: enableq
+  name: EnableQ
+  author: Fofa
+  tags:
+    - enableq
+  description: EnableQ
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /enableq.css
+    - location: body
+      words:
+        - /enableq.css
+    - hash:
+        - "784325091"
+      location: favicon
+    - location: body
+      words:
+        - 欢迎使用EnableQ在线问卷调查引擎
+        - /enableq.ico

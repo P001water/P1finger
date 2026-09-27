@@ -1,0 +1,21 @@
+- id: fastly-cdn
+  name: Fastly Cdn
+  author: Fofa
+  tags:
+    - fastly-cdn
+  description: Fastly Cdn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - fastcdn.org
+- id: fastly-cdn-2
+  name: Fastly Cdn
+  author: P1finger
+  tags:
+    - fastly-cdn
+  description: Fastly Cdn
+  matchers:
+    - location: body
+      words:
+        - fastcdn.org

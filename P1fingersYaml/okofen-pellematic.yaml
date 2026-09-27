@@ -1,0 +1,10 @@
+- id: okofen-pellematic
+  name: Okofen Pellematic
+  author: P1finger
+  tags:
+    - okofen-pellematic
+  description: Okofen Pellematic
+  matchers:
+    - hash:
+        - "-625364318"
+      location: favicon

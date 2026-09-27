@@ -1,0 +1,11 @@
+- id: ovobiaoqing-management-system
+  name: OvObiaoqing Management System
+  author: P1finger
+  tags:
+    - ovobiaoqing
+    - management-system
+  description: OvObiaoqing Management System
+  matchers:
+    - location: body
+      words:
+        - OvO 表情管理系统

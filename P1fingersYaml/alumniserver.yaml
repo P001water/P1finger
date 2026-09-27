@@ -1,0 +1,19 @@
+- id: alumniserver
+  name: AlumniServer
+  author: Fofa
+  tags:
+    - alumniserver
+  description: AlumniServer
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - AlumniServerProject.php
+    - condition: or
+      location: body
+      words:
+        - content="Alumni
+    - location: body
+      words:
+        - AlumniServerProject.php
+        - content="Alumni

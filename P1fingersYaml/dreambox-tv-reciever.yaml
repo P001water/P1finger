@@ -1,0 +1,21 @@
+- id: dreambox-tv-reciever
+  name: Dreambox (TV Reciever)
+  author: Fofa
+  tags:
+    - dreambox-tv-reciever
+  description: Dreambox (TV Reciever)
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Basic realm="dreambox
+- id: dreambox-tv-reciever-2
+  name: Dreambox (tv Reciever)
+  author: P1finger
+  tags:
+    - dreambox-tv-reciever
+  description: Dreambox (tv Reciever)
+  matchers:
+    - location: header
+      words:
+        - Basic realm="dreambox"

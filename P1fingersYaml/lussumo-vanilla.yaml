@@ -1,0 +1,10 @@
+- id: lussumo-vanilla
+  name: Lussumo-vanilla
+  author: P001
+  tags:
+    - lussumo-vanilla
+  description: Lussumo-vanilla
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: lussumo vanilla'

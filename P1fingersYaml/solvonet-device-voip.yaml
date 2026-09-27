@@ -1,0 +1,21 @@
+- id: solvonet-voip
+  name: Solvonet Device (VoIP)
+  author: Fofa
+  tags:
+    - solvonet-voip
+  description: Solvonet Device (VoIP)
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Basic realm="SOLVONET
+- id: solvonet-voip-2
+  name: Solvonet Device (voip)
+  author: P1finger
+  tags:
+    - solvonet-voip
+  description: Solvonet Device (voip)
+  matchers:
+    - location: header
+      words:
+        - Basic realm="SOLVONET"

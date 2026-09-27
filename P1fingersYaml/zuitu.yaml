@@ -1,0 +1,20 @@
+- id: zuitu
+  name: Zuitu
+  author: P001
+  tags:
+    - zuitu
+  description: Zuitu
+  matchers:
+    - location: body
+      words:
+        - help/zuitu.php
+- id: zuituzuitutuangou
+  name: Zuituzuitutuangou
+  author: P1finger
+  tags:
+    - zuituzuitutuangou
+  description: Zuituzuitutuangou
+  matchers:
+    - location: body
+      words:
+        - Powered by <a href="http://www.zuitu.com/" target="_blank">ZuiTu

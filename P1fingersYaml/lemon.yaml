@@ -1,0 +1,11 @@
+- id: lemon-management-system
+  name: Lemon Management System
+  author: P1finger
+  tags:
+    - lemon
+    - management-system
+  description: Lemon Management System
+  matchers:
+    - location: body
+      words:
+        - LEMON管理系统

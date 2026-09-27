@@ -1,0 +1,10 @@
+- id: mcafee-sidewinder
+  name: McAfee Sidewinder 7.0
+  author: P1finger
+  tags:
+    - mcafee-sidewinder
+  description: McAfee Sidewinder 7.0
+  matchers:
+    - location: body
+      words:
+        - sidewinder 7.0

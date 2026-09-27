@@ -1,0 +1,10 @@
+- id: scythe-crossbow
+  name: SCYTHE-Crossbow
+  author: P1finger
+  tags:
+    - scythe-crossbow
+  description: SCYTHE-Crossbow
+  matchers:
+    - location: body
+      words:
+        - SCYTHE

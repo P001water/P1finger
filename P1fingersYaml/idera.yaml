@@ -1,0 +1,10 @@
+- id: idera
+  name: Idera
+  author: P1finger
+  tags:
+    - idera
+  description: Idera
+  matchers:
+    - hash:
+        - "-450254253"
+      location: favicon

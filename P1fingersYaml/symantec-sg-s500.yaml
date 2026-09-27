@@ -1,0 +1,10 @@
+- id: symantec-sg-s500
+  name: Symantec-SG-S500
+  author: P1finger
+  tags:
+    - symantec-sg-s500
+  description: Symantec-SG-S500
+  matchers:
+    - location: header
+      words:
+        - 'Www-Authenticate: Basic realm="Symantec SGS S500"'

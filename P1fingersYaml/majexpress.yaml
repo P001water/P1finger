@@ -1,0 +1,10 @@
+- id: majexpress
+  name: MajExpress
+  author: P1finger
+  tags:
+    - majexpress
+  description: MajExpress
+  matchers:
+    - location: body
+      words:
+        - Powered by MajExpress

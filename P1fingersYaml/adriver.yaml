@@ -1,0 +1,14 @@
+- id: adriver
+  name: Adriver
+  author: Fofa
+  tags:
+    - adriver
+  description: Adriver
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ad.adriver.ru/cgi-bin
+    - location: body
+      words:
+        - ad.adriver.ru/cgi-bin

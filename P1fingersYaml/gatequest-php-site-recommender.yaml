@@ -1,0 +1,21 @@
+- id: gatequest-php-site-recommender
+  name: Gatequest-php-site-recommender
+  author: P1finger
+  tags:
+    - gatequest-php-site-recommender
+  description: Gatequest-php-site-recommender
+  matchers:
+    - location: body
+      words:
+        - GateQuest
+- id: gatequest-php-site-recommender-2
+  name: GateQuest-PHP-Site-Recommender
+  author: Fofa
+  tags:
+    - gatequest-php-site-recommender
+  description: GateQuest-PHP-Site-Recommender
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - GateQuest

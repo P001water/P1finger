@@ -1,0 +1,19 @@
+- id: diywap
+  name: DIYWAP
+  author: Fofa
+  tags:
+    - diywap
+  description: DIYWAP
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - web980
+    - condition: and
+      location: body
+      words:
+        - bannerNum
+    - location: body
+      words:
+        - web980
+        - bannerNum

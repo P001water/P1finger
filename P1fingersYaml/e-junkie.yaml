@@ -1,0 +1,24 @@
+- id: junkie
+  name: E-junkie
+  author: P1finger
+  tags:
+    - junkie
+  description: E-junkie
+  matchers:
+    - location: body
+      words:
+        - function EJEJC_lc
+    - location: body
+      words:
+        - e-Junkie
+- id: junkie-2
+  name: E-junkie
+  author: Fofa
+  tags:
+    - junkie
+  description: E-junkie
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - function EJEJC_lc

@@ -1,0 +1,11 @@
+- id: chinamdm-mobile
+  name: Chinamdm-mobile-device-management
+  author: P001
+  tags:
+    - chinamdm-mobile
+  description: Chinamdm-mobile-device-management
+  matchers:
+    - location: body
+      words:
+        - innerhtml="chinamdm移动终端管理系统
+        - justsy/user/searchmenusbyusername/

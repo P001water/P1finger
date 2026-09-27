@@ -1,0 +1,14 @@
+- id: dnnoutputcache
+  name: Dnnoutputcache
+  author: Fofa
+  tags:
+    - dnnoutputcache
+  description: Dnnoutputcache
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Dnnoutputcache
+    - location: header
+      words:
+        - Dnnoutputcache

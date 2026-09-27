@@ -1,0 +1,10 @@
+- id: gzsa-intranet
+  name: Gzsa-intranet-security
+  author: P001
+  tags:
+    - gzsa-intranet
+  description: Gzsa-intranet-security
+  matchers:
+    - location: body
+      words:
+        - gzsa. all rights reserved</span>

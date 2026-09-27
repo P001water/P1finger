@@ -1,0 +1,12 @@
+- id: agoracgi
+  name: Agoracgi
+  author: P001
+  tags:
+    - agoracgi
+  description: Agoracgi
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /agora.cgi?product=
+        - /store/agora.cgi

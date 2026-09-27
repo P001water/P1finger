@@ -1,0 +1,12 @@
+- id: ajenti-panel-2
+  name: Ajenti-server-admin-panel
+  author: P001
+  tags:
+    - ajenti-panel
+  description: Ajenti-server-admin-panel
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - action="/ajenti:auth"
+        - src="/ajenti:static/

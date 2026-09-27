@@ -1,0 +1,10 @@
+- id: full-decent-life
+  name: Full Decent Camera Life
+  author: P1finger
+  tags:
+    - full-decent-life
+  description: Full Decent Camera Life
+  matchers:
+    - location: body
+      words:
+        - Full Decent Camera Life

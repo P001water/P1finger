@@ -1,0 +1,10 @@
+- id: symantec
+  name: Symantec Gateway Security
+  author: P1finger
+  tags:
+    - symantec
+  description: Symantec Gateway Security
+  matchers:
+    - location: body
+      words:
+        - symantec gateway security

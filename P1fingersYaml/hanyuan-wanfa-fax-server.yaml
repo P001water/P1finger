@@ -1,0 +1,11 @@
+- id: hanyuan-wanfa-fax
+  name: Hanyuan-wanfa-fax-server
+  author: P001
+  tags:
+    - hanyuan-wanfa-fax
+  description: Hanyuan-wanfa-fax-server
+  matchers:
+    - location: body
+      words:
+        - background-image:url(images/bgfax0.jpg);
+        - background="images/centerfax0.gif"

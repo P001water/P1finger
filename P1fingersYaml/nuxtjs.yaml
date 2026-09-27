@@ -1,0 +1,12 @@
+- id: nuxtjs
+  name: Nuxtjs
+  author: P001
+  tags:
+    - nuxtjs
+  description: Nuxtjs
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - __nuxt
+        - buildassetsdir

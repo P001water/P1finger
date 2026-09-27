@@ -1,0 +1,15 @@
+- id: synology-photo-station
+  name: Synology-photo-station
+  author: P001
+  tags:
+  - synology
+  - synology-photo-station
+  description: Synology-photo-station
+  matchers:
+  - location: body
+    words:
+    - content="album
+    - content="photo station
+    - content="photo station 6"
+    - content="service_not_available"
+    - photo_new/syno_photo_main.js

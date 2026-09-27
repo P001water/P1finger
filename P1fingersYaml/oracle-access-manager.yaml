@@ -1,0 +1,11 @@
+- id: oracle-access-manager
+  name: Oracle-access-manager
+  author: P001
+  tags:
+  - oracle
+  - oracle-access-manager
+  description: Oracle-access-manager
+  matchers:
+  - location: body
+    words:
+    - footerversion">oracle access manager version

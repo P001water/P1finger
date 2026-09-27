@@ -1,0 +1,11 @@
+- id: mingdekeji
+  name: Mingdekeji-system
+  author: P001
+  tags:
+    - mingdekeji
+  description: Mingdekeji-system
+  matchers:
+    - location: body
+      words:
+        - href="imges/zgsh.ico"
+        - 荆州明德科技

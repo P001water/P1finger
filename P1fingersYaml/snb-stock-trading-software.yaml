@@ -1,0 +1,10 @@
+- id: snb-stock-trading
+  name: Snb-stock-trading-software
+  author: P001
+  tags:
+    - snb-stock-trading
+  description: Snb-stock-trading-software
+  matchers:
+    - location: body
+      words:
+        - copyright 2005–2009 <a href="http://www.s-mo.com">

@@ -1,0 +1,10 @@
+- id: apollo
+  name: Apollo
+  author: P1finger
+  tags:
+    - apollo
+  description: Apollo
+  matchers:
+    - location: body
+      words:
+        - Apollo

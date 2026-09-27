@@ -1,0 +1,13 @@
+- id: raritan-security-gateway
+  name: Raritan Security Gateway
+  author: P001
+  tags:
+    - raritan
+    - security-gateway
+  description: Raritan Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - raritan cc-sg
+        - src="images/ccsg logo.gif

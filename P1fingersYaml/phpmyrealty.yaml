@@ -1,0 +1,11 @@
+- id: phpmyrealty
+  name: Phpmyrealty
+  author: P001
+  tags:
+    - phpmyrealty
+  description: Phpmyrealty
+  matchers:
+    - location: body
+      words:
+        - '<!-- main content table : stop -->'
+        - powered by <a href="http://www.phpmyrealty.com

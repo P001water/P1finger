@@ -1,0 +1,10 @@
+- id: firehose
+  name: Firehose_service_monitoring
+  author: P001
+  tags:
+    - firehose
+  description: Firehose_service_monitoring
+  matchers:
+    - location: body
+      words:
+        - <h1>firehose_service_monitoring status</h1>

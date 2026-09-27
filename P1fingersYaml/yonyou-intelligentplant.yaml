@@ -1,0 +1,11 @@
+- id: yonyou-intelligentplant
+  name: Yonyou-intelligentplant
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-intelligentplant
+  description: Yonyou-intelligentplant
+  matchers:
+  - location: body
+    words:
+    - /modules/core/client/views/sidemenu.client.view.html

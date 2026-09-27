@@ -1,0 +1,11 @@
+- id: fengzhiyelinux
+  name: Fengzhiyelinux Management System
+  author: P1finger
+  tags:
+    - fengzhiyelinux
+    - management-system
+  description: Fengzhiyelinux Management System
+  matchers:
+    - location: body
+      words:
+        - 风之页linux管理系统

@@ -1,0 +1,11 @@
+- id: qinzhe-excel
+  name: Qinzhe-excel
+  author: P001
+  tags:
+    - qinzhe-excel
+  description: Qinzhe-excel
+  matchers:
+    - location: body
+      words:
+        - id="chkworkbyreplacer" location="checkbox"
+        - 如果能访问到qinzhe网站上的图片，说明网络是通的，显示新闻

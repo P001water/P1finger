@@ -1,0 +1,10 @@
+- id: marcopacs
+  name: Marcopacs-product
+  author: P001
+  tags:
+    - marcopacs
+  description: Marcopacs-product
+  matchers:
+    - location: body
+      words:
+        - data-redirect="account/systemconfiguration.aspx"

@@ -1,0 +1,14 @@
+- id: webrick
+  name: Webrick
+  author: Fofa
+  tags:
+    - webrick
+  description: Webrick
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - webrick
+    - location: header
+      words:
+        - webrick

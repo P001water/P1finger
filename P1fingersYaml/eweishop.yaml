@@ -1,0 +1,10 @@
+- id: eweishop
+  name: Eweishop
+  author: P1finger
+  tags:
+    - eweishop
+  description: Eweishop
+  matchers:
+    - location: body
+      words:
+        - ewei_shop

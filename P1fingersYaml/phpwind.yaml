@@ -1,0 +1,19 @@
+- id: phpwind
+  name: Phpwind
+  author: P1finger
+  tags:
+    - phpwind
+  description: Phpwind
+  matchers:
+    - location: body
+      words:
+        - Powered by phpwind
+        - content="phpwind
+    - condition: or
+      location: title
+      words:
+        - Powered by phpwind
+    - condition: or
+      location: body
+      words:
+        - content="phpwind

@@ -1,0 +1,15 @@
+- id: casdoor
+  name: Casdoor
+  author: P001
+  tags:
+    - casdoor
+  description: Casdoor
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>casdoor
+        - casdoor/manifest.json
+    - location: body
+      words:
+        - Casdoor

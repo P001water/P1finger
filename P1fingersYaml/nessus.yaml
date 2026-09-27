@@ -1,0 +1,16 @@
+- id: nessus
+  name: Nessus
+  author: P001
+  tags:
+    - nessus
+  description: Nessus
+  matchers:
+    - location: body
+      words:
+        - <title>nessus</title>
+    - location: body
+      words:
+        - Nessus
+    - location: header
+      words:
+        - NessusWWW

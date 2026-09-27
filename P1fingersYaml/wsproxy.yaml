@@ -1,0 +1,10 @@
+- id: wsproxy
+  name: WSPROXY
+  author: P1finger
+  tags:
+    - wsproxy
+  description: WSPROXY
+  matchers:
+    - location: header
+      words:
+        - 'X-Application-Context: wsproxy'

@@ -1,0 +1,23 @@
+- id: hp-printer-2
+  name: Hp-printer
+  author: P1finger
+  tags:
+  - hp
+  - hp-printer
+  description: Hp-printer
+  matchers:
+  - location: header
+    words:
+    - HP HTTP Server
+- id: hp-printer-3
+  name: HP-Printer
+  author: Fofa
+  tags:
+  - hp
+  - hp-printer
+  description: HP-Printer
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - HP HTTP Server

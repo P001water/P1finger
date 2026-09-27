@@ -1,0 +1,11 @@
+- id: opengosswlantongyiwangluo
+  name: OPENGOSSWLANtongyiwangluo Management System
+  author: P1finger
+  tags:
+    - opengosswlantongyiwangluo
+    - management-system
+  description: OPENGOSSWLANtongyiwangluo Management System
+  matchers:
+    - location: body
+      words:
+        - content="wlan综合网管系统"

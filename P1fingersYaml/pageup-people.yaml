@@ -1,0 +1,14 @@
+- id: pageup-people
+  name: Pageup-people
+  author: P001
+  tags:
+    - pageup-people
+  description: Pageup-people
+  matchers:
+    - location: body
+      words:
+        - class="pageuplink" href="http://www.pageuppeople.com
+        - powered by pageup people
+    - location: body
+      words:
+        - class="pageuplink" href="http://www.pageuppeople.com

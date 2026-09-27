@@ -1,0 +1,14 @@
+- id: quixplorer
+  name: Quixplorer
+  author: P001
+  tags:
+    - quixplorer
+  description: Quixplorer
+  matchers:
+    - location: body
+      words:
+        - target="_blank">the quix project</a></small>
+    - location: body
+      words:
+        - QuiXplorer
+        - the QuiX project

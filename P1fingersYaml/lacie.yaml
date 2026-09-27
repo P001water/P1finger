@@ -1,0 +1,10 @@
+- id: lacie
+  name: Lacie
+  author: P1finger
+  tags:
+    - lacie
+  description: Lacie
+  matchers:
+    - hash:
+        - "-1277814690"
+      location: favicon

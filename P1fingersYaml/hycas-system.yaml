@@ -1,0 +1,10 @@
+- id: hycas
+  name: Hycas-system
+  author: P001
+  tags:
+    - hycas
+  description: Hycas-system
+  matchers:
+    - location: body
+      words:
+        - src="/images/hyscm.jpg

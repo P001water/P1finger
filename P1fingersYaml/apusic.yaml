@@ -1,0 +1,25 @@
+- id: apusic
+  name: Apusic
+  author: P001
+  tags:
+    - apusic
+  description: Apusic
+  matchers:
+    - location: body
+      words:
+        - <td>管理apusic应用服务器</td>
+        - 'server: apusic application server'
+- id: kingdee
+  name: Kingdee
+  author: P1finger
+  tags:
+    - kingdee
+  description: Kingdee
+  matchers:
+    - location: header
+      words:
+        - Apusic
+    - location: body
+      words:
+        - -Error report
+        - Apusic Application Server

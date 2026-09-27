@@ -1,0 +1,15 @@
+- id: goldlib-library
+  name: Goldlib-library
+  author: P001
+  tags:
+    - goldlib-library
+  description: Goldlib-library
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 图书
+        - 金盘软件
+        - /opac/periodicals
+        - class="jp-searchtabs
+        - onclick="change('book');

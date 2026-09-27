@@ -1,0 +1,12 @@
+- id: django-rest-framework
+  name: Django-rest-framework
+  author: P001
+  tags:
+    - django-rest-framework
+  description: Django-rest-framework
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - django rest framework
+        - href='https://www.django-rest-framework.org/'>

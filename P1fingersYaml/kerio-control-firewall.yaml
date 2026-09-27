@@ -1,0 +1,11 @@
+- id: kerio
+  name: Kerio Control Firewall
+  author: P1finger
+  tags:
+    - kerio
+  description: Kerio Control Firewall
+  matchers:
+    - hash:
+        - "-631002664"
+        - "-466504476"
+      location: favicon

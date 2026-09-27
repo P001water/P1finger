@@ -1,0 +1,17 @@
+- id: ideawebserver
+  name: IdeaWebServer
+  author: Fofa
+  tags:
+    - ideawebserver
+  description: IdeaWebServer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IdeaWebServer
+    - location: header
+      words:
+        - IdeaWebServer
+    - location: body
+      words:
+        - 'server: ideawebserver'

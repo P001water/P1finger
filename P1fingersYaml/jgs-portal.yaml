@@ -1,0 +1,29 @@
+- id: jgs
+  name: Jgs-portal
+  author: P1finger
+  tags:
+    - jgs
+  description: Jgs-portal
+  matchers:
+    - location: body
+      words:
+        - Powered by <b>JGS-Portal Version
+        - href="jgs_portal_box.php?id=
+    - location: body
+      words:
+        - JGS-Portal
+- id: jgs-2
+  name: JGS-Portal
+  author: Fofa
+  tags:
+    - jgs
+  description: JGS-Portal
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <b>JGS-Portal Version
+    - condition: or
+      location: body
+      words:
+        - href="jgs_portal_box.php?id=

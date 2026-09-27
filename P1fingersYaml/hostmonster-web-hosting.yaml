@@ -1,0 +1,10 @@
+- id: hostmonster-hosting
+  name: Hostmonster - Web Hosting
+  author: P1finger
+  tags:
+    - hostmonster-hosting
+  description: Hostmonster - Web Hosting
+  matchers:
+    - hash:
+        - "-972810761"
+      location: favicon

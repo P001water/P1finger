@@ -1,0 +1,25 @@
+- id: thinkphp-yfcmf
+  name: Thinkphp-yfcmf
+  author: P001
+  tags:
+  - thinkphp
+  - thinkphp-yfcmf
+  description: Thinkphp-yfcmf
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /public/others/maxlength.js
+    - yfcmf
+    - /yfcmf/yfcmf.js
+- id: thinkphp-yfcmf-2
+  name: ThinkPHP YFCMF
+  author: P1finger
+  tags:
+  - thinkphp
+  - thinkphp-yfcmf
+  description: ThinkPHP YFCMF
+  matchers:
+  - location: body
+    words:
+    - /yfcmf/yfcmf.js

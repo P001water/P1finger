@@ -1,0 +1,10 @@
+- id: findersoft-b9erp
+  name: Findersoft-b9erp
+  author: P001
+  tags:
+    - findersoft-b9erp
+  description: Findersoft-b9erp
+  matchers:
+    - location: body
+      words:
+        - name="dbnameddl"

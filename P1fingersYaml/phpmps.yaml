@@ -1,0 +1,23 @@
+- id: phpmps
+  name: Phpmps
+  author: P1finger
+  tags:
+    - phpmps
+  description: Phpmps
+  matchers:
+    - location: body
+      words:
+        - Powered by Phpmps
+        - templates/phpmps/style/index.css
+    - condition: or
+      location: body
+      words:
+        - Powered by Phpmps
+    - condition: or
+      location: body
+      words:
+        - templates/phpmps/style/index.css
+    - location: body
+      words:
+        - powered by phpmps
+        - templates/phpmps/style/index.css

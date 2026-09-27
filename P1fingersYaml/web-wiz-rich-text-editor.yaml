@@ -1,0 +1,10 @@
+- id: wiz-rich-text-editor
+  name: Web-wiz-rich-text-editor
+  author: P001
+  tags:
+    - wiz-rich-text-editor
+  description: Web-wiz-rich-text-editor
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.richtexteditor.org"

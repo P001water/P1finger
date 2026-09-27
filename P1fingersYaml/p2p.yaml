@@ -1,0 +1,41 @@
+- id: daiqilep2p
+  name: Daiqilep2p
+  author: Fofa
+  tags:
+    - daiqilep2p
+  description: Daiqilep2p
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /js/jPackageCss/jPackage.css
+    - condition: or
+      location: body
+      words:
+        - src="/js/jPackage
+    - location: body
+      words:
+        - /js/jPackageCss/jPackage.css
+        - src="/js/jPackage
+- id: diyoup2p
+  name: DiyouP2P
+  author: Fofa
+  tags:
+    - diyoup2p
+  description: DiyouP2P
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /js/diyou.js
+    - condition: or
+      location: body
+      words:
+        - src="/dyweb/dythemes
+    - location: body
+      words:
+        - /js/diyou.js
+        - src="/dyweb/dythemes
+    - location: body
+      words:
+        - js/diyou.js

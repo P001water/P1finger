@@ -1,0 +1,12 @@
+- id: inspur-ec-government-approval
+  name: Inspur-ec-government-approval-platform
+  author: P001
+  tags:
+  - inspur
+  - inspur-ec-government-approval
+  description: Inspur-ec-government-approval-platform
+  matchers:
+  - location: body
+    words:
+    - langchao.ecgap.outportal
+    - onlinequery/querylist.aspx

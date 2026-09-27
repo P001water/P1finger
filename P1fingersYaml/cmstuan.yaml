@@ -1,0 +1,10 @@
+- id: cmstuan
+  name: Cmstuan
+  author: P001
+  tags:
+    - cmstuan
+  description: Cmstuan
+  matchers:
+    - location: body
+      words:
+        - content="开源团主机管理系统

@@ -1,0 +1,10 @@
+- id: unified-management-console
+  name: Unified Management Console
+  author: P1finger
+  tags:
+    - unified-management-console
+  description: Unified Management Console
+  matchers:
+    - hash:
+        - "-1775553655"
+      location: favicon

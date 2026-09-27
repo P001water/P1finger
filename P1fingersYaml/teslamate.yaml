@@ -1,0 +1,13 @@
+- id: teslamate
+  name: Teslamate
+  author: P001
+  tags:
+    - teslamate
+  description: Teslamate
+  matchers:
+    - hash:
+        - 0e3b30468f89fa98cb22983c89e49d0a
+      location: favicon
+    - location: body
+      words:
+        - <img alt="teslamate" src=

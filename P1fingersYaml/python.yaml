@@ -1,0 +1,12 @@
+- id: python
+  name: Python
+  author: Fofa
+  tags:
+    - python
+  description: Python
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - python
+        - Django

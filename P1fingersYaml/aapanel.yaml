@@ -1,0 +1,11 @@
+- id: aapanel
+  name: AaPanel
+  author: P1finger
+  tags:
+    - aapanel
+  description: AaPanel
+  matchers:
+    - location: body
+      words:
+        - src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEDCAYAAACPhzmWAAAABHNCSVQICA
+        - target="_blank">aaPanel

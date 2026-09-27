@@ -1,0 +1,10 @@
+- id: soeasy-website-cluster
+  name: Soeasy-website-cluster-system
+  author: P001
+  tags:
+    - soeasy-website-cluster
+  description: Soeasy-website-cluster-system
+  matchers:
+    - location: body
+      words:
+        - egss_user

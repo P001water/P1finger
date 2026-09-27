@@ -1,0 +1,38 @@
+- id: lanmp
+  name: Lanmp
+  author: P001
+  tags:
+    - lanmp
+  description: Lanmp
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <strong>恭喜
+        - lanmp
+        - wdlinux.cn
+        - 本页可删除
+- id: lanmpjichenghuanjing
+  name: Lanmpjichenghuanjing
+  author: P1finger
+  tags:
+    - lanmpjichenghuanjing
+  description: Lanmpjichenghuanjing
+  matchers:
+    - location: body
+      words:
+        - <title>LANMP
+- id: lanmpyijiananzhuangbao
+  name: LANMPyijiananzhuangbao
+  author: Fofa
+  tags:
+    - lanmpyijiananzhuangbao
+  description: LANMPyijiananzhuangbao
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - LANMP一键安装包
+    - location: body
+      words:
+        - LANMP一键安装包

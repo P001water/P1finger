@@ -1,0 +1,10 @@
+- id: brocade-angle-guard
+  name: Brocade-data-angle-guard-database
+  author: P001
+  tags:
+    - brocade-angle-guard
+  description: Brocade-data-angle-guard-database
+  matchers:
+    - location: body
+      words:
+        - window.location.host + "/agweb"

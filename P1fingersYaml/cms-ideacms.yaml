@@ -1,0 +1,10 @@
+- id: ideacms
+  name: CMS-IdeaCMS
+  author: P001
+  tags:
+    - ideacms
+  description: CMS-IdeaCMS
+  matchers:
+    - location: body
+      words:
+        - ejnav{ideacms:cursor

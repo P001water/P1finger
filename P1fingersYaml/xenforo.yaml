@@ -1,0 +1,10 @@
+- id: xenforo
+  name: Xenforo
+  author: P001
+  tags:
+    - xenforo
+  description: Xenforo
+  matchers:
+    - location: body
+      words:
+        - default/xenforo/bell.png

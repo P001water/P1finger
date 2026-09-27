@@ -1,0 +1,24 @@
+- id: phpmyadmin
+  name: Phpmyadmin
+  author: P1finger
+  tags:
+    - phpmyadmin
+  description: Phpmyadmin
+  matchers:
+    - location: header
+      words:
+        - pma_lang
+        - phpMyAdmin
+    - location: body
+      words:
+        - /themes/pmahomme/img/logo_right.png
+    - condition: or
+      location: header
+      words:
+        - 'Set-Cookie: phpMyAdmin='
+        - 'set-cookie: pma_lang='
+    - condition: or
+      location: body
+      words:
+        - pma_password
+        - pmaUser

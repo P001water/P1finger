@@ -1,0 +1,19 @@
+- id: phpvod
+  name: Phpvod
+  author: P1finger
+  tags:
+    - phpvod
+  description: Phpvod
+  matchers:
+    - location: body
+      words:
+        - Powered by PHPVOD
+        - content="phpvod
+    - condition: or
+      location: body
+      words:
+        - Powered by PHPVOD
+    - condition: or
+      location: body
+      words:
+        - content="phpvod

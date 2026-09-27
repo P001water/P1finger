@@ -1,0 +1,11 @@
+- id: daman-cms
+  name: Daman CMS
+  author: P1finger
+  tags:
+    - daman
+    - cms
+  description: Daman CMS
+  matchers:
+    - location: body
+      words:
+        - Daman网站管理系统

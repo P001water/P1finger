@@ -1,0 +1,10 @@
+- id: mcafee
+  name: McAfee Web Gateway
+  author: P1finger
+  tags:
+    - mcafee
+  description: McAfee Web Gateway
+  matchers:
+    - location: body
+      words:
+        - mcafee web gateway

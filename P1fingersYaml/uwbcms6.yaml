@@ -1,0 +1,11 @@
+- id: uwbcms6
+  name: UWBCMS6 CMS
+  author: P1finger
+  tags:
+    - uwbcms6
+    - cms
+  description: UWBCMS6 CMS
+  matchers:
+    - location: body
+      words:
+        - UWBCMS6内容管理系统

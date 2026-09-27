@@ -1,0 +1,14 @@
+- id: open-schools
+  name: Open-admin-for-schools
+  author: P001
+  tags:
+    - open-schools
+  description: Open-admin-for-schools
+  matchers:
+    - location: body
+      words:
+        - action="/cgi-bin/rptbirthday.pl
+        - open admin for schools
+    - location: body
+      words:
+        - Open Admin for Schools

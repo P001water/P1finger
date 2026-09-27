@@ -1,0 +1,10 @@
+- id: springer
+  name: Springer
+  author: P001
+  tags:
+    - springer
+  description: Springer
+  matchers:
+    - location: body
+      words:
+        - src="//static.springer.com/

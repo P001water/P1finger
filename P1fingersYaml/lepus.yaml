@@ -1,0 +1,15 @@
+- id: lepus
+  name: Lepus
+  author: P001
+  tags:
+    - lepus
+  description: Lepus
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - language/switchover"+'/'+current_language
+        - 登录
+    - location: body
+      words:
+        - <a href="http://www.lepus.cc" target="blank">

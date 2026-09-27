@@ -1,0 +1,27 @@
+- id: hybrid-cluster
+  name: Hybrid-cluster
+  author: P1finger
+  tags:
+    - hybrid-cluster
+  description: Hybrid-cluster
+  matchers:
+    - location: header
+      words:
+        - Hybrid Cluster
+    - location: body
+      words:
+        - 'server: hybrid cluster'
+    - location: header
+      words:
+        - hybrid cluster
+- id: hybrid-cluster-2
+  name: Hybrid-Cluster
+  author: Fofa
+  tags:
+    - hybrid-cluster
+  description: Hybrid-Cluster
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Hybrid Cluster

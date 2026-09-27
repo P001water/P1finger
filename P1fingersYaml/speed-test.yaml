@@ -1,0 +1,10 @@
+- id: speed-test
+  name: Speed-test
+  author: P001
+  tags:
+    - speed-test
+  description: Speed-test
+  matchers:
+    - location: body
+      words:
+        - classid="clsid:53028063-426b-446d-85f9-62e9e3dc5501"

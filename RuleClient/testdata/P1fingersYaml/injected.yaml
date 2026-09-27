@@ -1,0 +1,10 @@
+- id: injected-test
+  name: InjectedFingerprint
+  author: test
+  description: injected fingerprint for unit test
+  tags:
+    - test
+  matchers:
+    - location: body
+      words:
+        - injected-marker

@@ -1,0 +1,10 @@
+- id: cyberoam
+  name: Cyberoam
+  author: P1finger
+  tags:
+    - cyberoam
+  description: Cyberoam
+  matchers:
+    - hash:
+        - "1462981117"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: iis9-2
+  name: IIS9.5
+  author: Fofa
+  tags:
+    - iis9
+  description: IIS9.5
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IIS/9.5

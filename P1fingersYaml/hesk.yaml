@@ -1,0 +1,37 @@
+- id: hesk
+  name: HESK
+  author: Fofa
+  tags:
+    - hesk
+  description: HESK
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - hesk_javascript.js
+    - condition: or
+      location: body
+      words:
+        - hesk_style.css
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.hesk.com
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="https://www.hesk.com
+    - location: body
+      words:
+        - hesk_javascript.js
+        - hesk_style.css
+        - hesk.com
+    - location: body
+      words:
+        - hesk_javascript.js
+        - hesk_style.css
+        - powered by <a href="http://www.hesk.com
+        - powered by <a href="https://www.hesk.com
+    - location: body
+      words:
+        - https://www.sysaid.com/?utm_source=Hesk

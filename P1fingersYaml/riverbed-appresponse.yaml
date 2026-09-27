@@ -1,0 +1,10 @@
+- id: riverbed-appresponse
+  name: Riverbed-appresponse
+  author: P001
+  tags:
+    - riverbed-appresponse
+  description: Riverbed-appresponse
+  matchers:
+    - location: body
+      words:
+        - uiwebinsights/webinsights.html

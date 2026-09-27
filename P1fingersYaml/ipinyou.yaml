@@ -1,0 +1,14 @@
+- id: ipinyou
+  name: Ipinyou
+  author: Fofa
+  tags:
+    - ipinyou
+  description: Ipinyou
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - stats.ipinyou.com/
+    - location: body
+      words:
+        - stats.ipinyou.com/

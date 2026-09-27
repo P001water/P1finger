@@ -1,0 +1,10 @@
+- id: 313cms
+  name: 313cms
+  author: P1finger
+  tags:
+    - 313cms
+  description: 313cms
+  matchers:
+    - location: body
+      words:
+        - 313CMS

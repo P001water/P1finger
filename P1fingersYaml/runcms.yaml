@@ -1,0 +1,10 @@
+- id: runcms
+  name: RunCms
+  author: P1finger
+  tags:
+    - runcms
+  description: RunCms
+  matchers:
+    - location: body
+      words:
+        - content=" RunCms

@@ -1,0 +1,14 @@
+- id: edmwebvideo
+  name: EdmWebVideo
+  author: Fofa
+  tags:
+    - edmwebvideo
+  description: EdmWebVideo
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - EdmWebVideo
+    - location: body
+      words:
+        - EdmWebVideo

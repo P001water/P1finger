@@ -1,0 +1,10 @@
+- id: teamcity
+  name: Teamcity
+  author: P1finger
+  tags:
+    - teamcity
+  description: Teamcity
+  matchers:
+    - hash:
+        - "-1944119648"
+      location: favicon

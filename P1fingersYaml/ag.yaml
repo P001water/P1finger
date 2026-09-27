@@ -1,0 +1,11 @@
+- id: agdaili-management-system
+  name: AGdaili Management System
+  author: P1finger
+  tags:
+    - agdaili
+    - management-system
+  description: AGdaili Management System
+  matchers:
+    - location: body
+      words:
+        - AG代理管理系统

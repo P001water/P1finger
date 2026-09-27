@@ -1,0 +1,10 @@
+- id: ghostproxy
+  name: GhostProxy
+  author: P1finger
+  tags:
+    - ghostproxy
+  description: GhostProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: GhostProxy'

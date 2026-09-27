@@ -1,0 +1,17 @@
+- id: jinzhuantongxunbrickcomcarema
+  name: JinzhuantongxunBrickcomCarema
+  author: P1finger
+  tags:
+    - jinzhuantongxunbrickcomcarema
+  description: JinzhuantongxunBrickcomCarema
+  matchers:
+    - location: body
+      words:
+        - image/brickcom/login_bg1.png
+    - location: header
+      words:
+        - Basic realm="FD-300Np"
+        - Basic realm="FD-202Ne"
+        - Basic realm="FD-200Np"
+        - Basic realm="FD-535"
+        - Basic realm="FD-H200Np"

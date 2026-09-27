@@ -1,0 +1,10 @@
+- id: smartnac
+  name: SmartNac
+  author: P1finger
+  tags:
+    - smartnac
+  description: SmartNac
+  matchers:
+    - location: body
+      words:
+        - SmartNac

@@ -1,0 +1,10 @@
+- id: vnc
+  name: Vnc-enterprise-
+  author: P001
+  tags:
+    - vnc
+  description: Vnc-enterprise-
+  matchers:
+    - location: body
+      words:
+        - 'server: vnc server enterprise edition'

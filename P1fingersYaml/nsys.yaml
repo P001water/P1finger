@@ -1,0 +1,10 @@
+- id: wangyunsys
+  name: WangyuNSYS
+  author: P1finger
+  tags:
+    - wangyunsys
+  description: WangyuNSYS
+  matchers:
+    - location: body
+      words:
+        - Netsys

@@ -1,0 +1,13 @@
+- id: opencti
+  name: Opencti
+  author: P001
+  tags:
+    - opencti
+  description: Opencti
+  matchers:
+    - location: body
+      words:
+        - webpackjsonpopencti-front
+    - location: body
+      words:
+        - OpenCTI - Cyber Threat Intelligence Platform

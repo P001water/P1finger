@@ -1,0 +1,22 @@
+- id: episerver
+  name: EPiServer
+  author: Fofa
+  tags:
+    - episerver
+  description: EPiServer
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="EPiServer
+    - condition: or
+      location: body
+      words:
+        - /javascript/episerverscriptmanager.js
+    - location: body
+      words:
+        - EPiServer
+    - location: body
+      words:
+        - /javascript/episerverscriptmanager.js
+        - content="episerver

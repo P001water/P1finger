@@ -1,0 +1,13 @@
+- id: ciphermail-encryption
+  name: Ciphermail-email-encryption-gateway
+  author: P001
+  tags:
+    - ciphermail-encryption
+  description: Ciphermail-email-encryption-gateway
+  matchers:
+    - location: body
+      words:
+        - ciphermail email encryption gateway
+    - location: body
+      words:
+        - CipherMail Email Encryption Gateway

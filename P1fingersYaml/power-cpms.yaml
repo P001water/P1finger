@@ -1,0 +1,10 @@
+- id: power-cpms
+  name: Power-cpms
+  author: P001
+  tags:
+    - power-cpms
+  description: Power-cpms
+  matchers:
+    - location: body
+      words:
+        - post("/ssosaml/saml2signonhandler.ashx")

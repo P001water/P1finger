@@ -1,0 +1,22 @@
+- id: pineapp
+  name: PineApp
+  author: Fofa
+  tags:
+    - pineapp
+  description: PineApp
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - PineApp WebAccess - Login
+    - condition: or
+      location: body
+      words:
+        - /admin/css/images/pineapp.ico
+    - location: body
+      words:
+        - PineApp WebAccess - Login
+        - /admin/css/images/pineapp.ico
+    - location: body
+      words:
+        - /admin/css/images/pineapp.ico

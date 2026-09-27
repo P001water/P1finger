@@ -1,0 +1,10 @@
+- id: ralph
+  name: Ralph
+  author: P001
+  tags:
+    - ralph
+  description: Ralph
+  matchers:
+    - location: body
+      words:
+        - ralph <strong>3</strong>

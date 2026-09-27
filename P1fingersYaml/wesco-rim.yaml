@@ -1,0 +1,8 @@
+- id: wesco-rim
+  name: WESCO RIM
+  author: P1finger
+  tags:
+    - wesco-rim
+  description: WESCO RIM
+  matchers:
+    - location: header

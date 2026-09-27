@@ -1,0 +1,24 @@
+- id: elxis
+  name: Elxis-cms
+  author: P1finger
+  tags:
+    - elxis
+  description: Elxis-cms
+  matchers:
+    - location: body
+      words:
+        - content="Elxis
+    - location: body
+      words:
+        - <meta name="Generator" content="Elxis
+- id: elxis-2
+  name: Elxis-CMS
+  author: Fofa
+  tags:
+    - elxis
+  description: Elxis-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Elxis

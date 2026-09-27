@@ -1,0 +1,10 @@
+- id: rg-wall-v50
+  name: RG WALL V50
+  author: P1finger
+  tags:
+    - rg-wall-v50
+  description: RG WALL V50
+  matchers:
+    - location: body
+      words:
+        - rg-wall-v50

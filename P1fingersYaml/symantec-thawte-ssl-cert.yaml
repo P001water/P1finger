@@ -1,0 +1,10 @@
+- id: symantec-thawte-ssl-cert
+  name: Symantec-thawte_ssl_cert
+  author: P001
+  tags:
+    - symantec-thawte-ssl-cert
+  description: Symantec-thawte_ssl_cert
+  matchers:
+    - location: body
+      words:
+        - https://seal.thawte.com/getthawteseal

@@ -1,0 +1,10 @@
+- id: information-integrated
+  name: Information-security-integrated-management-platform
+  author: P001
+  tags:
+    - information-integrated
+  description: Information-security-integrated-management-platform
+  matchers:
+    - location: body
+      words:
+        - ccaq_kf@unisk.cn

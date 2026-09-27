@@ -1,0 +1,10 @@
+- id: netiaspot
+  name: Netiaspot
+  author: P1finger
+  tags:
+    - netiaspot
+  description: Netiaspot
+  matchers:
+    - hash:
+        - "-978656757"
+      location: favicon

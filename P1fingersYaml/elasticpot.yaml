@@ -1,0 +1,12 @@
+- id: elasticpot-honeypot
+  name: Elasticpot Honeypot
+  author: P1finger
+  tags:
+    - elasticpot
+    - honeypot
+  description: Elasticpot Honeypot
+  matchers:
+    - location: body
+      words:
+        - db18744ea5570fa9bf868df44fecd4b58332ff24
+        - 1cf0aa9d61f185b59f643939f862c01f89b21360

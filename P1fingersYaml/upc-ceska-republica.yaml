@@ -1,0 +1,10 @@
+- id: upc-ceska-republica
+  name: Upc Ceska Republica
+  author: P1finger
+  tags:
+    - upc-ceska-republica
+  description: Upc Ceska Republica
+  matchers:
+    - hash:
+        - "1911253822"
+      location: favicon

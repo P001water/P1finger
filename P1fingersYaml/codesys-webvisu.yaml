@@ -1,0 +1,10 @@
+- id: codesys-webvisu
+  name: Codesys-webvisu
+  author: P001
+  tags:
+    - codesys-webvisu
+  description: Codesys-webvisu
+  matchers:
+    - location: body
+      words:
+        - <param name="startvisu" value="plc_visu">

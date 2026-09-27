@@ -1,0 +1,23 @@
+- id: maop
+  name: Maop-oa
+  author: P001
+  tags:
+    - maop
+  description: Maop-oa
+  matchers:
+    - location: body
+      words:
+        - href="http://www.oooa.cn">重庆猫扑网络科技有限公司</a>
+        - pwd yahei16
+        - www.oooa.cn
+- id: maop-2
+  name: Maop OA
+  author: P1finger
+  tags:
+    - maop
+  description: Maop OA
+  matchers:
+    - location: body
+      words:
+        - href="http://www.oooa.cn">重庆猫扑网络科技有限公司</a>
+        - for 猫扑oa

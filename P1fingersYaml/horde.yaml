@@ -1,0 +1,29 @@
+- id: horde
+  name: Horde
+  author: Fofa
+  tags:
+    - horde
+  description: Horde
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - 'IMP: Copyright 2001-2009 The Horde Project'
+    - condition: or
+      location: header
+      words:
+        - Horde3
+    - condition: or
+      location: header
+      words:
+        - 'Set-Cookie: Horde'
+    - location: body
+      words:
+        - 'IMP: Copyright 2001-2009 The Horde Project'
+    - location: header
+      words:
+        - 'Set-Cookie: Horde'
+    - location: body
+      words:
+        - _sethordetitle
+        - 'imp: copyright 2001-2009 the horde project'

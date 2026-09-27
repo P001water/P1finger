@@ -1,0 +1,11 @@
+- id: heqinkejinsa
+  name: HeqinkejiNSA
+  author: P1finger
+  tags:
+    - heqinkejinsa
+  description: HeqinkejiNSA
+  matchers:
+    - location: header
+      words:
+        - Basic realm="NSA320"
+        - Basic realm="NSA310"

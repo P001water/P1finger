@@ -1,0 +1,10 @@
+- id: chinatelecomriskmanagementplatform
+  name: Chinatelecomriskmanagementplatform
+  author: P001
+  tags:
+    - chinatelecomriskmanagementplatform
+  description: Chinatelecomriskmanagementplatform
+  matchers:
+    - location: body
+      words:
+        - 风险治理平台</div>

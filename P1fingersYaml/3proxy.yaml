@@ -1,0 +1,10 @@
+- id: 3proxy
+  name: 3Proxy
+  author: P1finger
+  tags:
+  - 3proxy
+  description: 3Proxy
+  matchers:
+  - location: body
+    words:
+    - 3proxy tiny

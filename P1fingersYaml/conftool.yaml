@@ -1,0 +1,14 @@
+- id: conftool
+  name: Conftool
+  author: P001
+  tags:
+    - conftool
+  description: Conftool
+  matchers:
+    - location: body
+      words:
+        - <a href='http://www.conftool.net'>conference management software
+        - <h2 align=center>conftool conference administration
+    - location: body
+      words:
+        - ConfTool

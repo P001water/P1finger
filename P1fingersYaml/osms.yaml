@@ -1,0 +1,11 @@
+- id: nsfocus-management-system
+  name: NSFOCUS Management System
+  author: P1finger
+  tags:
+    - nsfocus
+    - management-system
+  description: NSFOCUS Management System
+  matchers:
+    - location: body
+      words:
+        - OSMS

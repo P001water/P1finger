@@ -1,0 +1,10 @@
+- id: basercms
+  name: Basercms
+  author: P1finger
+  tags:
+    - basercms
+  description: Basercms
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: BASERCMS='

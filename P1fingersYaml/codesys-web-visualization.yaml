@@ -1,0 +1,28 @@
+- id: codesys-visualization
+  name: Codesys-web-visualization
+  author: P1finger
+  tags:
+    - codesys-visualization
+  description: Codesys-web-visualization
+  matchers:
+    - location: body
+      words:
+        - CoDeSys WebVisualization
+    - location: header
+      words:
+        - WAGO_Webs
+- id: codesys-visualization-2
+  name: CoDeSys-Web-Visualization
+  author: Fofa
+  tags:
+    - codesys-visualization
+  description: CoDeSys-Web-Visualization
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - CoDeSys WebVisualization
+    - condition: or
+      location: header
+      words:
+        - WAGO_Webs

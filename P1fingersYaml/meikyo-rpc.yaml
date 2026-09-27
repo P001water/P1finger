@@ -1,0 +1,10 @@
+- id: meikyo-rpc
+  name: MEIKYO RPC
+  author: P1finger
+  tags:
+    - meikyo-rpc
+  description: MEIKYO RPC
+  matchers:
+    - location: header
+      words:
+        - Digest realm="RPC-

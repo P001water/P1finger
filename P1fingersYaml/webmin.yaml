@@ -1,0 +1,30 @@
+- id: webmin
+  name: Webmin
+  author: P1finger
+  tags:
+    - webmin
+  description: Webmin
+  matchers:
+    - location: body
+      words:
+        - Webmin
+    - condition: or
+      location: title
+      words:
+        - Login to Webmin
+    - condition: or
+      location: body
+      words:
+        - Webmin server on
+    - hash:
+        - "-1038557304"
+      location: favicon
+    - condition: and
+      location: body
+      words:
+        - webmin
+        - session_login
+        - webmin server on
+    - location: body
+      words:
+        - Webmin to Webmin

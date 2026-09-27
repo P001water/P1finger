@@ -1,0 +1,10 @@
+- id: netcorechanpin
+  name: Netcorechanpin
+  author: P1finger
+  tags:
+    - netcorechanpin
+  description: Netcorechanpin
+  matchers:
+    - location: header
+      words:
+        - netcore产品

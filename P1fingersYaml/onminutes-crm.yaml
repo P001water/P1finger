@@ -1,0 +1,15 @@
+- id: onminutes-crm
+  name: Onminutes-crm
+  author: P001
+  tags:
+    - onminutes-crm
+  description: Onminutes-crm
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <div class="extras" id="password_extras">
+        - crm
+    - location: header
+      words:
+        - 'X-Powered-By: Phusion Passenger (mod_rails/mod_rack)'

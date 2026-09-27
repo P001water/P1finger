@@ -1,0 +1,10 @@
+- id: alfresco
+  name: Alfresco
+  author: P1finger
+  tags:
+    - alfresco
+  description: Alfresco
+  matchers:
+    - hash:
+        - "1333537166"
+      location: favicon

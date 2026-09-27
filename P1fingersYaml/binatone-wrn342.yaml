@@ -1,0 +1,21 @@
+- id: binatone-wrn342
+  name: Binatone WRN342
+  author: Fofa
+  tags:
+    - binatone-wrn342
+  description: Binatone WRN342
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WRN342
+- id: binatone-wrn342-2
+  name: Binatone Wrn342
+  author: P1finger
+  tags:
+    - binatone-wrn342
+  description: Binatone Wrn342
+  matchers:
+    - location: header
+      words:
+        - WRN342

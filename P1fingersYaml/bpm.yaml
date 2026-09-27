@@ -1,0 +1,22 @@
+- id: helitaibpm-system
+  name: HelitaiBPM System
+  author: P1finger
+  tags:
+    - helitaibpm
+    - system
+  description: HelitaiBPM System
+  matchers:
+    - location: body
+      words:
+        - 合力泰BPM系统
+- id: tianfuqiyeliuchengbpm
+  name: TianfuqiyeliuchengBPM Management System
+  author: P1finger
+  tags:
+    - tianfuqiyeliuchengbpm
+    - management-system
+  description: TianfuqiyeliuchengBPM Management System
+  matchers:
+    - location: body
+      words:
+        - <title>天福企业流程管理系统(BPM)</title>

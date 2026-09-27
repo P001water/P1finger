@@ -1,0 +1,11 @@
+- id: cnway-ilims
+  name: Cnway-ilims
+  author: P001
+  tags:
+    - cnway-ilims
+  description: Cnway-ilims
+  matchers:
+    - location: body
+      words:
+        - /js/allpagefunction.js
+        - src="/extjs/adapter/ext/ext-base-js

@@ -1,0 +1,32 @@
+- id: nitc-2
+  name: NITC
+  author: Fofa
+  tags:
+    - nitc
+  description: NITC
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - NITC Web Marketing Service
+    - condition: or
+      location: body
+      words:
+        - /images/nitc1.png
+    - location: body
+      words:
+        - NITC Web Marketing Service
+        - /images/nitc1.png
+    - location: body
+      words:
+        - www.nitc.cc
+- id: nitcqiyezhinengyingxiao
+  name: NITCqiyezhinengyingxiao
+  author: P1finger
+  tags:
+    - nitcqiyezhinengyingxiao
+  description: NITCqiyezhinengyingxiao
+  matchers:
+    - location: body
+      words:
+        - alt="http://www.nitc.cc" title="http://www.nitc.cc"

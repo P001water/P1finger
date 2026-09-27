@@ -1,0 +1,26 @@
+- id: alstrasoft-epay
+  name: Alstrasoft-epay-enterprise
+  author: P1finger
+  tags:
+    - alstrasoft-epay
+  description: Alstrasoft-epay-enterprise
+  matchers:
+    - location: body
+      words:
+        - EPay Enterprise
+        - /shop.htm?action=view
+- id: alstrasoft-epay-2
+  name: AlstraSoft-EPay-Enterprise
+  author: Fofa
+  tags:
+    - alstrasoft-epay
+  description: AlstraSoft-EPay-Enterprise
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by EPay Enterprise
+    - condition: or
+      location: body
+      words:
+        - /shop.htm?action=view

@@ -1,0 +1,11 @@
+- id: hp-virtual-connect-manager
+  name: Hp-virtual-connect-manager
+  author: P001
+  tags:
+  - hp
+  - hp-virtual-connect-manager
+  description: Hp-virtual-connect-manager
+  matchers:
+  - location: body
+    words:
+    - name='mx_hidden' src="common/hiddenframe.html

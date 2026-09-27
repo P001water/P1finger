@@ -1,0 +1,10 @@
+- id: looyu-oms
+  name: Looyu-oms
+  author: P001
+  tags:
+    - looyu-oms
+  description: Looyu-oms
+  matchers:
+    - location: body
+      words:
+        - src="http://gate.looyu.com/

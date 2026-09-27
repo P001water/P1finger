@@ -1,0 +1,10 @@
+- id: wat
+  name: Wat-system
+  author: P001
+  tags:
+    - wat
+  description: Wat-system
+  matchers:
+    - location: body
+      words:
+        - 生产经营计划统计一体化管理信息系统安装程序

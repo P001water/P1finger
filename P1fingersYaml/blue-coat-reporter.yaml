@@ -1,0 +1,11 @@
+- id: blue-coat-reporter
+  name: Blue Coat Reporter
+  author: P1finger
+  tags:
+    - blue-coat-reporter
+  description: Blue Coat Reporter
+  matchers:
+    - location: body
+      words:
+        - Blue Coat Reporter
+        - Blue Coat Reporter

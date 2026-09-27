@@ -1,0 +1,11 @@
+- id: truvision-nvr
+  name: Truvision Nvr
+  author: P1finger
+  tags:
+  - truvision
+  - truvision-nvr
+  description: Truvision Nvr
+  matchers:
+  - hash:
+    - '1782271534'
+    location: favicon

@@ -1,0 +1,10 @@
+- id: werkzeug
+  name: Werkzeug
+  author: P001
+  tags:
+    - werkzeug
+  description: Werkzeug
+  matchers:
+    - location: body
+      words:
+        - 'server: werkzeug'

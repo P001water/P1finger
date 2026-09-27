@@ -1,0 +1,10 @@
+- id: mailenable
+  name: Mailenable
+  author: P001
+  tags:
+    - mailenable
+  description: Mailenable
+  matchers:
+    - location: body
+      words:
+        - <!-- loginpanel_shell_table -->

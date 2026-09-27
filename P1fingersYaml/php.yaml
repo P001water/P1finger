@@ -1,0 +1,28 @@
+- id: php-2
+  name: PHP
+  author: Fofa
+  tags:
+    - php
+  description: PHP
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Powered-By: PHP'
+    - location: header
+      words:
+        - PHPSESSID
+- id: phpyun
+  name: Phpyun
+  author: Fofa
+  tags:
+    - phpyun
+  description: Phpyun
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <div class="index_link_list_name">
+    - location: header
+      words:
+        - 'Set-Cookie: checkurl=deleted;'

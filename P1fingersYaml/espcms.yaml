@@ -1,0 +1,39 @@
+- id: espcms
+  name: ESPCMS
+  author: Fofa
+  tags:
+    - espcms
+  description: ESPCMS
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Powered by ESPCMS
+    - condition: or
+      location: body
+      words:
+        - Powered by ESPCMS
+    - condition: and
+      location: body
+      words:
+        - /templates/default/style/tempates_div.css")
+    - location: body
+      words:
+        - Powered by ESPCMS
+        - Powered by ESPCMS
+        - infolist_fff
+        - /templates/default/style/tempates_div.css
+    - location: body
+      words:
+        - Powered by ESPCMS
+- id: yisiespcmsqiye
+  name: YisiESPCMSqiye Management System
+  author: P1finger
+  tags:
+    - yisiespcmsqiye
+    - management-system
+  description: YisiESPCMSqiye Management System
+  matchers:
+    - location: body
+      words:
+        - Powered by <a href="http://www.earclink.com" title="易思ESPCMS企业建站管理系统">ESPCSM-P8</a>

@@ -1,0 +1,10 @@
+- id: saltstack-config
+  name: SaltStack Config
+  author: P1finger
+  tags:
+    - saltstack-config
+  description: SaltStack Config
+  matchers:
+    - location: body
+      words:
+        - SaltStack config

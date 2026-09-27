@@ -1,0 +1,11 @@
+- id: kirbycms
+  name: KirbyCMS
+  author: P1finger
+  tags:
+    - kirbycms
+  description: KirbyCMS
+  matchers:
+    - location: body
+      words:
+        - kirbycms
+        - <meta name="keywords" content="kirby

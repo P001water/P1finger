@@ -1,0 +1,10 @@
+- id: cloudreve
+  name: Cloudreve
+  author: P1finger
+  tags:
+    - cloudreve
+  description: Cloudreve
+  matchers:
+    - location: body
+      words:
+        - Cloudreve

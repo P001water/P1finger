@@ -1,0 +1,10 @@
+- id: runda-supervisory
+  name: Runda-supervisory-platform
+  author: P001
+  tags:
+    - runda-supervisory
+  description: Runda-supervisory-platform
+  matchers:
+    - location: body
+      words:
+        - class="log_rbox"

@@ -1,0 +1,14 @@
+- id: telerik-fileupload
+  name: Detect Telerik Web UI Fileupload Handler
+  author: nuclei
+  tags:
+  - telerik
+  - fileupload
+  - intrusive
+  description: This template detects the Telerik Web UI fileupload handler.
+  paths:
+  - /Telerik.Web.UI.WebResource.axd?type=rau
+  matchers:
+  - location: body
+    words:
+    - RadAsyncUpload handler is registered succesfully

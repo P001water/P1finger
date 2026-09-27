@@ -1,0 +1,10 @@
+- id: terminal
+  name: Next Terminal
+  author: P1finger
+  tags:
+    - terminal
+  description: Next Terminal
+  matchers:
+    - location: body
+      words:
+        - Next Terminal

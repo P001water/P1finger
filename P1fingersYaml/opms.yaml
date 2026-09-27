@@ -1,0 +1,11 @@
+- id: yiyuxinxiopms-management-system
+  name: YiyuxinxiOPMS Management System
+  author: P1finger
+  tags:
+    - yiyuxinxiopms
+    - management-system
+  description: YiyuxinxiOPMS Management System
+  matchers:
+    - location: body
+      words:
+        - OPMS管理系统

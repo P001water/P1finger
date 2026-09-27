@@ -1,0 +1,11 @@
+- id: bicesoft-super-custom-survey-voting
+  name: Bicesoft-super-custom-survey-voting-system
+  author: P001
+  tags:
+    - bicesoft-super-custom-survey-voting
+  description: Bicesoft-super-custom-survey-voting-system
+  matchers:
+    - location: body
+      words:
+        - href="images/bicesoft.css"
+        - 佰思超强自定义问卷调查系统(bicesoft.com)

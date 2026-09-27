@@ -1,0 +1,28 @@
+- id: grandstream-phone
+  name: Grandstream-phone
+  author: P1finger
+  tags:
+    - grandstream-phone
+  description: Grandstream-phone
+  matchers:
+    - location: body
+      words:
+        - Grandstream Device Configuration
+    - location: header
+      words:
+        - Grandstream
+- id: grandstream-phone-2
+  name: Grandstream-Phone
+  author: Fofa
+  tags:
+    - grandstream-phone
+  description: Grandstream-Phone
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Grandstream
+    - condition: or
+      location: title
+      words:
+        - Grandstream Device Configuration

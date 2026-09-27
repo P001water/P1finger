@@ -1,0 +1,10 @@
+- id: alliance
+  name: Alliance-web-platform
+  author: P001
+  tags:
+    - alliance
+  description: Alliance-web-platform
+  matchers:
+    - location: body
+      words:
+        - window.location = "/swp/group/admin";

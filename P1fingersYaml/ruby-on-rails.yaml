@@ -1,0 +1,12 @@
+- id: ruby-on-rails
+  name: Ruby-on-rails
+  author: P001
+  tags:
+    - ruby-on-rails
+  description: Ruby-on-rails
+  matchers:
+    - location: body
+      words:
+        - <title>ruby on rails</title>
+        - alt="ruby on rails
+        - content="ruby on rails

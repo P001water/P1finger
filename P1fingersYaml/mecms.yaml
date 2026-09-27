@@ -1,0 +1,11 @@
+- id: mecms-management-system
+  name: MECMS Management System
+  author: P1finger
+  tags:
+    - mecms
+    - management-system
+  description: MECMS Management System
+  matchers:
+    - location: body
+      words:
+        - MECMS管理系统

@@ -1,0 +1,26 @@
+- id: moxa-nport-5150a
+  name: Moxa_NPort_5150A
+  author: Fofa
+  tags:
+    - moxa-nport-5150a
+  description: Moxa_NPort_5150A
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MoxaHttp
+    - condition: and
+      location: title
+      words:
+        - NPort Web Console
+    - condition: and
+      location: body
+      words:
+        - 5150A
+    - location: body
+      words:
+        - NPort Web Console
+        - 5150A
+    - location: header
+      words:
+        - MoxaHttp

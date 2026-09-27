@@ -1,0 +1,10 @@
+- id: wolfcms
+  name: WolfCMS
+  author: P1finger
+  tags:
+    - wolfcms
+  description: WolfCMS
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.wolfcms.org/" title="Wolf CMS">Wolf CMS</a>

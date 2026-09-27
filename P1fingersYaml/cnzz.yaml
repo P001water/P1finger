@@ -1,0 +1,14 @@
+- id: cnzz
+  name: Cnzz
+  author: Fofa
+  tags:
+    - cnzz
+  description: Cnzz
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - cnzz.com/stat.php?id=
+    - location: body
+      words:
+        - cnzz.com/stat.php?id=

@@ -1,0 +1,41 @@
+- id: adobe-connect
+  name: Adobe Connect
+  author: Fofa
+  tags:
+  - adobe
+  - adobe-connect
+  description: Adobe Connect
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /common/scripts/showContent.js
+  - condition: or
+    location: header
+    words:
+    - BREEZESESSION=
+- id: adobe-connect-2
+  name: Adobe-connect
+  author: P001
+  tags:
+  - adobe
+  - adobe-connect
+  description: Adobe-connect
+  matchers:
+  - location: body
+    words:
+    - /common/scripts/showcontent.js
+- id: adobe-connect-3
+  name: Adobe Connect
+  author: P1finger
+  tags:
+  - adobe
+  - adobe-connect
+  description: Adobe Connect
+  matchers:
+  - location: body
+    words:
+    - /common/scripts/showContent.js
+  - location: header
+    words:
+    - BREEZESESSION=

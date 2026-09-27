@@ -1,0 +1,11 @@
+- id: cwp-controlpanel
+  name: Cwp-controlpanel
+  author: P001
+  tags:
+    - cwp-controlpanel
+  description: Cwp-controlpanel
+  matchers:
+    - location: body
+      words:
+        - href="/login/cwp_theme/original/img/ico/favicon.ico"
+        - src="/login/cwp_theme/original/img/new_logo_small.png"

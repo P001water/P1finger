@@ -1,0 +1,11 @@
+- id: netquery
+  name: Netquery
+  author: P001
+  tags:
+    - netquery
+  description: Netquery
+  matchers:
+    - location: body
+      words:
+        - action="nquser.php
+        - href="nqadmin.php

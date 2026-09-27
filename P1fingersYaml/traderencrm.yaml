@@ -1,0 +1,13 @@
+- id: traderencrm
+  name: Traderencrm
+  author: P001
+  tags:
+    - traderencrm
+  description: Traderencrm
+  matchers:
+    - location: body
+      words:
+        - emlsoft
+    - location: body
+      words:
+        - TradeRenCRM 商路通-外贸客户管理系统

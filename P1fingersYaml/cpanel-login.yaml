@@ -1,0 +1,10 @@
+- id: cpanel
+  name: Cpanel Login
+  author: P1finger
+  tags:
+    - cpanel
+  description: Cpanel Login
+  matchers:
+    - hash:
+        - "1544230796"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: ldarzongheldarshenjiyanshou
+  name: LDARzongheLDARshenjiyanshou Management Platform
+  author: P1finger
+  tags:
+    - ldarzongheldarshenjiyanshou
+    - management-platform
+  description: LDARzongheLDARshenjiyanshou Management Platform
+  matchers:
+    - location: body
+      words:
+        - LDAR综合管理平台(LDAR审计验收系统)

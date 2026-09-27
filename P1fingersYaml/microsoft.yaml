@@ -1,0 +1,208 @@
+- id: microsoft-ajax-content-delivery
+  name: Microsoft Ajax Content Delivery Network
+  author: Fofa
+  tags:
+  - microsoft
+  - microsoft-ajax-content-delivery
+  description: Microsoft Ajax Content Delivery Network
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - ajax.aspnetcdn.com/ajax
+  - condition: or
+    location: body
+    words:
+    - ajax.aspnetcdn.com/ajax
+- id: microsoft-exchange
+  name: Microsoft-Exchange
+  author: P001
+  tags:
+  - exchange
+  - microsoft
+  - microsoft-exchange
+  description: Microsoft-Exchange
+  matchers:
+  - location: body
+    words:
+    - 'location: /owa/'
+    - <div class="signinheader">outlook</div>
+    - owalogocontainer
+    - /exchweb/bin/auth/owalogon.asp
+    - /exchweb/bin/auth/owalogon.asp?url=
+    - <!-- owapage = asp.auth_logon_aspx
+    - <div class="signinheader">outlook</div>
+    - <meta http-equiv="refresh" content="0;url=/owa">
+    - href="/owa/auth/
+    - themes/resources/segoeui-semibold.ttf
+    - window.location.replace("/owa/" + window.location.hash);</script></head><body></body>
+    - owapage = asp.auth_logon_aspx
+    - showpasswordcheck
+- id: microsoft-isa
+  name: Microsoft-isa-server
+  author: P001
+  tags:
+  - microsoft
+  - microsoft-isa
+  description: Microsoft-isa-server
+  matchers:
+  - location: body
+    words:
+    - the isa server denied the specified uniform resource locator
+    - the server denied the specified uniform resource locator (url). contact the
+      server administrator
+- id: microsoft-ajax-content-delivery-2
+  name: Microsoft Ajax Content Delivery Network
+  author: P1finger
+  tags:
+  - microsoft
+  - microsoft-ajax-content-delivery
+  description: Microsoft Ajax Content Delivery Network
+  matchers:
+  - location: body
+    words:
+    - ajax.aspnetcdn.com/ajax
+  - location: header
+    words:
+    - ajax.aspnetcdn.com/ajax
+- id: microsoft-forefront-tmg
+  name: Microsoft Forefront TMG
+  author: P1finger
+  tags:
+  - microsoft
+  - microsoft-forefront-tmg
+  description: Microsoft Forefront TMG
+  matchers:
+  - location: body
+    words:
+    - Microsoft Forefront TMG
+- id: microsoft-forefront-tmg-2010
+  name: Microsoft Forefront TMG 2010
+  author: P1finger
+  tags:
+  - microsoft
+  - microsoft-forefront-tmg-2010
+  description: Microsoft Forefront TMG 2010
+  matchers:
+  - location: body
+    words:
+    - Microsoft Forefront TMG 2010
+- id: microsoft-httpapi
+  name: Microsoft-HTTPAPI
+  author: Fofa
+  tags:
+  - microsoft
+  - microsoft-httpapi
+  description: Microsoft-HTTPAPI
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Microsoft-HTTPAPI
+- id: microsoft-iis-2
+  name: Microsoft Iis
+  author: P1finger
+  tags:
+  - iis
+  - microsoft
+  - microsoft-iis
+  description: Microsoft Iis
+  matchers:
+  - hash:
+    - '-1414475558'
+    location: favicon
+- id: microsoft-outlook
+  name: Microsoft Outlook
+  author: P1finger
+  tags:
+  - microsoft
+  - microsoft-outlook
+  description: Microsoft Outlook
+  matchers:
+  - hash:
+    - '-1249852061'
+    location: favicon
+- id: microsoft-owa
+  name: Microsoft Owa
+  author: P1finger
+  tags:
+  - microsoft
+  - microsoft-owa
+  description: Microsoft Owa
+  matchers:
+  - hash:
+    - '442749392'
+    location: favicon
+- id: microsoft-sql-reporting-services
+  name: Microsoft SQL Server Reporting Services
+  author: P1finger
+  tags:
+  - microsoft
+  - microsoft-sql-reporting-services
+  description: Microsoft SQL Server Reporting Services
+  matchers:
+  - location: body
+    words:
+    - Reportserver/Pages/ReportViewer.aspx
+  - location: header
+    words:
+    - ReportServer/Pages/ReportViewer.aspx
+- id: microsoft-workplace
+  name: Microsoft-remote-web-workplace
+  author: P001
+  tags:
+  - microsoft
+  - microsoft-workplace
+  description: Microsoft-remote-web-workplace
+  matchers:
+  - location: body
+    words:
+    - action="logon.aspx?
+    - content="copyright (c) microsoft corporation
+- id: microsoft-sharepoint
+  name: Microsoft-sharepoint
+  author: P001
+  tags:
+  - sharepoint
+  - microsoft
+  - microsoft-sharepoint
+  description: Microsoft-sharepoint
+  matchers:
+  - location: body
+    words:
+    - content="microsoft sharepoint
+    - content="sharepoint team
+    - id="msowebpartpage_postbacksource
+- id: microsoft-silverlight
+  name: Microsoft-silverlight
+  author: P001
+  tags:
+  - microsoft
+  - microsoft-silverlight
+  description: Microsoft-silverlight
+  matchers:
+  - location: body
+    words:
+    - get microsoft silverlight
+- id: microsoft-skype-business
+  name: Microsoft-skype-for-business
+  author: P001
+  tags:
+  - microsoft
+  - microsoft-skype-business
+  description: Microsoft-skype-for-business
+  matchers:
+  - location: body
+    words:
+    - var reachclientproductname = "skype for business web 应用"
+- id: microsoft-urlscan
+  name: Microsoft-UrlScan
+  author: P1finger
+  tags:
+  - microsoft
+  - microsoft-urlscan
+  description: Microsoft-UrlScan
+  matchers:
+  - location: header
+    words:
+    - rejected-by-urlscan

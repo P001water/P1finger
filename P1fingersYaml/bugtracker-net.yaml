@@ -1,0 +1,24 @@
+- id: bugtracker-net
+  name: BugTracker.NET
+  author: Fofa
+  tags:
+    - bugtracker-net
+  description: BugTracker.NET
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - href="btnet.css
+    - condition: or
+      location: body
+      words:
+        - valign=middle><a href=http://ifdefined.com/bugtrackernet.html>
+    - condition: or
+      location: body
+      words:
+        - <div class=logo>BugTracker.NET
+    - location: body
+      words:
+        - href="btnet.css
+        - valign=middle><a href=http://ifdefined.com/bugtrackernet.html>
+        - <div class=logo>BugTracker.NET

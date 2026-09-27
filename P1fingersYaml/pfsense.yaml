@@ -1,0 +1,14 @@
+- id: pfsense
+  name: Pfsense
+  author: P1finger
+  tags:
+    - pfsense
+  description: Pfsense
+  matchers:
+    - hash:
+        - "1405460984"
+      location: favicon
+    - location: body
+      words:
+        - <h4>login to pfsense</h4>
+        - rubicon communications, llc (netgate)

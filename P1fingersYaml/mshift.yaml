@@ -1,0 +1,10 @@
+- id: mshift
+  name: Mshift
+  author: P001
+  tags:
+    - mshift
+  description: Mshift
+  matchers:
+    - location: body
+      words:
+        - powered by mshift&reg

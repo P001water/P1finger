@@ -1,0 +1,24 @@
+- id: commerce-builder
+  name: Commerce-builder
+  author: P1finger
+  tags:
+    - commerce-builder
+  description: Commerce-builder
+  matchers:
+    - location: header
+      words:
+        - Commerce-Builder
+    - location: body
+      words:
+        - 'Server: commerce-builder'
+- id: commerce-builder-2
+  name: Commerce-Builder
+  author: Fofa
+  tags:
+    - commerce-builder
+  description: Commerce-Builder
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Commerce-Builder

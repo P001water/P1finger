@@ -1,0 +1,11 @@
+- id: defeway-camera
+  name: Defeway Camera
+  author: P1finger
+  tags:
+    - defeway
+    - camera
+  description: Defeway Camera
+  matchers:
+    - location: header
+      words:
+        - 'Server: JAWS/1.0'

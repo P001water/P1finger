@@ -1,0 +1,27 @@
+- id: yonyou-turbocrm
+  name: Yonyou-turbocrm
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-turbocrm
+  description: Yonyou-turbocrm
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - crm
+    - loginsys_osv
+    - 用友
+    - turboui.js
+- id: yonyou-turbocrm-2
+  name: Yonyou TurboCRM
+  author: P1finger
+  tags:
+  - yonyou
+  - yonyou-turbocrm
+  description: Yonyou TurboCRM
+  matchers:
+  - location: body
+    words:
+    - turboui.js
+    - 用友turbocrm

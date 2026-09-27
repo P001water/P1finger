@@ -1,0 +1,14 @@
+- id: akamai
+  name: Akamai
+  author: Fofa
+  tags:
+    - akamai
+  description: Akamai
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - X-Akamai-Transformed
+    - location: header
+      words:
+        - X-Akamai-Transformed

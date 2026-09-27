@@ -1,0 +1,14 @@
+- id: weidun
+  name: Weidun
+  author: Fofa
+  tags:
+    - weidun
+  description: Weidun
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Firewall: www.weidun.com.cn'
+    - location: header
+      words:
+        - 'Firewall: www.weidun.com.cn'

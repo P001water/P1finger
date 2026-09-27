@@ -1,0 +1,14 @@
+- id: communique
+  name: Communique
+  author: Fofa
+  tags:
+    - communique
+  description: Communique
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Communique
+    - location: header
+      words:
+        - Communique

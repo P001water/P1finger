@@ -1,0 +1,18 @@
+- id: tqyun-call-center
+  name: TQyun Call Center
+  author: Fofa
+  tags:
+    - tqyun
+    - call-center
+  description: TQyun Call Center
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - tq.cn/floatcard?
+    - location: body
+      words:
+        - tq.cn/floatcard?
+    - location: body
+      words:
+        - float2006.tq.cn/floatcard?adminid=

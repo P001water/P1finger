@@ -1,0 +1,10 @@
+- id: reblaze-secure
+  name: Reblaze Secure Web Gateway
+  author: P1finger
+  tags:
+    - reblaze-secure
+  description: Reblaze Secure Web Gateway
+  matchers:
+    - location: header
+      words:
+        - reblaze secure web gateway

@@ -1,0 +1,30 @@
+- id: mrtg
+  name: MRTG
+  author: Fofa
+  tags:
+    - mrtg
+  description: MRTG
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Command line is easier to read using "View Page Properties" of your browser
+    - condition: or
+      location: title
+      words:
+        - MRTG Index Page
+    - condition: or
+      location: body
+      words:
+        - 'commandline was: indexmaker'
+    - location: body
+      words:
+        - Command line is easier to read using "View Page Properties" of your browser
+        - MRTG Index Page
+        - 'commandline was: indexmaker'
+    - condition: and
+      location: body
+      words:
+        - /mrtg-l.png
+        - command line is easier to read using "view page properties" of your browser
+        - href="http://oss.oetiker.ch/mrtg/

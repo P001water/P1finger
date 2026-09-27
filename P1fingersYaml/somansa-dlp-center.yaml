@@ -1,0 +1,11 @@
+- id: somansa-dlp
+  name: SOMANSA DLP+Center
+  author: P1finger
+  tags:
+    - somansa-dlp
+  description: SOMANSA DLP+Center
+  matchers:
+    - location: body
+      words:
+        - <span>SOMANSA</span>
+        - <a href="/DLPCenter/" class="btn DLPCenter"></a>

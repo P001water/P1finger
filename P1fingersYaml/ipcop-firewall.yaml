@@ -1,0 +1,15 @@
+- id: ipcop
+  name: Ipcop-firewall
+  author: P001
+  tags:
+    - ipcop
+  description: Ipcop-firewall
+  matchers:
+    - location: body
+      words:
+        - <!-- ipcop logo row -->
+        - href='http://sf.net/projects/ipcop/
+        - href='https://sourceforge.net/projects/ipcop/
+    - location: body
+      words:
+        - IPCop

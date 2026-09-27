@@ -1,0 +1,26 @@
+- id: genohm-scada
+  name: Genohm-scada
+  author: P1finger
+  tags:
+    - genohm-scada
+  description: Genohm-scada
+  matchers:
+    - location: body
+      words:
+        - GenOHM Scada Launcher
+        - /cgi-bin/scada-vis/
+- id: genohm-scada-2
+  name: GenOHM-SCADA
+  author: Fofa
+  tags:
+    - genohm-scada
+  description: GenOHM-SCADA
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - GenOHM Scada Launcher
+    - condition: or
+      location: body
+      words:
+        - /cgi-bin/scada-vis/

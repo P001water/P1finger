@@ -1,0 +1,10 @@
+- id: mission-shield
+  name: Mission-control-application-shield
+  author: P001
+  tags:
+    - mission-shield
+  description: Mission-control-application-shield
+  matchers:
+    - location: body
+      words:
+        - alt="mission control application shield

@@ -1,0 +1,14 @@
+- id: dzcp
+  name: DZCP
+  author: Fofa
+  tags:
+    - dzcp
+  description: DZCP
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <!--[ DZCP
+    - location: body
+      words:
+        - <!--[ DZCP

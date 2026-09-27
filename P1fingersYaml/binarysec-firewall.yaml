@@ -1,0 +1,24 @@
+- id: binarysec
+  name: Binarysec-firewall
+  author: P1finger
+  tags:
+    - binarysec
+  description: Binarysec-firewall
+  matchers:
+    - location: header
+      words:
+        - X-BinarySEC
+    - location: header
+      words:
+        - x-binarysec
+- id: binarysec-2
+  name: BinarySec-Firewall
+  author: Fofa
+  tags:
+    - binarysec
+  description: BinarySec-Firewall
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-BinarySEC

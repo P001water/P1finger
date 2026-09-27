@@ -1,0 +1,21 @@
+- id: ben-ssl
+  name: Ben-ssl
+  author: P1finger
+  tags:
+    - ben-ssl
+  description: Ben-ssl
+  matchers:
+    - location: header
+      words:
+        - Ben-SSL
+- id: ben-ssl-2
+  name: Ben-SSL
+  author: Fofa
+  tags:
+    - ben-ssl
+  description: Ben-SSL
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Ben-SSL

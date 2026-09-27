@@ -1,0 +1,10 @@
+- id: sinema-connect
+  name: SINEMA Remote Connect
+  author: P1finger
+  tags:
+    - sinema-connect
+  description: SINEMA Remote Connect
+  matchers:
+    - location: body
+      words:
+        - SINEMA Remote Connect

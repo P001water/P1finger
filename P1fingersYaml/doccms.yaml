@@ -1,0 +1,17 @@
+- id: doccms
+  name: Doccms
+  author: Fofa
+  tags:
+    - doccms
+  description: Doccms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Power by DocCms
+    - location: body
+      words:
+        - Power by DocCms
+    - location: body
+      words:
+        - power by doccms x1.0&grysoft

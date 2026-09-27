@@ -1,0 +1,24 @@
+- id: ecomat
+  name: Ecomat-cms
+  author: P1finger
+  tags:
+    - ecomat
+  description: Ecomat-cms
+  matchers:
+    - location: body
+      words:
+        - content="ECOMAT CMS
+    - location: body
+      words:
+        - ECOMAT CMS
+- id: ecomat-2
+  name: Ecomat-CMS
+  author: Fofa
+  tags:
+    - ecomat
+  description: Ecomat-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="ECOMAT CMS

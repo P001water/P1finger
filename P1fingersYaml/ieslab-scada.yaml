@@ -1,0 +1,11 @@
+- id: ieslab-scada
+  name: Ieslab-scada
+  author: P001
+  tags:
+    - ieslab-scada
+  description: Ieslab-scada
+  matchers:
+    - location: body
+      words:
+        - copyrightpt12
+        - 青岛积成电子有限公司

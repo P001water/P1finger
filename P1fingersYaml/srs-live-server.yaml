@@ -1,0 +1,10 @@
+- id: srs-live
+  name: Srs-live-server
+  author: P001
+  tags:
+    - srs-live
+  description: Srs-live-server
+  matchers:
+    - location: body
+      words:
+        - players/js/winlin.utility.js

@@ -1,0 +1,10 @@
+- id: netartmedia-real-estate
+  name: Netartmedia-real-estate-portal
+  author: P001
+  tags:
+    - netartmedia-real-estate
+  description: Netartmedia-real-estate-portal
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.netartmedia.net/realestate

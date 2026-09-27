@@ -1,0 +1,10 @@
+- id: informatica
+  name: Informatica-Server
+  author: P1finger
+  tags:
+    - informatica
+  description: Informatica-Server
+  matchers:
+    - location: header
+      words:
+        - 'Server: Informatica'

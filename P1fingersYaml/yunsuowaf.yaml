@@ -1,0 +1,13 @@
+- id: yunsuowaf
+  name: YunsuoWAF
+  author: P1finger
+  tags:
+    - yunsuowaf
+  description: YunsuoWAF
+  matchers:
+    - location: header
+      words:
+        - yunsuo_session
+    - location: body
+      words:
+        - yunsuologo

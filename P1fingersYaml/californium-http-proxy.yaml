@@ -1,0 +1,10 @@
+- id: californium-http-proxy
+  name: Californium-Http-Proxy
+  author: P1finger
+  tags:
+    - californium-http-proxy
+  description: Californium-Http-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Californium Http Proxy'

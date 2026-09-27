@@ -1,0 +1,10 @@
+- id: tp-shop
+  name: Tp-shop
+  author: P1finger
+  tags:
+    - tp-shop
+  description: Tp-shop
+  matchers:
+    - location: body
+      words:
+        - mn-c-top

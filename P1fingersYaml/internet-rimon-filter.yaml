@@ -1,0 +1,21 @@
+- id: internet-rimon-filter
+  name: Internet-rimon-filter
+  author: P1finger
+  tags:
+    - internet-rimon-filter
+  description: Internet-rimon-filter
+  matchers:
+    - location: header
+      words:
+        - rimon
+- id: internet-rimon-filter-2
+  name: Internet-Rimon-Filter
+  author: Fofa
+  tags:
+    - internet-rimon-filter
+  description: Internet-Rimon-Filter
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - rimon

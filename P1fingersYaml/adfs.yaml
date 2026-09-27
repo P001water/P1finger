@@ -1,0 +1,12 @@
+- id: adfs
+  name: ADFS
+  author: nuclei
+  tags:
+  - adfs
+  description: Detects ADFS with forms-based authentication enabled.
+  paths:
+  - /adfs/ls/idpinitiatedsignon.aspx
+  matchers:
+  - location: body
+    words:
+    - /adfs/portal/css/style.css

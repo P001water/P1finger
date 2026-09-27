@@ -1,0 +1,14 @@
+- id: parature
+  name: Parature
+  author: P001
+  tags:
+    - parature
+  description: Parature
+  matchers:
+    - location: body
+      words:
+        - redirectportalurl('/ics/support/custhandler.asp?
+        - src="kbfolder.asp?deptid=
+    - location: header
+      words:
+        - 'Set-Cookie: Parature'

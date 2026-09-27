@@ -1,0 +1,15 @@
+- id: oracle-applicaton
+  name: Oracle_applicaton_server
+  author: Fofa
+  tags:
+  - oracle
+  - oracle-applicaton
+  description: Oracle_applicaton_server
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - OraLightHeaderSub
+  - location: body
+    words:
+    - OraLightHeaderSub

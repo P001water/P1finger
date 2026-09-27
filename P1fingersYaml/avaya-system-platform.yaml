@@ -1,0 +1,10 @@
+- id: avaya
+  name: Avaya-system-platform
+  author: P001
+  tags:
+    - avaya
+  description: Avaya-system-platform
+  matchers:
+    - location: body
+      words:
+        - content="0;url=vsplogin.action

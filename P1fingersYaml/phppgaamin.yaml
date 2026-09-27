@@ -1,0 +1,10 @@
+- id: phppgaamin
+  name: PhpPgaAmin
+  author: P1finger
+  tags:
+    - phppgaamin
+  description: PhpPgaAmin
+  matchers:
+    - location: body
+      words:
+        - phpPgAdmin

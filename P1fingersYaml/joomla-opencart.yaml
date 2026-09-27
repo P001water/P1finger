@@ -1,0 +1,12 @@
+- id: joomla-opencart
+  name: Joomla OpenCart
+  author: P1finger
+  tags:
+  - joomla
+  - joomla-opencart
+  description: Joomla OpenCart
+  matchers:
+  - location: body
+    words:
+    - /component/opencart/
+    - ?option=com_opencart

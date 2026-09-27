@@ -1,0 +1,13 @@
+- id: seeyon-2
+  name: Seeyon
+  author: P001
+  tags:
+    - seeyon
+  description: Seeyon
+  matchers:
+    - location: body
+      words:
+        - /seeyon/index.jsp
+        - /seeyon
+        - seeyonproductid
+        - 'Server: SY8045'

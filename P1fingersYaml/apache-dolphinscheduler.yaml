@@ -1,0 +1,11 @@
+- id: apache-dolphinscheduler
+  name: Apache-Dolphinscheduler
+  author: P1finger
+  tags:
+  - apache
+  - apache-dolphinscheduler
+  description: Apache-Dolphinscheduler
+  matchers:
+  - location: body
+    words:
+    - <title>dolphinscheduler

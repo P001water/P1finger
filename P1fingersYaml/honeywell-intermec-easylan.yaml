@@ -1,0 +1,11 @@
+- id: honeywell-intermec-easylan
+  name: Honeywell-intermec-easylan
+  author: P001
+  tags:
+  - honeywell
+  - honeywell-intermec-easylan
+  description: Honeywell-intermec-easylan
+  matchers:
+  - location: body
+    words:
+    - color="black" size="5">intermec easylan

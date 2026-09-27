@@ -1,0 +1,13 @@
+- id: gravcms
+  name: Gravcms
+  author: P001
+  tags:
+    - gravcms
+  description: Gravcms
+  matchers:
+    - hash:
+        - 0b11a9699ae33de62a1d05be8f733486
+      location: favicon
+    - location: body
+      words:
+        - <meta name="generator" content="gravcms

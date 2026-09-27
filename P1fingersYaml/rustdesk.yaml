@@ -1,0 +1,10 @@
+- id: rustdesk
+  name: RustDesk
+  author: P1finger
+  tags:
+    - rustdesk
+  description: RustDesk
+  matchers:
+    - location: body
+      words:
+        - rs-cn.rustDesk.com

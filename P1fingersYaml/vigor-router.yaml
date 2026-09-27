@@ -1,0 +1,10 @@
+- id: vigor
+  name: Vigor Router
+  author: P1finger
+  tags:
+    - vigor
+  description: Vigor Router
+  matchers:
+    - hash:
+        - "104189364"
+      location: favicon

@@ -1,0 +1,21 @@
+- id: smc-wbr14s-n5
+  name: SMC WBR14S-N5
+  author: Fofa
+  tags:
+    - smc-wbr14s-n5
+  description: SMC WBR14S-N5
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - SMCWBR14S-N5
+- id: smc-wbr14s-n5-2
+  name: Smc Wbr14s-n5
+  author: P1finger
+  tags:
+    - smc-wbr14s-n5
+  description: Smc Wbr14s-n5
+  matchers:
+    - location: header
+      words:
+        - SMCWBR14S-N5

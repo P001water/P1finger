@@ -1,0 +1,26 @@
+- id: 08cms
+  name: 08cms
+  author: P001
+  tags:
+    - 08cms
+  description: 08cms
+  matchers:
+    - location: body
+      words:
+        - content="08cms
+        - locationof(_08cms)
+    - location: body
+      words:
+        - content="08CMS
+        - locationof(_08cms)
+    - condition: or
+      location: body
+      words:
+        - content="08CMS
+    - condition: or
+      location: body
+      words:
+        - locationof(_08cms)
+    - location: body
+      words:
+        - 08CMS

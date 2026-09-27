@@ -1,0 +1,36 @@
+- id: duomiduomicmsmianfeiyingshi
+  name: DuomiDuomiCmsmianfeiyingshi Management System
+  author: P1finger
+  tags:
+    - duomiduomicmsmianfeiyingshi
+    - management-system
+  description: DuomiDuomiCmsmianfeiyingshi Management System
+  matchers:
+    - location: body
+      words:
+        - Power by DuomiCms
+        - 多米(DuomiCms)-免费影视管理系统
+- id: duomicms
+  name: DuomiCms
+  author: Fofa
+  tags:
+    - duomicms
+  description: DuomiCms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - DuomiCms
+    - condition: or
+      location: title
+      words:
+        - Power by DuomiCms
+    - location: body
+      words:
+        - DuomiCms
+        - Power by DuomiCms
+    - condition: and
+      location: body
+      words:
+        - duomicms_member
+        - 多米

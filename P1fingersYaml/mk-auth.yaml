@@ -1,0 +1,10 @@
+- id: mk-auth
+  name: Mk-auth
+  author: P1finger
+  tags:
+    - mk-auth
+  description: Mk-auth
+  matchers:
+    - hash:
+        - "1490343308"
+      location: favicon

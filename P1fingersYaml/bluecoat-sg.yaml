@@ -1,0 +1,13 @@
+- id: bluecoat-sg
+  name: BlueCoat-SG
+  author: P1finger
+  tags:
+    - bluecoat-sg
+  description: BlueCoat-SG
+  matchers:
+    - location: body
+      words:
+        - Blue Coat SG
+    - location: header
+      words:
+        - BlueCoat-Security-Appliance

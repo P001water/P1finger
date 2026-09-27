@@ -1,0 +1,10 @@
+- id: ultrame
+  name: UltraME
+  author: P1finger
+  tags:
+    - ultrame
+  description: UltraME
+  matchers:
+    - location: body
+      words:
+        - me移动协调办公平台

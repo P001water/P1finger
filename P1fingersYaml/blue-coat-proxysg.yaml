@@ -1,0 +1,21 @@
+- id: blue-coat-proxysg
+  name: Blue-coat-proxysg
+  author: P1finger
+  tags:
+    - blue-coat-proxysg
+  description: Blue-coat-proxysg
+  matchers:
+    - location: header
+      words:
+        - proxysg
+- id: blue-coat-proxysg-2
+  name: Blue-Coat-ProxySG
+  author: Fofa
+  tags:
+    - blue-coat-proxysg
+  description: Blue-Coat-ProxySG
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - proxysg

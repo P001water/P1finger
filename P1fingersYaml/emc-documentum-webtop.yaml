@@ -1,0 +1,34 @@
+- id: emc-documentum-webtop
+  name: Emc-documentum-webtop
+  author: P1finger
+  tags:
+    - emc-documentum-webtop
+  description: Emc-documentum-webtop
+  matchers:
+    - location: body
+      words:
+        - /webtop/index.js
+        - /webtop/webtop/
+    - location: body
+      words:
+        - /webtop/index.js
+        - /webtop/webtop/theme/documentum/css/webtop.css
+- id: emc-documentum-webtop-2
+  name: EMC-Documentum-Webtop
+  author: Fofa
+  tags:
+    - emc-documentum-webtop
+  description: EMC-Documentum-Webtop
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /webtop/index.js
+    - condition: or
+      location: body
+      words:
+        - /webtop/webtop/theme/documentum/css/webtop.css
+    - location: body
+      words:
+        - /webtop/
+        - onload='doRedirect("/component/main")'

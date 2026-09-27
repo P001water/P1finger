@@ -1,0 +1,10 @@
+- id: qunhuinas
+  name: Qunhuinas
+  author: P1finger
+  tags:
+    - qunhuinas
+  description: Qunhuinas
+  matchers:
+    - location: body
+      words:
+        - DiskStation

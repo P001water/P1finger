@@ -1,0 +1,10 @@
+- id: nalong
+  name: Nalong-system
+  author: P001
+  tags:
+    - nalong
+  description: Nalong-system
+  matchers:
+    - location: body
+      words:
+        - id="ctl00_contentplaceholder1_txthospcode"

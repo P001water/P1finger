@@ -1,0 +1,13 @@
+- id: docker-daemon
+  name: Docker_Daemon
+  author: Fofa
+  tags:
+  - docker
+  - docker-daemon
+  description: Docker_Daemon
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Content-Length:19
+    - text/plain

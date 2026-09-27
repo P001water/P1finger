@@ -1,0 +1,10 @@
+- id: sanshuichinatelecombusinesssupportroomsystem
+  name: Sanshuichinatelecombusinesssupportroomsystem
+  author: P001
+  tags:
+    - sanshuichinatelecombusinesssupportroomsystem
+  description: Sanshuichinatelecombusinesssupportroomsystem
+  matchers:
+    - location: body
+      words:
+        - background="images/vista.jpg"

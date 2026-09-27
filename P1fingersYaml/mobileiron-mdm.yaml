@@ -1,0 +1,10 @@
+- id: mobileiron-mdm
+  name: Mobileiron-mdm
+  author: P001
+  tags:
+    - mobileiron-mdm
+  description: Mobileiron-mdm
+  matchers:
+    - location: body
+      words:
+        - /whitelabel/mobileiron/img/favicon.ico

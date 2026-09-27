@@ -1,0 +1,14 @@
+- id: noalyss
+  name: NOALYSS
+  author: Fofa
+  tags:
+    - noalyss
+  description: NOALYSS
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - NOALYSS
+    - location: body
+      words:
+        - NOALYSS

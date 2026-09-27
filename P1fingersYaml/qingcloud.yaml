@@ -1,0 +1,14 @@
+- id: qingcloud
+  name: QingCloud
+  author: Fofa
+  tags:
+    - qingcloud
+  description: QingCloud
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - QINGCLOUDELB
+    - location: header
+      words:
+        - QINGCLOUDELB

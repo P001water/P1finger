@@ -1,0 +1,10 @@
+- id: opnsense
+  name: Opnsense
+  author: P1finger
+  tags:
+    - opnsense
+  description: Opnsense
+  matchers:
+    - hash:
+        - "-1148190371"
+      location: favicon

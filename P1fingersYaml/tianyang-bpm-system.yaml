@@ -1,0 +1,10 @@
+- id: tianyang-bpm
+  name: Tianyang-bpm-system
+  author: P001
+  tags:
+    - tianyang-bpm
+  description: Tianyang-bpm-system
+  matchers:
+    - location: body
+      words:
+        - value="sinopec.ad" readonly="readonly" id="ddldomains2"

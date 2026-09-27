@@ -1,0 +1,14 @@
+- id: shoutcast-2
+  name: SHOUTcast
+  author: Fofa
+  tags:
+    - shoutcast
+  description: SHOUTcast
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - SHOUTcast Administrator
+    - location: body
+      words:
+        - SHOUTcast Administrator

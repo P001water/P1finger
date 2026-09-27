@@ -1,0 +1,12 @@
+- id: apache-cas
+  name: Apache_cas
+  author: P1finger
+  tags:
+  - apache
+  - apache-cas
+  description: Apache_cas
+  matchers:
+  - location: body
+    words:
+    - Central Authentication Service
+    - execution=

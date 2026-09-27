@@ -1,0 +1,22 @@
+- id: cruxcms
+  name: CruxCMS
+  author: Fofa
+  tags:
+    - cruxcms
+  description: CruxCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Created by CruxCMS
+    - condition: or
+      location: body
+      words:
+        - title="CruxCMS" class="blank
+    - location: body
+      words:
+        - Created by CruxCMS
+        - title="CruxCMS" class="blank
+    - location: body
+      words:
+        - Home - CruxSoftware

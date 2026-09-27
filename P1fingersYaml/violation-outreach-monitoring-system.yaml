@@ -1,0 +1,12 @@
+- id: violation-outreach
+  name: Violation-outreach-monitoring-system
+  author: P001
+  tags:
+    - violation-outreach
+  description: Violation-outreach-monitoring-system
+  matchers:
+    - location: body
+      words:
+        - <body onload="forward_to_logon()">
+        - window.location='login.action';
+        - 欢迎登录违规外联平台

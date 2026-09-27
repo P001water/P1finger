@@ -1,0 +1,15 @@
+- id: base-3
+  name: BASE
+  author: Fofa
+  tags:
+    - base
+  description: BASE
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <!-- Basic Analysis and Security Engine (BASE) -->
+    - condition: or
+      location: body
+      words:
+        - mailto:base@secureideas.net

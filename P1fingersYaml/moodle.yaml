@@ -1,0 +1,19 @@
+- id: moodle
+  name: Moodle
+  author: P1finger
+  tags:
+    - moodle
+  description: Moodle
+  matchers:
+    - hash:
+        - "-438482901"
+      location: favicon
+    - location: body
+      words:
+        - content="moodle
+        - 'm.str = {"moodle":'
+        - title="moodle" href="http://moodle.org/
+    - location: body
+      words:
+        - href="http://moodle.org/"
+        - content="moodle

@@ -1,0 +1,10 @@
+- id: nsqadmin
+  name: Nsqadmin
+  author: P1finger
+  tags:
+    - nsqadmin
+  description: Nsqadmin
+  matchers:
+    - location: body
+      words:
+        - Nosqlclient

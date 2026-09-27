@@ -1,0 +1,10 @@
+- id: stardot-express
+  name: Stardot-express
+  author: P001
+  tags:
+    - stardot-express
+  description: Stardot-express
+  matchers:
+    - location: body
+      words:
+        - <tr><td><a href="http://www.stardot.com" target="_blank"><img src="logo.gif" alt="" width="227" height="45"></a></td>

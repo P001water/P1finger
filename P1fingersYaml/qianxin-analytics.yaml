@@ -1,0 +1,10 @@
+- id: qianxin-analytics
+  name: Qianxin-analytics
+  author: P001
+  tags:
+    - qianxin-analytics
+  description: Qianxin-analytics
+  matchers:
+    - location: body
+      words:
+        - href="/static/build/animate_nprogress_timepiacker_tooltipster.min.css

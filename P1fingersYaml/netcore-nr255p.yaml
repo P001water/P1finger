@@ -1,0 +1,11 @@
+- id: netcore-nr255p
+  name: NETCORE NR255P
+  author: Fofa
+  tags:
+    - netcore-nr255p
+  description: NETCORE NR255P
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - NETCORE NR255P

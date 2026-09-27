@@ -1,0 +1,13 @@
+- id: zhengdazhongri-education
+  name: Zhengdazhongri-education
+  author: P001
+  tags:
+    - zhengdazhongri-education
+  description: Zhengdazhongri-education
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - lb_hint
+        - onclick="safecodeclick" src="safecode.aspx
+        - images/lgline.gif

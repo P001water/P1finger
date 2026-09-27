@@ -1,0 +1,10 @@
+- id: vnc-2
+  name: Vnc
+  author: P001
+  tags:
+    - vnc
+  description: Vnc
+  matchers:
+    - location: body
+      words:
+        - <applet code=vncviewer.class archive=vncviewer.jar

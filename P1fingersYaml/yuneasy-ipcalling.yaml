@@ -1,0 +1,10 @@
+- id: yuneasy-ipcalling
+  name: Yuneasy-ipcalling
+  author: P001
+  tags:
+    - yuneasy-ipcalling
+  description: Yuneasy-ipcalling
+  matchers:
+    - location: body
+      words:
+        - 云翌ip呼叫中心</span>

@@ -1,0 +1,34 @@
+- id: epson-printer
+  name: Epson Printer
+  author: Fofa
+  tags:
+  - epson
+  - epson-printer
+  description: Epson Printer
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - EPSON-HTTP
+  - condition: or
+    location: title
+    words:
+    - EpsonNet config
+  - condition: or
+    location: title
+    words:
+    - EpsonNet WebAssist
+- id: epson-printer-2
+  name: Epson Printer
+  author: P1finger
+  tags:
+  - epson
+  - epson-printer
+  description: Epson Printer
+  matchers:
+  - location: body
+    words:
+    - EpsonNet
+  - location: header
+    words:
+    - EPSON-HTTP

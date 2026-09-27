@@ -1,0 +1,10 @@
+- id: ciscovpn
+  name: Ciscovpn
+  author: P001
+  tags:
+    - ciscovpn
+  description: Ciscovpn
+  matchers:
+    - location: body
+      words:
+        - /+cscoe+/logon.html

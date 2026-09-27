@@ -1,0 +1,10 @@
+- id: jiusi
+  name: Jiusi-oa
+  author: P001
+  tags:
+    - jiusi
+  description: Jiusi-oa
+  matchers:
+    - location: body
+      words:
+        - 九思软件

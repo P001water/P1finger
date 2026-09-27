@@ -1,0 +1,11 @@
+- id: sap-id-log-on
+  name: 'Sap Id Service: Log On'
+  author: P1finger
+  tags:
+  - sap
+  - sap-id-log-on
+  description: 'Sap Id Service: Log On'
+  matchers:
+  - hash:
+    - '-1967743928'
+    location: favicon

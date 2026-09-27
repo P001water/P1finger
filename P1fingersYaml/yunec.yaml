@@ -1,0 +1,13 @@
+- id: yunec
+  name: Yunec
+  author: P001
+  tags:
+    - yunec
+  description: Yunec
+  matchers:
+    - location: body
+      words:
+        - href="/17rec.html"
+    - location: body
+      words:
+        - href="http://www.yunec.cn/" target="_blank"

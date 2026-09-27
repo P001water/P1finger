@@ -1,0 +1,11 @@
+- id: panasonic-utility
+  name: Panasonic-maintenance-utility
+  author: P001
+  tags:
+  - panasonic
+  - panasonic-utility
+  description: Panasonic-maintenance-utility
+  matchers:
+  - location: body
+    words:
+    - panasonic_logo.gif

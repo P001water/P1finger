@@ -1,0 +1,12 @@
+- id: haoshitong-conference
+  name: Haoshitong-cloud-conference
+  author: P001
+  tags:
+    - haoshitong-conference
+  description: Haoshitong-cloud-conference
+  matchers:
+    - location: body
+      words:
+        - content="fsmeeting
+        - images/common/logina_1.gif
+        - location="hidden" id="app.index.configsuclogin

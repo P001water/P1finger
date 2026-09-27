@@ -1,0 +1,16 @@
+- id: extmail
+  name: Extmail
+  author: P001
+  tags:
+    - extmail
+  description: Extmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - setcookie('extmail_username
+        - 欢迎使用extmail
+    - location: body
+      words:
+        - setcookie('extmail_username
+        - 欢迎使用extmail

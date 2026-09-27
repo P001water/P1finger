@@ -1,0 +1,29 @@
+- id: xheditor
+  name: Xheditor
+  author: Fofa
+  tags:
+    - xheditor
+  description: Xheditor
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - xheditor_lang/zh-cn.js
+    - condition: or
+      location: body
+      words:
+        - class="xheditor
+    - condition: or
+      location: body
+      words:
+        - .xheditor(
+    - location: body
+      words:
+        - xheditor_lang/zh-cn.js
+        - class="xheditor
+        - .xheditor(
+    - location: body
+      words:
+        - .xheditor(
+        - class="xheditor
+        - xheditor_lang/zh-cn.js

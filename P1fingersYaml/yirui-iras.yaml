@@ -1,0 +1,11 @@
+- id: yirui-iras
+  name: Yirui-iras
+  author: P001
+  tags:
+    - yirui-iras
+  description: Yirui-iras
+  matchers:
+    - location: body
+      words:
+        - /authjsp/login.jsp
+        - fe0174bb-f093-42af-ab20-7ec621d10488

@@ -1,0 +1,13 @@
+- id: h3cer3200
+  name: H3cer3200
+  author: P001
+  tags:
+    - h3cer3200
+  description: H3cer3200
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - er3200
+        - h3c.com
+        - home.asp

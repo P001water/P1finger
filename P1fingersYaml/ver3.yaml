@@ -1,0 +1,11 @@
+- id: yikefulinchuangshiyanjigouver30
+  name: YikefulinchuangshiyanjigouVer30 Management System
+  author: P1finger
+  tags:
+    - yikefulinchuangshiyanjigouver30
+    - management-system
+  description: YikefulinchuangshiyanjigouVer30 Management System
+  matchers:
+    - location: body
+      words:
+        - <title>伊柯夫临床试验机构管理系统(Ver3.0)</title>

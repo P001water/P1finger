@@ -1,0 +1,11 @@
+- id: soft78
+  name: Soft78-system
+  author: P001
+  tags:
+    - soft78
+  description: Soft78-system
+  matchers:
+    - location: body
+      words:
+        - add by sll
+        - offlineservice/showdownloadmessage.aspx

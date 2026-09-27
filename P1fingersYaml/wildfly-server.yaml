@@ -1,0 +1,10 @@
+- id: wildfly
+  name: Wildfly-server
+  author: P001
+  tags:
+    - wildfly
+  description: Wildfly-server
+  matchers:
+    - location: body
+      words:
+        - wildfly project

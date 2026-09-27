@@ -1,0 +1,10 @@
+- id: lemonoa
+  name: LemonOA
+  author: P1finger
+  tags:
+    - lemonoa
+  description: LemonOA
+  matchers:
+    - location: body
+      words:
+        - 首页 - Mossle

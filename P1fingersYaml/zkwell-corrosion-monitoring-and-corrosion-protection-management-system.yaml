@@ -1,0 +1,10 @@
+- id: zkwell-corrosion-corrosion-protection
+  name: Zkwell-corrosion-monitoring-and-corrosion-protection-management-system
+  author: P001
+  tags:
+    - zkwell-corrosion-corrosion-protection
+  description: Zkwell-corrosion-monitoring-and-corrosion-protection-management-system
+  matchers:
+    - location: body
+      words:
+        - background-image:url(images/devicebg.jpg)

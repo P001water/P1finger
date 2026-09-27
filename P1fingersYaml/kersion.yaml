@@ -1,0 +1,10 @@
+- id: kersion
+  name: Kersion
+  author: P1finger
+  tags:
+    - kersion
+  description: Kersion
+  matchers:
+    - location: body
+      words:
+        - www.kesion.com

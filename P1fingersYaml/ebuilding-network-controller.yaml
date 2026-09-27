@@ -1,0 +1,21 @@
+- id: ebuilding-controller
+  name: Ebuilding-network-controller
+  author: P1finger
+  tags:
+    - ebuilding-controller
+  description: Ebuilding-network-controller
+  matchers:
+    - location: body
+      words:
+        - eBuilding Web
+- id: ebuilding-controller-2
+  name: EBuilding-Network-Controller
+  author: Fofa
+  tags:
+    - ebuilding-controller
+  description: EBuilding-Network-Controller
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - eBuilding Web

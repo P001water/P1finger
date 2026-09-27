@@ -1,0 +1,10 @@
+- id: tbk-dvr
+  name: Tbk-dvr
+  author: P001
+  tags:
+    - tbk-dvr
+  description: Tbk-dvr
+  matchers:
+    - location: body
+      words:
+        - <div class='log-dvr-logo'>

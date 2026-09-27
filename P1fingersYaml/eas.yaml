@@ -1,0 +1,26 @@
+- id: kingdee-2
+  name: Kingdee
+  author: P1finger
+  tags:
+    - kingdee
+  description: Kingdee
+  matchers:
+    - location: body
+      words:
+        - easSessionId
+        - path=/eassso
+    - condition: and
+      location: body
+      words:
+        - easSessionId
+- id: easyuancheng-management-system
+  name: EASyuancheng Management System
+  author: P1finger
+  tags:
+    - easyuancheng
+    - management-system
+  description: EASyuancheng Management System
+  matchers:
+    - location: body
+      words:
+        - EAS远程管理系统

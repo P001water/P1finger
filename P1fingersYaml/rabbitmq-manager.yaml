@@ -1,0 +1,11 @@
+- id: rabbitmq-manager
+  name: Rabbitmq-manager
+  author: P1finger
+  tags:
+  - rabbitmq
+  - rabbitmq-manager
+  description: Rabbitmq-manager
+  matchers:
+  - location: body
+    words:
+    - RabbitMQ Management

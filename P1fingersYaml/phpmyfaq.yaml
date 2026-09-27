@@ -1,0 +1,10 @@
+- id: phpmyfaq
+  name: PhpMyFAQ
+  author: P1finger
+  tags:
+    - phpmyfaq
+  description: PhpMyFAQ
+  matchers:
+    - location: body
+      words:
+        - powered by phpMyFAQ

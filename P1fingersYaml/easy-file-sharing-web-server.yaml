@@ -1,0 +1,24 @@
+- id: easy-file-sharing
+  name: Easy-file-sharing-web-server
+  author: P1finger
+  tags:
+    - easy-file-sharing
+  description: Easy-file-sharing-web-server
+  matchers:
+    - location: header
+      words:
+        - Easy File Sharing Web Server
+    - location: body
+      words:
+        - 'server: easy file sharing web server'
+- id: easy-file-sharing-2
+  name: Easy-File-Sharing-Web-Server
+  author: Fofa
+  tags:
+    - easy-file-sharing
+  description: Easy-File-Sharing-Web-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Easy File Sharing Web Server

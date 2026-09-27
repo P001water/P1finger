@@ -1,0 +1,10 @@
+- id: vts
+  name: Vts-cms
+  author: P001
+  tags:
+    - vts
+  description: Vts-cms
+  matchers:
+    - location: body
+      words:
+        - errmag

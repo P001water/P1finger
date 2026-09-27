@@ -1,0 +1,10 @@
+- id: neb-proxy
+  name: NEB-PROXY
+  author: P1finger
+  tags:
+    - neb-proxy
+  description: NEB-PROXY
+  matchers:
+    - location: header
+      words:
+        - 'Server: NEBPROXY'

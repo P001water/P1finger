@@ -1,0 +1,11 @@
+- id: yonyou-u8-2
+  name: Yonyou-u8
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-u8
+  description: Yonyou-u8
+  matchers:
+  - location: body
+    words:
+    - getfirstu8accid

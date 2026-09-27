@@ -1,0 +1,10 @@
+- id: firebrick-fb105
+  name: FireBrick-FB105
+  author: P1finger
+  tags:
+    - firebrick-fb105
+  description: FireBrick-FB105
+  matchers:
+    - location: header
+      words:
+        - FireBrick 105

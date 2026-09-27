@@ -1,0 +1,10 @@
+- id: sdl-studio
+  name: SDL Studio
+  author: P1finger
+  tags:
+    - sdl-studio
+  description: SDL Studio
+  matchers:
+    - location: body
+      words:
+        - sdl studio groupshare

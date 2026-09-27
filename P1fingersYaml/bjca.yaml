@@ -1,0 +1,10 @@
+- id: bjca
+  name: Bjca
+  author: P001
+  tags:
+    - bjca
+  description: Bjca
+  matchers:
+    - location: body
+      words:
+        - <li><a href="/install/certapp_bd.exe">下载证书应用环境</a></li>

@@ -1,0 +1,11 @@
+- id: eqmanager-mail-gateway
+  name: EQManager Mail Gateway
+  author: P1finger
+  tags:
+    - eqmanager
+    - mail-gateway
+  description: EQManager Mail Gateway
+  matchers:
+    - location: body
+      words:
+        - smtp server(EQManager

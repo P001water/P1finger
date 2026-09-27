@@ -1,0 +1,10 @@
+- id: pnp-secure-access
+  name: PnP Secure Access Gateway
+  author: P1finger
+  tags:
+    - pnp-secure-access
+  description: PnP Secure Access Gateway
+  matchers:
+    - location: body
+      words:
+        - pnp secure access gateway

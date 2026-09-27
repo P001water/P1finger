@@ -1,0 +1,11 @@
+- id: securesphere
+  name: SecureSphere
+  author: P1finger
+  tags:
+    - securesphere
+  description: SecureSphere
+  matchers:
+    - location: header
+      words:
+        - 'Notconnected: /SecureSphere'
+        - 'Notconnected: /SecureSphere'

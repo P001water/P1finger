@@ -1,0 +1,10 @@
+- id: dingruan-cgm
+  name: Dingruan-cgm
+  author: P001
+  tags:
+    - dingruan-cgm
+  description: Dingruan-cgm
+  matchers:
+    - location: body
+      words:
+        - id='cgm' style='background-image

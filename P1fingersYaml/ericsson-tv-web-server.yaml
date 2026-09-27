@@ -1,0 +1,21 @@
+- id: ericsson-tv
+  name: Ericsson-tv-web-server
+  author: P1finger
+  tags:
+    - ericsson-tv
+  description: Ericsson-tv-web-server
+  matchers:
+    - location: header
+      words:
+        - Ericsson Television Web server
+- id: ericsson-tv-2
+  name: Ericsson-TV-Web-Server
+  author: Fofa
+  tags:
+    - ericsson-tv
+  description: Ericsson-TV-Web-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Ericsson Television Web server

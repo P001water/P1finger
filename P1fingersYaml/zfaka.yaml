@@ -1,0 +1,10 @@
+- id: zfaka
+  name: Zfaka
+  author: P1finger
+  tags:
+    - zfaka
+  description: Zfaka
+  matchers:
+    - location: body
+      words:
+        - alt="zfaka"

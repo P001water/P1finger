@@ -1,0 +1,25 @@
+- id: apache-solr
+  name: Apache-solr
+  author: P001
+  tags:
+  - solr
+  - apache
+  - apache-solr
+  description: Apache-solr
+  matchers:
+  - location: body
+    words:
+    - 'location: /solr/'
+- id: apache-solr-2
+  name: Apache Solr
+  author: P1finger
+  tags:
+  - solr
+  - apache
+  - apache-solr
+  description: Apache Solr
+  matchers:
+  - location: body
+    words:
+    - solr admin
+    - app_config.solr_path

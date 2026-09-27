@@ -1,0 +1,12 @@
+- id: zkaccess-management-system
+  name: ZKAccess Management System
+  author: Fofa
+  tags:
+    - zkaccess
+    - management-system
+  description: ZKAccess Management System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /logoZKAccess_zh-cn.jpg

@@ -1,0 +1,29 @@
+- id: feixunfortress
+  name: FeixunFortress
+  author: P1finger
+  tags:
+    - feixunfortress
+  description: FeixunFortress
+  matchers:
+    - location: body
+      words:
+        - <title>斐讯Fortress防火墙</title>
+- id: feixunfortress-2
+  name: FeixunFortress
+  author: Fofa
+  tags:
+    - feixunfortress
+  description: FeixunFortress
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 斐讯Fortress防火墙
+    - condition: and
+      location: body
+      words:
+        - <meta name="author" content="上海斐讯数据通信技术有限公司" />
+    - location: body
+      words:
+        - 斐讯Fortress防火墙
+        - <meta name="author" content="上海斐讯数据通信技术有限公司" />

@@ -1,0 +1,28 @@
+- id: adiscon-loganalyzer
+  name: Adiscon-loganalyzer
+  author: P001
+  tags:
+    - adiscon-loganalyzer
+  description: Adiscon-loganalyzer
+  matchers:
+    - location: body
+      words:
+        - adiscon gmbh
+- id: adiscon-loganalyzer-2
+  name: Adiscon_LogAnalyzer
+  author: Fofa
+  tags:
+    - adiscon-loganalyzer
+  description: Adiscon_LogAnalyzer
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Adiscon LogAnalyzer
+    - condition: and
+      location: body
+      words:
+        - Adiscon GmbH")
+    - location: body
+      words:
+        - Adiscon

@@ -1,0 +1,17 @@
+- id: whm
+  name: WHM
+  author: Fofa
+  tags:
+    - whm
+  description: WHM
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - whostmgrsession
+    - location: header
+      words:
+        - whostmgrsession
+    - hash:
+        - "-649378830"
+      location: favicon

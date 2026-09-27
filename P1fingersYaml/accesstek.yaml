@@ -1,0 +1,10 @@
+- id: accesstek
+  name: Accesstek
+  author: P1finger
+  tags:
+    - accesstek
+  description: Accesstek
+  matchers:
+    - location: body
+      words:
+        - Accesstek (Pvt.) Ltd

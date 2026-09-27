@@ -1,0 +1,10 @@
+- id: alibabaottermanager-2
+  name: AlibabaOtterManager
+  author: P1finger
+  tags:
+    - alibabaottermanager
+  description: AlibabaOtterManager
+  matchers:
+    - location: body
+      words:
+        - Otter Manager

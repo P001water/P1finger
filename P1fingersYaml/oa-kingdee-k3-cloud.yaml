@@ -1,0 +1,16 @@
+- id: kingdee-3
+  name: Kingdee
+  author: P001
+  tags:
+    - kingdee
+  description: Kingdee
+  matchers:
+    - location: body
+      words:
+        - '"./K3Cloud";</script>'
+        - /clientbin/kingdee.bos.xpf.app.xap
+        - html5/content/themes/kdcss.min.css
+        - cloud_loading_galaxy.gif
+        - window.KDResVer
+        - url=/K3Cloud">
+        - url=/K3Cloud/HTML5"

@@ -1,0 +1,10 @@
+- id: kerio-connect-webmail
+  name: Kerio Connect Webmail
+  author: P1finger
+  tags:
+    - kerio-connect-webmail
+  description: Kerio Connect Webmail
+  matchers:
+    - hash:
+        - "-1678298769"
+      location: favicon

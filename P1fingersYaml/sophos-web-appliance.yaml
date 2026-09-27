@@ -1,0 +1,59 @@
+- id: sophos-appliance-2
+  name: Sophos Web Appliance
+  author: Fofa
+  tags:
+  - sophos
+  - sophos-appliance
+  description: Sophos Web Appliance
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - Sophos Web Appliance
+  - condition: or
+    location: body
+    words:
+    - resources/images/sophos_web.ico
+  - condition: or
+    location: body
+    words:
+    - url(resources/images/en/login_swa.jpg)
+- id: sophos-appliance-3
+  name: Sophos-web-appliance
+  author: P001
+  tags:
+  - sophos
+  - sophos-appliance
+  description: Sophos-web-appliance
+  matchers:
+  - location: body
+    words:
+    - url(resources/images/en/login_swa.jpg)
+- id: sophos-appliance-4
+  name: Sophos_Web_Appliance
+  author: Fofa
+  tags:
+  - sophos
+  - sophos-appliance
+  description: Sophos_Web_Appliance
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Sophos Web Appliance
+  - location: body
+    words:
+    - Sophos Web Appliance
+- id: sophos-appliance-5
+  name: Sophos Web Appliance
+  author: P1finger
+  tags:
+  - sophos
+  - sophos-appliance
+  description: Sophos Web Appliance
+  matchers:
+  - location: body
+    words:
+    - Sophos Web Appliance
+    - resources/images/sophos_web.ico
+    - url(resources/images/en/login_swa.jpg)

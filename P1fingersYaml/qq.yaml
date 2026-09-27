@@ -1,0 +1,26 @@
+- id: qq-enterprise-edition
+  name: QQ Enterprise Edition
+  author: Fofa
+  tags:
+    - qq
+    - enterprise-edition
+  description: QQ Enterprise Edition
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - http://wpa.b.qq.com/cgi/wpa.php
+    - location: body
+      words:
+        - http://wpa.b.qq.com/cgi/wpa.php
+- id: qqliaotian
+  name: QQliaotian
+  author: Fofa
+  tags:
+    - qqliaotian
+  description: QQliaotian
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - tencent://message/

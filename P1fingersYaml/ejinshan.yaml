@@ -1,0 +1,12 @@
+- id: ejinshanzhongduan
+  name: Ejinshanzhongduan
+  author: P001
+  tags:
+    - ejinshanzhongduan
+  description: Ejinshanzhongduan
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - net.ejinshan.avclient.apk
+        - 金山终端安全系统

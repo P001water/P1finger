@@ -1,0 +1,10 @@
+- id: webbuilder
+  name: Webbuilder
+  author: P001
+  tags:
+    - webbuilder
+  description: Webbuilder
+  matchers:
+    - location: body
+      words:
+        - src="webbuilder/script/wb.js

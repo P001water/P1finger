@@ -1,0 +1,11 @@
+- id: integrating-century-epbp
+  name: Integrating-century-epbp-management-platform
+  author: P001
+  tags:
+    - integrating-century-epbp
+  description: Integrating-century-epbp-management-platform
+  matchers:
+    - location: body
+      words:
+        - match = rmsie.exec(window.navigator.useragent
+        - rmsie = /(msie\s|trident.*rv:)([\w.]+)/i

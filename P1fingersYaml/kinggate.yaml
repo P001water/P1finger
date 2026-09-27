@@ -1,0 +1,14 @@
+- id: kingsoft-2
+  name: Kingsoft
+  author: Fofa
+  tags:
+    - kingsoft
+  description: Kingsoft
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /src/system/login.php
+    - location: body
+      words:
+        - /src/system/login.php

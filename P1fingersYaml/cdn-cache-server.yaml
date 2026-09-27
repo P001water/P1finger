@@ -1,0 +1,21 @@
+- id: cdn-cache
+  name: Cdn-cache-server
+  author: P1finger
+  tags:
+    - cdn-cache
+  description: Cdn-cache-server
+  matchers:
+    - location: header
+      words:
+        - Cdn Cache Server
+- id: cdn-cache-2
+  name: CDN-Cache-Server
+  author: Fofa
+  tags:
+    - cdn-cache
+  description: CDN-Cache-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Cdn Cache Server

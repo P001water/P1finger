@@ -1,0 +1,10 @@
+- id: modx
+  name: MODX CMS
+  author: P1finger
+  tags:
+    - modx
+  description: MODX CMS
+  matchers:
+    - location: body
+      words:
+        - content="MODX CMS"

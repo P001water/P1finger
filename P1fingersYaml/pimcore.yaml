@@ -1,0 +1,10 @@
+- id: pimcore
+  name: Pimcore
+  author: P1finger
+  tags:
+    - pimcore
+  description: Pimcore
+  matchers:
+    - location: header
+      words:
+        - pimcore

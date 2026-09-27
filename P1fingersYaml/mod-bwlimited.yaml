@@ -1,0 +1,14 @@
+- id: mod-bwlimited
+  name: Mod_bwlimited
+  author: Fofa
+  tags:
+    - mod-bwlimited
+  description: Mod_bwlimited
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_bwlimited
+    - location: header
+      words:
+        - mod_bwlimited

@@ -1,0 +1,12 @@
+- id: douphpdoupicms
+  name: DouPHPdoupiCMS
+  author: P001
+  tags:
+    - douphpdoupicms
+  description: DouPHPdoupiCMS
+  matchers:
+    - location: body
+      words:
+        - content="douphp
+        - Powered by DouPH
+        - content="DouCo Co.,Ltd."

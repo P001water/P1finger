@@ -1,0 +1,11 @@
+- id: oracle-xdb
+  name: Oracle-xdb
+  author: P001
+  tags:
+  - oracle
+  - oracle-xdb
+  description: Oracle-xdb
+  matchers:
+  - location: body
+    words:
+    - 'server: oracle xml db'

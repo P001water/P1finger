@@ -1,0 +1,12 @@
+- id: spring-eureka
+  name: Spring Eureka
+  author: P1finger
+  tags:
+  - spring
+  - spring-eureka
+  description: Spring Eureka
+  matchers:
+  - location: body
+    words:
+    - <title>Eureka</title>
+    - eureka

@@ -1,0 +1,10 @@
+- id: pandora-fms
+  name: Pandora-fms
+  author: P001
+  tags:
+    - pandora-fms
+  description: Pandora-fms
+  matchers:
+    - location: body
+      words:
+        - title="pandora rss feed

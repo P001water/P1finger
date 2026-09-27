@@ -1,0 +1,10 @@
+- id: teacms
+  name: TeaCMS
+  author: P1finger
+  tags:
+    - teacms
+  description: TeaCMS
+  matchers:
+    - location: body
+      words:
+        - views/TeaCMS

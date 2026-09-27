@@ -1,0 +1,10 @@
+- id: azkaban
+  name: Azkaban
+  author: P1finger
+  tags:
+    - azkaban
+  description: Azkaban
+  matchers:
+    - location: body
+      words:
+        - Azkaban

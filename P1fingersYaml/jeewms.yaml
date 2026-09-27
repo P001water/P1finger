@@ -1,0 +1,13 @@
+- id: jeewms
+  name: Jeewms
+  author: P001
+  tags:
+    - jeewms
+  description: Jeewms
+  matchers:
+    - location: body
+      words:
+        - jeewms
+    - location: body
+      words:
+        - plug-in/lhgDialog/lhgdialog.min.js?skin=metro

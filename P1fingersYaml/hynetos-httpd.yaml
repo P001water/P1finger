@@ -1,0 +1,21 @@
+- id: hynetos-httpd
+  name: Hynetos-httpd
+  author: P1finger
+  tags:
+    - hynetos-httpd
+  description: Hynetos-httpd
+  matchers:
+    - location: header
+      words:
+        - HyNetOS
+- id: hynetos-httpd-2
+  name: HyNetOS-httpd
+  author: Fofa
+  tags:
+    - hynetos-httpd
+  description: HyNetOS-httpd
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - HyNetOS

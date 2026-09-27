@@ -1,0 +1,11 @@
+- id: photopost-php
+  name: Photopost-php
+  author: P001
+  tags:
+    - photopost-php
+  description: Photopost-php
+  matchers:
+    - location: body
+      words:
+        - href="http://www.photopost.com">photopost
+        - src="adm-misc.php?admact=mainmenu

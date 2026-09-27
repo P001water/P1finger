@@ -1,0 +1,10 @@
+- id: open-freeway
+  name: Open Freeway
+  author: P1finger
+  tags:
+    - open-freeway
+  description: Open Freeway
+  matchers:
+    - location: body
+      words:
+        - shopping_cart.php

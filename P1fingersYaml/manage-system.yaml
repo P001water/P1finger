@@ -1,0 +1,10 @@
+- id: manage
+  name: Manage-system
+  author: P001
+  tags:
+    - manage
+  description: Manage-system
+  matchers:
+    - location: body
+      words:
+        - content="基于vue2 + element ui 的后台管理系统解决方案

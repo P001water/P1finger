@@ -1,0 +1,21 @@
+- id: maxcdn
+  name: Maxcdn
+  author: P1finger
+  tags:
+    - maxcdn
+  description: Maxcdn
+  matchers:
+    - location: header
+      words:
+        - NetDNA
+- id: maxcdn-2
+  name: MaxCDN
+  author: Fofa
+  tags:
+    - maxcdn
+  description: MaxCDN
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - NetDNA

@@ -1,0 +1,11 @@
+- id: aidianhuajiqiren
+  name: AIdianhuajiqiren Management Platform
+  author: P1finger
+  tags:
+    - aidianhuajiqiren
+    - management-platform
+  description: AIdianhuajiqiren Management Platform
+  matchers:
+    - location: body
+      words:
+        - AI电话机器人管理平台

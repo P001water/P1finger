@@ -1,0 +1,12 @@
+- id: mongoexpress
+  name: Mongoexpress
+  author: P001
+  tags:
+    - mongoexpress
+  description: Mongoexpress
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - mongo express
+        - mongo-express-logo.png

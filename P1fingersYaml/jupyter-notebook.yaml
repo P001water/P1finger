@@ -1,0 +1,27 @@
+- id: jupyter-notebook
+  name: Jupyter-notebook
+  author: P001
+  tags:
+  - jupyter
+  - jupyter-notebook
+  description: Jupyter-notebook
+  matchers:
+  - hash:
+    - 97c6417ed01bdc0ae3ef32ae4894fd03
+    location: favicon
+  - location: body
+    words:
+    - <div id="ipython-main-app" class="container">
+    - <div id="ipython_notebook" class="nav navbar-brand">
+    - <title>jupyter notebook</title>
+- id: jupyter-notebook-2
+  name: Jupyter Notebook
+  author: P1finger
+  tags:
+  - jupyter
+  - jupyter-notebook
+  description: Jupyter Notebook
+  matchers:
+  - hash:
+    - '-895963602'
+    location: favicon

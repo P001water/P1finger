@@ -1,0 +1,11 @@
+- id: easygamehoutai
+  name: EasyGamehoutai Operation Management
+  author: P1finger
+  tags:
+    - easygamehoutai
+    - operation-management
+  description: EasyGamehoutai Operation Management
+  matchers:
+    - location: body
+      words:
+        - EasyGame后台运维管理系统

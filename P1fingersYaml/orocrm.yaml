@@ -1,0 +1,14 @@
+- id: orocrm
+  name: Orocrm
+  author: Fofa
+  tags:
+    - orocrm
+  description: Orocrm
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /bundles/oroui/
+    - location: body
+      words:
+        - /bundles/oroui/

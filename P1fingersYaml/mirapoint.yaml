@@ -1,0 +1,14 @@
+- id: mirapoint
+  name: Mirapoint
+  author: Fofa
+  tags:
+    - mirapoint
+  description: Mirapoint
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /wm/mail/login.html
+    - location: body
+      words:
+        - /wm/mail/login.html

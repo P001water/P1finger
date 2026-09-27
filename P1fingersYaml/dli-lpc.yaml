@@ -1,0 +1,21 @@
+- id: dli-lpc
+  name: Dli-lpc
+  author: P1finger
+  tags:
+    - dli-lpc
+  description: Dli-lpc
+  matchers:
+    - location: header
+      words:
+        - DLILPC=
+- id: dli-lpc-2
+  name: DLI-LPC
+  author: Fofa
+  tags:
+    - dli-lpc
+  description: DLI-LPC
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - DLILPC=

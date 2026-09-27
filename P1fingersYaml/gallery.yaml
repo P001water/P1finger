@@ -1,0 +1,19 @@
+- id: gallery
+  name: Gallery
+  author: Fofa
+  tags:
+    - gallery
+  description: Gallery
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Gallery 3 Installer
+    - condition: or
+      location: body
+      words:
+        - /gallery/images/gallery.png
+    - location: body
+      words:
+        - Gallery 3 Installer
+        - /gallery/images

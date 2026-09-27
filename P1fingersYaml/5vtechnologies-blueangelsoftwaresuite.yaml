@@ -1,0 +1,10 @@
+- id: 5vtechnologies-blueangelsoftwaresuite
+  name: 5vtechnologies-blueangelsoftwaresuite
+  author: P001
+  tags:
+    - 5vtechnologies-blueangelsoftwaresuite
+  description: 5vtechnologies-blueangelsoftwaresuite
+  matchers:
+    - location: body
+      words:
+        - /cgi-bin/webctrl.cgi?action=index_page

@@ -1,0 +1,178 @@
+- id: 360-enterprise-edition
+  name: 360 Enterprise Edition
+  author: P1finger
+  tags:
+  - '360'
+  - enterprise-edition
+  description: 360 Enterprise Edition
+  matchers:
+  - location: body
+    words:
+    - 360EntWebAdminMD5Secret
+  - condition: and
+    location: body
+    words:
+    - 360EntInst
+  - location: body
+    words:
+    - 360EntInst
+- id: '360'
+  name: '360'
+  author: P001
+  tags:
+  - '360'
+  description: '360'
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 360loginflag
+    - 360安全路由
+- id: 360-2
+  name: 360-enterprise-security
+  author: P001
+  tags:
+  - '360'
+  description: 360-enterprise-security
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 360entinst
+    - 关于全网部署360私有云的通知
+    - 天擎
+- id: 360-enterprise-edition-2
+  name: 360 Enterprise Edition
+  author: P1finger
+  tags:
+  - '360'
+  - enterprise-edition
+  description: 360 Enterprise Edition
+  matchers:
+  - location: body
+    words:
+    - 360企业版控制中心
+- id: 360-smart-firewall
+  name: 360 Smart Firewall
+  author: P001
+  tags:
+  - '360'
+  - smart-firewall
+  description: 360 Smart Firewall
+  matchers:
+  - location: body
+    words:
+    - 360天堤
+- id: 360-tianji
+  name: 360-tianji
+  author: P001
+  tags:
+  - '360'
+  - 360-tianji
+  description: 360-tianji
+  matchers:
+  - location: body
+    words:
+    - src="/resource/img/login/logo_403.png" alt="360天机"/></a>
+- id: 360-tianqing
+  name: 360-tianqing
+  author: P001
+  tags:
+  - '360'
+  - 360-tianqing
+  description: 360-tianqing
+  matchers:
+  - location: body
+    words:
+    - /task/index/detail?id={item.id}
+    - appid":"skylar6
+    - 已过期或者未授权，购买请联系4008-136-360
+- id: 360-3
+  name: '360'
+  author: Fofa
+  tags:
+  - '360'
+  description: '360'
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - webscan.360.cn/status/pai/hash
+- id: 360-4
+  name: '360'
+  author: Fofa
+  tags:
+  - '360'
+  description: '360'
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 360wzb
+  - location: header
+    words:
+    - 360wzb
+- id: 360-5
+  name: '360'
+  author: Fofa
+  tags:
+  - '360'
+  description: '360'
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - libs.useso.com
+  - condition: or
+    location: body
+    words:
+    - libs.useso.com
+- id: 360-webscan
+  name: 360-webscan
+  author: P001
+  tags:
+  - '360'
+  - 360-webscan
+  description: 360-webscan
+  matchers:
+  - location: body
+    words:
+    - webscan.360.cn/status/pai/hash
+- id: 360-6
+  name: '360'
+  author: P001
+  tags:
+  - '360'
+  description: '360'
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 'location: /login?refer=%2f'
+    - 'set-cookie: skylar'
+- id: 360-platform
+  name: 360 Platform
+  author: Fofa
+  tags:
+  - '360'
+  - platform
+  description: 360 Platform
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 360-site-verification
+- id: 360-7
+  name: '360'
+  author: Fofa
+  tags:
+  - '360'
+  description: '360'
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - X-Safe-Firewall
+  - location: header
+    words:
+    - X-Safe-Firewall

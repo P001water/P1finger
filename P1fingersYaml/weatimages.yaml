@@ -1,0 +1,12 @@
+- id: weatimages
+  name: Weatimages
+  author: P001
+  tags:
+    - weatimages
+  description: Weatimages
+  matchers:
+    - location: body
+      words:
+        - <a href="http://nazarkin.name/projects/weatimages
+        - <div align="center" class="weatimages_toppest_navig" style="text-decoration:underline;">
+        - <meta name="generator" content="weatimages"/>

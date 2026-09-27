@@ -1,0 +1,11 @@
+- id: multiablem18
+  name: MultiableM18
+  author: P1finger
+  tags:
+    - multiablem18
+  description: MultiableM18
+  matchers:
+    - location: body
+      words:
+        - m18Icon
+        - Multiable. All rights reserved.

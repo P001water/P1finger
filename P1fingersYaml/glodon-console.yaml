@@ -1,0 +1,11 @@
+- id: glodon
+  name: Glodon-console
+  author: P001
+  tags:
+    - glodon
+  description: Glodon-console
+  matchers:
+    - location: body
+      words:
+        - src="/scripts/dd_belatedpng.js
+        - 'url: "/console/account/logon"'

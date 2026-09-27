@@ -1,0 +1,460 @@
+- id: sangfor
+  name: Sangfor
+  author: P1finger
+  tags:
+  - sangfor
+  description: Sangfor
+  matchers:
+  - hash:
+    - '-1926484046'
+    location: favicon
+- id: sangfor-ba
+  name: Sangfor-ba
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-ba
+  description: Sangfor-ba
+  matchers:
+  - location: body
+    words:
+    - haovuytkjlnvxpuhsecmbljplpvjz = function(str, key)
+- id: sangfor-behavior-or-identity-authentication
+  name: Sangfor-behavior-management-or-identity-authentication-system
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-behavior-or-identity-authentication
+  description: Sangfor-behavior-management-or-identity-authentication-system
+  matchers:
+  - location: body
+    words:
+    - <a href="/webauth/">
+    - class="info-inner"
+    - 身份认证系统
+- id: sangfor-branch-business
+  name: Sangfor-branch-business-center
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-branch-business
+  description: Sangfor-branch-business-center
+  matchers:
+  - location: body
+    words:
+    - location.href = '/bbc/index'
+- id: sangfor-2
+  name: Sangfor-data-center
+  author: P001
+  tags:
+  - sangfor
+  description: Sangfor-data-center
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 'location: ./src/acloglogin.php'
+    - /cfwloginout.php
+    - _top
+    - acloglogin.php
+- id: sangfor-edr
+  name: Sangfor-edr
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-edr
+  description: Sangfor-edr
+  matchers:
+  - location: body
+    words:
+    - datalayer','gtm-tl7g2lw'
+    - 'windows_download_name: "/download_installer_win.php",'
+- id: sangfor-3
+  name: Sangfor
+  author: P1finger
+  tags:
+  - sangfor
+  description: Sangfor
+  matchers:
+  - location: body
+    words:
+    - 终端检测响应平台
+    - featureDetect.js
+- id: sangfor-employee-internet
+  name: Sangfor-employee-internet-management
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-employee-internet
+  description: Sangfor-employee-internet-management
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - = function(str, key)
+    - content="must-revalidate"
+    - document.cookie = 'sangfor_session_hash=0'
+    - href="http://sec.sangfor.com.cn/events/89.html"
+    - internet authentication system
+    - 上网优化管理
+- id: sangfor-management-system
+  name: Sangfor Management System
+  author: P1finger
+  tags:
+  - sangfor
+  - management-system
+  description: Sangfor Management System
+  matchers:
+  - location: body
+    words:
+    - cgi-bin/tamper_admin.cgi
+- id: sangfor-firewall
+  name: Sangfor Firewall
+  author: P1finger
+  tags:
+  - sangfor
+  - firewall
+  description: Sangfor Firewall
+  matchers:
+  - location: body
+    words:
+    - SANGFOR FW
+  - condition: and
+    location: body
+    words:
+    - SANGFOR FW
+- id: sangfor-ipsec
+  name: Sangfor-ipsec-vpn
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-ipsec
+  description: Sangfor-ipsec-vpn
+  matchers:
+  - location: body
+    words:
+    - sangfor-ipsec
+- id: sangfor-managementsystem
+  name: Sangfor-managementsystem
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-managementsystem
+  description: Sangfor-managementsystem
+  matchers:
+  - location: body
+    words:
+    - /cgi-bin/login.cgi?requestname=
+    - var msg = '对不起, '+str+'暂不支持您当前使用的浏览器
+    - var msg = '对不起，集中管理平台暂不支持您当前使用的浏览器
+- id: sangfor-osm
+  name: Sangfor-osm
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-osm
+  description: Sangfor-osm
+  matchers:
+  - location: body
+    words:
+    - window.location.href="https://"+window.location.host+"/fort/login
+- id: sangfor-reporting
+  name: Sangfor-reporting
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-reporting
+  description: Sangfor-reporting
+  matchers:
+  - location: body
+    words:
+    - ad report
+    - user_blur();
+- id: sangfor-4
+  name: Sangfor
+  author: P1finger
+  tags:
+  - sangfor
+  description: Sangfor
+  matchers:
+  - location: body
+    words:
+    - sangfor.com.cn
+  - location: header
+    words:
+    - SinforHttpd
+- id: sangfor-system
+  name: Sangfor System
+  author: P1finger
+  tags:
+  - sangfor
+  - system
+  description: Sangfor System
+  matchers:
+  - location: body
+    words:
+    - 请您先登录身份认证系统
+- id: sangfor-platform
+  name: Sangfor Platform
+  author: P001
+  tags:
+  - sangfor
+  - platform
+  description: Sangfor Platform
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - apps
+    - login.js
+    - 安全感知平台
+- id: sangfor-5
+  name: Sangfor Internet Behavior Management System
+  author: P001
+  tags:
+  - sangfor
+  - internet-behavior-management-system
+  description: Sangfor Internet Behavior Management System
+  matchers:
+  - location: body
+    words:
+    - document.write(wrfwwcsfbxmigkrkhxfj
+    - utccjfaewjb = function(str, key)
+- id: sangfor-6
+  name: Sangfor Next-Generation Firewall
+  author: P001
+  tags:
+  - sangfor
+  - next-generation-firewall
+  description: Sangfor Next-Generation Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - ngaf
+    - sangfor
+- id: sangfor-system-2
+  name: Sangfor System
+  author: P001
+  tags:
+  - sangfor
+  - system
+  description: Sangfor System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <title>loading...</title>
+    - location.href = "./ui/";
+    - 'etag: *'
+- id: sangfor-report-system
+  name: Sangfor Report System
+  author: P001
+  tags:
+  - sangfor
+  - report-system
+  description: Sangfor Report System
+  matchers:
+  - location: body
+    words:
+    - /reportcenter/index.php?cls_mode=cluster_mode_others
+- id: sangfor-firewall-2
+  name: Sangfor Firewall
+  author: P001
+  tags:
+  - sangfor
+  - firewall
+  description: Sangfor Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - commonfunction.js
+    - /loginout.php
+- id: sangfor-management-system-2
+  name: Sangfor Management System
+  author: P001
+  tags:
+  - sangfor
+  - management-system
+  description: Sangfor Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - web防篡改
+    - cgi-bin/tamper_admin.cgi
+- id: sangfor-7
+  name: Sangfor
+  author: P1finger
+  tags:
+  - sangfor
+  description: Sangfor
+  matchers:
+  - location: body
+    words:
+    - /LogInOut.php
+- id: sangfor-sip
+  name: Sangfor-sip
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-sip
+  description: Sangfor-sip
+  matchers:
+  - location: body
+    words:
+    - src="/apps/secvisual/static/js/runtime.js?
+    - 'url: ''../auth_manage/auth_manage/on_login'''
+    - window.sessionstorage.removeitem('serialcheckobj')
+- id: sangfor-ssl
+  name: Sangfor-ssl-vpn
+  author: P1finger
+  tags:
+  - sangfor
+  - sangfor-ssl
+  description: Sangfor-ssl-vpn
+  matchers:
+  - location: body
+    words:
+    - login_psw.csp
+  - location: header
+    words:
+    - TWFID
+  - condition: and
+    location: body
+    words:
+    - /por/login_psw.csp
+    - /portal",right:0}];
+- id: sangfor-8
+  name: Sangfor
+  author: P1finger
+  tags:
+  - sangfor
+  description: Sangfor
+  matchers:
+  - location: body
+    words:
+    - login_psw.csp
+    - EasyConnect
+- id: sangfor-9
+  name: Sangfor
+  author: Fofa
+  tags:
+  - sangfor
+  description: Sangfor
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - login_psw.csp
+  - condition: or
+    location: header
+    words:
+    - TWFID
+- id: sangfor-tamper-resistance
+  name: Sangfor-tamper-resistance
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-tamper-resistance
+  description: Sangfor-tamper-resistance
+  matchers:
+  - location: body
+    words:
+    - <li style="color:#999999;margin-left:6px;list-style:circle inside;">如忘记密码，请与防火墙管理员联系</li>
+    - href="tamper/style/control.css"
+- id: sangfor-vd
+  name: Sangfor-vd
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-vd
+  description: Sangfor-vd
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - login_psw.csp
+- id: sangfor-virtualization
+  name: Sangfor-virtualization-management
+  author: P001
+  tags:
+  - sangfor
+  - sangfor-virtualization
+  description: Sangfor-virtualization-management
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - content="webkit|ie-stand"
+    - id="privacytipwin"
+- id: sangfor-10
+  name: Sangfor Next-Generation Firewall
+  author: P1finger
+  tags:
+  - sangfor
+  - next-generation-firewall
+  description: Sangfor Next-Generation Firewall
+  matchers:
+  - hash:
+    - '123821839'
+    location: favicon
+- id: sangfor-system-3
+  name: Sangfor System
+  author: P1finger
+  tags:
+  - sangfor
+  - system
+  description: Sangfor System
+  matchers:
+  - location: body
+    words:
+    - home/mod-login/nopro-login/index
+- id: sangfor-management-system-3
+  name: Sangfor Management System
+  author: P1finger
+  tags:
+  - sangfor
+  - management-system
+  description: Sangfor Management System
+  matchers:
+  - location: body
+    words:
+    - /reportCenter/index.php?cls_mode=cluster_mode_others
+- id: sangforlingxinrenjicheng
+  name: Sangforlingxinrenjicheng Gateway
+  author: P001
+  tags:
+  - sangforlingxinrenjicheng
+  - gateway
+  description: Sangforlingxinrenjicheng Gateway
+  matchers:
+  - hash:
+    - 61ea21861c73970bc98ed619f2748992
+    location: favicon
+  - location: body
+    words:
+    - <title>atrust
+- id: sangfor-platform-2
+  name: Sangfor Platform
+  author: P1finger
+  tags:
+  - sangfor
+  - platform
+  description: Sangfor Platform
+  matchers:
+  - location: body
+    words:
+    - datalayer','gtm-tl7g2lw'
+- id: sangfor-11
+  name: Sangfor
+  author: P1finger
+  tags:
+  - sangfor
+  description: Sangfor
+  matchers:
+  - location: body
+    words:
+    - Installing Client Mgt ActiveX Controls
+    - 这里假定安装包目录为

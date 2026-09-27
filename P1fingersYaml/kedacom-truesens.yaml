@@ -1,0 +1,30 @@
+- id: kedacom-truesens
+  name: Kedacom-truesens
+  author: P1finger
+  tags:
+  - kedacom
+  - kedacom-truesens
+  description: Kedacom-truesens
+  matchers:
+  - location: body
+    words:
+    - /img/kedacom-logo.jpg
+  - location: header
+    words:
+    - KEDACOM
+- id: kedacom-truesens-2
+  name: Kedacom-TrueSens
+  author: Fofa
+  tags:
+  - kedacom
+  - kedacom-truesens
+  description: Kedacom-TrueSens
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - KEDACOM
+  - condition: or
+    location: body
+    words:
+    - /img/kedacom-logo.jpg

@@ -1,0 +1,12 @@
+- id: campus-card
+  name: Campus-card-management-system
+  author: P001
+  tags:
+    - campus-card
+  description: Campus-card-management-system
+  matchers:
+    - location: body
+      words:
+        - /shouyeziti.css
+        - document.formpostds.action="xxsearch.action
+        - harbin synjones electronic

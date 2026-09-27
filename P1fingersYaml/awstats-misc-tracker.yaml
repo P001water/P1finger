@@ -1,0 +1,14 @@
+- id: awstats-misc-tracker
+  name: Awstats_misc_tracker
+  author: Fofa
+  tags:
+    - awstats-misc-tracker
+  description: Awstats_misc_tracker
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /js/awstats_misc_tracker.js
+    - location: body
+      words:
+        - /js/awstats_misc_tracker.js

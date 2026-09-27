@@ -1,0 +1,10 @@
+- id: gitbook
+  name: Gitbook
+  author: P001
+  tags:
+    - gitbook
+  description: Gitbook
+  matchers:
+    - location: body
+      words:
+        - gitbook

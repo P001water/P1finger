@@ -1,0 +1,10 @@
+- id: alienvault
+  name: Alienvault
+  author: P1finger
+  tags:
+    - alienvault
+  description: Alienvault
+  matchers:
+    - hash:
+        - "-1779611449"
+      location: favicon

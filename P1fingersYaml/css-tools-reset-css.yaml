@@ -1,0 +1,21 @@
+- id: css-tools-reset-css
+  name: 'CSS Tools: Reset CSS'
+  author: Fofa
+  tags:
+    - css-tools-reset-css
+  description: 'CSS Tools: Reset CSS'
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - css/skel-noscript.css
+- id: css-tools-reset-css-2
+  name: 'Css Tools: Reset Css'
+  author: P1finger
+  tags:
+    - css-tools-reset-css
+  description: 'Css Tools: Reset Css'
+  matchers:
+    - location: body
+      words:
+        - css/skel-noscript.css

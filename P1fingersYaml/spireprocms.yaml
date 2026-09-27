@@ -1,0 +1,10 @@
+- id: spireprocms
+  name: SpirePROCMS
+  author: P1finger
+  tags:
+    - spireprocms
+  description: SpirePROCMS
+  matchers:
+    - location: header
+      words:
+        - 'X-Generator: SpirePRO CMS'

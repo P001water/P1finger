@@ -1,0 +1,14 @@
+- id: jsp-2
+  name: Jsp
+  author: Fofa
+  tags:
+    - jsp
+  description: Jsp
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - jsp
+        - Servlet
+        - JBoss
+        - JSESSIONID

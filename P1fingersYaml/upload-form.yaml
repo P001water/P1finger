@@ -1,0 +1,10 @@
+- id: upload-form
+  name: Upload-form
+  author: P1finger
+  tags:
+    - upload-form
+  description: Upload-form
+  matchers:
+    - location: body
+      words:
+        - location="file"

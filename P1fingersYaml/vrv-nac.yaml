@@ -1,0 +1,13 @@
+- id: vrv-nac
+  name: Vrv-nac
+  author: P001
+  tags:
+    - vrv-nac
+  description: Vrv-nac
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - id="modal_delay"
+        - localstorage.setitem('doctitle','北信源网络接入控制系统')
+        - 欢迎登录北信源网络接入控制系统

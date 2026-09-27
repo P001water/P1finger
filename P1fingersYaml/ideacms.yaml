@@ -1,0 +1,18 @@
+- id: ideacms-2
+  name: Ideacms
+  author: P1finger
+  tags:
+    - ideacms
+  description: Ideacms
+  matchers:
+    - location: body
+      words:
+        - IdeaCMS
+    - condition: or
+      location: body
+      words:
+        - Powered By IdeaCMS
+    - condition: or
+      location: body
+      words:
+        - m_ctr32

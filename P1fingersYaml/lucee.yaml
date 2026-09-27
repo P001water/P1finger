@@ -1,0 +1,21 @@
+- id: lucee
+  name: Lucee
+  author: P001
+  tags:
+    - lucee
+  description: Lucee
+  matchers:
+    - location: body
+      words:
+        - by the lucee association switzerland</p>
+        - png" alt="lucee">
+- id: lucee-2
+  name: Lucee!
+  author: P1finger
+  tags:
+    - lucee
+  description: Lucee!
+  matchers:
+    - hash:
+        - "784872924"
+      location: favicon

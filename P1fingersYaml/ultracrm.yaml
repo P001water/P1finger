@@ -1,0 +1,14 @@
+- id: ultracrm
+  name: Ultracrm
+  author: P001
+  tags:
+    - ultracrm
+  description: Ultracrm
+  matchers:
+    - location: body
+      words:
+        - '&nbsp;tonethink.soft&nbsp;&nbsp;all rights reserved'
+    - location: body
+      words:
+        - <title>UltraCRM by ToneThink.Soft</title>
+        - <title>欢迎您使用 UltraCRM 客户服务中心

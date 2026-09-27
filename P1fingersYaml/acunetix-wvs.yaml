@@ -1,0 +1,12 @@
+- id: acunetix-wvs
+  name: Acunetix-wvs
+  author: P001
+  tags:
+    - acunetix-wvs
+  description: Acunetix-wvs
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <acx-root>
+        - <title>acunetix

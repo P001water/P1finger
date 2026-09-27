@@ -1,0 +1,10 @@
+- id: pcextreme
+  name: Pcextreme
+  author: P001
+  tags:
+    - pcextreme
+  description: Pcextreme
+  matchers:
+    - location: body
+      words:
+        - deze server is eigendom van <a

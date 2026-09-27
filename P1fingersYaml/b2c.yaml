@@ -1,0 +1,11 @@
+- id: dingdangkuaiyaob2c
+  name: DingdangkuaiyaoB2C Management System
+  author: P1finger
+  tags:
+    - dingdangkuaiyaob2c
+    - management-system
+  description: DingdangkuaiyaoB2C Management System
+  matchers:
+    - location: body
+      words:
+        - 叮当快药B2C管理系统

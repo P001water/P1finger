@@ -1,0 +1,42 @@
+- id: 3com-nbx
+  name: 3Com NBX
+  author: P1finger
+  tags:
+  - 3com
+  - nbx
+  description: 3Com NBX
+  matchers:
+  - location: body
+    words:
+    - NBX NetSet
+    - splashTitleIPTelephony
+  - location: title
+    words:
+    - ="NBX NetSet
+    condition: or
+  - location: body
+    words:
+    - splashTitleIPTelephony
+    condition: or
+  - location: title
+    words:
+    - NBX NetSet
+    condition: or
+  - location: body
+    words:
+    - NBX")
+    condition: and
+- id: 3com-officeconnect-vpn-firewall
+  name: 3Com OfficeConnect VPN Firewall
+  author: P1finger
+  tags:
+  - 3com
+  - officeconnect-vpn-firewall
+  description: 3Com OfficeConnect VPN Firewall
+  matchers:
+  - location: body
+    words:
+    - 3com - officeconnect vpn firewall
+  - location: body
+    words:
+    - 3Com - OfficeConnect VPN Firewall

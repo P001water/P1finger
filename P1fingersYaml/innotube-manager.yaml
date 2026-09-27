@@ -1,0 +1,10 @@
+- id: innotube-manager
+  name: Innotube-manager
+  author: P001
+  tags:
+    - innotube-manager
+  description: Innotube-manager
+  matchers:
+    - location: body
+      words:
+        - images/intro/lin_bottom_nocr.gif

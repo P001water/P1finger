@@ -1,0 +1,10 @@
+- id: orderbook
+  name: Orderbook
+  author: P001
+  tags:
+    - orderbook
+  description: Orderbook
+  matchers:
+    - location: body
+      words:
+        - 'getorderbook: function'

@@ -1,0 +1,10 @@
+- id: metronic-theme-framework
+  name: Metronic-admin-theme-framework
+  author: P001
+  tags:
+    - metronic-theme-framework
+  description: Metronic-admin-theme-framework
+  matchers:
+    - location: body
+      words:
+        - metronic. admin dashboard template.

@@ -1,0 +1,10 @@
+- id: jspgou
+  name: JSPGOU
+  author: P1finger
+  tags:
+    - jspgou
+  description: JSPGOU
+  matchers:
+    - location: body
+      words:
+        - jsPGOU-

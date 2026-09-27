@@ -1,0 +1,11 @@
+- id: ecology
+  name: Ecology
+  author: nuclei
+  tags:
+  - weaver
+  - ecology
+  description: Ecology
+  matchers:
+  - location: header
+    words:
+    - ecology_JSessionid

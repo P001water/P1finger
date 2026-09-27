@@ -1,0 +1,10 @@
+- id: netcrm
+  name: Netcrm
+  author: P001
+  tags:
+    - netcrm
+  description: Netcrm
+  matchers:
+    - location: body
+      words:
+        - href="runecrm.ico"

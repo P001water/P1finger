@@ -1,0 +1,12 @@
+- id: cmspro
+  name: Cmspro
+  author: P001
+  tags:
+    - cmspro
+  description: Cmspro
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - cms内容管理系统
+        - 开普互联

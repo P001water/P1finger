@@ -1,0 +1,18 @@
+- id: firephp
+  name: FirePHP
+  author: Fofa
+  tags:
+    - firephp
+  description: FirePHP
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - x-wf-
+    - condition: or
+      location: header
+      words:
+        - meta.wildfirehq.org
+    - location: header
+      words:
+        - meta.wildfirehq.org

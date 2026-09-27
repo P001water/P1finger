@@ -1,0 +1,25 @@
+- id: gae-google-app-engine-google-frontend
+  name: GAE/google App Engine/Google Frontend
+  author: Fofa
+  tags:
+    - gae-google-app-engine-google-frontend
+  description: GAE/google App Engine/Google Frontend
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'Server: Google Frontend'
+    - condition: or
+      location: header
+      words:
+        - 'Server: GFE'
+- id: gae-google-app-engine-google-frontend-2
+  name: Gae/google App Engine/google Frontend
+  author: P1finger
+  tags:
+    - gae-google-app-engine-google-frontend
+  description: Gae/google App Engine/google Frontend
+  matchers:
+    - location: header
+      words:
+        - 'Server: GFE'

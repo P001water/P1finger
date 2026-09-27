@@ -1,0 +1,10 @@
+- id: lenovoemc
+  name: LenovoEMC
+  author: P1finger
+  tags:
+    - lenovoemc
+  description: LenovoEMC
+  matchers:
+    - location: body
+      words:
+        - alt="LenovoEMC"/>

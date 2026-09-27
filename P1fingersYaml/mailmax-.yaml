@@ -1,0 +1,10 @@
+- id: mailmaxyoujianfuwuqi
+  name: Mailmaxyoujianfuwuqi
+  author: P001
+  tags:
+    - mailmaxyoujianfuwuqi
+  description: Mailmaxyoujianfuwuqi
+  matchers:
+    - location: body
+      words:
+        - mailmax

@@ -1,0 +1,12 @@
+- id: analogx-proxy
+  name: AnalogX-Proxy
+  author: P1finger
+  tags:
+    - analogx-proxy
+  description: AnalogX-Proxy
+  matchers:
+    - location: body
+      words:
+        - FTP AnalogX Proxy
+        - POP3 AnalogX Proxy
+        - SMTP AnalogX Proxy

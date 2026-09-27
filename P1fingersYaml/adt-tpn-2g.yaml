@@ -1,0 +1,13 @@
+- id: adttpn2g-gateway
+  name: Adttpn2g Gateway
+  author: P001
+  tags:
+    - adttpn2g
+    - gateway
+  description: Adttpn2g Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - src="./system/usbkey.js"
+        - tpn-2g

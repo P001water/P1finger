@@ -1,0 +1,27 @@
+- id: gitorious
+  name: Gitorious
+  author: Fofa
+  tags:
+    - gitorious
+  description: Gitorious
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - _gitorious_sess
+    - condition: or
+      location: body
+      words:
+        - Powered by Gitorious
+    - location: body
+      words:
+        - Powered by Gitorious
+    - location: header
+      words:
+        - _gitorious_sess
+    - location: body
+      words:
+        - powered by gitorious
+    - location: body
+      words:
+        - Gitorious

@@ -1,0 +1,21 @@
+- id: allegro-rompager
+  name: Allegro-software-rompager
+  author: P1finger
+  tags:
+    - allegro-rompager
+  description: Allegro-software-rompager
+  matchers:
+    - location: header
+      words:
+        - Allegro-Software-RomPager
+- id: allegro-rompager-2
+  name: Allegro-Software-RomPager
+  author: Fofa
+  tags:
+    - allegro-rompager
+  description: Allegro-Software-RomPager
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Allegro-Software-RomPager

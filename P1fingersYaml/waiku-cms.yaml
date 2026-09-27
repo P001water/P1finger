@@ -1,0 +1,13 @@
+- id: waiku
+  name: WaiKu CMS
+  author: P1finger
+  tags:
+    - waiku
+  description: WaiKu CMS
+  matchers:
+    - location: body
+      words:
+        - WaiKu
+    - location: body
+      words:
+        - WaiKuCMS

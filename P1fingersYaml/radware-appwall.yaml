@@ -1,0 +1,10 @@
+- id: radware-appwall
+  name: Radware-appwall
+  author: P001
+  tags:
+    - radware-appwall
+  description: Radware-appwall
+  matchers:
+    - location: body
+      words:
+        - unauthorized activity has been detected.

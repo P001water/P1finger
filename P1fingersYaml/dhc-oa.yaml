@@ -1,0 +1,20 @@
+- id: dhc
+  name: Dhc-oa
+  author: P001
+  tags:
+    - dhc
+  description: Dhc-oa
+  matchers:
+    - location: body
+      words:
+        - src="/extcomponent/security/image/dhc.png"
+- id: dhc-2
+  name: DHC OA
+  author: P1finger
+  tags:
+    - dhc
+  description: DHC OA
+  matchers:
+    - location: body
+      words:
+        - src="/extcomponent/security/image/dhc.png"

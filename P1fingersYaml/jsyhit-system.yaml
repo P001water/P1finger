@@ -1,0 +1,10 @@
+- id: jsyhit
+  name: Jsyhit-system
+  author: P001
+  tags:
+    - jsyhit
+  description: Jsyhit-system
+  matchers:
+    - location: body
+      words:
+        - content="仪化产品质量查询系统"

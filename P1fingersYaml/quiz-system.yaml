@@ -1,0 +1,12 @@
+- id: quiz
+  name: Quiz-system
+  author: P001
+  tags:
+    - quiz
+  description: Quiz-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>| online quiz system |</title>
+        - quiz system

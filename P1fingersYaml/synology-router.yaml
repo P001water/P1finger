@@ -1,0 +1,10 @@
+- id: synology
+  name: Synology-router
+  author: P1finger
+  tags:
+    - synology
+  description: Synology-router
+  matchers:
+    - location: body
+      words:
+        - synologyrouter

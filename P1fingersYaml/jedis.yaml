@@ -1,0 +1,11 @@
+- id: jedis
+  name: Jedis
+  author: P1finger
+  tags:
+    - jedis
+  description: Jedis
+  matchers:
+    - location: body
+      words:
+        - jedis.JedisConnectionFactory
+        - get Jedis connection

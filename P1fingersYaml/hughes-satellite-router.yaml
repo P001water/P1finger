@@ -1,0 +1,28 @@
+- id: hughes-satellite
+  name: Hughes-satellite-router
+  author: P1finger
+  tags:
+    - hughes-satellite
+  description: Hughes-satellite-router
+  matchers:
+    - location: body
+      words:
+        - <frame src=/fs/dynaform/dw_logo.html
+    - location: header
+      words:
+        - HUGHES Terminal
+- id: hughes-satellite-2
+  name: Hughes-Satellite-Router
+  author: Fofa
+  tags:
+    - hughes-satellite
+  description: Hughes-Satellite-Router
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <frame src=/fs/dynaform/dw_logo.html
+    - condition: or
+      location: header
+      words:
+        - HUGHES Terminal

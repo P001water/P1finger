@@ -1,0 +1,19 @@
+- id: duclassified
+  name: DUclassified
+  author: Fofa
+  tags:
+    - duclassified
+  description: DUclassified
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - assets/DUclassified.css
+    - condition: or
+      location: title
+      words:
+        - DUclassified
+    - location: body
+      words:
+        - assets/DUclassified.css
+        - DUclassified

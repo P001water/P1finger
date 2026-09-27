@@ -1,0 +1,26 @@
+- id: buddy-zone
+  name: Buddy-zone
+  author: P1finger
+  tags:
+    - buddy-zone
+  description: Buddy-zone
+  matchers:
+    - location: body
+      words:
+        - www.vastal.com
+        - '>Buddy Zone</a>'
+- id: buddy-zone-2
+  name: Buddy-Zone
+  author: Fofa
+  tags:
+    - buddy-zone
+  description: Buddy-Zone
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered By <a href="http://www.vastal.com
+    - condition: or
+      location: body
+      words:
+        - '>Buddy Zone</a>'

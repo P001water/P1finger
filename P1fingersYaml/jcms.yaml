@@ -1,0 +1,25 @@
+- id: jcmsjiedian
+  name: Jcmsjiedian
+  author: P1finger
+  tags:
+    - jcmsjiedian
+  description: Jcmsjiedian
+  matchers:
+    - location: body
+      words:
+        - JCms
+        - cnvp.com.cn
+- id: jiedianjcms
+  name: Jiedianjcms
+  author: P1finger
+  tags:
+    - jiedianjcms
+  description: Jiedianjcms
+  matchers:
+    - location: body
+      words:
+        - Publish By JCms2010
+    - condition: and
+      location: body
+      words:
+        - Publish By JCms2010

@@ -1,0 +1,10 @@
+- id: fluxfuleiwms
+  name: FLUXfuleiWMS
+  author: P1finger
+  tags:
+    - fluxfuleiwms
+  description: FLUXfuleiWMS
+  matchers:
+    - location: body
+      words:
+        - FLUX WMS

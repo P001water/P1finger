@@ -1,0 +1,10 @@
+- id: zhangtingsafelinewaf
+  name: ZhangtingSafeLinewaf
+  author: P1finger
+  tags:
+    - zhangtingsafelinewaf
+  description: ZhangtingSafeLinewaf
+  matchers:
+    - location: body
+      words:
+        - SafeLine

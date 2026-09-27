@@ -1,0 +1,11 @@
+- id: smartpropertywuye
+  name: SmartPropertywuye Management System
+  author: P1finger
+  tags:
+    - smartpropertywuye
+    - management-system
+  description: SmartPropertywuye Management System
+  matchers:
+    - location: body
+      words:
+        - SmartProperty物业管理系统

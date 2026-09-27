@@ -1,0 +1,14 @@
+- id: cougar
+  name: Cougar
+  author: P1finger
+  tags:
+    - cougar
+  description: Cougar
+  matchers:
+    - location: header
+      words:
+        - Cougar
+    - condition: and
+      location: header
+      words:
+        - Cougar

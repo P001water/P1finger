@@ -1,0 +1,10 @@
+- id: amazon
+  name: Amazon
+  author: P1finger
+  tags:
+    - amazon
+  description: Amazon
+  matchers:
+    - hash:
+        - "-1544605732"
+      location: favicon

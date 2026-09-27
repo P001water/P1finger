@@ -1,0 +1,12 @@
+- id: nitc
+  name: Nitc-cms
+  author: P001
+  tags:
+    - nitc
+  description: Nitc-cms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /images/nitc1.png
+        - nitc web marketing service

@@ -1,0 +1,30 @@
+- id: idvr
+  name: IDVR
+  author: Fofa
+  tags:
+    - idvr
+  description: IDVR
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: iDVRhttpSvr'
+    - condition: or
+      location: title
+      words:
+        - iDVR
+    - condition: or
+      location: header
+      words:
+        - iDVRhttpSvr
+    - condition: or
+      location: body
+      words:
+        - name="iDVRForm
+    - location: body
+      words:
+        - iDVR
+        - name="iDVRForm
+    - location: header
+      words:
+        - iDVRhttpSvr

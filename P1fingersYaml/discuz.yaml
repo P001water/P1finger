@@ -1,0 +1,37 @@
+- id: discuz
+  name: Discuz
+  author: P1finger
+  tags:
+    - discuz
+  description: Discuz
+  matchers:
+    - location: body
+      words:
+        - Discuz
+    - condition: or
+      location: title
+      words:
+        - Powered by Discuz
+    - condition: or
+      location: body
+      words:
+        - content="Discuz
+    - condition: or
+      location: body
+      words:
+        - portal.php?mod=view")
+    - condition: or
+      location: body
+      words:
+        - Powered by <strong><a href="http://www.discuz.net
+    - condition: and
+      location: body
+      words:
+        - content="discuz!
+        - discuz_uid
+        - discuz_uid
+        - portal.php?mod=
+        - content="discuz
+        - href="/forum.php?
+        - id="discuz_tips
+        - powered by <strong><a href="http://www.discuz.net

@@ -1,0 +1,11 @@
+- id: google-maps
+  name: Google Maps
+  author: Fofa
+  tags:
+    - google-maps
+  description: Google Maps
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - maps.google.com/maps

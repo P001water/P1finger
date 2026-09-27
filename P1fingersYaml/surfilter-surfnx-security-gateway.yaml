@@ -1,0 +1,12 @@
+- id: surfilter-surfnx
+  name: Surfilter-SURFNX-Security-Gateway
+  author: P1finger
+  tags:
+  - surfilter
+  - surfilter-surfnx
+  description: Surfilter-SURFNX-Security-Gateway
+  matchers:
+  - location: body
+    words:
+    - surfnx
+    - /lib/templates/surfilter/css/

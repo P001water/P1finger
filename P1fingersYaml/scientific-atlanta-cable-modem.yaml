@@ -1,0 +1,21 @@
+- id: scientific-atlanta-cable-modem
+  name: Scientific-atlanta_cable_modem
+  author: P1finger
+  tags:
+    - scientific-atlanta-cable-modem
+  description: Scientific-atlanta_cable_modem
+  matchers:
+    - location: body
+      words:
+        - Scientific-Atlanta Cable Modem
+- id: scientific-atlanta-cable-modem-2
+  name: Scientific-Atlanta_Cable_Modem
+  author: Fofa
+  tags:
+    - scientific-atlanta-cable-modem
+  description: Scientific-Atlanta_Cable_Modem
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Scientific-Atlanta Cable Modem

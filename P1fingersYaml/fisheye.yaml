@@ -1,0 +1,29 @@
+- id: fisheye
+  name: Fisheye
+  author: Fofa
+  tags:
+    - fisheye
+  description: Fisheye
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'Set-Cookie: FESESSIONID'
+    - condition: or
+      location: body
+      words:
+        - fisheye-16.ico
+    - location: body
+      words:
+        - fisheye-16.ico
+    - location: header
+      words:
+        - 'Set-Cookie: FESESSIONID'
+    - location: body
+      words:
+        - 'set-cookie: fesessionid'
+        - fisheye
+        - fisheye-16.ico
+    - location: body
+      words:
+        - FishEye

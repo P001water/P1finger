@@ -1,0 +1,14 @@
+- id: ec-cart
+  name: Ec_cart
+  author: Fofa
+  tags:
+    - ec-cart
+  description: Ec_cart
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ec_cart_id
+    - location: header
+      words:
+        - ec_cart_id

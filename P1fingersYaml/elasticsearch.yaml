@@ -1,0 +1,24 @@
+- id: elasticsearch
+  name: Elasticsearch
+  author: P1finger
+  tags:
+    - elasticsearch
+  description: Elasticsearch
+  matchers:
+    - location: body
+      words:
+        - '"cluster_name" : "elasticsearch"'
+    - condition: or
+      location: body
+      words:
+        - build_hash")
+    - condition: or
+      location: body
+      words:
+        - You Know, for Search
+    - hash:
+        - 6177bfb75b498e0bb356223ed76ffe43
+      location: favicon
+    - location: body
+      words:
+        - '"tagline" : "you know, for search"'

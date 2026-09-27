@@ -1,0 +1,10 @@
+- id: wcs2u
+  name: WCS2U
+  author: P1finger
+  tags:
+    - wcs2u
+  description: WCS2U
+  matchers:
+    - location: body
+      words:
+        - '"by WCS2U.COM"'

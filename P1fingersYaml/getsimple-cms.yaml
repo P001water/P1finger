@@ -1,0 +1,11 @@
+- id: getsimple
+  name: Getsimple-cms
+  author: P001
+  tags:
+    - getsimple
+  description: Getsimple-cms
+  matchers:
+    - location: body
+      words:
+        - content="getsimple
+        - powered by getsimple

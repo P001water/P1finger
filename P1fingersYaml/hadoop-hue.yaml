@@ -1,0 +1,25 @@
+- id: hadoop-hue
+  name: Hadoop-hue
+  author: P001
+  tags:
+  - hadoop
+  - hadoop-hue
+  description: Hadoop-hue
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - hue and the hue logo are trademarks of cloudera, inc.
+    - id="jhuenotify
+    - jhuehdfstreeglobals
+- id: hadoop-hue-2
+  name: Hadoop Hue
+  author: P1finger
+  tags:
+  - hadoop
+  - hadoop-hue
+  description: Hadoop Hue
+  matchers:
+  - location: body
+    words:
+    - Welcome to Hue

@@ -1,0 +1,10 @@
+- id: archivematica
+  name: Archivematica
+  author: P1finger
+  tags:
+    - archivematica
+  description: Archivematica
+  matchers:
+    - hash:
+        - "-1378182799"
+      location: favicon

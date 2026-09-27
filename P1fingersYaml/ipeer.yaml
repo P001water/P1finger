@@ -1,0 +1,35 @@
+- id: ipeer
+  name: IPeer
+  author: Fofa
+  tags:
+    - ipeer
+  description: IPeer
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by iPeer
+    - condition: or
+      location: header
+      words:
+        - IPEER=
+    - condition: or
+      location: body
+      words:
+        - /js/ipeer.js
+    - condition: or
+      location: body
+      words:
+        - /css/ipeer.css
+    - location: body
+      words:
+        - Powered by iPeer
+        - /js/ipeer.js
+        - /css/ipeer.css
+    - location: header
+      words:
+        - IPEER=
+    - location: body
+      words:
+        - /css/ipeer.css
+        - powered by ipeer

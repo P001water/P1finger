@@ -1,0 +1,11 @@
+- id: edas-setting
+  name: EDAS Setting Management
+  author: P1finger
+  tags:
+    - edas-setting
+  description: EDAS Setting Management
+  matchers:
+    - location: body
+      words:
+        - edas配置中心
+        - lcccommoncontroller

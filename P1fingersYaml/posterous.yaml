@@ -1,0 +1,11 @@
+- id: posterous
+  name: Posterous
+  author: P001
+  tags:
+    - posterous
+  description: Posterous
+  matchers:
+    - location: body
+      words:
+        - class="posterous_site_data
+        - content="posterous

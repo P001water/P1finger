@@ -1,0 +1,12 @@
+- id: wq
+  name: Wq-cms
+  author: P001
+  tags:
+    - wq
+  description: Wq-cms
+  matchers:
+    - location: body
+      words:
+        - inc/wqcms.js
+        - powered by <a href='http://www.wqcms.com
+        - style/wangqi/style.css

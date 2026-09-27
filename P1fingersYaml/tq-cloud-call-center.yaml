@@ -1,0 +1,10 @@
+- id: tq-call
+  name: Tq-cloud-call-center
+  author: P001
+  tags:
+    - tq-call
+  description: Tq-cloud-call-center
+  matchers:
+    - location: body
+      words:
+        - tq.cn/floatcard?

@@ -1,0 +1,11 @@
+- id: pro-chat-rooms
+  name: Pro-chat-rooms
+  author: P001
+  tags:
+    - pro-chat-rooms
+  description: Pro-chat-rooms
+  matchers:
+    - location: body
+      words:
+        - border="0" alt="pro chat rooms
+        - href='http://prochatrooms.com'>pro chat rooms</a>

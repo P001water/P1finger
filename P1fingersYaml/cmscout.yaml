@@ -1,0 +1,21 @@
+- id: cmscout
+  name: Cmscout
+  author: P1finger
+  tags:
+    - cmscout
+  description: Cmscout
+  matchers:
+    - location: body
+      words:
+        - Powered by CMScout
+    - location: header
+      words:
+        - cmscout2=
+    - condition: or
+      location: body
+      words:
+        - Powered by CMScout
+    - condition: or
+      location: header
+      words:
+        - cmscout2=

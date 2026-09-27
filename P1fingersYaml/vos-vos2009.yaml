@@ -1,0 +1,10 @@
+- id: vos-vos2009
+  name: Vos-vos2009
+  author: P001
+  tags:
+    - vos-vos2009
+  description: Vos-vos2009
+  matchers:
+    - location: body
+      words:
+        - content="vos2009, voip, voip运营支撑系统, 软交换"

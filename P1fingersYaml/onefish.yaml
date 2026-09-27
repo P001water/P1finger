@@ -1,0 +1,11 @@
+- id: onefishweixieganzhiyubuzhuo
+  name: OneFishweixieganzhiyubuzhuo System
+  author: P1finger
+  tags:
+    - onefishweixieganzhiyubuzhuo
+    - system
+  description: OneFishweixieganzhiyubuzhuo System
+  matchers:
+    - location: body
+      words:
+        - OneFish平台

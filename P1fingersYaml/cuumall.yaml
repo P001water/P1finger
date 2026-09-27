@@ -1,0 +1,14 @@
+- id: cuumall
+  name: CuuMall
+  author: Fofa
+  tags:
+    - cuumall
+  description: CuuMall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Power by CuuMall
+    - location: body
+      words:
+        - Power by CuuMall

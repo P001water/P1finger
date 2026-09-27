@@ -1,0 +1,10 @@
+- id: link-6
+  name: LINK CMS
+  author: P1finger
+  tags:
+    - link
+  description: LINK CMS
+  matchers:
+    - location: body
+      words:
+        - LINK CMS

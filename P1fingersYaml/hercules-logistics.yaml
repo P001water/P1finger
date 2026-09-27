@@ -1,0 +1,10 @@
+- id: hercules-logistics
+  name: Hercules-logistics
+  author: P001
+  tags:
+    - hercules-logistics
+  description: Hercules-logistics
+  matchers:
+    - location: body
+      words:
+        - document.cookie="4pl07username="+arraystr

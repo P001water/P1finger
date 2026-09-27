@@ -1,0 +1,13 @@
+- id: minio
+  name: Minio
+  author: P1finger
+  tags:
+    - minio
+  description: Minio
+  matchers:
+    - location: body
+      words:
+        - MinIO
+    - location: header
+      words:
+        - minio

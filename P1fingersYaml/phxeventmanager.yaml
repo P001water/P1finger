@@ -1,0 +1,12 @@
+- id: phxeventmanager
+  name: Phxeventmanager
+  author: P001
+  tags:
+    - phxeventmanager
+  description: Phxeventmanager
+  matchers:
+    - location: body
+      words:
+        - <td><div class="minicalmonth
+        - powered by phxeventmanager
+        - src="pem-includes/xajax/xajax_js/xajax_core.js

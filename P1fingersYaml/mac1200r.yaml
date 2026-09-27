@@ -1,0 +1,14 @@
+- id: mac1200r
+  name: MAC1200R
+  author: Fofa
+  tags:
+    - mac1200r
+  description: MAC1200R
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MAC1200R
+    - location: header
+      words:
+        - MAC1200R

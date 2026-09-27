@@ -1,0 +1,11 @@
+- id: salien
+  name: Salien-software-system
+  author: P001
+  tags:
+    - salien
+  description: Salien-software-system
+  matchers:
+    - location: body
+      words:
+        - href="images/login/msn/favicon.ico"
+        - 北京市时林电脑公司

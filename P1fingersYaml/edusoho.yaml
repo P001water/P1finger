@@ -1,0 +1,25 @@
+- id: edusohokaiyuanwangluoketang
+  name: EduSohokaiyuanwangluoketang
+  author: Fofa
+  tags:
+    - edusohokaiyuanwangluoketang
+  description: EduSohokaiyuanwangluoketang
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - edusoho
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.edusoho.com
+    - condition: or
+      location: body
+      words:
+        - Powered By EduSoho
+    - location: body
+      words:
+        - edusoho
+    - location: body
+      words:
+        - EduSoho

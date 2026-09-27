@@ -1,0 +1,35 @@
+- id: dokuwiki
+  name: DokuWiki
+  author: Fofa
+  tags:
+    - dokuwiki
+  description: DokuWiki
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by DokuWiki
+    - condition: or
+      location: body
+      words:
+        - content="DokuWiki
+    - condition: or
+      location: body
+      words:
+        - <div id="dokuwiki
+    - location: body
+      words:
+        - powered by DokuWiki
+        - content="DokuWiki
+        - <div id="dokuwiki
+    - hash:
+        - "-630493013"
+      location: favicon
+    - location: body
+      words:
+        - <div id="dokuwiki
+        - content="dokuwiki
+        - powered by dokuwiki
+    - location: body
+      words:
+        - Driven by DokuWiki

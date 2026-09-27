@@ -1,0 +1,14 @@
+- id: mod-auth-passthrough
+  name: Mod_auth_passthrough
+  author: Fofa
+  tags:
+    - mod-auth-passthrough
+  description: Mod_auth_passthrough
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_auth_passthrough
+    - location: header
+      words:
+        - mod_auth_passthrough

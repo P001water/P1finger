@@ -1,0 +1,14 @@
+- id: brewblogger
+  name: BrewBlogger
+  author: Fofa
+  tags:
+    - brewblogger
+  description: BrewBlogger
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - developed by <a href="http://www.zkdigital.com
+    - location: body
+      words:
+        - developed by <a href="http://www.zkdigital.com

@@ -1,0 +1,12 @@
+- id: sony-liv
+  name: Sony-liv
+  author: P001
+  tags:
+    - sony-liv
+  description: Sony-liv
+  matchers:
+    - location: body
+      words:
+        - <meta name="author" content="sony pictures networks india pvt. ltd">
+        - <meta name="twitter:image" content="http://sonyliv.com/asset/socialsharelogo"/>
+        - content="sony liv

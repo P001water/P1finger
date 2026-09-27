@@ -1,0 +1,37 @@
+- id: kentico
+  name: Kentico-cms
+  author: P1finger
+  tags:
+    - kentico
+  description: Kentico-cms
+  matchers:
+    - location: body
+      words:
+        - content="Kentico CMS
+    - location: header
+      words:
+        - CMSPreferredCulture
+    - condition: and
+      location: body
+      words:
+        - /cmspages/getresource.ashx
+        - content="kentico cms
+        - kentico
+- id: kentico-2
+  name: Kentico-CMS
+  author: Fofa
+  tags:
+    - kentico
+  description: Kentico-CMS
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - CMSPreferredCulture
+    - condition: or
+      location: body
+      words:
+        - content="Kentico CMS
+    - location: body
+      words:
+        - Kentico CMS

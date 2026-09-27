@@ -1,0 +1,10 @@
+- id: exostar-managed-access
+  name: Exostar – Managed Access Gateway
+  author: P1finger
+  tags:
+    - exostar-managed-access
+  description: Exostar – Managed Access Gateway
+  matchers:
+    - hash:
+        - "420473080"
+      location: favicon

@@ -1,0 +1,24 @@
+- id: shopex
+  name: Shopex
+  author: Fofa
+  tags:
+    - shopex
+  description: Shopex
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="ShopEx
+    - condition: or
+      location: body
+      words:
+        - '@author litie[aita]shopex.cn'
+    - location: body
+      words:
+        - content="ShopEx
+        - '@author litie[aita]shopex.cn'
+    - location: body
+      words:
+        - '@author litie[aita]shopex.cn'
+        - content="shopex
+        - http://www.shopex.cn' target='_blank'

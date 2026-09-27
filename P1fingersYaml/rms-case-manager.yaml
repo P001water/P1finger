@@ -1,0 +1,10 @@
+- id: rms-case-manager
+  name: RMS-Case-Manager
+  author: P1finger
+  tags:
+    - rms-case-manager
+  description: RMS-Case-Manager
+  matchers:
+    - location: body
+      words:
+        - RMS Case Manager

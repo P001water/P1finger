@@ -1,0 +1,13 @@
+- id: huayutas
+  name: HuayuTAS
+  author: P1finger
+  tags:
+    - huayutas
+  description: HuayuTAS
+  matchers:
+    - location: header
+      words:
+        - 'Server: Tas'
+    - location: body
+      words:
+        - /tas-console

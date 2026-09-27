@@ -1,0 +1,10 @@
+- id: lotwan-accelerator
+  name: Lotwan-web-accelerator
+  author: P001
+  tags:
+    - lotwan-accelerator
+  description: Lotwan-web-accelerator
+  matchers:
+    - location: body
+      words:
+        - 北京华夏创新科技有限公司

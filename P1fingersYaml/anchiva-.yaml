@@ -1,0 +1,11 @@
+- id: anchiva
+  name: Anchiva Next-Generation Firewall
+  author: P001
+  tags:
+    - anchiva
+    - next-generation-firewall
+  description: Anchiva Next-Generation Firewall
+  matchers:
+    - location: body
+      words:
+        - 安信华下一代防火墙

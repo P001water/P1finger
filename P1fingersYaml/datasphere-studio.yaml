@@ -1,0 +1,10 @@
+- id: datasphere-studio
+  name: DataSphere Studio
+  author: P1finger
+  tags:
+    - datasphere-studio
+  description: DataSphere Studio
+  matchers:
+    - location: body
+      words:
+        - DataSphere Studio

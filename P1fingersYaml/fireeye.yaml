@@ -1,0 +1,36 @@
+- id: fireeye
+  name: Fireeye
+  author: Fofa
+  tags:
+    - fireeye
+  description: Fireeye
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - fireeye
+    - condition: and
+      location: body
+      words:
+        - FireEye")
+    - location: body
+      words:
+        - mobsc
+        - FireEye
+    - location: header
+      words:
+        - fireeye
+    - hash:
+        - "95271369"
+        - "105083909"
+        - "240606739"
+        - "1476335317"
+        - "2121539357"
+        - "-842192932"
+      location: favicon
+    - hash:
+        - "-842192932"
+      location: favicon
+    - location: header
+      words:
+        - Basic realm="FireEye Malware Protection Cloud (MPC)"

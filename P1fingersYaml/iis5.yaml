@@ -1,0 +1,11 @@
+- id: iis5
+  name: IIS5
+  author: Fofa
+  tags:
+    - iis5
+  description: IIS5
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - iis/5

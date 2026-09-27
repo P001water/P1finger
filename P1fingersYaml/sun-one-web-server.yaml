@@ -1,0 +1,21 @@
+- id: sun-one
+  name: Sun-one-web-server
+  author: P1finger
+  tags:
+    - sun-one
+  description: Sun-one-web-server
+  matchers:
+    - location: header
+      words:
+        - Sun-ONE-Web-Server
+- id: sun-one-2
+  name: Sun-ONE-Web-Server
+  author: Fofa
+  tags:
+    - sun-one
+  description: Sun-ONE-Web-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Sun-ONE-Web-Server

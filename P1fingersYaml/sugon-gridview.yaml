@@ -1,0 +1,14 @@
+- id: sugon-gridview
+  name: Sugon_gridview
+  author: Fofa
+  tags:
+    - sugon-gridview
+  description: Sugon_gridview
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /common/resources/images/common/app/gridview.ico
+    - location: body
+      words:
+        - /common/resources/images/common/app/gridview.ico

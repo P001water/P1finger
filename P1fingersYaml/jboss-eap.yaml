@@ -1,0 +1,11 @@
+- id: jboss-eap
+  name: Jboss-eap
+  author: P001
+  tags:
+  - jboss
+  - jboss-eap
+  description: Jboss-eap
+  matchers:
+  - location: body
+    words:
+    - <h3>your jboss enterprise application platform is running.</h3>

@@ -1,0 +1,12 @@
+- id: hangzhouyihuiewellyiliao
+  name: Hangzhouyihuiewellyiliao Management System
+  author: P1finger
+  tags:
+    - hangzhouyihuiewellyiliao
+    - management-system
+  description: Hangzhouyihuiewellyiliao Management System
+  matchers:
+    - location: body
+      words:
+        - Ewell Corporation
+        - 杭州医惠信息科技有限公司

@@ -1,0 +1,31 @@
+- id: trac
+  name: Trac
+  author: Fofa
+  tags:
+    - trac
+  description: Trac
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <h1>Available Projects</h1>
+    - condition: or
+      location: body
+      words:
+        - wiki/TracGuide
+    - condition: or
+      location: header
+      words:
+        - trac_session
+    - location: body
+      words:
+        - <h1>Available Projects</h1>
+        - wiki/TracGuide
+    - location: header
+      words:
+        - trac_session
+    - location: body
+      words:
+        - <h1>available projects</h1>
+        - powered by trac
+        - wiki/tracguide

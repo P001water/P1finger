@@ -1,0 +1,10 @@
+- id: danilo-pegoraro-marketing
+  name: Danilo Pegoraro Marketing
+  author: P1finger
+  tags:
+    - danilo-pegoraro-marketing
+  description: Danilo Pegoraro Marketing
+  matchers:
+    - location: body
+      words:
+        - estudiofdi.com.br

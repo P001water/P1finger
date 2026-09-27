@@ -1,0 +1,17 @@
+- id: synkronvia
+  name: Synkronvia
+  author: Fofa
+  tags:
+    - synkronvia
+  description: Synkronvia
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Synkron Via CMS
+    - location: header
+      words:
+        - Synkron Via CMS
+    - location: header
+      words:
+        - 'X-Generator: Synkron Via CMS'

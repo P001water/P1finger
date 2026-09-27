@@ -1,0 +1,10 @@
+- id: lusca-proxy-cache
+  name: Lusca-Web-Proxy-Cache
+  author: P1finger
+  tags:
+    - lusca-proxy-cache
+  description: Lusca-Web-Proxy-Cache
+  matchers:
+    - location: header
+      words:
+        - Lusca

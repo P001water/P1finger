@@ -1,0 +1,11 @@
+- id: neusoft-neteye-2
+  name: Neusoft NetEye Unified Login
+  author: P1finger
+  tags:
+  - neusoft
+  - neusoft-neteye
+  description: Neusoft NetEye Unified Login
+  matchers:
+  - location: body
+    words:
+    - neteye 统一身份管控系统登录

@@ -1,0 +1,10 @@
+- id: uniview-ezclould
+  name: Uniview-ezclould
+  author: P001
+  tags:
+    - uniview-ezclould
+  description: Uniview-ezclould
+  matchers:
+    - location: body
+      words:
+        - src="images/pag-logo.png"

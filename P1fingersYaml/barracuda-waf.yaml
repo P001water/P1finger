@@ -1,0 +1,13 @@
+- id: barracuda-waf
+  name: Barracuda WAF
+  author: P1finger
+  tags:
+    - barracuda-waf
+  description: Barracuda WAF
+  matchers:
+    - location: body
+      words:
+        - barracuda web application firewall
+    - location: header
+      words:
+        - bni__barracuda_lb_cookie=

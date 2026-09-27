@@ -1,0 +1,14 @@
+- id: datahunter
+  name: DataHunter
+  author: P1finger
+  tags:
+    - datahunter
+  description: DataHunter
+  matchers:
+    - hash:
+        - "-1705772735"
+      location: favicon
+    - location: body
+      words:
+        - content="DataHunter,
+        - DataHunter

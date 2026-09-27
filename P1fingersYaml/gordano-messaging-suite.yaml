@@ -1,0 +1,24 @@
+- id: gordano-messaging-suite
+  name: Gordano-messaging-suite
+  author: P1finger
+  tags:
+    - gordano-messaging-suite
+  description: Gordano-messaging-suite
+  matchers:
+    - location: header
+      words:
+        - Gordano
+    - location: body
+      words:
+        - 'server: gordano'
+- id: gordano-messaging-suite-2
+  name: Gordano-Messaging-Suite
+  author: Fofa
+  tags:
+    - gordano-messaging-suite
+  description: Gordano-Messaging-Suite
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Gordano

@@ -1,0 +1,10 @@
+- id: dts
+  name: Dts-operation-platform
+  author: P001
+  tags:
+    - dts
+  description: Dts-operation-platform
+  matchers:
+    - location: body
+      words:
+        - window.appname = 'alidts';

@@ -1,0 +1,22 @@
+- id: fcms
+  name: FCMS
+  author: Fofa
+  tags:
+    - fcms
+  description: FCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Ryan Haudenschilt
+    - condition: or
+      location: body
+      words:
+        - Powered by Family Connections
+    - location: body
+      words:
+        - content="Ryan Haudenschilt
+        - Powered by Family Connections
+    - location: body
+      words:
+        - ui/css/fcms-core.css

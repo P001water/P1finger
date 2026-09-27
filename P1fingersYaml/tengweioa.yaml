@@ -1,0 +1,11 @@
+- id: tengweioa
+  name: Tengweioa
+  author: P001
+  tags:
+    - tengweioa
+  description: Tengweioa
+  matchers:
+    - location: body
+      words:
+        - /_common/scripts/global.js
+        - /valcode.aspx

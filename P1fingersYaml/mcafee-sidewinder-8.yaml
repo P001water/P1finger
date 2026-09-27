@@ -1,0 +1,10 @@
+- id: mcafee-sidewinder-2
+  name: McAfee Sidewinder 8
+  author: P1finger
+  tags:
+    - mcafee-sidewinder
+  description: McAfee Sidewinder 8
+  matchers:
+    - location: body
+      words:
+        - sidewinder 8

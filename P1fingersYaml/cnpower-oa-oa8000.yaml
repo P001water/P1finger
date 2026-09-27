@@ -1,0 +1,10 @@
+- id: cnpower-oa8000
+  name: CNPOWER-OA(OA8000)
+  author: P1finger
+  tags:
+    - cnpower-oa8000
+  description: CNPOWER-OA(OA8000)
+  matchers:
+    - location: body
+      words:
+        - /oaapp/webobjects/oaapp.woa

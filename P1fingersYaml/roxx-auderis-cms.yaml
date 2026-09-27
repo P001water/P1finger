@@ -1,0 +1,10 @@
+- id: roxx-auderis
+  name: Roxx Auderis CMS
+  author: P1finger
+  tags:
+    - roxx-auderis
+  description: Roxx Auderis CMS
+  matchers:
+    - location: body
+      words:
+        - content="Roxx Auderis"

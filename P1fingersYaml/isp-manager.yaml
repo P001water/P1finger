@@ -1,0 +1,10 @@
+- id: isp-manager
+  name: Isp Manager
+  author: P1finger
+  tags:
+    - isp-manager
+  description: Isp Manager
+  matchers:
+    - hash:
+        - "-1151675028"
+      location: favicon

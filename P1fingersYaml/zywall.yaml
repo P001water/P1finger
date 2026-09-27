@@ -1,0 +1,10 @@
+- id: zywall
+  name: ZYWALL
+  author: P1finger
+  tags:
+    - zywall
+  description: ZYWALL
+  matchers:
+    - location: body
+      words:
+        - ZYWALL

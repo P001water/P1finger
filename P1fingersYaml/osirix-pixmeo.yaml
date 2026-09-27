@@ -1,0 +1,10 @@
+- id: osirix-pixmeo
+  name: Osirix-pixmeo
+  author: P001
+  tags:
+    - osirix-pixmeo
+  description: Osirix-pixmeo
+  matchers:
+    - location: body
+      words:
+        - <span>radone pacs</span>

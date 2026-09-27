@@ -1,0 +1,12 @@
+- id: mihalism-multi-host
+  name: Mihalism-multi-host
+  author: P001
+  tags:
+    - mihalism-multi-host
+  description: Mihalism-multi-host
+  matchers:
+    - location: body
+      words:
+        - content="mihalism multi host
+        - http://www.mihalism.com/product/mmh/">mihalism multi host
+        - powered by mihalism multi host

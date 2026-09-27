@@ -1,0 +1,14 @@
+- id: kingdee-3
+  name: Kingdee
+  author: Fofa
+  tags:
+    - kingdee
+  description: Kingdee
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /kdgs/script/kdgs.js
+    - location: body
+      words:
+        - /kdgs/script/kdgs.js

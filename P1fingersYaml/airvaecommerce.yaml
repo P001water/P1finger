@@ -1,0 +1,14 @@
+- id: airvaecommerce
+  name: AirvaeCommerce
+  author: Fofa
+  tags:
+    - airvaecommerce
+  description: AirvaeCommerce
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - E-Commerce Shopping Cart Software
+    - location: body
+      words:
+        - E-Commerce Shopping Cart Software

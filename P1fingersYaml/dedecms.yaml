@@ -1,0 +1,57 @@
+- id: dedecms
+  name: Dedecms
+  author: P1finger
+  tags:
+    - dedecms
+  description: Dedecms
+  matchers:
+    - location: body
+      words:
+        - DedeCMS
+        - /templets/default/style/dedecms.css
+    - condition: or
+      location: body
+      words:
+        - Power by DedeCms
+    - condition: and
+      location: body
+      words:
+        - http://www.dedecms.com/
+    - condition: or
+      location: body
+      words:
+        - DedeCMS")
+    - condition: or
+      location: body
+      words:
+        - /templets/default/style/dedecms.css
+    - condition: or
+      location: title
+      words:
+        - Powered by DedeCms
+    - location: body
+      words:
+        - Power by DedeCms
+- id: cmsdedecmszhimeng
+  name: CMSDedeCMSzhimeng
+  author: P001
+  tags:
+    - cmsdedecmszhimeng
+  description: CMSDedeCMSzhimeng
+  matchers:
+    - location: body
+      words:
+        - /templets/default/style/dedecms.css
+        - <a href=http://www.dedecms.com target='_blank'>power by dedecms</a>
+        - <div><h3>dedecms error warning!</h3>
+        - content="order by dede58.com" />
+        - http://www.dedecms.com/
+        - power by dedecms
+        - <form  name="formsearch" action="/plus/search.php">
+        - name="dede_fields
+        - name="dede_fieldshash
+    - condition: and
+      location: body
+      words:
+        - <title>织梦内容管理系统
+        - '>Powered by<a href="http://www.dedecms.com"'

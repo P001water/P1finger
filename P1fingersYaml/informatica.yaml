@@ -1,0 +1,10 @@
+- id: informatica-2
+  name: Informatica
+  author: P1finger
+  tags:
+    - informatica
+  description: Informatica
+  matchers:
+    - location: body
+      words:
+        - Informatica Administrator

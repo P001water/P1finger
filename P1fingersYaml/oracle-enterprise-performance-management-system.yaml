@@ -1,0 +1,22 @@
+- id: oracle-performance
+  name: Oracle-enterprise-performance-management-system
+  author: P001
+  tags:
+  - oracle
+  - oracle-performance
+  description: Oracle-enterprise-performance-management-system
+  matchers:
+  - location: body
+    words:
+    - <a href="workspace/dynamichelp
+- id: oracle-performance-2
+  name: Oracle Enterprise Performance Management System
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-performance
+  description: Oracle Enterprise Performance Management System
+  matchers:
+  - location: body
+    words:
+    - Oracle Enterprise Performance Management System Workspace, Fusion Edition

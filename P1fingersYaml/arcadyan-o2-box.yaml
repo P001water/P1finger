@@ -1,0 +1,10 @@
+- id: arcadyan-o2-box
+  name: Arcadyan O2 Box
+  author: P1finger
+  tags:
+    - arcadyan-o2-box
+  description: Arcadyan O2 Box
+  matchers:
+    - hash:
+        - "1479202414"
+      location: favicon

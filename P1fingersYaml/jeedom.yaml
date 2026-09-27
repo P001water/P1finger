@@ -1,0 +1,10 @@
+- id: jeedom
+  name: Jeedom
+  author: P1finger
+  tags:
+    - jeedom
+  description: Jeedom
+  matchers:
+    - hash:
+        - "462223993"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: palo-alto
+  name: Palo Alto Login Portal
+  author: P1finger
+  tags:
+    - palo-alto
+  description: Palo Alto Login Portal
+  matchers:
+    - hash:
+        - "602431586"
+      location: favicon

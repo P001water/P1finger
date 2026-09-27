@@ -1,0 +1,10 @@
+- id: claimtime
+  name: Claimtime
+  author: P1finger
+  tags:
+    - claimtime
+  description: Claimtime
+  matchers:
+    - hash:
+        - "-687783882"
+      location: favicon

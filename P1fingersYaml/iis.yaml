@@ -1,0 +1,20 @@
+- id: microsoft-iis
+  name: Microsoft-IIS
+  author: Fofa
+  tags:
+  - iis
+  - microsoft
+  - microsoft-iis
+  description: Microsoft-IIS
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - Microsoft-IIS
+  - condition: or
+    location: header
+    words:
+    - 'X-Powered-By: WAF/2.0'
+  - location: body
+    words:
+    - Bad Request (Invalid Hostname)

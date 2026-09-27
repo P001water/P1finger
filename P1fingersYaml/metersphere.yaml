@@ -1,0 +1,13 @@
+- id: metersphere
+  name: Metersphere
+  author: P001
+  tags:
+    - metersphere
+  description: Metersphere
+  matchers:
+    - location: body
+      words:
+        - <title>metersphere
+    - hash:
+        - "1023469568"
+      location: favicon

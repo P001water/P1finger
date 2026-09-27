@@ -1,0 +1,10 @@
+- id: nsfocus-6
+  name: NSFOCUS
+  author: P1finger
+  tags:
+    - nsfocus
+  description: NSFOCUS
+  matchers:
+    - location: body
+      words:
+        - 探针, 威胁检测, 安全分析

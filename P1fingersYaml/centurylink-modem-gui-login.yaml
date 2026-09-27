@@ -1,0 +1,10 @@
+- id: centurylink-modem-gui
+  name: Centurylink Modem Gui Login
+  author: P1finger
+  tags:
+    - centurylink-modem-gui
+  description: Centurylink Modem Gui Login
+  matchers:
+    - hash:
+        - "-1908556829"
+      location: favicon

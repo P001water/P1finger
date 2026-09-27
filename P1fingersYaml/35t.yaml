@@ -1,0 +1,11 @@
+- id: 35mail-log-management-system
+  name: 35mail Log Management System
+  author: P1finger
+  tags:
+    - 35mail
+    - log-management-system
+  description: 35mail Log Management System
+  matchers:
+    - location: body
+      words:
+        - 35T日志管理系统

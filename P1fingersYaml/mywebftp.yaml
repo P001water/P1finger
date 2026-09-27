@@ -1,0 +1,12 @@
+- id: mywebftp
+  name: Mywebftp
+  author: P001
+  tags:
+    - mywebftp
+  description: Mywebftp
+  matchers:
+    - location: body
+      words:
+        - '>mywebftp</a>'
+        - href='mwftp/common/mwftp.css
+        - mwftp/common/mwftp.js

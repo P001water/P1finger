@@ -1,0 +1,10 @@
+- id: iw
+  name: Iw
+  author: P1finger
+  tags:
+    - iw
+  description: Iw
+  matchers:
+    - hash:
+        - "896412703"
+      location: favicon

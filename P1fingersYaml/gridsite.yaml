@@ -1,0 +1,22 @@
+- id: gridsite
+  name: GridSite
+  author: Fofa
+  tags:
+    - gridsite
+  description: GridSite
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <a href="http://www.gridsite.org/">GridSite
+    - condition: or
+      location: body
+      words:
+        - gridsite-admin.cgi?cmd
+    - location: body
+      words:
+        - gridsite
+    - location: body
+      words:
+        - <a href="http://www.gridsite.org/">gridsite
+        - gridsite-admin.cgi?cmd

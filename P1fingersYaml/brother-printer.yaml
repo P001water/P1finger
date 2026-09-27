@@ -1,0 +1,28 @@
+- id: brother-printer
+  name: Brother-printer
+  author: P1finger
+  tags:
+  - brother
+  - brother-printer
+  description: Brother-printer
+  matchers:
+  - location: body
+    words:
+    - <FRAME SRC="/printer/inc_head.html
+    - <IMG src="/common/image/HL4040CN
+- id: brother-printer-2
+  name: Brother-Printer
+  author: Fofa
+  tags:
+  - brother
+  - brother-printer
+  description: Brother-Printer
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - <FRAME SRC="/printer/inc_head.html
+  - condition: or
+    location: body
+    words:
+    - <IMG src="/common/image/HL4040CN

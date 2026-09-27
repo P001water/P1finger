@@ -1,0 +1,14 @@
+- id: jagoanstore
+  name: JagoanStore
+  author: Fofa
+  tags:
+    - jagoanstore
+  description: JagoanStore
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="http://www.jagoanstore.com/" target="_blank">Toko Online
+    - location: body
+      words:
+        - href="http://www.jagoanstore.com/" target="_blank">Toko Online

@@ -1,0 +1,11 @@
+- id: pmwaye4crm
+  name: PmwayE4CRM
+  author: P1finger
+  tags:
+    - pmwaye4crm
+  description: PmwayE4CRM
+  matchers:
+    - location: body
+      words:
+        - 鹏为软件股份有限公司
+        - CRM系统(E4

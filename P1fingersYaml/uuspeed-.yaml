@@ -1,0 +1,11 @@
+- id: uuspeedyitihuaanquanyidongbangong
+  name: UUSpeedyitihuaanquanyidongbangong Platform
+  author: P1finger
+  tags:
+    - uuspeedyitihuaanquanyidongbangong
+    - platform
+  description: UUSpeedyitihuaanquanyidongbangong Platform
+  matchers:
+    - location: header
+      words:
+        - 'Server: yaWeb/0.4'

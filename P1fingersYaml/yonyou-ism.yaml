@@ -1,0 +1,11 @@
+- id: yonyou-ism
+  name: Yonyou-ism
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-ism
+  description: Yonyou-ism
+  matchers:
+  - location: body
+    words:
+    - sheight*window.screen.deviceydpi

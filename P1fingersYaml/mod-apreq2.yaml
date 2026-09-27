@@ -1,0 +1,14 @@
+- id: mod-apreq2
+  name: Mod_apreq2
+  author: Fofa
+  tags:
+    - mod-apreq2
+  description: Mod_apreq2
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_apreq2
+    - location: header
+      words:
+        - mod_apreq2

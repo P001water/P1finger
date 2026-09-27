@@ -1,0 +1,10 @@
+- id: embedthis-appweb
+  name: Embedthis-appweb
+  author: P001
+  tags:
+    - embedthis-appweb
+  description: Embedthis-appweb
+  matchers:
+    - location: body
+      words:
+        - 'server: embedthis-appweb'

@@ -1,0 +1,10 @@
+- id: sophoswaf
+  name: SophosWAF
+  author: P1finger
+  tags:
+    - sophoswaf
+  description: SophosWAF
+  matchers:
+    - location: body
+      words:
+        - UTM Web Protection

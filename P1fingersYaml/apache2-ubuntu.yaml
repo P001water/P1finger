@@ -1,0 +1,12 @@
+- id: apache2ubuntumorenyemian
+  name: Apache2ubuntumorenyemian
+  author: P001
+  tags:
+    - apache2ubuntumorenyemian
+  description: Apache2ubuntumorenyemian
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - apache2 ubuntu default page
+        - ubuntu-logo.png

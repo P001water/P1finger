@@ -1,0 +1,11 @@
+- id: ucml-platform
+  name: UCML Platform
+  author: P1finger
+  tags:
+    - ucml
+    - platform
+  description: UCML Platform
+  matchers:
+    - location: body
+      words:
+        - ucmlskin_v1.0

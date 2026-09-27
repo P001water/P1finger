@@ -1,0 +1,10 @@
+- id: mantuoluo-medication
+  name: Mantuoluo-medication
+  author: P001
+  tags:
+    - mantuoluo-medication
+  description: Mantuoluo-medication
+  matchers:
+    - location: body
+      words:
+        - <h2>曼陀罗医疗</h2>

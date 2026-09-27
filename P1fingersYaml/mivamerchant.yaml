@@ -1,0 +1,10 @@
+- id: mivamerchant
+  name: MivaMerchant
+  author: P1finger
+  tags:
+    - mivamerchant
+  description: MivaMerchant
+  matchers:
+    - location: body
+      words:
+        - Miva Merchant

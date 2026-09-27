@@ -1,0 +1,10 @@
+- id: supermap-gis
+  name: Supermap-gis
+  author: P001
+  tags:
+    - supermap-gis
+  description: Supermap-gis
+  matchers:
+    - location: body
+      words:
+        - 北京超图软件股份有限公司

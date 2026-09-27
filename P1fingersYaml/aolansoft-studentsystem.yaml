@@ -1,0 +1,10 @@
+- id: aolansoft-studentsystem
+  name: Aolansoft-studentsystem
+  author: P001
+  tags:
+    - aolansoft-studentsystem
+  description: Aolansoft-studentsystem
+  matchers:
+    - location: body
+      words:
+        - vcode.aspx

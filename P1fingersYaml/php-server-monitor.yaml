@@ -1,0 +1,11 @@
+- id: php-monitor
+  name: Php-server-monitor
+  author: P001
+  tags:
+    - php-monitor
+  description: Php-server-monitor
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.phpservermonitor.org/
+        - target="_blank">php server monitor

@@ -1,0 +1,11 @@
+- id: msvod
+  name: MSVOD Cms
+  author: P1finger
+  tags:
+    - msvod
+  description: MSVOD Cms
+  matchers:
+    - location: body
+      words:
+        - /msvod.js
+        - images/lists?cid=

@@ -1,0 +1,10 @@
+- id: caucho-resin
+  name: Caucho-resin
+  author: P001
+  tags:
+    - caucho-resin
+  description: Caucho-resin
+  matchers:
+    - location: body
+      words:
+        - 'server: resin'

@@ -1,0 +1,11 @@
+- id: litespeed-2
+  name: LiteSpeed
+  author: Fofa
+  tags:
+    - litespeed
+  description: LiteSpeed
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: LiteSpeed'

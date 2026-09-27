@@ -1,0 +1,10 @@
+- id: cbss-automated-testing
+  name: Cbss-automated-testing
+  author: P001
+  tags:
+    - cbss-automated-testing
+  description: Cbss-automated-testing
+  matchers:
+    - location: body
+      words:
+        - <p>copyright&copy cbss 项目组 自动化测试小组</p>

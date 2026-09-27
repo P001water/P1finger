@@ -1,0 +1,10 @@
+- id: pcitc-2
+  name: Pcitc-system
+  author: P001
+  tags:
+    - pcitc
+  description: Pcitc-system
+  matchers:
+    - location: body
+      words:
+        - 动设备运行风险分析系统

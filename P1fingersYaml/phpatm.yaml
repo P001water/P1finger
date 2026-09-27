@@ -1,0 +1,15 @@
+- id: phpatm
+  name: Phpatm
+  author: P001
+  tags:
+    - phpatm
+  description: Phpatm
+  matchers:
+    - location: body
+      words:
+        - powered by php advanced transfer manager
+        - powered by phpatm
+        - src="viewer_bottom.php?file=
+    - location: body
+      words:
+        - Powered by phpATM

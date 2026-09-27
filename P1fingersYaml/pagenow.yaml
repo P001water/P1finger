@@ -1,0 +1,10 @@
+- id: pagenow
+  name: PageNow
+  author: P1finger
+  tags:
+    - pagenow
+  description: PageNow
+  matchers:
+    - location: body
+      words:
+        - PageNow

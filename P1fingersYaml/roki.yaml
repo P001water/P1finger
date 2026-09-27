@@ -1,0 +1,11 @@
+- id: rokiyun-management-system
+  name: ROKIyun Management System
+  author: P1finger
+  tags:
+    - rokiyun
+    - management-system
+  description: ROKIyun Management System
+  matchers:
+    - location: body
+      words:
+        - ROKI云平台管理系统

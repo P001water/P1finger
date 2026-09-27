@@ -1,0 +1,11 @@
+- id: kargocardkefufuwuliucheng
+  name: Kargocardkefufuwuliucheng Management System
+  author: P1finger
+  tags:
+    - kargocardkefufuwuliucheng
+    - management-system
+  description: Kargocardkefufuwuliucheng Management System
+  matchers:
+    - location: body
+      words:
+        - Kargocard 客服服务流程管理系统

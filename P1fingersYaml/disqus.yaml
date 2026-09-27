@@ -1,0 +1,14 @@
+- id: disqus
+  name: Disqus
+  author: Fofa
+  tags:
+    - disqus
+  description: Disqus
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - disqus_thread
+    - location: body
+      words:
+        - disqus_thread

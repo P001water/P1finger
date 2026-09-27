@@ -1,0 +1,10 @@
+- id: lcr-proxy
+  name: LCR-Proxy
+  author: P1finger
+  tags:
+    - lcr-proxy
+  description: LCR-Proxy
+  matchers:
+    - location: header
+      words:
+        - Scylla LCRProxy

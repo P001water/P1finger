@@ -1,0 +1,13 @@
+- id: uttanquanwangluo
+  name: Uttanquanwangluo Management System
+  author: P001
+  tags:
+    - uttanquanwangluo
+    - management-system
+  description: Uttanquanwangluo Management System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - technology, inc.
+        - 上海艾泰科技有限公司

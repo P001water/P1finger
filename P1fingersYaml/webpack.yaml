@@ -1,0 +1,11 @@
+- id: webpack
+  name: Webpack
+  author: P1finger
+  tags:
+    - webpack
+  description: Webpack
+  matchers:
+    - location: body
+      words:
+        - chunk-vendors
+        - webpack://

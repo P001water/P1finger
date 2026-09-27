@@ -1,0 +1,10 @@
+- id: dreamcms
+  name: Dreamcms
+  author: P1finger
+  tags:
+    - dreamcms
+  description: Dreamcms
+  matchers:
+    - location: body
+      words:
+        - dreamer-cms

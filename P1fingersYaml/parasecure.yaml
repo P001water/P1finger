@@ -1,0 +1,10 @@
+- id: pailaparasecuredandiandenglu
+  name: PailaParaSecuredandiandenglu
+  author: P1finger
+  tags:
+    - pailaparasecuredandiandenglu
+  description: PailaParaSecuredandiandenglu
+  matchers:
+    - location: body
+      words:
+        - 派拉统一身份管理系统

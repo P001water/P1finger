@@ -1,0 +1,15 @@
+- id: venustech-tiantina-ids
+  name: Venustech TianTina IDS
+  author: P1finger
+  tags:
+  - venustech
+  - venustech-tiantina-ids
+  description: Venustech TianTina IDS
+  matchers:
+  - location: body
+    words:
+    - cybersensor
+    - <div class="login_name">天阗入侵检测与管理系统v7.0</div>
+  - location: header
+    words:
+    - vsappsrv1

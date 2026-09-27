@@ -1,0 +1,10 @@
+- id: yzncms
+  name: Yzncms
+  author: P1finger
+  tags:
+    - yzncms
+  description: Yzncms
+  matchers:
+    - location: body
+      words:
+        - www.kancloud.cn/ken678/yzncms

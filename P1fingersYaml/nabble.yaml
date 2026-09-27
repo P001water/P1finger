@@ -1,0 +1,11 @@
+- id: nabble
+  name: Nabble
+  author: P001
+  tags:
+    - nabble
+  description: Nabble
+  matchers:
+    - location: body
+      words:
+        - '>nabble</a>'
+        - class="nabble" id="nabble

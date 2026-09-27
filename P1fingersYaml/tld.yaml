@@ -1,0 +1,11 @@
+- id: tldwenjian-management-system
+  name: TLDwenjian Management System
+  author: P1finger
+  tags:
+    - tldwenjian
+    - management-system
+  description: TLDwenjian Management System
+  matchers:
+    - location: body
+      words:
+        - TLD - 文件管理系统

@@ -1,0 +1,10 @@
+- id: whtzjkj-erp
+  name: Whtzjkj-erp
+  author: P001
+  tags:
+    - whtzjkj-erp
+  description: Whtzjkj-erp
+  matchers:
+    - location: body
+      words:
+        - href="/content/home/tzjlog.ico"

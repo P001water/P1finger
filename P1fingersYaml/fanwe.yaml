@@ -1,0 +1,33 @@
+- id: fanwe
+  name: Fanwe
+  author: P001
+  tags:
+    - fanwe
+  description: Fanwe
+  matchers:
+    - location: body
+      words:
+        - app/tpl/fanwe_1/images/lazy_loading.gif
+        - index.php?ctl=article_cate
+- id: fanwefangweio2o-system
+  name: FanwefangweiO2O System
+  author: P1finger
+  tags:
+    - fanwefangweio2o
+    - system
+  description: FanwefangweiO2O System
+  matchers:
+    - location: body
+      words:
+        - app/Tpl/main/fanwe/images
+- id: fanwefangweiwaimai-system
+  name: Fanwefangweiwaimai System
+  author: P1finger
+  tags:
+    - fanwefangweiwaimai
+    - system
+  description: Fanwefangweiwaimai System
+  matchers:
+    - location: body
+      words:
+        - 方维外卖

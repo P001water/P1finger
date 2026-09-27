@@ -1,0 +1,10 @@
+- id: skynj
+  name: Skynj
+  author: P1finger
+  tags:
+    - skynj
+  description: Skynj
+  matchers:
+    - location: body
+      words:
+        - www.skynj.com

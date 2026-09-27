@@ -1,0 +1,23 @@
+- id: apache-tomcat
+  name: Apache-tomcat
+  author: P001
+  tags:
+  - tomcat
+  - apache
+  - apache-tomcat
+  description: Apache-tomcat
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 'server: apache-coyote/'
+    - 'x-powered-by: tomcat'
+    - <h3>apache tomcat
+    - <title>apache tomcat/
+    - href="tomcat.css
+    - this is the default tomcat home page
+    - /manager/html
+    - /manager/status
+  - hash:
+    - 4644f2d45601037b8423d45e13194c93
+    location: favicon

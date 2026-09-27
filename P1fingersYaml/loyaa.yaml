@@ -1,0 +1,15 @@
+- id: loyaaxinxizidongcaibian-system
+  name: Loyaaxinxizidongcaibian System
+  author: Fofa
+  tags:
+    - loyaaxinxizidongcaibian
+    - system
+  description: Loyaaxinxizidongcaibian System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /Loyaa/common.lib.js
+    - location: body
+      words:
+        - /Loyaa/common.lib.js

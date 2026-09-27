@@ -1,0 +1,11 @@
+- id: hanmasoft
+  name: Hanmasoft
+  author: P001
+  tags:
+    - hanmasoft
+  description: Hanmasoft
+  matchers:
+    - location: body
+      words:
+        - alt="汉码软件logo
+        - content="汉码软件

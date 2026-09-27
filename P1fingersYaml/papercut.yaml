@@ -1,0 +1,10 @@
+- id: papercut
+  name: Papercut
+  author: P001
+  tags:
+    - papercut
+  description: Papercut
+  matchers:
+    - location: body
+      words:
+        - <h1 id="papercut-user-login-title">

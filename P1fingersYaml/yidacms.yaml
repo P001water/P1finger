@@ -1,0 +1,14 @@
+- id: yidacms
+  name: Yidacms
+  author: Fofa
+  tags:
+    - yidacms
+  description: Yidacms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - yidacms.css
+    - location: body
+      words:
+        - yidacms.css

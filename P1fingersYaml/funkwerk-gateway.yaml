@@ -1,0 +1,28 @@
+- id: funkwerk
+  name: Funkwerk-gateway
+  author: P1finger
+  tags:
+    - funkwerk
+  description: Funkwerk-gateway
+  matchers:
+    - location: body
+      words:
+        - Funkwerk Gateway
+    - location: header
+      words:
+        - Funkwerk BOSS
+- id: funkwerk-2
+  name: Funkwerk-Gateway
+  author: Fofa
+  tags:
+    - funkwerk
+  description: Funkwerk-Gateway
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Funkwerk BOSS
+    - condition: or
+      location: title
+      words:
+        - Welcome to your Funkwerk Gateway

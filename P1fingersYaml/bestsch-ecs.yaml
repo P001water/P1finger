@@ -1,0 +1,11 @@
+- id: bestsch-ecs
+  name: Bestsch-ecs
+  author: P001
+  tags:
+    - bestsch-ecs
+  description: Bestsch-ecs
+  matchers:
+    - location: body
+      words:
+        - /userfiles/admin/customskin
+        - src="/include/ecsserverapi.js

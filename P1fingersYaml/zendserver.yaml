@@ -1,0 +1,14 @@
+- id: zendserver
+  name: ZendServer
+  author: Fofa
+  tags:
+    - zendserver
+  description: ZendServer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ZendServer
+    - location: header
+      words:
+        - ZendServer

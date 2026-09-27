@@ -1,0 +1,24 @@
+- id: knopflerfish-http
+  name: Knopflerfish-http-server
+  author: P1finger
+  tags:
+    - knopflerfish-http
+  description: Knopflerfish-http-server
+  matchers:
+    - location: header
+      words:
+        - The Knopflerfish HTTP Server
+    - location: body
+      words:
+        - 'server: the knopflerfish http server'
+- id: knopflerfish-http-2
+  name: Knopflerfish-HTTP-Server
+  author: Fofa
+  tags:
+    - knopflerfish-http
+  description: Knopflerfish-HTTP-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - The Knopflerfish HTTP Server

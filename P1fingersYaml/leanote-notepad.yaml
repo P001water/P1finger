@@ -1,0 +1,10 @@
+- id: leanote-notepad
+  name: Leanote-notepad
+  author: P001
+  tags:
+    - leanote-notepad
+  description: Leanote-notepad
+  matchers:
+    - location: body
+      words:
+        - name="author" content="leanote,蚂蚁笔记"

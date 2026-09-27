@@ -1,0 +1,11 @@
+- id: jsp
+  name: JSP 2.x
+  author: Fofa
+  tags:
+    - jsp
+  description: JSP 2.x
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - JSP/2.2

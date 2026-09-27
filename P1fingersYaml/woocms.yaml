@@ -1,0 +1,10 @@
+- id: woocms
+  name: WOOCMS
+  author: P1finger
+  tags:
+    - woocms
+  description: WOOCMS
+  matchers:
+    - location: body
+      words:
+        - WOOCMS

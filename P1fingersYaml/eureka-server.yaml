@@ -1,0 +1,10 @@
+- id: eureka
+  name: Eureka-server
+  author: P001
+  tags:
+    - eureka
+  description: Eureka-server
+  matchers:
+    - location: body
+      words:
+        - eureka/css/wro.css

@@ -1,0 +1,10 @@
+- id: radix
+  name: Radix
+  author: P1finger
+  tags:
+    - radix
+  description: Radix
+  matchers:
+    - hash:
+        - "-1492966240"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: oexam
+  name: OExam
+  author: P1finger
+  tags:
+    - oexam
+  description: OExam
+  matchers:
+    - location: body
+      words:
+        - src="view/js/index/browserCheck.js

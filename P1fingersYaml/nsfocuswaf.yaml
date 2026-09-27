@@ -1,0 +1,11 @@
+- id: nsfocuswafshebei
+  name: NsfocusWAFshebei
+  author: P1finger
+  tags:
+    - nsfocuswafshebei
+  description: NsfocusWAFshebei
+  matchers:
+    - location: body
+      words:
+        - WAF NSFOCUS
+        - /images/logo/nsfocus.png

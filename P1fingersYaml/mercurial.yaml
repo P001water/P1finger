@@ -1,0 +1,21 @@
+- id: mercurial
+  name: Mercurial
+  author: Fofa
+  tags:
+    - mercurial
+  description: Mercurial
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Mercurial repositories index
+    - location: body
+      words:
+        - Mercurial repositories index
+    - location: body
+      words:
+        - title="mercurial" style=
+    - location: body
+      words:
+        - Mercurial
+        - src="/static/mercurial.js"

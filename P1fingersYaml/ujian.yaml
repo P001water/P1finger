@@ -1,0 +1,14 @@
+- id: ujian
+  name: Ujian
+  author: Fofa
+  tags:
+    - ujian
+  description: Ujian
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ujian.cc/code/ujian.js
+    - location: body
+      words:
+        - ujian.cc/code/ujian.js

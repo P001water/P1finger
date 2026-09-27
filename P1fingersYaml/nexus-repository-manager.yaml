@@ -1,0 +1,13 @@
+- id: nexus-repository-manager
+  name: Nexus-repository-manager
+  author: P001
+  tags:
+  - nexus
+  - nexus-repository-manager
+  description: Nexus-repository-manager
+  matchers:
+  - location: body
+    words:
+    - nexus repository manager
+    - <title>nexus repository manager</title>
+    - progressmessage('initializing ...')

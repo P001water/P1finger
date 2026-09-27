@@ -1,0 +1,10 @@
+- id: sohuujixianoa
+  name: SohuujixianOA
+  author: P1finger
+  tags:
+    - sohuujixianoa
+  description: SohuujixianOA
+  matchers:
+    - location: body
+      words:
+        - sohuu.ico

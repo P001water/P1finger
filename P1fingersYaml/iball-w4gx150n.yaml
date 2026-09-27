@@ -1,0 +1,21 @@
+- id: iball-w4gx150n
+  name: IBall W4GX150N
+  author: Fofa
+  tags:
+    - iball-w4gx150n
+  description: IBall W4GX150N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - iB-W4GX150N
+- id: iball-w4gx150n-2
+  name: Iball W4gx150n
+  author: P1finger
+  tags:
+    - iball-w4gx150n
+  description: Iball W4gx150n
+  matchers:
+    - location: header
+      words:
+        - iB-W4GX150N

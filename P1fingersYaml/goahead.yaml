@@ -1,0 +1,14 @@
+- id: goahead
+  name: GoAhead
+  author: Fofa
+  tags:
+    - goahead
+  description: GoAhead
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - GoAhead
+    - location: header
+      words:
+        - GoAhead

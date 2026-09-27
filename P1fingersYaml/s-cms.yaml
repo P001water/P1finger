@@ -1,0 +1,19 @@
+- id: s-cms
+  name: S-cms
+  author: P001
+  tags:
+    - s-cms
+  description: S-cms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <p class="alignright">powered by s:cms - copyright ©
+        - class="scms_container w1200"
+        - /media/20151019095214828.png
+        - <h2>闪灵cms建站系统</h2>
+        - location=news&s_id=
+        - location=newsinfo&s_id=
+    - location: body
+      words:
+        - content="S-CMS"

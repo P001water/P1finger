@@ -1,0 +1,10 @@
+- id: phprechnung
+  name: PhpRechnung
+  author: P1finger
+  tags:
+    - phprechnung
+  description: PhpRechnung
+  matchers:
+    - location: body
+      words:
+        - include/phprechnung.css

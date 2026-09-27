@@ -1,0 +1,26 @@
+- id: dvr-webclient
+  name: Dvr-webclient
+  author: P1finger
+  tags:
+    - dvr-webclient
+  description: Dvr-webclient
+  matchers:
+    - location: body
+      words:
+        - 259F9FDF-97EA-4C59-B957-5160CAB6884E
+        - DVR-WebClient
+- id: dvr-webclient-2
+  name: DVR-WebClient
+  author: Fofa
+  tags:
+    - dvr-webclient
+  description: DVR-WebClient
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - 259F9FDF-97EA-4C59-B957-5160CAB6884E
+    - condition: or
+      location: title
+      words:
+        - ="DVR-WebClient

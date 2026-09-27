@@ -1,0 +1,32 @@
+- id: zabbix
+  name: Zabbix
+  author: P1finger
+  tags:
+    - zabbix
+  description: Zabbix
+  matchers:
+    - location: body
+      words:
+        - images/general/zabbix.ico
+        - meta name="Author" content="Zabbix SIA"
+    - location: header
+      words:
+        - zbx_sessionid
+    - condition: or
+      location: body
+      words:
+        - images/general/zabbix.ico
+    - condition: or
+      location: header
+      words:
+        - zbx_sessionid
+    - condition: or
+      location: body
+      words:
+        - meta name="Author" content="Zabbix SIA
+    - condition: and
+      location: body
+      words:
+        - zabbix sia
+        - zabbix
+        - images/general/zabbix.ico

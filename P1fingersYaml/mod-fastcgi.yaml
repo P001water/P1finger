@@ -1,0 +1,14 @@
+- id: mod-fastcgi
+  name: Mod_fastcgi
+  author: Fofa
+  tags:
+    - mod-fastcgi
+  description: Mod_fastcgi
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_fastcgi
+    - location: header
+      words:
+        - mod_fastcgi

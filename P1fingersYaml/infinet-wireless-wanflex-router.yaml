@@ -1,0 +1,28 @@
+- id: infinet-wireless-wanflex
+  name: Infinet-wireless-wanflex-router
+  author: P1finger
+  tags:
+    - infinet-wireless-wanflex
+  description: Infinet-wireless-wanflex-router
+  matchers:
+    - location: body
+      words:
+        - content="InfiNet
+    - location: header
+      words:
+        - WANFlex HTTP Daemon
+- id: infinet-wireless-wanflex-2
+  name: Infinet-Wireless-WANFleX-Router
+  author: Fofa
+  tags:
+    - infinet-wireless-wanflex
+  description: Infinet-Wireless-WANFleX-Router
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="InfiNet
+    - condition: or
+      location: header
+      words:
+        - WANFlex HTTP Daemon

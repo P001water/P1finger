@@ -1,0 +1,10 @@
+- id: iceflowbingfengvpn
+  name: IceflowbingfengVPN
+  author: P1finger
+  tags:
+    - iceflowbingfengvpn
+  description: IceflowbingfengVPN
+  matchers:
+    - location: body
+      words:
+        - iceflow.cn

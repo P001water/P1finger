@@ -1,0 +1,17 @@
+- id: filemakerpro
+  name: FileMakerPro
+  author: Fofa
+  tags:
+    - filemakerpro
+  description: FileMakerPro
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FileMakerPro
+    - location: header
+      words:
+        - FileMakerPro
+    - location: body
+      words:
+        - 'server: filemakerpro'

@@ -1,0 +1,13 @@
+- id: phpmybackuppro
+  name: Phpmybackuppro
+  author: P001
+  tags:
+    - phpmybackuppro
+  description: Phpmybackuppro
+  matchers:
+    - location: body
+      words:
+        - 'please login (use your mysql username and password): <a href="index.php?login=true'
+    - location: header
+      words:
+        - Basic realm="phpMyBackupPro

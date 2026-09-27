@@ -1,0 +1,13 @@
+- id: matomo
+  name: Matomo
+  author: P1finger
+  tags:
+    - matomo
+  description: Matomo
+  matchers:
+    - location: body
+      words:
+        - Matomo
+    - location: header
+      words:
+        - MATOMO_SESSID

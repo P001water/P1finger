@@ -1,0 +1,31 @@
+- id: ntop
+  name: Ntop
+  author: Fofa
+  tags:
+    - ntop
+  description: Ntop
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Global Traffic Statistics
+    - condition: or
+      location: header
+      words:
+        - 'Server: ntop'
+    - condition: or
+      location: body
+      words:
+        - ntopMenuID
+    - location: body
+      words:
+        - Global Traffic Statistics
+        - ntopMenuID
+    - location: header
+      words:
+        - 'Server: ntop'
+    - location: body
+      words:
+        - /css/ntopng.css
+        - global traffic statistics
+        - ntopmenuid

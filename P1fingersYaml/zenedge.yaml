@@ -1,0 +1,10 @@
+- id: zenedgechanpin
+  name: ZENEDGEchanpin
+  author: P1finger
+  tags:
+    - zenedgechanpin
+  description: ZENEDGEchanpin
+  matchers:
+    - location: header
+      words:
+        - ZENEDGE

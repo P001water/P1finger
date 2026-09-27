@@ -1,0 +1,22 @@
+- id: shengborunlansecsdierdai
+  name: ShengborunLanSecSdierdai Firewall
+  author: P1finger
+  tags:
+    - shengborunlansecsdierdai
+    - firewall
+  description: ShengborunLanSecSdierdai Firewall
+  matchers:
+    - location: body
+      words:
+        - lansecs第二代防火墙
+- id: shengborunlansecsdierdai-2
+  name: Shengborunlansecsdierdai Firewall
+  author: P001
+  tags:
+    - shengborunlansecsdierdai
+    - firewall
+  description: Shengborunlansecsdierdai Firewall
+  matchers:
+    - location: body
+      words:
+        - lansecs第二代防火墙

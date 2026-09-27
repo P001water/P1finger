@@ -1,0 +1,20 @@
+- id: extplorer
+  name: EXtplorer
+  author: Fofa
+  tags:
+    - extplorer
+  description: EXtplorer
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Login - eXtplorer
+    - location: body
+      words:
+        - Login - eXtplorer
+    - location: body
+      words:
+        - /extplorer.ico
+    - location: body
+      words:
+        - eXtplorer

@@ -1,0 +1,10 @@
+- id: datax
+  name: DataX Web
+  author: P1finger
+  tags:
+    - datax
+  description: DataX Web
+  matchers:
+    - location: body
+      words:
+        - DataX

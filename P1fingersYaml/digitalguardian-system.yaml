@@ -1,0 +1,10 @@
+- id: digitalguardian
+  name: Digitalguardian-system
+  author: P001
+  tags:
+    - digitalguardian
+  description: Digitalguardian-system
+  matchers:
+    - location: body
+      words:
+        - href="/brands/guardian/favicon.ico"

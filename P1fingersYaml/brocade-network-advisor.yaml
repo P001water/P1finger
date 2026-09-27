@@ -1,0 +1,10 @@
+- id: brocade-advisor
+  name: Brocade-network-advisor
+  author: P001
+  tags:
+    - brocade-advisor
+  description: Brocade-network-advisor
+  matchers:
+    - location: body
+      words:
+        - <span class="ui-menuitem-text">about network advisor</span></a>

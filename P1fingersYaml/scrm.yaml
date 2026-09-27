@@ -1,0 +1,11 @@
+- id: shenzhendaoxunkejiscrm-system
+  name: ShenzhendaoxunkejiSCRM System
+  author: P1finger
+  tags:
+    - shenzhendaoxunkejiscrm
+    - system
+  description: ShenzhendaoxunkejiSCRM System
+  matchers:
+    - location: body
+      words:
+        - SCRM系统

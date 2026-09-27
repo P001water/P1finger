@@ -1,0 +1,154 @@
+- id: juniper
+  name: Juniper
+  author: P1finger
+  tags:
+    - juniper
+  description: Juniper
+  matchers:
+    - hash:
+        - "2141724739"
+      location: favicon
+- id: juniper-hdr
+  name: Juniper-hdr
+  author: P001
+  tags:
+    - juniper-hdr
+  description: Juniper-hdr
+  matchers:
+    - location: body
+      words:
+        - /hdr_logo.gif
+        - /stylesheet/juniper.css
+    - location: body
+      words:
+        - Juniper
+- id: juniper-2
+  name: Juniper Firewall
+  author: P1finger
+  tags:
+    - juniper
+  description: Juniper Firewall
+  matchers:
+    - location: body
+      words:
+        - juniper srx firewall
+- id: juniper-3
+  name: Juniper Gateway
+  author: P1finger
+  tags:
+    - juniper
+  description: Juniper Gateway
+  matchers:
+    - location: body
+      words:
+        - juniper gateway
+- id: juniper-load-balancer
+  name: Juniper-Load-Balancer
+  author: Fofa
+  tags:
+    - juniper-load-balancer
+  description: Juniper-Load-Balancer
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - rl-sticky-key
+    - condition: or
+      location: header
+      words:
+        - Juniper Networks Application Acceleration Platform
+- id: juniper-netscreen-secure-access
+  name: Juniper-NetScreen-Secure-Access
+  author: Fofa
+  tags:
+    - juniper-netscreen-secure-access
+  description: Juniper-NetScreen-Secure-Access
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /dana-na/auth/welcome.cgi
+- id: juniper-srx1500
+  name: Juniper Srx1500
+  author: P1finger
+  tags:
+    - juniper-srx1500
+  description: Juniper Srx1500
+  matchers:
+    - location: body
+      words:
+        - var modelphpstr = "srx1500"
+- id: juniper-srx650
+  name: Juniper Srx650
+  author: P1finger
+  tags:
+    - juniper-srx650
+  description: Juniper Srx650
+  matchers:
+    - location: body
+      words:
+        - srx650
+        - class="jweb-title uppercase"> - srx650
+    - location: header
+      words:
+        - embedthis-appweb
+- id: juniper-load-balancer-2
+  name: Juniper-load-balancer
+  author: P1finger
+  tags:
+    - juniper-load-balancer
+  description: Juniper-load-balancer
+  matchers:
+    - location: header
+      words:
+        - Juniper Networks Application Acceleration Platform
+- id: juniper-netscreen-secure-access-2
+  name: Juniper-netscreen-secure-access
+  author: P1finger
+  tags:
+    - juniper-netscreen-secure-access
+  description: Juniper-netscreen-secure-access
+  matchers:
+    - location: body
+      words:
+        - /dana-na/auth/welcome.cgi
+- id: juniper-screenos
+  name: Juniper-ScreenOS
+  author: P1finger
+  tags:
+    - juniper-screenos
+  description: Juniper-ScreenOS
+  matchers:
+    - location: body
+      words:
+        - Juniper
+- id: juniper-4
+  name: Juniper-vpn
+  author: P001
+  tags:
+    - juniper
+  description: Juniper-vpn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - juniper networks vpn
+        - junos pulse secure access service
+- id: juniper-5
+  name: Juniper_vpn
+  author: P1finger
+  tags:
+    - juniper
+  description: Juniper_vpn
+  matchers:
+    - location: body
+      words:
+        - welcome.cgi?p=logo
+        - /images/logo_juniper_reversed.gif
+    - condition: and
+      location: body
+      words:
+        - welcome.cgi?p=logo
+    - location: body
+      words:
+        - welcome.cgi?p=logo

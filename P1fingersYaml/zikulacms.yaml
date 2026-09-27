@@ -1,0 +1,10 @@
+- id: zikulacms
+  name: ZikulaCMS
+  author: P1finger
+  tags:
+    - zikulacms
+  description: ZikulaCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="zikula

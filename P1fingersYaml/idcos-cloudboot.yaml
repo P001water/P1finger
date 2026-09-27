@@ -1,0 +1,10 @@
+- id: idcos-cloudboot
+  name: Idcos-cloudboot
+  author: P001
+  tags:
+    - idcos-cloudboot
+  description: Idcos-cloudboot
+  matchers:
+    - location: body
+      words:
+        - /clipboard/zeroclipboard.min

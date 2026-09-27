@@ -1,0 +1,24 @@
+- id: vzpp-plesk
+  name: VZPP Plesk
+  author: Fofa
+  tags:
+    - vzpp-plesk
+  description: VZPP Plesk
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 'VZPP Plesk '
+- id: vzpp-plesk-2
+  name: Vzpp Plesk
+  author: P1finger
+  tags:
+    - vzpp-plesk
+  description: Vzpp Plesk
+  matchers:
+    - location: body
+      words:
+        - 'VZPP Plesk '
+    - hash:
+        - "-1268095485"
+      location: favicon

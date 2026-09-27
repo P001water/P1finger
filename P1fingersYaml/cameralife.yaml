@@ -1,0 +1,27 @@
+- id: cameralife
+  name: CameraLife
+  author: Fofa
+  tags:
+    - cameralife
+  description: CameraLife
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Camera Life
+    - condition: or
+      location: body
+      words:
+        - This site is powered by Camera Life
+    - location: body
+      words:
+        - content="Camera Life
+        - This site is powered by Camera Life
+    - condition: and
+      location: body
+      words:
+        - content="camera life
+        - this site is powered by camera life
+    - location: body
+      words:
+        - Full Decent Camera Life

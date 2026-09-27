@@ -1,0 +1,11 @@
+- id: neusoft-uniportal
+  name: Neusoft-uniportal
+  author: P001
+  tags:
+  - neusoft
+  - neusoft-uniportal
+  description: Neusoft-uniportal
+  matchers:
+  - location: body
+    words:
+    - ecdomain/unieap/ria/unieap/themes/earth/common/unieap.css

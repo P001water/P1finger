@@ -1,0 +1,10 @@
+- id: eccart
+  name: ECCart
+  author: P1finger
+  tags:
+    - eccart
+  description: ECCart
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: ec_cart_id='

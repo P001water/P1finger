@@ -1,0 +1,10 @@
+- id: qz-safe
+  name: Qz-safe-mail
+  author: P001
+  tags:
+    - qz-safe
+  description: Qz-safe-mail
+  matchers:
+    - location: body
+      words:
+        - /qzmail/index.php

@@ -1,0 +1,22 @@
+- id: opencart
+  name: OpenCart
+  author: Fofa
+  tags:
+    - opencart
+  description: OpenCart
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered By OpenCart
+    - condition: or
+      location: body
+      words:
+        - catalog/view/theme
+    - location: body
+      words:
+        - Powered By OpenCart
+        - catalog/view/theme
+    - location: body
+      words:
+        - /OpenCart.css

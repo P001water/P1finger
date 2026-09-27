@@ -1,0 +1,23 @@
+- id: rising-antivirus-online
+  name: Rising-antivirus-online
+  author: P001
+  tags:
+  - rising
+  - rising-antivirus-online
+  description: Rising-antivirus-online
+  matchers:
+  - location: body
+    words:
+    - src="ravweb_files/
+- id: rising-antivirus-online-2
+  name: Rising Antivirus Online
+  author: P1finger
+  tags:
+  - rising
+  - rising-antivirus-online
+  description: Rising Antivirus Online
+  matchers:
+  - location: body
+    words:
+    - 瑞星杀毒软件网络版
+    - src="ravweb_files/

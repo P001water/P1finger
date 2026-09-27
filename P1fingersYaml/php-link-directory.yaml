@@ -1,0 +1,11 @@
+- id: php-link-directory
+  name: Php-link-directory
+  author: P001
+  tags:
+    - php-link-directory
+  description: Php-link-directory
+  matchers:
+    - location: body
+      words:
+        - content="php link directory
+        - powered by phplinkdirectory

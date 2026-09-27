@@ -1,0 +1,13 @@
+- id: sequoiadb
+  name: Sequoiadb-
+  author: P001
+  tags:
+    - sequoiadb
+  description: Sequoiadb-
+  matchers:
+    - location: body
+      words:
+        - class="btn btn-default" onclick="updateconnect();">
+    - location: body
+      words:
+        - sequoiadb

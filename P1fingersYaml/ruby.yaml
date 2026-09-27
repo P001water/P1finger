@@ -1,0 +1,18 @@
+- id: ruby
+  name: Ruby
+  author: Fofa
+  tags:
+    - ruby
+  description: Ruby
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ruby
+        - WEBrick
+        - Phusion
+        - Mongrel
+        - X-Rack-Cache
+    - location: header
+      words:
+        - X-Rack-Cache

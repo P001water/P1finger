@@ -1,0 +1,10 @@
+- id: gila
+  name: Gila CMS
+  author: P1finger
+  tags:
+    - gila
+  description: Gila CMS
+  matchers:
+    - location: body
+      words:
+        - Gila CMS

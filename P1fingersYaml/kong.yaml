@@ -1,0 +1,10 @@
+- id: kong
+  name: Kong
+  author: P1finger
+  tags:
+    - kong
+  description: Kong
+  matchers:
+    - location: header
+      words:
+        - 'server: Kong'

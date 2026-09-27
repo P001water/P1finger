@@ -1,0 +1,10 @@
+- id: openrg
+  name: Openrg
+  author: P1finger
+  tags:
+    - openrg
+  description: Openrg
+  matchers:
+    - hash:
+        - "-986816620"
+      location: favicon

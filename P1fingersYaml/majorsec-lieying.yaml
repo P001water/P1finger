@@ -1,0 +1,10 @@
+- id: majorsec-lieying
+  name: Majorsec LieYing
+  author: P1finger
+  tags:
+    - majorsec-lieying
+  description: Majorsec LieYing
+  matchers:
+    - location: body
+      words:
+        - majorsec

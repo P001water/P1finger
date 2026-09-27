@@ -1,0 +1,10 @@
+- id: spammark-information
+  name: Spammark-Mail-information-security-gateway
+  author: P1finger
+  tags:
+    - spammark-information
+  description: Spammark-Mail-information-security-gateway
+  matchers:
+    - location: body
+      words:
+        - spammark邮件信息安全网关

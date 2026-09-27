@@ -1,0 +1,12 @@
+- id: cachethq
+  name: Cachethq
+  author: P001
+  tags:
+    - cachethq
+  description: Cachethq
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - atom
+        - https://cachethq.io

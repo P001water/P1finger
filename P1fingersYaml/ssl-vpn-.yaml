@@ -1,0 +1,11 @@
+- id: shihuayingkesslvpnyuanchengjieru
+  name: Shihuayingkesslvpnyuanchengjieru System
+  author: P001
+  tags:
+    - shihuayingkesslvpnyuanchengjieru
+    - system
+  description: Shihuayingkesslvpnyuanchengjieru System
+  matchers:
+    - location: body
+      words:
+        - src="new_style/placeholderfriend.js

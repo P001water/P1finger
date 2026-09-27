@@ -1,0 +1,10 @@
+- id: netport
+  name: Netport Software
+  author: P1finger
+  tags:
+    - netport
+  description: Netport Software
+  matchers:
+    - hash:
+        - "-1124868062"
+      location: favicon

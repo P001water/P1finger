@@ -1,0 +1,33 @@
+- id: avaya-secure
+  name: Avaya-secure-router
+  author: P1finger
+  tags:
+    - avaya-secure
+  description: Avaya-secure-router
+  matchers:
+    - location: body
+      words:
+        - <b>About Avaya Secure Router</b>
+        - <span id="guiname">Avaya Secure Router
+    - location: header
+      words:
+        - Avaya Http Server
+- id: avaya-secure-2
+  name: Avaya-Secure-Router
+  author: Fofa
+  tags:
+    - avaya-secure
+  description: Avaya-Secure-Router
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <b>About Avaya Secure Router</b>
+    - condition: or
+      location: body
+      words:
+        - <span id="guiname">Avaya Secure Router
+    - condition: or
+      location: header
+      words:
+        - Avaya Http Server

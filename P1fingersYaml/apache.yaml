@@ -1,0 +1,11 @@
+- id: apache
+  name: Apache
+  author: Fofa
+  tags:
+    - apache
+  description: Apache
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: Apache'

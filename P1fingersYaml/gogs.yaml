@@ -1,0 +1,18 @@
+- id: gogs
+  name: Gogs
+  author: P1finger
+  tags:
+    - gogs
+  description: Gogs
+  matchers:
+    - location: header
+      words:
+        - i_like_gog
+        - i_like_gitea
+    - hash:
+        - "917966895"
+      location: favicon
+    - location: body
+      words:
+        - <a class="item" target="_blank" href="https://gogs.io/docs" rel="noreferrer">帮助</a>
+        - content="gogs

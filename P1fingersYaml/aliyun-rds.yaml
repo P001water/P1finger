@@ -1,0 +1,11 @@
+- id: aliyun-rds
+  name: Aliyun-rds
+  author: P001
+  tags:
+  - aliyun
+  - aliyun-rds
+  description: Aliyun-rds
+  matchers:
+  - location: body
+    words:
+    - class="legend">rds管理系统</div>

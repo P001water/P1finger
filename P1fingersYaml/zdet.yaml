@@ -1,0 +1,11 @@
+- id: zdetkehu-management-system
+  name: ZDETkehu Management System
+  author: P1finger
+  tags:
+    - zdetkehu
+    - management-system
+  description: ZDETkehu Management System
+  matchers:
+    - location: body
+      words:
+        - 欢迎使用浙大恩特客户资源管理系统

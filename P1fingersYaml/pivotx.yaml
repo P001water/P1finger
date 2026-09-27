@@ -1,0 +1,12 @@
+- id: pivotx
+  name: Pivotx
+  author: P001
+  tags:
+    - pivotx
+  description: Pivotx
+  matchers:
+    - location: body
+      words:
+        - content="pivotx
+        - src="includes/js/pivotx.js
+        - templates_internal/assets/pivotx.png" alt="pivotx

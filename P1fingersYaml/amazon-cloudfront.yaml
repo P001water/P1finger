@@ -1,0 +1,21 @@
+- id: amazon-cloudfront
+  name: Amazon-cloudfront
+  author: P1finger
+  tags:
+    - amazon-cloudfront
+  description: Amazon-cloudfront
+  matchers:
+    - location: header
+      words:
+        - X-Amz-Cf-Id
+- id: amazon-cloudfront-2
+  name: Amazon-cloudfront
+  author: Fofa
+  tags:
+    - amazon-cloudfront
+  description: Amazon-cloudfront
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Amz-Cf-Id

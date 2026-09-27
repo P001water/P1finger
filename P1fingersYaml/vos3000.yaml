@@ -1,0 +1,33 @@
+- id: vos3000
+  name: VOS3000
+  author: Fofa
+  tags:
+    - vos3000
+  description: VOS3000
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - ="VOS3000
+    - condition: or
+      location: body
+      words:
+        - <meta name="keywords" content="VOS3000
+    - condition: or
+      location: body
+      words:
+        - <meta name="description" content="VOS3000
+    - condition: or
+      location: body
+      words:
+        - images/vos3000.ico
+    - location: body
+      words:
+        - VOS3000
+        - images/vos3000.ico
+    - location: body
+      words:
+        - images/vos3000.ico
+    - location: body
+      words:
+        - VOS3000

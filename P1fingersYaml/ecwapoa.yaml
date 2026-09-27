@@ -1,0 +1,14 @@
+- id: ecwapoa
+  name: Ecwapoa
+  author: Fofa
+  tags:
+    - ecwapoa
+  description: Ecwapoa
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ecwapoa
+    - location: body
+      words:
+        - ecwapoa

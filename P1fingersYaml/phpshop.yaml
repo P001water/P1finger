@@ -1,0 +1,10 @@
+- id: phpshop
+  name: PHPShop
+  author: P1finger
+  tags:
+    - phpshop
+  description: PHPShop
+  matchers:
+    - location: body
+      words:
+        - content="PHPShop

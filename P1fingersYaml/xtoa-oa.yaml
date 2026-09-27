@@ -1,0 +1,12 @@
+- id: xtoa
+  name: Xtoa-oa
+  author: P001
+  tags:
+    - xtoa
+  description: Xtoa-oa
+  matchers:
+    - location: body
+      words:
+        - /app_qjuserinfo/qjuserinfoadd.jsp
+        - /images/default/first/xtoa_logo.png
+        - src="systemfiles/js/iawebclientactivexcheck.js"

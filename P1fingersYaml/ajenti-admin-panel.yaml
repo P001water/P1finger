@@ -1,0 +1,10 @@
+- id: ajenti-panel
+  name: Ajenti Admin Panel
+  author: P1finger
+  tags:
+    - ajenti-panel
+  description: Ajenti Admin Panel
+  matchers:
+    - location: body
+      words:
+        - Ajenti

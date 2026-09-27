@@ -1,0 +1,10 @@
+- id: axis-3
+  name: Axis
+  author: P1finger
+  tags:
+    - axis
+  description: Axis
+  matchers:
+    - hash:
+        - "-1616143106"
+      location: favicon

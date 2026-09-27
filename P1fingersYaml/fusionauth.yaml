@@ -1,0 +1,13 @@
+- id: fusionauth
+  name: FusionAuth
+  author: P1finger
+  tags:
+    - fusionauth
+  description: FusionAuth
+  matchers:
+    - location: body
+      words:
+        - FusionAuth
+    - location: header
+      words:
+        - fusionauth

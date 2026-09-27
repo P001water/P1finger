@@ -1,0 +1,11 @@
+- id: mysql-panel
+  name: MySQL Control Panel
+  author: P1finger
+  tags:
+  - mysql
+  - mysql-panel
+  description: MySQL Control Panel
+  matchers:
+  - location: header
+    words:
+    - Basic realm="MySQL Control Panel

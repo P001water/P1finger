@@ -1,0 +1,25 @@
+- id: lotus-domino
+  name: Lotus-domino
+  author: P1finger
+  tags:
+  - domino
+  - lotus
+  - lotus-domino
+  description: Lotus-domino
+  matchers:
+  - location: header
+    words:
+    - 'Server: Lotus-Domino'
+- id: lotus-domino-2
+  name: Lotus-Domino
+  author: Fofa
+  tags:
+  - domino
+  - lotus
+  - lotus-domino
+  description: Lotus-Domino
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 'Server: Lotus-Domino'

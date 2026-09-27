@@ -1,0 +1,10 @@
+- id: ecsyichuangsicms
+  name: ECSyichuangsiCMS
+  author: P1finger
+  tags:
+    - ecsyichuangsicms
+  description: ECSyichuangsiCMS
+  matchers:
+    - location: body
+      words:
+        - 上海弘育信息技术有限公司

@@ -1,0 +1,10 @@
+- id: netasq-secure-stormshield
+  name: Netasq - Secure / Stormshield
+  author: P1finger
+  tags:
+    - netasq-secure-stormshield
+  description: Netasq - Secure / Stormshield
+  matchers:
+    - hash:
+        - "-1929912510"
+      location: favicon

@@ -1,0 +1,215 @@
+- id: hikvision
+  name: Hikvision
+  author: Fofa
+  tags:
+  - hikvision
+  description: Hikvision
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - Hikvision
+  - condition: or
+    location: body
+    words:
+    - doc/page/login.asp")
+  - condition: or
+    location: header
+    words:
+    - _goaheadwebSessionId
+  - condition: or
+    location: header
+    words:
+    - DVRDVS-Webs
+- id: hikvision-management-platform
+  name: Hikvision Management Platform
+  author: P1finger
+  tags:
+  - hikvision
+  - management-platform
+  description: Hikvision Management Platform
+  matchers:
+  - location: body
+    words:
+    - Infovision iWork-Safety
+- id: hikvision-security-gateway
+  name: Hikvision Security Gateway
+  author: P001
+  tags:
+  - hikvision
+  - security-gateway
+  description: Hikvision Security Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - src="./webui/js/jquerylib/jquery-1.7.2.min.js"
+    - 安全接入网关
+- id: hikvision-bigdatadiagnosis
+  name: Hikvision-bigdatadiagnosis
+  author: P001
+  tags:
+  - hikvision
+  - hikvision-bigdatadiagnosis
+  description: Hikvision-bigdatadiagnosis
+  matchers:
+  - location: body
+    words:
+    - 大数据诊断工具</strong>
+- id: hikvision-nvr
+  name: Hikvision-camera_NVR
+  author: P001
+  tags:
+  - hikvision
+  - hikvision-nvr
+  description: Hikvision-camera_NVR
+  matchers:
+  - location: header
+    words:
+    - DVRDVS-Webs
+  - location: body
+    words:
+    - doc/page/login.asp
+    - document.write("<link location='text/css' href='../ui/css/ui.css?version="
+    - ng-show="oCap.bSptGuidImport
+    - class="login-item
+    - window.location.href = "/doc/page/login.asp?_"
+    - (new Date()).getTime();
+- id: hikvision-cloudvideo
+  name: Hikvision-cloudvideo
+  author: P001
+  tags:
+  - hikvision
+  - hikvision-cloudvideo
+  description: Hikvision-cloudvideo
+  matchers:
+  - location: body
+    words:
+    - 嗨看云视频</p>
+- id: hikvision-streaming-media
+  name: Hikvision Streaming Media
+  author: P001
+  tags:
+  - hikvision
+  - streaming-media
+  description: Hikvision Streaming Media
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - mshtml
+    - 流媒体管理服务器
+- id: hikvision-management-platform-2
+  name: Hikvision Management Platform
+  author: P001
+  tags:
+  - hikvision
+  - management-platform
+  description: Hikvision Management Platform
+  matchers:
+  - location: body
+    words:
+    - var settings_systemConfig
+    - '@Author: chenguohui'
+    - 提供给isee构架子页面使用的
+    - 联合xauthplus使用插件的方式做登录集成
+- id: hikvision-2
+  name: HIKVISION-Video-Cloud
+  author: P001
+  tags:
+  - hikvision
+  description: HIKVISION-Video-Cloud
+  matchers:
+  - location: body
+    words:
+    - 'server: face-webs'
+- id: hikvision-intelligentsafeguardsystems
+  name: Hikvision-intelligentsafeguardsystems
+  author: P001
+  tags:
+  - hikvision
+  - hikvision-intelligentsafeguardsystems
+  description: Hikvision-intelligentsafeguardsystems
+  matchers:
+  - location: body
+    words:
+    - window.location.href.indexof("/index/carfile/"
+- id: hikvision-ivms
+  name: Hikvision-ivms
+  author: P001
+  tags:
+  - hikvision
+  - hikvision-ivms
+  description: Hikvision-ivms
+  matchers:
+  - location: body
+    words:
+    - <!--警示提示处-->
+    - <h1 class="logo">安防综合管理平台</h1>
+    - serviceip
+    - 杭州海康威视系统技术有限公司 版权所有
+- id: hikvision-3
+  name: Hikvision
+  author: P1finger
+  tags:
+  - hikvision
+  description: Hikvision
+  matchers:
+  - location: body
+    words:
+    - g_szCacheTime
+    - iVMS
+  - condition: and
+    location: body
+    words:
+    - g_szCacheTime
+  - condition: and
+    location: body
+    words:
+    - iVMS
+- id: hikvision-ivms-8700
+  name: Hikvision-ivms-8700
+  author: P001
+  tags:
+  - hikvision
+  - hikvision-ivms-8700
+  description: Hikvision-ivms-8700
+  matchers:
+  - location: body
+    words:
+    - src="/portal/common/js/commonvar.js
+- id: hikvision-4
+  name: Hikvision
+  author: P1finger
+  tags:
+  - hikvision
+  description: Hikvision
+  matchers:
+  - location: body
+    words:
+    - 海康威视
+    - hikvision
+- id: hikvisionshipinbianmashebeijieru
+  name: Hikvisionshipinbianmashebeijieru Gateway
+  author: P001
+  tags:
+  - hikvisionshipinbianmashebeijieru
+  - gateway
+  description: Hikvisionshipinbianmashebeijieru Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <input id="p_pass" class="int" onfocus="this.value='';" tabindex="2" name="p_pass
+    - href="/bncgi-bin/test.pl
+- id: hikvision-platform
+  name: Hikvision Platform
+  author: P1finger
+  tags:
+  - hikvision
+  - platform
+  description: Hikvision Platform
+  matchers:
+  - hash:
+    - '118923032'
+    location: favicon

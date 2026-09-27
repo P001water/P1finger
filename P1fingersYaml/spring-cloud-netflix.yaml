@@ -1,0 +1,11 @@
+- id: spring-netflix
+  name: Spring-cloud-netflix
+  author: P001
+  tags:
+  - spring
+  - spring-netflix
+  description: Spring-cloud-netflix
+  matchers:
+  - location: body
+    words:
+    - 'x-application-context: hystrix-dashboard:'

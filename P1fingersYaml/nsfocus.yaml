@@ -1,0 +1,219 @@
+- id: nsfocus-bastion-host
+  name: Nsfocus Bastion Host
+  author: P001
+  tags:
+  - nsfocus
+  - bastion-host
+  description: Nsfocus Bastion Host
+  matchers:
+  - location: body
+    words:
+    - /login_logo_sas_h_zh_cn.png
+- id: nsfocus-bvs
+  name: Nsfocus-bvs
+  author: P001
+  tags:
+  - nsfocus
+  - nsfocus-bvs
+  description: Nsfocus-bvs
+  matchers:
+  - location: body
+    words:
+    - /nsfocus_bvs.css
+- id: nsfocus-2
+  name: Nsfocus-enterprise-security-center
+  author: P001
+  tags:
+  - nsfocus
+  description: Nsfocus-enterprise-security-center
+  matchers:
+  - location: body
+    words:
+    - /login_logo_espc_zh_cn.png
+- id: nsfocus-ads
+  name: NSFOCUS ADS
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-ads
+  description: NSFOCUS ADS
+  matchers:
+  - location: body
+    words:
+    - nsfocus ads
+- id: nsfocus-ngfw
+  name: NSFOCUS NGFW
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-ngfw
+  description: NSFOCUS NGFW
+  matchers:
+  - location: body
+    words:
+    - nsfocus nf
+    - /login_logo_nf_zh_cn.png
+- id: nsfocus-nids
+  name: NSFOCUS NIDS
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-nids
+  description: NSFOCUS NIDS
+  matchers:
+  - location: body
+    words:
+    - /login_logo_nids_zh_cn.png
+- id: nsfocus-nips
+  name: NSFOCUS NIPS
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-nips
+  description: NSFOCUS NIPS
+  matchers:
+  - location: body
+    words:
+    - /login_logo_nips_zh_cn.png
+- id: nsfocus-rsas
+  name: NSFOCUS RSAS
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-rsas
+  description: NSFOCUS RSAS
+  matchers:
+  - location: body
+    words:
+    - /login_logo_rsas_zh_cn.png
+- id: nsfocus-sas
+  name: NSFOCUS SAS
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-sas
+  description: NSFOCUS SAS
+  matchers:
+  - location: body
+    words:
+    - /login_logo_sas_zh_cn.png
+    - nsfocus&nbsp;sas
+- id: nsfocus-sg
+  name: NSFOCUS SG-Security-Gateway
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-sg
+  description: NSFOCUS SG-Security-Gateway
+  matchers:
+  - location: body
+    words:
+    - /login_logo_sg_zh_cn.png
+- id: nsfocus-3
+  name: NSFOCUS VPN
+  author: P1finger
+  tags:
+  - nsfocus
+  description: NSFOCUS VPN
+  matchers:
+  - location: body
+    words:
+    - /logo_login_nsfocus.png
+- id: nsfocus-waf
+  name: NSFOCUS WAF
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-waf
+  description: NSFOCUS WAF
+  matchers:
+  - location: body
+    words:
+    - waf nsfocus
+    - /images/logo/nsfocus.png
+  - location: header
+    words:
+    - nsfocus vmwaf
+- id: nsfocus-wvss
+  name: NSFOCUS WVSS
+  author: P1finger
+  tags:
+  - nsfocus
+  - nsfocus-wvss
+  description: NSFOCUS WVSS
+  matchers:
+  - location: body
+    words:
+    - url:'/accounts/treaty/'
+    - nsfocus wvss
+- id: nsfocusqiyeanquanzhongxin
+  name: Nsfocusqiyeanquanzhongxin
+  author: P001
+  tags:
+  - nsfocusqiyeanquanzhongxin
+  description: Nsfocusqiyeanquanzhongxin
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /login_logo_espc_zh_cn.png
+    - 绿盟科技企业安全中心
+- id: nsfocussg-security-gateway
+  name: Nsfocussg Security Gateway
+  author: P001
+  tags:
+  - nsfocussg
+  - security-gateway
+  description: Nsfocussg Security Gateway
+  matchers:
+  - location: body
+    words:
+    - /login_logo_sg_zh_cn.png
+- id: nsfocus-4
+  name: Nsfocus-vpn
+  author: P001
+  tags:
+  - nsfocus
+  description: Nsfocus-vpn
+  matchers:
+  - location: body
+    words:
+    - /logo_login_nsfocus.png
+- id: nsfocus-waf-2
+  name: NSFOCUS_WAF
+  author: Fofa
+  tags:
+  - nsfocus
+  - nsfocus-waf
+  description: NSFOCUS_WAF
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ="WAF NSFOCUS
+- id: nsfocuswangzhananquanjiance
+  name: Nsfocuswangzhananquanjiance System
+  author: P001
+  tags:
+  - nsfocuswangzhananquanjiance
+  - system
+  description: Nsfocuswangzhananquanjiance System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - nsfocus.png
+    - stylesheet/nsfocus
+- id: nsfocus-5
+  name: Nsfocus Next-Generation Firewall
+  author: P001
+  tags:
+  - nsfocus
+  - next-generation-firewall
+  description: Nsfocus Next-Generation Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /login_logo_nf_zh_cn.png
+    - nsfocus nf

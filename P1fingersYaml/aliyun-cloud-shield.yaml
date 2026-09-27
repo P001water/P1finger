@@ -1,0 +1,12 @@
+- id: aliyun-shield
+  name: Aliyun Cloud Shield
+  author: P1finger
+  tags:
+  - aliyun
+  - aliyun-shield
+  description: Aliyun Cloud Shield
+  matchers:
+  - location: header
+    words:
+    - yundun
+    - 'set-cookie: yundun_404'

@@ -1,0 +1,10 @@
+- id: 17mailyiqiyou
+  name: 17mailyiqiyou
+  author: P001
+  tags:
+    - 17mailyiqiyou
+  description: 17mailyiqiyou
+  matchers:
+    - location: body
+      words:
+        - 易企邮

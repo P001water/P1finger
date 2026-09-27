@@ -1,0 +1,10 @@
+- id: bullwark
+  name: Bullwark
+  author: P001
+  tags:
+    - bullwark
+  description: Bullwark
+  matchers:
+    - location: body
+      words:
+        - <title>bullwark momentum series</title>

@@ -1,0 +1,12 @@
+- id: anweiacubeyewu
+  name: AnweiACubeyewu Management Platform
+  author: P1finger
+  tags:
+    - anweiacubeyewu
+    - management-platform
+  description: AnweiACubeyewu Management Platform
+  matchers:
+    - location: body
+      words:
+        - ACube业务管理平台
+        - Powered by Anwill

@@ -1,0 +1,24 @@
+- id: keil-embedded
+  name: Keil-embedded-web-server
+  author: P1finger
+  tags:
+    - keil-embedded
+  description: Keil-embedded-web-server
+  matchers:
+    - location: header
+      words:
+        - Keil-EWEB
+    - location: body
+      words:
+        - 'server: keil-eweb'
+- id: keil-embedded-2
+  name: Keil-Embedded-WEB-Server
+  author: Fofa
+  tags:
+    - keil-embedded
+  description: Keil-Embedded-WEB-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Keil-EWEB

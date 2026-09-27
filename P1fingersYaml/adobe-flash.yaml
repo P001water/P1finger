@@ -1,0 +1,33 @@
+- id: adobe-flash
+  name: Adobe-flash
+  author: P1finger
+  tags:
+  - adobe
+  - adobe-flash
+  description: Adobe-flash
+  matchers:
+  - location: body
+    words:
+    - /x-shockwave-flash
+    - /go/getflashplayer
+    - embedswf
+- id: adobe-flash-2
+  name: Adobe-Flash
+  author: Fofa
+  tags:
+  - adobe
+  - adobe-flash
+  description: Adobe-Flash
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /x-shockwave-flash
+  - condition: or
+    location: body
+    words:
+    - /go/getflashplayer
+  - condition: or
+    location: body
+    words:
+    - embedswf

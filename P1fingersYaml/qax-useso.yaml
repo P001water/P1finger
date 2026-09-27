@@ -1,0 +1,11 @@
+- id: qax-useso
+  name: Qax-useso
+  author: P001
+  tags:
+  - qax
+  - qax-useso
+  description: Qax-useso
+  matchers:
+  - location: body
+    words:
+    - libs.useso.com

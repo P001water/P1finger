@@ -1,0 +1,11 @@
+- id: zxoa
+  name: Zxoa
+  author: P001
+  tags:
+    - zxoa
+  description: Zxoa
+  matchers:
+    - location: body
+      words:
+        - name="button1" value="" onclick="javascript:return checkfrom();" id="button1" class="loginbtn" />
+        - obj.src = "createcheckcode.aspx?id"+strmath;

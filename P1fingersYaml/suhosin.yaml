@@ -1,0 +1,14 @@
+- id: suhosin
+  name: Suhosin
+  author: Fofa
+  tags:
+    - suhosin
+  description: Suhosin
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - suhosin
+    - location: header
+      words:
+        - suhosin

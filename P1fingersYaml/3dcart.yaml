@@ -1,0 +1,30 @@
+- id: 3dcart
+  name: 3dcart
+  author: Fofa
+  tags:
+  - 3dcart
+  description: 3dcart
+  matchers:
+  - location: body
+    words:
+    - powered by 3dcart
+    condition: or
+  - location: header
+    words:
+    - 3dvisit
+    condition: or
+  - location: body
+    words:
+    - '<!--START: 3dcart stats-->'
+    condition: or
+  - location: header
+    words:
+    - 'X-Powered-By: 3DCART'
+    condition: or
+  - location: body
+    words:
+    - 'x-powered-by: 3dcart'
+    - powered by 3dcart
+  - location: body
+    words:
+    - 3dcart stats

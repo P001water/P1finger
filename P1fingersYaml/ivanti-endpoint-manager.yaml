@@ -1,0 +1,30 @@
+- id: ivanti-endpoint-manager
+  name: Ivanti Endpoint Manager
+  author: nuclei
+  tags:
+  - ivanti
+  - epm
+  - landdesk
+  description: 'Detects the presence of Ivanti Endpoint Manager (formerly LANDesk
+    Management Suite) servers.
+
+    '
+  paths:
+  - /ldlogon.dll
+  - /core/login
+  - /webaccess
+  matchers:
+  - location: body
+    words:
+    - Ivanti Endpoint Manager
+    - LANDesk Management
+    - Ivanti(R) Cloud Services
+    - Ivanti Cloud Services Appliance
+    - LANDesk(R) Cloud Services Appliance
+    - LANDesk(R) Management
+    condition: or
+  - location: header
+    words:
+    - LANDesk
+    - Ivanti EPM
+    condition: or

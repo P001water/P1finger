@@ -1,0 +1,16 @@
+- id: cnoa
+  name: Cnoa-oa
+  author: P001
+  tags:
+    - cnoa
+  description: Cnoa-oa
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - admin@cnoa.cn
+        - powered by 协众oa
+        - powered by cnoa.cn
+    - location: body
+      words:
+        - powered by cnoa.cn

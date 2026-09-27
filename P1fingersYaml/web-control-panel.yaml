@@ -1,0 +1,20 @@
+- id: panel
+  name: Web-control-panel
+  author: P001
+  tags:
+    - panel
+  description: Web-control-panel
+  matchers:
+    - location: body
+      words:
+        - <td><img src="/images/wcpe.gif
+- id: panel-2
+  name: Web Control Panel
+  author: P1finger
+  tags:
+    - panel
+  description: Web Control Panel
+  matchers:
+    - location: body
+      words:
+        - Web Control Panel Expres

@@ -1,0 +1,15 @@
+- id: yapi
+  name: Yapi
+  author: P1finger
+  tags:
+    - yapi
+  description: Yapi
+  matchers:
+    - location: body
+      words:
+        - content="yapi
+    - condition: and
+      location: body
+      words:
+        - yapi
+        - 可视化接口管理平台

@@ -1,0 +1,27 @@
+- id: solr
+  name: Solr
+  author: P1finger
+  tags:
+    - solr
+  description: Solr
+  matchers:
+    - location: body
+      words:
+        - Solr Admin
+        - SolrCore Initialization Failures
+        - app_config.solr_path
+    - condition: or
+      location: title
+      words:
+        - Solr Admin
+    - condition: or
+      location: body
+      words:
+        - SolrCore Initialization Failures
+    - condition: or
+      location: body
+      words:
+        - app_config.solr_path
+    - location: body
+      words:
+        - <title>Solr Admin</title>

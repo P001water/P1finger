@@ -1,0 +1,10 @@
+- id: storesprite
+  name: Storesprite
+  author: P1finger
+  tags:
+    - storesprite
+  description: Storesprite
+  matchers:
+    - location: body
+      words:
+        - POWERED BY storesprit

@@ -1,0 +1,10 @@
+- id: blue-iris
+  name: Blue Iris
+  author: P1finger
+  tags:
+    - blue-iris
+  description: Blue Iris
+  matchers:
+    - hash:
+        - "-520888198"
+      location: favicon

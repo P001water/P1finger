@@ -1,0 +1,10 @@
+- id: irainone-parkingsystem
+  name: Irainone-parkingsystem
+  author: P001
+  tags:
+    - irainone-parkingsystem
+  description: Irainone-parkingsystem
+  matchers:
+    - location: body
+      words:
+        - src="/static/img/allstar.png"

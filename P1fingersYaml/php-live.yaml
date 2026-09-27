@@ -1,0 +1,10 @@
+- id: php-live
+  name: PHP-Live
+  author: P1finger
+  tags:
+    - php-live
+  description: PHP-Live
+  matchers:
+    - location: body
+      words:
+        - PHP Live!

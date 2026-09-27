@@ -1,0 +1,21 @@
+- id: dedicated-micros
+  name: Dedicated-micros-device
+  author: P1finger
+  tags:
+    - dedicated-micros
+  description: Dedicated-micros-device
+  matchers:
+    - location: header
+      words:
+        - ADH-Web
+- id: dedicated-micros-2
+  name: Dedicated-Micros-Device
+  author: Fofa
+  tags:
+    - dedicated-micros
+  description: Dedicated-Micros-Device
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ADH-Web

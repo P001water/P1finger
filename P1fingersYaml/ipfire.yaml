@@ -1,0 +1,14 @@
+- id: ipfire
+  name: IPFire
+  author: Fofa
+  tags:
+    - ipfire
+  description: IPFire
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IPFire - Restricted
+    - location: header
+      words:
+        - IPFire - Restricted

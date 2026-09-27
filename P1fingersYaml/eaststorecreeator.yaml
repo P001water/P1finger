@@ -1,0 +1,14 @@
+- id: eaststorecreeator
+  name: Eaststorecreeator
+  author: Fofa
+  tags:
+    - eaststorecreeator
+  description: Eaststorecreeator
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - easystorecreator1
+    - location: header
+      words:
+        - easystorecreator1

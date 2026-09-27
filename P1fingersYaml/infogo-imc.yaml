@@ -1,0 +1,10 @@
+- id: infogo-imc
+  name: Infogo-imc
+  author: P001
+  tags:
+    - infogo-imc
+  description: Infogo-imc
+  matchers:
+    - location: body
+      words:
+        - client_check/js/global.js

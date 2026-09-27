@@ -1,0 +1,14 @@
+- id: iisexport
+  name: Iisexport
+  author: Fofa
+  tags:
+    - iisexport
+  description: Iisexport
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Iisexport
+    - location: header
+      words:
+        - Iisexport

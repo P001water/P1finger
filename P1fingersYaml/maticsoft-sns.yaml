@@ -1,0 +1,12 @@
+- id: maticsoft-sns
+  name: Maticsoft-sns
+  author: P001
+  tags:
+    - maticsoft-sns
+  description: Maticsoft-sns
+  matchers:
+    - location: body
+      words:
+        - /areas/sns/
+        - maticsoft
+        - maticsoftsns

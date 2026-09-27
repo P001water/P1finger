@@ -1,0 +1,17 @@
+- id: vmware
+  name: VMware
+  author: nuclei
+  tags:
+  - vcenter
+  - vmware
+  description: Sends a POST request containing a SOAP payload to a vCenter server
+    to obtain version information
+  matchers:
+  - location: body
+    words:
+    - ha-folder-root
+    - RetrieveServiceContentResponse
+    condition: or
+  - location: header
+    words:
+    - text/xml

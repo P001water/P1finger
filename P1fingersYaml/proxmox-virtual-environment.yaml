@@ -1,0 +1,10 @@
+- id: proxmox-virtual-environment
+  name: Proxmox Virtual Environment
+  author: P1finger
+  tags:
+    - proxmox-virtual-environment
+  description: Proxmox Virtual Environment
+  matchers:
+    - location: body
+      words:
+        - Proxmox Virtual Environment

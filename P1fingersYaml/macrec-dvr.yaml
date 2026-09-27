@@ -1,0 +1,14 @@
+- id: macrec-dvr
+  name: Macrec_DVR
+  author: Fofa
+  tags:
+    - macrec-dvr
+  description: Macrec_DVR
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Macrec DVR
+    - location: body
+      words:
+        - Macrec DVR

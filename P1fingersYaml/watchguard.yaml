@@ -1,0 +1,20 @@
+- id: watchguard
+  name: Watchguard
+  author: P1finger
+  tags:
+    - watchguard
+  description: Watchguard
+  matchers:
+    - hash:
+        - "15831193"
+      location: favicon
+- id: watchguard-2
+  name: WatchGuard-Firewall
+  author: P1finger
+  tags:
+    - watchguard
+  description: WatchGuard-Firewall
+  matchers:
+    - location: body
+      words:
+        - Fireware XTM User Authentication

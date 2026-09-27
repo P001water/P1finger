@@ -1,0 +1,21 @@
+- id: kanglefanxiangdaili
+  name: Kanglefanxiangdaili
+  author: Fofa
+  tags:
+    - kanglefanxiangdaili
+  description: Kanglefanxiangdaili
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - kangle
+    - condition: or
+      location: title
+      words:
+        - welcome use kangle
+    - location: body
+      words:
+        - welcome use kangle
+    - location: header
+      words:
+        - kangle

@@ -1,0 +1,21 @@
+- id: ioncube-php-accelerator
+  name: Ioncube-php-accelerator
+  author: P1finger
+  tags:
+    - ioncube-php-accelerator
+  description: Ioncube-php-accelerator
+  matchers:
+    - location: header
+      words:
+        - x-accelerated-by
+- id: ioncube-php-accelerator-2
+  name: IonCube-PHP-Accelerator
+  author: Fofa
+  tags:
+    - ioncube-php-accelerator
+  description: IonCube-PHP-Accelerator
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - x-accelerated-by

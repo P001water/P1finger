@@ -1,0 +1,35 @@
+- id: sjswps-oiwps
+  name: SJSWPS-OiWPS
+  author: P1finger
+  tags:
+    - sjswps-oiwps
+  description: SJSWPS-OiWPS
+  matchers:
+    - location: header
+      words:
+        - Sun-Java-System-Web-Proxy-Server
+- id: sjswps-oiwps-2
+  name: SJSWPS_ OiWPS
+  author: Fofa
+  tags:
+    - sjswps-oiwps
+  description: SJSWPS_ OiWPS
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Sun-Java-System-Web-Proxy-Server
+    - condition: or
+      location: header
+      words:
+        - Oracle-iPlanet-Proxy-Server
+- id: sjswps-oiwps-3
+  name: Sjswps_ Oiwps
+  author: P1finger
+  tags:
+    - sjswps-oiwps
+  description: Sjswps_ Oiwps
+  matchers:
+    - location: header
+      words:
+        - Oracle-iPlanet-Proxy-Server

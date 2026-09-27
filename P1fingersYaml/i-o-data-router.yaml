@@ -1,0 +1,21 @@
+- id: i-o-data-router
+  name: I-o-data-router
+  author: P1finger
+  tags:
+    - i-o-data-router
+  description: I-o-data-router
+  matchers:
+    - location: body
+      words:
+        - I-O DATA Wireless Broadband Router
+- id: i-o-data-router-2
+  name: I-O-DATA-Router
+  author: Fofa
+  tags:
+    - i-o-data-router
+  description: I-O-DATA-Router
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - I-O DATA Wireless Broadband Router

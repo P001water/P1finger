@@ -1,0 +1,11 @@
+- id: zhirui
+  name: Zhirui
+  author: P001
+  tags:
+    - zhirui
+  description: Zhirui
+  matchers:
+    - location: body
+      words:
+        - content="智睿软件
+        - zhirui.js

@@ -1,0 +1,17 @@
+- id: dreambox
+  name: Dreambox
+  author: Fofa
+  tags:
+    - dreambox
+  description: Dreambox
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - dreambox
+    - location: header
+      words:
+        - dreambox
+    - location: header
+      words:
+        - Basic realm="dreambox"

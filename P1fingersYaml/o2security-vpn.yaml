@@ -1,0 +1,14 @@
+- id: o2security
+  name: O2security_vpn
+  author: P1finger
+  tags:
+    - o2security
+  description: O2security_vpn
+  matchers:
+    - location: header
+      words:
+        - client_param=install_active
+    - condition: and
+      location: header
+      words:
+        - client_param=install_active

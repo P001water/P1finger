@@ -1,0 +1,11 @@
+- id: tenda-route
+  name: Tenda-Route
+  author: P001
+  tags:
+  - tenda
+  - tenda-route
+  description: Tenda-Route
+  matchers:
+  - location: body
+    words:
+    - <title>Tenda

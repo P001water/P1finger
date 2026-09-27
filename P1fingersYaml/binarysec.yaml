@@ -1,0 +1,14 @@
+- id: binarysec-3
+  name: BinarySec
+  author: Fofa
+  tags:
+    - binarysec
+  description: BinarySec
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Binarysec-Via
+    - location: header
+      words:
+        - X-Binarysec-Via

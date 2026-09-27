@@ -1,0 +1,11 @@
+- id: byzoro-2
+  name: Byzoro Smart
+  author: P1finger
+  tags:
+    - byzoro
+  description: Byzoro Smart
+  matchers:
+    - location: body
+      words:
+        - smart s150&nbsp;系统登录
+        - smart--管理平台

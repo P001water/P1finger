@@ -1,0 +1,14 @@
+- id: phpb2b
+  name: Phpb2b
+  author: P1finger
+  tags:
+    - phpb2b
+  description: Phpb2b
+  matchers:
+    - location: body
+      words:
+        - Powered By PHPB2B
+    - condition: and
+      location: body
+      words:
+        - Powered By PHPB2B

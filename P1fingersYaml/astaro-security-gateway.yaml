@@ -1,0 +1,34 @@
+- id: astaro
+  name: Astaro-security-gateway
+  author: P1finger
+  tags:
+    - astaro
+  description: Astaro-security-gateway
+  matchers:
+    - location: body
+      words:
+        - wfe/asg/js/app_selector.js?t=
+        - /doc/astaro-license.txt
+        - /js/_variables_from_backend.js?t=
+    - location: body
+      words:
+        - astaro security gateway
+- id: astaro-2
+  name: Astaro-Security-Gateway
+  author: Fofa
+  tags:
+    - astaro
+  description: Astaro-Security-Gateway
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - wfe/asg/js/app_selector.js?t=
+    - condition: or
+      location: body
+      words:
+        - /doc/astaro-license.txt
+    - condition: or
+      location: body
+      words:
+        - /js/_variables_from_backend.js?t=

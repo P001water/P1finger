@@ -1,0 +1,215 @@
+- id: hefeiyiyongxinxikejiyouxiangongsicrm
+  name: Hefeiyiyongxinxikejiyouxiangongsicrm System
+  author: P001
+  tags:
+    - hefeiyiyongxinxikejiyouxiangongsicrm
+    - system
+  description: Hefeiyiyongxinxikejiyouxiangongsicrm System
+  matchers:
+    - hash:
+        - 2e7ead236832180553dab45ba77db6b7
+      location: favicon
+- id: renwoxing
+  name: Renwoxing
+  author: P001
+  tags:
+    - renwoxing
+  description: Renwoxing
+  matchers:
+    - location: body
+      words:
+        - crm_lastloginuserkey
+- id: dandiancrm
+  name: DandianCRM
+  author: P1finger
+  tags:
+    - dandiancrm
+  description: DandianCRM
+  matchers:
+    - location: body
+      words:
+        - 单点CRM系统
+- id: dandiancrm-system
+  name: DandianCRM System
+  author: Fofa
+  tags:
+    - dandiancrm
+    - system
+  description: DandianCRM System
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - URL=general/ERP/LOGIN/
+    - condition: or
+      location: body
+      words:
+        - content="单点CRM系统
+    - condition: or
+      location: title
+      words:
+        - ="客户关系管理-CRM
+    - location: body
+      words:
+        - URL=general/ERP/LOGIN/
+        - content="单点CRM系统
+        - 客户关系管理-CRM
+    - location: body
+      words:
+        - content="单点CRM系统
+- id: fenxiangxiaokecrm
+  name: FenxiangxiaokeCRM
+  author: P1finger
+  tags:
+    - fenxiangxiaokecrm
+  description: FenxiangxiaokeCRM
+  matchers:
+    - location: body
+      words:
+        - //www.fxiaoke.com/ap/reg/
+        - CRM登录系统 - 纷享销客CRM
+- id: fenglingcrm-system
+  name: FenglingCRM System
+  author: P1finger
+  tags:
+    - fenglingcrm
+    - system
+  description: FenglingCRM System
+  matchers:
+    - location: body
+      words:
+        - Lemur 开源,Easypoi 代码 文档,代码生成器,开发框架 ,Lemur Gen
+- id: fumengyuncrm
+  name: FumengyunCRM
+  author: P1finger
+  tags:
+    - fumengyuncrm
+  description: FumengyunCRM
+  matchers:
+    - hash:
+        - "1533124028"
+      location: favicon
+- id: mingyuancrm
+  name: MingyuanCRM
+  author: P1finger
+  tags:
+    - mingyuancrm
+  description: MingyuanCRM
+  matchers:
+    - location: body
+      words:
+        - 明源售楼管理系统
+- id: pengwei
+  name: Pengwei
+  author: P1finger
+  tags:
+    - pengwei
+  description: Pengwei
+  matchers:
+    - location: body
+      words:
+        - 鹏为E4
+- id: renwoxing-2
+  name: Renwoxing
+  author: Fofa
+  tags:
+    - renwoxing
+  description: Renwoxing
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 任我行CRM
+    - condition: or
+      location: body
+      words:
+        - CRM_LASTLOGINUSERKEY
+    - location: body
+      words:
+        - 任我行CRM
+        - CRM_LASTLOGINUSERKEY
+    - location: body
+      words:
+        - /resources/imgs/defaultannex/loginpictures/
+        - 欢迎使用任我行crm
+- id: ruiceruanjiancrm
+  name: RuiceruanjianCRM CRM
+  author: P1finger
+  tags:
+    - ruiceruanjiancrm
+    - crm
+  description: RuiceruanjianCRM CRM
+  matchers:
+    - location: body
+      words:
+        - CRM客户关系管理系统
+        - 瑞策软件
+- id: shenzhouyundongcrm-system
+  name: ShenzhouyundongCRM System
+  author: P1finger
+  tags:
+    - shenzhouyundongcrm
+    - system
+  description: ShenzhouyundongCRM System
+  matchers:
+    - location: body
+      words:
+        - <META name="description" content="CloudCC.com
+- id: uligecrm-management-system
+  name: UligeCRM Management System
+  author: P1finger
+  tags:
+    - uligecrm
+    - management-system
+  description: UligeCRM Management System
+  matchers:
+    - location: body
+      words:
+        - U丽格CRM管理系统
+- id: wukongcrm
+  name: WukongCRM
+  author: Fofa
+  tags:
+    - wukongcrm
+  description: WukongCRM
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 悟空CRM
+    - condition: or
+      location: body
+      words:
+        - /Public/js/5kcrm.js
+    - location: body
+      words:
+        - 悟空CRM
+        - /Public/js/5kcrm.js
+    - location: body
+      words:
+        - 悟空CRM
+        - <div class="row-fluid wukong">
+    - hash:
+        - "872805507"
+      location: favicon
+- id: yichengyiyuancrm-system
+  name: YichengyiyuanCRM System
+  author: P1finger
+  tags:
+    - yichengyiyuancrm
+    - system
+  description: YichengyiyuanCRM System
+  matchers:
+    - location: body
+      words:
+        - 怡成CRM系统
+- id: yikecrm
+  name: YikeCRM
+  author: P1finger
+  tags:
+    - yikecrm
+  description: YikeCRM
+  matchers:
+    - location: body
+      words:
+        - <a href='http://www.c3crm.com' target='_blank' class='crm-foot-url'>

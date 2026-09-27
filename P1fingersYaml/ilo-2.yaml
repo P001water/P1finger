@@ -1,0 +1,18 @@
+- id: ilo-2
+  name: HP iLO
+  author: nuclei
+  tags:
+  - hp
+  - ilo
+  description: Version of HP iLO
+  paths:
+  - /xmldata?item=all
+  matchers:
+  - location: header
+    words:
+    - text/xml
+  - location: body
+    words:
+    - <RIMP>
+    - <HSI>
+    condition: and

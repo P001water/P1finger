@@ -1,0 +1,10 @@
+- id: livebos
+  name: LiveBOS
+  author: P1finger
+  tags:
+    - livebos
+  description: LiveBOS
+  matchers:
+    - location: body
+      words:
+        - Power by LiveBOS

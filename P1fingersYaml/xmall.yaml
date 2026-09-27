@@ -1,0 +1,22 @@
+- id: xmall
+  name: Xmall
+  author: P001
+  tags:
+    - xmall
+  description: Xmall
+  matchers:
+    - location: body
+      words:
+        - xmadmin.exirck.cn
+- id: xmallhoutai-management-system
+  name: XMallhoutai Management System
+  author: P1finger
+  tags:
+    - xmallhoutai
+    - management-system
+  description: XMallhoutai Management System
+  matchers:
+    - location: body
+      words:
+        - <span class="title">后台管理系统</span>
+        - Hotjar Tracking Code for http://xmadmin.exirck.cn

@@ -1,0 +1,11 @@
+- id: sympa-mailing-list
+  name: Sympa-mailing-list-server
+  author: P001
+  tags:
+    - sympa-mailing-list
+  description: Sympa-mailing-list-server
+  matchers:
+    - location: body
+      words:
+        - alt="sympa logo
+        - content="sympa

@@ -1,0 +1,10 @@
+- id: bluehost
+  name: Bluehost
+  author: P1finger
+  tags:
+    - bluehost
+  description: Bluehost
+  matchers:
+    - hash:
+        - "-1119613926"
+      location: favicon

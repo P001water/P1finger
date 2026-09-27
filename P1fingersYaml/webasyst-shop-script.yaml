@@ -1,0 +1,14 @@
+- id: webasyst-shop-script
+  name: Webasyst-shop-script
+  author: P001
+  tags:
+    - webasyst-shop-script
+  description: Webasyst-shop-script
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.shop-script.com
+        - 'powered by webasyst shop-script <a href="http://www.shop-script.com/" style="font-weight: normal">shopping cart software</a>'
+    - location: body
+      words:
+        - powered by Shop-Script

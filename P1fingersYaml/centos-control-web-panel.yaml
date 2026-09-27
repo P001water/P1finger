@@ -1,0 +1,10 @@
+- id: centos-panel
+  name: CentOS Control Web Panel
+  author: P1finger
+  tags:
+    - centos-panel
+  description: CentOS Control Web Panel
+  matchers:
+    - location: body
+      words:
+        - CentOS WebPanel

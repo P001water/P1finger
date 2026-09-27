@@ -1,0 +1,12 @@
+- id: adobe-flex
+  name: Adobe-flex
+  author: P001
+  tags:
+  - adobe
+  - adobe-flex
+  description: Adobe-flex
+  matchers:
+  - location: body
+    words:
+    - adobe flex
+    - learn more about flex at http://flex.org

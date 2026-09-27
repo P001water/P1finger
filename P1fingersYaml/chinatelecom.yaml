@@ -1,0 +1,10 @@
+- id: chinatelecomqizhitongshangwangxingweiguanli
+  name: Chinatelecomqizhitongshangwangxingweiguanli
+  author: P1finger
+  tags:
+    - chinatelecomqizhitongshangwangxingweiguanli
+  description: Chinatelecomqizhitongshangwangxingweiguanli
+  matchers:
+    - location: body
+      words:
+        - 企智通登录页面

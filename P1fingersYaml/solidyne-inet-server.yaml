@@ -1,0 +1,11 @@
+- id: solidyne-inet
+  name: Solidyne-inet-server
+  author: P001
+  tags:
+    - solidyne-inet
+  description: Solidyne-inet-server
+  matchers:
+    - location: body
+      words:
+        - <frame name="frleft" scrolling="no" id="frleft" src="qfrleft.aspx">
+        - <meta http-equiv="refresh" content="0; url=/hmi/">

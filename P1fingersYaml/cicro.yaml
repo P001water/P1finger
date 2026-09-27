@@ -1,0 +1,14 @@
+- id: cicro
+  name: Cicro
+  author: P001
+  tags:
+    - cicro
+  description: Cicro
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - cicro
+        - content="cicro
+        - cws
+        - index.files/cicro_userdefine.css

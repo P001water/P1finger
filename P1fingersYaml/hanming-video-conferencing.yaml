@@ -1,0 +1,11 @@
+- id: hanming-conferencing
+  name: Hanming-video-conferencing
+  author: P001
+  tags:
+    - hanming-conferencing
+  description: Hanming-video-conferencing
+  matchers:
+    - location: body
+      words:
+        - /resources/fmweb/other/js/login.js
+        - class="win_introduce

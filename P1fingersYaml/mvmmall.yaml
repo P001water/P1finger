@@ -1,0 +1,21 @@
+- id: mvmmall
+  name: MvMmall
+  author: Fofa
+  tags:
+    - mvmmall
+  description: MvMmall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="MvMmall
+    - location: body
+      words:
+        - content="MvMmall
+    - location: body
+      words:
+        - content="mvmmall
+        - content="www.mvmmall.cn"
+    - location: body
+      words:
+        - <meta name="Copyright" content="www.mvmmall.cn" />

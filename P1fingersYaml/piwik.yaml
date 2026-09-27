@@ -1,0 +1,22 @@
+- id: piwik
+  name: Piwik
+  author: Fofa
+  tags:
+    - piwik
+  description: Piwik
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'PIWIK_SESSID '
+    - condition: and
+      location: body
+      words:
+        - index.php?module=Proxy")
+    - location: body
+      words:
+        - Piwik
+        - index.php?module=Proxy
+    - location: header
+      words:
+        - 'PIWIK_SESSID '

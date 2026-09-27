@@ -1,0 +1,10 @@
+- id: vivotek
+  name: Vivotek
+  author: P1finger
+  tags:
+    - vivotek
+  description: Vivotek
+  matchers:
+    - hash:
+        - "-1654229048"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: xcyg
+  name: Xcyg-system
+  author: P001
+  tags:
+    - xcyg
+  description: Xcyg-system
+  matchers:
+    - location: body
+      words:
+        - '>digital anywhere platform</h2>'

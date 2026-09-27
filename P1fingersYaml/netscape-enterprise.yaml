@@ -1,0 +1,21 @@
+- id: netscape
+  name: Netscape-enterprise
+  author: P1finger
+  tags:
+    - netscape
+  description: Netscape-enterprise
+  matchers:
+    - location: header
+      words:
+        - Netscape-Enterprise
+- id: netscape-2
+  name: Netscape-Enterprise
+  author: Fofa
+  tags:
+    - netscape
+  description: Netscape-Enterprise
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Netscape-Enterprise

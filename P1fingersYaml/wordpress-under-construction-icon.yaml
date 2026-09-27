@@ -1,0 +1,11 @@
+- id: wordpress-under-construction-icon
+  name: Wordpress Under Construction Icon
+  author: P1finger
+  tags:
+  - wordpress
+  - wordpress-under-construction-icon
+  description: Wordpress Under Construction Icon
+  matchers:
+  - hash:
+    - '191654058'
+    location: favicon

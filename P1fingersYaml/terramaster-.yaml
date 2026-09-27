@@ -1,0 +1,22 @@
+- id: terramasterguanli-system
+  name: TerraMasterguanli System
+  author: P1finger
+  tags:
+    - terramasterguanli
+    - system
+  description: TerraMasterguanli System
+  matchers:
+    - location: body
+      words:
+        - TerraMaster 系统管理
+- id: terramastercunchu-system
+  name: TerraMastercunchu System
+  author: P1finger
+  tags:
+    - terramastercunchu
+    - system
+  description: TerraMastercunchu System
+  matchers:
+    - location: body
+      words:
+        - TerraMaster 系统管理

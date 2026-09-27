@@ -1,0 +1,12 @@
+- id: kingdee-eas
+  name: Kingdee-EAS
+  author: P1finger
+  tags:
+  - kingdee
+  - kingdee-eas
+  description: Kingdee-EAS
+  matchers:
+  - location: body
+    words:
+    - 金蝶
+    - eas系统登录

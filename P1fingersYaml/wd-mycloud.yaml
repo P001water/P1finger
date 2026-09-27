@@ -1,0 +1,10 @@
+- id: wd-mycloud
+  name: WD MyCloud
+  author: P1finger
+  tags:
+    - wd-mycloud
+  description: WD MyCloud
+  matchers:
+    - location: body
+      words:
+        - WDMyCloud

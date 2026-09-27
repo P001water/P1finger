@@ -1,0 +1,32 @@
+- id: qingyuanyouruanurp
+  name: QingyuanyouruanURP Academic Affairs System
+  author: P1finger
+  tags:
+    - qingyuanyouruanurp
+    - academic-affairs-system
+  description: QingyuanyouruanURP Academic Affairs System
+  matchers:
+    - location: body
+      words:
+        - URP综合教务系统
+        - 北京清元优软科技有限公司
+- id: urp-academic-affairs-system
+  name: URP Academic Affairs System
+  author: Fofa
+  tags:
+    - urp
+    - academic-affairs-system
+  description: URP Academic Affairs System
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - URP 综合教务系统
+    - condition: or
+      location: body
+      words:
+        - 北京清元优软科技有限公司
+    - location: body
+      words:
+        - URP 综合教务系统
+        - 北京清元优软科技有限公司

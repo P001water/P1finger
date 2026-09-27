@@ -1,0 +1,21 @@
+- id: inktomi-search
+  name: Inktomi-search
+  author: P1finger
+  tags:
+    - inktomi-search
+  description: Inktomi-search
+  matchers:
+    - location: header
+      words:
+        - Inktomi Search
+- id: inktomi-search-2
+  name: Inktomi-Search
+  author: Fofa
+  tags:
+    - inktomi-search
+  description: Inktomi-Search
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Inktomi Search

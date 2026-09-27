@@ -1,0 +1,10 @@
+- id: firefly-iii
+  name: Firefly-III
+  author: P1finger
+  tags:
+    - firefly-iii
+  description: Firefly-III
+  matchers:
+    - location: body
+      words:
+        - <meta name="application-name" content="Firefly III">

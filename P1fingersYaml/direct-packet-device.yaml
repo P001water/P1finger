@@ -1,0 +1,21 @@
+- id: direct-packet
+  name: Direct-packet-device
+  author: P1finger
+  tags:
+    - direct-packet
+  description: Direct-packet-device
+  matchers:
+    - location: header
+      words:
+        - DPWebServer
+- id: direct-packet-2
+  name: Direct-Packet-Device
+  author: Fofa
+  tags:
+    - direct-packet
+  description: Direct-Packet-Device
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - DPWebServer

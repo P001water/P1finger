@@ -1,0 +1,10 @@
+- id: react
+  name: React
+  author: P1finger
+  tags:
+    - react
+  description: React
+  matchers:
+    - hash:
+        - "-2009722838"
+      location: favicon

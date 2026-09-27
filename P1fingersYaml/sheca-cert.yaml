@@ -1,0 +1,11 @@
+- id: sheca-cert
+  name: Sheca-cert
+  author: P001
+  tags:
+    - sheca-cert
+  description: Sheca-cert
+  matchers:
+    - location: body
+      words:
+        - <li class="in" id="cert_li">
+        - 'content: "获取一证通信息异常。请检查数字证书是否正常运行'

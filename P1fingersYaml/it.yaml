@@ -1,0 +1,74 @@
+- id: beimingyunzhiityunwei-platform
+  name: BeimingyunzhiITyunwei Platform
+  author: P1finger
+  tags:
+    - beimingyunzhiityunwei
+    - platform
+  description: BeimingyunzhiITyunwei Platform
+  matchers:
+    - location: body
+      words:
+        - <title>北明IT运维平台</title>
+- id: leagsoft-operation-management
+  name: Leagsoft Operation Management
+  author: P001
+  tags:
+    - leagsoft
+    - operation-management
+  description: Leagsoft Operation Management
+  matchers:
+    - location: body
+      words:
+        - 联软it安全运维管理系统
+- id: itneikongbaoleizhuji
+  name: ITneikongbaoleizhuji
+  author: P1finger
+  tags:
+    - itneikongbaoleizhuji
+  description: ITneikongbaoleizhuji
+  matchers:
+    - location: body
+      words:
+        - IT内控堡垒主机
+    - location: body
+      words:
+        - it内控堡垒主机
+- id: leagsoft-operation-management-2
+  name: Leagsoft Operation Management
+  author: P1finger
+  tags:
+    - leagsoft
+    - operation-management
+  description: Leagsoft Operation Management
+  matchers:
+    - location: body
+      words:
+        - '::联软IT安全运维管理系统::'
+    - location: body
+      words:
+        - 联软it安全运维管理系统
+- id: leagsoft-operation-management-3
+  name: Leagsoft Operation Management
+  author: P001
+  tags:
+    - leagsoft
+    - operation-management
+  description: Leagsoft Operation Management
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - action="/manager/logincontroller.htm?act=login
+        - 联软it安全运维管理系统
+- id: wangqiangitzonghe
+  name: Wangqiangitzonghe Management System
+  author: P1finger
+  tags:
+    - wangqiangitzonghe
+    - management-system
+  description: Wangqiangitzonghe Management System
+  matchers:
+    - location: body
+      words:
+        - 网强it综合管理系统
+        - netstrong

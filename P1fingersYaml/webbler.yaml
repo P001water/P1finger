@@ -1,0 +1,10 @@
+- id: webbler
+  name: Webbler
+  author: P1finger
+  tags:
+    - webbler
+  description: Webbler
+  matchers:
+    - location: header
+      words:
+        - WebblerSession

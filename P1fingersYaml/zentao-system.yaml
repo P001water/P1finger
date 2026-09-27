@@ -1,0 +1,16 @@
+- id: zentaochandaoxiangmuguanliruanjian
+  name: ZenTaochandaoxiangmuguanliruanjian
+  author: P001
+  tags:
+    - zentaochandaoxiangmuguanliruanjian
+  description: ZenTaochandaoxiangmuguanliruanjian
+  matchers:
+    - hash:
+        - b1d3deb4bd16c8c1637235515deea114
+      location: favicon
+    - condition: or
+      location: body
+      words:
+        - href='/zentao/favicon.ico
+        - <title>Login - ZenTao</title>
+        - zentaosid

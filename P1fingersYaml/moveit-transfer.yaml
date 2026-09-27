@@ -1,0 +1,18 @@
+- id: moveit-transfer
+  name: Moveit File Transfer
+  author: nuclei
+  tags:
+  - progress
+  - moveit_transfer
+  - moveit
+  description: Moveit File Transfer
+  paths:
+  - /human.aspx
+  matchers:
+  - location: body
+    words:
+    - stylesheet_MOVEit
+    - moveit.transfer
+    - MOVEitPopUp
+    - MOVEit Automation
+    condition: or

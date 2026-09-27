@@ -1,0 +1,31 @@
+- id: scada-plc
+  name: SCADA PLC
+  author: Fofa
+  tags:
+    - scada-plc
+  description: SCADA PLC
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /images/rockcolor.gif
+    - condition: or
+      location: body
+      words:
+        - /ralogo.gif
+    - condition: or
+      location: body
+      words:
+        - Ethernet Processor
+- id: scada-plc-2
+  name: Scada Plc
+  author: P1finger
+  tags:
+    - scada-plc
+  description: Scada Plc
+  matchers:
+    - location: body
+      words:
+        - /images/rockcolor.gif
+        - /ralogo.gif
+        - Ethernet Processor

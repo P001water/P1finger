@@ -1,0 +1,10 @@
+- id: smartthumbs
+  name: Smartthumbs
+  author: P001
+  tags:
+    - smartthumbs
+  description: Smartthumbs
+  matchers:
+    - location: body
+      words:
+        - powered by<a href="http://www.smart-scripts.com">smart thumbs</a>

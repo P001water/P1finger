@@ -1,0 +1,21 @@
+- id: poscms
+  name: Poscms
+  author: P1finger
+  tags:
+    - poscms
+  description: Poscms
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: poscms_ci_session='
+- id: poscmsphpkaiyuancms
+  name: POSCMSPHPkaiyuanCMS CMS
+  author: P1finger
+  tags:
+    - poscmsphpkaiyuancms
+    - cms
+  description: POSCMSPHPkaiyuanCMS CMS
+  matchers:
+    - location: body
+      words:
+        - POSCMS - PHP开源CMS网站管理系统

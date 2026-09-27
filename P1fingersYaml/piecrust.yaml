@@ -1,0 +1,10 @@
+- id: piecrust
+  name: PieCrust
+  author: P1finger
+  tags:
+    - piecrust
+  description: PieCrust
+  matchers:
+    - location: body
+      words:
+        - content="PieCrust

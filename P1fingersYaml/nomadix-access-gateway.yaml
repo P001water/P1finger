@@ -1,0 +1,10 @@
+- id: nomadix-access
+  name: Nomadix Access Gateway
+  author: P1finger
+  tags:
+    - nomadix-access
+  description: Nomadix Access Gateway
+  matchers:
+    - hash:
+        - "2071993228"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: whatweb
+  name: Whatweb
+  author: P001
+  tags:
+    - whatweb
+  description: Whatweb
+  matchers:
+    - location: body
+      words:
+        - <body><center><table border=0><tr align=center><td><font color=red size=5>troy serial server</font></td></tr>
+        - network card access password&#058; </b><input location=password size=16 maxlength=16 name=access_psw>

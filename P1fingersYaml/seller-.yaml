@@ -1,0 +1,10 @@
+- id: sellershiziyuguanlihoutai
+  name: Sellershiziyuguanlihoutai
+  author: P001
+  tags:
+    - sellershiziyuguanlihoutai
+  description: Sellershiziyuguanlihoutai
+  matchers:
+    - location: body
+      words:
+        - seller.php?s=/public/login

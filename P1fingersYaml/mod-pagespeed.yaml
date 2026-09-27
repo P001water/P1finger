@@ -1,0 +1,14 @@
+- id: mod-pagespeed
+  name: Mod_pagespeed
+  author: Fofa
+  tags:
+    - mod-pagespeed
+  description: Mod_pagespeed
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_pagespeed
+    - location: header
+      words:
+        - mod_pagespeed

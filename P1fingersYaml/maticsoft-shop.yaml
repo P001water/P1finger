@@ -1,0 +1,11 @@
+- id: maticsoftshopshangcheng
+  name: MaticsoftShopshangcheng
+  author: P1finger
+  tags:
+    - maticsoftshopshangcheng
+  description: MaticsoftShopshangcheng
+  matchers:
+    - location: body
+      words:
+        - /Maticsoft.
+        - $Maticsoft.

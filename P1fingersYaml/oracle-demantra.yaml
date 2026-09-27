@@ -1,0 +1,11 @@
+- id: oracle-demantra
+  name: Oracle Demantra
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-demantra
+  description: Oracle Demantra
+  matchers:
+  - location: body
+    words:
+    - Oracle Demantra

@@ -1,0 +1,21 @@
+- id: baizhuosmart
+  name: BaizhuoSmart
+  author: P1finger
+  tags:
+    - baizhuosmart
+  description: BaizhuoSmart
+  matchers:
+    - location: body
+      words:
+        - Smart管理平台
+- id: smartcmswangzhanv10
+  name: SmartCMSwangzhanV10 CMS
+  author: P1finger
+  tags:
+    - smartcmswangzhanv10
+    - cms
+  description: SmartCMSwangzhanV10 CMS
+  matchers:
+    - location: body
+      words:
+        - Smart@CMS 网站内容管理系统 V1.0

@@ -1,0 +1,10 @@
+- id: aws-ec2
+  name: Aws-ec2
+  author: P001
+  tags:
+    - aws-ec2
+  description: Aws-ec2
+  matchers:
+    - location: body
+      words:
+        - welcome to nginx on amazon ec2!

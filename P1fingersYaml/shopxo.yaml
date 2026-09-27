@@ -1,0 +1,13 @@
+- id: shopxo
+  name: Shopxo
+  author: P001
+  tags:
+    - shopxo
+  description: Shopxo
+  matchers:
+    - hash:
+        - 6774ad0b380e1ffeee4e380352e51f15
+      location: favicon
+    - location: body
+      words:
+        - ShopXO

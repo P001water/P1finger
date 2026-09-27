@@ -1,0 +1,10 @@
+- id: vs-panel
+  name: VS-Panel
+  author: P1finger
+  tags:
+    - vs-panel
+  description: VS-Panel
+  matchers:
+    - location: body
+      words:
+        - <!--VSpanel Translation-->

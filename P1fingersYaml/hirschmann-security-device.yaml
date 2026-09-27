@@ -1,0 +1,10 @@
+- id: hirschmann
+  name: Hirschmann Security Device
+  author: P1finger
+  tags:
+    - hirschmann
+  description: Hirschmann Security Device
+  matchers:
+    - location: body
+      words:
+        - hirschmann eagle security device

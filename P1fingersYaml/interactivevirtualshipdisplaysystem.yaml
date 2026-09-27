@@ -1,0 +1,10 @@
+- id: interactivevirtualshipdisplaysystem
+  name: Interactivevirtualshipdisplaysystem
+  author: P001
+  tags:
+    - interactivevirtualshipdisplaysystem
+  description: Interactivevirtualshipdisplaysystem
+  matchers:
+    - location: body
+      words:
+        - 交互式虚拟船舶展示系统</a>

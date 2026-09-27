@@ -1,0 +1,10 @@
+- id: tilginab
+  name: Tilginab
+  author: P1finger
+  tags:
+    - tilginab
+  description: Tilginab
+  matchers:
+    - hash:
+        - "-1346447358"
+      location: favicon

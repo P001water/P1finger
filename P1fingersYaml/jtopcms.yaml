@@ -1,0 +1,10 @@
+- id: jtopcms
+  name: JTopCMS
+  author: P1finger
+  tags:
+    - jtopcms
+  description: JTopCMS
+  matchers:
+    - location: body
+      words:
+        - JTopCMS

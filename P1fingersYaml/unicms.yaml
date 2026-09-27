@@ -1,0 +1,11 @@
+- id: unicmsziguangxinhua
+  name: UniCMSziguangxinhua CMS
+  author: P1finger
+  tags:
+    - unicmsziguangxinhua
+    - cms
+  description: UniCMSziguangxinhua CMS
+  matchers:
+    - location: body
+      words:
+        - UniCMS紫光新华内容管理系统

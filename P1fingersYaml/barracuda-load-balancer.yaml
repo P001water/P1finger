@@ -1,0 +1,21 @@
+- id: barracuda-load-balancer
+  name: Barracuda-load-balancer
+  author: P1finger
+  tags:
+    - barracuda-load-balancer
+  description: Barracuda-load-balancer
+  matchers:
+    - location: header
+      words:
+        - BARRACUDA_LB_COOKIE
+- id: barracuda-load-balancer-2
+  name: Barracuda-Load-Balancer
+  author: Fofa
+  tags:
+    - barracuda-load-balancer
+  description: Barracuda-Load-Balancer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - BARRACUDA_LB_COOKIE

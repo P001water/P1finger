@@ -1,0 +1,15 @@
+- id: tcexam
+  name: Tcexam
+  author: P001
+  tags:
+    - tcexam
+  description: Tcexam
+  matchers:
+    - location: body
+      words:
+        - <a name="topofdoc" id="topofdoc"></a>
+        - content="nicola asuni - tecnick.com s.r.l." />
+    - location: body
+      words:
+        - content="TCExam
+        - http://www.tcexam.org

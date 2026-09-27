@@ -1,0 +1,14 @@
+- id: fedora
+  name: Fedora
+  author: Fofa
+  tags:
+    - fedora
+  description: Fedora
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Fedora
+    - location: header
+      words:
+        - Fedora

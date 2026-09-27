@@ -1,0 +1,10 @@
+- id: sidithinkive
+  name: Sidithinkive
+  author: P1finger
+  tags:
+    - sidithinkive
+  description: Sidithinkive
+  matchers:
+    - location: body
+      words:
+        - thinkiveJs.min.js

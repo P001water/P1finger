@@ -1,0 +1,26 @@
+- id: phpdisk
+  name: Phpdisk
+  author: P1finger
+  tags:
+    - phpdisk
+  description: Phpdisk
+  matchers:
+    - location: body
+      words:
+        - Powered by PHPDisk
+        - content="PHPDisk
+    - condition: or
+      location: body
+      words:
+        - Powered by PHPDisk
+    - condition: or
+      location: body
+      words:
+        - content="PHPDisk
+    - location: body
+      words:
+        - content="phpdisk
+        - powered by phpdisk
+    - location: body
+      words:
+        - Powered by PHPDisk Team

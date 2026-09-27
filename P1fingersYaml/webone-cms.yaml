@@ -1,0 +1,10 @@
+- id: webone
+  name: Webone Cms
+  author: P1finger
+  tags:
+    - webone
+  description: Webone Cms
+  matchers:
+    - location: body
+      words:
+        - Webone

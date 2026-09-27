@@ -1,0 +1,11 @@
+- id: metacrm6
+  name: MetaCRM6 CRM
+  author: P1finger
+  tags:
+    - metacrm6
+    - crm
+  description: MetaCRM6 CRM
+  matchers:
+    - location: body
+      words:
+        - MetaCRM6客户关系管理系统

@@ -1,0 +1,10 @@
+- id: ocportal
+  name: OcPortal
+  author: P1finger
+  tags:
+    - ocportal
+  description: OcPortal
+  matchers:
+    - location: body
+      words:
+        - Powered by ocPortal

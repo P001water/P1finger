@@ -1,0 +1,24 @@
+- id: sucuri
+  name: Sucuri
+  author: Fofa
+  tags:
+    - sucuri
+  description: Sucuri
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Sucuri/Cloudproxy
+    - location: header
+      words:
+        - Sucuri/Cloudproxy
+    - location: body
+      words:
+        - cloudproxy@sucuri.net
+        - sucuri website firewall - cloudproxy - access denied
+    - location: body
+      words:
+        - cloudproxy@sucuri.net
+    - location: header
+      words:
+        - x-sucuri-id

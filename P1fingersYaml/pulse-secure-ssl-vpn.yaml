@@ -1,0 +1,18 @@
+- id: pulse-secure-ssl
+  name: Pulse Secure SSL VPN
+  author: P1finger
+  tags:
+  - pulse
+  - pulse-secure-ssl
+  description: Pulse Secure SSL VPN
+  matchers:
+  - location: body
+    words:
+    - Pulse Connect Secure
+    - /dana-na/auth
+  - location: header
+    words:
+    - dana-na/auth
+  - location: body
+    words:
+    - <b>pulse connect secure</b>

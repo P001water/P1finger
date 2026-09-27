@@ -1,0 +1,10 @@
+- id: netbox
+  name: Netbox
+  author: P001
+  tags:
+    - netbox
+  description: Netbox
+  matchers:
+    - location: body
+      words:
+        - 'server: netbox'

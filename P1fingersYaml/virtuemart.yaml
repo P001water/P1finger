@@ -1,0 +1,10 @@
+- id: virtuemart
+  name: VirtueMart
+  author: P1finger
+  tags:
+    - virtuemart
+  description: VirtueMart
+  matchers:
+    - location: header
+      words:
+        - virtuemart

@@ -1,0 +1,19 @@
+- id: ivanti-xtraction
+  name: Ivanti Xtraction
+  author: nuclei
+  tags:
+  - ivanti
+  - xtraction
+  description: 'Detects Ivanti Xtraction, a reporting and dashboard platform used
+    with Ivanti products.
+
+    '
+  paths:
+  - /xtraction
+  matchers:
+  - location: body
+    words:
+    - <title>Xtraction</title>
+    - application-name" content="Xtraction
+    - dev-extreme-ivanti.css
+    condition: and

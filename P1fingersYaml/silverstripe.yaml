@@ -1,0 +1,21 @@
+- id: silverstripe
+  name: SilverStripe
+  author: Fofa
+  tags:
+    - silverstripe
+  description: SilverStripe
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="SilverStripe
+    - location: body
+      words:
+        - content="SilverStripe
+    - location: body
+      words:
+        - content="silverstripe/
+        - framework/javascript/htmleditorfield.js
+    - location: body
+      words:
+        - <meta name="generator" content="SilverStripe

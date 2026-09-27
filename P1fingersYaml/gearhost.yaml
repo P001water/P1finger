@@ -1,0 +1,14 @@
+- id: gearhost
+  name: GearHost
+  author: Fofa
+  tags:
+    - gearhost
+  description: GearHost
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - GearHost
+    - location: header
+      words:
+        - GearHost

@@ -1,0 +1,30 @@
+- id: winwebmail
+  name: Winwebmail
+  author: P1finger
+  tags:
+    - winwebmail
+  description: Winwebmail
+  matchers:
+    - location: body
+      words:
+        - winwebmail
+        - images/owin.css
+    - condition: or
+      location: title
+      words:
+        - winwebmail
+    - condition: or
+      location: body
+      words:
+        - WinWebMail Server
+    - condition: or
+      location: body
+      words:
+        - images/owin.css
+    - location: body
+      words:
+        - <td class=newsdiv-mid2>邮局管理员可自行分配邮箱！</td>
+        - href="images\hwem.css"
+        - images/owin.css
+        - location="hidden" name="secex"
+        - winwebmail server

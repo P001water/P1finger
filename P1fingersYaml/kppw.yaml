@@ -1,0 +1,11 @@
+- id: kppw
+  name: Kppw
+  author: P1finger
+  tags:
+    - kppw
+  description: Kppw
+  matchers:
+    - location: body
+      words:
+        - powered by kppw
+        - http://www.kppw.cn/

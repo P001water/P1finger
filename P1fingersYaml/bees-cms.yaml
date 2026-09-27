@@ -1,0 +1,16 @@
+- id: bees
+  name: Bees_cms
+  author: P001
+  tags:
+    - bees
+  description: Bees_cms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - beescms
+        - template/default/images/slides.min.jquery.js
+        - /default/images/search_btn.gif
+        - /default/images/xslider.js
+        - mx_form/mx_form.php
+        - powerd by beescms

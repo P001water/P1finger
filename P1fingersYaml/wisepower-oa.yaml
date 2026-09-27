@@ -1,0 +1,20 @@
+- id: wisepower
+  name: Wisepower-oa
+  author: P001
+  tags:
+    - wisepower
+  description: Wisepower-oa
+  matchers:
+    - location: body
+      words:
+        - action="/wisepower/login.jsp
+- id: wisepower-2
+  name: WisePower OA
+  author: P1finger
+  tags:
+    - wisepower
+  description: WisePower OA
+  matchers:
+    - location: body
+      words:
+        - href="/WisePower/resource/styles/wiseapp.css"

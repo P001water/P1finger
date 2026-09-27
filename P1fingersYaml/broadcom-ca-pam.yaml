@@ -1,0 +1,11 @@
+- id: broadcom-ca-pam
+  name: Broadcom-ca-pam
+  author: P001
+  tags:
+    - broadcom-ca-pam
+  description: Broadcom-ca-pam
+  matchers:
+    - location: body
+      words:
+        - /cspm/cleansession.jsp
+        - ispamclient = false

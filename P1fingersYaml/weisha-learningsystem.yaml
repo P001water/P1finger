@@ -1,0 +1,10 @@
+- id: weisha-learningsystem
+  name: Weisha-learningsystem
+  author: P001
+  tags:
+    - weisha-learningsystem
+  description: Weisha-learningsystem
+  matchers:
+    - location: body
+      words:
+        - /utility/corescripts/widget.js

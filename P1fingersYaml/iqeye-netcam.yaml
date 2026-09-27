@@ -1,0 +1,31 @@
+- id: iqeye-netcam
+  name: Iqeye-netcam
+  author: P1finger
+  tags:
+    - iqeye-netcam
+  description: Iqeye-netcam
+  matchers:
+    - location: body
+      words:
+        - 'IQEYE: Live Images'
+        - content="Brian Lau, IQinVision
+        - loc = "iqeyevid.html
+- id: iqeye-netcam-2
+  name: IQeye-Netcam
+  author: Fofa
+  tags:
+    - iqeye-netcam
+  description: IQeye-Netcam
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 'IQEYE: Live Images'
+    - condition: or
+      location: body
+      words:
+        - content="Brian Lau, IQinVision
+    - condition: or
+      location: body
+      words:
+        - loc = "iqeyevid.html

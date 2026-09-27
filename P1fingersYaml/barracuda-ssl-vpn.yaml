@@ -1,0 +1,10 @@
+- id: barracuda-ssl
+  name: Barracuda-ssl-vpn
+  author: P001
+  tags:
+    - barracuda-ssl
+  description: Barracuda-ssl-vpn
+  matchers:
+    - location: body
+      words:
+        - barracuda ssl vpn

@@ -1,0 +1,21 @@
+- id: webserver
+  name: Router Webserver
+  author: Fofa
+  tags:
+    - webserver
+  description: Router Webserver
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Router Webserver
+- id: webserver-2
+  name: Router Webserver
+  author: P1finger
+  tags:
+    - webserver
+  description: Router Webserver
+  matchers:
+    - location: header
+      words:
+        - Router Webserver

@@ -1,0 +1,18 @@
+- id: caudium
+  name: Caudium
+  author: Fofa
+  tags:
+    - caudium
+  description: Caudium
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Caudium
+    - condition: or
+      location: header
+      words:
+        - 'X-Got-Fish: Pike'
+    - location: header
+      words:
+        - 'X-Got-Fish: Pike'

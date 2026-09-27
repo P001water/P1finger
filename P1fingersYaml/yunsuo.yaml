@@ -1,0 +1,11 @@
+- id: yunsuo-2
+  name: Yunsuo
+  author: P001
+  tags:
+    - yunsuo
+  description: Yunsuo
+  matchers:
+    - location: body
+      words:
+        - <img class="yunsuologo"
+        - href="http://bbs.yunsuo.com.cn

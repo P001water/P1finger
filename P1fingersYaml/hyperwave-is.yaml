@@ -1,0 +1,24 @@
+- id: hyperwave-is
+  name: Hyperwave-is
+  author: P1finger
+  tags:
+    - hyperwave-is
+  description: Hyperwave-is
+  matchers:
+    - location: header
+      words:
+        - Hyperwave
+    - location: header
+      words:
+        - 'Server: Hyperwave-IS/'
+- id: hyperwave-is-2
+  name: Hyperwave-IS
+  author: Fofa
+  tags:
+    - hyperwave-is
+  description: Hyperwave-IS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Hyperwave

@@ -1,0 +1,18 @@
+- id: pagespeed
+  name: Pagespeed
+  author: Fofa
+  tags:
+    - pagespeed
+  description: Pagespeed
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - X-Page-Speed
+    - condition: or
+      location: header
+      words:
+        - X-Mod-Pagespeed
+    - location: header
+      words:
+        - X-Mod-Pagespeed

@@ -1,0 +1,11 @@
+- id: yonyou-ksoa
+  name: Yonyou-ksoa
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-ksoa
+  description: Yonyou-ksoa
+  matchers:
+  - location: body
+    words:
+    - onmouseout="this.classname='btn btnoff'"

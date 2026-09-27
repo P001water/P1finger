@@ -1,0 +1,11 @@
+- id: schneider-citectscada
+  name: Schneider-citectscada
+  author: P001
+  tags:
+    - schneider-citectscada
+  description: Schneider-citectscada
+  matchers:
+    - location: body
+      words:
+        - <meta http-equiv="refresh" content="0; url=/citectscada">
+        - content="start services, start group, the start group, automation, industrial, software engineering, scada, plc, rtu, rockwell, rockwell automation, allen-bradley, allen bradley, allenbradley, citect, citectscada, kingfisher

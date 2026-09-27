@@ -1,0 +1,10 @@
+- id: pagecookery-microblog
+  name: Pagecookery-microblog
+  author: P001
+  tags:
+    - pagecookery-microblog
+  description: Pagecookery-microblog
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://pagecookery.com

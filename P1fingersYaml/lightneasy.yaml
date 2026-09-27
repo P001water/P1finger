@@ -1,0 +1,10 @@
+- id: lightneasy
+  name: LightNEasy
+  author: P1finger
+  tags:
+    - lightneasy
+  description: LightNEasy
+  matchers:
+    - location: body
+      words:
+        - content='LightNEasy

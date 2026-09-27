@@ -1,0 +1,10 @@
+- id: lanyankejibe
+  name: LanyankejiBE
+  author: P1finger
+  tags:
+    - lanyankejibe
+  description: LanyankejiBE
+  matchers:
+    - location: header
+      words:
+        - Basic realm="BE-

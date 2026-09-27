@@ -1,0 +1,10 @@
+- id: sharetech-higuard-pro
+  name: ShareTech-HiGuard-PRO
+  author: P1finger
+  tags:
+    - sharetech-higuard-pro
+  description: ShareTech-HiGuard-PRO
+  matchers:
+    - location: header
+      words:
+        - Basic realm="HiGuardPRO"

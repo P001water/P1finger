@@ -1,0 +1,10 @@
+- id: bitnami-redmine-stack
+  name: Bitnami-redmine-stack
+  author: P001
+  tags:
+    - bitnami-redmine-stack
+  description: Bitnami-redmine-stack
+  matchers:
+    - location: body
+      words:
+        - alt="bitnami redmine stack

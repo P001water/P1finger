@@ -1,0 +1,23 @@
+- id: drugpak
+  name: DrugPak
+  author: Fofa
+  tags:
+    - drugpak
+  description: DrugPak
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by DrugPak
+    - condition: or
+      location: body
+      words:
+        - /dplimg/DPSTYLE.CSS
+    - location: body
+      words:
+        - Powered by DrugPak
+        - /dplimg/DPSTYLE.CSS
+    - location: body
+      words:
+        - /dplimg/dpstyle.css
+        - powered by drugpak

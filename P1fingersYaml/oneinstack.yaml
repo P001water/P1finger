@@ -1,0 +1,10 @@
+- id: oneinstack
+  name: OneinStack
+  author: P1finger
+  tags:
+    - oneinstack
+  description: OneinStack
+  matchers:
+    - location: body
+      words:
+        - OneinStack

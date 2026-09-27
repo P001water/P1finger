@@ -1,0 +1,41 @@
+- id: cmsdahanruanjianhanweb
+  name: CMSdahanruanjianHanWeb
+  author: P001
+  tags:
+    - cmsdahanruanjianhanweb
+  description: CMSdahanruanjianHanWeb
+  matchers:
+    - location: body
+      words:
+        - /jcms_files/jcms
+        - <a href='http://www.hanweb.com' style='display:none'>
+        - <meta name='author' content='大汉网络'>
+        - <meta name='generator' content='大汉版通'>
+        - produced by 大汉网络
+- id: cmsfengxunkejifoosun
+  name: CMSfengxunkejiFoosun
+  author: P001
+  tags:
+    - cmsfengxunkejifoosun
+  description: CMSfengxunkejiFoosun
+  matchers:
+    - location: body
+      words:
+        - created by dotnetcms
+        - for foosun
+        - search.html?location
+        - encodeuricomponent(obj
+        - function searchgo
+        - powered by www.foosun.net,products:foosun content manage system
+- id: cmsyisiespcms
+  name: CMSyisiESPCMS
+  author: P001
+  tags:
+    - cmsyisiespcms
+  description: CMSyisiESPCMS
+  matchers:
+    - location: body
+      words:
+        - /templates/default/style/tempates_div.css
+        - infolist_fff
+        - powered by espcms

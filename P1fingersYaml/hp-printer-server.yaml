@@ -1,0 +1,11 @@
+- id: hp-printer
+  name: Hp Printer / Server
+  author: P1finger
+  tags:
+  - hp
+  - hp-printer
+  description: Hp Printer / Server
+  matchers:
+  - hash:
+    - '-2144363468'
+    location: favicon

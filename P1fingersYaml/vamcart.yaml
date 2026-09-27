@@ -1,0 +1,15 @@
+- id: vamcart
+  name: Vamcart
+  author: P001
+  tags:
+    - vamcart
+  description: Vamcart
+  matchers:
+    - location: body
+      words:
+        - '<!-- powered by: vamcart (http://vamcart.com) -->'
+        - <p><a href="http://vamcart.com/">php shopping cart</a> <a href="http://vamcart.com/">vamcart</a></p>
+        - stylesheets/load/vamcart.css" rel="stylesheet"  media="screen
+    - location: body
+      words:
+        - VamCart.css

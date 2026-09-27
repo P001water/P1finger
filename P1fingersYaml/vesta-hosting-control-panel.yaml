@@ -1,0 +1,10 @@
+- id: vesta-hosting-panel
+  name: Vesta Hosting Control Panel
+  author: P1finger
+  tags:
+    - vesta-hosting-panel
+  description: Vesta Hosting Control Panel
+  matchers:
+    - hash:
+        - "1954835352"
+      location: favicon

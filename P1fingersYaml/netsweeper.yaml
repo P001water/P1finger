@@ -1,0 +1,12 @@
+- id: netsweeper
+  name: Netsweeper
+  author: P001
+  tags:
+    - netsweeper
+  description: Netsweeper
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: webadmin='
+        - href="http://www.poweredbynetsweeper.com"><img
+        - netsweepersmbtextatbottomofloginscreen

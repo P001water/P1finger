@@ -1,0 +1,12 @@
+- id: 263-mailbox
+  name: 263-enterprise-mailbox
+  author: P001
+  tags:
+  - '263'
+  - 263-mailbox
+  description: 263-enterprise-mailbox
+  matchers:
+  - location: body
+    words:
+    - net263.wm.custom_login.homepage_init
+    - src="/custom_login/js/net263_wm_util.js

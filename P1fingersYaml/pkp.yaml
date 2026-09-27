@@ -1,0 +1,10 @@
+- id: pkp
+  name: Pkp
+  author: P1finger
+  tags:
+    - pkp
+  description: Pkp
+  matchers:
+    - hash:
+        - "2099342476"
+      location: favicon

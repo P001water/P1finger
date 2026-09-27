@@ -1,0 +1,29 @@
+- id: cogent-datahub
+  name: Cogent-datahub
+  author: P1finger
+  tags:
+    - cogent-datahub
+  description: Cogent-datahub
+  matchers:
+    - location: body
+      words:
+        - /images/Cogent.gif
+        - Cogent DataHub WebView
+    - location: body
+      words:
+        - /images/cogent.gif
+- id: cogent-datahub-2
+  name: Cogent-DataHub
+  author: Fofa
+  tags:
+    - cogent-datahub
+  description: Cogent-DataHub
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /images/Cogent.gif
+    - condition: or
+      location: title
+      words:
+        - Cogent DataHub WebView

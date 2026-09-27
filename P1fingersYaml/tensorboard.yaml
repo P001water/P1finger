@@ -1,0 +1,11 @@
+- id: tensorboard
+  name: Tensorboard
+  author: P1finger
+  tags:
+    - tensorboard
+  description: Tensorboard
+  matchers:
+    - location: body
+      words:
+        - TensorBoard
+        - The TensorFlow Authors

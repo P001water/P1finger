@@ -1,0 +1,10 @@
+- id: sun
+  name: Sun-web-server
+  author: P001
+  tags:
+    - sun
+  description: Sun-web-server
+  matchers:
+    - location: body
+      words:
+        - 'server: sun-web-server'

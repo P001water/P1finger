@@ -1,0 +1,10 @@
+- id: cerebro
+  name: Cerebro
+  author: P001
+  tags:
+    - cerebro
+  description: Cerebro
+  matchers:
+    - location: body
+      words:
+        - lang="en" ng-app="cerebro

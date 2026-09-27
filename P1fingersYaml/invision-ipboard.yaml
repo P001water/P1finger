@@ -1,0 +1,10 @@
+- id: invision-ipboard
+  name: Invision-ipboard
+  author: P001
+  tags:
+    - invision-ipboard
+  description: Invision-ipboard
+  matchers:
+    - location: body
+      words:
+        - ipb.vars

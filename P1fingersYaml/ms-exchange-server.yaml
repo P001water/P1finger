@@ -1,0 +1,18 @@
+- id: ms-exchange-server
+  name: Microsoft Exchange Server
+  author: nuclei
+  tags:
+  - microsoft
+  - exchange
+  description: Check for presence of Exchange Server using Outlook Web App path data.
+  paths:
+  - /owa/auth/logon.aspx
+  matchers:
+  - type: regex
+    location: header
+    words:
+    - (?i)(X-Owa-Version:)
+  - location: body
+    words:
+    - <title>Exchange Log In</title>
+    - <title>Microsoft Exchange - Outlook Web Access</title>

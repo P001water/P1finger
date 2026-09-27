@@ -1,0 +1,10 @@
+- id: networkresourcesauxiliaryplatform
+  name: Networkresourcesauxiliaryplatform
+  author: P001
+  tags:
+    - networkresourcesauxiliaryplatform
+  description: Networkresourcesauxiliaryplatform
+  matchers:
+    - location: body
+      words:
+        - <b>网络资源综合支撑辅助平台</b>

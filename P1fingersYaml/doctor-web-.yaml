@@ -1,0 +1,10 @@
+- id: doctorwebfanbingduchanpin
+  name: DoctorWebfanbingduchanpin
+  author: P1finger
+  tags:
+    - doctorwebfanbingduchanpin
+  description: DoctorWebfanbingduchanpin
+  matchers:
+    - location: body
+      words:
+        - '&copy; Doctor Web'

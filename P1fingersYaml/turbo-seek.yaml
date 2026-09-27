@@ -1,0 +1,10 @@
+- id: turbo-seek
+  name: Turbo-seek
+  author: P001
+  tags:
+    - turbo-seek
+  description: Turbo-seek
+  matchers:
+    - location: body
+      words:
+        - var myspecs = "'menubar=0,status=1,resizable=1,location=0,titlebar=1,toolbar=1,scrollbars=1,width=" + mywidth + ",height=" + myheight +

@@ -1,0 +1,21 @@
+- id: cachelogic-expired-domains-script
+  name: Cachelogic-expired-domains-script
+  author: P1finger
+  tags:
+    - cachelogic-expired-domains-script
+  description: Cachelogic-expired-domains-script
+  matchers:
+    - location: body
+      words:
+        - href="http://cachelogic.net">Cachelogic.net
+- id: cachelogic-expired-domains-script-2
+  name: Cachelogic-Expired-Domains-Script
+  author: Fofa
+  tags:
+    - cachelogic-expired-domains-script
+  description: Cachelogic-Expired-Domains-Script
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="http://cachelogic.net">Cachelogic.net

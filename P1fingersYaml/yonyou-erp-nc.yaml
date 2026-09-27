@@ -1,0 +1,15 @@
+- id: yonyou-erp-nc
+  name: Yonyou-erp-nc
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-erp-nc
+  description: Yonyou-erp-nc
+  matchers:
+  - location: body
+    words:
+    - /nc/servlet/nc.ui.iufo.login.index
+  - location: body
+    words:
+    - /nc/servlet/nc.ui.iufo.login.index
+    - 用友新世纪

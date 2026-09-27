@@ -1,0 +1,14 @@
+- id: blockdos
+  name: BlockDos
+  author: Fofa
+  tags:
+    - blockdos
+  description: BlockDos
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - BlockDos.net
+    - location: header
+      words:
+        - BlockDos.net

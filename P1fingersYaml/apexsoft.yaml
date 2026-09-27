@@ -1,0 +1,13 @@
+- id: apexsoft
+  name: Apexsoft
+  author: P1finger
+  tags:
+    - apexsoft
+  description: Apexsoft
+  matchers:
+    - hash:
+        - "-1305965720"
+      location: favicon
+    - location: body
+      words:
+        - 顶点软件

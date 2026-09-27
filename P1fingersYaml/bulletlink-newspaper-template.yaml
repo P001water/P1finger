@@ -1,0 +1,30 @@
+- id: bulletlink-newspaper-template
+  name: Bulletlink-newspaper-template
+  author: P1finger
+  tags:
+    - bulletlink-newspaper-template
+  description: Bulletlink-newspaper-template
+  matchers:
+    - location: body
+      words:
+        - /ModalPopup/core-modalpopup.css
+        - powered by bulletlink
+    - location: body
+      words:
+        - /modalpopup/core-modalpopup.css
+        - powered by bulletlink
+- id: bulletlink-newspaper-template-2
+  name: Bulletlink-Newspaper-Template
+  author: Fofa
+  tags:
+    - bulletlink-newspaper-template
+  description: Bulletlink-Newspaper-Template
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /ModalPopup/core-modalpopup.css
+    - condition: or
+      location: body
+      words:
+        - powered by bulletlink

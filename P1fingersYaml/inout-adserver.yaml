@@ -1,0 +1,21 @@
+- id: inout-adserver
+  name: Inout-adserver
+  author: P1finger
+  tags:
+    - inout-adserver
+  description: Inout-adserver
+  matchers:
+    - location: body
+      words:
+        - Powered by Inoutscripts
+- id: inout-adserver-2
+  name: Inout-Adserver
+  author: Fofa
+  tags:
+    - inout-adserver
+  description: Inout-Adserver
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by Inoutscripts

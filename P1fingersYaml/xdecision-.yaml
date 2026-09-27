@@ -1,0 +1,11 @@
+- id: zhonganxdecisionjuece-system
+  name: ZhonganXdecisionjuece System
+  author: P1finger
+  tags:
+    - zhonganxdecisionjuece
+    - system
+  description: ZhonganXdecisionjuece System
+  matchers:
+    - location: body
+      words:
+        - <title>Xdecision - 决策系统</title>

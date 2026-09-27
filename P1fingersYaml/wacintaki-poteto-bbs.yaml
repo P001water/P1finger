@@ -1,0 +1,11 @@
+- id: wacintaki-poteto-bbs
+  name: Wacintaki-poteto-bbs
+  author: P001
+  tags:
+    - wacintaki-poteto-bbs
+  description: Wacintaki-poteto-bbs
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.ninechime.com/products/" title="get your own free bbs!">wacintaki
+        - by <a href="http://suteki.nu">ranmaguy</a> and <a href="http://www.cellosoft.com">marcello</a>

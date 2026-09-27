@@ -1,0 +1,10 @@
+- id: accrisoft
+  name: Accrisoft
+  author: P1finger
+  tags:
+    - accrisoft
+  description: Accrisoft
+  matchers:
+    - hash:
+        - "-1275148624"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: mobile-joomla
+  name: Mobile Joomla
+  author: P1finger
+  tags:
+  - joomla
+  - mobile-joomla
+  description: Mobile Joomla
+  matchers:
+  - location: body
+    words:
+    - JoomlaStatsActivated

@@ -1,0 +1,13 @@
+- id: spamtitan
+  name: Spamtitan
+  author: P001
+  tags:
+    - spamtitan
+  description: Spamtitan
+  matchers:
+    - location: body
+      words:
+        - <table class="lhead"><tr><td class="img"><img src="/imgs/logo.gif" alt="spamtitan logo"></td></tr></table></div>
+    - location: body
+      words:
+        - SpamTitan

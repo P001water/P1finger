@@ -1,0 +1,10 @@
+- id: goldlibcms
+  name: Goldlibcms
+  author: P001
+  tags:
+    - goldlibcms
+  description: Goldlibcms
+  matchers:
+    - location: body
+      words:
+        - speakintertscarch.aspx

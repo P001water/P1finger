@@ -1,0 +1,12 @@
+- id: yonyou-nc
+  name: Yonyou-nc-cloud
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-nc
+  description: Yonyou-nc-cloud
+  matchers:
+  - location: body
+    words:
+    - <meta http-equiv=refresh content=0;url=nccloud>
+    - platform/resource/yonyou-yyy.js

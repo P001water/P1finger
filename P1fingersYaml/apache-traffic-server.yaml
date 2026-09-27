@@ -1,0 +1,23 @@
+- id: apache-traffic
+  name: Apache-traffic-server
+  author: P1finger
+  tags:
+  - apache
+  - apache-traffic
+  description: Apache-traffic-server
+  matchers:
+  - location: header
+    words:
+    - ApacheTrafficServer
+- id: apache-traffic-2
+  name: Apache-Traffic-Server
+  author: Fofa
+  tags:
+  - apache
+  - apache-traffic
+  description: Apache-Traffic-Server
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - ApacheTrafficServer

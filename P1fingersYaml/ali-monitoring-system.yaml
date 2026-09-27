@@ -1,0 +1,11 @@
+- id: ali
+  name: Ali-monitoring-system
+  author: P001
+  tags:
+    - ali
+  description: Ali-monitoring-system
+  matchers:
+    - location: body
+      words:
+        - /monitor/css/monitor.css
+        - href="/monitor/monitoritem/monitoritemlist.htm

@@ -1,0 +1,10 @@
+- id: redaxscript
+  name: Redaxscript
+  author: P1finger
+  tags:
+    - redaxscript
+  description: Redaxscript
+  matchers:
+    - location: body
+      words:
+        - content="Redaxscript

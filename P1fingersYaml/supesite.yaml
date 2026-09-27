@@ -1,0 +1,17 @@
+- id: supesite
+  name: Supesite
+  author: Fofa
+  tags:
+    - supesite
+  description: Supesite
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - supe_sid
+    - location: header
+      words:
+        - supe_sid
+    - location: body
+      words:
+        - content="SupeSite

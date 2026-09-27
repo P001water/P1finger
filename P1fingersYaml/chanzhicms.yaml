@@ -1,0 +1,12 @@
+- id: chanzhicms
+  name: Chanzhicms
+  author: P001
+  tags:
+    - chanzhicms
+  description: Chanzhicms
+  matchers:
+    - location: body
+      words:
+        - chanzhi.js
+        - poweredby'><a href='http://www.chanzhi.org
+        - title='cms系统，首选蝉知cms

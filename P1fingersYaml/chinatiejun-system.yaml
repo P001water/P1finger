@@ -1,0 +1,10 @@
+- id: chinatiejun
+  name: Chinatiejun-system
+  author: P001
+  tags:
+    - chinatiejun
+  description: Chinatiejun-system
+  matchers:
+    - location: body
+      words:
+        - document.domain == "eqs.jztj.net"

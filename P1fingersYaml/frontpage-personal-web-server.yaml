@@ -1,0 +1,21 @@
+- id: frontpage-personal
+  name: Frontpage-personal-web-server
+  author: P1finger
+  tags:
+    - frontpage-personal
+  description: Frontpage-personal-web-server
+  matchers:
+    - location: header
+      words:
+        - FPWS
+- id: frontpage-personal-2
+  name: FrontPage-Personal-Web-Server
+  author: Fofa
+  tags:
+    - frontpage-personal
+  description: FrontPage-Personal-Web-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FPWS

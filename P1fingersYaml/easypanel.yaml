@@ -1,0 +1,14 @@
+- id: easypanel
+  name: Easypanel
+  author: Fofa
+  tags:
+    - easypanel
+  description: Easypanel
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /vhost/view/default/style/login.css
+    - location: body
+      words:
+        - /vhost/view/default/style/login.css

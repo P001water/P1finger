@@ -1,0 +1,24 @@
+- id: globalsign-cert
+  name: Globalsign-cert
+  author: P001
+  tags:
+    - globalsign-cert
+  description: Globalsign-cert
+  matchers:
+    - location: body
+      words:
+        - //seal.globalsign.com/siteseal
+- id: globalsign-cert-2
+  name: Globalsign_cert
+  author: Fofa
+  tags:
+    - globalsign-cert
+  description: Globalsign_cert
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - //seal.globalsign.com/SiteSeal
+    - location: body
+      words:
+        - //seal.globalsign.com/SiteSeal

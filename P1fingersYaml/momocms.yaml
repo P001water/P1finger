@@ -1,0 +1,22 @@
+- id: momocms
+  name: MoMoCMS
+  author: Fofa
+  tags:
+    - momocms
+  description: MoMoCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="MoMoCMS
+    - condition: or
+      location: body
+      words:
+        - Powered BY MoMoCMS
+    - location: body
+      words:
+        - content="MoMoCMS
+        - Powered BY MoMoCMS
+    - location: body
+      words:
+        - Powered BY MoMoCMS</p>

@@ -1,0 +1,10 @@
+- id: edoc
+  name: Edoc
+  author: P001
+  tags:
+    - edoc
+  description: Edoc
+  matchers:
+    - hash:
+        - b6ff5fb80eb1412c57eb24b6df8148ec
+      location: favicon

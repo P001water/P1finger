@@ -1,0 +1,10 @@
+- id: wowza-media
+  name: Wowza-media-server
+  author: P001
+  tags:
+    - wowza-media
+  description: Wowza-media-server
+  matchers:
+    - location: body
+      words:
+        - <html><head><title>wowza media server

@@ -1,0 +1,22 @@
+- id: echo
+  name: Echo
+  author: Fofa
+  tags:
+    - echo
+  description: Echo
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by echo
+    - condition: or
+      location: body
+      words:
+        - /Echo2/echoweb/login
+    - location: body
+      words:
+        - powered by echo
+        - /Echo2/echoweb/login
+    - location: body
+      words:
+        - Echo PROD

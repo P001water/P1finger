@@ -1,0 +1,19 @@
+- id: ruckus
+  name: Ruckus
+  author: Fofa
+  tags:
+    - ruckus
+  description: Ruckus
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - mon.  Tell me your username
+    - condition: or
+      location: title
+      words:
+        - Ruckus Wireless Admin
+    - location: body
+      words:
+        - mon.  Tell me your username
+        - Ruckus Wireless Admin

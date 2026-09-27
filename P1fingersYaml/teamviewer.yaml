@@ -1,0 +1,26 @@
+- id: teamviewer
+  name: Teamviewer
+  author: P1finger
+  tags:
+    - teamviewer
+  description: Teamviewer
+  matchers:
+    - location: body
+      words:
+        - This site is running
+        - TeamViewer
+    - condition: and
+      location: body
+      words:
+        - This site is running
+    - condition: and
+      location: body
+      words:
+        - TeamViewer
+    - condition: and
+      location: body
+      words:
+        - teamviewer
+        - this site is running
+        - <a href='http://www.teamviewer.com'>teamviewer</a>
+        - this site is running

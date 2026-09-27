@@ -1,0 +1,14 @@
+- id: upupw
+  name: UPUPW
+  author: Fofa
+  tags:
+    - upupw
+  description: UPUPW
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - UPUPW环境集成包
+    - location: body
+      words:
+        - UPUPW环境集成包

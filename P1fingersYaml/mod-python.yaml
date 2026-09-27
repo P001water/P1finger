@@ -1,0 +1,14 @@
+- id: mod-python
+  name: Mod_python
+  author: Fofa
+  tags:
+    - mod-python
+  description: Mod_python
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_python
+    - location: header
+      words:
+        - mod_python

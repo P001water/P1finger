@@ -1,0 +1,11 @@
+- id: tingyunoneagent
+  name: TingyunOneAgent
+  author: P1finger
+  tags:
+    - tingyunoneagent
+  description: TingyunOneAgent
+  matchers:
+    - location: body
+      words:
+        - 听云 悟空
+        - assets/config/default-config.js

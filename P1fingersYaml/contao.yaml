@@ -1,0 +1,17 @@
+- id: contao
+  name: Contao
+  author: Fofa
+  tags:
+    - contao
+  description: Contao
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - system/contao.css
+    - location: body
+      words:
+        - system/contao.css
+    - location: body
+      words:
+        - /contao.css"

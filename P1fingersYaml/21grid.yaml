@@ -1,0 +1,10 @@
+- id: 21grid
+  name: 21grid
+  author: P001
+  tags:
+    - 21grid
+  description: 21grid
+  matchers:
+    - location: body
+      words:
+        - 技术支持：网格（福建）智能科技有限公司

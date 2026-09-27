@@ -1,0 +1,10 @@
+- id: p2proxy
+  name: P2proxy
+  author: P1finger
+  tags:
+    - p2proxy
+  description: P2proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: p2proxy'

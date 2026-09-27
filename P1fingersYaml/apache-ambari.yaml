@@ -1,0 +1,24 @@
+- id: apache-ambari
+  name: Apache-ambari
+  author: P001
+  tags:
+  - apache
+  - apache-ambari
+  description: Apache-ambari
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - '"/licenses/notice.txt"'
+    - <title>ambari</title>
+- id: apache-ambari-2
+  name: Apache Ambari
+  author: P1finger
+  tags:
+  - apache
+  - apache-ambari
+  description: Apache Ambari
+  matchers:
+  - location: body
+    words:
+    - Ambari

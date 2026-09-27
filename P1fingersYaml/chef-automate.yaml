@@ -1,0 +1,10 @@
+- id: chef-automate
+  name: Chef Automate
+  author: P1finger
+  tags:
+    - chef-automate
+  description: Chef Automate
+  matchers:
+    - hash:
+        - "-276759139"
+      location: favicon

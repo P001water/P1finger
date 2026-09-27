@@ -1,0 +1,31 @@
+- id: symantec-messaging
+  name: Symantec Messaging Gateway
+  author: Fofa
+  tags:
+    - symantec-messaging
+  description: Symantec Messaging Gateway
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Messaging Gateway
+- id: symantec-messaging-2
+  name: Symantec-Messaging-Gateway
+  author: P1finger
+  tags:
+    - symantec-messaging
+  description: Symantec-Messaging-Gateway
+  matchers:
+    - location: body
+      words:
+        - symantec messaging gateway
+- id: symantec-messaging-3
+  name: Symantec Messaging Gateway
+  author: P1finger
+  tags:
+    - symantec-messaging
+  description: Symantec Messaging Gateway
+  matchers:
+    - location: body
+      words:
+        - Messaging Gateway

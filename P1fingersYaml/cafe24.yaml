@@ -1,0 +1,10 @@
+- id: cafe24
+  name: Cafe24
+  author: P1finger
+  tags:
+    - cafe24
+  description: Cafe24
+  matchers:
+    - hash:
+        - "1251810433"
+      location: favicon

@@ -1,0 +1,23 @@
+- id: apache-superset
+  name: Apache-superset
+  author: P001
+  tags:
+  - apache
+  - apache-superset
+  description: Apache-superset
+  matchers:
+  - location: body
+    words:
+    - <title>superset</title>
+    - src="/static/assets/images/superset-logo-
+- id: apache-superset-2
+  name: Apache Superset
+  author: P1finger
+  tags:
+  - apache
+  - apache-superset
+  description: Apache Superset
+  matchers:
+  - location: header
+    words:
+    - superset/welcome

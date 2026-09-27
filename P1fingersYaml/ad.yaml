@@ -1,0 +1,11 @@
+- id: adzhanghaozizhu
+  name: ADzhanghaozizhu Management System
+  author: P1finger
+  tags:
+    - adzhanghaozizhu
+    - management-system
+  description: ADzhanghaozizhu Management System
+  matchers:
+    - location: body
+      words:
+        - AD账号自助管理系统

@@ -1,0 +1,10 @@
+- id: rusong
+  name: Rusong-product
+  author: P001
+  tags:
+    - rusong
+  description: Rusong-product
+  matchers:
+    - location: body
+      words:
+        - plugins/wbb/barrett.js

@@ -1,0 +1,10 @@
+- id: parallels-sphere
+  name: Parallels-H-Sphere
+  author: P1finger
+  tags:
+    - parallels-sphere
+  description: Parallels-H-Sphere
+  matchers:
+    - location: body
+      words:
+        - Parallels H-Sphere

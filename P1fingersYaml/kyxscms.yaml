@@ -1,0 +1,12 @@
+- id: kyxscms
+  name: Kyxscms
+  author: P001
+  tags:
+    - kyxscms
+  description: Kyxscms
+  matchers:
+    - location: body
+      words:
+        - <script src="/public/static/layer/layer.js">
+        - goodbook-tabcont
+        - href="/template/home/default_web/css/style.css"

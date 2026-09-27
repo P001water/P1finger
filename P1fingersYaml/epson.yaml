@@ -1,0 +1,14 @@
+- id: epsondayinji
+  name: Epsondayinji
+  author: Fofa
+  tags:
+    - epsondayinji
+  description: Epsondayinji
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - EPSON-HTTP
+    - location: header
+      words:
+        - EPSON-HTTP

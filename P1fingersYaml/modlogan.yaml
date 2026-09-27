@@ -1,0 +1,14 @@
+- id: modlogan
+  name: Modlogan
+  author: P001
+  tags:
+    - modlogan
+  description: Modlogan
+  matchers:
+    - location: body
+      words:
+        - '>modlogan'
+        - modlogan.css
+    - location: body
+      words:
+        - '>modlogan'

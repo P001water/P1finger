@@ -1,0 +1,10 @@
+- id: tinyshop
+  name: TinyShop
+  author: P1finger
+  tags:
+    - tinyshop
+  description: TinyShop
+  matchers:
+    - location: body
+      words:
+        - tiny-dialog.css

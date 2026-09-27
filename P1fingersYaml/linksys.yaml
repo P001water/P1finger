@@ -1,0 +1,1400 @@
+- id: linksys-sanatponsa-ono
+  name: Linksys 3-SanatPonsa-ONO
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-sanatponsa-ono
+  description: Linksys 3-SanatPonsa-ONO
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys 3-SanatPonsa-ONO
+- id: linksys-befdsr41w
+  name: Linksys BEFDSR41W
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befdsr41w
+  description: Linksys BEFDSR41W
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFDSR41W
+- id: linksys-befsr41
+  name: Linksys BEFSR41
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsr41
+  description: Linksys BEFSR41
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSR41
+- id: linksys-befsr41-befsr11-befsru31
+  name: Linksys BEFSR41/BEFSR11/BEFSRU31
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsr41-befsr11-befsru31
+  description: Linksys BEFSR41/BEFSR11/BEFSRU31
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSR41/BEFSR11/BEFSRU31
+- id: linksys-befsr41c-jp
+  name: Linksys BEFSR41C-JP
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsr41c-jp
+  description: Linksys BEFSR41C-JP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSR41C-JP
+- id: linksys-befsr41v3
+  name: Linksys BEFSR41v3
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsr41v3
+  description: Linksys BEFSR41v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSR41v3
+- id: linksys-befsr41v4
+  name: Linksys BEFSR41v4
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsr41v4
+  description: Linksys BEFSR41v4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSR41v4
+- id: linksys-befsr81
+  name: Linksys BEFSR81
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsr81
+  description: Linksys BEFSR81
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSR81
+- id: linksys-befsr81v3
+  name: Linksys BEFSR81v3
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsr81v3
+  description: Linksys BEFSR81v3
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSR81v3
+- id: linksys-befsx41
+  name: Linksys BEFSX41
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befsx41
+  description: Linksys BEFSX41
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFSX41
+- id: linksys-befvp41
+  name: Linksys BEFVP41
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befvp41
+  description: Linksys BEFVP41
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFVP41
+- id: linksys-befw11s4
+  name: Linksys BEFW11S4
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-befw11s4
+  description: Linksys BEFW11S4
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys BEFW11S4
+- id: linksys-dd-wrt
+  name: Linksys DD-WRT
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-dd-wrt
+  description: Linksys DD-WRT
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys DD-WRT
+- id: linksys-e1000
+  name: Linksys E1000
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e1000
+  description: Linksys E1000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E1000
+- id: linksys-e1200
+  name: Linksys E1200
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e1200
+  description: Linksys E1200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E1200
+- id: linksys-e1500
+  name: Linksys E1500
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e1500
+  description: Linksys E1500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E1500
+- id: linksys-e1550
+  name: Linksys E1550
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e1550
+  description: Linksys E1550
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E1550
+- id: linksys-e2000
+  name: Linksys E2000
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e2000
+  description: Linksys E2000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E2000
+- id: linksys-e2100l
+  name: Linksys E2100L
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e2100l
+  description: Linksys E2100L
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E2100L
+- id: linksys-e2500
+  name: Linksys E2500
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e2500
+  description: Linksys E2500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E2500
+- id: linksys-e3000
+  name: Linksys E3000
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e3000
+  description: Linksys E3000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E3000
+- id: linksys-e3200
+  name: Linksys E3200
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e3200
+  description: Linksys E3200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E3200
+- id: linksys-e4200
+  name: Linksys E4200
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e4200
+  description: Linksys E4200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E4200
+- id: linksys-e4200eb
+  name: Linksys E4200EB
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e4200eb
+  description: Linksys E4200EB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E4200EB
+- id: linksys-e900
+  name: Linksys E900
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e900
+  description: Linksys E900
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys E900
+- id: linksys-ea2700
+  name: Linksys EA2700
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ea2700
+  description: Linksys EA2700
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys EA2700
+- id: linksys-ea2700oq
+  name: Linksys EA2700OQ
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ea2700oq
+  description: Linksys EA2700OQ
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys EA2700OQ
+- id: linksys-ea3500
+  name: Linksys EA3500
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ea3500
+  description: Linksys EA3500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys EA3500
+- id: linksys-ea4500
+  name: Linksys EA4500
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ea4500
+  description: Linksys EA4500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys EA4500
+- id: linksys-ea4500oq
+  name: Linksys EA4500OQ
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ea4500oq
+  description: Linksys EA4500OQ
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys EA4500OQ
+- id: linksys-ea6500
+  name: LINKSYS EA6500
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ea6500
+  description: LINKSYS EA6500
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS EA6500
+- id: linksys-ea6500v2
+  name: Linksys EA6500v2
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ea6500v2
+  description: Linksys EA6500v2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys EA6500v2
+- id: linksys-ed55e
+  name: Linksys ED55E
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ed55e
+  description: Linksys ED55E
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys ED55E
+- id: linksys-fw
+  name: Linksys FW
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-fw
+  description: Linksys FW
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys FW
+- id: linksys
+  name: Linksys G
+  author: Fofa
+  tags:
+  - linksys
+  description: Linksys G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys G
+- id: linksys-2
+  name: Linksys Gateway
+  author: Fofa
+  tags:
+  - linksys
+  description: Linksys Gateway
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys gateway
+- id: linksys-guests
+  name: Linksys Guests
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-guests
+  description: Linksys Guests
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys Guests
+- id: linksys-gw
+  name: Linksys GW
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-gw
+  description: Linksys GW
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys GW
+- id: linksys-lcab03vlnod
+  name: Linksys LCAB03VLNOD
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-lcab03vlnod
+  description: Linksys LCAB03VLNOD
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys LCAB03VLNOD
+- id: linksys-lcad03fln
+  name: Linksys LCAD03FLN
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-lcad03fln
+  description: Linksys LCAD03FLN
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys LCAD03FLN
+- id: linksys-lcad03vlnod
+  name: Linksys LCAD03VLNOD
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-lcad03vlnod
+  description: Linksys LCAD03VLNOD
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys LCAD03VLNOD
+- id: linksys-lcam0336od
+  name: Linksys LCAM0336OD
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-lcam0336od
+  description: Linksys LCAM0336OD
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys LCAM0336OD
+- id: linksys-am
+  name: Linksys-am
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-am
+  description: Linksys-am
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-am
+- id: linksys-central
+  name: Linksys-CENTRAL
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-central
+  description: Linksys-CENTRAL
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-CENTRAL
+- id: linksys-cit400
+  name: Linksys-CIT400
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-cit400
+  description: Linksys-CIT400
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-CIT400
+- id: linksys-dd-wrt-2
+  name: LINKSYS-DD-WRT
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-dd-wrt
+  description: LINKSYS-DD-WRT
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS-DD-WRT
+- id: linksys-discovery
+  name: LINKSYS-DISCOVERY
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-discovery
+  description: LINKSYS-DISCOVERY
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS-DISCOVERY
+- id: linksys-e3000-2
+  name: LINKSYS-E3000
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-e3000
+  description: LINKSYS-E3000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS-E3000
+- id: linksys-ecolub
+  name: Linksys-ecolub-portal
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-ecolub
+  description: Linksys-ecolub-portal
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-ecolub-portal
+- id: linksys-hanover
+  name: Linksys-Hanover
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-hanover
+  description: Linksys-Hanover
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-Hanover
+- id: linksys-hollos
+  name: LinkSYS-hollos
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-hollos
+  description: LinkSYS-hollos
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linkSYS-hollos
+- id: linksys-huelva-telepalma
+  name: Linksys-Huelva-3-Telepalma
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-huelva-telepalma
+  description: Linksys-Huelva-3-Telepalma
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-Huelva-3-Telepalma
+- id: linksys-huelva-pedreratv
+  name: Linksys-Huelva-5-PedreraTV
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-huelva-pedreratv
+  description: Linksys-Huelva-5-PedreraTV
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-Huelva-5-PedreraTV
+- id: linksys-inbox
+  name: Linksys-inbox
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-inbox
+  description: Linksys-inbox
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-inbox
+- id: linksys-linux
+  name: Linksys-linux
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-linux
+  description: Linksys-linux
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-linux
+- id: linksys-manresa
+  name: LINKSYS-MANRESA
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-manresa
+  description: LINKSYS-MANRESA
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS-MANRESA
+- id: linksys-mir
+  name: Linksys-MIR
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-mir
+  description: Linksys-MIR
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-MIR
+- id: linksys-muenster
+  name: Linksys-Muenster
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-muenster
+  description: Linksys-Muenster
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-Muenster
+- id: linksys-musashi
+  name: Linksys-musashi
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-musashi
+  description: Linksys-musashi
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-musashi
+- id: linksys-niceveiculos
+  name: Linksys-niceveiculos
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-niceveiculos
+  description: Linksys-niceveiculos
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-niceveiculos
+- id: linksys-olds
+  name: Linksys-Olds
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-olds
+  description: Linksys-Olds
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-Olds
+- id: linksys-planta
+  name: LINKSYS-PLANTA
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-planta
+  description: LINKSYS-PLANTA
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS-PLANTA
+- id: linksys-queretaro
+  name: Linksys-Queretaro
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-queretaro
+  description: Linksys-Queretaro
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-Queretaro
+- id: linksys-rj
+  name: LinkSys-RJ
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-rj
+  description: LinkSys-RJ
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LinkSys-RJ
+- id: linksys-rv042-nr021
+  name: Linksys-rv042-nr021
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-rv042-nr021
+  description: Linksys-rv042-nr021
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-rv042-nr021
+- id: linksys-rv082
+  name: Linksys-RV082
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-rv082
+  description: Linksys-RV082
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-RV082
+- id: linksys-sacz
+  name: Linksys-sacz
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-sacz
+  description: Linksys-sacz
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys-sacz
+- id: linksys-wi-fi
+  name: Linksys Smart Wi-fi
+  author: P1finger
+  tags:
+  - linksys
+  - linksys-wi-fi
+  description: Linksys Smart Wi-fi
+  matchers:
+  - hash:
+    - '-2063036701'
+    location: favicon
+- id: linksys-3
+  name: Linksys-vpn
+  author: Fofa
+  tags:
+  - linksys
+  description: Linksys-vpn
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-vpn
+- id: linksys-bragap14-parintins
+  name: Linksys-vpn-bragap14-parintins
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-bragap14-parintins
+  description: Linksys-vpn-bragap14-parintins
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys-vpn-bragap14-parintins
+- id: linksys-rt31p2
+  name: Linksys RT31P2
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-rt31p2
+  description: Linksys RT31P2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys RT31P2
+- id: linksys-rv-042
+  name: LINKSYS RV-042
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-rv-042
+  description: LINKSYS RV-042
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS RV-042
+  - condition: and
+    location: header
+    words:
+    - linksys rv042
+- id: linksys-rv082-2
+  name: LINKSYS RV082
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-rv082
+  description: LINKSYS RV082
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS RV082
+- id: linksys-rvs4000
+  name: Linksys RVS4000
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-rvs4000
+  description: Linksys RVS4000
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys RVS4000
+- id: linksys-spa-configuration
+  name: Linksys_spa_configuration
+  author: P1finger
+  tags:
+  - linksys
+  - linksys-spa-configuration
+  description: Linksys_spa_configuration
+  matchers:
+  - location: body
+    words:
+    - Linksys SPA Configuration
+- id: linksys-spa-configuration-2
+  name: Linksys_SPA_Configuration
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-spa-configuration
+  description: Linksys_SPA_Configuration
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Linksys SPA Configuration
+- id: linksys-teo
+  name: Linksys Teo
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-teo
+  description: Linksys Teo
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys Teo
+- id: linksys-tg
+  name: LINKSYS TG
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-tg
+  description: LINKSYS TG
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS TG
+- id: linksys-4
+  name: Linksys VPN
+  author: Fofa
+  tags:
+  - linksys
+  description: Linksys VPN
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys VPN
+- id: linksys-5
+  name: Linksys-vpn
+  author: P1finger
+  tags:
+  - linksys
+  description: Linksys-vpn
+  matchers:
+  - location: header
+    words:
+    - linksys-vpn
+- id: linksys-wag120n
+  name: Linksys WAG120N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag120n
+  description: Linksys WAG120N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG120N
+- id: linksys-wag160n
+  name: Linksys WAG160N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag160n
+  description: Linksys WAG160N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG160N
+- id: linksys-wag160nv2
+  name: Linksys WAG160Nv2
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag160nv2
+  description: Linksys WAG160Nv2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG160Nv2
+- id: linksys-wag160nv2b
+  name: Linksys WAG160Nv2B
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag160nv2b
+  description: Linksys WAG160Nv2B
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG160Nv2B
+- id: linksys-wag200g
+  name: Linksys WAG200G
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag200g
+  description: Linksys WAG200G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG200G
+- id: linksys-wag200gb
+  name: Linksys WAG200GB
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag200gb
+  description: Linksys WAG200GB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG200GB
+- id: linksys-wag300n
+  name: Linksys WAG300N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag300n
+  description: Linksys WAG300N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG300N
+- id: linksys-wag320n
+  name: Linksys WAG320N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag320n
+  description: Linksys WAG320N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG320N
+- id: linksys-wag325n
+  name: Linksys WAG325N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag325n
+  description: Linksys WAG325N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG325N
+- id: linksys-wag54g2
+  name: Linksys WAG54G2
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag54g2
+  description: Linksys WAG54G2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG54G2
+- id: linksys-wag54gs
+  name: Linksys WAG54GS
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag54gs
+  description: Linksys WAG54GS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG54GS
+- id: linksys-wag54gsb
+  name: Linksys WAG54GSB
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag54gsb
+  description: Linksys WAG54GSB
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG54GSB
+- id: linksys-wag54gx2
+  name: Linksys WAG54GX2
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wag54gx2
+  description: Linksys WAG54GX2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAG54GX2
+- id: linksys-wap
+  name: Linksys WAP
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wap
+  description: Linksys WAP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAP
+- id: linksys-wap11
+  name: Linksys WAP11
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wap11
+  description: Linksys WAP11
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAP11
+- id: linksys-wap200
+  name: Linksys WAP200
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wap200
+  description: Linksys WAP200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAP200
+- id: linksys-wap4400n
+  name: Linksys WAP4400N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wap4400n
+  description: Linksys WAP4400N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAP4400N
+- id: linksys-wap54g
+  name: Linksys WAP54G
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wap54g
+  description: Linksys WAP54G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAP54G
+- id: linksys-wap54gp
+  name: Linksys WAP54GP
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wap54gp
+  description: Linksys WAP54GP
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAP54GP
+- id: linksys-wap54gpe
+  name: Linksys WAP54GPE
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wap54gpe
+  description: Linksys WAP54GPE
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WAP54GPE
+- id: linksys-wcg200
+  name: Linksys WCG200
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wcg200
+  description: Linksys WCG200
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WCG200
+- id: linksys-wet11
+  name: Linksys WET11
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wet11
+  description: Linksys WET11
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WET11
+- id: linksys-wet54g
+  name: Linksys WET54G
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wet54g
+  description: Linksys WET54G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WET54G
+- id: linksys-wrk54g
+  name: Linksys WRK54G
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrk54g
+  description: Linksys WRK54G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRK54G
+- id: linksys-wrt160nl
+  name: Linksys Wrt160nl
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt160nl
+  description: Linksys Wrt160nl
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - linksys wrt160nl
+- id: linksys-wrt270n
+  name: LINKSYS WRT270N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt270n
+  description: LINKSYS WRT270N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS WRT270N
+- id: linksys-wrt300n
+  name: Linksys WRT300N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt300n
+  description: Linksys WRT300N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT300N
+- id: linksys-wrt350n
+  name: Linksys WRT350N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt350n
+  description: Linksys WRT350N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT350N
+- id: linksys-wrt54g
+  name: Linksys WRT54G
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt54g
+  description: Linksys WRT54G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT54G
+- id: linksys-wrt54gl
+  name: Linksys WRT54GL
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt54gl
+  description: Linksys WRT54GL
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT54GL
+- id: linksys-wrt54gp2
+  name: Linksys WRT54GP2
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt54gp2
+  description: Linksys WRT54GP2
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT54GP2
+- id: linksys-wrt54gr
+  name: Linksys WRT54GR
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt54gr
+  description: Linksys WRT54GR
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT54GR
+- id: linksys-wrt54gs
+  name: LINKSYS WRT54GS
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt54gs
+  description: LINKSYS WRT54GS
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - LINKSYS WRT54GS
+- id: linksys-wrt600
+  name: Linksys WRT600
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt600
+  description: Linksys WRT600
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT600
+- id: linksys-wrt600n
+  name: Linksys WRT600N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrt600n
+  description: Linksys WRT600N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRT600N
+- id: linksys-wrv54g
+  name: Linksys WRV54G
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrv54g
+  description: Linksys WRV54G
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRV54G
+- id: linksys-wrvs4400n
+  name: Linksys WRVS4400N
+  author: Fofa
+  tags:
+  - linksys
+  - linksys-wrvs4400n
+  description: Linksys WRVS4400N
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Linksys WRVS4400N

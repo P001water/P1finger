@@ -1,0 +1,11 @@
+- id: tanaosoftmaojinfangzhi
+  name: Tanaosoftmaojinfangzhi ERP System
+  author: P1finger
+  tags:
+    - tanaosoftmaojinfangzhi
+    - erp-system
+  description: Tanaosoftmaojinfangzhi ERP System
+  matchers:
+    - location: body
+      words:
+        - Tanaosoft毛巾纺织ERP系统

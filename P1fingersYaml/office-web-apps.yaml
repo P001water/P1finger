@@ -1,0 +1,10 @@
+- id: office-apps
+  name: Office-web-apps
+  author: P001
+  tags:
+    - office-apps
+  description: Office-web-apps
+  matchers:
+    - location: body
+      words:
+        - var generatedviewurlelementid

@@ -1,0 +1,10 @@
+- id: client-pro
+  name: Web Client Pro
+  author: P1finger
+  tags:
+    - client-pro
+  description: Web Client Pro
+  matchers:
+    - hash:
+        - "-956471263"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: hws-host
+  name: Hws-host
+  author: P001
+  tags:
+  - hws
+  - hws-host
+  description: Hws-host
+  matchers:
+  - location: body
+    words:
+    - content="护卫神·主机大师 前台管理登录"

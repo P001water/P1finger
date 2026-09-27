@@ -1,0 +1,11 @@
+- id: china-shine-on-demand
+  name: China-shine-video-on-demand
+  author: P001
+  tags:
+    - china-shine-on-demand
+  description: China-shine-video-on-demand
+  matchers:
+    - location: body
+      words:
+        - background="images/cbackground.jpg"
+        - 视翰公司

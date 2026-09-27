@@ -1,0 +1,11 @@
+- id: ipswitch-imailserver
+  name: Ipswitch-imailserver
+  author: P001
+  tags:
+    - ipswitch-imailserver
+  description: Ipswitch-imailserver
+  matchers:
+    - location: body
+      words:
+        - 'server: ipswitch-imail'
+        - myicalusername

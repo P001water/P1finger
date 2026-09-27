@@ -1,0 +1,10 @@
+- id: netis
+  name: Netis
+  author: P1finger
+  tags:
+    - netis
+  description: Netis
+  matchers:
+    - hash:
+        - "-594256627"
+      location: favicon

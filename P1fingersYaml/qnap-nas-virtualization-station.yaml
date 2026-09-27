@@ -1,0 +1,11 @@
+- id: qnap-nas-virtualization-station
+  name: Qnap Nas Virtualization Station
+  author: P1finger
+  tags:
+  - qnap
+  - qnap-nas-virtualization-station
+  description: Qnap Nas Virtualization Station
+  matchers:
+  - hash:
+    - '-1041180225'
+    location: favicon

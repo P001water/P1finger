@@ -1,0 +1,27 @@
+- id: tangqiaotechbridgeyunhuiyi
+  name: TangqiaoTechbridgeyunhuiyi
+  author: P1finger
+  tags:
+    - tangqiaotechbridgeyunhuiyi
+  description: TangqiaoTechbridgeyunhuiyi
+  matchers:
+    - location: body
+      words:
+        - Web Conferencing, Online Meetings, Telephone-Conferencing, Webinars - spreed
+    - location: header
+      words:
+        - 'Set-Cookie: mtUserLanguage1=deleted; expires=Thu'
+- id: techbridge
+  name: Techbridge
+  author: Fofa
+  tags:
+    - techbridge
+  description: Techbridge
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Sorry,you need to use IE brower
+    - location: body
+      words:
+        - Sorry,you need to use IE brower

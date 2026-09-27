@@ -1,0 +1,13 @@
+- id: guanqunjinchenkillyoujian
+  name: Guanqunjinchenkillyoujian Security Gateway
+  author: P001
+  tags:
+    - guanqunjinchenkillyoujian
+    - security-gateway
+  description: Guanqunjinchenkillyoujian Security Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - background="skins/default/images/login_ksgm.jpg
+        - kill邮件安全网关

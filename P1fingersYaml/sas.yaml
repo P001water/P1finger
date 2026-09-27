@@ -1,0 +1,10 @@
+- id: sas
+  name: SAS
+  author: P1finger
+  tags:
+    - sas
+  description: SAS
+  matchers:
+    - location: body
+      words:
+        - Basic realm="SAS University Edition"

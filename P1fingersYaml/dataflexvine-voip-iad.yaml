@@ -1,0 +1,21 @@
+- id: dataflexvine-voip-iad
+  name: Dataflexvine-voip-iad
+  author: P1finger
+  tags:
+    - dataflexvine-voip-iad
+  description: Dataflexvine-voip-iad
+  matchers:
+    - location: header
+      words:
+        - DataflexViNE-Webserver
+- id: dataflexvine-voip-iad-2
+  name: DataflexViNE-VoIP-IAD
+  author: Fofa
+  tags:
+    - dataflexvine-voip-iad
+  description: DataflexViNE-VoIP-IAD
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - DataflexViNE-Webserver

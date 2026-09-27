@@ -1,0 +1,11 @@
+- id: wpsbushukeshihua-platform
+  name: WPSbushukeshihua Platform
+  author: P1finger
+  tags:
+    - wpsbushukeshihua
+    - platform
+  description: WPSbushukeshihua Platform
+  matchers:
+    - location: body
+      words:
+        - WPS 部署可视化平台

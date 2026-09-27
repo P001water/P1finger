@@ -1,0 +1,10 @@
+- id: rg-wall-v160s
+  name: RG WALL V160S
+  author: P1finger
+  tags:
+    - rg-wall-v160s
+  description: RG WALL V160S
+  matchers:
+    - location: body
+      words:
+        - rg-wall-v160s

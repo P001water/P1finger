@@ -1,0 +1,15 @@
+- id: dolphinscheduler
+  name: Dolphinscheduler
+  author: P001
+  tags:
+    - dolphinscheduler
+  description: Dolphinscheduler
+  matchers:
+    - location: body
+      words:
+        - <title>dolphinscheduler</title>
+        - let node_env = 'true'
+    - location: body
+      words:
+        - DolphinScheduler
+        - EasyScheduler

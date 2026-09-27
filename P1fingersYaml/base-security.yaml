@@ -1,0 +1,10 @@
+- id: base-2
+  name: BASE-Security
+  author: P1finger
+  tags:
+    - base
+  description: BASE-Security
+  matchers:
+    - location: body
+      words:
+        - HSFCSR Neuroinformatics Wiki

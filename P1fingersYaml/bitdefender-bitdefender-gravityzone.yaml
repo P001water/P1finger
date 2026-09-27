@@ -1,0 +1,10 @@
+- id: bitdefender-bitdefender-gravityzone
+  name: Bitdefender-Bitdefender-GravityZone
+  author: P1finger
+  tags:
+    - bitdefender-bitdefender-gravityzone
+  description: Bitdefender-Bitdefender-GravityZone
+  matchers:
+    - location: body
+      words:
+        - Bitdefender GravityZone

@@ -1,0 +1,12 @@
+- id: plugger-srm
+  name: E-plugger-srm
+  author: P001
+  tags:
+    - plugger-srm
+  description: E-plugger-srm
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - lan12-jingbian-hong
+        - 科研管理系统，北京易普拉格科技

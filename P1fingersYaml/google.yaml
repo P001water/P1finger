@@ -1,0 +1,22 @@
+- id: google
+  name: Google
+  author: P1finger
+  tags:
+    - google
+  description: Google
+  matchers:
+    - hash:
+        - "708578229"
+      location: favicon
+- id: googlezhanzhang-platform
+  name: Googlezhanzhang Platform
+  author: Fofa
+  tags:
+    - googlezhanzhang
+    - platform
+  description: Googlezhanzhang Platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - google-site-verification

@@ -1,0 +1,21 @@
+- id: mambo
+  name: Mambo-cms
+  author: P001
+  tags:
+    - mambo
+  description: Mambo-cms
+  matchers:
+    - location: body
+      words:
+        - <div id="mambo
+        - content="mambo
+- id: mambo-2
+  name: Mambo CMS
+  author: P1finger
+  tags:
+    - mambo
+  description: Mambo CMS
+  matchers:
+    - location: body
+      words:
+        - content="Mambo

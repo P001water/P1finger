@@ -1,0 +1,23 @@
+- id: ovirt-virtualization
+  name: Ovirt-virtualization
+  author: P001
+  tags:
+    - ovirt-virtualization
+  description: Ovirt-virtualization
+  matchers:
+    - location: body
+      words:
+        - <a href="https://www.ovirt.org" class="obrand_loginpagelogolink">
+- id: ovirt-virtualization-2
+  name: OVirt Virtualization
+  author: P1finger
+  tags:
+    - ovirt-virtualization
+  description: OVirt Virtualization
+  matchers:
+    - location: body
+      words:
+        - <a href="https://www.ovirt.org" class="obrand_loginpagelogolink">
+    - location: header
+      words:
+        - /ovirt-engine/

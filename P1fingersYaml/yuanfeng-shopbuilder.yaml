@@ -1,0 +1,10 @@
+- id: yuanfeng-shopbuilder
+  name: Yuanfeng ShopBuilder
+  author: P1finger
+  tags:
+    - yuanfeng-shopbuilder
+  description: Yuanfeng ShopBuilder
+  matchers:
+    - location: body
+      words:
+        - ShopBuilder

@@ -1,0 +1,11 @@
+- id: cyberwisdomwizbankzhengheshiguanlixuexi
+  name: Cyberwisdomwizbankzhengheshiguanlixuexi Platform
+  author: P1finger
+  tags:
+    - cyberwisdomwizbankzhengheshiguanlixuexi
+    - platform
+  description: Cyberwisdomwizbankzhengheshiguanlixuexi Platform
+  matchers:
+    - location: body
+      words:
+        - wizbank

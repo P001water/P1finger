@@ -1,0 +1,10 @@
+- id: usezan
+  name: Usezan-system
+  author: P001
+  tags:
+    - usezan
+  description: Usezan-system
+  matchers:
+    - location: body
+      words:
+        - action="/usezan/login/getlogin"

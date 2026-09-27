@@ -1,0 +1,21 @@
+- id: eserv
+  name: Eserv
+  author: Fofa
+  tags:
+    - eserv
+  description: Eserv
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Eserv
+    - condition: or
+      location: body
+      words:
+        - content="Eserv
+    - location: body
+      words:
+        - content="Eserv
+    - location: header
+      words:
+        - Eserv

@@ -1,0 +1,21 @@
+- id: ms-author-via
+  name: Ms-author-via
+  author: P1finger
+  tags:
+    - ms-author-via
+  description: Ms-author-via
+  matchers:
+    - location: header
+      words:
+        - MS-Author-Via
+- id: ms-author-via-2
+  name: MS-Author-Via
+  author: Fofa
+  tags:
+    - ms-author-via
+  description: MS-Author-Via
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MS-Author-Via

@@ -1,0 +1,10 @@
+- id: aws-bpm
+  name: AWS BPM
+  author: P1finger
+  tags:
+    - aws-bpm
+  description: AWS BPM
+  matchers:
+    - location: body
+      words:
+        - AWS BPM PaaS

@@ -1,0 +1,14 @@
+- id: bluedon
+  name: Bluedon
+  author: Fofa
+  tags:
+    - bluedon
+  description: Bluedon
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'BACKGROUND: url(images/loginbg.jpg) #e5f1fc'
+    - location: body
+      words:
+        - 'BACKGROUND: url(images/loginbg.jpg) #e5f1fc'

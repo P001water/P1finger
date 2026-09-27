@@ -1,0 +1,10 @@
+- id: pothos
+  name: Pothos
+  author: P1finger
+  tags:
+    - pothos
+  description: Pothos
+  matchers:
+    - location: body
+      words:
+        - Pothos

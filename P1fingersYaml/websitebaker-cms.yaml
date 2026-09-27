@@ -1,0 +1,21 @@
+- id: websitebaker
+  name: Websitebaker-cms
+  author: P1finger
+  tags:
+    - websitebaker
+  description: Websitebaker-cms
+  matchers:
+    - location: header
+      words:
+        - wb_session_id
+- id: websitebaker-2
+  name: WebsiteBaker-CMS
+  author: Fofa
+  tags:
+    - websitebaker
+  description: WebsiteBaker-CMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - wb_session_id

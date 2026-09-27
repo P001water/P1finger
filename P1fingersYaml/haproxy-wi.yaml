@@ -1,0 +1,11 @@
+- id: haproxy-wi
+  name: HAProxy-WI
+  author: P1finger
+  tags:
+    - haproxy-wi
+  description: HAProxy-WI
+  matchers:
+    - location: body
+      words:
+        - HAProxy-WI
+        - HAProxy-WI

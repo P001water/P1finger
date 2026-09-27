@@ -1,0 +1,15 @@
+- id: oracle-access-manager-2
+  name: Oracle Access Manager
+  author: nuclei
+  tags:
+  - oracle
+  description: Oracle Access Manager
+  paths:
+  - /oamfed/idp/soap
+  matchers:
+  - location: body
+    words:
+    - processing the SOAP Request
+  - location: header
+    words:
+    - text/xml

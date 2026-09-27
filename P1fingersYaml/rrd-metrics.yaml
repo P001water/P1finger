@@ -1,0 +1,14 @@
+- id: rrd-metrics
+  name: RRD - Metrics
+  author: P1finger
+  tags:
+    - rrd-metrics
+  description: RRD - Metrics
+  matchers:
+    - hash:
+        - "1530297414"
+      location: favicon
+    - location: body
+      words:
+        - RRD - Metrics
+        - Copyright &copy; 2022 R.R.Donnelley &amp; Sons Company. All rights reserved.

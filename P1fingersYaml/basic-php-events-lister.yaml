@@ -1,0 +1,21 @@
+- id: basic-php-events-lister
+  name: Basic-php-events-lister
+  author: P001
+  tags:
+    - basic-php-events-lister
+  description: Basic-php-events-lister
+  matchers:
+    - location: body
+      words:
+        - 'powered by: <a href="http://www.mevin.com/">'
+- id: basic-php-events-lister-2
+  name: Basic-PHP-Events-Lister
+  author: Fofa
+  tags:
+    - basic-php-events-lister
+  description: Basic-PHP-Events-Lister
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'Powered by: <a href="http://www.mevin.com/">'

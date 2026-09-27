@@ -1,0 +1,23 @@
+- id: dspace
+  name: DSpace
+  author: Fofa
+  tags:
+    - dspace
+  description: DSpace
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="DSpace
+    - condition: or
+      location: body
+      words:
+        - <a href="http://www.dspace.org">DSpace Software
+    - location: body
+      words:
+        - content="DSpace
+        - <a href="http://www.dspace.org">DSpace Software
+    - location: body
+      words:
+        - <a href="http://www.dspace.org">dspace software
+        - content="dspace

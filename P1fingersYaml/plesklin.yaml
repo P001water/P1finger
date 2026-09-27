@@ -1,0 +1,14 @@
+- id: plesklin
+  name: PleskLin
+  author: Fofa
+  tags:
+    - plesklin
+  description: PleskLin
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - PleskLin
+    - location: header
+      words:
+        - PleskLin

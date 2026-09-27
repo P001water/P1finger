@@ -1,0 +1,11 @@
+- id: ska-cms
+  name: SKA CMS
+  author: P1finger
+  tags:
+    - ska
+    - cms
+  description: SKA CMS
+  matchers:
+    - location: body
+      words:
+        - SKA网站管理系统

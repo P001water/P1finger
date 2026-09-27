@@ -1,0 +1,14 @@
+- id: teamportal
+  name: Teamportal
+  author: Fofa
+  tags:
+    - teamportal
+  description: Teamportal
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - TS_expiredurl
+    - location: body
+      words:
+        - TS_expiredurl

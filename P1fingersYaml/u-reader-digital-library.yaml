@@ -1,0 +1,11 @@
+- id: reader-digital-library
+  name: U-reader-digital-library
+  author: P001
+  tags:
+    - reader-digital-library
+  description: U-reader-digital-library
+  matchers:
+    - location: body
+      words:
+        - class="login-show-title">dynomedia inc.</p>
+        - content="ureader

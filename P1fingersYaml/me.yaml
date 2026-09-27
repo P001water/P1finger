@@ -1,0 +1,11 @@
+- id: meyidongxiediaobangong-platform
+  name: MEyidongxiediaobangong Platform
+  author: P1finger
+  tags:
+    - meyidongxiediaobangong
+    - platform
+  description: MEyidongxiediaobangong Platform
+  matchers:
+    - location: body
+      words:
+        - ME移动协调办公平台

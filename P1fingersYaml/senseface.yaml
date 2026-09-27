@@ -1,0 +1,10 @@
+- id: senseface
+  name: SENSEFACE
+  author: P1finger
+  tags:
+    - senseface
+  description: SENSEFACE
+  matchers:
+    - location: body
+      words:
+        - <title>SENSEFACE</title>

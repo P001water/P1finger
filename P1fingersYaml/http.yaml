@@ -1,0 +1,11 @@
+- id: httpjibenrenzheng
+  name: Httpjibenrenzheng
+  author: P001
+  tags:
+    - httpjibenrenzheng
+  description: Httpjibenrenzheng
+  matchers:
+    - location: body
+      words:
+        - unauthorized
+        - 'www-authenticate: basic realm="default"'

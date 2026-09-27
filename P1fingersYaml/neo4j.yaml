@@ -1,0 +1,13 @@
+- id: neo4j
+  name: Neo4j
+  author: P001
+  tags:
+    - neo4j
+  description: Neo4j
+  matchers:
+    - location: body
+      words:
+        - content="neo4j
+        - ng-show="neo4j.enterpriseedition
+        - play-topic="neo4j-sync
+        - '{{ neo4j.version | neo4jdeveloperdoc }}/'

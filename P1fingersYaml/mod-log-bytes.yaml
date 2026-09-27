@@ -1,0 +1,14 @@
+- id: mod-log-bytes
+  name: Mod_log_bytes
+  author: Fofa
+  tags:
+    - mod-log-bytes
+  description: Mod_log_bytes
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_log_bytes
+    - location: header
+      words:
+        - mod_log_bytes

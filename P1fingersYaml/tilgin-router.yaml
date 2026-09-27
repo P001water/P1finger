@@ -1,0 +1,10 @@
+- id: tilgin
+  name: Tilgin Router
+  author: P1finger
+  tags:
+    - tilgin
+  description: Tilgin Router
+  matchers:
+    - location: body
+      words:
+        - Welcome to the Tilgin router

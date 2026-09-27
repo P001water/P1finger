@@ -1,0 +1,21 @@
+- id: auxilium-petratepro
+  name: Auxilium-petratepro
+  author: P1finger
+  tags:
+    - auxilium-petratepro
+  description: Auxilium-petratepro
+  matchers:
+    - location: body
+      words:
+        - index.php?cmd=11
+- id: auxilium-petratepro-2
+  name: Auxilium-PetRatePro
+  author: Fofa
+  tags:
+    - auxilium-petratepro
+  description: Auxilium-PetRatePro
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - index.php?cmd=11

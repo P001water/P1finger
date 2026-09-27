@@ -1,0 +1,24 @@
+- id: sitecore
+  name: Sitecore
+  author: Fofa
+  tags:
+    - sitecore
+  description: Sitecore
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Sitecore CMS
+    - location: header
+      words:
+        - Sitecore CMS
+    - hash:
+        - 7e7727c980ccf9d9a3d11bbc702f6363
+      location: favicon
+    - location: body
+      words:
+        - alt="sitecore" id="sclogo" />
+        - title="sitecore documentation site">
+    - location: body
+      words:
+        - sitecore.net

@@ -1,0 +1,12 @@
+- id: apache-drill-webui
+  name: Apache Drill WebUI
+  author: P1finger
+  tags:
+  - apache
+  - apache-drill-webui
+  description: Apache Drill WebUI
+  matchers:
+  - location: body
+    words:
+    - Apache Drill
+    - Apache Drill

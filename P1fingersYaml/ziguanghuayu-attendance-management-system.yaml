@@ -1,0 +1,10 @@
+- id: ziguanghuayu-attendance
+  name: Ziguanghuayu-attendance-management-system
+  author: P001
+  tags:
+    - ziguanghuayu-attendance
+  description: Ziguanghuayu-attendance-management-system
+  matchers:
+    - location: body
+      words:
+        - 广州紫光华宇信息技术有限公司

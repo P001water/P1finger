@@ -1,0 +1,44 @@
+- id: wanhu
+  name: Wanhu
+  author: P001
+  tags:
+    - wanhu
+  description: Wanhu
+  matchers:
+    - location: body
+      words:
+        - Powered By wanhu
+        - 万户网络设计制作
+        - <!--Banner002729 star-->
+        - css/css_whir.css
+- id: wanhu-2
+  name: Wanhu
+  author: Fofa
+  tags:
+    - wanhu
+  description: Wanhu
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - css/css_whir.css
+- id: wanhu-3
+  name: Wanhu
+  author: P1finger
+  tags:
+    - wanhu
+  description: Wanhu
+  matchers:
+    - location: header
+      words:
+        - LocLan
+    - location: body
+      words:
+        - css/css_whir.css
+        - ezOFFICE
+        - 万户OA
+        - whirRootPath
+        - /defaultroot
+        - /defaultroot/js/cookie.js
+        - ezofficeusername
+        - 万户ezOFFICE协同管理平台

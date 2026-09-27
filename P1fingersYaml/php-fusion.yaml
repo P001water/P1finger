@@ -1,0 +1,10 @@
+- id: php-fusion
+  name: PHP Fusion
+  author: P1finger
+  tags:
+    - php-fusion
+  description: PHP Fusion
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: fusion'

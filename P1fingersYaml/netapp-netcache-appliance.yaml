@@ -1,0 +1,10 @@
+- id: netapp-netcache-appliance
+  name: Netapp-netcache-appliance
+  author: P001
+  tags:
+    - netapp-netcache-appliance
+  description: Netapp-netcache-appliance
+  matchers:
+    - location: body
+      words:
+        - 'server: netcache appliance'

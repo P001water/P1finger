@@ -1,0 +1,10 @@
+- id: esafenet-cdg
+  name: ESAFENET CDG
+  author: P1finger
+  tags:
+    - esafenet-cdg
+  description: ESAFENET CDG
+  matchers:
+    - location: body
+      words:
+        - CDGServer3

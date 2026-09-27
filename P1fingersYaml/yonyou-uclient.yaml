@@ -1,0 +1,11 @@
+- id: yonyou-uclient
+  name: Yonyou-uclient
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-uclient
+  description: Yonyou-uclient
+  matchers:
+  - location: body
+    words:
+    - http-equiv=refresh content=0;url=index.jsp

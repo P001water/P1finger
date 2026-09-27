@@ -1,0 +1,14 @@
+- id: oscommerce
+  name: Oscommerce
+  author: P001
+  tags:
+    - oscommerce
+  description: Oscommerce
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: oscsid='
+        - src="images/oscommerce.png
+    - location: body
+      words:
+        - Tags by OSCommerce

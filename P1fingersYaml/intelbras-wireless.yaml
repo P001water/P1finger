@@ -1,0 +1,10 @@
+- id: intelbras-wireless
+  name: Intelbras Wireless
+  author: P1finger
+  tags:
+    - intelbras-wireless
+  description: Intelbras Wireless
+  matchers:
+    - hash:
+        - "-359621743"
+      location: favicon

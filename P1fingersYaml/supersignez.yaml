@@ -1,0 +1,10 @@
+- id: supersignez
+  name: SuperSignEZ
+  author: P1finger
+  tags:
+    - supersignez
+  description: SuperSignEZ
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: connect.sid='

@@ -1,0 +1,14 @@
+- id: locus-solarnoc
+  name: Locus_SolarNOC
+  author: Fofa
+  tags:
+    - locus-solarnoc
+  description: Locus_SolarNOC
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - SolarNOC - Login
+    - location: body
+      words:
+        - SolarNOC - Login

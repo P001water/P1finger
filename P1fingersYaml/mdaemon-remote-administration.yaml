@@ -1,0 +1,10 @@
+- id: mdaemon-administration
+  name: Mdaemon Remote Administration
+  author: P1finger
+  tags:
+    - mdaemon-administration
+  description: Mdaemon Remote Administration
+  matchers:
+    - hash:
+        - "99432374"
+      location: favicon

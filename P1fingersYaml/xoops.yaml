@@ -1,0 +1,17 @@
+- id: xoops
+  name: Xoops
+  author: Fofa
+  tags:
+    - xoops
+  description: Xoops
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - include/xoops.js
+    - location: body
+      words:
+        - include/xoops.js
+    - location: body
+      words:
+        - content="XOOPS"

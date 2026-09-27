@@ -1,0 +1,10 @@
+- id: motioneye
+  name: Motioneye
+  author: P1finger
+  tags:
+    - motioneye
+  description: Motioneye
+  matchers:
+    - hash:
+        - "-923693877"
+      location: favicon

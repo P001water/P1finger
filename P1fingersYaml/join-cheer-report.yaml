@@ -1,0 +1,12 @@
+- id: join-cheer-report
+  name: Join_cheer-report
+  author: P001
+  tags:
+    - join-cheer-report
+  description: Join_cheer-report
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ../netrep
+        - jqci

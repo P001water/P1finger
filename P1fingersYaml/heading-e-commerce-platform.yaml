@@ -1,0 +1,10 @@
+- id: heading-commerce
+  name: Heading-e-commerce-platform
+  author: P001
+  tags:
+    - heading-commerce
+  description: Heading-e-commerce-platform
+  matchers:
+    - location: body
+      words:
+        - window.location.replace('/bin/hdnet.dll/login')

@@ -1,0 +1,10 @@
+- id: dunbar-cyphon
+  name: Dunbar-Cyphon
+  author: P1finger
+  tags:
+    - dunbar-cyphon
+  description: Dunbar-Cyphon
+  matchers:
+    - location: header
+      words:
+        - Cyphon

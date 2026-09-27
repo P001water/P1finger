@@ -1,0 +1,27 @@
+- id: weebly
+  name: Weebly
+  author: Fofa
+  tags:
+    - weebly
+  description: Weebly
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - intern.weebly.net
+    - condition: or
+      location: body
+      words:
+        - wsite-page-index
+    - location: body
+      words:
+        - wsite-page-index
+    - location: header
+      words:
+        - intern.weebly.net
+    - location: body
+      words:
+        - www.weebly.com
+    - location: header
+      words:
+        - www.weebly.com

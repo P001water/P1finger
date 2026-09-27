@@ -1,0 +1,14 @@
+- id: flyspray
+  name: Flyspray
+  author: Fofa
+  tags:
+    - flyspray
+  description: Flyspray
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by Flyspray
+    - location: body
+      words:
+        - powered by flyspray

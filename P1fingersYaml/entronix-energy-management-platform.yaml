@@ -1,0 +1,10 @@
+- id: entronix-energy
+  name: Entronix Energy Management Platform
+  author: P1finger
+  tags:
+    - entronix-energy
+  description: Entronix Energy Management Platform
+  matchers:
+    - hash:
+        - "-368490461"
+      location: favicon

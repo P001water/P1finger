@@ -1,0 +1,12 @@
+- id: wangyuxingyunleadsecvpn
+  name: WangyuxingyunleadsecVPN
+  author: P001
+  tags:
+    - wangyuxingyunleadsecvpn
+  description: WangyuxingyunleadsecVPN
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - leadsec.js
+        - src="/vpn/user/common/

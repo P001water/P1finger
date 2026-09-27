@@ -1,0 +1,10 @@
+- id: tab-link-manager
+  name: Tab-and-link-manager
+  author: P001
+  tags:
+    - tab-link-manager
+  description: Tab-and-link-manager
+  matchers:
+    - location: body
+      words:
+        - <div id="footer_copyright" class="shade footer_copyright">powered by <a href="http://www.wolfshead-solutions.com/ws-products/product-1

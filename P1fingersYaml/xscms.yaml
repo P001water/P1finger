@@ -1,0 +1,11 @@
+- id: xscms-management-system
+  name: XSCMS Management System
+  author: P1finger
+  tags:
+    - xscms
+    - management-system
+  description: XSCMS Management System
+  matchers:
+    - location: body
+      words:
+        - XSCMS管理系统

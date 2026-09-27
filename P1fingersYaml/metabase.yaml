@@ -1,0 +1,18 @@
+- id: metabase
+  name: Metabase
+  author: P1finger
+  tags:
+    - metabase
+  description: Metabase
+  matchers:
+    - hash:
+        - "1953726032"
+      location: favicon
+    - condition: and
+      location: body
+      words:
+        - _metabasebootstrap
+        - _metabaselocalization
+    - location: body
+      words:
+        - Metabase

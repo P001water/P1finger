@@ -1,0 +1,11 @@
+- id: php-csl
+  name: Php-csl
+  author: P001
+  tags:
+    - php-csl
+  description: Php-csl
+  matchers:
+    - location: body
+      words:
+        - content="php code snippet
+        - title="php-csl">php-csl

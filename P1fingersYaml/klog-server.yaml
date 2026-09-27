@@ -1,0 +1,10 @@
+- id: klog
+  name: Klog Server
+  author: P1finger
+  tags:
+    - klog
+  description: Klog Server
+  matchers:
+    - location: body
+      words:
+        - klog server

@@ -1,0 +1,10 @@
+- id: simplehelp
+  name: Simplehelp
+  author: P1finger
+  tags:
+    - simplehelp
+  description: Simplehelp
+  matchers:
+    - hash:
+        - "1117165781"
+      location: favicon

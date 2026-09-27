@@ -1,0 +1,11 @@
+- id: rapid-browser
+  name: Rapid-browser
+  author: P001
+  tags:
+    - rapid-browser
+  description: Rapid-browser
+  matchers:
+    - location: body
+      words:
+        - '<!-- ### bullet table ### -->'
+        - images/login_button.gif" alt="login to rapid browser

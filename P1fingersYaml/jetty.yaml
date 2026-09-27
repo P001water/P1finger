@@ -1,0 +1,24 @@
+- id: jetty
+  name: Jetty
+  author: P1finger
+  tags:
+    - jetty
+  description: Jetty
+  matchers:
+    - location: header
+      words:
+        - Jetty
+    - location: body
+      words:
+        - Powered by Jetty
+    - condition: and
+      location: header
+      words:
+        - 'Server: Jetty'
+    - hash:
+        - ed7d5c39c69262f4ba95418d4f909b10
+      location: favicon
+    - location: body
+      words:
+        - 'server: jetty'
+        - powered by jetty://

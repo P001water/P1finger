@@ -1,0 +1,11 @@
+- id: tenda-master
+  name: Tenda Web Master
+  author: P1finger
+  tags:
+  - tenda
+  - tenda-master
+  description: Tenda Web Master
+  matchers:
+  - hash:
+    - '-2145085239'
+    location: favicon

@@ -1,0 +1,23 @@
+- id: hadoop-administration
+  name: Hadoop-administration
+  author: P001
+  tags:
+  - hadoop
+  - hadoop-administration
+  description: Hadoop-administration
+  matchers:
+  - location: body
+    words:
+    - /static/hadoop.css
+    - class="navbar-brand">hadoop</div>
+- id: hadoop-administration-2
+  name: Hadoop Administration
+  author: P1finger
+  tags:
+  - hadoop
+  - hadoop-administration
+  description: Hadoop Administration
+  matchers:
+  - location: body
+    words:
+    - Namenode information

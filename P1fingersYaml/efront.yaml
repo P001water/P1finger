@@ -1,0 +1,17 @@
+- id: efront
+  name: EFront
+  author: Fofa
+  tags:
+    - efront
+  description: EFront
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href = "http://www.efrontlearning.net
+    - location: body
+      words:
+        - efrontlearning.net
+    - location: body
+      words:
+        - <a href = "http://www.efrontlearning.net

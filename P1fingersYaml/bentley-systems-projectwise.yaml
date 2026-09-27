@@ -1,0 +1,36 @@
+- id: bentley-systems-projectwise
+  name: Bentley-systems-projectwise
+  author: P1finger
+  tags:
+    - bentley-systems-projectwise
+  description: Bentley-systems-projectwise
+  matchers:
+    - location: body
+      words:
+        - href="ProjectWise.ico
+        - ProjectWise Web Server
+    - location: header
+      words:
+        - Bentley.WebSession=
+    - location: body
+      words:
+        - href="projectwise.ico
+- id: bentley-systems-projectwise-2
+  name: Bentley-Systems-ProjectWise
+  author: Fofa
+  tags:
+    - bentley-systems-projectwise
+  description: Bentley-Systems-ProjectWise
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - href="ProjectWise.ico
+    - condition: or
+      location: title
+      words:
+        - ProjectWise Web Server
+    - condition: or
+      location: header
+      words:
+        - Bentley.WebSession=

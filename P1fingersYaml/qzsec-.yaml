@@ -1,0 +1,16 @@
+- id: qzsecqizhi-bastion-host
+  name: Qzsecqizhi Bastion Host
+  author: P1finger
+  tags:
+    - qzsecqizhi
+    - bastion-host
+  description: Qzsecqizhi Bastion Host
+  matchers:
+    - location: body
+      words:
+        - logo-icon-ico72.png
+        - image/top_logo.ico
+        - localStorage.deployPath + "/login?logout";
+    - location: header
+      words:
+        - /shterm

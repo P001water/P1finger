@@ -1,0 +1,33 @@
+- id: kerio-webstar
+  name: Kerio-webstar
+  author: P1finger
+  tags:
+    - kerio-webstar
+  description: Kerio-webstar
+  matchers:
+    - location: header
+      words:
+        - 4D_WebStar
+    - location: body
+      words:
+        - 'server: kerio_webstar'
+        - 'server: webstar'
+- id: kerio-webstar-2
+  name: Kerio-WebSTAR
+  author: Fofa
+  tags:
+    - kerio-webstar
+  description: Kerio-WebSTAR
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Kerio_WebSTAR
+    - condition: or
+      location: header
+      words:
+        - WebSTAR
+    - condition: or
+      location: header
+      words:
+        - 4D_WebStar

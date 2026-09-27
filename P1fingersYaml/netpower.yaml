@@ -1,0 +1,11 @@
+- id: zhongkewangwei-firewall-3
+  name: Zhongkewangwei Firewall
+  author: P1finger
+  tags:
+    - zhongkewangwei
+    - firewall
+  description: Zhongkewangwei Firewall
+  matchers:
+    - location: body
+      words:
+        - 中科网威防火墙

@@ -1,0 +1,22 @@
+- id: hishop
+  name: Hishop
+  author: Fofa
+  tags:
+    - hishop
+  description: Hishop
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - hishop.plugins.openid
+    - condition: or
+      location: body
+      words:
+        - Hishop development team
+    - location: body
+      words:
+        - hishop.plugins.openid
+        - Hishop development team
+    - location: body
+      words:
+        - Hishop development team

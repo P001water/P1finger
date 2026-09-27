@@ -1,0 +1,11 @@
+- id: nextjs
+  name: Nextjs
+  author: P001
+  tags:
+    - nextjs
+  description: Nextjs
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: next.js'
+        - <meta name="next-head-count

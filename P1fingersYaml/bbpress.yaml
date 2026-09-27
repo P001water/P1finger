@@ -1,0 +1,23 @@
+- id: bbpress
+  name: BbPress
+  author: Fofa
+  tags:
+    - bbpress
+  description: BbPress
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <!-- If you like showing off the fact that your server rocks -->
+    - condition: or
+      location: body
+      words:
+        - is proudly powered by <a href="http://bbpress.org
+    - location: body
+      words:
+        - <!-- If you like showing off the fact that your server rocks -->
+        - is proudly powered by <a href="http://bbpress.org
+    - location: body
+      words:
+        - <!-- if you like showing off the fact that your server rocks -->
+        - is proudly powered by <a href="http://bbpress.org

@@ -1,0 +1,20 @@
+- id: epiware
+  name: Epiware
+  author: Fofa
+  tags:
+    - epiware
+  description: Epiware
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Epiware - Project and Document Management
+    - location: body
+      words:
+        - Epiware
+    - location: body
+      words:
+        - epiware - project and document management
+    - location: body
+      words:
+        - Epiware - Project and Document Management

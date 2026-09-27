@@ -1,0 +1,29 @@
+- id: aspilot-cart
+  name: Aspilot-cart
+  author: P1finger
+  tags:
+    - aspilot-cart
+  description: Aspilot-cart
+  matchers:
+    - location: body
+      words:
+        - content="Pilot Cart
+        - /pilot_css_default.css
+- id: aspilot-cart-2
+  name: ASPilot-Cart
+  author: Fofa
+  tags:
+    - aspilot-cart
+  description: ASPilot-Cart
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Pilot Cart
+    - condition: or
+      location: body
+      words:
+        - /pilot_css_default.css
+    - location: body
+      words:
+        - <meta name="copyright" content="Pilot Cart

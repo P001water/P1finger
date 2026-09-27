@@ -1,0 +1,11 @@
+- id: vmware-vcloud-director
+  name: VMware VCloud Director
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-vcloud-director
+  description: VMware VCloud Director
+  matchers:
+  - location: body
+    words:
+    - VMware vCloud Director

@@ -1,0 +1,10 @@
+- id: eset-nod32
+  name: ESET-NOD32
+  author: P1finger
+  tags:
+    - eset-nod32
+  description: ESET-NOD32
+  matchers:
+    - location: header
+      words:
+        - Basic realm="NOD32

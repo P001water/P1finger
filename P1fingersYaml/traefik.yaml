@@ -1,0 +1,16 @@
+- id: traefik
+  name: Traefik
+  author: P1finger
+  tags:
+    - traefik
+  description: Traefik
+  matchers:
+    - location: body
+      words:
+        - Traefik
+    - hash:
+        - 010d94298a0b83cc87846064dc26db44
+      location: favicon
+    - location: body
+      words:
+        - 'content-security-policy: *.traefik.io;'

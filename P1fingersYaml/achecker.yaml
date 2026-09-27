@@ -1,0 +1,11 @@
+- id: achecker
+  name: Achecker
+  author: P1finger
+  tags:
+    - achecker
+  description: Achecker
+  matchers:
+    - location: body
+      words:
+        - content="AChecker is a Web accessibility
+        - 'Checker : Web Accessibility Checker'

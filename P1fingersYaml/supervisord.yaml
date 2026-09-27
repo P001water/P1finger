@@ -1,0 +1,10 @@
+- id: supervisord
+  name: Supervisord
+  author: P001
+  tags:
+    - supervisord
+  description: Supervisord
+  matchers:
+    - location: body
+      words:
+        - images/supervisor.gif

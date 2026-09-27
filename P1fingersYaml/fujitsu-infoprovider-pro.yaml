@@ -1,0 +1,21 @@
+- id: fujitsu-infoprovider-pro
+  name: Fujitsu-infoprovider-pro
+  author: P1finger
+  tags:
+    - fujitsu-infoprovider-pro
+  description: Fujitsu-infoprovider-pro
+  matchers:
+    - location: header
+      words:
+        - Fujitsu-InfoProvider-Pro
+- id: fujitsu-infoprovider-pro-2
+  name: Fujitsu-InfoProvider-Pro
+  author: Fofa
+  tags:
+    - fujitsu-infoprovider-pro
+  description: Fujitsu-InfoProvider-Pro
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Fujitsu-InfoProvider-Pro

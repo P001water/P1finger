@@ -1,0 +1,10 @@
+- id: tipdm
+  name: TipDM
+  author: P1finger
+  tags:
+    - tipdm
+  description: TipDM
+  matchers:
+    - location: body
+      words:
+        - TipDM

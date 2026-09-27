@@ -1,0 +1,11 @@
+- id: kbmszhishiku-management-system
+  name: KBMSzhishiku Management System
+  author: P1finger
+  tags:
+    - kbmszhishiku
+    - management-system
+  description: KBMSzhishiku Management System
+  matchers:
+    - location: body
+      words:
+        - KBMS_知识库管理系统

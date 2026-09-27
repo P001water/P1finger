@@ -1,0 +1,16 @@
+- id: mcms
+  name: Mcms
+  author: P001
+  tags:
+    - mcms
+  description: Mcms
+  matchers:
+    - location: body
+      words:
+        - /mcms/search.do" method=
+    - hash:
+        - "1464851260"
+      location: favicon
+    - location: body
+      words:
+        - /ms-admin/

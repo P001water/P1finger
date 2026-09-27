@@ -1,0 +1,24 @@
+- id: cl-http
+  name: Cl-http
+  author: P1finger
+  tags:
+    - cl-http
+  description: Cl-http
+  matchers:
+    - location: header
+      words:
+        - CL-HTTP
+    - location: body
+      words:
+        - 'server: cl-http'
+- id: cl-http-2
+  name: CL-HTTP
+  author: Fofa
+  tags:
+    - cl-http
+  description: CL-HTTP
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CL-HTTP

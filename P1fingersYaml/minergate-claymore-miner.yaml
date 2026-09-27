@@ -1,0 +1,11 @@
+- id: minergate-claymore-miner
+  name: Minergate-claymore-miner
+  author: P001
+  tags:
+    - minergate-claymore-miner
+  description: Minergate-claymore-miner
+  matchers:
+    - location: body
+      words:
+        - 'eth: gpu0'
+        - 'eth — total speed:'

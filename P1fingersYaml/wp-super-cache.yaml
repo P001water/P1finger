@@ -1,0 +1,21 @@
+- id: wp-super-cache
+  name: Wp-super-cache
+  author: P1finger
+  tags:
+    - wp-super-cache
+  description: Wp-super-cache
+  matchers:
+    - location: header
+      words:
+        - Wp-Super-Cache
+- id: wp-super-cache-2
+  name: Wp-Super-Cache
+  author: Fofa
+  tags:
+    - wp-super-cache
+  description: Wp-Super-Cache
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Wp-Super-Cache

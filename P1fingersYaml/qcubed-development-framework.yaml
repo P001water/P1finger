@@ -1,0 +1,11 @@
+- id: qcubed-development-framework
+  name: Qcubed-development-framework
+  author: P001
+  tags:
+    - qcubed-development-framework
+  description: Qcubed-development-framework
+  matchers:
+    - location: body
+      words:
+        - <b>qcubed version:</b>
+        - <div id="codeversion">qcubed development framework

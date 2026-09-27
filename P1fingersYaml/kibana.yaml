@@ -1,0 +1,25 @@
+- id: kibana
+  name: Kibana
+  author: P1finger
+  tags:
+    - kibana
+  description: Kibana
+  matchers:
+    - location: body
+      words:
+        - Kibana
+        - <title>Elastic
+    - location: header
+      words:
+        - kbn-name
+    - condition: or
+      location: title
+      words:
+        - Kibana
+    - condition: or
+      location: body
+      words:
+        - kbnVersion
+    - location: body
+      words:
+        - 'kbn-name: kibana'

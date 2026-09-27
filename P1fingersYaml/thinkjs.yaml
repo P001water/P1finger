@@ -1,0 +1,10 @@
+- id: thinkjs
+  name: Thinkjs
+  author: P001
+  tags:
+    - thinkjs
+  description: Thinkjs
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: thinkjs'

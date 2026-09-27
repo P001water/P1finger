@@ -1,0 +1,12 @@
+- id: leagsoft-system-4
+  name: Leagsoft System
+  author: P1finger
+  tags:
+    - leagsoft
+    - system
+  description: Leagsoft System
+  matchers:
+    - location: body
+      words:
+        - 联软SDP系统
+        - /UniSSO/

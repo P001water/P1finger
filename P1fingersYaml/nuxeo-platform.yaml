@@ -1,0 +1,10 @@
+- id: nuxeo
+  name: Nuxeo Platform
+  author: P1finger
+  tags:
+    - nuxeo
+  description: Nuxeo Platform
+  matchers:
+    - location: body
+      words:
+        - Nuxeo Platform

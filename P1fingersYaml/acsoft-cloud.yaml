@@ -1,0 +1,11 @@
+- id: acsoft
+  name: Acsoft-cloud
+  author: P001
+  tags:
+    - acsoft
+  description: Acsoft-cloud
+  matchers:
+    - location: body
+      words:
+        - onrememberpasswordclick
+        - sdiyun.com, all rights reserved

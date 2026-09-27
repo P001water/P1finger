@@ -1,0 +1,10 @@
+- id: barracuda-filter
+  name: Barracuda Web Filter
+  author: P1finger
+  tags:
+    - barracuda-filter
+  description: Barracuda Web Filter
+  matchers:
+    - location: body
+      words:
+        - barracuda web filter

@@ -1,0 +1,10 @@
+- id: layerbb
+  name: LayerBB
+  author: P1finger
+  tags:
+    - layerbb
+  description: LayerBB
+  matchers:
+    - location: body
+      words:
+        - content="Development LayerBB"

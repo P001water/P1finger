@@ -1,0 +1,10 @@
+- id: typolight
+  name: TypoLight
+  author: P1finger
+  tags:
+    - typolight
+  description: TypoLight
+  matchers:
+    - location: body
+      words:
+        - This website is powered by TYPOlight Open Source CMS

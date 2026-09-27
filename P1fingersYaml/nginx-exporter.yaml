@@ -1,0 +1,11 @@
+- id: nginx-exporter
+  name: Nginx Exporter
+  author: P1finger
+  tags:
+  - nginx
+  - nginx-exporter
+  description: Nginx Exporter
+  matchers:
+  - location: body
+    words:
+    - NginxExporter

@@ -1,0 +1,13 @@
+- id: dzzoffice
+  name: Dzzoffice-product
+  author: P001
+  tags:
+    - dzzoffice
+  description: Dzzoffice-product
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.dzzoffice.com"
+        - dzz/scripts/dzz_min.js
+        - dzz/system/scripts/jquery.jstree.min.js
+        - misc.php?mod=sendmail

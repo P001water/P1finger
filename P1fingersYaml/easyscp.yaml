@@ -1,0 +1,12 @@
+- id: easyscp
+  name: Easyscp
+  author: P001
+  tags:
+    - easyscp
+  description: Easyscp
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /css/easyscp.login.css
+        - content='easyscp

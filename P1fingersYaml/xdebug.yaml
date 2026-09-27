@@ -1,0 +1,10 @@
+- id: xdebug
+  name: Xdebug
+  author: P001
+  tags:
+    - xdebug
+  description: Xdebug
+  matchers:
+    - location: body
+      words:
+        - 'x-xdebug-profile-filename: /'

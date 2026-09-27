@@ -1,0 +1,11 @@
+- id: baidu-subaidu
+  name: Baidu-subaidu
+  author: P001
+  tags:
+  - baidu
+  - baidu-subaidu
+  description: Baidu-subaidu
+  matchers:
+  - location: body
+    words:
+    - id="yunjiasu_link

@@ -1,0 +1,10 @@
+- id: luma
+  name: Luma Surveillance
+  author: P1finger
+  tags:
+    - luma
+  description: Luma Surveillance
+  matchers:
+    - hash:
+        - "-1351901211"
+      location: favicon

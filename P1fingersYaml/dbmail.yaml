@@ -1,0 +1,10 @@
+- id: yaozhidbmail
+  name: YaozhiDBMail
+  author: P1finger
+  tags:
+    - yaozhidbmail
+  description: YaozhiDBMail
+  matchers:
+    - location: body
+      words:
+        - 遥志DBMail邮件服务器 - Webmail

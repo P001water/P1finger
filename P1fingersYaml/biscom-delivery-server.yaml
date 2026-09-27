@@ -1,0 +1,33 @@
+- id: biscom-delivery
+  name: Biscom-delivery-server
+  author: P1finger
+  tags:
+    - biscom-delivery
+  description: Biscom-delivery-server
+  matchers:
+    - location: body
+      words:
+        - /bds/stylesheets/fds.css
+        - /bds/includes/fdsJavascript.do
+    - location: body
+      words:
+        - /bds/includes/fdsjavascript.do
+        - /bds/stylesheets/fds.css
+    - location: body
+      words:
+        - ANSYS Secure Transfer
+- id: biscom-delivery-2
+  name: Biscom-Delivery-Server
+  author: Fofa
+  tags:
+    - biscom-delivery
+  description: Biscom-Delivery-Server
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /bds/stylesheets/fds.css
+    - condition: or
+      location: body
+      words:
+        - /bds/includes/fdsJavascript.do

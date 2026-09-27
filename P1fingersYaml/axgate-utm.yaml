@@ -1,0 +1,10 @@
+- id: axgate-utm
+  name: AXGATE UTM
+  author: P1finger
+  tags:
+    - axgate-utm
+  description: AXGATE UTM
+  matchers:
+    - location: body
+      words:
+        - class="axgate" ng-controller="logincontroller"

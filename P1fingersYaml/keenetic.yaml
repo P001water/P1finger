@@ -1,0 +1,10 @@
+- id: keenetic
+  name: Keenetic
+  author: P1finger
+  tags:
+    - keenetic
+  description: Keenetic
+  matchers:
+    - hash:
+        - "547282364"
+      location: favicon

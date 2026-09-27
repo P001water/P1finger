@@ -1,0 +1,14 @@
+- id: ngx-openresty
+  name: Ngx_openresty
+  author: Fofa
+  tags:
+    - ngx-openresty
+  description: Ngx_openresty
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ngx_openresty
+    - location: header
+      words:
+        - ngx_openresty

@@ -1,0 +1,10 @@
+- id: websoc
+  name: WEBSOC
+  author: P1finger
+  tags:
+    - websoc
+  description: WEBSOC
+  matchers:
+    - location: body
+      words:
+        - 登录 - WebSOC知道网站立体监控系统 - 知道创宇

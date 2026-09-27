@@ -1,0 +1,10 @@
+- id: nettalk-webserver
+  name: Nettalk-webserver
+  author: P001
+  tags:
+    - nettalk-webserver
+  description: Nettalk-webserver
+  matchers:
+    - location: body
+      words:
+        - 'server: nettalk-webserver'

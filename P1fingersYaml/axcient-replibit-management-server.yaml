@@ -1,0 +1,10 @@
+- id: axcient-replibit
+  name: Axcient Replibit Management Server
+  author: P1finger
+  tags:
+    - axcient-replibit
+  description: Axcient Replibit Management Server
+  matchers:
+    - hash:
+        - "475379699"
+      location: favicon

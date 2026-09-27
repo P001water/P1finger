@@ -1,0 +1,10 @@
+- id: base
+  name: Base Admin
+  author: P1finger
+  tags:
+    - base
+  description: Base Admin
+  matchers:
+    - location: body
+      words:
+        - Base Admin

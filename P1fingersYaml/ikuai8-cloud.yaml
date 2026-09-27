@@ -1,0 +1,13 @@
+- id: ikuai8
+  name: Ikuai8-cloud
+  author: P001
+  tags:
+    - ikuai8
+  description: Ikuai8-cloud
+  matchers:
+    - hash:
+        - c1af9e622eae1dcb95ef44f996bf6228
+      location: favicon
+    - location: body
+      words:
+        - <strong>we're sorry but ikuai cloud platform doesn't

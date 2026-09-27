@@ -1,0 +1,18 @@
+- id: glfusion
+  name: GlFusion
+  author: Fofa
+  tags:
+    - glfusion
+  description: GlFusion
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - by <a href="http://www.glfusion.org/
+    - location: body
+      words:
+        - by <a href="http://www.glfusion.org/
+    - location: body
+      words:
+        - glFusion
+        - <a href="http://www.glfusion.org/" target="_blank">

@@ -1,0 +1,12 @@
+- id: aspnet-requestvalidationmode
+  name: Aspnet-requestvalidationmode
+  author: P001
+  tags:
+  - aspnet
+  - aspnet-requestvalidationmode
+  description: Aspnet-requestvalidationmode
+  matchers:
+  - location: body
+    words:
+    - httprequestvalidationexception
+    - request validation has detected a potentially dangerous client input value

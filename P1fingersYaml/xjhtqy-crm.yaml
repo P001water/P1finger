@@ -1,0 +1,10 @@
+- id: xjhtqy-crm
+  name: Xjhtqy-crm
+  author: P001
+  tags:
+    - xjhtqy-crm
+  description: Xjhtqy-crm
+  matchers:
+    - location: body
+      words:
+        - class="hidden-xs ewheaderrow"><img src="aspximages/htqy.png"

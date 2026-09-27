@@ -1,0 +1,10 @@
+- id: cnrdm
+  name: Cnrdm-product
+  author: P001
+  tags:
+    - cnrdm
+  description: Cnrdm-product
+  matchers:
+    - location: body
+      words:
+        - 登录青铜器rdm</b></div>

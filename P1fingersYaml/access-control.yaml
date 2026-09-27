@@ -1,0 +1,11 @@
+- id: access
+  name: Access-Control
+  author: Fofa
+  tags:
+    - access
+  description: Access-Control
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Access-Control-Allow-Methods

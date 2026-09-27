@@ -1,0 +1,11 @@
+- id: alibi-nvr
+  name: Alibi Nvr
+  author: P1finger
+  tags:
+  - alibi
+  - alibi-nvr
+  description: Alibi Nvr
+  matchers:
+  - hash:
+    - '1876585825'
+    location: favicon

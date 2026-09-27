@@ -1,0 +1,18 @@
+- id: webobjects
+  name: WebObjects
+  author: Fofa
+  tags:
+    - webobjects
+  description: WebObjects
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WebObjects
+    - condition: and
+      location: header
+      words:
+        - wosid
+    - location: header
+      words:
+        - wosid

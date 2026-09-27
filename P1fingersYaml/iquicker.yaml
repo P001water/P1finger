@@ -1,0 +1,10 @@
+- id: iquicker
+  name: IQuicker
+  author: P1finger
+  tags:
+    - iquicker
+  description: IQuicker
+  matchers:
+    - location: body
+      words:
+        - iQuicker

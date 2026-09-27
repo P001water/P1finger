@@ -1,0 +1,10 @@
+- id: teradata-parallel
+  name: Teradata-parallel
+  author: P001
+  tags:
+    - teradata-parallel
+  description: Teradata-parallel
+  matchers:
+    - location: body
+      words:
+        - var currentmode ='fittowindowonload

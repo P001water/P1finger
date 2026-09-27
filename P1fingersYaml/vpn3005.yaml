@@ -1,0 +1,10 @@
+- id: maipuvpn3005
+  name: MaipuVPN3005
+  author: P1finger
+  tags:
+    - maipuvpn3005
+  description: MaipuVPN3005
+  matchers:
+    - location: body
+      words:
+        - 'WWW-Authenticate: Basic realm="MPSec VPN3005C-104"'

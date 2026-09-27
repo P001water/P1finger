@@ -1,0 +1,10 @@
+- id: cem-systems-ac2000
+  name: CEM-Systems-AC2000
+  author: P1finger
+  tags:
+    - cem-systems-ac2000
+  description: CEM-Systems-AC2000
+  matchers:
+    - location: header
+      words:
+        - 'Server: GoAhead-Webs/2.5.0'

@@ -1,0 +1,12 @@
+- id: ingatefirewallxilie
+  name: IngateFirewallxilie Firewall
+  author: P1finger
+  tags:
+    - ingatefirewallxilie
+    - firewall
+  description: IngateFirewallxilie Firewall
+  matchers:
+    - location: favicon
+    - location: header
+      words:
+        - Ingate-Firewall

@@ -1,0 +1,18 @@
+- id: bobo
+  name: Bobo
+  author: Fofa
+  tags:
+    - bobo
+  description: Bobo
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Bobo-Exception-Line
+    - condition: or
+      location: header
+      words:
+        - x-ksscommands
+    - location: header
+      words:
+        - x-ksscommands

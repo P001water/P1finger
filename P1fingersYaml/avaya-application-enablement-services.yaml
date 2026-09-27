@@ -1,0 +1,11 @@
+- id: avaya-enablement-services
+  name: Avaya-application-enablement-services
+  author: P001
+  tags:
+    - avaya-enablement-services
+  description: Avaya-application-enablement-services
+  matchers:
+    - location: body
+      words:
+        - <b>application enablement services&nbsp;</b>
+        - avaya

@@ -1,0 +1,10 @@
+- id: pcitc-file
+  name: Pcitc-file-management-system
+  author: P001
+  tags:
+    - pcitc-file
+  description: Pcitc-file-management-system
+  matchers:
+    - location: body
+      words:
+        - js/scripts/common/easyui/jquery.easyui.min.js

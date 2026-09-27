@@ -1,0 +1,10 @@
+- id: ipecs
+  name: Ipecs
+  author: P1finger
+  tags:
+    - ipecs
+  description: Ipecs
+  matchers:
+    - hash:
+        - "-195508437"
+      location: favicon

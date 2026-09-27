@@ -1,0 +1,10 @@
+- id: tjpcms
+  name: Tjpcms
+  author: P1finger
+  tags:
+    - tjpcms
+  description: Tjpcms
+  matchers:
+    - location: body
+      words:
+        - tjpcms_clscont

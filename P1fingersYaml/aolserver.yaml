@@ -1,0 +1,14 @@
+- id: aolserver
+  name: AOLserver
+  author: Fofa
+  tags:
+    - aolserver
+  description: AOLserver
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - AOLserver
+    - location: header
+      words:
+        - AOLserver

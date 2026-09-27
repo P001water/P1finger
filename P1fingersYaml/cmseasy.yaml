@@ -1,0 +1,34 @@
+- id: cmseasy
+  name: Cmseasy
+  author: P1finger
+  tags:
+    - cmseasy
+  description: Cmseasy
+  matchers:
+    - location: body
+      words:
+        - Powered by CmsEasy
+        - content="CmsEasy
+    - location: header
+      words:
+        - http://www.cmseasy.cn/service_1.html
+    - condition: or
+      location: title
+      words:
+        - Powered by CmsEasy
+    - condition: or
+      location: header
+      words:
+        - http://www.cmseasy.cn/service_1.html
+    - condition: or
+      location: body
+      words:
+        - content="CmsEasy
+    - location: body
+      words:
+        - content="cmseasy
+    - location: body
+      words:
+        - content="CmsEasy
+        - powered by cmseasy
+        - http://www.cmseasy.cn/service_1.html

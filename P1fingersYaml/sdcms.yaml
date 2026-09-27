@@ -1,0 +1,68 @@
+- id: sdcms
+  name: Sdcms
+  author: Fofa
+  tags:
+    - sdcms
+  description: Sdcms
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - powered by sdcms
+    - condition: and
+      location: body
+      words:
+        - /js/sdcms.js")
+    - location: body
+      words:
+        - powered by sdcms
+        - var webroot=
+        - /js/sdcms.js
+    - location: body
+      words:
+        - sdcms.js"
+- id: sdcmssanheyiqiye
+  name: SDCMSsanheyiqiye CMS
+  author: P1finger
+  tags:
+    - sdcmssanheyiqiye
+    - cms
+  description: SDCMSsanheyiqiye CMS
+  matchers:
+    - location: body
+      words:
+        - SDCMS三合一企业网站管理系统
+- id: sdcmssanwangheyiqiye
+  name: SDCMSsanwangheyiqiye CMS
+  author: P1finger
+  tags:
+    - sdcmssanwangheyiqiye
+    - cms
+  description: SDCMSsanwangheyiqiye CMS
+  matchers:
+    - location: body
+      words:
+        - SDCMS三网合一企业网站管理系统
+- id: sdcmsshendun
+  name: Sdcmsshendun CMS
+  author: P001
+  tags:
+    - sdcmsshendun
+    - cms
+  description: Sdcmsshendun CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - sdcms
+- id: sdcmsshendun-2
+  name: SDCMSshendun CMS
+  author: P1finger
+  tags:
+    - sdcmsshendun
+    - cms
+  description: SDCMSshendun CMS
+  matchers:
+    - location: body
+      words:
+        - SDCMS神盾内容管理系统

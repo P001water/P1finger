@@ -1,0 +1,19 @@
+- id: infoglue
+  name: Infoglue
+  author: Fofa
+  tags:
+    - infoglue
+  description: Infoglue
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - infoglue
+    - condition: or
+      location: body
+      words:
+        - infoglueBox.png
+    - location: body
+      words:
+        - infoglue
+        - infoglueBox.png

@@ -1,0 +1,10 @@
+- id: cubecart
+  name: CubeCart
+  author: P1finger
+  tags:
+    - cubecart
+  description: CubeCart
+  matchers:
+    - location: body
+      words:
+        - Powered by CubeCart

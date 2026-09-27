@@ -1,0 +1,21 @@
+- id: fluid-dynamics-search-engine
+  name: Fluid-dynamics-search-engine
+  author: P1finger
+  tags:
+    - fluid-dynamics-search-engine
+  description: Fluid-dynamics-search-engine
+  matchers:
+    - location: body
+      words:
+        - content="fluid dynamics
+- id: fluid-dynamics-search-engine-2
+  name: Fluid-Dynamics-Search-Engine
+  author: Fofa
+  tags:
+    - fluid-dynamics-search-engine
+  description: Fluid-Dynamics-Search-Engine
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="fluid dynamics

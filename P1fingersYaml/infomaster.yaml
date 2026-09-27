@@ -1,0 +1,29 @@
+- id: infomaster
+  name: Infomaster
+  author: Fofa
+  tags:
+    - infomaster
+  description: Infomaster
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /MasterView.css
+    - condition: or
+      location: body
+      words:
+        - /masterView.js
+    - condition: or
+      location: body
+      words:
+        - /MasterView/MPLeftNavStyle/PanelBar.MPIFMA.css
+    - location: body
+      words:
+        - /MasterView.css
+        - /masterView.js
+        - /MasterView/MPLeftNavStyle/PanelBar.MPIFMA.css
+    - location: body
+      words:
+        - /masterview.css
+        - /masterview.js
+        - /masterview/mpleftnavstyle/panelbar.mpifma.css

@@ -1,0 +1,11 @@
+- id: junyun10-management-system
+  name: Junyun10 Management System
+  author: P1finger
+  tags:
+    - junyun10
+    - management-system
+  description: Junyun10 Management System
+  matchers:
+    - location: body
+      words:
+        - Jun云平台管理系统1.0

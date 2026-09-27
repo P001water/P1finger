@@ -1,0 +1,13 @@
+- id: pgadmin
+  name: Pgadmin
+  author: P001
+  tags:
+    - pgadmin
+  description: Pgadmin
+  matchers:
+    - location: body
+      words:
+        - pgadmin 客户端安装包
+    - location: body
+      words:
+        - pgAdmin

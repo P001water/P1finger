@@ -1,0 +1,26 @@
+- id: citrix-confproxy
+  name: Citrix-confproxy
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-confproxy
+  description: Citrix-confproxy
+  matchers:
+  - location: body
+    words:
+    - confproxy
+- id: citrix-confproxy-2
+  name: Citrix-ConfProxy
+  author: Fofa
+  tags:
+  - citrix
+  - citrix-confproxy
+  description: Citrix-ConfProxy
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - confproxy
+  - location: header
+    words:
+    - confproxy

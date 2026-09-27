@@ -1,0 +1,29 @@
+- id: gossamer-forum
+  name: Gossamer-forum
+  author: P1finger
+  tags:
+    - gossamer-forum
+  description: Gossamer-forum
+  matchers:
+    - location: body
+      words:
+        - href="gforum.cgi?username=
+        - Gossamer Forum
+    - location: body
+      words:
+        - href="gforum.cgi?username=
+- id: gossamer-forum-2
+  name: Gossamer-Forum
+  author: Fofa
+  tags:
+    - gossamer-forum
+  description: Gossamer-Forum
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - href="gforum.cgi?username=
+    - condition: or
+      location: title
+      words:
+        - Gossamer Forum

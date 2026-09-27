@@ -1,0 +1,12 @@
+- id: sitecore-2
+  name: Sitecore version
+  author: nuclei
+  tags:
+  - sitecore
+  description: Sitecore version
+  paths:
+  - /sitecore/shell/sitecore.version.xml
+  matchers:
+  - location: body
+    words:
+    - Sitecore Corporation

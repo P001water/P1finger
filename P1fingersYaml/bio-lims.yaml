@@ -1,0 +1,10 @@
+- id: bio-lims
+  name: Bio-lims
+  author: P001
+  tags:
+    - bio-lims
+  description: Bio-lims
+  matchers:
+    - location: body
+      words:
+        - /lims/dist/css/font-awesome.min.css

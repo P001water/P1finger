@@ -1,0 +1,10 @@
+- id: golden-dragon-card-ecard-website-query-subsystem
+  name: Golden-dragon-card-ecard-website-query-subsystem
+  author: P001
+  tags:
+    - golden-dragon-card-ecard-website-query-subsystem
+  description: Golden-dragon-card-ecard-website-query-subsystem
+  matchers:
+    - location: body
+      words:
+        - location.href="homelogin.action

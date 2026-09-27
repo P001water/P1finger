@@ -1,0 +1,11 @@
+- id: novell-zenworks
+  name: Novell-zenworks
+  author: P001
+  tags:
+    - novell-zenworks
+  description: Novell-zenworks
+  matchers:
+    - location: body
+      words:
+        - /zenworks/js/dojo
+        - managementzonename

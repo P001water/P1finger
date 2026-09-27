@@ -1,0 +1,11 @@
+- id: gm-electronic-document
+  name: Gm-electronic-security-document-management-system
+  author: P001
+  tags:
+    - gm-electronic-document
+  description: Gm-electronic-security-document-management-system
+  matchers:
+    - location: body
+      words:
+        - </span>国迈安全私有云部. <span>all rights reserved
+        - 国迈安全私有云部 all rights reserved

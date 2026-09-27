@@ -1,0 +1,14 @@
+- id: footprint
+  name: Footprint
+  author: Fofa
+  tags:
+    - footprint
+  description: Footprint
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Footprint
+    - location: header
+      words:
+        - Footprint

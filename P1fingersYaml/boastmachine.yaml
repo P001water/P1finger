@@ -1,0 +1,23 @@
+- id: boastmachine
+  name: BoastMachine
+  author: Fofa
+  tags:
+    - boastmachine
+  description: BoastMachine
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by boastMachine
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://boastology.com
+    - location: body
+      words:
+        - powered by boastMachine
+        - Powered by <a href="http://boastology.com
+    - location: body
+      words:
+        - powered by <a href="http://boastology.com
+        - powered by boastmachine

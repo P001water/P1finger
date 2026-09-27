@@ -1,0 +1,10 @@
+- id: oclc-ezproxy
+  name: OCLC-EZproxy
+  author: P1finger
+  tags:
+    - oclc-ezproxy
+  description: OCLC-EZproxy
+  matchers:
+    - location: body
+      words:
+        - 'Server: EZproxy'

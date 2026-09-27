@@ -1,0 +1,11 @@
+- id: tamronosiptv-system
+  name: TamronOSIPTV System
+  author: P1finger
+  tags:
+    - tamronosiptv
+    - system
+  description: TamronOSIPTV System
+  matchers:
+    - location: body
+      words:
+        - TamronOS

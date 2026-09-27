@@ -1,0 +1,17 @@
+- id: elastic
+  name: Elastic
+  author: P1finger
+  tags:
+    - elastic
+  description: Elastic
+  matchers:
+    - hash:
+        - "1611729805"
+      location: favicon
+    - hash:
+        - 7d0688b40ba64da737b12a3257e6c7b3
+      location: favicon
+    - location: body
+      words:
+        - 'kbn-license-sig: *'
+        - <title>elastic</title>

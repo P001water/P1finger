@@ -1,0 +1,20 @@
+- id: soffice
+  name: Soffice
+  author: Fofa
+  tags:
+    - soffice
+  description: Soffice
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - OA办公管理平台
+    - location: body
+      words:
+        - OA办公管理平台
+    - location: body
+      words:
+        - <title>soffice登录</title>
+    - location: body
+      words:
+        - soffice

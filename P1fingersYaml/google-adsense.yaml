@@ -1,0 +1,11 @@
+- id: google-adsense
+  name: Google_AdSense
+  author: Fofa
+  tags:
+    - google-adsense
+  description: Google_AdSense
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - googlesyndication

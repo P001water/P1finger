@@ -1,0 +1,54 @@
+- id: kerio-winroute
+  name: Kerio-winroute-firewall
+  author: P1finger
+  tags:
+    - kerio-winroute
+  description: Kerio-winroute-firewall
+  matchers:
+    - location: body
+      words:
+        - /gfx/kerio_logo.gif
+        - Kerio WinRoute Firewall
+    - location: header
+      words:
+        - Kerio WinRoute Firewall Embedded Web Server
+- id: kerio-winroute-2
+  name: Kerio_WinRoute_Firewall
+  author: Fofa
+  tags:
+    - kerio-winroute
+  description: Kerio_WinRoute_Firewall
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Kerio WinRoute Firewall
+    - condition: or
+      location: body
+      words:
+        - style/bodyNonauth.css
+    - location: body
+      words:
+        - style/bodyNonauth.css
+    - location: header
+      words:
+        - Kerio WinRoute Firewall
+- id: kerio-winroute-3
+  name: Kerio-WinRoute-Firewall
+  author: Fofa
+  tags:
+    - kerio-winroute
+  description: Kerio-WinRoute-Firewall
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Kerio WinRoute Firewall Embedded Web Server
+    - condition: or
+      location: body
+      words:
+        - /gfx/kerio_logo.gif
+    - condition: or
+      location: title
+      words:
+        - Kerio WinRoute Firewall

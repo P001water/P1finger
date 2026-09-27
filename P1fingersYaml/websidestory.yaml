@@ -1,0 +1,19 @@
+- id: websidestory
+  name: Websidestory
+  author: P001
+  tags:
+    - websidestory
+  description: Websidestory
+  matchers:
+    - location: body
+      words:
+        - <!-- websidestory html for search -->
+        - http://websidestory.com
+        - websidestory code
+        - websidestory,inc. all rights reserved. u.s.patent no. 6,393,479b1
+    - location: body
+      words:
+        - WEBSIDESTORY CODE HBX
+    - location: body
+      words:
+        - WEBSIDESTORY CODE

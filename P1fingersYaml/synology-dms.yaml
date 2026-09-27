@@ -1,0 +1,12 @@
+- id: synology-dms
+  name: Synology-dms
+  author: P001
+  tags:
+  - synology
+  - synology-dms
+  description: Synology-dms
+  matchers:
+  - location: body
+    words:
+    - class="logo-dsm"
+    - class="logo-synology"

@@ -1,0 +1,11 @@
+- id: baidu-anquanbao
+  name: Baidu-Anquanbao
+  author: P1finger
+  tags:
+  - baidu
+  - baidu-anquanbao
+  description: Baidu-Anquanbao
+  matchers:
+  - location: header
+    words:
+    - x-powered-by-anquanbao

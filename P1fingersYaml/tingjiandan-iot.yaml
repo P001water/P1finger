@@ -1,0 +1,10 @@
+- id: tingjiandan-iot
+  name: Tingjiandan-iot
+  author: P001
+  tags:
+    - tingjiandan-iot
+  description: Tingjiandan-iot
+  matchers:
+    - location: body
+      words:
+        - id="hwebsystemtitle"

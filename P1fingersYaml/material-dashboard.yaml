@@ -1,0 +1,10 @@
+- id: material-dashboard
+  name: Material Dashboard
+  author: P1finger
+  tags:
+    - material-dashboard
+  description: Material Dashboard
+  matchers:
+    - hash:
+        - "1913538826"
+      location: favicon

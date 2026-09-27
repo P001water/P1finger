@@ -1,0 +1,11 @@
+- id: fastjson
+  name: Fastjson Version
+  author: nuclei
+  tags:
+  - fastjson
+  description: If the server returns an exception to the client,The fastjson version
+    will be retrieved,Fastjson versions greater than 1.2.41,Contains the latest version(1.2.76).
+  matchers:
+  - location: body
+    words:
+    - fastjson-version

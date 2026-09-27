@@ -1,0 +1,10 @@
+- id: trend-adsubtract-proxy
+  name: Trend-AdSubtract-proxy
+  author: P1finger
+  tags:
+    - trend-adsubtract-proxy
+  description: Trend-AdSubtract-proxy
+  matchers:
+    - location: header
+      words:
+        - AdSubtract

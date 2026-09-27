@@ -1,0 +1,11 @@
+- id: hp-3com-officeconnect
+  name: Hp-3com-officeconnect-vpn-firewall
+  author: P001
+  tags:
+  - hp
+  - hp-3com-officeconnect
+  description: Hp-3com-officeconnect-vpn-firewall
+  matchers:
+  - location: body
+    words:
+    - 3com - officeconnect vpn firewall

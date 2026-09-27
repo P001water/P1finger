@@ -1,0 +1,10 @@
+- id: fritz-box
+  name: Fritz!box
+  author: P1finger
+  tags:
+    - fritz-box
+  description: Fritz!box
+  matchers:
+    - hash:
+        - "-219752612"
+      location: favicon

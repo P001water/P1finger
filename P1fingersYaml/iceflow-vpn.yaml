@@ -1,0 +1,25 @@
+- id: iceflow-2
+  name: Iceflow-vpn
+  author: P001
+  tags:
+    - iceflow
+  description: Iceflow-vpn
+  matchers:
+    - location: body
+      words:
+        - iceflow/tweb
+        - www.icevpn.org
+- id: iceflow-3
+  name: ICEFLOW_VPN
+  author: Fofa
+  tags:
+    - iceflow
+  description: ICEFLOW_VPN
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: ICEFLOW'
+    - location: header
+      words:
+        - 'Server: ICEFLOW'

@@ -1,0 +1,14 @@
+- id: motorola-sbg900
+  name: Motorola_SBG900
+  author: Fofa
+  tags:
+    - motorola-sbg900
+  description: Motorola_SBG900
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Motorola SBG900
+    - location: body
+      words:
+        - Motorola SBG900

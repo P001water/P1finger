@@ -1,0 +1,14 @@
+- id: phpfreechat
+  name: Phpfreechat
+  author: P001
+  tags:
+    - phpfreechat
+  description: Phpfreechat
+  matchers:
+    - location: body
+      words:
+        - powered by phpfreechat
+        - src="http://www.phpfreechat.net/pub/
+    - location: header
+      words:
+        - 'Set-Cookie: phpFreeChat'

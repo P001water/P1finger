@@ -1,0 +1,21 @@
+- id: tableau-server
+  name: Salesforce Tableau Server
+  author: nuclei
+  tags:
+  - salesforce
+  - tableau_server
+  - tableau
+  description: 'Detects Salesforce Tableau Server and extracts the buildid.
+
+    '
+  matchers:
+  - location: header
+    words:
+    - 'X-Tableau: Tableau Server'
+    - 'Server: Tableau'
+    condition: or
+  - location: body
+    words:
+    - VizPortalRun
+    - vizportal
+    condition: or

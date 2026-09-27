@@ -1,0 +1,22 @@
+- id: rising-antivirus-wall
+  name: Rising-antivirus-wall
+  author: P001
+  tags:
+  - rising
+  - rising-antivirus-wall
+  description: Rising-antivirus-wall
+  matchers:
+  - location: body
+    words:
+    - action="/index.php" onsubmit="return checkfrm(this);
+- id: rising-antivirus-wall-2
+  name: Rising Antivirus Wall
+  author: P1finger
+  tags:
+  - rising
+  - rising-antivirus-wall
+  description: Rising Antivirus Wall
+  matchers:
+  - location: body
+    words:
+    - 瑞星防毒墙

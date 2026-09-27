@@ -1,0 +1,40 @@
+- id: group-office
+  name: Group-office
+  author: P1finger
+  tags:
+    - group-office
+  description: Group-office
+  matchers:
+    - location: body
+      words:
+        - Group-Office
+    - location: header
+      words:
+        - groupoffice=
+    - location: body
+      words:
+        - '"theme":"group-office",'
+        - powered by group-office
+    - location: body
+      words:
+        - Group-Office
+        - Powered by Group-Office
+- id: group-office-2
+  name: Group-Office
+  author: Fofa
+  tags:
+    - group-office
+  description: Group-Office
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - groupoffice=
+    - condition: or
+      location: body
+      words:
+        - powered by Group-Office
+    - condition: or
+      location: body
+      words:
+        - theme":"Group-Office",

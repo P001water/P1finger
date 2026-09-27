@@ -1,0 +1,14 @@
+- id: citrix-receiver
+  name: Citrix-receiver
+  author: P001
+  tags:
+  - citrix
+  - citrix-receiver
+  description: Citrix-receiver
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - logonbelt-topshadow
+    - upgradeavailable-already-installed-separator bar-separator
+    - href="clients/html5client/src/receiverthirdpartynotices.html"

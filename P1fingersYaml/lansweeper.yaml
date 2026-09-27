@@ -1,0 +1,10 @@
+- id: lansweeper
+  name: Lansweeper
+  author: P001
+  tags:
+    - lansweeper
+  description: Lansweeper
+  matchers:
+    - location: body
+      words:
+        - <title>lansweeper - login</title>

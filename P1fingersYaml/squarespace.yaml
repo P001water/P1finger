@@ -1,0 +1,29 @@
+- id: squarespace
+  name: Squarespace
+  author: P001
+  tags:
+    - squarespace
+  description: Squarespace
+  matchers:
+    - location: body
+      words:
+        - 'new squarespace.fixedpositiontip("logout successful", "you have been successfully logged out.", { xmargin: 15, ymargin: 15, icon: "/universal/images/helptip-info.png", orientation: "upper-right", viewportfixed: true, autohide: 1800 }).show();'
+- id: squarespace-website-builder
+  name: Squarespace Website Builder
+  author: Fofa
+  tags:
+    - squarespace
+    - website-builder
+  description: Squarespace Website Builder
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - SS_MID
+    - condition: and
+      location: header
+      words:
+        - squarespace.net
+    - location: header
+      words:
+        - squarespace.net

@@ -1,0 +1,10 @@
+- id: orenosv
+  name: Orenosv
+  author: P001
+  tags:
+    - orenosv
+  description: Orenosv
+  matchers:
+    - location: body
+      words:
+        - 'server: orenosv'

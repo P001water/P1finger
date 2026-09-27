@@ -1,0 +1,11 @@
+- id: aiketeplmxietong
+  name: AiketePLMxietong Management Platform
+  author: P1finger
+  tags:
+    - aiketeplmxietong
+    - management-platform
+  description: AiketePLMxietong Management Platform
+  matchers:
+    - location: body
+      words:
+        - 爱科特PLM系统协同管理平台

@@ -1,0 +1,11 @@
+- id: articlepublisherpro
+  name: Articlepublisherpro
+  author: P001
+  tags:
+    - articlepublisherpro
+  description: Articlepublisherpro
+  matchers:
+    - location: body
+      words:
+        - content="article publisher pro
+        - www.articlepublisherpro.com

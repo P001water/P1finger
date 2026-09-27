@@ -1,0 +1,15 @@
+- id: facebook-plugin
+  name: Facebook-Plugin
+  author: Fofa
+  tags:
+    - facebook-plugin
+  description: Facebook-Plugin
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - www.facebook.com/plugins/
+    - condition: or
+      location: body
+      words:
+        - apps.facebook.com/plugins/

@@ -1,0 +1,19 @@
+- id: sharepoint-web-services
+  name: Microsoft SharePoint - Web Services
+  author: nuclei
+  tags:
+  - sharepoint
+  - iis
+  - microsoft
+  description: 'Detected exposed SharePoint web services via /_vti_bin/spdisco.aspx
+    endpoint
+
+    '
+  paths:
+  - /_vti_bin/spdisco.aspx
+  matchers:
+  - location: body
+    words:
+    - <discovery
+    - <contractRef
+    condition: and

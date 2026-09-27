@@ -1,0 +1,39 @@
+- id: kingdee-5
+  name: Kingdee
+  author: P001
+  tags:
+    - kingdee
+  description: Kingdee
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - kingdee.entryrole
+        - loginkdlogo
+        - /eassso/common
+        - class="kd-div-loading-ct"
+        - eassessionid
+        - logo-kingdee.png
+        - var formidafterlogin = '"bos_mainconsolesutra"
+        - 金蝶国际软件集团有限公司版权所有
+- id: kingdeechanpin
+  name: Kingdeechanpin
+  author: P1finger
+  tags:
+    - kingdeechanpin
+  description: Kingdeechanpin
+  matchers:
+    - location: body
+      words:
+        - .kingdee.com
+- id: kingdee-6
+  name: Kingdee
+  author: P1finger
+  tags:
+    - kingdee
+  description: Kingdee
+  matchers:
+    - location: body
+      words:
+        - /eassso/
+        - 金蝶国际软件集团有限公司

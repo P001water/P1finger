@@ -1,0 +1,10 @@
+- id: w5-soar
+  name: W5 SOAR
+  author: P1finger
+  tags:
+    - w5-soar
+  description: W5 SOAR
+  matchers:
+    - location: body
+      words:
+        - W5 SOAR

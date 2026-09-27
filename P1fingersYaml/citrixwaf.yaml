@@ -1,0 +1,12 @@
+- id: citrixwaf
+  name: CitrixWAF
+  author: P1finger
+  tags:
+    - citrixwaf
+  description: CitrixWAF
+  matchers:
+    - location: body
+      words:
+        - Application Firewall Block Page
+        - 'Violation Category: APPFW_'
+        - AppFW Session ID

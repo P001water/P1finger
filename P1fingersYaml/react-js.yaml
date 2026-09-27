@@ -1,0 +1,15 @@
+- id: react-js
+  name: React.js
+  author: Fofa
+  tags:
+    - react-js
+  description: React.js
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /react.js
+    - condition: or
+      location: body
+      words:
+        - React.createClass

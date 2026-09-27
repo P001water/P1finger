@@ -1,0 +1,11 @@
+- id: jindianwangankexintosv20
+  name: JindianwangankexinTOSV20 Operation Management
+  author: P1finger
+  tags:
+    - jindianwangankexintosv20
+    - operation-management
+  description: JindianwangankexinTOSV20 Operation Management
+  matchers:
+    - location: body
+      words:
+        - <title>金电网安可信运维管理系统TOS V2.0</title>

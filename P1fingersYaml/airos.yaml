@@ -1,0 +1,25 @@
+- id: airos
+  name: AirOS
+  author: Fofa
+  tags:
+    - airos
+  description: AirOS
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - AIROS_SESSIONID
+    - condition: or
+      location: header
+      words:
+        - cookiechecker?uri=
+    - location: header
+      words:
+        - cookiechecker?uri=
+    - hash:
+        - "1020814938"
+        - "-697231354"
+      location: favicon
+    - hash:
+        - "-697231354"
+      location: favicon

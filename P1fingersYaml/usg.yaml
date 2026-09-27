@@ -1,0 +1,26 @@
+- id: tianqinghanmausg-firewall
+  name: TianqinghanmaUSG Firewall
+  author: P1finger
+  tags:
+    - tianqinghanmausg
+    - firewall
+  description: TianqinghanmaUSG Firewall
+  matchers:
+    - location: body
+      words:
+        - 天清汉马USG
+- id: venustech-firewall
+  name: Venustech Firewall
+  author: P001
+  tags:
+    - venustech
+    - firewall
+  description: Venustech Firewall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - venusense
+        - 天清汉马usg防火墙
+        - /cgi-bin/webui?op=get_product_model
+        - 天清汉马usg

@@ -1,0 +1,17 @@
+- id: webedition
+  name: WebEdition
+  author: Fofa
+  tags:
+    - webedition
+  description: WebEdition
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - generator" content="webEdition
+    - location: body
+      words:
+        - generator" content="webEdition
+    - location: body
+      words:
+        - webEdition CMS

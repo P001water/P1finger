@@ -1,0 +1,14 @@
+- id: mod-macro
+  name: Mod_macro
+  author: Fofa
+  tags:
+    - mod-macro
+  description: Mod_macro
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_macro
+    - location: header
+      words:
+        - mod_macro

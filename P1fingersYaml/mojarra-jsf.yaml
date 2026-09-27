@@ -1,0 +1,10 @@
+- id: mojarra-jsf
+  name: Mojarra-jsf
+  author: P001
+  tags:
+    - mojarra-jsf
+  description: Mojarra-jsf
+  matchers:
+    - location: body
+      words:
+        - <input location="hidden" name="javax.faces.viewstate

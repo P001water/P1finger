@@ -1,0 +1,10 @@
+- id: cluster
+  name: Cluster
+  author: P1finger
+  tags:
+    - cluster
+  description: Cluster
+  matchers:
+    - location: body
+      words:
+        - Cluster Overview

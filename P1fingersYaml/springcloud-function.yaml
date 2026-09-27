@@ -1,0 +1,10 @@
+- id: springcloud-function
+  name: Springcloud-function
+  author: P1finger
+  tags:
+    - springcloud-function
+  description: Springcloud-function
+  matchers:
+    - location: body
+      words:
+        - '"error":"Internal Server Error"'

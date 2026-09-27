@@ -1,0 +1,21 @@
+- id: twcms-2
+  name: Twcms
+  author: Fofa
+  tags:
+    - twcms
+  description: Twcms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /twcms/theme/
+    - condition: and
+      location: body
+      words:
+        - /css/global.css
+    - location: body
+      words:
+        - twcms/theme
+    - location: body
+      words:
+        - src="/twcms/theme/

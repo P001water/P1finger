@@ -1,0 +1,10 @@
+- id: bozon
+  name: Bozon
+  author: P1finger
+  tags:
+    - bozon
+  description: Bozon
+  matchers:
+    - location: body
+      words:
+        - <meta name="application-name" content="BoZoN">

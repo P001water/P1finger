@@ -1,0 +1,10 @@
+- id: terminal-feature-collection
+  name: Terminal-feature-collection-and-control-system
+  author: P001
+  tags:
+    - terminal-feature-collection
+  description: Terminal-feature-collection-and-control-system
+  matchers:
+    - location: body
+      words:
+        - /home/pkibinduser?subjectname=

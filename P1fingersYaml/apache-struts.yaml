@@ -1,0 +1,19 @@
+- id: apache-struts
+  name: Apache-Struts
+  author: P001
+  tags:
+  - apache
+  - apache-struts
+  description: Apache-Struts
+  matchers:
+  - location: body
+    words:
+    - <form action="/login.action" method="post
+    - <form action="login.action" method="post
+    - ="struts.token.name"
+    - content="struts2 showcase for apache struts project"
+    - no result defined for action and result input
+    - struts problem report
+    - there is no action mapped for namespace
+    - 'location: /index.action'
+    - 'location: /login.action'

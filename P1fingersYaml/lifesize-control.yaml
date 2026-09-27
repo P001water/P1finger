@@ -1,0 +1,10 @@
+- id: lifesize
+  name: Lifesize-control
+  author: P001
+  tags:
+    - lifesize
+  description: Lifesize-control
+  matchers:
+    - location: body
+      words:
+        - /lifesizecontrol/asp/index.html

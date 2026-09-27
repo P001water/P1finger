@@ -1,0 +1,11 @@
+- id: ametys
+  name: Ametys CMS
+  author: P1finger
+  tags:
+    - ametys
+  description: Ametys CMS
+  matchers:
+    - location: body
+      words:
+        - Accueil
+        - Ametys

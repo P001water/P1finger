@@ -1,0 +1,16 @@
+- id: cgit
+  name: Cgit
+  author: P001
+  tags:
+    - cgit
+  description: Cgit
+  matchers:
+    - location: body
+      words:
+        - <div id='cgit'>
+        - content='cgit
+        - href='/cgit.css'/>
+    - location: body
+      words:
+        - Git repository browser
+        - /cgit.css

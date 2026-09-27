@@ -1,0 +1,10 @@
+- id: avigilon
+  name: Avigilon
+  author: P1finger
+  tags:
+    - avigilon
+  description: Avigilon
+  matchers:
+    - hash:
+        - "1318124267"
+      location: favicon

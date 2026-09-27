@@ -1,0 +1,10 @@
+- id: differsoft-itsystem
+  name: Differsoft-itsystem
+  author: P001
+  tags:
+    - differsoft-itsystem
+  description: Differsoft-itsystem
+  matchers:
+    - location: body
+      words:
+        - name="tbzcode"

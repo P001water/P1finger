@@ -1,0 +1,10 @@
+- id: hitron-technologies-inc
+  name: Hitron Technologies Inc.
+  author: P1finger
+  tags:
+    - hitron-technologies-inc
+  description: Hitron Technologies Inc.
+  matchers:
+    - hash:
+        - "711742418"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: zoho-manageengine
+  name: Zoho ManageEngine
+  author: P1finger
+  tags:
+    - zoho-manageengine
+  description: Zoho ManageEngine
+  matchers:
+    - location: body
+      words:
+        - scripts/esapi.js

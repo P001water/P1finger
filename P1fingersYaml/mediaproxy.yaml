@@ -1,0 +1,10 @@
+- id: mediaproxy
+  name: MediaProxy
+  author: P1finger
+  tags:
+    - mediaproxy
+  description: MediaProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Dennree MediaProxy'

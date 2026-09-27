@@ -1,0 +1,10 @@
+- id: lecloud
+  name: LeCloud
+  author: P1finger
+  tags:
+    - lecloud
+  description: LeCloud
+  matchers:
+    - location: body
+      words:
+        - LeCloud

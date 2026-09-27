@@ -1,0 +1,37 @@
+- id: metinfo
+  name: Metinfo
+  author: P1finger
+  tags:
+    - metinfo
+  description: Metinfo
+  matchers:
+    - location: body
+      words:
+        - MetInfo
+    - condition: or
+      location: title
+      words:
+        - Powered by MetInfo
+    - condition: or
+      location: body
+      words:
+        - content="MetInfo
+    - condition: or
+      location: body
+      words:
+        - powered_by_metinfo
+    - condition: or
+      location: body
+      words:
+        - /images/css/metinfo.css
+- id: metinfoqiye-cms
+  name: MetInfoqiye CMS
+  author: P1finger
+  tags:
+    - metinfoqiye
+    - cms
+  description: MetInfoqiye CMS
+  matchers:
+    - location: body
+      words:
+        - Powered by MetInfo

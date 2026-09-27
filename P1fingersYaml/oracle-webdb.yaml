@@ -1,0 +1,11 @@
+- id: oracle-webdb
+  name: Oracle-webdb
+  author: P001
+  tags:
+  - oracle
+  - oracle-webdb
+  description: Oracle-webdb
+  matchers:
+  - location: body
+    words:
+    - 'server: oracle_webdb_listener'

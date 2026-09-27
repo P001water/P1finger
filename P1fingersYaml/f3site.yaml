@@ -1,0 +1,14 @@
+- id: f3site
+  name: F3Site
+  author: Fofa
+  tags:
+    - f3site
+  description: F3Site
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://compmaster.prv.pl
+    - location: body
+      words:
+        - compmaster.prv.pl

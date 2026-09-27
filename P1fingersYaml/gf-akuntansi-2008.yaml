@@ -1,0 +1,10 @@
+- id: gf-akuntansi-2008
+  name: GF-Akuntansi-2008
+  author: P1finger
+  tags:
+    - gf-akuntansi-2008
+  description: GF-Akuntansi-2008
+  matchers:
+    - location: body
+      words:
+        - GF-Akuntansi 2008

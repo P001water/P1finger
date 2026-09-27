@@ -1,0 +1,19 @@
+- id: bosclassifieds
+  name: BosClassifieds
+  author: Fofa
+  tags:
+    - bosclassifieds
+  description: BosClassifieds
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.bosdev.com
+    - condition: or
+      location: body
+      words:
+        - content="BosClassifieds
+    - location: body
+      words:
+        - Powered by <a href="http://www.bosdev.com
+        - content="BosClassifieds

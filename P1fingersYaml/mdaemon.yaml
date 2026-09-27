@@ -1,0 +1,14 @@
+- id: mdaemon-2
+  name: MDaemon
+  author: Fofa
+  tags:
+    - mdaemon
+  description: MDaemon
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /WorldClient.dll?View=Main
+    - location: body
+      words:
+        - /WorldClient.dll?View=Main

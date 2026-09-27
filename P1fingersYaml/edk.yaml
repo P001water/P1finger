@@ -1,0 +1,17 @@
+- id: edk
+  name: EDK
+  author: Fofa
+  tags:
+    - edk
+  description: EDK
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <!-- /killlistable.tpl -->
+    - location: body
+      words:
+        - /killlistable.tpl
+    - location: body
+      words:
+        - <!-- /killlistable.tpl -->

@@ -1,0 +1,13 @@
+- id: joomla
+  name: CMS-joomla
+  author: P001
+  tags:
+    - joomla
+  description: CMS-joomla
+  matchers:
+    - location: body
+      words:
+        - /media/system/js/core.js
+        - /media/system/js/mootools-core.js
+        - <meta name="keywords" content="joomla, joomla" />
+        - content="joomla

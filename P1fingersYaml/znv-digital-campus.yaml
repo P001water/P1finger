@@ -1,0 +1,10 @@
+- id: znv-digital-campus
+  name: Znv-digital-campus
+  author: P001
+  tags:
+    - znv-digital-campus
+  description: Znv-digital-campus
+  matchers:
+    - location: body
+      words:
+        - list.asp?caseid=

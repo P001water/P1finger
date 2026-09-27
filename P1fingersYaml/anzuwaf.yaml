@@ -1,0 +1,17 @@
+- id: anzuwaf
+  name: AnZuWAF
+  author: Fofa
+  tags:
+    - anzuwaf
+  description: AnZuWAF
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - AnZuWAF
+    - location: header
+      words:
+        - 'Server: AnZu Web Firewall'
+    - location: header
+      words:
+        - AnZuWAF

@@ -1,0 +1,10 @@
+- id: kafka
+  name: Kafka-center
+  author: P001
+  tags:
+    - kafka
+  description: Kafka-center
+  matchers:
+    - location: body
+      words:
+        - <title>kafka center</title>

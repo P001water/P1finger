@@ -1,0 +1,10 @@
+- id: jabberd
+  name: Jabberd
+  author: P001
+  tags:
+    - jabberd
+  description: Jabberd
+  matchers:
+    - location: body
+      words:
+        - 'server: jabberd'

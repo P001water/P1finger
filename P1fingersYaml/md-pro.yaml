@@ -1,0 +1,10 @@
+- id: md-pro
+  name: MD Pro
+  author: P1finger
+  tags:
+    - md-pro
+  description: MD Pro
+  matchers:
+    - location: body
+      words:
+        - Powered by MDPro

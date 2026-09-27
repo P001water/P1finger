@@ -1,0 +1,13 @@
+- id: oauth2-2
+  name: OAuth 2.0 Authorization Server Detection Template
+  author: nuclei
+  tags:
+  - oauth
+  description: Try to detect OAuth 2.0 Authorization Server via the "oauth/token"
+    endpoint
+  paths:
+  - /oauth/token
+  matchers:
+  - location: body
+    words:
+    - error":"invalid_client"

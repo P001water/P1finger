@@ -1,0 +1,17 @@
+- id: deluxebb
+  name: DeluxeBB
+  author: Fofa
+  tags:
+    - deluxebb
+  description: DeluxeBB
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="powered by DeluxeBB
+    - location: body
+      words:
+        - content="powered by DeluxeBB
+    - location: body
+      words:
+        - content="powered by deluxebb

@@ -1,0 +1,10 @@
+- id: hispider
+  name: Hispider-router
+  author: P001
+  tags:
+    - hispider
+  description: Hispider-router
+  matchers:
+    - location: body
+      words:
+        - action="login.pl" method="post"  onsubmit="encryptpasswd()

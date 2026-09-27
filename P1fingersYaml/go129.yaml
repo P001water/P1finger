@@ -1,0 +1,11 @@
+- id: go129xingwei-management-system
+  name: Go129xingwei Management System
+  author: P1finger
+  tags:
+    - go129xingwei
+    - management-system
+  description: Go129xingwei Management System
+  matchers:
+    - location: body
+      words:
+        - <title>Go129行为管理系统

@@ -1,0 +1,13 @@
+- id: xinweismartlearning
+  name: XinweiSmartLearning
+  author: P1finger
+  tags:
+    - xinweismartlearning
+  description: XinweiSmartLearning
+  matchers:
+    - location: body
+      words:
+        - 新为
+        - SmartLearning
+        - SmartMOOC
+        - SmartExam

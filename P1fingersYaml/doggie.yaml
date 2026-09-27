@@ -1,0 +1,13 @@
+- id: doggie
+  name: Doggie
+  author: P1finger
+  tags:
+    - doggie
+  description: Doggie
+  matchers:
+    - hash:
+        - "817193734"
+      location: favicon
+    - location: body
+      words:
+        - doggieUI

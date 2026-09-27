@@ -1,0 +1,14 @@
+- id: holocms
+  name: HoloCMS
+  author: Fofa
+  tags:
+    - holocms
+  description: HoloCMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by HoloCMS
+    - location: body
+      words:
+        - Powered by HoloCMS

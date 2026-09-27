@@ -1,0 +1,11 @@
+- id: dimixerp-office-system
+  name: DimixERP Office System
+  author: P1finger
+  tags:
+    - dimixerp
+    - office-system
+  description: DimixERP Office System
+  matchers:
+    - location: body
+      words:
+        - Dimix ERP 办公系统

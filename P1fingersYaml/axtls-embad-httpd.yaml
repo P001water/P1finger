@@ -1,0 +1,31 @@
+- id: axtls-embad-httpd
+  name: AxTLS Embad Httpd
+  author: Fofa
+  tags:
+    - axtls-embad-httpd
+  description: AxTLS Embad Httpd
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - axhttpd
+- id: axtls-embad-httpd-2
+  name: Axtls-embad-httpd
+  author: P001
+  tags:
+    - axtls-embad-httpd
+  description: Axtls-embad-httpd
+  matchers:
+    - location: body
+      words:
+        - 'server: axhttpd'
+- id: axtls-embad-httpd-3
+  name: Axtls Embad Httpd
+  author: P1finger
+  tags:
+    - axtls-embad-httpd
+  description: Axtls Embad Httpd
+  matchers:
+    - location: header
+      words:
+        - axhttpd

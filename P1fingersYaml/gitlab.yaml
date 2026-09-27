@@ -1,0 +1,46 @@
+- id: gitlab
+  name: Gitlab
+  author: P1finger
+  tags:
+    - gitlab
+  description: Gitlab
+  matchers:
+    - location: body
+      words:
+        - gon.default_issues_tracker
+        - GitLab
+    - location: header
+      words:
+        - _gitlab_session
+    - condition: or
+      location: header
+      words:
+        - _gitlab_session
+    - condition: or
+      location: body
+      words:
+        - gon.default_issues_tracker
+    - condition: or
+      location: body
+      words:
+        - GitLab Community Edition
+- id: gitlabyuandaimakaifa-system
+  name: GitLabyuandaimakaifa System
+  author: P001
+  tags:
+    - gitlabyuandaimakaifa
+    - system
+  description: GitLabyuandaimakaifa System
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: _gitlab_session='
+        - GitLab Enterprise Edition
+        - <title>Sign in · GitLab</title>
+        - <a href="https://about.gitlab.com/">About GitLab
+        - class="col-sm-7 brand-holder pull-left"
+        - content="gitlab
+        - content="gitlab community edition"
+        - gon.default_issues_tracker
+        - <title>登录 · 极狐GitLab</title>
+        - 'top: 0; left: 0; height: 40px; z-index: 252;'

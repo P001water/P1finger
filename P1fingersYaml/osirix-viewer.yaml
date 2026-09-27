@@ -1,0 +1,10 @@
+- id: osirix-viewer
+  name: Osirix-viewer
+  author: P001
+  tags:
+    - osirix-viewer
+  description: Osirix-viewer
+  matchers:
+    - location: body
+      words:
+        - service provided by <a href="https://www.osirix-viewer.com"

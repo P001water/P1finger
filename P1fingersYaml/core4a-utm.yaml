@@ -1,0 +1,10 @@
+- id: paladicore4autm
+  name: PaladiCore4AUTM
+  author: P1finger
+  tags:
+    - paladicore4autm
+  description: PaladiCore4AUTM
+  matchers:
+    - location: body
+      words:
+        - 帕拉迪Core4A-UTM

@@ -1,0 +1,27 @@
+- id: oracle-siebel-crm
+  name: Oracle-siebel-crm
+  author: P001
+  tags:
+  - oracle
+  - oracle-siebel-crm
+  description: Oracle-siebel-crm
+  matchers:
+  - location: body
+    words:
+    - onload="gotourl('start.swe?swecmd=start')
+    - ot='siebwebmainwindow'>
+    - scripting is used to manage data interactions between the siebel server/web
+      server
+- id: oracle-siebel-crm-2
+  name: Oracle Siebel CRM
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-siebel-crm
+  description: Oracle Siebel CRM
+  matchers:
+  - location: body
+    words:
+    - Siebel Partner Portal
+    - <script>this.ConfirmDeleteMessage ='Are you sure you want to delete this record?'</script><script>
+      this.focus(); </script>

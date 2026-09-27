@@ -1,0 +1,13 @@
+- id: yonyou-u8
+  name: Yonyou-u8-cloud
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-u8
+  description: Yonyou-u8-cloud
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 开启u8 cloud云端之旅
+    - U8C

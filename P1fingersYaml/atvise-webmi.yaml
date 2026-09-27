@@ -1,0 +1,28 @@
+- id: atvise-webmi
+  name: Atvise-webmi
+  author: P1finger
+  tags:
+    - atvise-webmi
+  description: Atvise-webmi
+  matchers:
+    - location: body
+      words:
+        - alarmlistbutton
+    - location: header
+      words:
+        - atvise
+- id: atvise-webmi-2
+  name: Atvise-webMI
+  author: Fofa
+  tags:
+    - atvise-webmi
+  description: Atvise-webMI
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - atvise
+    - condition: or
+      location: body
+      words:
+        - alarmlistbutton

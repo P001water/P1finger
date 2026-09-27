@@ -1,0 +1,10 @@
+- id: zhuofansoft
+  name: Zhuofansoft-cms
+  author: P001
+  tags:
+    - zhuofansoft
+  description: Zhuofansoft-cms
+  matchers:
+    - location: body
+      words:
+        - session.infocss.infocssurl

@@ -1,0 +1,11 @@
+- id: chemnetchemnethoutai
+  name: ChemNetChemNethoutai Database Management System
+  author: P1finger
+  tags:
+    - chemnetchemnethoutai
+    - database-management-system
+  description: ChemNetChemNethoutai Database Management System
+  matchers:
+    - location: body
+      words:
+        - ChemNet-后台数据库管理系统

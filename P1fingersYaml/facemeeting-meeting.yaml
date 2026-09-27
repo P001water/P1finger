@@ -1,0 +1,10 @@
+- id: facemeeting-meeting
+  name: Facemeeting-meeting
+  author: P001
+  tags:
+    - facemeeting-meeting
+  description: Facemeeting-meeting
+  matchers:
+    - location: body
+      words:
+        - class="subnav">飞视美</div>

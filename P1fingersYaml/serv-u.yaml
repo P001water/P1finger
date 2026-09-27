@@ -1,0 +1,10 @@
+- id: serv
+  name: Serv-U
+  author: P1finger
+  tags:
+    - serv
+  description: Serv-U
+  matchers:
+    - hash:
+        - "812385209"
+      location: favicon

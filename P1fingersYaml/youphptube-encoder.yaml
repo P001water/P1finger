@@ -1,0 +1,10 @@
+- id: youphptube-encoder
+  name: Youphptube-encoder
+  author: P001
+  tags:
+    - youphptube-encoder
+  description: Youphptube-encoder
+  matchers:
+    - location: body
+      words:
+        - youphptube

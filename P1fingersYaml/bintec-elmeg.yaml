@@ -1,0 +1,10 @@
+- id: bintec-elmeg
+  name: Bintec Elmeg
+  author: P1finger
+  tags:
+    - bintec-elmeg
+  description: Bintec Elmeg
+  matchers:
+    - hash:
+        - "-375623619"
+      location: favicon

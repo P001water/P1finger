@@ -1,0 +1,24 @@
+- id: dynaweb-httpd
+  name: Dynaweb-httpd
+  author: P1finger
+  tags:
+    - dynaweb-httpd
+  description: Dynaweb-httpd
+  matchers:
+    - location: header
+      words:
+        - dwhttpd
+    - location: body
+      words:
+        - 'server: dwhttpd'
+- id: dynaweb-httpd-2
+  name: DynaWeb-httpd
+  author: Fofa
+  tags:
+    - dynaweb-httpd
+  description: DynaWeb-httpd
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - dwhttpd

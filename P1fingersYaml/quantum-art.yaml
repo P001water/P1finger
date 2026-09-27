@@ -1,0 +1,10 @@
+- id: quantum-art
+  name: Quantum Art
+  author: P1finger
+  tags:
+    - quantum-art
+  description: Quantum Art
+  matchers:
+    - location: header
+      words:
+        - Quantum Art

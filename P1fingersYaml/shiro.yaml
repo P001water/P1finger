@@ -1,0 +1,10 @@
+- id: shiro
+  name: Shiro
+  author: P1finger
+  tags:
+    - shiro
+  description: Shiro
+  matchers:
+    - location: header
+      words:
+        - rememberMe=

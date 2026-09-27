@@ -1,0 +1,22 @@
+- id: we7
+  name: We7
+  author: Fofa
+  tags:
+    - we7
+  description: We7
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /Widgets/WidgetCollection/
+    - location: body
+      words:
+        - /Widgets/WidgetCollection/
+    - condition: and
+      location: body
+      words:
+        - <title>微擎
+        - w7.cc
+    - location: body
+      words:
+        - id="we7layout_

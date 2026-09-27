@@ -1,0 +1,12 @@
+- id: mailman
+  name: Mailman
+  author: P001
+  tags:
+    - mailman
+  description: Mailman
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /images/mailman
+        - delivered by mailman

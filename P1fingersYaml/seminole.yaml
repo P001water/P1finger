@@ -1,0 +1,14 @@
+- id: seminole
+  name: Seminole
+  author: Fofa
+  tags:
+    - seminole
+  description: Seminole
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: Seminole'
+    - location: header
+      words:
+        - 'Server: Seminole'

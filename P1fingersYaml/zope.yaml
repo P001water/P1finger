@@ -1,0 +1,17 @@
+- id: zope
+  name: Zope
+  author: Fofa
+  tags:
+    - zope
+  description: Zope
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - zope
+    - location: header
+      words:
+        - zope
+    - location: body
+      words:
+        - 'x-powered-by: zope'

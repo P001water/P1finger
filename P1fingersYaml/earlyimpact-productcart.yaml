@@ -1,0 +1,24 @@
+- id: earlyimpact-productcart
+  name: Earlyimpact-productcart
+  author: P1finger
+  tags:
+    - earlyimpact-productcart
+  description: Earlyimpact-productcart
+  matchers:
+    - location: body
+      words:
+        - fpassword.asp?redirectUrl=&frURL=Custva.asp
+    - location: body
+      words:
+        - EarlyImpact, Product Cart
+- id: earlyimpact-productcart-2
+  name: EarlyImpact-ProductCart
+  author: Fofa
+  tags:
+    - earlyimpact-productcart
+  description: EarlyImpact-ProductCart
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - fpassword.asp?redirectUrl=&frURL=Custva.asp

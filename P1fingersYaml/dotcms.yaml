@@ -1,0 +1,22 @@
+- id: dotcms
+  name: DotCMS
+  author: Fofa
+  tags:
+    - dotcms
+  description: DotCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /dotAsset/
+    - condition: or
+      location: body
+      words:
+        - /index.dot
+    - location: body
+      words:
+        - /dotAsset/
+        - /index.dot
+    - location: body
+      words:
+        - www.dotcms.org

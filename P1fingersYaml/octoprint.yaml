@@ -1,0 +1,10 @@
+- id: octoprint
+  name: Octoprint
+  author: P1finger
+  tags:
+    - octoprint
+  description: Octoprint
+  matchers:
+    - hash:
+        - "1307375944"
+      location: favicon

@@ -1,0 +1,22 @@
+- id: synology-nas
+  name: Synology_nas
+  author: P1finger
+  tags:
+  - synology
+  - synology-nas
+  description: Synology_nas
+  matchers:
+  - location: body
+    words:
+    - modules/BackupReplicationApp
+  - location: header
+    words:
+    - webman/index.cgi
+  - condition: or
+    location: header
+    words:
+    - webman/index.cgi
+  - condition: or
+    location: body
+    words:
+    - modules/BackupReplicationApp

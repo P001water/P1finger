@@ -1,0 +1,10 @@
+- id: phpmychat-plus
+  name: PhpMyChat Plus
+  author: P1finger
+  tags:
+    - phpmychat-plus
+  description: PhpMyChat Plus
+  matchers:
+    - location: body
+      words:
+        - phpMyChat Plus

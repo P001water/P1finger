@@ -1,0 +1,10 @@
+- id: fsmcms
+  name: FSMCMS
+  author: P1finger
+  tags:
+    - fsmcms
+  description: FSMCMS
+  matchers:
+    - location: body
+      words:
+        - FSMCMS

@@ -1,0 +1,10 @@
+- id: wantit-erp
+  name: Wantit-erp
+  author: P001
+  tags:
+    - wantit-erp
+  description: Wantit-erp
+  matchers:
+    - location: body
+      words:
+        - /javascript/js/witfunctions.js

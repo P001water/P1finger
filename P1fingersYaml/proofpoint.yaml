@@ -1,0 +1,10 @@
+- id: proofpoint
+  name: Proofpoint
+  author: P1finger
+  tags:
+    - proofpoint
+  description: Proofpoint
+  matchers:
+    - hash:
+        - "-1630354993"
+      location: favicon

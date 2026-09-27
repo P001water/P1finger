@@ -1,0 +1,21 @@
+- id: deluge
+  name: Deluge-web
+  author: P1finger
+  tags:
+    - deluge
+  description: Deluge-web
+  matchers:
+    - location: body
+      words:
+        - 'Deluge: Web UI'
+- id: deluge-2
+  name: Deluge-web
+  author: Fofa
+  tags:
+    - deluge
+  description: Deluge-web
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 'Deluge: Web UI'

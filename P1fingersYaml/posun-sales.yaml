@@ -1,0 +1,11 @@
+- id: posun-sales
+  name: Posun-sales
+  author: P001
+  tags:
+    - posun-sales
+  description: Posun-sales
+  matchers:
+    - location: body
+      words:
+        - <p>快易销公众号</p>
+        - src="/view/static/js/eidpcommon.min.js"

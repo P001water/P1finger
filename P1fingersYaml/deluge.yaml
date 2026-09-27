@@ -1,0 +1,10 @@
+- id: deluge-3
+  name: Deluge
+  author: P1finger
+  tags:
+    - deluge
+  description: Deluge
+  matchers:
+    - hash:
+        - "944969688"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: pubwin
+  name: Pubwin
+  author: P1finger
+  tags:
+    - pubwin
+  description: Pubwin
+  matchers:
+    - location: body
+      words:
+        - Pubwin

@@ -1,0 +1,14 @@
+- id: milu-seotool
+  name: Milu_seotool
+  author: Fofa
+  tags:
+    - milu-seotool
+  description: Milu_seotool
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - plugin.php?id=milu_seotool
+    - location: body
+      words:
+        - plugin.php?id=milu_seotool

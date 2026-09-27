@@ -1,0 +1,24 @@
+- id: contentteller
+  name: Contentteller-cms
+  author: P1finger
+  tags:
+    - contentteller
+  description: Contentteller-cms
+  matchers:
+    - location: body
+      words:
+        - content="Esselbach Contentteller CMS
+    - location: body
+      words:
+        - <meta name="generator" content="Esselbach Contentteller CMS" />
+- id: contentteller-2
+  name: Contentteller-CMS
+  author: Fofa
+  tags:
+    - contentteller
+  description: Contentteller-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Esselbach Contentteller CMS

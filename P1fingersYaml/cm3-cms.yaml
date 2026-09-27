@@ -1,0 +1,28 @@
+- id: cm3
+  name: Cm3-cms
+  author: P1finger
+  tags:
+    - cm3
+  description: Cm3-cms
+  matchers:
+    - location: body
+      words:
+        - content="cm3 content manager
+    - location: header
+      words:
+        - cm3session
+- id: cm3-2
+  name: Cm3-cms
+  author: Fofa
+  tags:
+    - cm3
+  description: Cm3-cms
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - cm3session
+    - condition: or
+      location: body
+      words:
+        - content="cm3 content manager

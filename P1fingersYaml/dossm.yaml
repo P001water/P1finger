@@ -1,0 +1,11 @@
+- id: dossm20-management-system
+  name: DOSSM20 Management System
+  author: P1finger
+  tags:
+    - dossm20
+    - management-system
+  description: DOSSM20 Management System
+  matchers:
+    - location: body
+      words:
+        - DOSSM 2.0 平台管理系统

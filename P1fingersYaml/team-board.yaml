@@ -1,0 +1,12 @@
+- id: team-board
+  name: Team-board
+  author: P001
+  tags:
+    - team-board
+  description: Team-board
+  matchers:
+    - location: body
+      words:
+        - <a href="licence.asp"><b style='color:#ff9900'>
+        - href=http://www.team5.cn"><b>team
+        - team5.cn by daymoon

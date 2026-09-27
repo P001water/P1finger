@@ -1,0 +1,30 @@
+- id: emeeting-online-dating
+  name: Emeeting-online-dating-software
+  author: P1finger
+  tags:
+    - emeeting-online-dating
+  description: Emeeting-online-dating-software
+  matchers:
+    - location: body
+      words:
+        - eMeeting Dating Software
+        - /_eMeetingGlobals.js
+    - location: body
+      words:
+        - /_emeetingglobals.js
+        - emeeting dating software
+- id: emeeting-online-dating-2
+  name: EMeeting-Online-Dating-Software
+  author: Fofa
+  tags:
+    - emeeting-online-dating
+  description: EMeeting-Online-Dating-Software
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - eMeeting Dating Software
+    - condition: or
+      location: body
+      words:
+        - /_eMeetingGlobals.js

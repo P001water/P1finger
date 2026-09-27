@@ -1,0 +1,28 @@
+- id: vbulletin
+  name: VBulletin
+  author: Fofa
+  tags:
+    - vbulletin
+  description: VBulletin
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Powered by vBulletin
+    - condition: or
+      location: body
+      words:
+        - content="vBulletin
+    - condition: or
+      location: header
+      words:
+        - bblastvisit)
+    - condition: or
+      location: body
+      words:
+        - Powered by vBulletin&trade;
+    - location: body
+      words:
+        - <!-- do not remove this copyright notice -->powered by < a href="https://www.vbulletin.com" id="vbulletinlink">
+        - content="vbulletin
+        - powered by vbulletin&trade;

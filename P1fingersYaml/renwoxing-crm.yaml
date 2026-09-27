@@ -1,0 +1,11 @@
+- id: renwoxing-crm
+  name: Renwoxing-crm
+  author: P001
+  tags:
+  - renwoxing
+  - renwoxing-crm
+  description: Renwoxing-crm
+  matchers:
+  - location: body
+    words:
+    - /resources/imgs/defaultannex/loginpictures/

@@ -1,0 +1,14 @@
+- id: sltm32-configuration
+  name: SLTM32_Configuration
+  author: Fofa
+  tags:
+    - sltm32-configuration
+  description: SLTM32_Configuration
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - 'SLTM32 Web Configuration Pages '
+    - location: body
+      words:
+        - 'SLTM32 Web Configuration Pages '

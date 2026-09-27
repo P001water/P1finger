@@ -1,0 +1,22 @@
+- id: appserv
+  name: AppServ
+  author: Fofa
+  tags:
+    - appserv
+  description: AppServ
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - appserv/softicon.gif
+    - condition: or
+      location: body
+      words:
+        - index.php?appservlang=th
+    - location: body
+      words:
+        - appserv/softicon.gif
+        - index.php?appservlang=th
+    - location: body
+      words:
+        - AppServ Open Project

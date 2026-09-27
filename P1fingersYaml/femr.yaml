@@ -1,0 +1,11 @@
+- id: femr
+  name: Femr
+  author: P001
+  tags:
+    - femr
+  description: Femr
+  matchers:
+    - location: body
+      words:
+        - /res/images/login-bg-1.png
+        - /res/vendor/bootstrap-3.3.5/css/bootstrap.min.css

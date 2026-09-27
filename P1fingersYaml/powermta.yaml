@@ -1,0 +1,10 @@
+- id: powermta-2
+  name: Powermta
+  author: P001
+  tags:
+    - powermta
+  description: Powermta
+  matchers:
+    - location: body
+      words:
+        - <html><body>access denied.  please consult the http-access directive in the user's guide for more information.</body>

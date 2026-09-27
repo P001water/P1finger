@@ -1,0 +1,10 @@
+- id: zzcms
+  name: Zzcms
+  author: P001
+  tags:
+    - zzcms
+  description: Zzcms
+  matchers:
+    - location: body
+      words:
+        - /inc/showuserlogin.php?style=h&t=math.random()

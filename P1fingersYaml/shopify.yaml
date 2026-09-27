@@ -1,0 +1,18 @@
+- id: shopify
+  name: Shopify
+  author: Fofa
+  tags:
+    - shopify
+  description: Shopify
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Shopid:'
+    - location: header
+      words:
+        - 'X-Shopid:'
+    - location: body
+      words:
+        - X-Shopify-
+        - ShopifySans

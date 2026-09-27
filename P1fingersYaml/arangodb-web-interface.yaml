@@ -1,0 +1,10 @@
+- id: arangodb
+  name: ArangoDB Web Interface
+  author: P1finger
+  tags:
+    - arangodb
+  description: ArangoDB Web Interface
+  matchers:
+    - location: body
+      words:
+        - ArangoDB Web Interface

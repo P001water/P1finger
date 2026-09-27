@@ -1,0 +1,15 @@
+- id: wordpress-qtranslate
+  name: Wordpress_qTranslate
+  author: Fofa
+  tags:
+  - wordpress
+  - wordpress-qtranslate
+  description: Wordpress_qTranslate
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - qtrans_cookie_test
+  - location: header
+    words:
+    - qtrans_cookie_test

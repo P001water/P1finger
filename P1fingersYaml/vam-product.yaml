@@ -1,0 +1,13 @@
+- id: vam
+  name: Vam-product
+  author: P001
+  tags:
+    - vam
+  description: Vam-product
+  matchers:
+    - location: body
+      words:
+        - href="https://virtualairlinesmanager.net/">virtual airlines manager
+        - id="mymodallabel">login vam system
+        - powered by virtual airlines manager
+        - src="js/vam.js"

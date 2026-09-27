@@ -1,0 +1,14 @@
+- id: lodop
+  name: C-lodop
+  author: P1finger
+  tags:
+    - lodop
+  description: C-lodop
+  matchers:
+    - hash:
+        - "-329747115"
+      location: favicon
+    - location: body
+      words:
+        - <h1>关于c-lodop免费和注册授权</h1>
+        - document.getelementbyid("reqid").value==document.getelementbyid("licid").value

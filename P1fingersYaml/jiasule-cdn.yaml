@@ -1,0 +1,10 @@
+- id: jiasulecdn-2
+  name: JiasuleCDN
+  author: P1finger
+  tags:
+    - jiasulecdn
+  description: JiasuleCDN
+  matchers:
+    - location: header
+      words:
+        - __jsluid

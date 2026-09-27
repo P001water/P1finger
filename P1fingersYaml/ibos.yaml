@@ -1,0 +1,12 @@
+- id: ibosqiyexietongguanliruanjian
+  name: IBOSqiyexietongguanliruanjian
+  author: P1finger
+  tags:
+    - ibosqiyexietongguanliruanjian
+  description: IBOSqiyexietongguanliruanjian
+  matchers:
+    - location: body
+      words:
+        - Powered by <strong>IBOS
+        - IBOS Inc.
+        - content="IBOS Team"

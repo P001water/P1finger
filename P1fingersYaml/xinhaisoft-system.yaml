@@ -1,0 +1,11 @@
+- id: xinhaisoft
+  name: Xinhaisoft-system
+  author: P001
+  tags:
+    - xinhaisoft
+  description: Xinhaisoft-system
+  matchers:
+    - location: body
+      words:
+        - ../regist.asp?school=
+        - 北京心海导航教育科技股份有限公司-中国心理网版权所有<br>

@@ -1,0 +1,11 @@
+- id: alt-svc
+  name: Alt-Svc
+  author: Fofa
+  tags:
+    - alt-svc
+  description: Alt-Svc
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Alt-Svc

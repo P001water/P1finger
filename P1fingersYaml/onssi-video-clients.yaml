@@ -1,0 +1,19 @@
+- id: onssi-clients
+  name: OnSSI_Video_Clients
+  author: Fofa
+  tags:
+    - onssi-clients
+  description: OnSSI_Video_Clients
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - OnSSI Video Clients
+    - condition: or
+      location: body
+      words:
+        - x-value="On-Net Surveillance Systems Inc.
+    - location: body
+      words:
+        - OnSSI Video Clients
+        - x-value="On-Net Surveillance Systems Inc."

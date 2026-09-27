@@ -1,0 +1,11 @@
+- id: connectwise-control
+  name: ConnectWise Control
+  author: nuclei
+  tags:
+  - connectwise
+  - control
+  description: ConnectWise Control
+  matchers:
+  - location: body
+    words:
+    - ConnectWise Control Remote Support Software

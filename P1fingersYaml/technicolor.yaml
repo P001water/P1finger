@@ -1,0 +1,10 @@
+- id: technicolor-2
+  name: Technicolor
+  author: P1finger
+  tags:
+    - technicolor
+  description: Technicolor
+  matchers:
+    - hash:
+        - "-2138771289"
+      location: favicon

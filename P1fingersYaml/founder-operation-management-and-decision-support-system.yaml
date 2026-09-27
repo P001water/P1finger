@@ -1,0 +1,11 @@
+- id: founder-decision-support
+  name: Founder-operation-management-and-decision-support-system
+  author: P001
+  tags:
+    - founder-decision-support
+  description: Founder-operation-management-and-decision-support-system
+  matchers:
+    - location: body
+      words:
+        - src="/desktop/ui/custom/getimage?img=iphoneview.png"
+        - src="/portal/img/logo.png"

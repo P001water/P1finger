@@ -1,0 +1,10 @@
+- id: waterssslvpn
+  name: Waterssslvpn
+  author: P001
+  tags:
+    - waterssslvpn
+  description: Waterssslvpn
+  matchers:
+    - location: body
+      words:
+        - welcome.cgi?p=logo&signinid=url_default

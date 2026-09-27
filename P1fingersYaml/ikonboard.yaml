@@ -1,0 +1,23 @@
+- id: ikonboard
+  name: Ikonboard
+  author: Fofa
+  tags:
+    - ikonboard
+  description: Ikonboard
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Ikonboard
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.ikonboard.com
+    - location: body
+      words:
+        - content="Ikonboard
+        - Powered by <a href="http://www.ikonboard.com
+    - location: body
+      words:
+        - content="ikonboard
+        - powered by <a href="http://www.ikonboard.com

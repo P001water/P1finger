@@ -1,0 +1,13 @@
+- id: neusoftneteye-firewall
+  name: Neusoftneteye Firewall
+  author: P001
+  tags:
+    - neusoftneteye
+    - firewall
+  description: Neusoftneteye Firewall
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - name="login_form" action="/fwm4/fwm.cgi/usrlgin"
+        - neteye防火墙系统

@@ -1,0 +1,10 @@
+- id: ewei-plagform
+  name: Ewei-plagform
+  author: P001
+  tags:
+    - ewei-plagform
+  description: Ewei-plagform
+  matchers:
+    - location: body
+      words:
+        - 易维平台</h1>

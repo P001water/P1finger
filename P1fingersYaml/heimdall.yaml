@@ -1,0 +1,10 @@
+- id: heimdall
+  name: Heimdall
+  author: P1finger
+  tags:
+    - heimdall
+  description: Heimdall
+  matchers:
+    - location: body
+      words:
+        - Heimdall

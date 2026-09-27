@@ -1,0 +1,13 @@
+- id: tinyproxy
+  name: Tinyproxy
+  author: P001
+  tags:
+    - tinyproxy
+  description: Tinyproxy
+  matchers:
+    - location: body
+      words:
+        - 'server: tinyproxy/'
+    - location: header
+      words:
+        - tinyproxy

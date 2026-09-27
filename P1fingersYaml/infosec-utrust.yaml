@@ -1,0 +1,21 @@
+- id: infosec-utrust
+  name: Infosec-utrust
+  author: P001
+  tags:
+    - infosec-utrust
+  description: Infosec-utrust
+  matchers:
+    - location: body
+      words:
+        - china utrust infortech co,.ltd
+- id: infosec-utrust-2
+  name: Infosec UTRUST
+  author: P1finger
+  tags:
+    - infosec-utrust
+  description: Infosec UTRUST
+  matchers:
+    - location: body
+      words:
+        - utrust统一身份认证和身份管理平台
+        - china utrust infortech co,.ltd

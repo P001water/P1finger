@@ -1,0 +1,10 @@
+- id: zhongguoyidongjx01yidongdailifuwuqi
+  name: ZhongguoyidongJX01yidongdailifuwuqi
+  author: P1finger
+  tags:
+    - zhongguoyidongjx01yidongdailifuwuqi
+  description: ZhongguoyidongJX01yidongdailifuwuqi
+  matchers:
+    - location: body
+      words:
+        - JX01移动代理服务器

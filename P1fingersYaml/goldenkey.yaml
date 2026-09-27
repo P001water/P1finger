@@ -1,0 +1,11 @@
+- id: goldenkeyjspzizhu-cms
+  name: GoldenKeyjspzizhu CMS
+  author: P1finger
+  tags:
+    - goldenkeyjspzizhu
+    - cms
+  description: GoldenKeyjspzizhu CMS
+  matchers:
+    - location: body
+      words:
+        - GoldenKey

@@ -1,0 +1,11 @@
+- id: sophos-cyberoam
+  name: Sophos Cyberoam
+  author: P1finger
+  tags:
+  - sophos
+  - sophos-cyberoam
+  description: Sophos Cyberoam
+  matchers:
+  - hash:
+    - '1601194732'
+    location: favicon

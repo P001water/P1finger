@@ -1,0 +1,10 @@
+- id: zk
+  name: ZK Web Server
+  author: P1finger
+  tags:
+    - zk
+  description: ZK Web Server
+  matchers:
+    - location: header
+      words:
+        - ZK Web Server

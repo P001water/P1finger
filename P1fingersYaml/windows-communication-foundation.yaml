@@ -1,0 +1,17 @@
+- id: windows-communication-foundation
+  name: Windows Communication Foundation
+  author: nuclei
+  tags:
+  - windows
+  - wcf
+  description: Windows Communication Foundation
+  matchers:
+  - location: body
+    words:
+    - Endpoint not found.
+    - class="heading1">Service
+    - This is a Windows&#169; Communication Foundation service.
+    condition: or
+  - location: body
+    words:
+    - <title>Service</title>

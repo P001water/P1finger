@@ -1,0 +1,12 @@
+- id: processmaker
+  name: Processmaker
+  author: P001
+  tags:
+    - processmaker
+  description: Processmaker
+  matchers:
+    - location: body
+      words:
+        - alt="powered by processmaker
+        - href="http://www.processmaker.com" alt="processmaker
+        - processmaker ver

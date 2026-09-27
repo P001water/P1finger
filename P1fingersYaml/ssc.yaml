@@ -1,0 +1,11 @@
+- id: sscu-erp-management-system
+  name: SSCU ERP Management System
+  author: P1finger
+  tags:
+    - sscu
+    - erp-management-system
+  description: SSCU ERP Management System
+  matchers:
+    - location: body
+      words:
+        - SSC(U)-ERP管理系统

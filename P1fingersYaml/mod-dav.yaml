@@ -1,0 +1,14 @@
+- id: mod-dav
+  name: Mod_dav
+  author: Fofa
+  tags:
+    - mod-dav
+  description: Mod_dav
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - DAV/2
+    - location: header
+      words:
+        - DAV/2

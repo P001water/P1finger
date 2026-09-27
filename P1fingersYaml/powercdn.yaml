@@ -1,0 +1,14 @@
+- id: powercdn
+  name: Powercdn
+  author: P1finger
+  tags:
+    - powercdn
+  description: Powercdn
+  matchers:
+    - location: header
+      words:
+        - Powercdn
+    - condition: and
+      location: header
+      words:
+        - Powercdn

@@ -1,0 +1,10 @@
+- id: kaijiang
+  name: Kaijiang-oa
+  author: P001
+  tags:
+    - kaijiang
+  description: Kaijiang-oa
+  matchers:
+    - location: body
+      words:
+        - src="/kjoa/sheep/login/login.js

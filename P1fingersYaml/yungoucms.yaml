@@ -1,0 +1,10 @@
+- id: yungoucms
+  name: Yungoucms
+  author: P1finger
+  tags:
+    - yungoucms
+  description: Yungoucms
+  matchers:
+    - location: body
+      words:
+        - yungou/images/

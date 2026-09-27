@@ -1,0 +1,14 @@
+- id: hikashop
+  name: Hikashop
+  author: Fofa
+  tags:
+    - hikashop
+  description: Hikashop
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /media/com_hikashop/css/
+    - location: body
+      words:
+        - /media/com_hikashop/css/

@@ -1,0 +1,25 @@
+- id: tiller
+  name: E-tiller
+  author: P1finger
+  tags:
+    - tiller
+  description: E-tiller
+  matchers:
+    - location: body
+      words:
+        - reader/view_abstract.aspx
+    - location: body
+      words:
+        - reader/view_abstract.aspx
+        - 北京勤云
+- id: tiller-2
+  name: E-tiller
+  author: Fofa
+  tags:
+    - tiller
+  description: E-tiller
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - reader/view_abstract.aspx

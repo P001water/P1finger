@@ -1,0 +1,10 @@
+- id: auracms
+  name: AuraCMS
+  author: P1finger
+  tags:
+    - auracms
+  description: AuraCMS
+  matchers:
+    - location: body
+      words:
+        - content="AuraCMS

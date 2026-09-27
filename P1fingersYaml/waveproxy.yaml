@@ -1,0 +1,10 @@
+- id: waveproxy
+  name: WaveProxy
+  author: P1finger
+  tags:
+    - waveproxy
+  description: WaveProxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: WaveProxy'

@@ -1,0 +1,30 @@
+- id: jxt-consulting
+  name: Jxt-consulting
+  author: P1finger
+  tags:
+    - jxt-consulting
+  description: Jxt-consulting
+  matchers:
+    - location: body
+      words:
+        - id="jxt-popup-wrapper
+        - Powered by JXT Consulting
+    - location: body
+      words:
+        - id="jxt-popup-wrapper
+        - powered by jxt consulting
+- id: jxt-consulting-2
+  name: JXT-Consulting
+  author: Fofa
+  tags:
+    - jxt-consulting
+  description: JXT-Consulting
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - id="jxt-popup-wrapper
+    - condition: or
+      location: body
+      words:
+        - Powered by JXT Consulting

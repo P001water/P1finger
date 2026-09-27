@@ -1,0 +1,26 @@
+- id: jboss-as
+  name: Jboss-as
+  author: P001
+  tags:
+  - jboss
+  - jboss-as
+  description: Jboss-as
+  matchers:
+  - location: body
+    words:
+    - manage this jboss as instance
+- id: jboss-as-2
+  name: JBoss_AS
+  author: Fofa
+  tags:
+  - jboss
+  - jboss-as
+  description: JBoss_AS
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - Manage this JBoss AS Instance
+  - location: body
+    words:
+    - Manage this JBoss AS Instance

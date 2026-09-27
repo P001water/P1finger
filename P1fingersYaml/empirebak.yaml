@@ -1,0 +1,11 @@
+- id: empirebak
+  name: Empirebak
+  author: P001
+  tags:
+    - empirebak
+  description: Empirebak
+  matchers:
+    - location: body
+      words:
+        - <div align="center">(<a href="doc.html" target="_blank">查看帝国备份王说明文档</a>)</div>
+        - powered by <a href="http://www.phome.net" target="_blank"><strong>empirebak</strong>

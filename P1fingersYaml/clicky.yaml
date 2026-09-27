@@ -1,0 +1,14 @@
+- id: clicky
+  name: Clicky
+  author: Fofa
+  tags:
+    - clicky
+  description: Clicky
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <script src="//static.getclicky.com/js
+    - location: body
+      words:
+        - <script src="//static.getclicky.com/js

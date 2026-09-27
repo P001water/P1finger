@@ -1,0 +1,10 @@
+- id: obm
+  name: Obm
+  author: P001
+  tags:
+    - obm
+  description: Obm
+  matchers:
+    - location: body
+      words:
+        - home_obm.png" alt="obm

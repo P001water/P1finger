@@ -1,0 +1,11 @@
+- id: cloudflarewaf
+  name: CloudFlareWAF
+  author: P1finger
+  tags:
+    - cloudflarewaf
+  description: CloudFlareWAF
+  matchers:
+    - location: body
+      words:
+        - Attention Required!
+        - CLOUDFLARE_ERROR_

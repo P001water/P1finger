@@ -1,0 +1,24 @@
+- id: windriver
+  name: Windriver
+  author: P001
+  tags:
+    - windriver
+  description: Windriver
+  matchers:
+    - location: body
+      words:
+        - 'server: windriver-webserver'
+- id: windrivershebei
+  name: WindRivershebei
+  author: Fofa
+  tags:
+    - windrivershebei
+  description: WindRivershebei
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WindRiver-WebServer
+    - location: header
+      words:
+        - WindRiver-WebServer

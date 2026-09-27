@@ -1,0 +1,11 @@
+- id: remobjects-dxsock
+  name: Remobjects-dxsock
+  author: P001
+  tags:
+    - remobjects-dxsock
+  description: Remobjects-dxsock
+  matchers:
+    - location: body
+      words:
+        - content="remobjects sdk
+        - remobjects software, llc.

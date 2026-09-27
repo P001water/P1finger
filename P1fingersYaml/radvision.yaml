@@ -1,0 +1,14 @@
+- id: radvision-video-conferencing
+  name: RADVISION Video Conferencing
+  author: P1finger
+  tags:
+    - radvision
+    - video-conferencing
+  description: RADVISION Video Conferencing
+  matchers:
+    - location: body
+      words:
+        - RADVISION iVIEW Suite
+    - location: header
+      words:
+        - 'Server: Apache/2.0.59 (Unix) PHP/5.1.0 mod_ssl/2.0.59 OpenSSL/0.9.8h DAV/2'

@@ -1,0 +1,10 @@
+- id: yii-php-framework
+  name: Yii Php Framework
+  author: P1finger
+  tags:
+    - yii-php-framework
+  description: Yii Php Framework
+  matchers:
+    - hash:
+        - "-1298108480"
+      location: favicon

@@ -1,0 +1,18 @@
+- id: jspxcms
+  name: Jspxcms
+  author: P1finger
+  tags:
+    - jspxcms
+  description: Jspxcms
+  matchers:
+    - location: body
+      words:
+        - Powered by Jspxcms
+    - condition: and
+      location: body
+      words:
+        - '- powered by jspxcms'
+        - template/
+    - location: body
+      words:
+        - /bluewise/_files/jspxcms.css

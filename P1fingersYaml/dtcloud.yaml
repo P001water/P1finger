@@ -1,0 +1,13 @@
+- id: dtcloud
+  name: Dtcloud
+  author: P001
+  tags:
+    - dtcloud
+  description: Dtcloud
+  matchers:
+    - hash:
+        - 49fe0618acdcd7c9dc443faca20d7bd9
+      location: favicon
+    - location: body
+      words:
+        - dtcloud

@@ -1,0 +1,14 @@
+- id: resin
+  name: Resin
+  author: P1finger
+  tags:
+    - resin
+  description: Resin
+  matchers:
+    - location: header
+      words:
+        - 'Server: Resin'
+    - condition: and
+      location: header
+      words:
+        - 'Server: Resin'

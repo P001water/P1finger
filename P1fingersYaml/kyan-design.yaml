@@ -1,0 +1,10 @@
+- id: kyan-design
+  name: Kyan-design
+  author: P001
+  tags:
+    - kyan-design
+  description: Kyan-design
+  matchers:
+    - location: body
+      words:
+        - <meta name='author' content='http://www.kyanmedia.com'>

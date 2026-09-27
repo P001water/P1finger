@@ -1,0 +1,28 @@
+- id: finecms
+  name: Finecms
+  author: P1finger
+  tags:
+    - finecms
+  description: Finecms
+  matchers:
+    - location: body
+      words:
+        - FineCMS
+    - condition: or
+      location: body
+      words:
+        - Powered by FineCMS
+    - condition: or
+      location: body
+      words:
+        - dayrui@gmail.com
+    - condition: or
+      location: body
+      words:
+        - Copyright" content="FineCMS
+    - location: body
+      words:
+        - /statics/js/dayrui.js
+        - copyright" content="finecms
+        - dayrui@gmail.com
+        - powered by finecms

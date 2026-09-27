@@ -1,0 +1,10 @@
+- id: yiqiyiqicms
+  name: YiqiYiqiCMS
+  author: P1finger
+  tags:
+    - yiqiyiqicms
+  description: YiqiYiqiCMS
+  matchers:
+    - location: body
+      words:
+        - content="YiqiCMS

@@ -1,0 +1,10 @@
+- id: wormcms
+  name: Wormcms
+  author: P1finger
+  tags:
+    - wormcms
+  description: Wormcms
+  matchers:
+    - location: body
+      words:
+        - wormcms/layui/layui.js

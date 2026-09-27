@@ -1,0 +1,10 @@
+- id: codis
+  name: Codis
+  author: P1finger
+  tags:
+    - codis
+  description: Codis
+  matchers:
+    - location: body
+      words:
+        - <title>Codis</title>

@@ -1,0 +1,13 @@
+- id: apache-guacamole-2
+  name: Apache Guacamole Login Page and version
+  author: nuclei
+  tags:
+  - apache
+  - guacamole
+  description: Apache Guacamole Login Page and version
+  paths:
+  - /translations/en.json
+  matchers:
+  - location: body
+    words:
+    - Apache Guacamole

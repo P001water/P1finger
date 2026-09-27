@@ -1,0 +1,11 @@
+- id: dcn-firewall
+  name: Dcn Firewall
+  author: P001
+  tags:
+    - dcn
+    - firewall
+  description: Dcn Firewall
+  matchers:
+    - location: body
+      words:
+        - dcfos web management

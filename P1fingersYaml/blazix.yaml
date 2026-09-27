@@ -1,0 +1,17 @@
+- id: blazix
+  name: Blazix
+  author: Fofa
+  tags:
+    - blazix
+  description: Blazix
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Blazix Java Server
+    - location: header
+      words:
+        - Blazix Java Server
+    - location: body
+      words:
+        - 'server: blazix java server'

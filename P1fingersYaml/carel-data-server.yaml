@@ -1,0 +1,28 @@
+- id: carel
+  name: Carel-data-server
+  author: P1finger
+  tags:
+    - carel
+  description: Carel-data-server
+  matchers:
+    - location: body
+      words:
+        - src="/MPwebCoreFn.js
+    - location: header
+      words:
+        - CarelDataServer
+- id: carel-2
+  name: Carel-Data-Server
+  author: Fofa
+  tags:
+    - carel
+  description: Carel-Data-Server
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - src="/MPwebCoreFn.js
+    - condition: or
+      location: header
+      words:
+        - CarelDataServer

@@ -1,0 +1,10 @@
+- id: ioa
+  name: Ioa
+  author: P1finger
+  tags:
+    - ioa
+  description: Ioa
+  matchers:
+    - location: body
+      words:
+        - id="foot_version">厦门容能科技有限公司

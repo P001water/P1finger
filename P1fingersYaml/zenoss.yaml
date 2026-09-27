@@ -1,0 +1,14 @@
+- id: zenoss
+  name: Zenoss
+  author: Fofa
+  tags:
+    - zenoss
+  description: Zenoss
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /zport/dmd/
+    - location: body
+      words:
+        - /zport/dmd/

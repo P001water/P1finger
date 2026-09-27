@@ -1,0 +1,10 @@
+- id: resourcemanager
+  name: Resourcemanager
+  author: P001
+  tags:
+    - resourcemanager
+  description: Resourcemanager
+  matchers:
+    - location: body
+      words:
+        - this is standby rm. redirecting to the current active rm

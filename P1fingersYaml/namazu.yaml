@@ -1,0 +1,10 @@
+- id: namazu
+  name: Namazu
+  author: P001
+  tags:
+    - namazu
+  description: Namazu
+  matchers:
+    - location: body
+      words:
+        - http://www.namazu.org/">namazu

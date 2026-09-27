@@ -1,0 +1,11 @@
+- id: vcmbangong-management-system
+  name: VCMbangong Management System
+  author: P1finger
+  tags:
+    - vcmbangong
+    - management-system
+  description: VCMbangong Management System
+  matchers:
+    - location: body
+      words:
+        - VCM办公管理系统

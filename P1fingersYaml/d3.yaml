@@ -1,0 +1,23 @@
+- id: d3
+  name: D3
+  author: Fofa
+  tags:
+    - d3
+  description: D3
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /d3.min.js
+    - condition: or
+      location: body
+      words:
+        - /d3.v2.min.js
+    - condition: or
+      location: body
+      words:
+        - /d3.js
+    - condition: or
+      location: body
+      words:
+        - /d3.v2.js

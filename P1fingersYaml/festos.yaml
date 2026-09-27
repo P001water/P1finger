@@ -1,0 +1,23 @@
+- id: festos
+  name: FestOS
+  author: Fofa
+  tags:
+    - festos
+  description: FestOS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - title="FestOS
+    - condition: or
+      location: body
+      words:
+        - css/festos.css
+    - location: body
+      words:
+        - title="FestOS
+        - css/festos.css
+    - location: body
+      words:
+        - css/festos.css
+        - title="festos

@@ -1,0 +1,10 @@
+- id: doclever
+  name: Doclever
+  author: P001
+  tags:
+    - doclever
+  description: Doclever
+  matchers:
+    - location: body
+      words:
+        - '@click.prevent="login" :loading="loginpending"'

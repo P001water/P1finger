@@ -1,0 +1,12 @@
+- id: jinshidakingstart
+  name: JinshidaKingstart Business Management System
+  author: P1finger
+  tags:
+    - jinshidakingstart
+    - business-management-system
+  description: JinshidaKingstart Business Management System
+  matchers:
+    - location: body
+      words:
+        - /servlet/frame/Frame?function=mainSite
+        - wf/scripts/

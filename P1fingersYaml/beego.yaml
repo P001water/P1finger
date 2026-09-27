@@ -1,0 +1,11 @@
+- id: beego
+  name: Beego
+  author: P1finger
+  tags:
+    - beego
+  description: Beego
+  matchers:
+    - location: header
+      words:
+        - 'Server: service-go'
+        - 'Server: go-beego'

@@ -1,0 +1,11 @@
+- id: rosewill-rnx-n300rt
+  name: Rosewill RNX-N300RT
+  author: Fofa
+  tags:
+    - rosewill-rnx-n300rt
+  description: Rosewill RNX-N300RT
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - RNX-N300RT

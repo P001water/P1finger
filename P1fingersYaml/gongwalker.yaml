@@ -1,0 +1,11 @@
+- id: gongwalkerapijiekouguanligongju
+  name: GongwalkerAPIjiekouguanligongju
+  author: P1finger
+  tags:
+    - gongwalkerapijiekouguanligongju
+  description: GongwalkerAPIjiekouguanligongju
+  matchers:
+    - location: body
+      words:
+        - API接口管理工具
+        - /MinPHP/

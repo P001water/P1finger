@@ -1,0 +1,10 @@
+- id: laobanmail-visualhost
+  name: Laobanmail-visualhost
+  author: P001
+  tags:
+    - laobanmail-visualhost
+  description: Laobanmail-visualhost
+  matchers:
+    - location: body
+      words:
+        - /public/js/util/xg_oyang.js

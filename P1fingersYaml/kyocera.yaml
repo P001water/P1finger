@@ -1,0 +1,10 @@
+- id: kyocera
+  name: Kyocera
+  author: P1finger
+  tags:
+    - kyocera
+  description: Kyocera
+  matchers:
+    - hash:
+        - "-50306417"
+      location: favicon

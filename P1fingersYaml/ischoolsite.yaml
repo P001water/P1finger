@@ -1,0 +1,14 @@
+- id: ischoolsite
+  name: Ischoolsite
+  author: Fofa
+  tags:
+    - ischoolsite
+  description: Ischoolsite
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://www.ischoolsite.com
+    - location: body
+      words:
+        - Powered by <a href="http://www.ischoolsite.com

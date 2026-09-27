@@ -1,0 +1,10 @@
+- id: workday
+  name: Workday
+  author: P1finger
+  tags:
+    - workday
+  description: Workday
+  matchers:
+    - hash:
+        - "-459291760"
+      location: favicon

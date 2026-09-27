@@ -1,0 +1,12 @@
+- id: vp-asp
+  name: Vp-asp
+  author: P001
+  tags:
+    - vp-asp
+  description: Vp-asp
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.vpasp.com">
+        - shopdisplayproducts.asp?id=
+        - src="vs350.js

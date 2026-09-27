@@ -1,0 +1,10 @@
+- id: bludit
+  name: Bludit CMS
+  author: P1finger
+  tags:
+    - bludit
+  description: Bludit CMS
+  matchers:
+    - location: body
+      words:
+        - content="Bludit CMS"

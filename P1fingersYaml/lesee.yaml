@@ -1,0 +1,11 @@
+- id: lesee-management-system
+  name: Lesee Management System
+  author: P1finger
+  tags:
+    - lesee
+    - management-system
+  description: Lesee Management System
+  matchers:
+    - location: body
+      words:
+        - Lesee管理系统

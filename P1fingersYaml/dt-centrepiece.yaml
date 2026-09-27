@@ -1,0 +1,26 @@
+- id: dt-centrepiece
+  name: Dt-centrepiece
+  author: P1finger
+  tags:
+    - dt-centrepiece
+  description: Dt-centrepiece
+  matchers:
+    - location: body
+      words:
+        - content="DT Centrepiece
+        - Powered By DT Centrepiece
+- id: dt-centrepiece-2
+  name: DT-Centrepiece
+  author: Fofa
+  tags:
+    - dt-centrepiece
+  description: DT-Centrepiece
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="DT Centrepiece
+    - condition: or
+      location: body
+      words:
+        - Powered By DT Centrepiece

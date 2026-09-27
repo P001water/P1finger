@@ -1,0 +1,22 @@
+- id: wishoa
+  name: WishOA
+  author: Fofa
+  tags:
+    - wishoa
+  description: WishOA
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - WishOA_WebPlugin.js
+    - location: body
+      words:
+        - WishOA_WebPlugin.js
+    - location: body
+      words:
+        - wishoa_webplugin.js
+        - wishoa_webplugin.js
+    - location: body
+      words:
+        - wishoa_webplugin.js
+        - closewindownoask

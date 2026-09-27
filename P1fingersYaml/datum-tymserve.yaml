@@ -1,0 +1,28 @@
+- id: datum-tymserve
+  name: Datum-tymserve
+  author: P1finger
+  tags:
+    - datum-tymserve
+  description: Datum-tymserve
+  matchers:
+    - location: body
+      words:
+        - <H2 ALIGN=CENTER>Datum TymServe
+    - location: header
+      words:
+        - DATM
+- id: datum-tymserve-2
+  name: Datum-TymServe
+  author: Fofa
+  tags:
+    - datum-tymserve
+  description: Datum-TymServe
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <H2 ALIGN=CENTER>Datum TymServe
+    - condition: or
+      location: header
+      words:
+        - DATM

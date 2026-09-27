@@ -1,0 +1,11 @@
+- id: act-manager
+  name: Act-manager
+  author: P001
+  tags:
+    - act-manager
+  description: Act-manager
+  matchers:
+    - location: body
+      words:
+        - <script>location.href="ucenter";</script>
+        - url:"/ucenter/login/loginaction!gettitle.action",

@@ -1,0 +1,14 @@
+- id: lynxspring-jenesys
+  name: Lynxspring_JENEsys
+  author: Fofa
+  tags:
+    - lynxspring-jenesys
+  description: Lynxspring_JENEsys
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - LX JENEsys
+    - location: body
+      words:
+        - LX JENEsys

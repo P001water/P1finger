@@ -1,0 +1,11 @@
+- id: npublianwangshuzibiaopai
+  name: NPUBlianwangshuzibiaopai Management System
+  author: P1finger
+  tags:
+    - npublianwangshuzibiaopai
+    - management-system
+  description: NPUBlianwangshuzibiaopai Management System
+  matchers:
+    - location: body
+      words:
+        - nPUB联网数字标牌管理系统

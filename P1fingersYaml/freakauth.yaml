@@ -1,0 +1,17 @@
+- id: freakauth
+  name: FreakAuth
+  author: Fofa
+  tags:
+    - freakauth
+  description: FreakAuth
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FreakAuth
+    - location: header
+      words:
+        - FreakAuth
+    - location: body
+      words:
+        - 'set-cookie: freakauth'

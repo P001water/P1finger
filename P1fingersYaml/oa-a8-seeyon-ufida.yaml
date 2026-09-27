@@ -1,0 +1,13 @@
+- id: a8-seeyon-ufida
+  name: OA(a8/seeyon/ufida)
+  author: Fofa
+  tags:
+  - yonyou
+  - seeyon
+  - a8-seeyon-ufida
+  description: OA(a8/seeyon/ufida)
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /seeyon/USER-DATA/IMAGES/LOGIN/login.gif

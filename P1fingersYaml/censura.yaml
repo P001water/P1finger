@@ -1,0 +1,17 @@
+- id: censura
+  name: Censura
+  author: Fofa
+  tags:
+    - censura
+  description: Censura
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'Powered by: <a href="http://www.censura.info'
+    - location: body
+      words:
+        - 'Powered by: <a href="http://www.censura.info'
+    - location: body
+      words:
+        - 'powered by: <a href="http://www.censura.info'

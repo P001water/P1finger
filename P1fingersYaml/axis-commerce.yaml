@@ -1,0 +1,38 @@
+- id: axis-commerce
+  name: Axis-commerce
+  author: P1finger
+  tags:
+  - axis
+  - axis-commerce
+  description: Axis-commerce
+  matchers:
+  - location: body
+    words:
+    - Powered by Axis
+    - Login to Axis administrator
+  - location: header
+    words:
+    - axisid
+  - location: body
+    words:
+    - Powered by Axis
+- id: axis-commerce-2
+  name: Axis-Commerce
+  author: Fofa
+  tags:
+  - axis
+  - axis-commerce
+  description: Axis-Commerce
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - axisid
+  - condition: or
+    location: body
+    words:
+    - Powered by Axis
+  - condition: or
+    location: title
+    words:
+    - Login to Axis administrator

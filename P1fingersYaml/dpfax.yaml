@@ -1,0 +1,11 @@
+- id: dpfax
+  name: Dpfax
+  author: P001
+  tags:
+    - dpfax
+  description: Dpfax
+  matchers:
+    - location: body
+      words:
+        - <img src="images/dpfax-big.png" border="0" alt="dpfax
+        - content="dpfax - minifaxserver

@@ -1,0 +1,42 @@
+- id: jive-sbs
+  name: Jive-sbs
+  author: P1finger
+  tags:
+    - jive-sbs
+  description: Jive-sbs
+  matchers:
+    - location: body
+      words:
+        - /jive-icons.css
+        - class="jive-body-formpage
+        - jive.rte.defaultStyles
+    - location: header
+      words:
+        - 'X-Jsl: '
+    - location: body
+      words:
+        - /jive-icons.css
+        - class="jive-body-formpage
+- id: jive-sbs-2
+  name: Jive-SBS
+  author: Fofa
+  tags:
+    - jive-sbs
+  description: Jive-SBS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /jive-icons.css
+    - condition: or
+      location: body
+      words:
+        - class="jive-body-formpage
+    - condition: or
+      location: header
+      words:
+        - 'X-Jsl: '
+    - condition: or
+      location: body
+      words:
+        - jive.rte.defaultStyles

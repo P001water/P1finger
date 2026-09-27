@@ -1,0 +1,15 @@
+- id: jsdelivr
+  name: Jsdelivr
+  author: Fofa
+  tags:
+    - jsdelivr
+  description: Jsdelivr
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - cdn.jsdelivr.net
+    - condition: or
+      location: body
+      words:
+        - cdn.jsdelivr.net

@@ -1,0 +1,10 @@
+- id: openwbs
+  name: OpenWBS
+  author: P1finger
+  tags:
+    - openwbs
+  description: OpenWBS
+  matchers:
+    - location: body
+      words:
+        - openwbs team

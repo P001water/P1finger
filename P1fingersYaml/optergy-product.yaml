@@ -1,0 +1,10 @@
+- id: optergy
+  name: Optergy-product
+  author: P001
+  tags:
+    - optergy
+  description: Optergy-product
+  matchers:
+    - location: body
+      words:
+        - /css/optergy.css

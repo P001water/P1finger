@@ -1,0 +1,21 @@
+- id: cf-image-hosting-script
+  name: Cf-image-hosting-script
+  author: P1finger
+  tags:
+    - cf-image-hosting-script
+  description: Cf-image-hosting-script
+  matchers:
+    - location: body
+      words:
+        - codefuture.co.uk/projects/imagehost/
+- id: cf-image-hosting-script-2
+  name: CF-Image-Hosting-Script
+  author: Fofa
+  tags:
+    - cf-image-hosting-script
+  description: CF-Image-Hosting-Script
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered By <a href="http://codefuture.co.uk/projects/imagehost/

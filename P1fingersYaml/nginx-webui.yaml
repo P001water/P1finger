@@ -1,0 +1,11 @@
+- id: nginx-webui
+  name: Nginx-webui
+  author: P001
+  tags:
+  - nginx
+  - nginx-webui
+  description: Nginx-webui
+  matchers:
+  - location: body
+    words:
+    - <title>nginxwebui</title>

@@ -1,0 +1,14 @@
+- id: clicktale
+  name: ClickTale
+  author: Fofa
+  tags:
+    - clicktale
+  description: ClickTale
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <div id="ClickTaleDiv
+    - location: body
+      words:
+        - <div id="ClickTaleDiv

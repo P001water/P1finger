@@ -1,0 +1,10 @@
+- id: cx
+  name: Cx
+  author: P1finger
+  tags:
+    - cx
+  description: Cx
+  matchers:
+    - hash:
+        - "-532394952"
+      location: favicon

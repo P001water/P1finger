@@ -1,0 +1,11 @@
+- id: tencent-5
+  name: Tencent
+  author: P1finger
+  tags:
+    - tencent
+  description: Tencent
+  matchers:
+    - location: body
+      words:
+        - TDSQL
+        - src="/chunks/vendors~

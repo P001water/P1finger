@@ -1,0 +1,15 @@
+- id: google-hosted-libraries
+  name: Google Hosted Libraries
+  author: Fofa
+  tags:
+    - google-hosted-libraries
+  description: Google Hosted Libraries
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ajax.googleapis.com/ajax/libs
+    - condition: or
+      location: body
+      words:
+        - ajax.googleapis.com/ajax/libs

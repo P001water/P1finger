@@ -1,0 +1,27 @@
+- id: dokeos
+  name: Dokeos
+  author: Fofa
+  tags:
+    - dokeos
+  description: Dokeos
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - href="http://www.dokeos.com" rel="Copyright
+    - condition: or
+      location: body
+      words:
+        - content="Dokeos
+    - condition: or
+      location: body
+      words:
+        - name="Generator" content="Dokeos
+    - location: body
+      words:
+        - href="http://www.dokeos.com" rel="Copyright
+        - content="Dokeos
+        - name="Generator" content="Dokeos
+    - location: body
+      words:
+        - target="_blank">Dokeos

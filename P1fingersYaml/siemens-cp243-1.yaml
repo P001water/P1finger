@@ -1,0 +1,11 @@
+- id: siemens-cp243
+  name: Siemens_CP243-1
+  author: Fofa
+  tags:
+    - siemens-cp243
+  description: Siemens_CP243-1
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CP243-1 IT

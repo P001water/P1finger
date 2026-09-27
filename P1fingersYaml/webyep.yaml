@@ -1,0 +1,10 @@
+- id: webyep-2
+  name: WebYep
+  author: P1finger
+  tags:
+    - webyep
+  description: WebYep
+  matchers:
+    - location: body
+      words:
+        - <a href='/webyep-system

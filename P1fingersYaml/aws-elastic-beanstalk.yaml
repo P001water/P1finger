@@ -1,0 +1,17 @@
+- id: aws-elastic-beanstalk
+  name: Aws-elastic-beanstalk
+  author: P001
+  tags:
+  - elastic
+  - aws-elastic-beanstalk
+  description: Aws-elastic-beanstalk
+  matchers:
+  - location: body
+    words:
+    - <h2>what's next?</h2>
+    - aws.amazon.com/elasticbeanstalk
+  - location: body
+    words:
+    - AWS Elastic Beanstalk
+    - AWS Elastic Beanstalk Application is now running on your own dedicated environment
+      in the AWS Cloud

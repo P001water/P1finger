@@ -1,0 +1,17 @@
+- id: dwr
+  name: Dwr
+  author: P1finger
+  tags:
+    - dwr
+  description: Dwr
+  matchers:
+    - location: body
+      words:
+        - dwr/engine.js
+    - condition: and
+      location: body
+      words:
+        - /dwr/engine.js
+    - location: body
+      words:
+        - /dwr/engine.js

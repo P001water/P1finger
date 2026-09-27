@@ -1,0 +1,10 @@
+- id: leap
+  name: LEAP
+  author: P1finger
+  tags:
+    - leap
+  description: LEAP
+  matchers:
+    - location: body
+      words:
+        - content="Leap

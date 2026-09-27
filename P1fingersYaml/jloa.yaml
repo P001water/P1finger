@@ -1,0 +1,13 @@
+- id: jloa
+  name: Jloa
+  author: P001
+  tags:
+    - jloa
+  description: Jloa
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - logintable
+        - selectcss
+        - toptitleimg

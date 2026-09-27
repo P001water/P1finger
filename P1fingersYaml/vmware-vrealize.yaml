@@ -1,0 +1,22 @@
+- id: vmware-vrealize
+  name: Vmware-vrealize
+  author: P001
+  tags:
+  - vmware
+  - vmware-vrealize
+  description: Vmware-vrealize
+  matchers:
+  - location: body
+    words:
+    - 正在重定向到 vrealize operations manager web
+- id: vmware-vrealize-2
+  name: Vmware_vrealize
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-vrealize
+  description: Vmware_vrealize
+  matchers:
+  - location: body
+    words:
+    - vRealize

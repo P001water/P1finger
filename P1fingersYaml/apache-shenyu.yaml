@@ -1,0 +1,11 @@
+- id: apache-shenyu
+  name: Apache ShenYu
+  author: P1finger
+  tags:
+  - apache
+  - apache-shenyu
+  description: Apache ShenYu
+  matchers:
+  - location: body
+    words:
+    - th:text=\"${domain}

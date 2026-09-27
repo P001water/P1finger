@@ -1,0 +1,10 @@
+- id: kuaifancms
+  name: Kuaifancms
+  author: P1finger
+  tags:
+    - kuaifancms
+  description: Kuaifancms
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: backhttp[0]='

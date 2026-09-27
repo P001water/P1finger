@@ -1,0 +1,13 @@
+- id: rconfig
+  name: Rconfig
+  author: P001
+  tags:
+    - rconfig
+  description: Rconfig
+  matchers:
+    - location: body
+      words:
+        - rconfiglogo
+    - location: body
+      words:
+        - rConfigLogo

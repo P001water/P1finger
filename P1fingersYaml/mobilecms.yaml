@@ -1,0 +1,11 @@
+- id: mobilecmshoutai
+  name: MobileCmshoutai Management System
+  author: P1finger
+  tags:
+    - mobilecmshoutai
+    - management-system
+  description: MobileCmshoutai Management System
+  matchers:
+    - location: body
+      words:
+        - MobileCms 后台管理系统

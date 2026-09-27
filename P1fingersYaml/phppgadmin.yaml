@@ -1,0 +1,13 @@
+- id: phppgadmin
+  name: Phppgadmin
+  author: P001
+  tags:
+    - phppgadmin
+  description: Phppgadmin
+  matchers:
+    - location: body
+      words:
+        - class="appname">phppgadmin
+    - location: body
+      words:
+        - phpPgAdmin

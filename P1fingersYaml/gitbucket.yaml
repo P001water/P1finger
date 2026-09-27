@@ -1,0 +1,17 @@
+- id: gitbucket
+  name: Gitbucket
+  author: P001
+  tags:
+    - gitbucket
+  description: Gitbucket
+  matchers:
+    - location: body
+      words:
+        - /assets/common/images/gitbucket.png
+    - location: body
+      words:
+        - GitBucket
+        - alt="GitBucket"
+    - location: header
+      words:
+        - gitbucket

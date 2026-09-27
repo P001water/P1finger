@@ -1,0 +1,10 @@
+- id: are-infotech
+  name: ARE InfoTech
+  author: P1finger
+  tags:
+    - are-infotech
+  description: ARE InfoTech
+  matchers:
+    - location: body
+      words:
+        - ARE InfoTech

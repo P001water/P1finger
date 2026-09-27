@@ -1,0 +1,10 @@
+- id: ossia
+  name: Ossia Camera
+  author: P1finger
+  tags:
+    - ossia
+  description: Ossia Camera
+  matchers:
+    - hash:
+        - "-374235895"
+      location: favicon

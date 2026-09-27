@@ -1,0 +1,10 @@
+- id: jfinaloa
+  name: JfinalOA
+  author: P1finger
+  tags:
+    - jfinaloa
+  description: JfinalOA
+  matchers:
+    - location: body
+      words:
+        - JfinalOA

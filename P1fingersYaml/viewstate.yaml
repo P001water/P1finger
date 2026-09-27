@@ -1,0 +1,11 @@
+- id: viewstate
+  name: __VIEWSTATE
+  author: Fofa
+  tags:
+    - viewstate
+  description: __VIEWSTATE
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - __VIEWSTATE

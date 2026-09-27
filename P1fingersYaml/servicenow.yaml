@@ -1,0 +1,10 @@
+- id: servicenow
+  name: Servicenow
+  author: P1finger
+  tags:
+    - servicenow
+  description: Servicenow
+  matchers:
+    - hash:
+        - "86919334"
+      location: favicon

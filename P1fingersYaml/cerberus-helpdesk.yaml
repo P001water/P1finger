@@ -1,0 +1,31 @@
+- id: cerberus-helpdesk
+  name: Cerberus-helpdesk
+  author: P1finger
+  tags:
+    - cerberus-helpdesk
+  description: Cerberus-helpdesk
+  matchers:
+    - location: body
+      words:
+        - <!-- If you have your own stylesheet for HTML elements, you can remove the cerberus-html.css link
+    - location: header
+      words:
+        - CerberusPublicGUI
+    - location: body
+      words:
+        - <!-- if you have your own stylesheet for html elements, you can remove the cerberus-html.css link
+- id: cerberus-helpdesk-2
+  name: Cerberus-Helpdesk
+  author: Fofa
+  tags:
+    - cerberus-helpdesk
+  description: Cerberus-Helpdesk
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - CerberusPublicGUI
+    - condition: or
+      location: body
+      words:
+        - <!-- If you have your own stylesheet for HTML elements, you can remove the cerberus-html.css link

@@ -1,0 +1,14 @@
+- id: telerik
+  name: Telerik
+  author: P1finger
+  tags:
+    - telerik
+  description: Telerik
+  matchers:
+    - location: body
+      words:
+        - /Telerik.Web.UI.WebResource.axd
+        - content="Sitefinity
+    - location: body
+      words:
+        - telerik

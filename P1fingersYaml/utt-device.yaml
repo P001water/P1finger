@@ -1,0 +1,10 @@
+- id: utt
+  name: Utt-device
+  author: P001
+  tags:
+    - utt
+  description: Utt-device
+  matchers:
+    - location: body
+      words:
+        - class="utt-inline-block" src="./images/login_btmlogo.png"

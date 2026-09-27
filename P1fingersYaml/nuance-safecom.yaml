@@ -1,0 +1,10 @@
+- id: nuance-safecom
+  name: Nuance-safecom
+  author: P001
+  tags:
+    - nuance-safecom
+  description: Nuance-safecom
+  matchers:
+    - location: body
+      words:
+        - safecom mobile print

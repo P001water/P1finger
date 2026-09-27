@@ -1,0 +1,10 @@
+- id: huaweismc
+  name: Huaweismc
+  author: P001
+  tags:
+    - huaweismc
+  description: Huaweismc
+  matchers:
+    - location: body
+      words:
+        - script/smcscript.js?version=

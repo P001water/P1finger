@@ -1,0 +1,10 @@
+- id: pengwei-4
+  name: Pengwei
+  author: P1finger
+  tags:
+    - pengwei
+  description: Pengwei
+  matchers:
+    - location: body
+      words:
+        - CRM系统(鹏为E4)登录

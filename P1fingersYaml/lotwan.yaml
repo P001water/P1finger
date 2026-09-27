@@ -1,0 +1,12 @@
+- id: lotwanguangyuwangjiasu-system
+  name: Lotwanguangyuwangjiasu System
+  author: P1finger
+  tags:
+    - lotwanguangyuwangjiasu
+    - system
+  description: Lotwanguangyuwangjiasu System
+  matchers:
+    - location: body
+      words:
+        - lotwan 广域网加速系统
+        - 北京华夏创新科技有限公司

@@ -1,0 +1,20 @@
+- id: masyidongdailifuwuqi
+  name: MASyidongdailifuwuqi
+  author: P1finger
+  tags:
+    - masyidongdailifuwuqi
+  description: MASyidongdailifuwuqi
+  matchers:
+    - location: body
+      words:
+        - MAS移动代理服务器-登录
+- id: trs-3
+  name: TRS
+  author: P1finger
+  tags:
+    - trs
+  description: TRS
+  matchers:
+    - location: header
+      words:
+        - X-Mas-Server

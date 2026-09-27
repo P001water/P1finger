@@ -1,0 +1,13 @@
+- id: yearning
+  name: Yearning
+  author: P001
+  tags:
+    - yearning
+  description: Yearning
+  matchers:
+    - location: body
+      words:
+        - id=subnet
+    - location: body
+      words:
+        - Yearning

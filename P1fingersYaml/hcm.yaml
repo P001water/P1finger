@@ -1,0 +1,11 @@
+- id: inspur-2
+  name: Inspur
+  author: P1finger
+  tags:
+    - inspur
+  description: Inspur
+  matchers:
+    - location: body
+      words:
+        - inPageLoginMethod
+        - more_login_method

@@ -1,0 +1,13 @@
+- id: fusionaccess
+  name: Fusionaccess
+  author: P1finger
+  tags:
+    - fusionaccess
+  description: Fusionaccess
+  matchers:
+    - location: body
+      words:
+        - FusionAccess
+    - location: header
+      words:
+        - FusionAccess

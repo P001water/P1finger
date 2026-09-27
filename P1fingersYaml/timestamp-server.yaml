@@ -1,0 +1,10 @@
+- id: timestamp
+  name: Timestamp-server
+  author: P001
+  tags:
+    - timestamp
+  description: Timestamp-server
+  matchers:
+    - location: body
+      words:
+        - 北京数字认证股份有限公司

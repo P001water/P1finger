@@ -1,0 +1,10 @@
+- id: easydoc
+  name: Easydoc
+  author: P1finger
+  tags:
+    - easydoc
+  description: Easydoc
+  matchers:
+    - location: body
+      words:
+        - content="易文档

@@ -1,0 +1,32 @@
+- id: avaya-aura-utility
+  name: Avaya-aura-utility-server
+  author: P1finger
+  tags:
+    - avaya-aura-utility
+  description: Avaya-aura-utility-server
+  matchers:
+    - location: body
+      words:
+        - vmsTitle">Avaya Aura&#8482;&nbsp;Utility Server
+        - /webhelp/Base/Utility_toc.htm
+    - location: body
+      words:
+        - /webhelp/base/utility_toc.htm
+        - avaya aura&reg;&nbsp;utility services
+        - avaya inc. all rights reserved
+        - vmstitle">avaya aura&#8482;&nbsp;utility server
+- id: avaya-aura-utility-2
+  name: Avaya-Aura-Utility-Server
+  author: Fofa
+  tags:
+    - avaya-aura-utility
+  description: Avaya-Aura-Utility-Server
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - vmsTitle">Avaya Aura&#8482;&nbsp;Utility Server
+    - condition: or
+      location: body
+      words:
+        - /webhelp/Base/Utility_toc.htm

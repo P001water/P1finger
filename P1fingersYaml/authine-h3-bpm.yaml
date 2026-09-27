@@ -1,0 +1,10 @@
+- id: authine-h3-bpm
+  name: Authine-h3-bpm
+  author: P001
+  tags:
+    - authine-h3-bpm
+  description: Authine-h3-bpm
+  matchers:
+    - location: body
+      words:
+        - h3 bpm suite信息化的最佳实践

@@ -1,0 +1,11 @@
+- id: sonicos
+  name: SonicOS
+  author: P1finger
+  tags:
+    - sonicos
+  description: SonicOS
+  matchers:
+    - location: body
+      words:
+        - SonicOS avSummary page to cc.sonicwall.com
+        - SonicOS Enhanced

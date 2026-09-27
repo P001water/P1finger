@@ -1,0 +1,16 @@
+- id: sikaiputhinkape
+  name: Sikaiputhinkape
+  author: P1finger
+  tags:
+    - sikaiputhinkape
+  description: Sikaiputhinkape
+  matchers:
+    - hash:
+        - "-1574451046"
+      location: favicon
+    - location: body
+      words:
+        - 思凯普
+        - ThinkApe
+        - 版权所有@ThinkApe思凯普
+        - Ashx/MobileSSOYL.ashx

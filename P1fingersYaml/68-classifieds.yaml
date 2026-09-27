@@ -1,0 +1,22 @@
+- id: 68-classifieds
+  name: 68 Classifieds
+  author: Fofa
+  tags:
+    - 68-classifieds
+  description: 68 Classifieds
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by
+        - 68 Classifieds
+- id: 68-classifieds-2
+  name: 68 Classifieds
+  author: P1finger
+  tags:
+    - 68-classifieds
+  description: 68 Classifieds
+  matchers:
+    - location: body
+      words:
+        - 68 Classifieds

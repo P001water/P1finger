@@ -1,0 +1,10 @@
+- id: onera
+  name: Onera
+  author: P1finger
+  tags:
+    - onera
+  description: Onera
+  matchers:
+    - hash:
+        - "1234311970"
+      location: favicon

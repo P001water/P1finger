@@ -1,0 +1,10 @@
+- id: phpscripte
+  name: Phpscripte
+  author: P1finger
+  tags:
+    - phpscripte
+  description: Phpscripte
+  matchers:
+    - location: body
+      words:
+        - content="Hi Web Wiesbaden - phpscripte24

@@ -1,0 +1,24 @@
+- id: fastpublish
+  name: Fastpublish-cms
+  author: P1finger
+  tags:
+    - fastpublish
+  description: Fastpublish-cms
+  matchers:
+    - location: body
+      words:
+        - content="fastpublish
+    - location: body
+      words:
+        - fastpublish CMS
+- id: fastpublish-2
+  name: Fastpublish-CMS
+  author: Fofa
+  tags:
+    - fastpublish
+  description: Fastpublish-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="fastpublish

@@ -1,0 +1,26 @@
+- id: concrete5
+  name: Concrete5
+  author: Fofa
+  tags:
+    - concrete5
+  description: Concrete5
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - generator" content="ezCMS
+    - condition: or
+      location: header
+      words:
+        - CONCRETE5
+    - condition: or
+      location: body
+      words:
+        - CCM_DISPATCHER_FILENAME
+    - location: body
+      words:
+        - generator" content="ezCMS
+        - CCM_DISPATCHER_FILENAME
+    - location: header
+      words:
+        - CONCRETE5

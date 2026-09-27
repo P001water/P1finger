@@ -1,0 +1,10 @@
+- id: photostore
+  name: Photostore
+  author: P001
+  tags:
+    - photostore
+  description: Photostore
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.ktools.net/photostore/index.php

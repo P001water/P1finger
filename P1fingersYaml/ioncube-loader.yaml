@@ -1,0 +1,25 @@
+- id: ioncube-loader
+  name: Ioncube-loader
+  author: P1finger
+  tags:
+    - ioncube-loader
+  description: Ioncube-loader
+  matchers:
+    - location: body
+      words:
+        - alt="ionCube logo
+- id: ioncube-loader-2
+  name: IonCube-Loader
+  author: Fofa
+  tags:
+    - ioncube-loader
+  description: IonCube-Loader
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - alt="ionCube logo
+    - location: body
+      words:
+        - <a name="module_ioncube+loader">ionCube Loader
+        - <a name="module_ionCube Loader">ionCube Loader

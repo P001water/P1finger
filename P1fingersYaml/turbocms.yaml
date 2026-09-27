@@ -1,0 +1,27 @@
+- id: turbocms
+  name: Turbocms
+  author: P1finger
+  tags:
+    - turbocms
+  description: Turbocms
+  matchers:
+    - location: body
+      words:
+        - Powered by TurboCMS
+        - /cmsapp/zxdcADD.jsp
+        - /cmsapp/count/newstop_index.jsp?siteid=
+    - condition: or
+      location: body
+      words:
+        - Powered by TurboCMS
+    - condition: or
+      location: body
+      words:
+        - /cmsapp/zxdcADD.jsp
+    - condition: or
+      location: body
+      words:
+        - /cmsapp/count/newstop_index.jsp?siteid=
+    - location: header
+      words:
+        - /turbosearch/search.jsp

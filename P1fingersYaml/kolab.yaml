@@ -1,0 +1,10 @@
+- id: kolab
+  name: Kolab
+  author: P001
+  tags:
+    - kolab
+  description: Kolab
+  matchers:
+    - location: body
+      words:
+        - content="kolab

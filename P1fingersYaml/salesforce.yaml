@@ -1,0 +1,10 @@
+- id: salesforce
+  name: Salesforce
+  author: P1finger
+  tags:
+    - salesforce
+  description: Salesforce
+  matchers:
+    - hash:
+        - "1433417005"
+      location: favicon

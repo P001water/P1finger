@@ -1,0 +1,21 @@
+- id: profense
+  name: Profense-firewall
+  author: P001
+  tags:
+    - profense
+  description: Profense-firewall
+  matchers:
+    - location: body
+      words:
+        - 'server: profense'
+- id: profense-2
+  name: Profense Firewall
+  author: P1finger
+  tags:
+    - profense
+  description: Profense Firewall
+  matchers:
+    - location: header
+      words:
+        - plbsid=
+        - profense

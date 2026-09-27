@@ -1,0 +1,24 @@
+- id: asterisk
+  name: Asterisk
+  author: Fofa
+  tags:
+    - asterisk
+  description: Asterisk
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Asterisk
+    - condition: or
+      location: body
+      words:
+        - asterisk_rawmanPath
+    - location: body
+      words:
+        - asterisk_rawmanPath
+    - location: header
+      words:
+        - Asterisk
+    - location: body
+      words:
+        - asterisk_rawmanpath

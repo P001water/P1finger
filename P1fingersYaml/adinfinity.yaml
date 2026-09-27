@@ -1,0 +1,14 @@
+- id: adinfinity
+  name: Adinfinity
+  author: Fofa
+  tags:
+    - adinfinity
+  description: Adinfinity
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - adinfinity.com.au/adapt
+    - location: body
+      words:
+        - adinfinity.com.au/adapt

@@ -1,0 +1,26 @@
+- id: jira
+  name: Jira
+  author: P1finger
+  tags:
+    - jira
+  description: Jira
+  matchers:
+    - location: body
+      words:
+        - jira.webresources
+    - condition: or
+      location: body
+      words:
+        - jira.webresources
+    - condition: or
+      location: header
+      words:
+        - atlassian.xsrf.token
+    - condition: or
+      location: body
+      words:
+        - ams-build-number
+    - condition: or
+      location: body
+      words:
+        - com.atlassian.plugins

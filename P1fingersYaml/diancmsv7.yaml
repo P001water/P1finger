@@ -1,0 +1,11 @@
+- id: yidiandiancmsv700
+  name: YidianDianCMSv700 CMS
+  author: P1finger
+  tags:
+    - yidiandiancmsv700
+    - cms
+  description: YidianDianCMSv700 CMS
+  matchers:
+    - location: body
+      words:
+        - <title>易点内容管理系统（DianCMS）v7.0.0</title>

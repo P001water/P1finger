@@ -1,0 +1,10 @@
+- id: vmware-2
+  name: Vmware-server-2
+  author: P001
+  tags:
+    - vmware
+  description: Vmware-server-2
+  matchers:
+    - location: body
+      words:
+        - content="vmware server is virtual

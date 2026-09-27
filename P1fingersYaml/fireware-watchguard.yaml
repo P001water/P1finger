@@ -1,0 +1,10 @@
+- id: fireware-watchguard
+  name: Fireware Watchguard
+  author: P1finger
+  tags:
+    - fireware-watchguard
+  description: Fireware Watchguard
+  matchers:
+    - hash:
+        - "-569941107"
+      location: favicon

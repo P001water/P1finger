@@ -1,0 +1,10 @@
+- id: astra-panel
+  name: Astra Control Panel
+  author: P1finger
+  tags:
+    - astra-panel
+  description: Astra Control Panel
+  matchers:
+    - location: body
+      words:
+        - Astra Control Panel

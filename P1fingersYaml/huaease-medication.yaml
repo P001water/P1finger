@@ -1,0 +1,10 @@
+- id: huaease-medication
+  name: Huaease-medication
+  author: P001
+  tags:
+    - huaease-medication
+  description: Huaease-medication
+  matchers:
+    - location: body
+      words:
+        - content="专业的web医学影像浏览器

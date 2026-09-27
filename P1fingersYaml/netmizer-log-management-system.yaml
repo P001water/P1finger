@@ -1,0 +1,11 @@
+- id: netmizer-log
+  name: Netmizer-log-management-system
+  author: P001
+  tags:
+    - netmizer-log
+  description: Netmizer-log-management-system
+  matchers:
+    - location: body
+      words:
+        - var mywindows = ext.create
+        - window.location.href="main.html";

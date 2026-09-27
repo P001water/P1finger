@@ -1,0 +1,10 @@
+- id: raiden
+  name: Raiden-mail
+  author: P001
+  tags:
+    - raiden
+  description: Raiden-mail
+  matchers:
+    - location: body
+      words:
+        - /webimages/raidenmaild.jpg

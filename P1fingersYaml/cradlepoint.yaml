@@ -1,0 +1,10 @@
+- id: cradlepoint
+  name: Cradlepoint
+  author: P1finger
+  tags:
+    - cradlepoint
+  description: Cradlepoint
+  matchers:
+    - hash:
+        - "-1457536113"
+      location: favicon

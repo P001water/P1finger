@@ -1,0 +1,11 @@
+- id: kill
+  name: KILL Mail Security Gateway
+  author: P1finger
+  tags:
+    - kill
+  description: KILL Mail Security Gateway
+  matchers:
+    - location: body
+      words:
+        - kill邮件安全网关
+        - background="skins/default/images/login_ksgm.jpg

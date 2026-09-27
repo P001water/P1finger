@@ -1,0 +1,10 @@
+- id: pci-openeap
+  name: PCI-openEAP
+  author: P1finger
+  tags:
+    - pci-openeap
+  description: PCI-openEAP
+  matchers:
+    - location: body
+      words:
+        - openEAP

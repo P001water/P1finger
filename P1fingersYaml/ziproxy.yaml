@@ -1,0 +1,10 @@
+- id: ziproxy
+  name: Ziproxy
+  author: P1finger
+  tags:
+    - ziproxy
+  description: Ziproxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: ziproxy'

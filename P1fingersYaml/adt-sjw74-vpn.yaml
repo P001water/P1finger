@@ -1,0 +1,13 @@
+- id: adtsjw74vpn-gateway
+  name: Adtsjw74vpn Gateway
+  author: P001
+  tags:
+    - adtsjw74vpn
+    - gateway
+  description: Adtsjw74vpn Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - sjw74
+        - src="./system/usbkey.js"

@@ -1,0 +1,11 @@
+- id: gaozefengwuhanruideweixin
+  name: GAOZEFENGwuhanruideweixin Management System
+  author: P1finger
+  tags:
+    - gaozefengwuhanruideweixin
+    - management-system
+  description: GAOZEFENGwuhanruideweixin Management System
+  matchers:
+    - location: body
+      words:
+        - <title>GAOZEFENG · 武汉瑞德微信平台管理系统

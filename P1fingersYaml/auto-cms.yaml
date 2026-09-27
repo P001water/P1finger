@@ -1,0 +1,26 @@
+- id: auto
+  name: Auto-cms
+  author: P1finger
+  tags:
+    - auto
+  description: Auto-cms
+  matchers:
+    - location: body
+      words:
+        - Powered by Auto CMS
+        - content="AutoCMS
+- id: auto-2
+  name: Auto-CMS
+  author: Fofa
+  tags:
+    - auto
+  description: Auto-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Auto CMS
+    - condition: or
+      location: body
+      words:
+        - content="AutoCMS

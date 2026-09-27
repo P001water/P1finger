@@ -1,0 +1,10 @@
+- id: phpbazar
+  name: PhpBazar
+  author: P1finger
+  tags:
+    - phpbazar
+  description: PhpBazar
+  matchers:
+    - location: body
+      words:
+        - phpBazar

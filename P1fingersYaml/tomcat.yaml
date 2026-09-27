@@ -1,0 +1,14 @@
+- id: tomcat
+  name: Tomcat
+  author: Fofa
+  tags:
+    - tomcat
+  description: Tomcat
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Apache-Coyote
+    - location: header
+      words:
+        - Apache-Coyote

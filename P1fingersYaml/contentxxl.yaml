@@ -1,0 +1,20 @@
+- id: contentxxl
+  name: ContentXXL
+  author: Fofa
+  tags:
+    - contentxxl
+  description: ContentXXL
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="contentXXL
+    - location: body
+      words:
+        - content="contentXXL
+    - location: body
+      words:
+        - content="contentxxl
+    - location: body
+      words:
+        - <meta name="generator" content="contentXXL Business Content Management System

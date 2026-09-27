@@ -1,0 +1,11 @@
+- id: wackopicko
+  name: Wackopicko
+  author: P001
+  tags:
+    - wackopicko
+  description: Wackopicko
+  matchers:
+    - location: body
+      words:
+        - <h1 id="title"><a href="/">wackopicko.com</a></h1>
+        - <h2>welcome to wackopicko</h2>

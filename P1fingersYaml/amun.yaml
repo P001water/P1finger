@@ -1,0 +1,12 @@
+- id: amun-honeypot
+  name: Amun Honeypot
+  author: P1finger
+  tags:
+    - amun
+    - honeypot
+  description: Amun Honeypot
+  matchers:
+    - location: body
+      words:
+        - johan83@freenet.de
+        - tim.bohn@gmx.net

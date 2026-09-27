@@ -1,0 +1,10 @@
+- id: fanpusoft-construction-work
+  name: Fanpusoft-construction-work-oa
+  author: P001
+  tags:
+    - fanpusoft-construction-work
+  description: Fanpusoft-construction-work-oa
+  matchers:
+    - location: body
+      words:
+        - /dwr/interface/loginservice.js

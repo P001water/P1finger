@@ -1,0 +1,10 @@
+- id: oss
+  name: Oss
+  author: P001
+  tags:
+    - oss
+  description: Oss
+  matchers:
+    - location: body
+      words:
+        - src="/uf/login/login.jsp" >

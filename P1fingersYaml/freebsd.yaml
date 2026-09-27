@@ -1,0 +1,14 @@
+- id: freebsd
+  name: FreeBSD
+  author: Fofa
+  tags:
+    - freebsd
+  description: FreeBSD
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FreeBSD
+    - location: header
+      words:
+        - FreeBSD

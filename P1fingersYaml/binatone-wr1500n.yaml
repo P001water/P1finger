@@ -1,0 +1,21 @@
+- id: binatone-wr1500n
+  name: Binatone WR1500N
+  author: Fofa
+  tags:
+    - binatone-wr1500n
+  description: Binatone WR1500N
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WR1500N
+- id: binatone-wr1500n-2
+  name: Binatone Wr1500n
+  author: P1finger
+  tags:
+    - binatone-wr1500n
+  description: Binatone Wr1500n
+  matchers:
+    - location: header
+      words:
+        - WR1500N

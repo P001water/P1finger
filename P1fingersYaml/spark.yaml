@@ -1,0 +1,10 @@
+- id: spark
+  name: Spark
+  author: P001
+  tags:
+    - spark
+  description: Spark
+  matchers:
+    - location: body
+      words:
+        - serversparkversion

@@ -1,0 +1,10 @@
+- id: yealinkshebei
+  name: Yealinkshebei
+  author: P1finger
+  tags:
+    - yealinkshebei
+  description: Yealinkshebei
+  matchers:
+    - location: header
+      words:
+        - yealink embed httpd

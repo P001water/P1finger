@@ -1,0 +1,14 @@
+- id: magicwinmail
+  name: Magicwinmail
+  author: P1finger
+  tags:
+    - magicwinmail
+  description: Magicwinmail
+  matchers:
+    - location: header
+      words:
+        - magicwinmail_default_theme
+    - condition: and
+      location: header
+      words:
+        - magicwinmail_default_theme

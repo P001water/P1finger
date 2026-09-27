@@ -1,0 +1,31 @@
+- id: ektron
+  name: Ektron-cms
+  author: P1finger
+  tags:
+    - ektron
+  description: Ektron-cms
+  matchers:
+    - location: body
+      words:
+        - /java/ektron.js
+    - location: header
+      words:
+        - EktGUID=
+    - location: body
+      words:
+        - id="EktronClientManager"
+- id: ektron-2
+  name: Ektron-CMS
+  author: Fofa
+  tags:
+    - ektron
+  description: Ektron-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /java/ektron.js
+    - condition: or
+      location: header
+      words:
+        - EktGUID=

@@ -1,0 +1,13 @@
+- id: ibmwaf
+  name: IBMWAF
+  author: P1finger
+  tags:
+    - ibmwaf
+  description: IBMWAF
+  matchers:
+    - location: header
+      words:
+        - WebSEAL
+    - location: body
+      words:
+        - WebSEAL

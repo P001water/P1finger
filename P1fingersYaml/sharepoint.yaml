@@ -1,0 +1,14 @@
+- id: sharepoint
+  name: Sharepoint
+  author: Fofa
+  tags:
+    - sharepoint
+  description: Sharepoint
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Microsoftsharepointteamservices
+    - location: header
+      words:
+        - Microsoftsharepointteamservices

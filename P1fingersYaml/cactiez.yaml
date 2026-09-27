@@ -1,0 +1,14 @@
+- id: cactiez
+  name: Cactiez
+  author: Fofa
+  tags:
+    - cactiez
+  description: Cactiez
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Cactiez
+    - location: header
+      words:
+        - Cactiez

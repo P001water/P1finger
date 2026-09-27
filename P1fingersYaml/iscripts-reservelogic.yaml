@@ -1,0 +1,27 @@
+- id: iscripts-reservelogic
+  name: Iscripts-reservelogic
+  author: P1finger
+  tags:
+    - iscripts-reservelogic
+  description: Iscripts-reservelogic
+  matchers:
+    - location: body
+      words:
+        - Powered by <a href="http://www.iscripts.com/reservelogic/
+    - location: body
+      words:
+        - powered by <a href="http://www.iscripts.com/reservelogic/
+- id: iscripts-reservelogic-2
+  name: IScripts-ReserveLogic
+  author: Fofa
+  tags:
+    - iscripts-reservelogic
+  description: IScripts-ReserveLogic
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://www.iscripts.com/reservelogic/
+    - location: body
+      words:
+        - iScripts ReserveLogic

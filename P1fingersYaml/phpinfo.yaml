@@ -1,0 +1,24 @@
+- id: phpinfo
+  name: Phpinfo
+  author: P1finger
+  tags:
+    - phpinfo
+  description: Phpinfo
+  matchers:
+    - location: body
+      words:
+        - phpinfo
+        - 'Virtual Directory Support '
+    - condition: and
+      location: title
+      words:
+        - phpinfo
+    - condition: and
+      location: body
+      words:
+        - 'Virtual Directory Support '
+    - condition: and
+      location: body
+      words:
+        - <title>phpinfo
+        - virtual directory support

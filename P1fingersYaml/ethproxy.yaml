@@ -1,0 +1,20 @@
+- id: ethproxy
+  name: EthProxy
+  author: Fofa
+  tags:
+    - ethproxy
+  description: EthProxy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ethProxy
+    - location: header
+      words:
+        - ethProxy
+    - location: body
+      words:
+        - 'server: ethproxy'
+    - location: header
+      words:
+        - ethproxy

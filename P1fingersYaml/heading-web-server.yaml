@@ -1,0 +1,10 @@
+- id: heading
+  name: Heading-web-server
+  author: P001
+  tags:
+    - heading
+  description: Heading-web-server
+  matchers:
+    - location: body
+      words:
+        - location.href='/otter'

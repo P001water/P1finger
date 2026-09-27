@@ -1,0 +1,24 @@
+- id: dd-wrt
+  name: Dd-wrt
+  author: P1finger
+  tags:
+    - dd-wrt
+  description: Dd-wrt
+  matchers:
+    - location: body
+      words:
+        - style/pwc/ddwrt.css
+- id: dd-wrt-2
+  name: DD-WRT
+  author: Fofa
+  tags:
+    - dd-wrt
+  description: DD-WRT
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - style/pwc/ddwrt.css
+    - hash:
+        - "252728887"
+      location: favicon

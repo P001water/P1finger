@@ -1,0 +1,14 @@
+- id: spring-hystrix
+  name: Spring-cloud-hystrix
+  author: P1finger
+  tags:
+  - spring
+  - spring-hystrix
+  description: Spring-cloud-hystrix
+  matchers:
+  - location: header
+    words:
+    - hystrix-dashboard
+  - location: body
+    words:
+    - hystrix

@@ -1,0 +1,24 @@
+- id: mymps
+  name: Mymps
+  author: Fofa
+  tags:
+    - mymps
+  description: Mymps
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /css/mymps.css
+    - condition: or
+      location: title
+      words:
+        - mymps
+    - condition: or
+      location: body
+      words:
+        - content="mymps
+    - location: body
+      words:
+        - /css/mymps.css
+        - mymps
+        - content="mymps

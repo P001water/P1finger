@@ -1,0 +1,17 @@
+- id: landray-oa-system
+  name: Landray OA System
+  author: P001
+  tags:
+    - landray
+    - oa-system
+  description: Landray OA System
+  matchers:
+    - hash:
+        - 302464c3f6207d57240649926cfc7bd4
+      location: favicon
+    - location: body
+      words:
+        - lui_login_message_td
+        - ServiceNotAvailTip:"
+        - ServiceNotAvailTip
+        - ServiceNotAvailTip

@@ -1,0 +1,10 @@
+- id: toshiba-canvio
+  name: Toshiba-Canvio
+  author: P1finger
+  tags:
+    - toshiba-canvio
+  description: Toshiba-Canvio
+  matchers:
+    - location: header
+      words:
+        - background:url(/img/Canvio_logo.gif) no-repeat;">

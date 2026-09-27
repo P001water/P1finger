@@ -1,0 +1,10 @@
+- id: memadmin
+  name: MemAdmin
+  author: P1finger
+  tags:
+    - memadmin
+  description: MemAdmin
+  matchers:
+    - location: body
+      words:
+        - MemAdmin - 1.0.12

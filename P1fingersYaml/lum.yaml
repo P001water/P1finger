@@ -1,0 +1,14 @@
+- id: lumfuwuqiguanli
+  name: LUMfuwuqiguanli
+  author: Fofa
+  tags:
+    - lumfuwuqiguanli
+  description: LUMfuwuqiguanli
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - LUM_SESSION
+    - location: header
+      words:
+        - LUM_SESSION

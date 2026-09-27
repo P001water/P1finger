@@ -1,0 +1,27 @@
+- id: shopnc
+  name: Shopnc
+  author: Fofa
+  tags:
+    - shopnc
+  description: Shopnc
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by ShopNC
+    - condition: or
+      location: body
+      words:
+        - Copyright 2007-2014 ShopNC Inc
+    - condition: or
+      location: body
+      words:
+        - content="ShopNC
+    - location: body
+      words:
+        - ShopNC
+    - location: body
+      words:
+        - content="shopnc
+        - copyright 2007-2014 shopnc inc
+        - powered by shopnc

@@ -1,0 +1,12 @@
+- id: phpdealerlocator
+  name: Phpdealerlocator
+  author: P001
+  tags:
+    - phpdealerlocator
+  description: Phpdealerlocator
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - class="pythonselect
+        - for="dealer_radiuss_dealer_zip

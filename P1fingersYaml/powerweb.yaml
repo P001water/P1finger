@@ -1,0 +1,10 @@
+- id: powerweb
+  name: Powerweb
+  author: P001
+  tags:
+    - powerweb
+  description: Powerweb
+  matchers:
+    - location: body
+      words:
+        - 'server: powerweb'

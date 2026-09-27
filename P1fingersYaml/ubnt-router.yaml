@@ -1,0 +1,10 @@
+- id: ubnt
+  name: Ubnt Router
+  author: P1finger
+  tags:
+    - ubnt
+  description: Ubnt Router
+  matchers:
+    - hash:
+        - "-1677255344"
+      location: favicon

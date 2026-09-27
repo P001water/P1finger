@@ -1,0 +1,14 @@
+- id: mod-nss
+  name: Mod_nss
+  author: Fofa
+  tags:
+    - mod-nss
+  description: Mod_nss
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_nss
+    - location: header
+      words:
+        - mod_nss

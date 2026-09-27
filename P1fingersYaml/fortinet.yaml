@@ -1,0 +1,160 @@
+- id: fortinet-ensilo
+  name: Fortinet-ensilo
+  author: P001
+  tags:
+  - fortinet
+  - fortinet-ensilo
+  description: Fortinet-ensilo
+  matchers:
+  - location: body
+    words:
+    - <img src="images/ensilo_logo.png
+- id: fortinet
+  name: Fortinet Firewall
+  author: Fofa
+  tags:
+  - fortinet
+  description: Fortinet Firewall
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ="Firewall Notification
+- id: fortinet-fortiguard
+  name: Fortinet-fortiguard
+  author: P001
+  tags:
+  - fortinet
+  - fortinet-fortiguard
+  description: Fortinet-fortiguard
+  matchers:
+  - location: body
+    words:
+    - /xx/yy/zz/ci/mgpghgpgpfghcdpfggogfgeh
+    - fortiguard web filtering
+- id: fortinet-fortimail
+  name: Fortinet-fortimail
+  author: P001
+  tags:
+  - fortinet
+  - fortinet-fortimail
+  description: Fortinet-fortimail
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <script language=javascript>
+    - location="/m/webmail/";
+- id: fortinet-2
+  name: Fortinet Firewall
+  author: P1finger
+  tags:
+  - fortinet
+  description: Fortinet Firewall
+  matchers:
+  - location: body
+    words:
+    - Firewall Notification
+- id: fortinet-fortigate-sslvpn
+  name: Fortinet-fortigate-SSLVPN
+  author: P1finger
+  tags:
+  - fortigate
+  - fortinet
+  - fortinet-fortigate-sslvpn
+  description: Fortinet-fortigate-SSLVPN
+  matchers:
+  - hash:
+    - '945408572'
+    location: favicon
+  - location: body
+    words:
+    - location="/remote/login"
+    - /remote/login?lang=
+    - top.location=window.location;top.location="/remote/login";
+- id: fortinet-fortiguard-2
+  name: Fortinet FortiGuard
+  author: P1finger
+  tags:
+  - fortinet
+  - fortinet-fortiguard
+  description: Fortinet FortiGuard
+  matchers:
+  - location: body
+    words:
+    - <h1>FortiGuard Web Filtering</h1>
+- id: fortinet-fortiweb
+  name: Fortinet FortiWeb
+  author: P1finger
+  tags:
+  - fortinet
+  - fortinet-fortiweb
+  description: Fortinet FortiWeb
+  matchers:
+  - location: body
+    words:
+    - var CONFIG_GUI_NO
+  - location: header
+    words:
+    - 'Server: FortiWeb'
+- id: fortinet-sslvpn
+  name: Fortinet Sslvpn
+  author: P1finger
+  tags:
+  - fortinet
+  - fortinet-sslvpn
+  description: Fortinet Sslvpn
+  matchers:
+  - location: body
+    words:
+    - /sslvpn/portal.html
+    - fortinet
+- id: fortinet-3
+  name: Fortinet VPN
+  author: P1finger
+  tags:
+  - fortinet
+  description: Fortinet VPN
+  matchers:
+  - location: header
+    words:
+    - xxxxxxxx-xxxxx
+- id: fortinet-4
+  name: Fortinet-firewall
+  author: P001
+  tags:
+  - fortinet
+  description: Fortinet-firewall
+  matchers:
+  - location: body
+    words:
+    - top.location="/login";
+    - 'console.warn(`Redirecting to login page: ${error}`);'
+    - window.location.pathname + window.location.search + window.location.hash
+    - fetch('/api/v2/monitor/web-ui/extend-session')
+    - FortiGate
+    - app-id=1157004084, app-argument={{::host_addr}}
+- id: fortinet-sslvpn-2
+  name: Fortinet-sslvpn
+  author: P001
+  tags:
+  - fortinet
+  - fortinet-sslvpn
+  description: Fortinet-sslvpn
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /sslvpn/portal.html
+    - fgt_lang
+- id: fortinet-waf
+  name: Fortinet-WAF
+  author: P1finger
+  tags:
+  - fortinet
+  - fortinet-waf
+  description: Fortinet-WAF
+  matchers:
+  - location: header
+    words:
+    - FORTIWAFSID=

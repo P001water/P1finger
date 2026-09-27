@@ -1,0 +1,10 @@
+- id: supermicro
+  name: Supermicro Intelligent Management
+  author: P1finger
+  tags:
+    - supermicro
+  description: Supermicro Intelligent Management
+  matchers:
+    - hash:
+        - "1410610129"
+      location: favicon

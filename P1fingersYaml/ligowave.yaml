@@ -1,0 +1,10 @@
+- id: ligowave
+  name: Ligowave
+  author: P1finger
+  tags:
+    - ligowave
+  description: Ligowave
+  matchers:
+    - hash:
+        - "1467395679"
+      location: favicon

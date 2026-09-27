@@ -1,0 +1,10 @@
+- id: mizuhogongsichanpin
+  name: Mizuhogongsichanpin
+  author: P1finger
+  tags:
+    - mizuhogongsichanpin
+  description: Mizuhogongsichanpin
+  matchers:
+    - location: body
+      words:
+        - mizuho bank, ltd.

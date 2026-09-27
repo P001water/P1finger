@@ -1,0 +1,11 @@
+- id: siemens-simatic
+  name: Siemens_SIMATIC
+  author: Fofa
+  tags:
+    - siemens-simatic
+  description: Siemens_SIMATIC
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /S7Web.css

@@ -1,0 +1,15 @@
+- id: phpldapadmin
+  name: Phpldapadmin
+  author: P001
+  tags:
+    - phpldapadmin
+  description: Phpldapadmin
+  matchers:
+    - location: body
+      words:
+        - href="http://phpldapadmin.sourceforge.net/documentation" onclick
+        - src="images/default/logo.png" title="phpldapadmin logo
+    - location: body
+      words:
+        - phpldapadmin -
+        - src="images/default/logo.png" title="phpldapadmin logo

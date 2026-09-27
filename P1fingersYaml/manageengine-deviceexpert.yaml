@@ -1,0 +1,13 @@
+- id: manageengine-deviceexpert
+  name: Manageengine-deviceexpert
+  author: P001
+  tags:
+    - manageengine-deviceexpert
+  description: Manageengine-deviceexpert
+  matchers:
+    - location: body
+      words:
+        - /deviceexpert.js
+        - changepasswordpolicy
+        - password manager pro does not allow
+        - selectpasswordpolicy

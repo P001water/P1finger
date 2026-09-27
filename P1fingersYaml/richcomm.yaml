@@ -1,0 +1,11 @@
+- id: richcommweimokuaijifangdonglihuanjing
+  name: RICHCOMMweimokuaijifangdonglihuanjing Monitoring System
+  author: P1finger
+  tags:
+    - richcommweimokuaijifangdonglihuanjing
+    - monitoring-system
+  description: RICHCOMMweimokuaijifangdonglihuanjing Monitoring System
+  matchers:
+    - location: body
+      words:
+        - 微模块机房动力环境监控系统

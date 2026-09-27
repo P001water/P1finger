@@ -1,0 +1,19 @@
+- id: am4ss
+  name: AM4SS
+  author: Fofa
+  tags:
+    - am4ss
+  description: AM4SS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by am4ss
+    - condition: or
+      location: body
+      words:
+        - am4ss.css
+    - location: body
+      words:
+        - Powered by am4ss
+        - am4ss.css

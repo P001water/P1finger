@@ -1,0 +1,14 @@
+- id: amaya
+  name: Amaya
+  author: Fofa
+  tags:
+    - amaya
+  description: Amaya
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - generator" content="Amaya
+    - location: body
+      words:
+        - generator" content="Amaya

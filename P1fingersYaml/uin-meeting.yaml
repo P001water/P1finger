@@ -1,0 +1,10 @@
+- id: uin-meeting
+  name: Uin-meeting
+  author: P001
+  tags:
+    - uin-meeting
+  description: Uin-meeting
+  matchers:
+    - location: body
+      words:
+        - uin.plist

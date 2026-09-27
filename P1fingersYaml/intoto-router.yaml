@@ -1,0 +1,21 @@
+- id: intoto
+  name: Intoto-router
+  author: P1finger
+  tags:
+    - intoto
+  description: Intoto-router
+  matchers:
+    - location: header
+      words:
+        - Intoto Http Server
+- id: intoto-2
+  name: Intoto-Router
+  author: Fofa
+  tags:
+    - intoto
+  description: Intoto-Router
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Intoto Http Server

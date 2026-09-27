@@ -1,0 +1,10 @@
+- id: bjyadmin
+  name: Bjyadmin
+  author: P1finger
+  tags:
+    - bjyadmin
+  description: Bjyadmin
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: BJYADMIN'

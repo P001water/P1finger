@@ -1,0 +1,12 @@
+- id: nexpose
+  name: Nexpose-security-console
+  author: P001
+  tags:
+    - nexpose
+  description: Nexpose-security-console
+  matchers:
+    - location: body
+      words:
+        - /nexpose-dark.min.css
+        - /nexpose-features.js
+        - nexposeccpassword

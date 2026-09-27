@@ -1,0 +1,10 @@
+- id: force-ngfw
+  name: T Force NGFW
+  author: P1finger
+  tags:
+    - force-ngfw
+  description: T Force NGFW
+  matchers:
+    - location: body
+      words:
+        - t-force下一代防火墙

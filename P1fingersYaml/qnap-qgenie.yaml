@@ -1,0 +1,11 @@
+- id: qnap-qgenie
+  name: QNAP-QGenie
+  author: P1finger
+  tags:
+  - qnap
+  - qnap-qgenie
+  description: QNAP-QGenie
+  matchers:
+  - location: header
+    words:
+    - 'Server: QGenie'

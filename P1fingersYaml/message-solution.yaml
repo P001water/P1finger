@@ -1,0 +1,10 @@
+- id: message-solution
+  name: Message-solution
+  author: P001
+  tags:
+    - message-solution
+  description: Message-solution
+  matchers:
+    - location: body
+      words:
+        - messagesolution enterprise

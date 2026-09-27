@@ -1,0 +1,14 @@
+- id: grandstream
+  name: Grandstream
+  author: Fofa
+  tags:
+    - grandstream
+  description: Grandstream
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Grandstream
+    - location: header
+      words:
+        - Grandstream

@@ -1,0 +1,17 @@
+- id: squirrelmail
+  name: Squirrelmail
+  author: P1finger
+  tags:
+    - squirrelmail
+  description: Squirrelmail
+  matchers:
+    - location: header
+      words:
+        - SQMSESSID
+    - condition: and
+      location: header
+      words:
+        - SQMSESSID
+    - location: body
+      words:
+        - function squirrelmail_loginpage_onload()

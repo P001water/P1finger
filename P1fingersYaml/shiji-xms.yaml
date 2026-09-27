@@ -1,0 +1,10 @@
+- id: shiji-xms
+  name: Shiji-xms
+  author: P001
+  tags:
+    - shiji-xms
+  description: Shiji-xms
+  matchers:
+    - location: body
+      words:
+        - href="xmsenv.exe">系统运行环境

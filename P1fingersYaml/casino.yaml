@@ -1,0 +1,31 @@
+- id: casino
+  name: CASino
+  author: Fofa
+  tags:
+    - casino
+  description: CASino
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - CASino")
+    - condition: or
+      location: header
+      words:
+        - _CASinoApp_session
+    - condition: or
+      location: header
+      words:
+        - _my-casino_session
+    - condition: or
+      location: body
+      words:
+        - casino_and_overrides.css
+    - location: body
+      words:
+        - rbcas.com
+        - CASino
+        - casino_and_overrides.css
+    - location: header
+      words:
+        - _my-casino_session

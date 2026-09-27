@@ -1,0 +1,44 @@
+- id: accellion-secure-file-transfer
+  name: Accellion Secure File Transfer
+  author: Fofa
+  tags:
+  - accellion
+  - accellion-secure-file-transfer
+  description: Accellion Secure File Transfer
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - sfcurl=deleted;
+  - condition: or
+    location: body
+    words:
+    - Secured by Accellion
+- id: accellion-secure-file-transfer-2
+  name: Accellion-secure-file-transfer
+  author: P001
+  tags:
+  - accellion
+  - accellion-secure-file-transfer
+  description: Accellion-secure-file-transfer
+  matchers:
+  - location: body
+    words:
+    - secured by accellion
+  - location: body
+    words:
+    - Secured by Accellio
+- id: accellion-secure-file-transfer-3
+  name: Accellion Secure File Transfer
+  author: P1finger
+  tags:
+  - accellion
+  - accellion-secure-file-transfer
+  description: Accellion Secure File Transfer
+  matchers:
+  - location: body
+    words:
+    - Secured by Accellion
+  - location: header
+    words:
+    - sfcurl=deleted;

@@ -1,0 +1,10 @@
+- id: titan-ftp
+  name: Titan-ftp
+  author: P001
+  tags:
+    - titan-ftp
+  description: Titan-ftp
+  matchers:
+    - location: body
+      words:
+        - 'server: titan ftp server'

@@ -1,0 +1,11 @@
+- id: citrix-netscaler
+  name: Citrix/netscaler Vpn
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-netscaler
+  description: Citrix/netscaler Vpn
+  matchers:
+  - location: body
+    words:
+    - /vpn/resources.js

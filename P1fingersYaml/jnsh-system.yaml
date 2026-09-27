@@ -1,0 +1,10 @@
+- id: jnsh
+  name: Jnsh-system
+  author: P001
+  tags:
+    - jnsh
+  description: Jnsh-system
+  matchers:
+    - location: body
+      words:
+        - src="../../doc/config/shxmjgptapp.png"

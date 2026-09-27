@@ -1,0 +1,11 @@
+- id: diyou-p2p
+  name: Diyou-p2p
+  author: P001
+  tags:
+    - diyou-p2p
+  description: Diyou-p2p
+  matchers:
+    - location: body
+      words:
+        - /js/diyou.js
+        - src="/dyweb/dythemes

@@ -1,0 +1,11 @@
+- id: f5-firepass
+  name: F5 FirePass
+  author: P1finger
+  tags:
+  - f5
+  - f5-firepass
+  description: F5 FirePass
+  matchers:
+  - location: body
+    words:
+    - F5 Networks FirePass

@@ -1,0 +1,13 @@
+- id: riicyruiboshiyun-office-system
+  name: Riicyruiboshiyun Office System
+  author: P001
+  tags:
+    - riicyruiboshiyun
+    - office-system
+  description: Riicyruiboshiyun Office System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /studentsign/tologin.di
+        - /user/toupdatepasswordpage.di

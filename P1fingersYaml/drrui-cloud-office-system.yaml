@@ -1,0 +1,11 @@
+- id: drrui-office
+  name: Drrui-cloud-office-system
+  author: P001
+  tags:
+    - drrui-office
+  description: Drrui-cloud-office-system
+  matchers:
+    - location: body
+      words:
+        - /studentsign/tologin.di
+        - /user/toupdatepasswordpage.di

@@ -1,0 +1,10 @@
+- id: fujitsu
+  name: Fujitsu-vpn
+  author: P001
+  tags:
+    - fujitsu
+  description: Fujitsu-vpn
+  matchers:
+    - location: body
+      words:
+        - _fj_sslvpn_login

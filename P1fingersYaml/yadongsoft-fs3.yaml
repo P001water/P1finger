@@ -1,0 +1,10 @@
+- id: yadongsoft-fs3
+  name: Yadongsoft-fs3
+  author: P001
+  tags:
+    - yadongsoft-fs3
+  description: Yadongsoft-fs3
+  matchers:
+    - location: body
+      words:
+        - 神盾fs<sup>3</sup>文档安全共享系统v2.0</div>

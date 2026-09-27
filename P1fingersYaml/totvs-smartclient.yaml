@@ -1,0 +1,10 @@
+- id: totvs-smartclient
+  name: Totvs-smartclient
+  author: P001
+  tags:
+    - totvs-smartclient
+  description: Totvs-smartclient
+  matchers:
+    - location: body
+      words:
+        - <param name="environment" value=

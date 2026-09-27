@@ -1,0 +1,29 @@
+- id: cactushop
+  name: CactuShop
+  author: Fofa
+  tags:
+    - cactushop
+  description: CactuShop
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <select name="numCurrencyID
+    - condition: or
+      location: body
+      words:
+        - <!-- CactuShop
+    - condition: or
+      location: header
+      words:
+        - CactuShop
+    - location: body
+      words:
+        - <select name="numCurrencyID
+        - <!-- CactuShop
+    - location: header
+      words:
+        - CactuShop
+    - location: body
+      words:
+        - <!-- CactuShop

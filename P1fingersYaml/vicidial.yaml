@@ -1,0 +1,10 @@
+- id: vicidial
+  name: Vicidial
+  author: P001
+  tags:
+    - vicidial
+  description: Vicidial
+  matchers:
+    - location: body
+      words:
+        - url=/vicidial/welcome.php

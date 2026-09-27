@@ -1,0 +1,19 @@
+- id: bloofoxcms
+  name: Bloofoxcms
+  author: P1finger
+  tags:
+    - bloofoxcms
+  description: Bloofoxcms
+  matchers:
+    - location: body
+      words:
+        - content="bloofoxCMS
+        - Powered by <a href="http://www.bloofox.com
+    - condition: or
+      location: body
+      words:
+        - content="bloofoxCMS
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.bloofox.com

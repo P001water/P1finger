@@ -1,0 +1,14 @@
+- id: mod-auth-kerb
+  name: Mod_auth_kerb
+  author: Fofa
+  tags:
+    - mod-auth-kerb
+  description: Mod_auth_kerb
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_auth_kerb
+    - location: header
+      words:
+        - mod_auth_kerb

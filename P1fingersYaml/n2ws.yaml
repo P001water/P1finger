@@ -1,0 +1,14 @@
+- id: n2ws
+  name: N2ws
+  author: P001
+  tags:
+    - n2ws
+  description: N2ws
+  matchers:
+    - location: body
+      words:
+        - static/style/cpm_style.css
+    - location: body
+      words:
+        - static/style/cpm_style.css
+        - N2WS Backup

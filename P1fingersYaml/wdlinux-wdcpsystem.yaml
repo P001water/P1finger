@@ -1,0 +1,12 @@
+- id: wdlinux-wdcpsystem
+  name: Wdlinux-wdcpsystem
+  author: P001
+  tags:
+    - wdlinux-wdcpsystem
+  description: Wdlinux-wdcpsystem
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: wdcpsessionid'
+        - href="http://www.wdlinux.cn/bbs/index.php
+        - linux云主机

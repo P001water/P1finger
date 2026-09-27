@@ -1,0 +1,10 @@
+- id: gzcstec-exam
+  name: Gzcstec-exam
+  author: P001
+  tags:
+    - gzcstec-exam
+  description: Gzcstec-exam
+  matchers:
+    - location: body
+      words:
+        - placeholder="请输入凭据"

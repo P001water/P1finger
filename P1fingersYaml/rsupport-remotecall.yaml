@@ -1,0 +1,11 @@
+- id: rsupport-remotecall
+  name: Rsupport-remotecall
+  author: P001
+  tags:
+    - rsupport-remotecall
+  description: Rsupport-remotecall
+  matchers:
+    - location: body
+      words:
+        - http://www.remotecall.com
+        - msg_abortservice

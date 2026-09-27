@@ -1,0 +1,10 @@
+- id: xwiki
+  name: Xwiki
+  author: P001
+  tags:
+    - xwiki
+  description: Xwiki
+  matchers:
+    - location: body
+      words:
+        - data-xwiki-reference=

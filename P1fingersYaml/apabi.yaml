@@ -1,0 +1,25 @@
+- id: apabishuziziyuan-platform
+  name: Apabishuziziyuan Platform
+  author: Fofa
+  tags:
+    - apabishuziziyuan
+    - platform
+  description: Apabishuziziyuan Platform
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Default/apabi.css
+    - condition: or
+      location: body
+      words:
+        - <link href="HTTP://apabi
+    - condition: or
+      location: title
+      words:
+        - 数字资源平台
+    - location: body
+      words:
+        - Default/apabi.css
+        - <link href="HTTP://apabi
+        - 数字资源平台

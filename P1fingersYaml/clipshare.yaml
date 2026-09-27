@@ -1,0 +1,23 @@
+- id: clipshare
+  name: ClipShare
+  author: Fofa
+  tags:
+    - clipshare
+  description: ClipShare
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <!--!!!!!!!!!!!!!!!!!!!!!!!!! Processing SCRIPT
+    - condition: or
+      location: body
+      words:
+        - Powered By <a href="http://www.clip-share.com
+    - location: body
+      words:
+        - <!--!!!!!!!!!!!!!!!!!!!!!!!!! Processing SCRIPT
+        - Powered By <a href="http://www.clip-share.com
+    - location: body
+      words:
+        - <!--!!!!!!!!!!!!!!!!!!!!!!!!! processing script
+        - powered by <a href="http://www.clip-share.com

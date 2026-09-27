@@ -1,0 +1,12 @@
+- id: apache-usergrid
+  name: Apache Usergrid
+  author: P1finger
+  tags:
+  - apache
+  - apache-usergrid
+  description: Apache Usergrid
+  matchers:
+  - location: body
+    words:
+    - Usergrid Admin Portal
+    - Apache Usergrid

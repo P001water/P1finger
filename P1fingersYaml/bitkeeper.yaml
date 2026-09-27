@@ -1,0 +1,17 @@
+- id: bitkeeper
+  name: BitKeeper
+  author: Fofa
+  tags:
+    - bitkeeper
+  description: BitKeeper
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - bkhttp
+    - location: header
+      words:
+        - bkhttp
+    - location: body
+      words:
+        - 'server: bkhttp'

@@ -1,0 +1,14 @@
+- id: lua
+  name: Lua
+  author: Fofa
+  tags:
+    - lua
+  description: Lua
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: lua'
+    - location: header
+      words:
+        - 'Server: lua'

@@ -1,0 +1,11 @@
+- id: apache-dubbo
+  name: Apache-dubbo
+  author: P001
+  tags:
+  - apache
+  - apache-dubbo
+  description: Apache-dubbo
+  matchers:
+  - location: body
+    words:
+    - 'www-authenticate: basic realm="dubbo"'

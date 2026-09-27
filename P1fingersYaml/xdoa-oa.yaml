@@ -1,0 +1,14 @@
+- id: xdoa
+  name: Xdoa-oa
+  author: P001
+  tags:
+    - xdoa
+  description: Xdoa-oa
+  matchers:
+    - location: body
+      words:
+        - http://www.xdoa.cn</a>
+        - 北京创信达科技有限公司
+    - location: body
+      words:
+        - 北京创信达科技有限公司

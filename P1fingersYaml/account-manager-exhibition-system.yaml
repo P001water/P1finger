@@ -1,0 +1,10 @@
+- id: account-manager-exhibition
+  name: Account-manager-exhibition-system
+  author: P001
+  tags:
+    - account-manager-exhibition
+  description: Account-manager-exhibition-system
+  matchers:
+    - location: body
+      words:
+        - action="/system/login/login.shtml

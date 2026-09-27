@@ -1,0 +1,11 @@
+- id: help-live
+  name: Help Center Live
+  author: P1finger
+  tags:
+    - help-live
+  description: Help Center Live
+  matchers:
+    - location: body
+      words:
+        - Powered By Help Center Live.
+        - © Help Center Live.

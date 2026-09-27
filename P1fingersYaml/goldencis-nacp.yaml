@@ -1,0 +1,10 @@
+- id: goldencis-nacp
+  name: Goldencis-nacp
+  author: P001
+  tags:
+    - goldencis-nacp
+  description: Goldencis-nacp
+  matchers:
+    - location: body
+      words:
+        - <div class="tit_b"> 通过管理员分配的密码使用紧急入口。</div>

@@ -1,0 +1,13 @@
+- id: pexip
+  name: Pexip
+  author: P001
+  tags:
+    - pexip
+  description: Pexip
+  matchers:
+    - location: body
+      words:
+        - <h2>pexip infinity</h2>
+        - <h2>会议平台</h2>
+        - pex-app
+        - pexip infinity

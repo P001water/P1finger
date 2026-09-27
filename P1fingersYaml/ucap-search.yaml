@@ -1,0 +1,11 @@
+- id: ucap-search
+  name: Ucap-search-
+  author: P001
+  tags:
+    - ucap-search
+  description: Ucap-search-
+  matchers:
+    - location: body
+      words:
+        - method="post" action="s" onsubmit="return checksearchform();">
+        - src="http://so.kaipuyun.cn?sitecode=

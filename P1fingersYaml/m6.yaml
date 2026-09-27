@@ -1,0 +1,20 @@
+- id: kuaipum6
+  name: KuaipuM6
+  author: P1finger
+  tags:
+    - kuaipum6
+  description: KuaipuM6
+  matchers:
+    - location: body
+      words:
+        - src="resource/javascript/jkpm6.datetime.js
+- id: kuaipum6-2
+  name: KuaipuM6
+  author: P001
+  tags:
+    - kuaipum6
+  description: KuaipuM6
+  matchers:
+    - location: body
+      words:
+        - src="resource/javascript/jkpm6.datetime.js

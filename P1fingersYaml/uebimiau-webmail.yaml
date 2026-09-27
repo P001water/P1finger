@@ -1,0 +1,12 @@
+- id: uebimiau-webmail
+  name: Uebimiau-webmail
+  author: P001
+  tags:
+    - uebimiau-webmail
+  description: Uebimiau-webmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <script location="text/javascript" src="themes/default/js/webmail.js"></script>
+        - uebimiau

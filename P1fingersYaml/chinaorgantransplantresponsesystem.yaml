@@ -1,0 +1,10 @@
+- id: chinaorgantransplantresponsesystem
+  name: Chinaorgantransplantresponsesystem
+  author: P001
+  tags:
+    - chinaorgantransplantresponsesystem
+  description: Chinaorgantransplantresponsesystem
+  matchers:
+    - location: body
+      words:
+        - src="images/logo_cotsr.png"

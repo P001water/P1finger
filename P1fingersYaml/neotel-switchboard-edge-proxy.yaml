@@ -1,0 +1,10 @@
+- id: neotel-switchboard-edge-proxy
+  name: Neotel-Switchboard-Edge-Proxy
+  author: P1finger
+  tags:
+    - neotel-switchboard-edge-proxy
+  description: Neotel-Switchboard-Edge-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Switchboard Edge Proxy'

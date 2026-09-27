@@ -1,0 +1,10 @@
+- id: mcafee-epolicy-orchestrator
+  name: McAfee-ePolicy-Orchestrator
+  author: P1finger
+  tags:
+    - mcafee-epolicy-orchestrator
+  description: McAfee-ePolicy-Orchestrator
+  matchers:
+    - location: header
+      words:
+        - 'Server: Undefined Product Name - define product and version info in config/branding 0.0.0'

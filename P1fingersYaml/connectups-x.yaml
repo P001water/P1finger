@@ -1,0 +1,28 @@
+- id: connectups
+  name: Connectups-x
+  author: P1finger
+  tags:
+    - connectups
+  description: Connectups-x
+  matchers:
+    - location: body
+      words:
+        - UPS Firmware version
+    - location: header
+      words:
+        - UPS_Server/
+- id: connectups-2
+  name: ConnectUPS-X
+  author: Fofa
+  tags:
+    - connectups
+  description: ConnectUPS-X
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - UPS_Server/
+    - condition: or
+      location: body
+      words:
+        - UPS Firmware version

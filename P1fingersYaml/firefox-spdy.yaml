@@ -1,0 +1,21 @@
+- id: firefox-spdy
+  name: Firefox-spdy
+  author: P1finger
+  tags:
+    - firefox-spdy
+  description: Firefox-spdy
+  matchers:
+    - location: header
+      words:
+        - X-Firefox-Spdy
+- id: firefox-spdy-2
+  name: Firefox-Spdy
+  author: Fofa
+  tags:
+    - firefox-spdy
+  description: Firefox-Spdy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Firefox-Spdy

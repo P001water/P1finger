@@ -1,0 +1,43 @@
+- id: advanced-electron-forum
+  name: Advanced Electron Forum
+  author: Fofa
+  tags:
+    - advanced-electron-forum
+  description: Advanced Electron Forum
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered By AEF
+    - condition: or
+      location: header
+      words:
+        - aefsid
+    - condition: or
+      location: body
+      words:
+        - content="aef
+- id: advanced-electron-forum-2
+  name: Advanced-electron-forum
+  author: P001
+  tags:
+    - advanced-electron-forum
+  description: Advanced-electron-forum
+  matchers:
+    - location: body
+      words:
+        - powered by aef
+- id: advanced-electron-forum-3
+  name: Advanced Electron Forum
+  author: P1finger
+  tags:
+    - advanced-electron-forum
+  description: Advanced Electron Forum
+  matchers:
+    - location: body
+      words:
+        - Powered By AEF
+        - content="aef
+    - location: header
+      words:
+        - aefsid

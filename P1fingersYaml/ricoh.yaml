@@ -1,0 +1,10 @@
+- id: ricoh
+  name: Ricoh
+  author: P1finger
+  tags:
+    - ricoh
+  description: Ricoh
+  matchers:
+    - hash:
+        - "1135165421"
+      location: favicon

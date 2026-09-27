@@ -1,0 +1,11 @@
+- id: union-hac
+  name: Union HAC
+  author: P1finger
+  tags:
+    - union-hac
+  description: Union HAC
+  matchers:
+    - location: body
+      words:
+        - /image/serchnotice.jpg
+        - hac 运维审计系统登录

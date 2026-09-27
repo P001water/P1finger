@@ -1,0 +1,10 @@
+- id: emerson-environmentalenergymonitoringsystem
+  name: Emerson-environmentalenergymonitoringsystem
+  author: P001
+  tags:
+    - emerson-environmentalenergymonitoringsystem
+  description: Emerson-environmentalenergymonitoringsystem
+  matchers:
+    - location: body
+      words:
+        - alert("网络断连或者idu-s没有启动.

@@ -1,0 +1,23 @@
+- id: adobe-cq5
+  name: Adobe-cq5
+  author: P001
+  tags:
+  - adobe
+  - adobe-cq5
+  description: Adobe-cq5
+  matchers:
+  - location: body
+    words:
+    - _jcr_content
+- id: adobe-cq5-2
+  name: Adobe_ CQ5
+  author: Fofa
+  tags:
+  - adobe
+  - adobe-cq5
+  description: Adobe_ CQ5
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - _jcr_content

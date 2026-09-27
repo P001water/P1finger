@@ -1,0 +1,11 @@
+- id: vmware-aria-operations-logs
+  name: Vmware-aria-operations-for-logs
+  author: P001
+  tags:
+  - vmware
+  - vmware-aria-operations-logs
+  description: Vmware-aria-operations-for-logs
+  matchers:
+  - location: body
+    words:
+    - <title>vrealize log insight -

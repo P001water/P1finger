@@ -1,0 +1,11 @@
+- id: maipu-security-gateway
+  name: Maipu Security Gateway
+  author: P001
+  tags:
+    - maipu
+    - security-gateway
+  description: Maipu Security Gateway
+  matchers:
+    - location: body
+      words:
+        - /webui/images/maipu/login/login_adminbg_a.gif"?

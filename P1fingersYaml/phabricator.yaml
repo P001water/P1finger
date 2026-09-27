@@ -1,0 +1,26 @@
+- id: phabricator
+  name: Phabricator
+  author: Fofa
+  tags:
+    - phabricator
+  description: Phabricator
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - phsid
+    - condition: or
+      location: body
+      words:
+        - phabricator-application-launch-container
+    - condition: or
+      location: body
+      words:
+        - res/phabricator
+    - location: body
+      words:
+        - phabricator-application-launch-container
+        - res/phabricator
+    - location: header
+      words:
+        - phsid

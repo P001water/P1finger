@@ -1,0 +1,10 @@
+- id: hollysys-mes
+  name: Hollysys-mes
+  author: P001
+  tags:
+    - hollysys-mes
+  description: Hollysys-mes
+  matchers:
+    - location: body
+      words:
+        - resource="title_sub"

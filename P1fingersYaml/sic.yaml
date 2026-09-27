@@ -1,0 +1,10 @@
+- id: shangchunsic
+  name: ShangchunSIC
+  author: P1finger
+  tags:
+    - shangchunsic
+  description: ShangchunSIC
+  matchers:
+    - location: header
+      words:
+        - Basic realm="SICPT

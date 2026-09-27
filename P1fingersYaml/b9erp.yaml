@@ -1,0 +1,14 @@
+- id: fangtianb9erp
+  name: FangtianB9ERP
+  author: P1finger
+  tags:
+    - fangtianb9erp
+  description: FangtianB9ERP
+  matchers:
+    - location: body
+      words:
+        - 方天云端ERP企业管理软件
+    - location: body
+      words:
+        - name="dbnameddl"
+        - 方天云端ERP企业管理软件

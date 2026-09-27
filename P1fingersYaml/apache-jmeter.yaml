@@ -1,0 +1,11 @@
+- id: apache-jmeter
+  name: Apache JMeter
+  author: P1finger
+  tags:
+  - apache
+  - apache-jmeter
+  description: Apache JMeter
+  matchers:
+  - location: body
+    words:
+    - Apache JMeter Dashboard

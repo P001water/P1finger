@@ -1,0 +1,10 @@
+- id: gerpgo-erp
+  name: Gerpgo-erp
+  author: P001
+  tags:
+    - gerpgo-erp
+  description: Gerpgo-erp
+  matchers:
+    - location: body
+      words:
+        - static/style/images/tou.png") no-repeat

@@ -1,0 +1,21 @@
+- id: fatwire-content
+  name: Fatwire-content-server
+  author: P1finger
+  tags:
+    - fatwire-content
+  description: Fatwire-content-server
+  matchers:
+    - location: header
+      words:
+        - FutureTenseContentServer
+- id: fatwire-content-2
+  name: FatWire-Content-Server
+  author: Fofa
+  tags:
+    - fatwire-content
+  description: FatWire-Content-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FutureTenseContentServer

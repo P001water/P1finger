@@ -1,0 +1,15 @@
+- id: angularkuangjia
+  name: Angularkuangjia
+  author: Fofa
+  tags:
+    - angularkuangjia
+  description: Angularkuangjia
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - src="angular.min.js
+    - condition: or
+      location: body
+      words:
+        - src="angular.js

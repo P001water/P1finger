@@ -1,0 +1,10 @@
+- id: ngi-diam4
+  name: Ngi-diam4
+  author: P001
+  tags:
+    - ngi-diam4
+  description: Ngi-diam4
+  matchers:
+    - location: body
+      words:
+        - src="/diam4/inc/lang/fr/lang.min.js"

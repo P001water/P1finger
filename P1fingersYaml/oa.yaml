@@ -1,0 +1,550 @@
+- id: gaosubooawangluozhineng
+  name: GaosuboOAwangluozhineng Office System
+  author: P1finger
+  tags:
+    - gaosubooawangluozhineng
+    - office-system
+  description: GaosuboOAwangluozhineng Office System
+  matchers:
+    - location: body
+      words:
+        - 高速波OA网络智能办公系统
+        - getCompanyAll
+- id: hejiaruanjianoaxietong
+  name: HejiaruanjianOAxietong Office System
+  author: P1finger
+  tags:
+    - hejiaruanjianoaxietong
+    - office-system
+  description: HejiaruanjianOAxietong Office System
+  matchers:
+    - location: body
+      words:
+        - 技术支持：北京和佳软件技术公司
+- id: huatiandonglioaoa8000
+  name: HuatiandongliOAOA8000
+  author: Fofa
+  tags:
+    - huatiandonglioaoa8000
+  description: HuatiandongliOAOA8000
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /OAapp/WebObjects/OAapp.woa
+- id: chandaooa
+  name: Chandaooa
+  author: P1finger
+  tags:
+    - chandaooa
+  description: Chandaooa
+  matchers:
+    - location: body
+      words:
+        - /theme/default/images/main/zt-logo.png
+        - /zentao/theme/zui/css/min.css
+        - <script>self.location='/user-login-
+    - location: header
+      words:
+        - zentaosid
+- id: aibangongoa
+  name: AibangongOA
+  author: P001
+  tags:
+    - aibangongoa
+  description: AibangongOA
+  matchers:
+    - location: body
+      words:
+        - <a href="https://www.ioa.cn/official/download.html" target="_blank">爱办公app</a>
+        - id="foot_version">厦门容能科技有限公司
+- id: aibangongoa-2
+  name: Aibangongoa
+  author: P001
+  tags:
+    - aibangongoa
+  description: Aibangongoa
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href="https://www.ioa.cn/official/download.html" target="_blank">爱办公app</a>
+        - id="foot_version">厦门容能科技有限公司
+- id: chuangxiangyingfengoa
+  name: ChuangxiangyingfengOA
+  author: P1finger
+  tags:
+    - chuangxiangyingfengoa
+  description: ChuangxiangyingfengOA
+  matchers:
+    - location: body
+      words:
+        - 创想颖峰
+- id: dianqingoa
+  name: DianqingOA
+  author: P1finger
+  tags:
+    - dianqingoa
+  description: DianqingOA
+  matchers:
+    - location: body
+      words:
+        - /mis/pc_desk/download_pc_msg.asp
+- id: donghua-oa-system
+  name: Donghua OA System
+  author: P1finger
+  tags:
+    - donghua
+    - oa-system
+  description: Donghua OA System
+  matchers:
+    - location: body
+      words:
+        - <span>东华软件股份公司版权所有</span>
+- id: fanpujianzhugongchengshigongoa
+  name: FanpujianzhugongchengshigongOA
+  author: Fofa
+  tags:
+    - fanpujianzhugongchengshigongoa
+  description: FanpujianzhugongchengshigongOA
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /dwr/interface/LoginService.js
+    - location: body
+      words:
+        - /dwr/interface/LoginService.js
+- id: fanpuruanjianjianzhugongchengshigongoa
+  name: FanpuruanjianjianzhugongchengshigongOA Office System
+  author: P1finger
+  tags:
+    - fanpuruanjianjianzhugongchengshigongoa
+    - office-system
+  description: FanpuruanjianjianzhugongchengshigongOA Office System
+  matchers:
+    - location: body
+      words:
+        - 建筑工程施工OA办公系统_泛普软件
+- id: fenghuangbangongoa
+  name: FenghuangbangongOA
+  author: P1finger
+  tags:
+    - fenghuangbangongoa
+  description: FenghuangbangongOA
+  matchers:
+    - location: body
+      words:
+        - 凤凰办公OA
+        - gb_2image/OAdenglu_bg.png
+- id: haitianoa
+  name: HaitianOA
+  author: Fofa
+  tags:
+    - haitianoa
+  description: HaitianOA
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - HTVOS.js
+    - location: body
+      words:
+        - HTVOS.js
+- id: hongfanoa
+  name: Hongfanoa
+  author: P1finger
+  tags:
+    - hongfanoa
+  description: Hongfanoa
+  matchers:
+    - location: body
+      words:
+        - 红帆ioffice
+- id: huatiandonglioa
+  name: Huatiandonglioa
+  author: P1finger
+  tags:
+    - huatiandonglioa
+  description: Huatiandonglioa
+  matchers:
+    - location: body
+      words:
+        - /htoa/css/CN/BLUE/login.css
+        - OAapp/WebObjects/OAapp.woa
+    - location: body
+      words:
+        - /OAapp/htpages/app/module/login/8.0Login.jsp
+- id: huidianoa
+  name: Huidianoa
+  author: P1finger
+  tags:
+    - huidianoa
+  description: Huidianoa
+  matchers:
+    - location: body
+      words:
+        - www/mobile-version.txt
+- id: jinglunoa
+  name: JinglunOA
+  author: P1finger
+  tags:
+    - jinglunoa
+  description: JinglunOA
+  matchers:
+    - location: body
+      words:
+        - ThemeCssCookie
+- id: jiusioa
+  name: JiusiOA
+  author: P1finger
+  tags:
+    - jiusioa
+  description: JiusiOA
+  matchers:
+    - location: body
+      words:
+        - /jsoa/login.jsp
+        - 九思软件
+- id: kunzhioa
+  name: KunzhiOA
+  author: P1finger
+  tags:
+    - kunzhioa
+  description: KunzhiOA
+  matchers:
+    - location: body
+      words:
+        - title='坤志OA'
+- id: qilaioa
+  name: QilaiOA
+  author: P1finger
+  tags:
+    - qilaioa
+  description: QilaiOA
+  matchers:
+    - location: body
+      words:
+        - content="启莱
+        - <option value="index">个性风格</option>
+- id: oaqiyezhineng-oa-system
+  name: OAqiyezhineng OA System
+  author: Fofa
+  tags:
+    - oaqiyezhineng
+    - oa-system
+  description: OAqiyezhineng OA System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - input name="S1" location="image
+    - condition: and
+      location: body
+      words:
+        - count/mystat.asp
+    - location: body
+      words:
+        - input name="S1" location="image"
+        - count/mystat.asp
+    - location: body
+      words:
+        - count/mystat.asp
+- id: roa-business-management-system
+  name: ROA Business Management System
+  author: P1finger
+  tags:
+    - roa
+    - business-management-system
+  description: ROA Business Management System
+  matchers:
+    - location: body
+      words:
+        - R业务管理系统OA
+- id: ranzhioa
+  name: RanzhiOA
+  author: P1finger
+  tags:
+    - ranzhioa
+  description: RanzhiOA
+  matchers:
+    - hash:
+        - "-2120337510"
+      location: favicon
+- id: ruanhongoa
+  name: RuanhongOA
+  author: P1finger
+  tags:
+    - ruanhongoa
+  description: RuanhongOA
+  matchers:
+    - location: body
+      words:
+        - <title>软虹科技</title>
+- id: shandalunengoa
+  name: ShandalunengOA
+  author: P1finger
+  tags:
+    - shandalunengoa
+  description: ShandalunengOA
+  matchers:
+    - location: body
+      words:
+        - <title>山大鲁能信息科技有限公司协同办公系统
+- id: weihongoa
+  name: WeihongOA
+  author: P1finger
+  tags:
+    - weihongoa
+  description: WeihongOA
+  matchers:
+    - location: header
+      words:
+        - /wh/serverlogin.jsp
+    - location: body
+      words:
+        - /wh/servlet/MainServer
+- id: xieroa
+  name: XierOA
+  author: Fofa
+  tags:
+    - xieroa
+  description: XierOA
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /heeroa/login.do
+    - location: body
+      words:
+        - /heeroa/login.do
+- id: xiedaoa
+  name: Xiedaoa
+  author: P1finger
+  tags:
+    - xiedaoa
+  description: Xiedaoa
+  matchers:
+    - location: body
+      words:
+        - img.style.height=(bodyH-84-100)
+    - location: body
+      words:
+        - 协达软件
+- id: xiedaoa-2
+  name: Xiedaoa
+  author: P001
+  tags:
+    - xiedaoa
+  description: Xiedaoa
+  matchers:
+    - location: body
+      words:
+        - img.style.height=(bodyh-84-100)
+- id: xiezhongoa
+  name: XiezhongOA
+  author: Fofa
+  tags:
+    - xiezhongoa
+  description: XiezhongOA
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by 协众OA
+    - condition: or
+      location: body
+      words:
+        - admin@cnoa.cn
+    - condition: or
+      location: body
+      words:
+        - Powered by CNOA.CN
+    - location: body
+      words:
+        - Powered by 协众OA
+    - location: header
+      words:
+        - CNOAOASESSID
+- id: xiezhongoa-2
+  name: Xiezhongoa
+  author: P001
+  tags:
+    - xiezhongoa
+  description: Xiezhongoa
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'location: index.php?app=main&func=passport&action=login'
+        - 'set-cookie: cnoaoasessid='
+- id: xindaoa
+  name: XindaOA
+  author: Fofa
+  tags:
+    - xindaoa
+  description: XindaOA
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - http://www.xdoa.cn</a>
+    - condition: or
+      location: body
+      words:
+        - 北京创信达科技有限公司
+    - location: body
+      words:
+        - http://www.xdoa.cn</a>
+        - 创信达科技有限公司
+- id: xindianoa
+  name: XindianOA
+  author: P1finger
+  tags:
+    - xindianoa
+  description: XindianOA
+  matchers:
+    - location: body
+      words:
+        - 新点助手工具
+        - EpointOA
+- id: yidongbangongoa
+  name: Yidongbangongoa
+  author: P001
+  tags:
+    - yidongbangongoa
+  description: Yidongbangongoa
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - class="pad-0 pt-2 pb-2 text-center tc-gray mt-1"
+        - qccodewidth1 = document.getelementbyid("divqrcode")
+- id: yimioa
+  name: YimiOA
+  author: Fofa
+  tags:
+    - yimioa
+  description: YimiOA
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /yimioa.apk
+    - location: body
+      words:
+        - /yimioa.apk
+- id: yishiyiliao-oa-system
+  name: Yishiyiliao OA System
+  author: P1finger
+  tags:
+    - yishiyiliao
+    - oa-system
+  description: Yishiyiliao OA System
+  matchers:
+    - location: body
+      words:
+        - 奕诗OA系统
+- id: yingfengxuexiaobangong
+  name: Yingfengxuexiaobangong OA System
+  author: P1finger
+  tags:
+    - yingfengxuexiaobangong
+    - oa-system
+  description: Yingfengxuexiaobangong OA System
+  matchers:
+    - location: body
+      words:
+        - 广州市颖峰信息科技
+- id: yuantianruanjianoa
+  name: YuantianruanjianOA
+  author: P1finger
+  tags:
+    - yuantianruanjianoa
+  description: YuantianruanjianOA
+  matchers:
+    - location: body
+      words:
+        - Visionsoft
+- id: zhengfangoa
+  name: ZhengfangOA
+  author: Fofa
+  tags:
+    - zhengfangoa
+  description: ZhengfangOA
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - zfoausername
+    - location: body
+      words:
+        - zfoausername
+    - location: body
+      words:
+        - logo_zfoa.png
+- id: zhengtonghuifengshilikongzhitaioa
+  name: Zhengtonghuifengshilikongzhitaioa
+  author: P001
+  tags:
+    - zhengtonghuifengshilikongzhitaioa
+  description: Zhengtonghuifengshilikongzhitaioa
+  matchers:
+    - hash:
+        - f07d5960a56ea44c35496bf1dea9a015
+      location: favicon
+- id: zhongtengoa
+  name: Zhongtengoa
+  author: P1finger
+  tags:
+    - zhongtengoa
+  description: Zhongtengoa
+  matchers:
+    - location: body
+      words:
+        - zt_webframe
+- id: zhongtengoa-2
+  name: Zhongtengoa
+  author: P001
+  tags:
+    - zhongtengoa
+  description: Zhongtengoa
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - systemaction
+        - zt_webframe
+- id: zhongwangoa
+  name: ZhongwangOA
+  author: Fofa
+  tags:
+    - zhongwangoa
+  description: ZhongwangOA
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /app_qjuserinfo/qjuserinfoadd.jsp
+    - condition: or
+      location: body
+      words:
+        - /IMAGES/default/first/xtoa_logo.png
+    - location: body
+      words:
+        - xtoa_logo.png
+        - qjuserinfoadd.jsp
+    - location: body
+      words:
+        - <a href="http://www.xtoa.cn" target="_blank">中望软件</a> &copy; 版权所有
+- id: qianxingoaqiyezhineng-oa-system
+  name: Qianxingoaqiyezhineng OA System
+  author: P001
+  tags:
+    - qianxingoaqiyezhineng
+    - oa-system
+  description: Qianxingoaqiyezhineng OA System
+  matchers:
+    - location: body
+      words:
+        - input name="s1" location=image

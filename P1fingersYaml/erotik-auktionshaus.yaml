@@ -1,0 +1,10 @@
+- id: erotik-auktionshaus
+  name: Erotik Auktionshaus
+  author: P1finger
+  tags:
+    - erotik-auktionshaus
+  description: Erotik Auktionshaus
+  matchers:
+    - location: body
+      words:
+        - Erotik Auktionshaus

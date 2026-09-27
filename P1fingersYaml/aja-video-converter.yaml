@@ -1,0 +1,21 @@
+- id: aja-converter
+  name: Aja-video-converter
+  author: P1finger
+  tags:
+    - aja-converter
+  description: Aja-video-converter
+  matchers:
+    - location: body
+      words:
+        - eParamID_SWVersion
+- id: aja-converter-2
+  name: AJA-Video-Converter
+  author: Fofa
+  tags:
+    - aja-converter
+  description: AJA-Video-Converter
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - eParamID_SWVersion

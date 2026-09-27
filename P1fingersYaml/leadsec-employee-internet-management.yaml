@@ -1,0 +1,17 @@
+- id: leadsec-employee-internet
+  name: Leadsec-employee-internet-management
+  author: P001
+  tags:
+  - leadsec
+  - leadsec-employee-internet
+  description: Leadsec-employee-internet-management
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - asdf</div>-->
+    - txtmac
+  - location: body
+    words:
+    - leadsec acm
+    - txtmac

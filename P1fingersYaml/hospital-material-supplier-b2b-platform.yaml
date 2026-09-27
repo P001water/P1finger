@@ -1,0 +1,10 @@
+- id: hospital-material-supplier-b2b
+  name: Hospital-material-supplier-b2b-platform
+  author: P001
+  tags:
+    - hospital-material-supplier-b2b
+  description: Hospital-material-supplier-b2b-platform
+  matchers:
+    - location: body
+      words:
+        - 医院物资供应商b2b平台

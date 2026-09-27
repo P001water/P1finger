@@ -1,0 +1,11 @@
+- id: sap-sybase
+  name: Sap-sybase
+  author: P001
+  tags:
+  - sap
+  - sap-sybase
+  description: Sap-sybase
+  matchers:
+  - location: body
+    words:
+    - 'server: adaptiveserveranywhere'

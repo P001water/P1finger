@@ -1,0 +1,15 @@
+- id: lemis-management-system
+  name: Lemis Management System
+  author: Fofa
+  tags:
+    - lemis
+    - management-system
+  description: Lemis Management System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - lemis.WEB_APP_NAME
+    - location: body
+      words:
+        - lemis.WEB_APP_NAME

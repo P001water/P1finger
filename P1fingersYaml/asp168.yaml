@@ -1,0 +1,29 @@
+- id: asp168
+  name: Asp168
+  author: P1finger
+  tags:
+    - asp168
+  description: Asp168
+  matchers:
+    - location: body
+      words:
+        - www.asp168.com
+- id: asp168ouhu
+  name: Asp168ouhu
+  author: Fofa
+  tags:
+    - asp168ouhu
+  description: Asp168ouhu
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - upload/moban/images/style.css
+    - condition: or
+      location: body
+      words:
+        - default.php?mod=article&do=detail&tid
+    - location: body
+      words:
+        - upload/moban/images/style.css
+        - default.php?mod=article&do=detail&tid

@@ -1,0 +1,10 @@
+- id: policyretriever
+  name: Policyretriever
+  author: P001
+  tags:
+    - policyretriever
+  description: Policyretriever
+  matchers:
+    - location: body
+      words:
+        - class="heading1">policyretriever service</p>

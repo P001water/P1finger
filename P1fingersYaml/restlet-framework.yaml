@@ -1,0 +1,21 @@
+- id: restlet-framework
+  name: Restlet-framework
+  author: P1finger
+  tags:
+    - restlet-framework
+  description: Restlet-framework
+  matchers:
+    - location: header
+      words:
+        - Restlet-Framework
+- id: restlet-framework-2
+  name: Restlet-Framework
+  author: Fofa
+  tags:
+    - restlet-framework
+  description: Restlet-Framework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Restlet-Framework

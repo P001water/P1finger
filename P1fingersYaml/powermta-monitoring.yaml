@@ -1,0 +1,10 @@
+- id: powermta
+  name: Powermta Monitoring
+  author: P1finger
+  tags:
+    - powermta
+  description: Powermta Monitoring
+  matchers:
+    - hash:
+        - "-1788112745"
+      location: favicon

@@ -1,0 +1,29 @@
+- id: realtime-acars
+  name: RealTime Web ACARS
+  author: Fofa
+  tags:
+    - realtime-acars
+  description: RealTime Web ACARS
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - acarsd
+    - condition: or
+      location: body
+      words:
+        - content="KjM <acarsd@acarsd.org>
+    - condition: or
+      location: body
+      words:
+        - content="Realtime Web ACARS
+- id: realtime-acars-2
+  name: Realtime-web-acars
+  author: P001
+  tags:
+    - realtime-acars
+  description: Realtime-web-acars
+  matchers:
+    - location: body
+      words:
+        - content="realtime web acars

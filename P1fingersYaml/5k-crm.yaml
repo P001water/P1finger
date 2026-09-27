@@ -1,0 +1,14 @@
+- id: 5k-crm
+  name: 5k-crm
+  author: P001
+  tags:
+    - 5k-crm
+  description: 5k-crm
+  matchers:
+    - location: body
+      words:
+        - /public/js/5kcrm.js
+    - location: body
+      words:
+        - 悟空crm
+        - /public/js/5kcrm.js

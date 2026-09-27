@@ -1,0 +1,21 @@
+- id: adsubtract-proxy
+  name: AdSubtract Proxy
+  author: Fofa
+  tags:
+    - adsubtract-proxy
+  description: AdSubtract Proxy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'AdSubtract '
+- id: adsubtract-proxy-2
+  name: Adsubtract Proxy
+  author: P1finger
+  tags:
+    - adsubtract-proxy
+  description: Adsubtract Proxy
+  matchers:
+    - location: header
+      words:
+        - 'AdSubtract '

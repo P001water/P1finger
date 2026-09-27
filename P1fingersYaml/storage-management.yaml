@@ -1,0 +1,13 @@
+- id: storage
+  name: Storage-management
+  author: P001
+  tags:
+    - storage
+  description: Storage-management
+  matchers:
+    - location: body
+      words:
+        - 'firmware version: stor_2.0'
+    - location: body
+      words:
+        - DD System Manager Login

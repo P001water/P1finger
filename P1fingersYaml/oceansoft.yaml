@@ -1,0 +1,16 @@
+- id: oceansoft
+  name: Oceansoft
+  author: P001
+  tags:
+    - oceansoft
+  description: Oceansoft
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - aspx/casecenter/acasecenter.aspx?pagelocation=sxcx&caselocation=sscs&casename=
+        - href="/e/action/listinfo/?
+        - /ocensoftcomm.js
+        - 技术支持：<a href="http://www.oceansoft.com.cn/">
+        - 江苏欧索
+        - 江苏欧索软件有限公司

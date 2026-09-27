@@ -1,0 +1,14 @@
+- id: log-rotate
+  name: Log_rotate
+  author: Fofa
+  tags:
+    - log-rotate
+  description: Log_rotate
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_ log_rotate
+    - location: header
+      words:
+        - mod_ log_rotate

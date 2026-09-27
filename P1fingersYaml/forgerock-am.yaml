@@ -1,0 +1,16 @@
+- id: forgerock-am
+  name: ForgeRock AM
+  author: P1finger
+  tags:
+    - forgerock-am
+  description: ForgeRock AM
+  matchers:
+    - location: body
+      words:
+        - /openam/oauth2/
+        - ForgeRock Access Management
+        - /openam
+    - location: header
+      words:
+        - /openam/oauth2/
+        - /openam

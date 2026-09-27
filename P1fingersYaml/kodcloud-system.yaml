@@ -1,0 +1,10 @@
+- id: kodcloud
+  name: Kodcloud-system
+  author: P001
+  tags:
+    - kodcloud
+  description: Kodcloud-system
+  matchers:
+    - location: body
+      words:
+        - /common/loading_simple.gif

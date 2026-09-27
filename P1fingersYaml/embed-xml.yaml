@@ -1,0 +1,11 @@
+- id: embed-xml
+  name: Embed XML
+  author: Fofa
+  tags:
+    - embed-xml
+  description: Embed XML
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - application/xml

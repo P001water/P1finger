@@ -1,0 +1,10 @@
+- id: winiis-isp-access-resource
+  name: Winiis-isp-access-resource-management-system
+  author: P001
+  tags:
+    - winiis-isp-access-resource
+  description: Winiis-isp-access-resource-management-system
+  matchers:
+    - location: body
+      words:
+        - winisp.gif

@@ -1,0 +1,10 @@
+- id: kerio-2
+  name: Kerio Control
+  author: P1finger
+  tags:
+    - kerio
+  description: Kerio Control
+  matchers:
+    - location: body
+      words:
+        - Kerio Control

@@ -1,0 +1,10 @@
+- id: inoerp
+  name: Inoerp
+  author: P001
+  tags:
+    - inoerp
+  description: Inoerp
+  matchers:
+    - location: body
+      words:
+        - id="ino-body"

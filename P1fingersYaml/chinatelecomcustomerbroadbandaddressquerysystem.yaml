@@ -1,0 +1,10 @@
+- id: chinatelecomcustomerbroadbandaddressquerysystem
+  name: Chinatelecomcustomerbroadbandaddressquerysystem
+  author: P001
+  tags:
+    - chinatelecomcustomerbroadbandaddressquerysystem
+  description: Chinatelecomcustomerbroadbandaddressquerysystem
+  matchers:
+    - location: body
+      words:
+        - <strong>客户宽带地址查询

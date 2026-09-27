@@ -1,0 +1,14 @@
+- id: gate-one
+  name: Gate-one
+  author: P001
+  tags:
+    - gate-one
+  description: Gate-one
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'server: gateone'
+        - <div id="gateone"></div>
+        - gateone.css
+        - gateone.js

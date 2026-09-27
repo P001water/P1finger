@@ -1,0 +1,14 @@
+- id: apache-apisix-dashboard
+  name: Apache-apisix-dashboard
+  author: P001
+  tags:
+  - apache
+  - apache-apisix-dashboard
+  description: Apache-apisix-dashboard
+  matchers:
+  - hash:
+    - 6d07440dcda38480ac6fd8c32edf0102
+    location: favicon
+  - location: body
+    words:
+    - <title>apache apisix dashboard</title>

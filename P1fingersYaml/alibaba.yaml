@@ -1,0 +1,106 @@
+- id: alibaba-anyproxy
+  name: Alibaba AnyProxy
+  author: P1finger
+  tags:
+  - alibaba-anyproxy
+  description: Alibaba AnyProxy
+  matchers:
+  - location: body
+    words:
+    - AnyProxy
+- id: alibaba
+  name: Alibaba Cloud
+  author: P1finger
+  tags:
+  - alibaba
+  description: Alibaba Cloud
+  matchers:
+  - hash:
+    - '1227052603'
+    location: favicon
+- id: alibaba-group-tlog
+  name: Alibaba Group TLog
+  author: P1finger
+  tags:
+  - alibaba-group-tlog
+  description: Alibaba Group TLog
+  matchers:
+  - location: body
+    words:
+    - content="tlog 实时数据处理
+- id: alibaba-anyproxy-2
+  name: Alibaba-anyproxy
+  author: P001
+  tags:
+  - alibaba-anyproxy
+  description: Alibaba-anyproxy
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <title>anyproxy</title>
+    - dist/main.css
+- id: alibaba-fastjson
+  name: Alibaba-fastjson
+  author: P001
+  tags:
+  - fastjson
+  - alibaba-fastjson
+  description: Alibaba-fastjson
+  matchers:
+  - location: body
+    words:
+    - fastjson
+    - com.alibaba.fastjson.jsonexception
+    - 'illegal identifier : @pos 1, json : {@location:java.lang.autocloseable'
+    - js/base/fastjson
+    - syntax error, expect {, actual error, pos 0
+    - unclosed string
+    - var json = json.parse
+- id: alibaba-group-dms
+  name: Alibaba-group-dms
+  author: P001
+  tags:
+  - alibaba-group-dms
+  description: Alibaba-group-dms
+  matchers:
+  - location: body
+    words:
+    - copyright &copy;  dms  all rights reserved （alibaba 数据管理产品）
+- id: alibaba-group-tlog-2
+  name: Alibaba-group-tlog
+  author: P001
+  tags:
+  - alibaba-group-tlog
+  description: Alibaba-group-tlog
+  matchers:
+  - location: body
+    words:
+    - content="tlog 实时数据处理
+- id: alibaba-nacos
+  name: Alibaba-nacos
+  author: P001
+  tags:
+  - nacos
+  - alibaba-nacos
+  description: Alibaba-nacos
+  matchers:
+  - location: body
+    words:
+    - <title>nacos</title>
+  - bodyHash: 875927332f52c86065894ba05cabb6c4
+    location: bodyHash
+- id: alibaba-enterprise-mail
+  name: Alibaba Enterprise Mail
+  author: P001
+  tags:
+  - alibaba
+  - enterprise-mail
+  description: Alibaba Enterprise Mail
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - action="/alimail/error/browserlog
+    - content="阿里企业邮箱
+    - Alimail is an e-mail operator independently developed by Alibaba Cloud,

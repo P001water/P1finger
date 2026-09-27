@@ -1,0 +1,14 @@
+- id: fpoll
+  name: Fpoll
+  author: Fofa
+  tags:
+    - fpoll
+  description: Fpoll
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - admincp/css.css
+    - location: body
+      words:
+        - admincp/css.css

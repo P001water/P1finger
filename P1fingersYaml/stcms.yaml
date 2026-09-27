@@ -1,0 +1,19 @@
+- id: stcms
+  name: STcms
+  author: Fofa
+  tags:
+    - stcms
+  description: STcms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="STCMS
+    - condition: or
+      location: body
+      words:
+        - DahongY<dahongy@gmail.com>
+    - location: body
+      words:
+        - content="STCMS
+        - DahongY<dahongy@gmail.com>

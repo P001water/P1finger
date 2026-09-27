@@ -1,0 +1,20 @@
+- id: kaspersky-secure
+  name: Kaspersky-secure-mail-gateway
+  author: P001
+  tags:
+    - kaspersky-secure
+  description: Kaspersky-secure-mail-gateway
+  matchers:
+    - location: body
+      words:
+        - kaspersky secure mail gateway
+- id: kaspersky-secure-2
+  name: Kaspersky Secure Mail Gateway
+  author: P1finger
+  tags:
+    - kaspersky-secure
+  description: Kaspersky Secure Mail Gateway
+  matchers:
+    - location: body
+      words:
+        - kaspersky secure mail gateway

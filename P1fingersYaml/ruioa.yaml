@@ -1,0 +1,11 @@
+- id: ruioa
+  name: Ruioa
+  author: P1finger
+  tags:
+    - ruioa
+  description: Ruioa
+  matchers:
+    - location: body
+      words:
+        - /hqbadmin/
+        - 新锐网络网站管理平台

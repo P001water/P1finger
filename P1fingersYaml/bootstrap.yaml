@@ -1,0 +1,15 @@
+- id: bootstrap
+  name: Bootstrap
+  author: Fofa
+  tags:
+    - bootstrap
+  description: Bootstrap
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - bootstrap.css
+    - condition: or
+      location: body
+      words:
+        - bootstrap.min.css

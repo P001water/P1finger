@@ -1,0 +1,23 @@
+- id: chuangqiidcispjieruziyuan
+  name: ChuangqiIDCISPjieruziyuan Management System
+  author: P1finger
+  tags:
+    - chuangqiidcispjieruziyuan
+    - management-system
+  description: ChuangqiIDCISPjieruziyuan Management System
+  matchers:
+    - location: body
+      words:
+        - <title>创旗IDC/ISP接入资源
+- id: chuangqiidcispjieruziyuan-2
+  name: ChuangqiIDCISPjieruziyuan Management System
+  author: P1finger
+  tags:
+    - chuangqiidcispjieruziyuan
+    - management-system
+  description: ChuangqiIDCISPjieruziyuan Management System
+  matchers:
+    - location: body
+      words:
+        - 创旗IDC/ISP接入资源管理系统
+        - IDC/ISP

@@ -1,0 +1,19 @@
+- id: lotus-2
+  name: Lotus
+  author: Fofa
+  tags:
+    - lotus
+  description: Lotus
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - IBM Lotus iNotes Login
+    - condition: or
+      location: body
+      words:
+        - iwaredir.nsf
+    - location: body
+      words:
+        - IBM Lotus iNotes Login
+        - iwaredir.nsf

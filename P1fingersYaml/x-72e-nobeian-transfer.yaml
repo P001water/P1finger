@@ -1,0 +1,21 @@
+- id: 72e-nobeian-transfer
+  name: X-72e-nobeian-transfer
+  author: P1finger
+  tags:
+    - 72e-nobeian-transfer
+  description: X-72e-nobeian-transfer
+  matchers:
+    - location: header
+      words:
+        - X-72e-Nobeian-Transfer
+- id: 72e-nobeian-transfer-2
+  name: X-72e-Nobeian-Transfer
+  author: Fofa
+  tags:
+    - 72e-nobeian-transfer
+  description: X-72e-Nobeian-Transfer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-72e-Nobeian-Transfer

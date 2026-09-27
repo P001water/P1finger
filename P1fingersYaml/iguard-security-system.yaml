@@ -1,0 +1,31 @@
+- id: iguard
+  name: Iguard-security-system
+  author: P1finger
+  tags:
+    - iguard
+  description: Iguard-security-system
+  matchers:
+    - location: body
+      words:
+        - content="Lucky-Tech iGuard
+    - location: header
+      words:
+        - iGuard Embedded Web Server
+    - location: body
+      words:
+        - content="lucky-tech iguard
+- id: iguard-2
+  name: IGuard-Security-System
+  author: Fofa
+  tags:
+    - iguard
+  description: IGuard-Security-System
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - iGuard Embedded Web Server
+    - condition: or
+      location: body
+      words:
+        - content="Lucky-Tech iGuard

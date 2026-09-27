@@ -1,0 +1,11 @@
+- id: netbotz
+  name: Netbotz-network-monitoring-device
+  author: P001
+  tags:
+    - netbotz
+  description: Netbotz-network-monitoring-device
+  matchers:
+    - location: body
+      words:
+        - href="/netbotz.css
+        - href="http://www.netbotz.com" target

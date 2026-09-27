@@ -1,0 +1,11 @@
+- id: blogger
+  name: Blogger
+  author: P001
+  tags:
+    - blogger
+  description: Blogger
+  matchers:
+    - location: body
+      words:
+        - content='blogger
+        - powered by blogger

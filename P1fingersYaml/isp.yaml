@@ -1,0 +1,12 @@
+- id: ispjieru-management-system
+  name: Ispjieru Management System
+  author: P1finger
+  tags:
+    - ispjieru
+    - management-system
+  description: Ispjieru Management System
+  matchers:
+    - location: body
+      words:
+        - isp接入管理系统
+        - winisp.gif

@@ -1,0 +1,10 @@
+- id: noted
+  name: Noted
+  author: P1finger
+  tags:
+    - noted
+  description: Noted
+  matchers:
+    - location: body
+      words:
+        - Ceate a note and get a link

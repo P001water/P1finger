@@ -1,0 +1,10 @@
+- id: aker-http-proxy
+  name: Aker-Firewall-HTTP-proxy
+  author: P1finger
+  tags:
+    - aker-http-proxy
+  description: Aker-Firewall-HTTP-proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Aker Firewall HTTP proxy'

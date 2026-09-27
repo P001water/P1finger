@@ -1,0 +1,10 @@
+- id: cc-customer
+  name: Cc-customer-service
+  author: P001
+  tags:
+    - cc-customer
+  description: Cc-customer-service
+  matchers:
+    - location: body
+      words:
+        - <script src="http://kefu.qycn.com/

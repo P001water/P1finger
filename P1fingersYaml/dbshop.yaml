@@ -1,0 +1,18 @@
+- id: dbshop
+  name: Dbshop
+  author: Fofa
+  tags:
+    - dbshop
+  description: Dbshop
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="dbshop
+    - location: body
+      words:
+        - content="dbshop
+    - location: body
+      words:
+        - content="dbshop
+        - content="dbshop

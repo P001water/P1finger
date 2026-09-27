@@ -1,0 +1,10 @@
+- id: pythonsimplehttp
+  name: PythonSimpleHTTP
+  author: P1finger
+  tags:
+    - pythonsimplehttp
+  description: PythonSimpleHTTP
+  matchers:
+    - location: header
+      words:
+        - SimpleHTTP/

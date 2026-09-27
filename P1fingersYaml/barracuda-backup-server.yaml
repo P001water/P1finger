@@ -1,0 +1,21 @@
+- id: barracuda-backup
+  name: Barracuda-backup-server
+  author: P1finger
+  tags:
+    - barracuda-backup
+  description: Barracuda-backup-server
+  matchers:
+    - location: header
+      words:
+        - BACKUP_LOCAL_LOCALE
+- id: barracuda-backup-2
+  name: Barracuda-Backup-Server
+  author: Fofa
+  tags:
+    - barracuda-backup
+  description: Barracuda-Backup-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - BACKUP_LOCAL_LOCALE

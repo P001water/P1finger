@@ -1,0 +1,10 @@
+- id: new-rock-ip-pbx
+  name: New-rock-ip-pbx-management-system
+  author: P001
+  tags:
+    - new-rock-ip-pbx
+  description: New-rock-ip-pbx-management-system
+  matchers:
+    - location: body
+      words:
+        - var data = formatparams(params.data)

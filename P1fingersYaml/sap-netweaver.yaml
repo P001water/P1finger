@@ -1,0 +1,11 @@
+- id: sap-netweaver
+  name: Sap Netweaver
+  author: P1finger
+  tags:
+  - sap
+  - sap-netweaver
+  description: Sap Netweaver
+  matchers:
+  - hash:
+    - '-266008933'
+    location: favicon

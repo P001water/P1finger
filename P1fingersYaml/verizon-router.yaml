@@ -1,0 +1,11 @@
+- id: verizon
+  name: Verizon_Router
+  author: Fofa
+  tags:
+    - verizon
+  description: Verizon_Router
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Verizon Router

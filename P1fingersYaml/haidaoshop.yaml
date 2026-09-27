@@ -1,0 +1,10 @@
+- id: haidaoshop
+  name: Haidaoshop
+  author: P001
+  tags:
+    - haidaoshop
+  description: Haidaoshop
+  matchers:
+    - location: body
+      words:
+        - haidao.web.general.js

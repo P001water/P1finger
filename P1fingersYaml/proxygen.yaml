@@ -1,0 +1,10 @@
+- id: proxygen
+  name: Proxygen
+  author: P1finger
+  tags:
+    - proxygen
+  description: Proxygen
+  matchers:
+    - location: header
+      words:
+        - 'Server: proxygen'

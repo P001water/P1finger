@@ -1,0 +1,10 @@
+- id: ezoffice
+  name: Ezoffice
+  author: P001
+  tags:
+    - ezoffice
+  description: Ezoffice
+  matchers:
+    - location: body
+      words:
+        - 'location: /defaultroot/portal.jsp?access=oa'

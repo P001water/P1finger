@@ -1,0 +1,21 @@
+- id: f5-bigip
+  name: F5_BIGIP
+  author: Fofa
+  tags:
+  - bigip
+  - f5
+  - f5-bigip
+  description: F5_BIGIP
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - BIGipServer
+  - condition: or
+    location: header
+    words:
+    - X-WA-Info
+  - condition: or
+    location: header
+    words:
+    - X-PvInfo

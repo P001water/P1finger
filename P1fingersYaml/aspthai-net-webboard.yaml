@@ -1,0 +1,21 @@
+- id: aspthai-net-webboard
+  name: Aspthai_net-webboard
+  author: P1finger
+  tags:
+    - aspthai-net-webboard
+  description: Aspthai_net-webboard
+  matchers:
+    - location: body
+      words:
+        - ASPThai.Net Webboard
+- id: aspthai-net-webboard-2
+  name: ASPThai_Net-Webboard
+  author: Fofa
+  tags:
+    - aspthai-net-webboard
+  description: ASPThai_Net-Webboard
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ASPThai.Net Webboard

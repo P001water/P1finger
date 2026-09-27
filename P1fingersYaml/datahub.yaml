@@ -1,0 +1,14 @@
+- id: datahub
+  name: DataHub
+  author: P1finger
+  tags:
+    - datahub
+  description: DataHub
+  matchers:
+    - hash:
+        - "1959205744"
+      location: favicon
+    - location: body
+      words:
+        - DataHub
+        - A Metadata Platform for the Modern Data Stack

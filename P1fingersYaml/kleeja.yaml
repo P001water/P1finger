@@ -1,0 +1,17 @@
+- id: kleeja
+  name: Kleeja
+  author: Fofa
+  tags:
+    - kleeja
+  description: Kleeja
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by Kleeja
+    - location: body
+      words:
+        - Powered by Kleeja
+    - location: body
+      words:
+        - powered by kleeja

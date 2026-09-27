@@ -1,0 +1,10 @@
+- id: yzruida
+  name: Yzruida-system
+  author: P001
+  tags:
+    - yzruida
+  description: Yzruida-system
+  matchers:
+    - location: body
+      words:
+        - class="headerbar gradientbar

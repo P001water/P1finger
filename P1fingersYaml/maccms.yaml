@@ -1,0 +1,10 @@
+- id: maccms
+  name: Maccms
+  author: P001
+  tags:
+    - maccms
+  description: Maccms
+  matchers:
+    - location: body
+      words:
+        - <script>var maccms={"path

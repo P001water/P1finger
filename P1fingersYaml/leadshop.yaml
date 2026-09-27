@@ -1,0 +1,11 @@
+- id: leadshop
+  name: Leadshop
+  author: P001
+  tags:
+    - leadshop
+  description: Leadshop
+  matchers:
+    - hash:
+        - 34e851938a4a941ce6318d62253892ec
+        - 5b0665d0447da9c06646da8f282bf372
+      location: favicon

@@ -1,0 +1,24 @@
+- id: cushycms
+  name: CushyCMS
+  author: Fofa
+  tags:
+    - cushycms
+  description: CushyCMS
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - _cushy_session
+    - condition: or
+      location: body
+      words:
+        - Powered by CushyCMS
+    - location: body
+      words:
+        - Powered by CushyCMS
+    - location: header
+      words:
+        - _cushy_session
+    - location: body
+      words:
+        - Cushy.activeTab

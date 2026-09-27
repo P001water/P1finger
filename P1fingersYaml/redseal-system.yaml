@@ -1,0 +1,10 @@
+- id: redseal
+  name: Redseal-system
+  author: P001
+  tags:
+    - redseal
+  description: Redseal-system
+  matchers:
+    - location: body
+      words:
+        - alt="redseal, inc."/></a>

@@ -1,0 +1,13 @@
+- id: phpopenchat
+  name: Phpopenchat
+  author: P001
+  tags:
+    - phpopenchat
+  description: Phpopenchat
+  matchers:
+    - location: body
+      words:
+        - phpopenchat installation
+    - location: body
+      words:
+        - PHPOpenChat

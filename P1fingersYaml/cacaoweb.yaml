@@ -1,0 +1,10 @@
+- id: cacaoweb
+  name: Cacaoweb
+  author: P1finger
+  tags:
+    - cacaoweb
+  description: Cacaoweb
+  matchers:
+    - hash:
+        - "-1738184811"
+      location: favicon

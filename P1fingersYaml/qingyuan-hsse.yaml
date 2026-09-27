@@ -1,0 +1,10 @@
+- id: qingyuan-hsse
+  name: Qingyuan-hsse
+  author: P001
+  tags:
+    - qingyuan-hsse
+  description: Qingyuan-hsse
+  matchers:
+    - location: body
+      words:
+        - hsse 系统

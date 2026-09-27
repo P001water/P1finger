@@ -1,0 +1,11 @@
+- id: webid
+  name: Webid
+  author: P001
+  tags:
+    - webid
+  description: Webid
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="webid">
+        - powered by <a href="http://www.webidsupport.com/">webid

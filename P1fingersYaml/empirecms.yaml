@@ -1,0 +1,35 @@
+- id: diguoempirecms
+  name: Diguoempirecms
+  author: P1finger
+  tags:
+    - diguoempirecms
+  description: Diguoempirecms
+  matchers:
+    - location: body
+      words:
+        - Powered by EmpireCMS
+    - condition: and
+      location: title
+      words:
+        - Powered by EmpireCMS
+- id: empirecms
+  name: EmpireCMS
+  author: P1finger
+  tags:
+    - empirecms
+  description: EmpireCMS
+  matchers:
+    - location: body
+      words:
+        - Powered by EmpireCMS
+- id: diguoruanjianempirecms
+  name: DiguoruanjianEmpireCMS
+  author: P001
+  tags:
+    - diguoruanjianempirecms
+  description: DiguoruanjianEmpireCMS
+  matchers:
+    - location: body
+      words:
+        - Powered by EmpireCMS
+        - EmpireCMS</a></strong>

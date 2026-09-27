@@ -1,0 +1,11 @@
+- id: east-simulation-nettrmp
+  name: East-simulation-nettrmp
+  author: P001
+  tags:
+    - east-simulation-nettrmp
+  description: East-simulation-nettrmp
+  matchers:
+    - location: body
+      words:
+        - document.getelementbyid("hllogininfo").click()
+        - nettrmp登录界面

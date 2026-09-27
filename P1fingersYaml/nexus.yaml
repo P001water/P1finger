@@ -1,0 +1,13 @@
+- id: nexus
+  name: Nexus
+  author: P1finger
+  tags:
+    - nexus
+  description: Nexus
+  matchers:
+    - location: body
+      words:
+        - Nexus Repository Manager
+    - location: header
+      words:
+        - NX-ANTI-CSRF-TOKEN

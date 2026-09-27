@@ -1,0 +1,10 @@
+- id: ossean
+  name: OSSEAN
+  author: P1finger
+  tags:
+    - ossean
+  description: OSSEAN
+  matchers:
+    - location: body
+      words:
+        - Trustie-OSSEAN

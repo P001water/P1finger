@@ -1,0 +1,10 @@
+- id: smartlan
+  name: Smartlan/g
+  author: P1finger
+  tags:
+    - smartlan
+  description: Smartlan/g
+  matchers:
+    - hash:
+        - "-644617577"
+      location: favicon

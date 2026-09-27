@@ -1,0 +1,29 @@
+- id: jobberbase
+  name: JobberBase
+  author: Fofa
+  tags:
+    - jobberbase
+  description: JobberBase
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by
+    - condition: or
+      location: body
+      words:
+        - http://www.jobberbase.com
+    - condition: or
+      location: body
+      words:
+        - Jobber.PerformSearch
+    - condition: or
+      location: body
+      words:
+        - content="Jobberbase
+    - location: body
+      words:
+        - Jobber
+    - location: body
+      words:
+        - jobberBase

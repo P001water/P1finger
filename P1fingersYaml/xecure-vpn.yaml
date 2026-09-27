@@ -1,0 +1,12 @@
+- id: xecure
+  name: Xecure-vpn
+  author: P001
+  tags:
+    - xecure
+  description: Xecure-vpn
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - xecure vpn manager
+        - xnstyle.css

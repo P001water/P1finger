@@ -1,0 +1,10 @@
+- id: libwww-perl-daemon
+  name: Libwww-perl-daemon
+  author: P001
+  tags:
+    - libwww-perl-daemon
+  description: Libwww-perl-daemon
+  matchers:
+    - location: body
+      words:
+        - 'server: libwww-perl-daemon'

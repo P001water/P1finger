@@ -1,0 +1,10 @@
+- id: asp-net-favicon
+  name: Asp.net Favicon
+  author: P1finger
+  tags:
+    - asp-net-favicon
+  description: Asp.net Favicon
+  matchers:
+    - hash:
+        - "1772087922"
+      location: favicon

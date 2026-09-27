@@ -1,0 +1,11 @@
+- id: shuzhengquanxian
+  name: Shuzhengquanxian Management System
+  author: P1finger
+  tags:
+    - shuzhengquanxian
+    - management-system
+  description: Shuzhengquanxian Management System
+  matchers:
+    - location: body
+      words:
+        - resources/zheng-admin/plugins/

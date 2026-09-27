@@ -1,0 +1,14 @@
+- id: dsview
+  name: Dsview
+  author: P001
+  tags:
+    - dsview
+  description: Dsview
+  matchers:
+    - location: body
+      words:
+        - 'server: avocent dsview'
+        - /dsview/images/favicon.ico
+        - /dsview/protected/login.do
+        - href="/dsview/themes/
+        - src="/dsview/images/avocent-logo.png

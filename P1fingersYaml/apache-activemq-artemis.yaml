@@ -1,0 +1,20 @@
+- id: apache-activemq-artemis
+  name: Apache ActiveMQ Artemis
+  author: nuclei
+  tags:
+  - apache
+  - activemq
+  - artemis
+  description: 'Detects a Apache ActiveMQ Artemis Console, the next generation message
+    broker by ActiveMQ.
+
+    '
+  paths:
+  - /console/hawtconfig.json
+  matchers:
+  - location: body
+    words:
+    - img/activemq.png
+    - ActiveMQ Artemis
+    - Apache Artemis
+    condition: or

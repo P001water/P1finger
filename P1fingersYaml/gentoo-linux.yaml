@@ -1,0 +1,21 @@
+- id: gentoo-linux
+  name: Gentoo Linux
+  author: Fofa
+  tags:
+    - gentoo-linux
+  description: Gentoo Linux
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Gentoo
+- id: gentoo-linux-2
+  name: Gentoo Linux
+  author: P1finger
+  tags:
+    - gentoo-linux
+  description: Gentoo Linux
+  matchers:
+    - location: header
+      words:
+        - Gentoo

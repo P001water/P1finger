@@ -1,0 +1,11 @@
+- id: chnitc
+  name: Chnitc-system
+  author: P001
+  tags:
+    - chnitc
+  description: Chnitc-system
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.chnitc.com" style="text-decoration:none;color:#fff;">
+        - 科业开发团队出品

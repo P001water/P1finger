@@ -1,0 +1,12 @@
+- id: ewomail
+  name: EwoMail
+  author: P001
+  tags:
+    - ewomail
+  description: EwoMail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ewomail.com
+        - rainloop/v/1.10.0.103/static/apple-touch-icon.png?v=community

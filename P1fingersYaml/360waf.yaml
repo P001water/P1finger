@@ -1,0 +1,13 @@
+- id: 360waf
+  name: 360WAF
+  author: P1finger
+  tags:
+    - 360waf
+  description: 360WAF
+  matchers:
+    - location: header
+      words:
+        - WZWS-RAY
+    - location: body
+      words:
+        - wzws-waf-cgi

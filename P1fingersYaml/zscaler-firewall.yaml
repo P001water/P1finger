@@ -1,0 +1,10 @@
+- id: zscaler
+  name: Zscaler-FIREWALL
+  author: P1finger
+  tags:
+    - zscaler
+  description: Zscaler-FIREWALL
+  matchers:
+    - location: body
+      words:
+        - Welcome To Zscaler Directory Authentication

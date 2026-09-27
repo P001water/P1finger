@@ -1,0 +1,19 @@
+- id: edirectory
+  name: EDirectory
+  author: Fofa
+  tags:
+    - edirectory
+  description: EDirectory
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - target="_blank">eDirectory&trade
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.edirectory.com
+    - location: body
+      words:
+        - target="_blank">eDirectory&trade
+        - Powered by <a href="http://www.edirectory.com

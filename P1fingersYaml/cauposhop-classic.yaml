@@ -1,0 +1,32 @@
+- id: cauposhop-classic
+  name: Cauposhop-classic
+  author: P1finger
+  tags:
+    - cauposhop-classic
+  description: Cauposhop-classic
+  matchers:
+    - location: body
+      words:
+        - Caupo
+    - location: body
+      words:
+        - CaupoShop Classic
+- id: cauposhop-classic-2
+  name: CaupoShop-Classic
+  author: Fofa
+  tags:
+    - cauposhop-classic
+  description: CaupoShop-Classic
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by CaupoShop
+    - condition: or
+      location: body
+      words:
+        - <!-- CaupoShop Classic
+    - condition: or
+      location: body
+      words:
+        - <a href="http://www.caupo.net" target="_blank">CaupoNet

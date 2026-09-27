@@ -1,0 +1,11 @@
+- id: sophos-user
+  name: Sophos User Portal/vpn Portal
+  author: P1finger
+  tags:
+  - sophos
+  - sophos-user
+  description: Sophos User Portal/vpn Portal
+  matchers:
+  - hash:
+    - '1045696447'
+    location: favicon

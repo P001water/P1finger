@@ -1,0 +1,10 @@
+- id: nuked-klan
+  name: Nuked Klan
+  author: P1finger
+  tags:
+    - nuked-klan
+  description: Nuked Klan
+  matchers:
+    - location: body
+      words:
+        - Nuked Klan

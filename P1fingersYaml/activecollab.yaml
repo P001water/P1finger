@@ -1,0 +1,22 @@
+- id: activecollab
+  name: ActiveCollab
+  author: Fofa
+  tags:
+    - activecollab
+  description: ActiveCollab
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by activeCollab
+    - condition: or
+      location: body
+      words:
+        - <p id="powered_by"><a href="http://www.activecollab.com/
+    - location: body
+      words:
+        - activeCollab
+    - location: body
+      words:
+        - <p id="powered_by"><a href="http://www.activecollab.com/"
+        - powered by activecollab

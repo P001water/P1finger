@@ -1,0 +1,10 @@
+- id: zfsoft
+  name: Zfsoft-oa
+  author: P001
+  tags:
+    - zfsoft
+  description: Zfsoft-oa
+  matchers:
+    - location: body
+      words:
+        - zfoausername

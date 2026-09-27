@@ -1,0 +1,23 @@
+- id: guppy
+  name: GuppY
+  author: Fofa
+  tags:
+    - guppy
+  description: GuppY
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="GuppY
+    - condition: or
+      location: body
+      words:
+        - class="copyright" href="http://www.freeguppy.org/
+    - location: body
+      words:
+        - GuppY
+        - .freeguppy.org
+    - location: body
+      words:
+        - Laurent Duveau - http://www.freeguppy.org/
+        - GuppY

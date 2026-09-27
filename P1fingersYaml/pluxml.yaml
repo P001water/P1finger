@@ -1,0 +1,10 @@
+- id: pluxml
+  name: PluXml
+  author: P1finger
+  tags:
+    - pluxml
+  description: PluXml
+  matchers:
+    - location: body
+      words:
+        - title="PluXml">PluXml

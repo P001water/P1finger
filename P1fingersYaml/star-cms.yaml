@@ -1,0 +1,26 @@
+- id: star
+  name: STAR CMS
+  author: Fofa
+  tags:
+    - star
+  description: STAR CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="STARCMS
+    - condition: or
+      location: body
+      words:
+        - <img alt="STAR CMS
+- id: star-2
+  name: Star Cms
+  author: P1finger
+  tags:
+    - star
+  description: Star Cms
+  matchers:
+    - location: body
+      words:
+        - content="STARCMS
+        - <img alt="STAR CMS

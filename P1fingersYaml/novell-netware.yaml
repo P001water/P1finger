@@ -1,0 +1,11 @@
+- id: novell-netware
+  name: Novell-netware
+  author: P001
+  tags:
+    - novell-netware
+  description: Novell-netware
+  matchers:
+    - location: body
+      words:
+        - code="nwshealth.class
+        - 'server: netware http stack'

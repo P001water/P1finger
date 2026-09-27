@@ -1,0 +1,20 @@
+- id: thinksaas
+  name: ThinkSAAS
+  author: Fofa
+  tags:
+    - thinksaas
+  description: ThinkSAAS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /app/home/skins/default/style.css
+    - location: body
+      words:
+        - /app/home/skins/default/style.css
+    - location: body
+      words:
+        - href="https://www.thinksaas.cn/app/home/skins/default/style.css"
+    - location: body
+      words:
+        - www.thinksaas.cn

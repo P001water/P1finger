@@ -1,0 +1,27 @@
+- id: oracle
+  name: Oracle-application-server
+  author: P1finger
+  tags:
+    - oracle
+  description: Oracle-application-server
+  matchers:
+    - location: header
+      words:
+        - Oracle-Application-Server
+    - location: body
+      words:
+        - mod_ose documentation
+        - mod_ssl web site
+        - oracle http server</font></font></b></h1>
+        - oracle jsp documentation
+- id: oracle-2
+  name: Oracle-Application-Server
+  author: Fofa
+  tags:
+    - oracle
+  description: Oracle-Application-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Oracle-Application-Server

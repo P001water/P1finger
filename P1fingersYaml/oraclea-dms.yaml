@@ -1,0 +1,11 @@
+- id: oraclea-dms
+  name: Oraclea-DMS
+  author: Fofa
+  tags:
+    - oraclea-dms
+  description: Oraclea-DMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Oracle-Dms-Ecid

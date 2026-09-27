@@ -1,0 +1,10 @@
+- id: am-websystem
+  name: Am-websystem
+  author: P001
+  tags:
+    - am-websystem
+  description: Am-websystem
+  matchers:
+    - location: body
+      words:
+        - id="dvlogo"

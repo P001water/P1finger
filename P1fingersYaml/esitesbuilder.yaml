@@ -1,0 +1,17 @@
+- id: esitesbuilder
+  name: ESitesBuilder
+  author: Fofa
+  tags:
+    - esitesbuilder
+  description: ESitesBuilder
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - eSitesBuilder. All rights reserved
+    - location: body
+      words:
+        - eSitesBuilder. All rights reserved
+    - location: body
+      words:
+        - <title>ESitesBuilder

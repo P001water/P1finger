@@ -1,0 +1,10 @@
+- id: naxsi-waf
+  name: Naxsi Waf
+  author: P1finger
+  tags:
+    - naxsi-waf
+  description: Naxsi Waf
+  matchers:
+    - location: header
+      words:
+        - 'X-Data-Origin: naxsi-waf'

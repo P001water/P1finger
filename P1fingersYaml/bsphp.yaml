@@ -1,0 +1,11 @@
+- id: bsphp
+  name: Bsphp
+  author: P1finger
+  tags:
+    - bsphp
+  description: Bsphp
+  matchers:
+    - location: body
+      words:
+        - Bsphp
+        - www.bsphp.com

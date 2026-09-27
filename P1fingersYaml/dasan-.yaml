@@ -1,0 +1,11 @@
+- id: dasan-video-surveillance
+  name: DASAN Video Surveillance
+  author: P1finger
+  tags:
+    - dasan
+    - video-surveillance
+  description: DASAN Video Surveillance
+  matchers:
+    - location: body
+      words:
+        - SIP Phone H420

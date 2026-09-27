@@ -1,0 +1,11 @@
+- id: tcwellzhineng3djifangjiankong
+  name: TCWELLzhineng3Djifangjiankong Management System
+  author: P1finger
+  tags:
+    - tcwellzhineng3djifangjiankong
+    - management-system
+  description: TCWELLzhineng3Djifangjiankong Management System
+  matchers:
+    - location: body
+      words:
+        - TCWELL智能3D机房监控管理系统

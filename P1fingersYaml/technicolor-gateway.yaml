@@ -1,0 +1,10 @@
+- id: technicolor
+  name: Technicolor Gateway
+  author: P1finger
+  tags:
+    - technicolor
+  description: Technicolor Gateway
+  matchers:
+    - hash:
+        - "1835479497"
+      location: favicon

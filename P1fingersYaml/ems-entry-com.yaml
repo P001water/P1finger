@@ -1,0 +1,25 @@
+- id: ems-entry-com
+  name: Ems-entry-com
+  author: P1finger
+  tags:
+    - ems-entry-com
+  description: Ems-entry-com
+  matchers:
+    - location: header
+      words:
+        - ZENT5
+- id: ems-entry-com-2
+  name: EMS-ENTRY-COM
+  author: Fofa
+  tags:
+    - ems-entry-com
+  description: EMS-ENTRY-COM
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - EMS-Entry
+    - condition: or
+      location: header
+      words:
+        - ZENT5

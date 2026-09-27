@@ -1,0 +1,10 @@
+- id: surat-solution
+  name: Surat Web Solution
+  author: P1finger
+  tags:
+    - surat-solution
+  description: Surat Web Solution
+  matchers:
+    - location: body
+      words:
+        - Surat Web Solution.

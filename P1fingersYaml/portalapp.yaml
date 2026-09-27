@@ -1,0 +1,10 @@
+- id: portalapp
+  name: PortalApp
+  author: P1finger
+  tags:
+    - portalapp
+  description: PortalApp
+  matchers:
+    - location: body
+      words:
+        - powered by PortalApp

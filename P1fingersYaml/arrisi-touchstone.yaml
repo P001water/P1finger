@@ -1,0 +1,19 @@
+- id: arrisi-touchstone
+  name: Arrisi_Touchstone
+  author: Fofa
+  tags:
+    - arrisi-touchstone
+  description: Arrisi_Touchstone
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Touchstone Status
+    - condition: or
+      location: body
+      words:
+        - passWithWarnings
+    - location: body
+      words:
+        - Touchstone Status
+        - passWithWarnings

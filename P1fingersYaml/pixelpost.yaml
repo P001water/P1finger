@@ -1,0 +1,12 @@
+- id: pixelpost
+  name: Pixelpost
+  author: P001
+  tags:
+    - pixelpost
+  description: Pixelpost
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.pixelpost.org
+        - title="pixelpost -
+        - title="powered by pixelpost

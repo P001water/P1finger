@@ -1,0 +1,11 @@
+- id: netdvrv3
+  name: NetDvrV3
+  author: Fofa
+  tags:
+    - netdvrv3
+  description: NetDvrV3
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - objLvrForNoIE

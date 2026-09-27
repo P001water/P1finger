@@ -1,0 +1,11 @@
+- id: ultrapowermeyidongxiediaobangong
+  name: Ultrapowermeyidongxiediaobangong Platform
+  author: P001
+  tags:
+    - ultrapowermeyidongxiediaobangong
+    - platform
+  description: Ultrapowermeyidongxiediaobangong Platform
+  matchers:
+    - location: body
+      words:
+        - me移动协调办公平台

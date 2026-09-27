@@ -1,0 +1,31 @@
+- id: axentra-hipserv
+  name: Axentra-hipserv
+  author: P1finger
+  tags:
+    - axentra-hipserv
+  description: Axentra-hipserv
+  matchers:
+    - location: body
+      words:
+        - content="Axentra
+    - location: header
+      words:
+        - x-axentra-version
+    - location: body
+      words:
+        - content="axentra
+- id: axentra-hipserv-2
+  name: Axentra-HipServ
+  author: Fofa
+  tags:
+    - axentra-hipserv
+  description: Axentra-HipServ
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Axentra
+    - condition: or
+      location: header
+      words:
+        - x-axentra-version

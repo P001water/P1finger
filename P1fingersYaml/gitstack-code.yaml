@@ -1,0 +1,10 @@
+- id: gitstack-code
+  name: Gitstack-code
+  author: P001
+  tags:
+    - gitstack-code
+  description: Gitstack-code
+  matchers:
+    - location: body
+      words:
+        - ^gitstack/

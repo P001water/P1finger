@@ -1,0 +1,21 @@
+- id: zen-cart-shopping
+  name: Zen-Cart-shopping
+  author: P1finger
+  tags:
+    - zen-cart-shopping
+  description: Zen-Cart-shopping
+  matchers:
+    - location: header
+      words:
+        - 'Set-Cookie: Zenid='
+- id: zen-cart-shopping-2
+  name: Zen_cart-shopping
+  author: P001
+  tags:
+    - zen-cart-shopping
+  description: Zen_cart-shopping
+  matchers:
+    - location: body
+      words:
+        - shopping cart program by zen cart
+        - 'set-cookie: zenid='

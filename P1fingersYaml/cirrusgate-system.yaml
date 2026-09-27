@@ -1,0 +1,10 @@
+- id: cirrusgate
+  name: Cirrusgate-system
+  author: P001
+  tags:
+    - cirrusgate
+  description: Cirrusgate-system
+  matchers:
+    - location: body
+      words:
+        - window.location.href = "/dlp/admin/user/login.action"

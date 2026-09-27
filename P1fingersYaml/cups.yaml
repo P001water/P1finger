@@ -1,0 +1,17 @@
+- id: cups
+  name: CUPS
+  author: Fofa
+  tags:
+    - cups
+  description: CUPS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CUPS
+    - location: header
+      words:
+        - CUPS
+    - location: body
+      words:
+        - 'server: cups'

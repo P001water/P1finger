@@ -1,0 +1,12 @@
+- id: ocss
+  name: Ocss
+  author: P001
+  tags:
+    - ocss
+  description: Ocss
+  matchers:
+    - location: body
+      words:
+        - <option value="age_sys">代理商内部员工</option>
+        - content="爱施德移动渠道管理系统
+        - 爱施德 aisidi.com

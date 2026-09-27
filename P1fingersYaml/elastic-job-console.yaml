@@ -1,0 +1,14 @@
+- id: elastic-job
+  name: Elastic Job Console
+  author: P1finger
+  tags:
+  - elastic
+  - elastic-job
+  description: Elastic Job Console
+  matchers:
+  - location: body
+    words:
+    - Elastic Job Lite Console
+  - location: header
+    words:
+    - Elastic Job Console

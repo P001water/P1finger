@@ -1,0 +1,10 @@
+- id: beescms
+  name: BEESCMS
+  author: P1finger
+  tags:
+    - beescms
+  description: BEESCMS
+  matchers:
+    - location: body
+      words:
+        - powerd by <a href="http://www.beescms.com">BEESCMS

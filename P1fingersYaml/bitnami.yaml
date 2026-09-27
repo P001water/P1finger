@@ -1,0 +1,10 @@
+- id: bitnami
+  name: Bitnami
+  author: P1finger
+  tags:
+    - bitnami
+  description: Bitnami
+  matchers:
+    - hash:
+        - "-1607644090"
+      location: favicon

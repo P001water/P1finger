@@ -1,0 +1,10 @@
+- id: lbcms
+  name: LBCMS
+  author: P1finger
+  tags:
+    - lbcms
+  description: LBCMS
+  matchers:
+    - location: body
+      words:
+        - 贵州狼邦科技有限公司

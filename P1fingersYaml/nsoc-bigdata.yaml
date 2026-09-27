@@ -1,0 +1,12 @@
+- id: nsoc-bigdata
+  name: Nsoc-bigdata
+  author: P001
+  tags:
+    - nsoc-bigdata
+  description: Nsoc-bigdata
+  matchers:
+    - location: body
+      words:
+        - <b>nsoc云安全解决方案
+        - <h2>nsoc大数据分析系统</h2>
+        - src="/nfw/static/framework/images/views.png

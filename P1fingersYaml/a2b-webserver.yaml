@@ -1,0 +1,10 @@
+- id: a2b-webserver
+  name: A2b-webserver
+  author: P001
+  tags:
+    - a2b-webserver
+  description: A2b-webserver
+  matchers:
+    - location: body
+      words:
+        - 'server: a2b webserver'

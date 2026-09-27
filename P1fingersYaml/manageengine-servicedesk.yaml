@@ -1,0 +1,10 @@
+- id: manageengine-servicedesk
+  name: Manageengine-servicedesk
+  author: P001
+  tags:
+    - manageengine-servicedesk
+  description: Manageengine-servicedesk
+  matchers:
+    - location: body
+      words:
+        - ',''manageengine servicedesk plus'','

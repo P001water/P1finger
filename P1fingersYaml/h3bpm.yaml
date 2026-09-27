@@ -1,0 +1,12 @@
+- id: aozheh3bpm-system
+  name: AozheH3BPM System
+  author: P1finger
+  tags:
+    - aozheh3bpm
+    - system
+  description: AozheH3BPM System
+  matchers:
+    - location: body
+      words:
+        - H3 BPM
+        - Authine

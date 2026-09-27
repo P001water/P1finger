@@ -1,0 +1,23 @@
+- id: samsung-dvr
+  name: Samsung DVR
+  author: Fofa
+  tags:
+  - samsung
+  - samsung-dvr
+  description: Samsung DVR
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - Samsung DVR
+- id: samsung-dvr-2
+  name: Samsung Dvr
+  author: P1finger
+  tags:
+  - samsung
+  - samsung-dvr
+  description: Samsung Dvr
+  matchers:
+  - location: body
+    words:
+    - Samsung DVR

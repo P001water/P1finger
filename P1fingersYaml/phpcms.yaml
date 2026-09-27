@@ -1,0 +1,37 @@
+- id: phpcms-2
+  name: Phpcms
+  author: P1finger
+  tags:
+    - phpcms
+  description: Phpcms
+  matchers:
+    - location: body
+      words:
+        - index.php?m=content&c=index&a=lists
+    - location: body
+      words:
+        - Phpcms
+    - condition: or
+      location: body
+      words:
+        - http://www.phpcms.cn")
+    - condition: or
+      location: body
+      words:
+        - content="Phpcms
+    - condition: or
+      location: body
+      words:
+        - Powered by Phpcms
+    - condition: or
+      location: body
+      words:
+        - data/config.js
+    - condition: or
+      location: body
+      words:
+        - /index.php?m=content&c=index&a=lists
+    - condition: or
+      location: body
+      words:
+        - /index.php?m=content&amp;c=index&amp;a=lists

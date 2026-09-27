@@ -1,0 +1,11 @@
+- id: mgb-opensource-guestbook
+  name: Mgb-opensource-guestbook
+  author: P001
+  tags:
+    - mgb-opensource-guestbook
+  description: Mgb-opensource-guestbook
+  matchers:
+    - location: body
+      words:
+        - content="mgb opensource guestbook
+        - title="mgb homepage

@@ -1,0 +1,11 @@
+- id: sugarshujukeshihua-platform
+  name: Sugarshujukeshihua Platform
+  author: P1finger
+  tags:
+    - sugarshujukeshihua
+    - platform
+  description: Sugarshujukeshihua Platform
+  matchers:
+    - location: body
+      words:
+        - Sugar - 数据可视化

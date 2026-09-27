@@ -1,0 +1,10 @@
+- id: rg-wall-1600-vpn3000e
+  name: RG WALL 1600 VPN3000E
+  author: P1finger
+  tags:
+    - rg-wall-1600-vpn3000e
+  description: RG WALL 1600 VPN3000E
+  matchers:
+    - location: body
+      words:
+        - rg-wall-1600-vpn3000e

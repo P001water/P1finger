@@ -1,0 +1,14 @@
+- id: novnc
+  name: Novnc
+  author: P001
+  tags:
+    - novnc
+  description: Novnc
+  matchers:
+    - location: body
+      words:
+        - id="novnc-control-bar
+        - 'novnc example: simple'
+    - location: body
+      words:
+        - noVNC

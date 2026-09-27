@@ -1,0 +1,10 @@
+- id: datagear
+  name: DataGear
+  author: P1finger
+  tags:
+    - datagear
+  description: DataGear
+  matchers:
+    - location: body
+      words:
+        - DataGear

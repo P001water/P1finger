@@ -1,0 +1,10 @@
+- id: vhsoft-vhplot
+  name: Vhsoft-vhplot
+  author: P001
+  tags:
+    - vhsoft-vhplot
+  description: Vhsoft-vhplot
+  matchers:
+    - location: body
+      words:
+        - /vhplot/webresource.axd

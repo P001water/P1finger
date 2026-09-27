@@ -1,0 +1,32 @@
+- id: atmail
+  name: Atmail
+  author: P1finger
+  tags:
+    - atmail
+  description: Atmail
+  matchers:
+    - location: header
+      words:
+        - atmail6
+    - location: body
+      words:
+        - Powered by Atmail
+        - /index.php/mail/auth/processlogin
+        - <input id="Mailserverinput
+    - condition: or
+      location: body
+      words:
+        - Powered by Atmail
+    - condition: or
+      location: header
+      words:
+        - atmail6
+    - condition: or
+      location: body
+      words:
+        - FixShowMail
+    - location: body
+      words:
+        - /index.php/mail/auth/processlogin
+        - <input id="mailserverinput
+        - powered by atmail

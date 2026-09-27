@@ -1,0 +1,11 @@
+- id: titanszhoubao-management-system
+  name: TITANSzhoubao Management System
+  author: P1finger
+  tags:
+    - titanszhoubao
+    - management-system
+  description: TITANSzhoubao Management System
+  matchers:
+    - location: body
+      words:
+        - TITANS-周报管理系统

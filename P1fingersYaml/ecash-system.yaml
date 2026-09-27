@@ -1,0 +1,10 @@
+- id: ecash
+  name: Ecash-system
+  author: P001
+  tags:
+    - ecash
+  description: Ecash-system
+  matchers:
+    - location: body
+      words:
+        - <br>欢迎使用e-cash系统

@@ -1,0 +1,10 @@
+- id: swift
+  name: Swift
+  author: P1finger
+  tags:
+    - swift
+  description: Swift
+  matchers:
+    - location: body
+      words:
+        - swift.generic

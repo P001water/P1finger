@@ -1,0 +1,11 @@
+- id: shujuweishiminganxinxisimpdlpnp
+  name: ShujuweishiminganxinxiSimpDLPNP Management System
+  author: P1finger
+  tags:
+    - shujuweishiminganxinxisimpdlpnp
+    - management-system
+  description: ShujuweishiminganxinxiSimpDLPNP Management System
+  matchers:
+    - location: body
+      words:
+        - <title>数据卫士-敏感信息管理系统-SimpDLP-NP</title>

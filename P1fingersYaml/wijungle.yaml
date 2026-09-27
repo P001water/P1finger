@@ -1,0 +1,10 @@
+- id: wijungle
+  name: Wijungle
+  author: P1finger
+  tags:
+    - wijungle
+  description: Wijungle
+  matchers:
+    - hash:
+        - "2113497004"
+      location: favicon

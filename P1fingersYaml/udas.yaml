@@ -1,0 +1,11 @@
+- id: angkaishujukushenjiudas-system
+  name: AngkaishujukushenjiUDAS System
+  author: P1finger
+  tags:
+    - angkaishujukushenjiudas
+    - system
+  description: AngkaishujukushenjiUDAS System
+  matchers:
+    - location: body
+      words:
+        - 数据库审计系统UDAS

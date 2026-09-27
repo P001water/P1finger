@@ -1,0 +1,10 @@
+- id: pentaho-user
+  name: Pentaho-User-Console
+  author: P1finger
+  tags:
+    - pentaho-user
+  description: Pentaho-User-Console
+  matchers:
+    - location: body
+      words:
+        - Pentaho User Console

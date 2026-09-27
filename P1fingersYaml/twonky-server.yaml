@@ -1,0 +1,13 @@
+- id: twonky
+  name: Twonky Server
+  author: P1finger
+  tags:
+    - twonky
+  description: Twonky Server
+  matchers:
+    - hash:
+        - "-878891718"
+      location: favicon
+    - location: body
+      words:
+        - <meta name="description" content="twonkymedia digital home">

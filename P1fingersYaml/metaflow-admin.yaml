@@ -1,0 +1,10 @@
+- id: metaflow
+  name: Metaflow Admin
+  author: P1finger
+  tags:
+    - metaflow
+  description: Metaflow Admin
+  matchers:
+    - location: body
+      words:
+        - Metaflow Admin

@@ -1,0 +1,162 @@
+- id: daxinerpzonghe
+  name: DaxinERPzonghe Management System
+  author: P1finger
+  tags:
+    - daxinerpzonghe
+    - management-system
+  description: DaxinERPzonghe Management System
+  matchers:
+    - location: body
+      words:
+        - 大信ERP综合管理系统
+- id: mingyuanyunerp
+  name: Mingyuanyunerp
+  author: P001
+  tags:
+    - mingyuanyunerp
+  description: Mingyuanyunerp
+  matchers:
+    - location: body
+      words:
+        - 明源云erp
+- id: feierjiaoxueguanlierp
+  name: FeierjiaoxueguanliERP
+  author: P1finger
+  tags:
+    - feierjiaoxueguanlierp
+  description: FeierjiaoxueguanliERP
+  matchers:
+    - location: body
+      words:
+        - 菲尔教学管理ERP 系统登录
+    - location: body
+      words:
+        - 菲尔教学管理erp
+- id: fenghuangwuyeerpbiaozhunbanv2010
+  name: FenghuangwuyeERPbiaozhunbanv2010 Management System
+  author: P1finger
+  tags:
+    - fenghuangwuyeerpbiaozhunbanv2010
+    - management-system
+  description: FenghuangwuyeERPbiaozhunbanv2010 Management System
+  matchers:
+    - location: body
+      words:
+        - 凤凰物业管理系统ERP标准版v2010
+- id: futongtianxiaerp
+  name: FutongtianxiaERP
+  author: P1finger
+  tags:
+    - futongtianxiaerp
+  description: FutongtianxiaERP
+  matchers:
+    - location: body
+      words:
+        - 用户登录_富通天下外贸ERP
+- id: hunanyunjianjijiaerp
+  name: HunanyunjianjijiaERP
+  author: P1finger
+  tags:
+    - hunanyunjianjijiaerp
+  description: HunanyunjianjijiaERP
+  matchers:
+    - location: body
+      words:
+        - 湖南云简信息技术有限公司
+- id: huaxiaerp
+  name: HuaxiaERP
+  author: P1finger
+  tags:
+    - huaxiaerp
+  description: HuaxiaERP
+  matchers:
+    - location: body
+      words:
+        - 华夏ERP
+- id: jintongfangyuezihulierp
+  name: JintongfangyuezihuliERP Management Platform
+  author: P1finger
+  tags:
+    - jintongfangyuezihulierp
+    - management-platform
+  description: JintongfangyuezihuliERP Management Platform
+  matchers:
+    - location: body
+      words:
+        - 月子护理ERP管理平台
+- id: junengv80-erp-management-system
+  name: JunengV80 ERP Management System
+  author: P1finger
+  tags:
+    - junengv80
+    - erp-management-system
+  description: JunengV80 ERP Management System
+  matchers:
+    - location: body
+      words:
+        - <title>聚能ERP管理系统 V8.0</title>
+- id: mingyuanerp
+  name: MingyuanERP
+  author: P1finger
+  tags:
+    - mingyuanerp
+  description: MingyuanERP
+  matchers:
+    - location: body
+      words:
+        - 明源云ERP
+        - PubPlatform/Login/index.aspx
+- id: piaoyouerp
+  name: PiaoyouERP
+  author: P1finger
+  tags:
+    - piaoyouerp
+  description: PiaoyouERP
+  matchers:
+    - location: body
+      words:
+        - ajax/confirm.ashx
+        - 票友erp
+- id: qiwang-erp-system
+  name: Qiwang ERP System
+  author: P1finger
+  tags:
+    - qiwang
+    - erp-system
+  description: Qiwang ERP System
+  matchers:
+    - location: body
+      words:
+        - /javascript/js/witfunctions.js
+        - 企望制造ERP系统
+- id: tongzhijieerpxinxi
+  name: TongzhijieERPxinxi Management System
+  author: P1finger
+  tags:
+    - tongzhijieerpxinxi
+    - management-system
+  description: TongzhijieERPxinxi Management System
+  matchers:
+    - location: body
+      words:
+        - href="/content/home/tzjlog.ico"
+- id: wanwugongyeerp
+  name: WanwugongyeERP
+  author: P1finger
+  tags:
+    - wanwugongyeerp
+  description: WanwugongyeERP
+  matchers:
+    - location: body
+      words:
+        - <meta name="keywords" content="万物商砼云管理系统">
+- id: zhongyuanxinxifutongtianxiaerp
+  name: ZhongyuanxinxifutongtianxiaERP
+  author: P1finger
+  tags:
+    - zhongyuanxinxifutongtianxiaerp
+  description: ZhongyuanxinxifutongtianxiaERP
+  matchers:
+    - location: body
+      words:
+        - 富通天下外贸ERP

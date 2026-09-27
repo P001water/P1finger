@@ -1,0 +1,24 @@
+- id: locationcho
+  name: Locationcho
+  author: P1finger
+  tags:
+    - locationcho
+  description: Locationcho
+  matchers:
+    - location: body
+      words:
+        - generator" content="locationcho
+        - locationcho
+    - condition: or
+      location: body
+      words:
+        - generator" content="locationcho
+    - condition: and
+      location: body
+      words:
+        - locationcho")
+    - condition: and
+      location: body
+      words:
+        - locationcho
+        - usr/themes

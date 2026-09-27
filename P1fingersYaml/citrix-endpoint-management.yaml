@@ -1,0 +1,11 @@
+- id: citrix-endpoint
+  name: Citrix Endpoint Management
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-endpoint
+  description: Citrix Endpoint Management
+  matchers:
+  - location: body
+    words:
+    - Endpoint Management

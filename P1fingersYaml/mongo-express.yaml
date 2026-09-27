@@ -1,0 +1,14 @@
+- id: mongo-express
+  name: Mongo-express
+  author: P1finger
+  tags:
+  - mongo
+  - mongo-express
+  description: Mongo-express
+  matchers:
+  - location: body
+    words:
+    - Mongo Express
+  - location: header
+    words:
+    - mongo-express

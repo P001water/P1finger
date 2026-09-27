@@ -1,0 +1,14 @@
+- id: cloudera-manager
+  name: Cloudera-manager
+  author: P001
+  tags:
+    - cloudera-manager
+  description: Cloudera-manager
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: cloudera_manager_sessionid='
+        - var loginpageurl = "/cmf/login";
+    - location: header
+      words:
+        - 'Set-Cookie: Cloudera_Manager_SESSIONID'

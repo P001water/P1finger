@@ -1,0 +1,46 @@
+- id: citrix-access
+  name: Citrix-access-gateway
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-access
+  description: Citrix-access-gateway
+  matchers:
+  - location: body
+    words:
+    - Citrix Access Gateway
+  - location: body
+    words:
+    - 'location: /vpn/index.html'
+    - '"/vpn/resources/{lang}"'
+    - /vpn/js/gateway_login_view.js?
+    - class="_ctxstxt_netscalergateway"
+    - class="citrixreceiverlogoaboutbox"
+    - cloud.ottoworkfroce.eu/vpn/index.html
+    - href="/vpn/images/accessgateway.ico
+    - receiver/images/common/icon_vpn.ico
+    - vpn/js/lsgateway_login_view.js
+- id: citrix-access-2
+  name: Citrix-Access-Gateway
+  author: Fofa
+  tags:
+  - citrix
+  - citrix-access
+  description: Citrix-Access-Gateway
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - Citrix Access Gateway
+  - condition: or
+    location: body
+    words:
+    - href="/vpn/images/AccessGateway.ico
+  - condition: or
+    location: header
+    words:
+    - ezisneercsresu=
+  - condition: or
+    location: header
+    words:
+    - Cyms-SecS

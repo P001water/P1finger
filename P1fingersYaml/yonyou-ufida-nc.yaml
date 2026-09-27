@@ -1,0 +1,18 @@
+- id: yonyou-ufida-nc
+  name: Yonyou-ufida-nc
+  author: P001
+  tags:
+  - yonyou
+  - yonyou-ufida-nc
+  description: Yonyou-ufida-nc
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - ufida_iufo_over.png
+    - ufida_nc.png
+    - logo/images/
+    - ufida
+    - <div id="nc_img" onmouseover="overimage('nc');
+    - <div id="nc_text">
+    - logo/images/ufida_nc.png

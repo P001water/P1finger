@@ -1,0 +1,10 @@
+- id: sunny-webbox
+  name: Sunny Webbox
+  author: P1finger
+  tags:
+    - sunny-webbox
+  description: Sunny Webbox
+  matchers:
+    - hash:
+        - "1975413433"
+      location: favicon

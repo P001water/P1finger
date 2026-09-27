@@ -1,0 +1,10 @@
+- id: pcfcms
+  name: Pcfcms
+  author: P1finger
+  tags:
+    - pcfcms
+  description: Pcfcms
+  matchers:
+    - location: header
+      words:
+        - pcfcms

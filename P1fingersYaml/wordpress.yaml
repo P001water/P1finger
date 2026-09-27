@@ -1,0 +1,21 @@
+- id: wordpress
+  name: WordPress
+  author: P001
+  tags:
+    - wordpress
+  description: WordPress
+  matchers:
+    - location: header
+      words:
+        - /xmlrpc.php
+    - location: body
+      words:
+        - /wp-content/themes/
+        - /wp-includes/" )
+        - /wp-content/uploads/
+        - /wp-includes/
+        - <link rel='stylesheet' id='wp-block-library-css
+        - \/wp-admin\/admin-ajax.php","
+        - name="generator" content="wordpress
+        - content="WordPress
+        - /wp-includes/

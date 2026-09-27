@@ -1,0 +1,12 @@
+- id: teamdoc
+  name: TeamDoc Document Management System
+  author: P1finger
+  tags:
+    - teamdoc
+    - document-management-system
+  description: TeamDoc Document Management System
+  matchers:
+    - location: body
+      words:
+        - id="table_01"
+        - TeamDoc 文档管理系统

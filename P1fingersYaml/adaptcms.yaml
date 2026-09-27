@@ -1,0 +1,24 @@
+- id: adaptcms
+  name: AdaptCMS
+  author: Fofa
+  tags:
+    - adaptcms
+  description: AdaptCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - AdaptCMS")
+    - condition: or
+      location: header
+      words:
+        - adaptcms
+    - location: body
+      words:
+        - AdaptCMS
+    - location: header
+      words:
+        - adaptcms
+    - location: header
+      words:
+        - 'Set-Cookie: adaptcms='

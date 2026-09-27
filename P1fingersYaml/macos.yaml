@@ -1,0 +1,24 @@
+- id: macos
+  name: Macos
+  author: P1finger
+  tags:
+    - macos
+  description: Macos
+  matchers:
+    - location: header
+      words:
+        - MacOS
+    - hash:
+        - "1629518721"
+      location: favicon
+- id: macos-2
+  name: MacOS
+  author: Fofa
+  tags:
+    - macos
+  description: MacOS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MacOS

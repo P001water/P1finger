@@ -1,0 +1,10 @@
+- id: icbc-gyj
+  name: Icbc-gyj
+  author: P001
+  tags:
+    - icbc-gyj
+  description: Icbc-gyj
+  matchers:
+    - location: body
+      words:
+        - var s3_app_address="https://gyj.icbc.com.cn"

@@ -1,0 +1,11 @@
+- id: citadel-servers
+  name: Citadel-servers
+  author: P001
+  tags:
+    - citadel-servers
+  description: Citadel-servers
+  matchers:
+    - location: body
+      words:
+        - /styles/webcit.css
+        - <div class="boxlabel">citadel server - powered by

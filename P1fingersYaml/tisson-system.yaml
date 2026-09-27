@@ -1,0 +1,10 @@
+- id: tisson
+  name: Tisson-system
+  author: P001
+  tags:
+    - tisson
+  description: Tisson-system
+  matchers:
+    - location: body
+      words:
+        - dlqaweb_deploy/webresource.axd

@@ -1,0 +1,11 @@
+- id: codemeter-webadmin
+  name: CodeMeter WebAdmin
+  author: P1finger
+  tags:
+    - codemeter-webadmin
+  description: CodeMeter WebAdmin
+  matchers:
+    - location: body
+      words:
+        - WebAdmin
+        - CodeMeter

@@ -1,0 +1,26 @@
+- id: contrexx
+  name: Contrexx-cms
+  author: P1finger
+  tags:
+    - contrexx
+  description: Contrexx-cms
+  matchers:
+    - location: body
+      words:
+        - powered by Contrexx
+        - content="Contrexx
+- id: contrexx-2
+  name: Contrexx-CMS
+  author: Fofa
+  tags:
+    - contrexx
+  description: Contrexx-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - powered by Contrexx
+    - condition: or
+      location: body
+      words:
+        - content="Contrexx

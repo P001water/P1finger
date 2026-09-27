@@ -1,0 +1,27 @@
+- id: yii-framework
+  name: Yii-framework
+  author: P001
+  tags:
+    - yii-framework
+  description: Yii-framework
+  matchers:
+    - location: body
+      words:
+        - get started with yii
+        - yii_csrf_token
+- id: yii-framework-2
+  name: Yii Framework
+  author: P1finger
+  tags:
+    - yii-framework
+  description: Yii Framework
+  matchers:
+    - hash:
+        - "-1298108480"
+      location: favicon
+    - location: body
+      words:
+        - /yii2
+    - location: header
+      words:
+        - 'Set-Cookie: YII_CSRF_TOKEN'

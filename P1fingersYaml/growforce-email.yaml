@@ -1,0 +1,11 @@
+- id: growforce
+  name: Growforce-email
+  author: P001
+  tags:
+    - growforce
+  description: Growforce-email
+  matchers:
+    - location: body
+      words:
+        - href="/page/help/mailconfig/config/index.html
+        - href="http://webmail.zmail300.cn

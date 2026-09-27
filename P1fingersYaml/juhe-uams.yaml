@@ -1,0 +1,11 @@
+- id: juhe-uams
+  name: Juhe-uams
+  author: P001
+  tags:
+    - juhe-uams
+  description: Juhe-uams
+  matchers:
+    - location: body
+      words:
+        - action="login.aspx" id="ctl00"
+        - 'background-color: #4a93be;'

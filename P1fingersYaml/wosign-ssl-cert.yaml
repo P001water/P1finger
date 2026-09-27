@@ -1,0 +1,29 @@
+- id: wosign-ssl-cert
+  name: Wosign-ssl-cert
+  author: P001
+  tags:
+    - wosign-ssl-cert
+  description: Wosign-ssl-cert
+  matchers:
+    - location: body
+      words:
+        - https://seal.wosign.com/signature
+        - https://seal.wosign.com/tws.js
+- id: wosign-ssl-cert-2
+  name: Wosign_ssl_cert
+  author: Fofa
+  tags:
+    - wosign-ssl-cert
+  description: Wosign_ssl_cert
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - https://seal.wosign.com/tws.js
+    - condition: or
+      location: body
+      words:
+        - https://seal.wosign.com/Signature
+    - location: body
+      words:
+        - wosign.com

@@ -1,0 +1,10 @@
+- id: zywall-usg-50
+  name: ZyWALL USG 50
+  author: P1finger
+  tags:
+    - zywall-usg-50
+  description: ZyWALL USG 50
+  matchers:
+    - location: body
+      words:
+        - model">zywall usg 50

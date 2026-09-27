@@ -1,0 +1,14 @@
+- id: webknight
+  name: WebKnight
+  author: Fofa
+  tags:
+    - webknight
+  description: WebKnight
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WebKnight
+    - location: header
+      words:
+        - WebKnight

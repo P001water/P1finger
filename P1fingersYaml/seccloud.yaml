@@ -1,0 +1,10 @@
+- id: seccloud
+  name: Seccloud
+  author: P1finger
+  tags:
+    - seccloud
+  description: Seccloud
+  matchers:
+    - location: body
+      words:
+        - SecCloud

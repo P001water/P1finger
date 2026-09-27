@@ -1,0 +1,21 @@
+- id: binatone-wr3005n3
+  name: Binatone WR3005N3
+  author: Fofa
+  tags:
+    - binatone-wr3005n3
+  description: Binatone WR3005N3
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WR3005N3
+- id: binatone-wr3005n3-2
+  name: Binatone Wr3005n3
+  author: P1finger
+  tags:
+    - binatone-wr3005n3
+  description: Binatone Wr3005n3
+  matchers:
+    - location: header
+      words:
+        - WR3005N3

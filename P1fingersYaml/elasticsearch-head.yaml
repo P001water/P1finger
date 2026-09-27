@@ -1,0 +1,11 @@
+- id: elasticsearch-head
+  name: ElasticSearch Head
+  author: P1finger
+  tags:
+  - elasticsearch
+  - elasticsearch-head
+  description: ElasticSearch Head
+  matchers:
+  - location: body
+    words:
+    - elasticsearch-head

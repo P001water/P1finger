@@ -1,0 +1,36 @@
+- id: awstats-2
+  name: Awstats
+  author: Fofa
+  tags:
+    - awstats
+  description: Awstats
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - awstats.pl?config=
+    - location: body
+      words:
+        - awstats.pl?config=
+- id: awstatswangzhanrizhifenxigongju
+  name: AWStatswangzhanrizhifenxigongju
+  author: Fofa
+  tags:
+    - awstatswangzhanrizhifenxigongju
+  description: AWStatswangzhanrizhifenxigongju
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="AWStats
+    - condition: or
+      location: body
+      words:
+        - Created by awstats
+    - location: body
+      words:
+        - content="AWStats
+        - Created by awstats
+    - location: body
+      words:
+        - Statistics for localhost

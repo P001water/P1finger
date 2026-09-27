@@ -1,0 +1,10 @@
+- id: qizhi-fortress-aircraft
+  name: Qizhi-fortress-aircraft
+  author: P001
+  tags:
+    - qizhi-fortress-aircraft
+  description: Qizhi-fortress-aircraft
+  matchers:
+    - location: body
+      words:
+        - //xfpverifyexec.jsp;

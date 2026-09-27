@@ -1,0 +1,10 @@
+- id: pivot88
+  name: Pivot88
+  author: P1finger
+  tags:
+    - pivot88
+  description: Pivot88
+  matchers:
+    - location: body
+      words:
+        - Pivot88

@@ -1,0 +1,10 @@
+- id: mersive-solstice
+  name: Mersive Solstice
+  author: P1finger
+  tags:
+    - mersive-solstice
+  description: Mersive Solstice
+  matchers:
+    - hash:
+        - "938616453"
+      location: favicon

@@ -1,0 +1,22 @@
+- id: mediawiki
+  name: MediaWiki
+  author: Fofa
+  tags:
+    - mediawiki
+  description: MediaWiki
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - generator" content="MediaWiki
+    - condition: or
+      location: body
+      words:
+        - /wiki/images/6/64/Favicon.ico
+    - condition: or
+      location: body
+      words:
+        - Powered by MediaWiki
+    - location: body
+      words:
+        - Powered by MediaWiki

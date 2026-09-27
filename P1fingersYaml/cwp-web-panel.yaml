@@ -1,0 +1,10 @@
+- id: cwp-panel
+  name: CWP-Web-Panel
+  author: P1finger
+  tags:
+    - cwp-panel
+  description: CWP-Web-Panel
+  matchers:
+    - location: body
+      words:
+        - /login/cwp_theme/original/img/ico/favicon.ico

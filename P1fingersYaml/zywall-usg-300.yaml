@@ -1,0 +1,10 @@
+- id: zywall-usg-300
+  name: ZyWALL USG 300
+  author: P1finger
+  tags:
+    - zywall-usg-300
+  description: ZyWALL USG 300
+  matchers:
+    - location: body
+      words:
+        - zywall usg 300

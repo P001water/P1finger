@@ -1,0 +1,14 @@
+- id: npoint-2
+  name: Npoint
+  author: Fofa
+  tags:
+    - npoint
+  description: Npoint
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - Powered by Npoint
+    - location: body
+      words:
+        - Powered by Npoint

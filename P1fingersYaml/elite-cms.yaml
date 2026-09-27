@@ -1,0 +1,10 @@
+- id: elite
+  name: Elite_cms
+  author: P001
+  tags:
+    - elite
+  description: Elite_cms
+  matchers:
+    - location: body
+      words:
+        - copyright &copy; 2003 - 2017 <a href="http://www.elite-is.com/cmhome.asp

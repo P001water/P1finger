@@ -1,0 +1,10 @@
+- id: tsm
+  name: Tsm
+  author: P001
+  tags:
+    - tsm
+  description: Tsm
+  matchers:
+    - location: body
+      words:
+        - var url = getcontextname() + "?service=ajaxdirect/1/

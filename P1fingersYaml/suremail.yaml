@@ -1,0 +1,21 @@
+- id: guoxinanyousuremail
+  name: Guoxinanyousuremail
+  author: P1finger
+  tags:
+    - guoxinanyousuremail
+  description: Guoxinanyousuremail
+  matchers:
+    - location: body
+      words:
+        - 版权所有：北京国信安邮科技有限公司
+- id: suremail
+  name: Suremail
+  author: P001
+  tags:
+    - suremail
+  description: Suremail
+  matchers:
+    - location: body
+      words:
+        - <span> 客服邮箱：support@suremail.cn</span>
+        - content="北京国信安邮科技有限公司

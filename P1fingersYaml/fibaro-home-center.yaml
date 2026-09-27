@@ -1,0 +1,10 @@
+- id: fibaro-home
+  name: Fibaro Home Center
+  author: P1finger
+  tags:
+    - fibaro-home
+  description: Fibaro Home Center
+  matchers:
+    - location: body
+      words:
+        - Fibaro Home Center

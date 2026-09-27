@@ -1,0 +1,21 @@
+- id: teradici-pcoip-zero-client
+  name: Teradici-pcoip-zero-client
+  author: P001
+  tags:
+    - teradici-pcoip-zero-client
+  description: Teradici-pcoip-zero-client
+  matchers:
+    - location: body
+      words:
+        - password_value
+        - pcoip&#174 zero client
+- id: teradici-pcoip-zero-client-2
+  name: Teradici PCoIP Zero Client
+  author: P1finger
+  tags:
+    - teradici-pcoip-zero-client
+  description: Teradici PCoIP Zero Client
+  matchers:
+    - location: body
+      words:
+        - <h4>PCoIP&#174 Zero Client</h4>

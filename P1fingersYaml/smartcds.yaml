@@ -1,0 +1,10 @@
+- id: smartcds
+  name: Smartcds
+  author: P001
+  tags:
+    - smartcds
+  description: Smartcds
+  matchers:
+    - location: body
+      words:
+        - 'server: smartcds'

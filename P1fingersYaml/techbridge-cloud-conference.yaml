@@ -1,0 +1,12 @@
+- id: techbridge-conference
+  name: Techbridge-cloud-conference
+  author: P001
+  tags:
+    - techbridge-conference
+  description: Techbridge-cloud-conference
+  matchers:
+    - location: body
+      words:
+        - /images/web_meeting/tool_bg.jpg
+        - /joinmeeting.js
+        - href="http://www.techbridge-inc.com/" target="_blank"></a></span>

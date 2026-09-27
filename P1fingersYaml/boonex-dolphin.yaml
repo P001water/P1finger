@@ -1,0 +1,24 @@
+- id: boonex-dolphin
+  name: Boonex-dolphin
+  author: P1finger
+  tags:
+    - boonex-dolphin
+  description: Boonex-dolphin
+  matchers:
+    - location: body
+      words:
+        - products/dolphin
+- id: boonex-dolphin-2
+  name: BoonEx-Dolphin
+  author: Fofa
+  tags:
+    - boonex-dolphin
+  description: BoonEx-Dolphin
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by                    Dolphin - <a href="http://www.boonex.com/products/dolphin
+    - location: body
+      words:
+        - DolphinPHP

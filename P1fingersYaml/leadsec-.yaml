@@ -1,0 +1,11 @@
+- id: leadsecfangbingdu-gateway
+  name: Leadsecfangbingdu Gateway
+  author: P001
+  tags:
+    - leadsecfangbingdu
+    - gateway
+  description: Leadsecfangbingdu Gateway
+  matchers:
+    - location: body
+      words:
+        - 网御防病毒网关系统

@@ -1,0 +1,22 @@
+- id: venustech-4a
+  name: Venustech 4A Unified Security Management Platform
+  author: P1finger
+  tags:
+  - venustech
+  - 4a
+  description: Venustech 4A Unified Security Management Platform
+  matchers:
+  - location: body
+    words:
+    - 4A统一安全管控平台
+- id: zhongkewangwei-4a
+  name: Zhongkewangwei 4A Operation-Maintenance Bastion
+  author: P001
+  tags:
+  - zhongkewangwei
+  - 4a
+  description: Zhongkewangwei 4A Operation-Maintenance Bastion
+  matchers:
+  - location: body
+    words:
+    - zk.appname='中科网威4a运维堡垒机系统'

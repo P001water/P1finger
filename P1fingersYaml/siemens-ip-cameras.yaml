@@ -1,0 +1,11 @@
+- id: siemens-ip-cameras
+  name: SIEMENS IP Cameras
+  author: Fofa
+  tags:
+    - siemens-ip-cameras
+  description: SIEMENS IP Cameras
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - SIEMENS IP Camera

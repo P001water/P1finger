@@ -1,0 +1,38 @@
+- id: vmware-vfabric
+  name: VMware-vFabric
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-vfabric
+  description: VMware-vFabric
+  matchers:
+  - location: body
+    words:
+    - VMware vFabric tc Server — Standard Edition
+- id: vmware-vfabric-2
+  name: Vmware_vFabric
+  author: Fofa
+  tags:
+  - vmware
+  - vmware-vfabric
+  description: Vmware_vFabric
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - vFabric
+  - condition: or
+    location: header
+    words:
+    - TS01efd1fa
+- id: vmware-vfabric-3
+  name: Vmware Vfabric
+  author: P1finger
+  tags:
+  - vmware
+  - vmware-vfabric
+  description: Vmware Vfabric
+  matchers:
+  - location: body
+    words:
+    - VMware vFabric

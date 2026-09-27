@@ -1,0 +1,10 @@
+- id: phicomm-fortress
+  name: Phicomm-Fortress
+  author: P1finger
+  tags:
+    - phicomm-fortress
+  description: Phicomm-Fortress
+  matchers:
+    - location: body
+      words:
+        - 斐讯fortress防火墙

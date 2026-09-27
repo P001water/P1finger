@@ -1,0 +1,10 @@
+- id: tecvoz
+  name: Tecvoz
+  author: P1finger
+  tags:
+    - tecvoz
+  description: Tecvoz
+  matchers:
+    - hash:
+        - "-1452159623"
+      location: favicon

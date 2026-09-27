@@ -1,0 +1,10 @@
+- id: thermo-fisher-dt8x-http
+  name: Thermo_Fisher-DT8x-HTTP-Server
+  author: P1finger
+  tags:
+    - thermo-fisher-dt8x-http
+  description: Thermo_Fisher-DT8x-HTTP-Server
+  matchers:
+    - location: header
+      words:
+        - 'Server: DT8x HTTP Server'

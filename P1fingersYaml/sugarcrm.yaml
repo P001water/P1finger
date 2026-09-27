@@ -1,0 +1,12 @@
+- id: sugarcrm
+  name: Sugarcrm
+  author: P001
+  tags:
+    - sugarcrm
+  description: Sugarcrm
+  matchers:
+    - location: body
+      words:
+        - <a href=" javascript:void window.open('http://support.sugarcrm.com')">support</a>
+        - '<img style=''margin-top: 2px'' border=''0'' width=''106'' height=''23'' src=''include/images/poweredby_sugarcrm.png'' alt=''powered by sugarcrm''>'
+        - <script>var module_sugar_grp1 = 'users';</script><script>var action_sugar_grp1 = 'login';</script><script>jscal_today

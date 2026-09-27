@@ -1,0 +1,11 @@
+- id: public-checkpoint-document-verification
+  name: Public-security-checkpoint-document-verification-system
+  author: P001
+  tags:
+  - checkpoint
+  - public-checkpoint-document-verification
+  description: Public-security-checkpoint-document-verification-system
+  matchers:
+  - location: body
+    words:
+    - content="公安检查站人脸/证件合一核录系统

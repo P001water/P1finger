@@ -1,0 +1,10 @@
+- id: hcl-sametime
+  name: Hcl-sametime
+  author: P001
+  tags:
+    - hcl-sametime
+  description: Hcl-sametime
+  matchers:
+    - location: body
+      words:
+        - href="/chat/sametime192x192.png

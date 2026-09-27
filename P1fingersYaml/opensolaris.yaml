@@ -1,0 +1,14 @@
+- id: opensolaris
+  name: OpenSolaris
+  author: Fofa
+  tags:
+    - opensolaris
+  description: OpenSolaris
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - OpenSolaris
+    - location: header
+      words:
+        - OpenSolaris

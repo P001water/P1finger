@@ -1,0 +1,16 @@
+- id: bea-weblogic
+  name: BEA-WebLogic-Server
+  author: Fofa
+  tags:
+  - weblogic
+  - bea-weblogic
+  description: BEA-WebLogic-Server
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - <h1>BEA WebLogic Server
+  - condition: or
+    location: body
+    words:
+    - WebLogic

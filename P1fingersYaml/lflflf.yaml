@@ -1,0 +1,10 @@
+- id: lflflf
+  name: Lflflf
+  author: P001
+  tags:
+    - lflflf
+  description: Lflflf
+  matchers:
+    - location: body
+      words:
+        - /lfradius/

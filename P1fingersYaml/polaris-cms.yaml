@@ -1,0 +1,10 @@
+- id: polaris
+  name: Polaris Cms
+  author: P1finger
+  tags:
+    - polaris
+  description: Polaris Cms
+  matchers:
+    - location: body
+      words:
+        - by Polaris

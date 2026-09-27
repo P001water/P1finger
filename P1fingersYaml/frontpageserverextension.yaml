@@ -1,0 +1,14 @@
+- id: frontpageserverextension
+  name: FrontPageServerExtension
+  author: Fofa
+  tags:
+    - frontpageserverextension
+  description: FrontPageServerExtension
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Microsoftofficewebserver
+    - location: header
+      words:
+        - Microsoftofficewebserver

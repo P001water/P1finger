@@ -1,0 +1,10 @@
+- id: roundcube
+  name: Roundcube
+  author: P1finger
+  tags:
+    - roundcube
+  description: Roundcube
+  matchers:
+    - location: header
+      words:
+        - roundcube_sessid

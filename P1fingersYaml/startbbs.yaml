@@ -1,0 +1,24 @@
+- id: startbbs
+  name: Startbbs
+  author: Fofa
+  tags:
+    - startbbs
+  description: Startbbs
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Startbbs
+    - condition: or
+      location: header
+      words:
+        - stb_csrf_cookie
+    - location: body
+      words:
+        - content="Startbbs
+    - location: header
+      words:
+        - stb_csrf_cookie
+    - location: body
+      words:
+        - content="startbbs

@@ -1,0 +1,11 @@
+- id: news
+  name: News
+  author: P001
+  tags:
+    - news
+  description: News
+  matchers:
+    - location: body
+      words:
+        - <img id="createcheckcode" src="login/picturecheckcode" name="check_code" ng-click="reloadcheckcode()
+        - ng-disabled="!loginform.$valid"

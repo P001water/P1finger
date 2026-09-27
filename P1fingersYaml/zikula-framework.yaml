@@ -1,0 +1,22 @@
+- id: zikula-framework
+  name: Zikula_framework
+  author: Fofa
+  tags:
+    - zikula-framework
+  description: Zikula_framework
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ZIKULASID1
+    - condition: or
+      location: header
+      words:
+        - ZIKULASID2
+    - condition: or
+      location: header
+      words:
+        - ZIKULASID3
+    - location: header
+      words:
+        - ZIKULASID3

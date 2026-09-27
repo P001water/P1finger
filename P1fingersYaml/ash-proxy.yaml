@@ -1,0 +1,10 @@
+- id: ash-proxy
+  name: ASH-Proxy
+  author: P1finger
+  tags:
+    - ash-proxy
+  description: ASH-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: ASH Proxy'

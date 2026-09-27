@@ -1,0 +1,10 @@
+- id: taskfreak
+  name: Taskfreak
+  author: P001
+  tags:
+    - taskfreak
+  description: Taskfreak
+  matchers:
+    - location: body
+      words:
+        - <a href="http://www.taskfreak.com">taskfreak

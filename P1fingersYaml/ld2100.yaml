@@ -1,0 +1,10 @@
+- id: ld2100
+  name: LD2100
+  author: P1finger
+  tags:
+    - ld2100
+  description: LD2100
+  matchers:
+    - location: header
+      words:
+        - Digest realm="LD2100"

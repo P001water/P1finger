@@ -1,0 +1,11 @@
+- id: docker-distribution-api
+  name: Docker Distribution Api
+  author: P1finger
+  tags:
+  - docker
+  - docker-distribution-api
+  description: Docker Distribution Api
+  matchers:
+  - location: header
+    words:
+    - Docker-Distribution-Api-Version

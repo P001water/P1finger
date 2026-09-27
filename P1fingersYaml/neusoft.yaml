@@ -1,0 +1,75 @@
+- id: neusoft-2
+  name: Neusoft
+  author: P1finger
+  tags:
+    - neusoft
+  description: Neusoft
+  matchers:
+    - location: body
+      words:
+        - 技术支持：河北东软软件有限公司
+        - 东软通用门户软件
+- id: neusoft-management-system
+  name: Neusoft Management System
+  author: P1finger
+  tags:
+    - neusoft
+    - management-system
+  description: Neusoft Management System
+  matchers:
+    - location: body
+      words:
+        - 东软智能档案管理系统 &#8211; Neusoft SEAS
+- id: neusoft-management-system-2
+  name: Neusoft Management System
+  author: P1finger
+  tags:
+    - neusoft
+    - management-system
+  description: Neusoft Management System
+  matchers:
+    - location: body
+      words:
+        - 东软智能云POS管理系统
+- id: neusoft-system
+  name: Neusoft System
+  author: P1finger
+  tags:
+    - neusoft
+    - system
+  description: Neusoft System
+  matchers:
+    - location: body
+      words:
+        - 东软NetEye安全隔离与信息传输系统
+- id: neusoft-firewall
+  name: Neusoft Firewall
+  author: P1finger
+  tags:
+    - neusoft
+    - firewall
+  description: Neusoft Firewall
+  matchers:
+    - location: body
+      words:
+        - NetEye防火墙系统
+- id: neusoft-3
+  name: Neusoft
+  author: P1finger
+  tags:
+    - neusoft
+  description: Neusoft
+  matchers:
+    - location: body
+      words:
+        - 东软 NetEye 统一身份管控系统登录
+- id: neusoft-4
+  name: Neusoft
+  author: P1finger
+  tags:
+    - neusoft
+  description: Neusoft
+  matchers:
+    - location: header
+      words:
+        - 'Server: senginx'

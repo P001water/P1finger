@@ -1,0 +1,13 @@
+- id: sunlogin
+  name: Sunlogin
+  author: P001
+  tags:
+    - sunlogin
+  description: Sunlogin
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'content-length: 46'
+        - 'content-location: application/json'
+        - '{"success":false,"msg":"verification failure"}'

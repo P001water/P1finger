@@ -1,0 +1,17 @@
+- id: cakephp
+  name: Cakephp
+  author: Fofa
+  tags:
+    - cakephp
+  description: Cakephp
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CAKEPHP
+    - location: header
+      words:
+        - CAKEPHP
+    - hash:
+        - "980692677"
+      location: favicon

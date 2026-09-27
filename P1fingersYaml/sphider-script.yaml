@@ -1,0 +1,11 @@
+- id: sphider-script
+  name: Sphider Script
+  author: P1finger
+  tags:
+    - sphider-script
+  description: Sphider Script
+  matchers:
+    - location: body
+      words:
+        - Sphider Script
+        - powered by sphider

@@ -1,0 +1,12 @@
+- id: sap
+  name: Sap-web-application-server
+  author: P001
+  tags:
+    - sap
+  description: Sap-web-application-server
+  matchers:
+    - location: body
+      words:
+        - 'server: sap j2ee engine'
+        - 'server: sap netweaver application server'
+        - 'server: sap web application server'

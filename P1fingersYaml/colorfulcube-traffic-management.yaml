@@ -1,0 +1,10 @@
+- id: colorfulcube-traffic
+  name: Colorfulcube-traffic-management
+  author: P001
+  tags:
+    - colorfulcube-traffic
+  description: Colorfulcube-traffic-management
+  matchers:
+    - location: body
+      words:
+        - checkcode.aspx

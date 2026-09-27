@@ -1,0 +1,33 @@
+- id: jeecms
+  name: Jeecms
+  author: P1finger
+  tags:
+    - jeecms
+  description: Jeecms
+  matchers:
+    - location: body
+      words:
+        - /r/cms
+    - condition: or
+      location: title
+      words:
+        - Powered by JEECMS
+    - condition: and
+      location: body
+      words:
+        - http://www.jeecms.com
+    - condition: and
+      location: body
+      words:
+        - JEECMS")
+- id: jiangxijinleijeecmsguanwangjavawangzhan
+  name: JiangxijinleiJEECMSguanwangJAVAwangzhan CMS
+  author: P1finger
+  tags:
+    - jiangxijinleijeecmsguanwangjavawangzhan
+    - cms
+  description: JiangxijinleiJEECMSguanwangJAVAwangzhan CMS
+  matchers:
+    - location: body
+      words:
+        - JEECMS官网－JAVA网站内容管理系统

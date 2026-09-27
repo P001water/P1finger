@@ -1,0 +1,10 @@
+- id: nec-webpro
+  name: Nec Webpro
+  author: P1finger
+  tags:
+    - nec-webpro
+  description: Nec Webpro
+  matchers:
+    - hash:
+        - "1922032523"
+      location: favicon

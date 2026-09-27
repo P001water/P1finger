@@ -1,0 +1,11 @@
+- id: sap-conversational-ai
+  name: Sap Conversational Ai
+  author: P1finger
+  tags:
+  - sap
+  - sap-conversational-ai
+  description: Sap Conversational Ai
+  matchers:
+  - hash:
+    - '1347937389'
+    location: favicon

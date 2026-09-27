@@ -1,0 +1,20 @@
+- id: 360webfacil-360webmanager
+  name: 360webfacil_360WebManager
+  author: Fofa
+  tags:
+    - 360webfacil-360webmanager
+  description: 360webfacil_360WebManager
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - zonapie")
+    - condition: or
+      location: body
+      words:
+        - 360WebManager Software
+    - location: body
+      words:
+        - publico/template/
+        - zonapie
+        - 360WebManager Software

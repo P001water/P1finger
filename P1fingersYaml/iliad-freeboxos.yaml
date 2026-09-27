@@ -1,0 +1,10 @@
+- id: iliad-freeboxos
+  name: Iliad-freeboxos
+  author: P001
+  tags:
+    - iliad-freeboxos
+  description: Iliad-freeboxos
+  matchers:
+    - location: body
+      words:
+        - logo_freeboxos

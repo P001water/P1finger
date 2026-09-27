@@ -1,0 +1,33 @@
+- id: activeweb-content
+  name: Activeweb-content-server
+  author: P001
+  tags:
+    - activeweb-content
+  description: Activeweb-content-server
+  matchers:
+    - location: body
+      words:
+        - activeweb cache extension
+        - awnocachebegin__awnocachebegin__awnocachebegin__awnocachebegin__awnocachebegin
+- id: activeweb-content-2
+  name: ActiveWeb-Content-Server
+  author: Fofa
+  tags:
+    - activeweb-content
+  description: ActiveWeb-Content-Server
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - AWNOCACHEBEGIN__AWNOCACHEBEGIN__AWNOCACHEBEGIN__AWNOCACHEBEGIN__AWNOCACHEBEGIN
+    - condition: or
+      location: header
+      words:
+        - x-awcache
+    - condition: or
+      location: body
+      words:
+        - activeWeb cache extension
+    - location: header
+      words:
+        - 'Set-Cookie: awcssessionid='

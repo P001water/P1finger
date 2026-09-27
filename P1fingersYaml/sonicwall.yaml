@@ -1,0 +1,78 @@
+- id: sonicwall
+  name: SonicWALL
+  author: Fofa
+  tags:
+  - sonicwall
+  description: SonicWALL
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 'Server: SonicWALL'
+  - location: header
+    words:
+    - 'Server: SonicWALL'
+  - hash:
+    - '631108382'
+    location: favicon
+  - location: header
+    words:
+    - SonicWALL
+  - location: body
+    words:
+    - <title>Web Site Blocked</title>
+- id: sonicwall-analytics
+  name: SonicWall Analytics
+  author: P1finger
+  tags:
+  - sonicwall
+  - sonicwall-analytics
+  description: SonicWall Analytics
+  matchers:
+  - location: body
+    words:
+    - SonicWall Analytics
+- id: sonicwall-nsa-3500
+  name: SonicWall NSA 3500
+  author: P1finger
+  tags:
+  - sonicwall
+  - sonicwall-nsa-3500
+  description: SonicWall NSA 3500
+  matchers:
+  - location: body
+    words:
+    - sonicwall nsa 3500
+- id: sonicwall-nsa-4500
+  name: SonicWall NSA 4500
+  author: P1finger
+  tags:
+  - sonicwall
+  - sonicwall-nsa-4500
+  description: SonicWall NSA 4500
+  matchers:
+  - location: body
+    words:
+    - sonicwall nsa 4500
+- id: sonicwall-nsa-4600
+  name: SonicWALL NSA 4600
+  author: P1finger
+  tags:
+  - sonicwall
+  - sonicwall-nsa-4600
+  description: SonicWALL NSA 4600
+  matchers:
+  - location: body
+    words:
+    - sonicwall nsa 4600
+- id: sonicwall-ssl
+  name: Sonicwall-ssl-vpn
+  author: P001
+  tags:
+  - sonicwall
+  - sonicwall-ssl
+  description: Sonicwall-ssl-vpn
+  matchers:
+  - location: body
+    words:
+    - javascript/aventail.js

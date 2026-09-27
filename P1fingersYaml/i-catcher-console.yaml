@@ -1,0 +1,28 @@
+- id: catcher
+  name: I-catcher-console
+  author: P1finger
+  tags:
+    - catcher
+  description: I-catcher-console
+  matchers:
+    - location: body
+      words:
+        - by i-Catcher Console
+    - location: header
+      words:
+        - i-Catcher
+- id: catcher-2
+  name: I-Catcher-Console
+  author: Fofa
+  tags:
+    - catcher
+  description: I-Catcher-Console
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - by i-Catcher Console
+    - condition: or
+      location: header
+      words:
+        - i-Catcher

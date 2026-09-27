@@ -1,0 +1,12 @@
+- id: apache-kafka-topics-ui
+  name: Apache Kafka Topics UI
+  author: P1finger
+  tags:
+  - kafka
+  - apache
+  - apache-kafka-topics-ui
+  description: Apache Kafka Topics UI
+  matchers:
+  - location: body
+    words:
+    - Kafka Topics UI

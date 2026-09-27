@@ -1,0 +1,30 @@
+- id: kayako-supportsuite
+  name: Kayako-supportsuite
+  author: P1finger
+  tags:
+    - kayako-supportsuite
+  description: Kayako-supportsuite
+  matchers:
+    - location: body
+      words:
+        - Powered By Kayako eSupport
+        - Help Desk Software By Kayako eSupport
+    - location: body
+      words:
+        - help desk software by kayako esupport
+        - powered by kayako esupport
+- id: kayako-supportsuite-2
+  name: Kayako-SupportSuite
+  author: Fofa
+  tags:
+    - kayako-supportsuite
+  description: Kayako-SupportSuite
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered By Kayako eSupport
+    - condition: or
+      location: body
+      words:
+        - Help Desk Software By Kayako eSupport

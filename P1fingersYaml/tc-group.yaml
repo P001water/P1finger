@@ -1,0 +1,10 @@
+- id: tc-group
+  name: Tc-group
+  author: P1finger
+  tags:
+    - tc-group
+  description: Tc-group
+  matchers:
+    - hash:
+        - "-1734573358"
+      location: favicon

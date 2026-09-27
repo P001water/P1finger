@@ -1,0 +1,11 @@
+- id: blogphp
+  name: Z-BlogPHP
+  author: Fofa
+  tags:
+    - blogphp
+  description: Z-BlogPHP
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Product: Z-BlogPHP'

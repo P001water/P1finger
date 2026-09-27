@@ -1,0 +1,14 @@
+- id: gse
+  name: GSE
+  author: Fofa
+  tags:
+    - gse
+  description: GSE
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: GSE'
+    - location: header
+      words:
+        - 'Server: GSE'

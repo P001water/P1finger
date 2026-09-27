@@ -1,0 +1,10 @@
+- id: cnservers-llc
+  name: Cnservers Llc
+  author: P1finger
+  tags:
+    - cnservers-llc
+  description: Cnservers Llc
+  matchers:
+    - hash:
+        - "-235701012"
+      location: favicon

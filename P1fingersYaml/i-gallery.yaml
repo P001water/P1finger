@@ -1,0 +1,29 @@
+- id: gallery-2
+  name: I-gallery
+  author: P1finger
+  tags:
+    - gallery
+  description: I-gallery
+  matchers:
+    - location: body
+      words:
+        - i-Gallery
+        - href="igallery.asp
+    - location: body
+      words:
+        - i Gallery
+- id: gallery-3
+  name: I-Gallery
+  author: Fofa
+  tags:
+    - gallery
+  description: I-Gallery
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - i-Gallery
+    - condition: or
+      location: body
+      words:
+        - href="igallery.asp

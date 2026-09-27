@@ -1,0 +1,10 @@
+- id: fastpanel-hosting
+  name: Fastpanel Hosting
+  author: P1finger
+  tags:
+    - fastpanel-hosting
+  description: Fastpanel Hosting
+  matchers:
+    - hash:
+        - "774252049"
+      location: favicon

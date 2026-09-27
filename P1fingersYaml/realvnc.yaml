@@ -1,0 +1,10 @@
+- id: realvnc
+  name: RealVNC
+  author: P1finger
+  tags:
+    - realvnc
+  description: RealVNC
+  matchers:
+    - location: header
+      words:
+        - 'Server: RealVNC'

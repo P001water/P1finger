@@ -1,0 +1,11 @@
+- id: maopmaopuoa
+  name: MaopmaopuOA
+  author: P1finger
+  tags:
+    - maopmaopuoa
+  description: MaopmaopuOA
+  matchers:
+    - location: body
+      words:
+        - For 猫扑OA
+        - For MaopSoft OA

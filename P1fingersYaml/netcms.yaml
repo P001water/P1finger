@@ -1,0 +1,10 @@
+- id: netcms
+  name: NETCMS
+  author: P1finger
+  tags:
+    - netcms
+  description: NETCMS
+  matchers:
+    - location: body
+      words:
+        - <!--Created by NETCMS

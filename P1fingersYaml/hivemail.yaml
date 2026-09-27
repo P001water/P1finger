@@ -1,0 +1,24 @@
+- id: hivemail
+  name: Hivemail
+  author: P1finger
+  tags:
+    - hivemail
+  description: Hivemail
+  matchers:
+    - location: body
+      words:
+        - content="Hivemail
+    - location: header
+      words:
+        - hivesession
+    - condition: or
+      location: body
+      words:
+        - content="Hivemail
+    - condition: or
+      location: header
+      words:
+        - hivesession
+    - location: body
+      words:
+        - content="hivemail

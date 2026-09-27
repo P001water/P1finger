@@ -1,0 +1,11 @@
+- id: tianyue-employee-internet
+  name: TianYue Employee Internet Management
+  author: P1finger
+  tags:
+    - tianyue-employee-internet
+  description: TianYue Employee Internet Management
+  matchers:
+    - location: body
+      words:
+        - netoray nsg 上网行为管理系统
+        - 莱克斯科技

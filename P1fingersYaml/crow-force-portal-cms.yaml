@@ -1,0 +1,10 @@
+- id: crow-force
+  name: Crow-force-portal-cms
+  author: P001
+  tags:
+    - crow-force
+  description: Crow-force-portal-cms
+  matchers:
+    - location: body
+      words:
+        - 中企动力提供技术支持

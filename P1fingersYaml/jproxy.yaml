@@ -1,0 +1,10 @@
+- id: jproxy
+  name: Jproxy
+  author: P1finger
+  tags:
+    - jproxy
+  description: Jproxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: jproxy'

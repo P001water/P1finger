@@ -1,0 +1,14 @@
+- id: hellobar
+  name: Hellobar
+  author: Fofa
+  tags:
+    - hellobar
+  description: Hellobar
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - hellobar.js
+    - location: body
+      words:
+        - hellobar.js

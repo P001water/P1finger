@@ -1,0 +1,10 @@
+- id: scientific-research-instrument
+  name: Scientific-research-instrument-network-service-platform
+  author: P001
+  tags:
+    - scientific-research-instrument
+  description: Scientific-research-instrument-network-service-platform
+  matchers:
+    - location: body
+      words:
+        - 'content: "/lfsms/user/login2?go=" + go'

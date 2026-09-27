@@ -1,0 +1,12 @@
+- id: neusoft-neteye-bitsaver
+  name: Neusoft-neteye-bitsaver
+  author: P001
+  tags:
+  - neusoft
+  - neusoft-neteye-bitsaver
+  description: Neusoft-neteye-bitsaver
+  matchers:
+  - location: body
+    words:
+    - action="/ntars/loginaction.do
+    - href="/ntars/css/

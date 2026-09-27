@@ -1,0 +1,15 @@
+- id: cockpit
+  name: Cockpit
+  author: P001
+  tags:
+    - cockpit
+  description: Cockpit
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - cockpit/static/login.css
+        - cockpit/static/login.js
+    - location: body
+      words:
+        - cockpit/static/login.js

@@ -1,0 +1,10 @@
+- id: ws
+  name: Ws-server
+  author: P001
+  tags:
+    - ws
+  description: Ws-server
+  matchers:
+    - location: body
+      words:
+        - websocket servers index.html

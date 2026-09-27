@@ -1,0 +1,21 @@
+- id: superdata-5-3
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - src="images/top/top_1(v5)-pro.gif"
+        - 速达V5.NET-PRO
+- id: superdata-5-4
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - 速达V5.NET-PRO

@@ -1,0 +1,20 @@
+- id: sandu
+  name: Sandu-oa
+  author: P001
+  tags:
+    - sandu
+  description: Sandu-oa
+  matchers:
+    - location: body
+      words:
+        - 青岛叁度信息技术有限公司
+- id: sandu-2
+  name: SanDu OA
+  author: P1finger
+  tags:
+    - sandu
+  description: SanDu OA
+  matchers:
+    - location: body
+      words:
+        - 青岛叁度信息技术有限公司

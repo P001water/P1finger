@@ -1,0 +1,25 @@
+- id: achecker-accessibility-evaluation-tool
+  name: AChecker Web Accessibility Evaluation Tool
+  author: Fofa
+  tags:
+    - achecker-accessibility-evaluation-tool
+  description: AChecker Web Accessibility Evaluation Tool
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="AChecker is a Web accessibility
+    - condition: or
+      location: title
+      words:
+        - 'Checker : Web Accessibility Checker'
+- id: achecker-accessibility-evaluation-tool-2
+  name: Achecker-web-accessibility-evaluation-tool
+  author: P001
+  tags:
+    - achecker-accessibility-evaluation-tool
+  description: Achecker-web-accessibility-evaluation-tool
+  matchers:
+    - location: body
+      words:
+        - content="achecker is a web accessibility

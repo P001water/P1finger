@@ -1,0 +1,13 @@
+- id: aliyunoss
+  name: Aliyunoss
+  author: P001
+  tags:
+    - aliyunoss
+  description: Aliyunoss
+  matchers:
+    - location: body
+      words:
+        - 'server: aliyunoss'
+    - location: body
+      words:
+        - <Message>Anonymous access is forbidden

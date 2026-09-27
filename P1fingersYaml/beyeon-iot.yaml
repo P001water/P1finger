@@ -1,0 +1,11 @@
+- id: beyeon-iot
+  name: Beyeon-iot
+  author: P001
+  tags:
+    - beyeon-iot
+  description: Beyeon-iot
+  matchers:
+    - location: body
+      words:
+        - var app_smp_location_name = '门店';var app_grp_location_name = '集团'
+        - 版权所有:郑州蓝视科技有限公司

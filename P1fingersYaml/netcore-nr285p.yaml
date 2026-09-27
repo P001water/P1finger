@@ -1,0 +1,11 @@
+- id: netcore-nr285p
+  name: NETCORE NR285P
+  author: Fofa
+  tags:
+    - netcore-nr285p
+  description: NETCORE NR285P
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - NETCORE NR285P

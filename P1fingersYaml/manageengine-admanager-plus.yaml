@@ -1,0 +1,10 @@
+- id: manageengine-admanager-plus
+  name: Manageengine-admanager-plus
+  author: P001
+  tags:
+    - manageengine-admanager-plus
+  description: Manageengine-admanager-plus
+  matchers:
+    - location: body
+      words:
+        - <title>manageengine - admanager plus</title>

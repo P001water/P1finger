@@ -1,0 +1,191 @@
+- id: zyxel
+  name: ZyXEL
+  author: Fofa
+  tags:
+  - zyxel
+  description: ZyXEL
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - Forms/rpAuth_1
+  - location: body
+    words:
+    - Forms/rpAuth_1
+  - hash:
+    - '943925975'
+    - '-882760066'
+    location: favicon
+  - hash:
+    - '-882760066'
+    location: favicon
+- id: zyxel-vmg
+  name: Zyxel-vmg
+  author: P001
+  tags:
+  - zyxel
+  - zyxel-vmg
+  description: Zyxel-vmg
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - .::welcome to the web-based configurator::.
+    - zyxelhelp.js
+- id: zyxel-zywall
+  name: Zyxel-zywall
+  author: P001
+  tags:
+  - zyxel
+  - zyxel-zywall
+  description: Zyxel-zywall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <title>zywall
+    - zyfunction.js
+- id: zyxel-nas326
+  name: Zyxel NAS326
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-nas326
+  description: Zyxel NAS326
+  matchers:
+  - location: body
+    words:
+    - NAS326
+- id: zyxelusgxilie
+  name: ZyXELUSGxilie
+  author: P1finger
+  tags:
+  - zyxelusgxilie
+  description: ZyXELUSGxilie
+  matchers:
+  - location: body
+    words:
+    - <div class="model" id="model" name="model">(?P<app_name>Zyxel.{0,50}?)</div>
+- id: zyxel-usg110
+  name: ZyXEL USG110
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg110
+  description: ZyXEL USG110
+  matchers:
+  - location: body
+    words:
+    - usg110
+- id: zyxel-usg1100
+  name: ZyXEL USG1100
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg1100
+  description: ZyXEL USG1100
+  matchers:
+  - location: body
+    words:
+    - usg1100
+- id: zyxel-usg1900
+  name: ZyXEL USG1900
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg1900
+  description: ZyXEL USG1900
+  matchers:
+  - location: body
+    words:
+    - usg1900
+- id: zyxel-usg20w
+  name: Zyxel USG20W
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg20w
+  description: Zyxel USG20W
+  matchers:
+  - location: body
+    words:
+    - usg20w-vpn
+    - class="usg_icon"
+    - usg20w-vpn
+- id: zyxel-usg310
+  name: ZyXEL USG310
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg310
+  description: ZyXEL USG310
+  matchers:
+  - location: body
+    words:
+    - usg310
+- id: zyxel-usg40
+  name: ZyXEL USG40
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg40
+  description: ZyXEL USG40
+  matchers:
+  - location: body
+    words:
+    - usg40
+- id: zyxel-usg40w
+  name: ZyXEL USG40W
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg40w
+  description: ZyXEL USG40W
+  matchers:
+  - location: body
+    words:
+    - usg40w
+- id: zyxel-usg60
+  name: ZyXEL USG60
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg60
+  description: ZyXEL USG60
+  matchers:
+  - location: body
+    words:
+    - usg60
+- id: zyxel-usg60w
+  name: ZyXEL USG60W
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-usg60w
+  description: ZyXEL USG60W
+  matchers:
+  - location: body
+    words:
+    - usg60w
+- id: zyxelvmgxilie-gateway
+  name: ZyxelVMGxilie Gateway
+  author: P1finger
+  tags:
+  - zyxelvmgxilie
+  - gateway
+  description: ZyxelVMGxilie Gateway
+  matchers:
+  - location: body
+    words:
+    - zyxelhelp.js
+- id: zyxel-zywall-2
+  name: Zyxel Zywall
+  author: P1finger
+  tags:
+  - zyxel
+  - zyxel-zywall
+  description: Zyxel Zywall
+  matchers:
+  - hash:
+    - '-484708885'
+    location: favicon

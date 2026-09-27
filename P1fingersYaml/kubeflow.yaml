@@ -1,0 +1,13 @@
+- id: kubeflow
+  name: Kubeflow
+  author: P1finger
+  tags:
+    - kubeflow
+  description: Kubeflow
+  matchers:
+    - location: body
+      words:
+        - Kubeflow
+    - hash:
+        - "-1203021870"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: golang-prrof
+  name: Golang Prrof
+  author: P1finger
+  tags:
+    - golang-prrof
+  description: Golang Prrof
+  matchers:
+    - location: body
+      words:
+        - /debug/pprof/

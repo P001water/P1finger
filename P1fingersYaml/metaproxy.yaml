@@ -1,0 +1,10 @@
+- id: metaproxy
+  name: Metaproxy
+  author: P1finger
+  tags:
+    - metaproxy
+  description: Metaproxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Metaproxy'

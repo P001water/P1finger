@@ -1,0 +1,11 @@
+- id: verydows
+  name: Verydows
+  author: P1finger
+  tags:
+    - verydows
+  description: Verydows
+  matchers:
+    - location: body
+      words:
+        - <meta name="verydows-baseurl"
+        - href="http://www.verydows.com">Verydows</a>

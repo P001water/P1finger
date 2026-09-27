@@ -1,0 +1,11 @@
+- id: conn-keepalive
+  name: Conn KeepAlive
+  author: Fofa
+  tags:
+    - conn-keepalive
+  description: Conn KeepAlive
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Connection: keep-alive'

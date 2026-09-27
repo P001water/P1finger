@@ -1,0 +1,11 @@
+- id: datavshujukeshihua
+  name: DataVshujukeshihua
+  author: P1finger
+  tags:
+    - datavshujukeshihua
+  description: DataVshujukeshihua
+  matchers:
+    - location: body
+      words:
+        - DataV - Powerful and Accessible Visualization
+        - datav-static/

@@ -1,0 +1,24 @@
+- id: nagios
+  name: Nagios
+  author: P1finger
+  tags:
+    - nagios
+  description: Nagios
+  matchers:
+    - location: header
+      words:
+        - Nagios Access
+    - condition: or
+      location: header
+      words:
+        - Nagios access
+    - condition: or
+      location: body
+      words:
+        - /nagios/cgi-bin/status.cgi
+    - location: body
+      words:
+        - /nagios/cgi-bin/status.cgi
+    - location: header
+      words:
+        - Nagios access

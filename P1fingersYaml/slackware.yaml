@@ -1,0 +1,14 @@
+- id: slackware
+  name: Slackware
+  author: Fofa
+  tags:
+    - slackware
+  description: Slackware
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Slackware
+    - location: header
+      words:
+        - Slackware

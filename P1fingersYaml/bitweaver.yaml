@@ -1,0 +1,19 @@
+- id: bitweaver
+  name: Bitweaver
+  author: Fofa
+  tags:
+    - bitweaver
+  description: Bitweaver
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="bitweaver
+    - condition: or
+      location: body
+      words:
+        - href="http://www.bitweaver.org">Powered by
+    - location: body
+      words:
+        - content="bitweaver
+        - href="http://www.bitweaver.org">Powered by

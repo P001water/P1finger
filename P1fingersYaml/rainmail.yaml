@@ -1,0 +1,11 @@
+- id: rainmail
+  name: Rainmail
+  author: P001
+  tags:
+    - rainmail
+  description: Rainmail
+  matchers:
+    - location: body
+      words:
+        - '.: <b>rainmail intranet login </b> :.</div>'
+        - href="/resources/rainmailvpninstaller.exe

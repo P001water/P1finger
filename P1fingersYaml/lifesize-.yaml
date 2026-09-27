@@ -1,0 +1,11 @@
+- id: lifesize-video-conferencing
+  name: LifeSize Video Conferencing
+  author: P1finger
+  tags:
+    - lifesize
+    - video-conferencing
+  description: LifeSize Video Conferencing
+  matchers:
+    - location: header
+      words:
+        - LifeSize&reg;

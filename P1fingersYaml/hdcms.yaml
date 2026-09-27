@@ -1,0 +1,10 @@
+- id: hdcms
+  name: HDCMS
+  author: P1finger
+  tags:
+    - hdcms
+  description: HDCMS
+  matchers:
+    - location: body
+      words:
+        - /hdcms

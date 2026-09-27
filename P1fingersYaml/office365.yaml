@@ -1,0 +1,10 @@
+- id: office365
+  name: Office365
+  author: P1finger
+  tags:
+    - office365
+  description: Office365
+  matchers:
+    - location: body
+      words:
+        - 请输入furl参数

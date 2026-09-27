@@ -1,0 +1,37 @@
+- id: wdcp
+  name: Wdcp
+  author: Fofa
+  tags:
+    - wdcp
+  description: Wdcp
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - wdcp服务器
+    - location: body
+      words:
+        - wdcp服务器
+    - hash:
+        - "1786752597"
+      location: favicon
+- id: wdcp-management-system
+  name: Wdcp Management System
+  author: Fofa
+  tags:
+    - wdcp
+    - management-system
+  description: Wdcp Management System
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - wdcp服务器
+    - condition: or
+      location: title
+      words:
+        - lanmp_wdcp 安装成功
+    - location: body
+      words:
+        - wdcp服务器
+        - lanmp_wdcp 安装成功

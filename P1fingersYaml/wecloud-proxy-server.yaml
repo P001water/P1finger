@@ -1,0 +1,10 @@
+- id: wecloud-proxy
+  name: WECLOUD-Proxy-Server
+  author: P1finger
+  tags:
+    - wecloud-proxy
+  description: WECLOUD-Proxy-Server
+  matchers:
+    - location: header
+      words:
+        - 'Server: WECLOUD Proxy Server'

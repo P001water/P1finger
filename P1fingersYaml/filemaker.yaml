@@ -1,0 +1,13 @@
+- id: filemaker
+  name: Filemaker
+  author: P001
+  tags:
+    - filemaker
+  description: Filemaker
+  matchers:
+    - location: body
+      words:
+        - /fmi/iwp/cgi?-noscript
+    - location: header
+      words:
+        - 'Set-Cookie: fmi-cookie'

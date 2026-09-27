@@ -1,0 +1,10 @@
+- id: jianmu
+  name: Jianmu
+  author: P001
+  tags:
+    - jianmu
+  description: Jianmu
+  matchers:
+    - hash:
+        - a60399bff2cbc1462547d9a38284264d
+      location: favicon

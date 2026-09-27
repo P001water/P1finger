@@ -1,0 +1,11 @@
+- id: chunked-encode
+  name: Chunked Encode
+  author: Fofa
+  tags:
+    - chunked-encode
+  description: Chunked Encode
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Transfer-Encoding: chunked'

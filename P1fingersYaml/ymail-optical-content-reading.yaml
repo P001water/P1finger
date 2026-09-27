@@ -1,0 +1,10 @@
+- id: ymail-optical-content-reading
+  name: Ymail-optical-content-reading
+  author: P001
+  tags:
+    - ymail-optical-content-reading
+  description: Ymail-optical-content-reading
+  matchers:
+    - location: body
+      words:
+        - /ymail/default/js/menu.js

@@ -1,0 +1,11 @@
+- id: openspug
+  name: OpenSpug
+  author: P1finger
+  tags:
+    - openspug
+  description: OpenSpug
+  matchers:
+    - location: body
+      words:
+        - M management system
+        - Spug O

@@ -1,0 +1,31 @@
+- id: kindeditor
+  name: KindEditor
+  author: Fofa
+  tags:
+    - kindeditor
+  description: KindEditor
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - kindeditor.js
+    - condition: or
+      location: body
+      words:
+        - KindEditor.ready
+    - condition: or
+      location: body
+      words:
+        - K.create
+    - location: body
+      words:
+        - kindeditor.js
+        - KindEditor.ready
+        - K.create
+    - condition: and
+      location: body
+      words:
+        - k.create
+        - kindeditor-min.js
+        - kindeditor.js
+        - kindeditor.ready

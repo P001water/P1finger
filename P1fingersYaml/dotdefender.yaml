@@ -1,0 +1,14 @@
+- id: dotdefender
+  name: Dotdefender
+  author: Fofa
+  tags:
+    - dotdefender
+  description: Dotdefender
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Dotdefender-Denied
+    - location: header
+      words:
+        - X-Dotdefender-Denied

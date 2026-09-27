@@ -1,0 +1,10 @@
+- id: yisuowangtand01
+  name: YisuowangtanD01
+  author: P1finger
+  tags:
+    - yisuowangtand01
+  description: YisuowangtanD01
+  matchers:
+    - location: body
+      words:
+        - <title>网探D01</title>

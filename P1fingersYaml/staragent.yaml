@@ -1,0 +1,11 @@
+- id: staragent
+  name: Staragent
+  author: P001
+  tags:
+    - staragent
+  description: Staragent
+  matchers:
+    - location: body
+      words:
+        - href="/aisc/aisc.css
+        - window.location = "/user/home.jsx";

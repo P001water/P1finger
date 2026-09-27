@@ -1,0 +1,12 @@
+- id: guangliandalinkworksoa
+  name: GuangliandaLinkworksOA
+  author: P001
+  tags:
+    - guangliandalinkworksoa
+  description: GuangliandaLinkworksOA
+  matchers:
+    - location: body
+      words:
+        - Services/Identification/login.ashx
+        - GxtLogin.TrySSO(idServerPlatID
+        - Login/gtp.standard/images/wait.gif

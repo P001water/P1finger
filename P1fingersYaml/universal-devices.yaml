@@ -1,0 +1,10 @@
+- id: universal-devices
+  name: Universal Devices
+  author: P1finger
+  tags:
+    - universal-devices
+  description: Universal Devices
+  matchers:
+    - hash:
+        - "16202868"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: netcore-nr235p
+  name: NETCORE NR235P
+  author: Fofa
+  tags:
+    - netcore-nr235p
+  description: NETCORE NR235P
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - NETCORE NR235P

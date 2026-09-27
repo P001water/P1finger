@@ -1,0 +1,10 @@
+- id: nas4free
+  name: NAS4Free
+  author: P1finger
+  tags:
+    - nas4free
+  description: NAS4Free
+  matchers:
+    - location: header
+      words:
+        - <title>NAS4Free

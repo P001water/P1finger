@@ -1,0 +1,11 @@
+- id: tforce-next-generation-firewall
+  name: TForce Next-Generation Firewall
+  author: P1finger
+  tags:
+    - tforce
+    - next-generation-firewall
+  description: TForce Next-Generation Firewall
+  matchers:
+    - location: body
+      words:
+        - T-Force下一代防火墙

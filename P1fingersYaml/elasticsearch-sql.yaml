@@ -1,0 +1,11 @@
+- id: elasticsearch-sql
+  name: Elasticsearch Sql
+  author: P1finger
+  tags:
+  - elasticsearch
+  - elasticsearch-sql
+  description: Elasticsearch Sql
+  matchers:
+  - location: body
+    words:
+    - <title>Elasticsearch-sql

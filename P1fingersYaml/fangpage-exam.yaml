@@ -1,0 +1,11 @@
+- id: fangpage-exam
+  name: Fangpage-exam
+  author: P001
+  tags:
+    - fangpage-exam
+  description: Fangpage-exam
+  matchers:
+    - location: body
+      words:
+        - /sites/exam/statics/css/login.css
+        - href="http://fpexam.fangpage.com" target=

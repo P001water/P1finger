@@ -1,0 +1,12 @@
+- id: itenable
+  name: Itenable
+  author: P001
+  tags:
+    - itenable
+  description: Itenable
+  matchers:
+    - location: body
+      words:
+        - /enableq.css
+        - /images/enableq.ico
+        - js/checkquestion.js.php

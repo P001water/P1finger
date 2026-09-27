@@ -1,0 +1,15 @@
+- id: youpaiyunjsku
+  name: YoupaiyunJSku
+  author: Fofa
+  tags:
+    - youpaiyunjsku
+  description: YoupaiyunJSku
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - b0.upaiyun.com
+    - condition: or
+      location: body
+      words:
+        - b0.upaiyun.com

@@ -1,0 +1,13 @@
+- id: ciuiscrm
+  name: Ciuiscrm
+  author: P001
+  tags:
+    - ciuiscrm
+  description: Ciuiscrm
+  matchers:
+    - location: body
+      words:
+        - <div class="ciuis-body-content">
+    - location: body
+      words:
+        - s/ciuis.css

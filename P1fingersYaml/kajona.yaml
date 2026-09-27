@@ -1,0 +1,22 @@
+- id: kajona
+  name: Kajona
+  author: Fofa
+  tags:
+    - kajona
+  description: Kajona
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Kajona
+    - condition: or
+      location: body
+      words:
+        - powered by Kajona
+    - location: body
+      words:
+        - content="Kajona
+        - powered by Kajona
+    - location: body
+      words:
+        - Kajona

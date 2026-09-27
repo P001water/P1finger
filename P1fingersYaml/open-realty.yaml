@@ -1,0 +1,11 @@
+- id: open-realty
+  name: Open-realty
+  author: P001
+  tags:
+    - open-realty
+  description: Open-realty
+  matchers:
+    - location: body
+      words:
+        - content="open-realty
+        - href="http://www.open-realty.org" title="powered by open-realty

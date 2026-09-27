@@ -1,0 +1,25 @@
+- id: douphp
+  name: DouPHP
+  author: Fofa
+  tags:
+    - douphp
+  description: DouPHP
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by DouPHP
+    - condition: and
+      location: body
+      words:
+        - indexLeft
+    - condition: and
+      location: body
+      words:
+        - recommendProduct")
+    - location: body
+      words:
+        - Powered by DouPHP
+    - location: body
+      words:
+        - DouPHP

@@ -1,0 +1,14 @@
+- id: o2ocms
+  name: O2OCMS
+  author: Fofa
+  tags:
+    - o2ocms
+  description: O2OCMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /index.php/clasify/showone/gtitle/
+    - location: body
+      words:
+        - /index.php/clasify/showone/gtitle/

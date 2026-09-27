@@ -1,0 +1,10 @@
+- id: zzsmit-public-bicycle
+  name: Zzsmit-public-bicycle-management-system
+  author: P001
+  tags:
+    - zzsmit-public-bicycle
+  description: Zzsmit-public-bicycle-management-system
+  matchers:
+    - location: body
+      words:
+        - href="/skins/bicycle/css/login.css"

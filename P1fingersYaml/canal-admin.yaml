@@ -1,0 +1,10 @@
+- id: alibaba-canal
+  name: Alibaba-canal-admin
+  author: P001
+  tags:
+    - alibaba-canal
+  description: Alibaba-canal-admin
+  matchers:
+    - location: body
+      words:
+        - Canal Admin</title

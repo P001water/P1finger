@@ -1,0 +1,15 @@
+- id: idocview
+  name: IDocView
+  author: P1finger
+  tags:
+    - idocview
+  description: IDocView
+  matchers:
+    - hash:
+        - "489934076"
+      location: favicon
+    - location: body
+      words:
+        - 在线文档预览 - I Doc View
+        - I Doc View
+        - idocview

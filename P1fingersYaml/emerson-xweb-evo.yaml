@@ -1,0 +1,11 @@
+- id: emerson-xweb-evo
+  name: Emerson-xweb-evo
+  author: P001
+  tags:
+    - emerson-xweb-evo
+  description: Emerson-xweb-evo
+  matchers:
+    - location: body
+      words:
+        - src="/css/images/logo_xweb_alpha.png"
+        - src="img/xweb-logo.png"

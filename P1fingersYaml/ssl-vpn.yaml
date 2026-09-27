@@ -1,0 +1,24 @@
+- id: huawei-13
+  name: Huawei
+  author: P1finger
+  tags:
+    - huawei
+  description: Huawei
+  matchers:
+    - location: body
+      words:
+        - Clear SSL cache successfully
+        - getCookie("SGDPortal")
+        - SVN_GetLoginContextValue(
+- id: surfilter-5
+  name: Surfilter
+  author: P001
+  tags:
+    - surfilter
+  description: Surfilter
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - src="/javascript/validation/sslvpnlogin.js
+        - surfilter

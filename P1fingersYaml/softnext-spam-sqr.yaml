@@ -1,0 +1,13 @@
+- id: softnextspamsqr-mail-system
+  name: Softnextspamsqr Mail System
+  author: P001
+  tags:
+    - softnextspamsqr
+    - mail-system
+  description: Softnextspamsqr Mail System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - snspam/spam_request/
+        - spam sqr

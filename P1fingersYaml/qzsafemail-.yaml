@@ -1,0 +1,11 @@
+- id: qzsafemailqizhianquandianzi
+  name: QzSafeMailqizhianquandianzi Mail System
+  author: P1finger
+  tags:
+    - qzsafemailqizhianquandianzi
+    - mail-system
+  description: QzSafeMailqizhianquandianzi Mail System
+  matchers:
+    - location: body
+      words:
+        - QzSafeMail-旗帜安全电子邮件系统

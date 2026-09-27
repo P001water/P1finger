@@ -1,0 +1,38 @@
+- id: 78oa
+  name: 78oa
+  author: Fofa
+  tags:
+    - 78oa
+  description: 78oa
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /resource/javascript/system/runtime.min.js
+    - condition: or
+      location: body
+      words:
+        - license.78oa.com
+    - condition: or
+      location: title
+      words:
+        - 78oa
+    - condition: or
+      location: body
+      words:
+        - src="/module/index.php
+    - location: body
+      words:
+        - license.78oa.com
+        - 78oa
+- id: 78oa-2
+  name: 78OA-OA
+  author: P001
+  tags:
+    - 78oa
+  description: 78OA-OA
+  matchers:
+    - location: body
+      words:
+        - license.78oa.com
+        - 78OA办公系统

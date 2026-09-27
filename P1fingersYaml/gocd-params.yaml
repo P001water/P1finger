@@ -1,0 +1,13 @@
+- id: gocd-params
+  name: Gocd-params
+  author: P001
+  tags:
+    - gocd-params
+  description: Gocd-params
+  matchers:
+    - hash:
+        - 423a583332e4232659690dead75184e6
+      location: favicon
+    - location: body
+      words:
+        - gocd-params

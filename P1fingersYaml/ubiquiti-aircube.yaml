@@ -1,0 +1,10 @@
+- id: ubiquiti-aircube
+  name: Ubiquiti Aircube
+  author: P1finger
+  tags:
+    - ubiquiti-aircube
+  description: Ubiquiti Aircube
+  matchers:
+    - hash:
+        - "1249285083"
+      location: favicon

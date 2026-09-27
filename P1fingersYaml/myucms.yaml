@@ -1,0 +1,10 @@
+- id: myucms
+  name: MyuCMS
+  author: P1finger
+  tags:
+    - myucms
+  description: MyuCMS
+  matchers:
+    - location: body
+      words:
+        - MYUCMS

@@ -1,0 +1,11 @@
+- id: lebo-operation-management
+  name: LEBO Operation Management
+  author: P1finger
+  tags:
+    - lebo
+    - operation-management
+  description: LEBO Operation Management
+  matchers:
+    - location: body
+      words:
+        - LEBO 运维管理平台

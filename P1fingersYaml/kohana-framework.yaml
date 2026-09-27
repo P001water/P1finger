@@ -1,0 +1,21 @@
+- id: kohana-framework
+  name: Kohana-framework
+  author: P1finger
+  tags:
+    - kohana-framework
+  description: Kohana-framework
+  matchers:
+    - location: header
+      words:
+        - Kohana Framework
+- id: kohana-framework-2
+  name: Kohana-Framework
+  author: Fofa
+  tags:
+    - kohana-framework
+  description: Kohana-Framework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Kohana Framework

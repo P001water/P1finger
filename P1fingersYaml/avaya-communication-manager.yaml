@@ -1,0 +1,10 @@
+- id: avaya-communication-manager
+  name: Avaya-communication-manager
+  author: P001
+  tags:
+    - avaya-communication-manager
+  description: Avaya-communication-manager
+  matchers:
+    - location: body
+      words:
+        - var newlocation = "https://" + target + "/cgi-bin/common/issue";

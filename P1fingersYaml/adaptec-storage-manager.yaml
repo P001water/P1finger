@@ -1,0 +1,10 @@
+- id: adaptec-storage-manager
+  name: Adaptec-Storage-Manager
+  author: P1finger
+  tags:
+    - adaptec-storage-manager
+  description: Adaptec-Storage-Manager
+  matchers:
+    - location: header
+      words:
+        - Adaptec ASM

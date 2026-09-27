@@ -1,0 +1,18 @@
+- id: bigip-apm
+  name: BIGIP APM
+  author: nuclei
+  tags:
+  - f5
+  - big-ip_access_policy_manager
+  - bigip
+  description: BIGIP APM
+  paths:
+  - /pre/config.php?version=2.0
+  - /pre/config.php?version=3.0
+  matchers:
+  - location: body
+    words:
+    - F5 Networks
+    - <PROFILE VERSION=
+    - <VERSION>
+    condition: and

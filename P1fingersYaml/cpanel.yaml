@@ -1,0 +1,25 @@
+- id: cpanel-2
+  name: Cpanel
+  author: Fofa
+  tags:
+    - cpanel
+  description: Cpanel
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'cprelogin:'
+    - location: header
+      words:
+        - 'cprelogin:'
+    - hash:
+        - "1993518473"
+      location: favicon
+    - condition: and
+      location: body
+      words:
+        - cpanel_magic_revision
+        - go.cpanel.net
+    - location: body
+      words:
+        - cPanel

@@ -1,0 +1,10 @@
+- id: textpatterncms
+  name: TextpatternCMS
+  author: P1finger
+  tags:
+    - textpatterncms
+  description: TextpatternCMS
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="Textpattern CMS">

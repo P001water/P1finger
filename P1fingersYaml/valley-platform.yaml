@@ -1,0 +1,11 @@
+- id: valley
+  name: Valley-platform
+  author: P001
+  tags:
+    - valley
+  description: Valley-platform
+  matchers:
+    - location: body
+      words:
+        - valleyplatform
+        - valley-platform.js

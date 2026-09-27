@@ -1,0 +1,10 @@
+- id: wuliupingtai
+  name: Wuliupingtai
+  author: P001
+  tags:
+    - wuliupingtai
+  description: Wuliupingtai
+  matchers:
+    - location: body
+      words:
+        - static/styles/frame/basic.css

@@ -1,0 +1,11 @@
+- id: vequncms
+  name: VequnCMS CMS
+  author: P1finger
+  tags:
+    - vequncms
+    - cms
+  description: VequnCMS CMS
+  matchers:
+    - location: body
+      words:
+        - VequnCMS内容管理系统

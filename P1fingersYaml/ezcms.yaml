@@ -1,0 +1,22 @@
+- id: ezcms
+  name: EZCMS
+  author: Fofa
+  tags:
+    - ezcms
+  description: EZCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by EZCMS
+    - condition: or
+      location: body
+      words:
+        - EZCMS Content Management System
+    - location: body
+      words:
+        - Powered by EZCMS
+        - EZCMS Content Management System
+    - location: body
+      words:
+        - Powered by EZCMS

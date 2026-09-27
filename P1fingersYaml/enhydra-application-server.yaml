@@ -1,0 +1,21 @@
+- id: enhydra
+  name: Enhydra-application-server
+  author: P1finger
+  tags:
+    - enhydra
+  description: Enhydra-application-server
+  matchers:
+    - location: header
+      words:
+        - Enhydra
+- id: enhydra-2
+  name: Enhydra-Application-Server
+  author: Fofa
+  tags:
+    - enhydra
+  description: Enhydra-Application-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Enhydra

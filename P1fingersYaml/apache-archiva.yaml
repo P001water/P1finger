@@ -1,0 +1,40 @@
+- id: apache-archiva
+  name: Apache-archiva
+  author: P1finger
+  tags:
+  - apache
+  - apache-archiva
+  description: Apache-archiva
+  matchers:
+  - location: body
+    words:
+    - Apache Archiva
+    - /archiva.js
+    - /archiva.css
+  - location: body
+    words:
+    - /archiva.css
+    - /archiva.js
+- id: apache-archiva-2
+  name: Apache-Archiva
+  author: Fofa
+  tags:
+  - apache
+  - apache-archiva
+  description: Apache-Archiva
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - Apache Archiva
+  - condition: or
+    location: body
+    words:
+    - /archiva.js
+  - condition: or
+    location: body
+    words:
+    - /archiva.css
+  - location: body
+    words:
+    - Apache Archiva

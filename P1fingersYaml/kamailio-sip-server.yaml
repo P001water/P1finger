@@ -1,0 +1,10 @@
+- id: kamailio-sip
+  name: Kamailio-sip-server
+  author: P001
+  tags:
+    - kamailio-sip
+  description: Kamailio-sip-server
+  matchers:
+    - location: body
+      words:
+        - 'server: kamailio'

@@ -1,0 +1,10 @@
+- id: mdaemon-webmail
+  name: Mdaemon Webmail
+  author: P1finger
+  tags:
+    - mdaemon-webmail
+  description: Mdaemon Webmail
+  matchers:
+    - hash:
+        - "-766957661"
+      location: favicon

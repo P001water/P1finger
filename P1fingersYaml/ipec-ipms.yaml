@@ -1,0 +1,10 @@
+- id: ipec-ipms
+  name: Ipec-ipms
+  author: P001
+  tags:
+    - ipec-ipms
+  description: Ipec-ipms
+  matchers:
+    - location: body
+      words:
+        - /login/lpec/qrcode.html

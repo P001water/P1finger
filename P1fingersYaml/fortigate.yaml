@@ -1,0 +1,44 @@
+- id: fortigate-200d
+  name: FortiGate 200D
+  author: P1finger
+  tags:
+  - fortigate
+  - fortigate-200d
+  description: FortiGate 200D
+  matchers:
+  - location: body
+    words:
+    - fortigate-200d
+- id: fortigate-300a
+  name: Fortigate 300A
+  author: P1finger
+  tags:
+  - fortigate
+  - fortigate-300a
+  description: Fortigate 300A
+  matchers:
+  - location: body
+    words:
+    - fortigate-300a
+- id: fortigate-500d
+  name: FortiGate 500D
+  author: P1finger
+  tags:
+  - fortigate
+  - fortigate-500d
+  description: FortiGate 500D
+  matchers:
+  - location: body
+    words:
+    - fortigate500d
+- id: fortigate-60d
+  name: FortiGate 60D
+  author: P1finger
+  tags:
+  - fortigate
+  - fortigate-60d
+  description: FortiGate 60D
+  matchers:
+  - location: body
+    words:
+    - fortigate60d

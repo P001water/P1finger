@@ -1,0 +1,16 @@
+- id: pcpin-chat
+  name: Pcpin-chat
+  author: P001
+  tags:
+    - pcpin-chat
+  description: Pcpin-chat
+  matchers:
+    - location: body
+      words:
+        - onclick="document.loginform.register.value=0; document.loginform.lostpassword.value=0
+        - title="powered by pcpin chat
+        - window.appname_='pcpin_chat'
+    - location: body
+      words:
+        - Powered by PCPIN Chat
+        - pcpin_chat

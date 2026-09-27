@@ -1,0 +1,21 @@
+- id: artiphp
+  name: Artiphp-cms
+  author: P1finger
+  tags:
+    - artiphp
+  description: Artiphp-cms
+  matchers:
+    - location: body
+      words:
+        - copyright Artiphp
+- id: artiphp-2
+  name: Artiphp-CMS
+  author: Fofa
+  tags:
+    - artiphp
+  description: Artiphp-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - copyright Artiphp

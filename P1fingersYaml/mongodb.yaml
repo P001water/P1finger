@@ -1,0 +1,20 @@
+- id: mongodb
+  name: Mongodb
+  author: P1finger
+  tags:
+    - mongodb
+  description: Mongodb
+  matchers:
+    - location: body
+      words:
+        - MongoDB over HTTP on the native driver
+    - condition: and
+      location: body
+      words:
+        - <a href="/_replSet">Replica set status</a></p>
+    - location: body
+      words:
+        - <a href="/_replSet">Replica set status</a></p>
+    - location: body
+      words:
+        - it looks like you are trying to access mongodb over http on the native driver port.

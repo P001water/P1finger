@@ -1,0 +1,12 @@
+- id: apache-kafka-connect-ui
+  name: Apache Kafka Connect UI
+  author: P1finger
+  tags:
+  - kafka
+  - apache
+  - apache-kafka-connect-ui
+  description: Apache Kafka Connect UI
+  matchers:
+  - location: body
+    words:
+    - Kafka Connect UI

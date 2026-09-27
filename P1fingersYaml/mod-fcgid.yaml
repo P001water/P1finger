@@ -1,0 +1,14 @@
+- id: mod-fcgid
+  name: Mod_fcgid
+  author: Fofa
+  tags:
+    - mod-fcgid
+  description: Mod_fcgid
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_fcgid
+    - location: header
+      words:
+        - mod_fcgid

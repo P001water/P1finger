@@ -1,0 +1,10 @@
+- id: alert-logic-defender
+  name: Alert-Logic-Cloud-Defender
+  author: P1finger
+  tags:
+    - alert-logic-defender
+  description: Alert-Logic-Cloud-Defender
+  matchers:
+    - location: body
+      words:
+        - <title>Alert Logic Appliance</title>

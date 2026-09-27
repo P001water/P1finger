@@ -1,0 +1,21 @@
+- id: huaxiayuntongzhujisexilie
+  name: HuaxiayuntongzhujiSExilie
+  author: P1finger
+  tags:
+    - huaxiayuntongzhujisexilie
+  description: HuaxiayuntongzhujiSExilie
+  matchers:
+    - location: body
+      words:
+        - 机房环境监控系统
+        - 北京华夏运通科技有限公司保留所有版权
+- id: huaxiayuntongzhujisexilie-2
+  name: HuaxiayuntongzhujiSExilie
+  author: P1finger
+  tags:
+    - huaxiayuntongzhujisexilie
+  description: HuaxiayuntongzhujiSExilie
+  matchers:
+    - location: body
+      words:
+        - 北京华夏运通科技有限公司

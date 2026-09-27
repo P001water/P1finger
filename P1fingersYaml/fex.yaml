@@ -1,0 +1,25 @@
+- id: fex
+  name: FEX
+  author: Fofa
+  tags:
+    - fex
+  description: FEX
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - fexsrv
+    - condition: or
+      location: body
+      words:
+        - HREF="mailto:fexmaster@ostc.de
+    - location: body
+      words:
+        - HREF="mailto:fexmaster@ostc.de
+    - location: header
+      words:
+        - fexsrv
+    - location: body
+      words:
+        - 'server: fexsrv'
+        - href="mailto:fexmaster@ostc.de

@@ -1,0 +1,10 @@
+- id: pansoft
+  name: Pansoft-management-system
+  author: P001
+  tags:
+    - pansoft
+  description: Pansoft-management-system
+  matchers:
+    - location: body
+      words:
+        - directlink = "eafc.application";

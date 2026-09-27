@@ -1,0 +1,23 @@
+- id: kampyle
+  name: Kampyle
+  author: Fofa
+  tags:
+    - kampyle
+  description: Kampyle
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - http://cf.kampyle.com/k_button.js
+    - condition: or
+      location: body
+      words:
+        - Start Kampyle Feedback Form Button
+    - location: body
+      words:
+        - http://cf.kampyle.com/k_button.js
+        - Start Kampyle Feedback Form Button
+    - location: body
+      words:
+        - http://cf.kampyle.com/k_button.js
+        - start kampyle feedback form button

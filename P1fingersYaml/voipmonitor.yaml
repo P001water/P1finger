@@ -1,0 +1,10 @@
+- id: voipmonitor
+  name: VoIPmonitor
+  author: P1finger
+  tags:
+    - voipmonitor
+  description: VoIPmonitor
+  matchers:
+    - location: body
+      words:
+        - VoIPmonitor

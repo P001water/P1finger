@@ -1,0 +1,11 @@
+- id: cns-corenetwork-services
+  name: Cns-corenetwork-services
+  author: P001
+  tags:
+    - cns-corenetwork-services
+  description: Cns-corenetwork-services
+  matchers:
+    - location: body
+      words:
+        - <!--p>cns网络核心服务自动化开通平台系统.
+        - <span class="left">cns-app

@@ -1,0 +1,12 @@
+- id: yisaitongdianziwendanganquanesafenetdlp
+  name: Yisaitongdianziwendanganquanesafenetdlp Management System
+  author: P001
+  tags:
+    - yisaitongdianziwendanganquanesafenetdlp
+    - management-system
+  description: Yisaitongdianziwendanganquanesafenetdlp Management System
+  matchers:
+    - location: body
+      words:
+        - languageApplicationResources.jsp中取当前方言
+        - /CDGServer3

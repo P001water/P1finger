@@ -1,0 +1,30 @@
+- id: cacti
+  name: Cacti
+  author: Fofa
+  tags:
+    - cacti
+  description: Cacti
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - 'Set-Cookie: Cacti='
+    - condition: or
+      location: title
+      words:
+        - Login to Cacti
+    - condition: or
+      location: body
+      words:
+        - /plugins/jqueryskin/include/login.css
+    - location: body
+      words:
+        - Login to Cacti
+        - /plugins/jqueryskin/include/login.css
+    - location: header
+      words:
+        - 'Set-Cookie: Cacti='
+    - location: body
+      words:
+        - 'set-cookie: cacti='
+        - /plugins/jqueryskin/include/login.css

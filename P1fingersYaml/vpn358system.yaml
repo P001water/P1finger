@@ -1,0 +1,12 @@
+- id: vpn358system
+  name: Vpn358system
+  author: P001
+  tags:
+    - vpn358system
+  description: Vpn358system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - class="form-actions j_add_ip_actions"
+        - href="/lib/bootstrap/ico/favicon.ico"

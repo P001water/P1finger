@@ -1,0 +1,15 @@
+- id: basler
+  name: Basler
+  author: Fofa
+  tags:
+    - basler
+  description: Basler
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Basler AG
+    - condition: and
+      location: header
+      words:
+        - fnord

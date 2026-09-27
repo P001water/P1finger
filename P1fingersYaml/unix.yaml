@@ -1,0 +1,11 @@
+- id: unix
+  name: Unix
+  author: Fofa
+  tags:
+    - unix
+  description: Unix
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Unix

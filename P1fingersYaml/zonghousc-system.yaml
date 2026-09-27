@@ -1,0 +1,11 @@
+- id: zonghousc
+  name: Zonghousc-system
+  author: P001
+  tags:
+    - zonghousc
+  description: Zonghousc-system
+  matchers:
+    - location: body
+      words:
+        - data-errormessage-value-missing="* 请录入用户名
+        - style/default/frui.css

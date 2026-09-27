@@ -1,0 +1,11 @@
+- id: portainer-dockerpanel
+  name: Portainer-DockerPanel
+  author: P001
+  tags:
+    - portainer-dockerpanel
+  description: Portainer-DockerPanel
+  matchers:
+    - location: body
+      words:
+        - ng-app="portainer"
+        - Portainer

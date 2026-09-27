@@ -1,0 +1,23 @@
+- id: oracle-solaris
+  name: Oracle Solaris
+  author: Fofa
+  tags:
+  - oracle
+  - oracle-solaris
+  description: Oracle Solaris
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Oracle Solaris
+- id: oracle-solaris-2
+  name: Oracle Solaris
+  author: P1finger
+  tags:
+  - oracle
+  - oracle-solaris
+  description: Oracle Solaris
+  matchers:
+  - location: header
+    words:
+    - Oracle Solaris

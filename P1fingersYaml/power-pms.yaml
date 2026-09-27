@@ -1,0 +1,10 @@
+- id: puhuapowerpms
+  name: PuhuaPowerPMS
+  author: P1finger
+  tags:
+    - puhuapowerpms
+  description: PuhuaPowerPMS
+  matchers:
+    - location: body
+      words:
+        - /Account/GetSiteCode/

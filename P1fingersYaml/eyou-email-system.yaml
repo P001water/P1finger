@@ -1,0 +1,15 @@
+- id: eyou
+  name: Eyou-email-system
+  author: P001
+  tags:
+    - eyou
+  description: Eyou-email-system
+  matchers:
+    - location: body
+      words:
+        - eyoumail
+        - eyouws
+        - /tpl/login/user/images/dbg.png
+        - content="亿邮电子邮件系统
+        - eyou 邮件系统
+        - var loginssl = document.form_login.login_ssl.value;

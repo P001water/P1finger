@@ -1,0 +1,13 @@
+- id: adtsec-gateway-3
+  name: ADTsec Gateway
+  author: P001
+  tags:
+    - adtsec
+    - gateway
+  description: ADTsec Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - $('#submitid').bind('click',checksubmitfn);"
+        - tpn-2g网关控制台管理员登录

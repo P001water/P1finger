@@ -1,0 +1,13 @@
+- id: nextcloud-2
+  name: Nextcloud
+  author: P1finger
+  tags:
+    - nextcloud
+  description: Nextcloud
+  matchers:
+    - hash:
+        - "167837543"
+      location: favicon
+    - location: body
+      words:
+        - Nextcloud

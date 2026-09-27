@@ -1,0 +1,31 @@
+- id: ispcp-omega
+  name: Ispcp-omega
+  author: P1finger
+  tags:
+    - ispcp-omega
+  description: Ispcp-omega
+  matchers:
+    - location: body
+      words:
+        - ispCP Omega a Virtual Hosting Control System
+    - location: header
+      words:
+        - ' ispCP='
+    - location: body
+      words:
+        - 'set-cookie: ispcp'
+- id: ispcp-omega-2
+  name: IspCP-Omega
+  author: Fofa
+  tags:
+    - ispcp-omega
+  description: IspCP-Omega
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - ispCP Omega a Virtual Hosting Control System
+    - condition: or
+      location: header
+      words:
+        - ' ispCP='

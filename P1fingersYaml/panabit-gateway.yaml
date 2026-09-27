@@ -1,0 +1,16 @@
+- id: panabit
+  name: Panabit-gateway
+  author: P001
+  tags:
+    - panabit
+  description: Panabit-gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - forum.panabit.com
+        - pa_iptcode
+        - maintain
+        - panalog
+        - id="codeno"
+        - 日志系统

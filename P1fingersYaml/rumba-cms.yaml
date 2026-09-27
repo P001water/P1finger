@@ -1,0 +1,10 @@
+- id: rumba
+  name: Rumba Cms
+  author: P1finger
+  tags:
+    - rumba
+  description: Rumba Cms
+  matchers:
+    - location: body
+      words:
+        - content="Rumba Tarumba - Rumba Catalana"

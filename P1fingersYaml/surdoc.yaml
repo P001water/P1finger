@@ -1,0 +1,11 @@
+- id: surdoc
+  name: Surdoc
+  author: P001
+  tags:
+    - surdoc
+  description: Surdoc
+  matchers:
+    - location: body
+      words:
+        - <h1>欢迎使用360书生云盘！</h1>
+        - <p>copyright@2016 pan.surdoc.net all rights</p>

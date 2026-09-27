@@ -1,0 +1,20 @@
+- id: ruoyi-2
+  name: RuoYi
+  author: P001
+  tags:
+    - ruoyi
+  description: RuoYi
+  matchers:
+    - location: body
+      words:
+        - href="/ruoyi/css/ry-ui.css
+        - src="/ruoyi/js/ry-ui.js
+        - /ry-ui.js?v=
+    - condition: and
+      location: body
+      words:
+        - 若依管理系统
+        - 正在加载系统资源，请耐心等待
+    - hash:
+        - e49fd30ea870c7a820464ca56a113e6e
+      location: favicon

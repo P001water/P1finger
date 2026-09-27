@@ -1,0 +1,21 @@
+- id: elite-gaming-ladders
+  name: Elite-gaming-ladders
+  author: P1finger
+  tags:
+    - elite-gaming-ladders
+  description: Elite-gaming-ladders
+  matchers:
+    - location: body
+      words:
+        - Powered by Elite
+- id: elite-gaming-ladders-2
+  name: Elite-Gaming-Ladders
+  author: Fofa
+  tags:
+    - elite-gaming-ladders
+  description: Elite-Gaming-Ladders
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by Elite

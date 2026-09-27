@@ -1,0 +1,10 @@
+- id: rockstor
+  name: Rockstor
+  author: P1finger
+  tags:
+    - rockstor
+  description: Rockstor
+  matchers:
+    - location: header
+      words:
+        - 'Target Name : ROCKSTOR'

@@ -1,0 +1,14 @@
+- id: apache-guacamole
+  name: Apache-guacamole
+  author: P001
+  tags:
+  - apache
+  - apache-guacamole
+  description: Apache-guacamole
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - guacamole - clientless remote desktop
+    - scripts/guac-ui.js
+    - images/guacamole-logo

@@ -1,0 +1,10 @@
+- id: palladium-comprehensive-audit
+  name: Palladium-Unified-security-management-and-comprehensive-audit-system
+  author: P1finger
+  tags:
+    - palladium-comprehensive-audit
+  description: Palladium-Unified-security-management-and-comprehensive-audit-system
+  matchers:
+    - location: body
+      words:
+        - module/image/pldsec.css

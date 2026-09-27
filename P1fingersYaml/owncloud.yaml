@@ -1,0 +1,10 @@
+- id: owncloud
+  name: Owncloud
+  author: P1finger
+  tags:
+    - owncloud
+  description: Owncloud
+  matchers:
+    - hash:
+        - "-1616115760"
+      location: favicon

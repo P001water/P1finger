@@ -1,0 +1,10 @@
+- id: datasphere
+  name: DataSphere
+  author: P1finger
+  tags:
+    - datasphere
+  description: DataSphere
+  matchers:
+    - location: body
+      words:
+        - DataSphere

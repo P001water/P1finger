@@ -1,0 +1,17 @@
+- id: typo3
+  name: Typo3
+  author: Fofa
+  tags:
+    - typo3
+  description: Typo3
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - fe_typo_user
+    - location: header
+      words:
+        - fe_typo_user
+    - location: body
+      words:
+        - This website is powered by TYPO3

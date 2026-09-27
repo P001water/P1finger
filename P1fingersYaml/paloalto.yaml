@@ -1,0 +1,95 @@
+- id: paloalto
+  name: Paloalto
+  author: P1finger
+  tags:
+  - paloalto
+  description: Paloalto
+  matchers:
+  - hash:
+    - '602431586'
+    location: favicon
+- id: paloalto-2
+  name: PaloAlto_Firewall
+  author: Fofa
+  tags:
+  - paloalto
+  description: PaloAlto_Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - Access to the web page you were trying to visit has been blocked in accordance
+      with company policy
+  - location: body
+    words:
+    - Access to the web page you were trying to visit has been blocked in accordance
+      with company policy
+- id: paloalto-globalprotect
+  name: Paloalto-globalprotect
+  author: P001
+  tags:
+  - paloalto
+  - paloalto-globalprotect
+  description: Paloalto-globalprotect
+  matchers:
+  - location: body
+    words:
+    - global-protect/login.esp
+- id: paloalto-networks-sso
+  name: Paloalto-networks-sso
+  author: P001
+  tags:
+  - paloalto
+  - paloalto-networks-sso
+  description: Paloalto-networks-sso
+  matchers:
+  - location: body
+    words:
+    - 2015 palo alto networks, inc.
+- id: paloalto-networks-sso-2
+  name: PaloAlto Networks SSO
+  author: P1finger
+  tags:
+  - paloalto
+  - paloalto-networks-sso
+  description: PaloAlto Networks SSO
+  matchers:
+  - location: body
+    words:
+    - Palo Alto Networks SSO
+- id: paloalto-pa-500
+  name: PaloAlto PA 500
+  author: P1finger
+  tags:
+  - paloalto
+  - paloalto-pa-500
+  description: PaloAlto PA 500
+  matchers:
+  - location: body
+    words:
+    - pa-500
+    - id="heading">globalprotect portal</div>
+- id: paloalto-pa-820
+  name: PaloAlto PA 820
+  author: P1finger
+  tags:
+  - paloalto
+  - paloalto-pa-820
+  description: PaloAlto PA 820
+  matchers:
+  - location: body
+    words:
+    - pa-820
+    - id="heading">globalprotect portal</div>
+- id: paloalto-vmware
+  name: PaloAlto VMware
+  author: P1finger
+  tags:
+  - paloalto
+  - vmware
+  - paloalto-vmware
+  description: PaloAlto VMware
+  matchers:
+  - location: header
+    words:
+    - C=US, L=Palo Alto, OU=VMware, CN=VMware/email

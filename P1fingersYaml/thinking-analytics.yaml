@@ -1,0 +1,10 @@
+- id: thinking-analytics
+  name: Thinking Analytics
+  author: P1finger
+  tags:
+    - thinking-analytics
+  description: Thinking Analytics
+  matchers:
+    - location: body
+      words:
+        - Thinking Analytics

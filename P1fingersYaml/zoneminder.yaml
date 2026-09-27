@@ -1,0 +1,17 @@
+- id: zoneminder
+  name: ZoneMinder
+  author: Fofa
+  tags:
+    - zoneminder
+  description: ZoneMinder
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - ZoneMinder Login
+    - location: body
+      words:
+        - ZoneMinder Login
+    - location: body
+      words:
+        - zoneminder login

@@ -1,0 +1,19 @@
+- id: yxcms
+  name: Yxcms
+  author: Fofa
+  tags:
+    - yxcms
+  description: Yxcms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /css/yxcms.css
+    - condition: or
+      location: body
+      words:
+        - content="Yxcms
+    - location: body
+      words:
+        - /css/yxcms.css
+        - content="Yxcms

@@ -1,0 +1,10 @@
+- id: crhms-medical-insurance-decision-support
+  name: Crhms-medical-insurance-decision-support-system
+  author: P001
+  tags:
+    - crhms-medical-insurance-decision-support
+  description: Crhms-medical-insurance-decision-support-system
+  matchers:
+    - location: body
+      words:
+        - name="source" value="clientbin/cisdasystem.xap"

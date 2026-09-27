@@ -1,0 +1,17 @@
+- id: easywebcms
+  name: EasywebCMS
+  author: Fofa
+  tags:
+    - easywebcms
+  description: EasywebCMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Easyweb CMS
+    - location: header
+      words:
+        - Easyweb CMS
+    - location: header
+      words:
+        - 'Generator: Easyweb CMS'

@@ -1,0 +1,13 @@
+- id: greencms
+  name: Greencms
+  author: P001
+  tags:
+    - greencms
+  description: Greencms
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: greencms'
+    - location: header
+      words:
+        - 'X-Powered-By: GreenCMS Community Version'

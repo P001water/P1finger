@@ -1,0 +1,11 @@
+- id: ccsiszzongheyewu
+  name: CCSISZzongheyewu Management Platform
+  author: P1finger
+  tags:
+    - ccsiszzongheyewu
+    - management-platform
+  description: CCSISZzongheyewu Management Platform
+  matchers:
+    - location: body
+      words:
+        - CCSISZ综合业务管理平台

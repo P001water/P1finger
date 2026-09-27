@@ -1,0 +1,29 @@
+- id: jieqi
+  name: Jieqi Cms
+  author: Fofa
+  tags:
+    - jieqi
+  description: Jieqi Cms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="jieqi cms
+    - condition: or
+      location: title
+      words:
+        - jieqi cms
+- id: jieqi-2
+  name: Jieqi Cms
+  author: P1finger
+  tags:
+    - jieqi
+  description: Jieqi Cms
+  matchers:
+    - location: body
+      words:
+        - content="jieqi cms
+        - jieqi cms
+    - location: body
+      words:
+        - /modules/article/articleinfo.php?id

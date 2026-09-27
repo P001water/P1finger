@@ -1,0 +1,10 @@
+- id: univention
+  name: Univention Portal
+  author: P1finger
+  tags:
+    - univention
+  description: Univention Portal
+  matchers:
+    - hash:
+        - "-1697334194"
+      location: favicon

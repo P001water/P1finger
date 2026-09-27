@@ -1,0 +1,11 @@
+- id: covalent-ready
+  name: Covalent-Enterprise-Ready-Server
+  author: Fofa
+  tags:
+    - covalent-ready
+  description: Covalent-Enterprise-Ready-Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CovalentSNMP

@@ -1,0 +1,11 @@
+- id: psibiaozhunban
+  name: PSIbiaozhunban Document Management System
+  author: P1finger
+  tags:
+    - psibiaozhunban
+    - document-management-system
+  description: PSIbiaozhunban Document Management System
+  matchers:
+    - location: body
+      words:
+        - PSI文档管理系统(标准版)

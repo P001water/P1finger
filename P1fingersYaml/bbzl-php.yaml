@@ -1,0 +1,10 @@
+- id: bbzl-php
+  name: BbZL.PhP
+  author: P1finger
+  tags:
+    - bbzl-php
+  description: BbZL.PhP
+  matchers:
+    - location: body
+      words:
+        - BbZL.PhP

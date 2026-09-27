@@ -1,0 +1,24 @@
+- id: hotaru
+  name: Hotaru-cms
+  author: P1finger
+  tags:
+    - hotaru
+  description: Hotaru-cms
+  matchers:
+    - location: body
+      words:
+        - content="Hotaru
+- id: hotaru-2
+  name: Hotaru-CMS
+  author: Fofa
+  tags:
+    - hotaru
+  description: Hotaru-CMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Hotaru
+    - location: body
+      words:
+        - Hotaru

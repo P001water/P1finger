@@ -1,0 +1,10 @@
+- id: phpremoteview
+  name: Phpremoteview
+  author: P001
+  tags:
+    - phpremoteview
+  description: Phpremoteview
+  matchers:
+    - location: body
+      words:
+        - 'style=''font: 8pt verdana''>phpremoteview'

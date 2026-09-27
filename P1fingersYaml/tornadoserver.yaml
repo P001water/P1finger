@@ -1,0 +1,17 @@
+- id: tornadoserver
+  name: TornadoServer
+  author: Fofa
+  tags:
+    - tornadoserver
+  description: TornadoServer
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - TornadoServer
+    - location: header
+      words:
+        - TornadoServer
+    - location: body
+      words:
+        - 'server: tornadoserver'

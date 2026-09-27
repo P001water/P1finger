@@ -1,0 +1,10 @@
+- id: superdata-4
+  name: Superdata
+  author: P1finger
+  tags:
+    - superdata
+  description: Superdata
+  matchers:
+    - location: body
+      words:
+        - 速达S4.Cloud财务

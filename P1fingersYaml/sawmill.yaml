@@ -1,0 +1,14 @@
+- id: sawmill
+  name: Sawmill
+  author: P001
+  tags:
+    - sawmill
+  description: Sawmill
+  matchers:
+    - location: body
+      words:
+        - <div id="password:error
+        - src="/picts/sawmill_logo.png
+    - location: body
+      words:
+        - Sawmill

@@ -1,0 +1,22 @@
+- id: inspur-incloud-sphere
+  name: Inspur-incloud-sphere
+  author: P001
+  tags:
+  - inspur
+  - inspur-incloud-sphere
+  description: Inspur-incloud-sphere
+  matchers:
+  - location: body
+    words:
+    - class="easyui-layout
+- id: inspur-incloud-sphere-2
+  name: Inspur InCloud Sphere
+  author: P1finger
+  tags:
+  - inspur
+  - inspur-incloud-sphere
+  description: Inspur InCloud Sphere
+  matchers:
+  - location: body
+    words:
+    - incloudsphere

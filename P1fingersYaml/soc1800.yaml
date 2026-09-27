@@ -1,0 +1,11 @@
+- id: soc1800luyin-management-system
+  name: SOC1800luyin Management System
+  author: P1finger
+  tags:
+    - soc1800luyin
+    - management-system
+  description: SOC1800luyin Management System
+  matchers:
+    - location: body
+      words:
+        - SOC1800录音管理系统

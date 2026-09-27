@@ -1,0 +1,10 @@
+- id: falipu-iot
+  name: Falipu-iot
+  author: P001
+  tags:
+    - falipu-iot
+  description: Falipu-iot
+  matchers:
+    - location: body
+      words:
+        - id="t1">安全、稳定、安全</div>

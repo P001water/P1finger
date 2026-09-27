@@ -1,0 +1,17 @@
+- id: dolibarr
+  name: Dolibarr
+  author: Fofa
+  tags:
+    - dolibarr
+  description: Dolibarr
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Dolibarr Development Team
+    - location: body
+      words:
+        - Dolibarr Development Team
+    - location: body
+      words:
+        - title="Dolibarr

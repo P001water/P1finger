@@ -1,0 +1,27 @@
+- id: bxemail
+  name: Bxemail
+  author: P1finger
+  tags:
+    - bxemail
+  description: Bxemail
+  matchers:
+    - location: body
+      words:
+        - 百讯安全邮件系统
+        - 百姓邮局
+        - bxemail.com
+    - condition: or
+      location: title
+      words:
+        - 百讯安全邮件系统
+    - condition: or
+      location: title
+      words:
+        - 百姓邮局
+    - condition: or
+      location: body
+      words:
+        - 请输入正确的电子邮件地址，如：abc@bxemail.com
+    - location: body
+      words:
+        - 请输入正确的电子邮件地址，如：abc@bxemail.com

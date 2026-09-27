@@ -1,0 +1,10 @@
+- id: ruishangqiyecmsc
+  name: Ruishangqiyecmsc
+  author: P1finger
+  tags:
+    - ruishangqiyecmsc
+  description: Ruishangqiyecmsc
+  matchers:
+    - location: body
+      words:
+        - href="/Writable/ClientImages/mycss.css

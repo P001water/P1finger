@@ -1,0 +1,16 @@
+- id: uqcms
+  name: Uqcms
+  author: P001
+  tags:
+    - uqcms
+  description: Uqcms
+  matchers:
+    - location: body
+      words:
+        - /public/css/common_uqcms.css
+    - location: body
+      words:
+        - css/common_uqcms.css
+    - location: header
+      words:
+        - UQCMSID

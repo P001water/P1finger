@@ -1,0 +1,10 @@
+- id: paradoxanquanchanpin-2
+  name: Paradoxanquanchanpin
+  author: P1finger
+  tags:
+    - paradoxanquanchanpin
+  description: Paradoxanquanchanpin
+  matchers:
+    - location: body
+      words:
+        - Your Paradox System

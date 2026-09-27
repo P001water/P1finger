@@ -1,0 +1,24 @@
+- id: mobotix
+  name: MOBOTIX_Camera
+  author: Fofa
+  tags:
+    - mobotix
+  description: MOBOTIX_Camera
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - MOBOTIX Camera
+    - location: header
+      words:
+        - MOBOTIX Camera
+- id: mobotix-2
+  name: Mobotix Camera
+  author: P1finger
+  tags:
+    - mobotix
+  description: Mobotix Camera
+  matchers:
+    - hash:
+        - "661332347"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: symfony
+  name: Symfony
+  author: P001
+  tags:
+    - symfony
+  description: Symfony
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.symfony-project.org/">
+        - powered by symfony

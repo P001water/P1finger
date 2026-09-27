@@ -1,0 +1,13 @@
+- id: ximenzisiemensipcameras
+  name: XimenziSIEMENSIPCameras
+  author: P1finger
+  tags:
+    - ximenzisiemensipcameras
+  description: XimenziSIEMENSIPCameras
+  matchers:
+    - location: body
+      words:
+        - SIEMENS IP-Camera
+    - location: header
+      words:
+        - Basic realm="Compact Siemens WiFi Camera"

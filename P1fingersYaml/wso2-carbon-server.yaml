@@ -1,0 +1,10 @@
+- id: wso2-carbon
+  name: Wso2-carbon-server
+  author: P001
+  tags:
+    - wso2-carbon
+  description: Wso2-carbon-server
+  matchers:
+    - location: body
+      words:
+        - 'server: wso2 carbon server'

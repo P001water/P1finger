@@ -1,0 +1,10 @@
+- id: hdhcms
+  name: HDHCMS
+  author: P1finger
+  tags:
+    - hdhcms
+  description: HDHCMS
+  matchers:
+    - location: body
+      words:
+        - title="HDHCMS

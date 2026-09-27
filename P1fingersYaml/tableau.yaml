@@ -1,0 +1,16 @@
+- id: tableau
+  name: Tableau
+  author: P1finger
+  tags:
+    - tableau
+  description: Tableau
+  matchers:
+    - hash:
+        - "-1441956789"
+      location: favicon
+    - hash:
+        - 783f669ae8336979325ef497a5e43037
+      location: favicon
+    - location: body
+      words:
+        - src="/javascripts/api/tableau-

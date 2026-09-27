@@ -1,0 +1,10 @@
+- id: diaowen
+  name: Diaowen-system
+  author: P001
+  tags:
+    - diaowen
+  description: Diaowen-system
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.dwsurvey.net" style=

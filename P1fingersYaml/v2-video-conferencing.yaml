@@ -1,0 +1,11 @@
+- id: v2-conferencing
+  name: V2-video-conferencing
+  author: P001
+  tags:
+    - v2-conferencing
+  description: V2-video-conferencing
+  matchers:
+    - location: body
+      words:
+        - <frame src="../conference/currentconfaction.do
+        - src="content.jsp"

@@ -1,0 +1,11 @@
+- id: dataearthyun-management-system
+  name: DataEarthyun Management System
+  author: P1finger
+  tags:
+    - dataearthyun
+    - management-system
+  description: DataEarthyun Management System
+  matchers:
+    - location: body
+      words:
+        - DataEarth云平台管理系统

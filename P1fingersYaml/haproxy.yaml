@@ -1,0 +1,24 @@
+- id: haproxy
+  name: Haproxy
+  author: P1finger
+  tags:
+    - haproxy
+  description: Haproxy
+  matchers:
+    - location: header
+      words:
+        - HAProxy Statistics
+    - location: header
+      words:
+        - Basic realm="Haproxy Statistics"
+- id: haproxy-2
+  name: HAProxy
+  author: Fofa
+  tags:
+    - haproxy
+  description: HAProxy
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - HAProxy Statistics

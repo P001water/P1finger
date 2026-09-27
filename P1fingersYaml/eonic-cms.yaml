@@ -1,0 +1,10 @@
+- id: eonic
+  name: Eonic CMS
+  author: P1finger
+  tags:
+    - eonic
+  description: Eonic CMS
+  matchers:
+    - location: body
+      words:
+        - content="EonicWebV5

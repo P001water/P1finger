@@ -1,0 +1,10 @@
+- id: softbiz-online-auctions-script
+  name: Softbiz-online-auctions-script
+  author: P001
+  tags:
+    - softbiz-online-auctions-script
+  description: Softbiz-online-auctions-script
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.softbizscripts.com

@@ -1,0 +1,11 @@
+- id: vcalendar
+  name: Vcalendar
+  author: P001
+  tags:
+    - vcalendar
+  description: Vcalendar
+  matchers:
+    - location: body
+      words:
+        - <link href="styles/basic/style.css"
+        - powered by <a href="http://www.vcalendar.org">vcalendar</a>

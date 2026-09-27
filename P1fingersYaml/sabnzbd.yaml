@@ -1,0 +1,10 @@
+- id: sabnzbd
+  name: SABnzbd
+  author: P1finger
+  tags:
+    - sabnzbd
+  description: SABnzbd
+  matchers:
+    - location: body
+      words:
+        - SABnzbd

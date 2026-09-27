@@ -1,0 +1,11 @@
+- id: zhongyou
+  name: Zhongyou-system
+  author: P001
+  tags:
+    - zhongyou
+  description: Zhongyou-system
+  matchers:
+    - location: body
+      words:
+        - background=zhongyou.jpg
+        - 众友科技巡检管理软件

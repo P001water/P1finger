@@ -1,0 +1,17 @@
+- id: incapsula
+  name: Incapsula
+  author: Fofa
+  tags:
+    - incapsula
+  description: Incapsula
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'X-Cdn: Incapsula'
+    - location: header
+      words:
+        - 'X-Cdn: Incapsula'
+    - location: header
+      words:
+        - 'x-cdn: incapsula'

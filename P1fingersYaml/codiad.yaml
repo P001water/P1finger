@@ -1,0 +1,15 @@
+- id: codiad
+  name: Codiad
+  author: P001
+  tags:
+    - codiad
+  description: Codiad
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - codimd
+        - hackmd
+    - location: body
+      words:
+        - codiad

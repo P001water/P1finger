@@ -1,0 +1,21 @@
+- id: forcepoint-ngfw
+  name: Forcepoint-NGFW
+  author: P1finger
+  tags:
+    - forcepoint-ngfw
+  description: Forcepoint-NGFW
+  matchers:
+    - location: body
+      words:
+        - NGFW Authentication
+        - Forcepoint LLC
+- id: forcepoint-ngfw-2
+  name: Forcepoint NGFW
+  author: P1finger
+  tags:
+    - forcepoint-ngfw
+  description: Forcepoint NGFW
+  matchers:
+    - location: body
+      words:
+        - id="software_name">ngfw security management center

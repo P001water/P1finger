@@ -1,0 +1,10 @@
+- id: cute-file-explorer
+  name: Cute File Explorer
+  author: P1finger
+  tags:
+    - cute-file-explorer
+  description: Cute File Explorer
+  matchers:
+    - location: body
+      words:
+        - Cute File Explorer

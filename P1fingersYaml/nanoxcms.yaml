@@ -1,0 +1,10 @@
+- id: nanoxcms
+  name: NanoxCMS
+  author: P1finger
+  tags:
+    - nanoxcms
+  description: NanoxCMS
+  matchers:
+    - location: header
+      words:
+        - 'Server: Nanox WebServer'

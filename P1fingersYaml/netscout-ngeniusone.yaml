@@ -1,0 +1,10 @@
+- id: netscout-ngeniusone
+  name: Netscout-ngeniusone
+  author: P001
+  tags:
+    - netscout-ngeniusone
+  description: Netscout-ngeniusone
+  matchers:
+    - location: body
+      words:
+        - var newpath = "/common/ngeniusdirect.jsp

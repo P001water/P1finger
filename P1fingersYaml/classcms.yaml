@@ -1,0 +1,10 @@
+- id: classcms
+  name: ClassCMS
+  author: P1finger
+  tags:
+    - classcms
+  description: ClassCMS
+  matchers:
+    - location: body
+      words:
+        - ClassCMS

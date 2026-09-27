@@ -1,0 +1,32 @@
+- id: eticket
+  name: ETicket
+  author: Fofa
+  tags:
+    - eticket
+  description: ETicket
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by eTicket
+    - condition: or
+      location: body
+      words:
+        - <a href="http://www.eticketsupport.com" target="_blank">
+    - condition: or
+      location: body
+      words:
+        - /eticket/eticket.css
+    - location: body
+      words:
+        - Powered by eTicket
+        - <a href="http://www.eticketsupport.com" target="_blank">
+        - /eticket/eticket.css
+    - location: body
+      words:
+        - /eticket/eticket.css
+        - <a href="http://www.eticketsupport.com" target="_blank">
+        - powered by eticket
+    - location: body
+      words:
+        - eTicket.css

@@ -1,0 +1,14 @@
+- id: flow-framework
+  name: Flow_framework
+  author: Fofa
+  tags:
+    - flow-framework
+  description: Flow_framework
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - FLOW/FRAMEWORK
+    - location: header
+      words:
+        - FLOW/FRAMEWORK

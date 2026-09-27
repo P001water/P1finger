@@ -1,0 +1,11 @@
+- id: solarwangluo-management-system
+  name: Solarwangluo Management System
+  author: P1finger
+  tags:
+    - solarwangluo
+    - management-system
+  description: Solarwangluo Management System
+  matchers:
+    - location: body
+      words:
+        - application/components_solar/loginController.js

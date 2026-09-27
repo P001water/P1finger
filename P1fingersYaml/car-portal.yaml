@@ -1,0 +1,26 @@
+- id: car
+  name: Car-portal
+  author: P1finger
+  tags:
+    - car
+  description: Car-portal
+  matchers:
+    - location: body
+      words:
+        - netartmedia.net/carsportal
+        - class="bodyfontwhite"><strong>&nbsp;Car Script
+- id: car-2
+  name: Car-Portal
+  author: Fofa
+  tags:
+    - car
+  description: Car-Portal
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.netartmedia.net/carsportal
+    - condition: or
+      location: body
+      words:
+        - class="bodyfontwhite"><strong>&nbsp;Car Script

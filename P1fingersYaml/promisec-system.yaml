@@ -1,0 +1,10 @@
+- id: promisec
+  name: Promisec-system
+  author: P001
+  tags:
+    - promisec
+  description: Promisec-system
+  matchers:
+    - location: body
+      words:
+        - name="promisecactivex"

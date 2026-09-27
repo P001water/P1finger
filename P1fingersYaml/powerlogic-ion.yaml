@@ -1,0 +1,17 @@
+- id: powerlogic-ion
+  name: PowerLogic_ION
+  author: Fofa
+  tags:
+    - powerlogic-ion
+  description: PowerLogic_ION
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Allegro-Software-RomPager
+    - location: body
+      words:
+        - PowerLogic
+    - location: header
+      words:
+        - Allegro-Software-RomPager

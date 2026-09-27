@@ -1,0 +1,14 @@
+- id: mod-encoding
+  name: Mod_encoding
+  author: Fofa
+  tags:
+    - mod-encoding
+  description: Mod_encoding
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - mod_encoding
+    - location: header
+      words:
+        - mod_encoding

@@ -1,0 +1,10 @@
+- id: novell-sentinel
+  name: Novell Sentinel
+  author: P1finger
+  tags:
+    - novell-sentinel
+  description: Novell Sentinel
+  matchers:
+    - location: body
+      words:
+        - Novell Sentinel Log Manager

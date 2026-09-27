@@ -1,0 +1,22 @@
+- id: comersuscart
+  name: ComersusCart
+  author: Fofa
+  tags:
+    - comersuscart
+  description: ComersusCart
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - CONTENT="Powered by Comersus
+    - condition: or
+      location: body
+      words:
+        - href="comersus_showCart.asp
+    - location: body
+      words:
+        - CONTENT="Powered by Comersus
+        - href="comersus_showCart.asp
+    - location: body
+      words:
+        - comersus.css

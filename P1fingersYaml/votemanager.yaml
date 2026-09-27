@@ -1,0 +1,13 @@
+- id: votemanager
+  name: Votemanager
+  author: P001
+  tags:
+    - votemanager
+  description: Votemanager
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href="http://www.cdrbp.cn">微信数字投票
+        - content="微平台投票管理系统
+        - content="微平台投票系统

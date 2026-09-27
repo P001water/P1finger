@@ -1,0 +1,10 @@
+- id: icall
+  name: Icall-cms
+  author: P001
+  tags:
+    - icall
+  description: Icall-cms
+  matchers:
+    - location: body
+      words:
+        - var img_obj = document.getelementbyid('showing');

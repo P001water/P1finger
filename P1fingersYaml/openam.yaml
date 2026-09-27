@@ -1,0 +1,10 @@
+- id: openam
+  name: Openam
+  author: P001
+  tags:
+    - openam
+  description: Openam
+  matchers:
+    - location: body
+      words:
+        - action="/openam/ui/login"

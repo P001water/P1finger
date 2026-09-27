@@ -1,0 +1,17 @@
+- id: snbgupiaojiaoyiruanjian
+  name: SNBgupiaojiaoyiruanjian
+  author: Fofa
+  tags:
+    - snbgupiaojiaoyiruanjian
+  description: SNBgupiaojiaoyiruanjian
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Copyright 2005–2009 <a href="http://www.s-mo.com">
+    - location: body
+      words:
+        - Copyright 2005–2009 <a href="http://www.s-mo.com">
+    - location: body
+      words:
+        - SNBmt自动交易系统

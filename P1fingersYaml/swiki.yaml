@@ -1,0 +1,10 @@
+- id: swiki
+  name: Swiki
+  author: P001
+  tags:
+    - swiki
+  description: Swiki
+  matchers:
+    - location: body
+      words:
+        - '<a href="http://minnow.cc.gatech.edu/swiki" title="comswiki: powered by squeak"><img src="/defaultscheme/comswiki.gif" border=0 width=277 height=88 alt="comswiki: powered by squeak"></a><br>'

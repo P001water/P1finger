@@ -1,0 +1,10 @@
+- id: powerschool
+  name: PowerSchool
+  author: P1finger
+  tags:
+    - powerschool
+  description: PowerSchool
+  matchers:
+    - location: header
+      words:
+        - 'Server: PowerSchool'

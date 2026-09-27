@@ -1,0 +1,21 @@
+- id: litespeed
+  name: LiteSpeed_Web_Admin_Console
+  author: Fofa
+  tags:
+    - litespeed
+  description: LiteSpeed_Web_Admin_Console
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - LiteSpeed Web Admin Console
+    - condition: or
+      location: header
+      words:
+        - LSWSWEBUI
+    - location: body
+      words:
+        - LiteSpeed Web Admin Console
+    - location: header
+      words:
+        - LSWSWEBUI

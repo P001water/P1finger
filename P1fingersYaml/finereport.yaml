@@ -1,0 +1,26 @@
+- id: finereport
+  name: Finereport
+  author: P001
+  tags:
+    - finereport
+  description: Finereport
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - =fs
+        - reportserver
+        - finereport/decision
+        - content="finereport--web reporting tool"
+- id: finereport-system
+  name: Finereport System
+  author: P1finger
+  tags:
+    - finereport
+    - system
+  description: Finereport System
+  matchers:
+    - location: body
+      words:
+        - ReportServer?op
+        - DeploySuccess._init

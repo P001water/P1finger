@@ -1,0 +1,26 @@
+- id: alstrasoft-askme
+  name: Alstrasoft-askme
+  author: P1finger
+  tags:
+    - alstrasoft-askme
+  description: Alstrasoft-askme
+  matchers:
+    - location: body
+      words:
+        - <a href="pass_recover.php">
+        - http://www.alstrasoft.com
+- id: alstrasoft-askme-2
+  name: AlstraSoft-AskMe
+  author: Fofa
+  tags:
+    - alstrasoft-askme
+  description: AlstraSoft-AskMe
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <a href="pass_recover.php">
+    - condition: and
+      location: body
+      words:
+        - http://www.alstrasoft.com")

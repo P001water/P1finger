@@ -1,0 +1,14 @@
+- id: pclinuxos
+  name: PCLinuxOS
+  author: Fofa
+  tags:
+    - pclinuxos
+  description: PCLinuxOS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - PCLinuxOS
+    - location: header
+      words:
+        - PCLinuxOS

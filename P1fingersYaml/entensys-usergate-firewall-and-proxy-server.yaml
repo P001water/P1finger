@@ -1,0 +1,10 @@
+- id: entensys-usergate-proxy
+  name: Entensys-UserGate-Firewall-and-Proxy-Server
+  author: P1finger
+  tags:
+    - entensys-usergate-proxy
+  description: Entensys-UserGate-Firewall-and-Proxy-Server
+  matchers:
+    - location: header
+      words:
+        - UserGate Firewall and Proxy Server

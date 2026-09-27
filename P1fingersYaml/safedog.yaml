@@ -1,0 +1,13 @@
+- id: safedog
+  name: Safedog
+  author: P1finger
+  tags:
+    - safedog
+  description: Safedog
+  matchers:
+    - location: header
+      words:
+        - Safedog
+    - location: body
+      words:
+        - safedogsite

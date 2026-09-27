@@ -1,0 +1,12 @@
+- id: outline
+  name: Outline
+  author: P001
+  tags:
+    - outline
+  description: Outline
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <title>outline</title>
+        - title="outline"/>

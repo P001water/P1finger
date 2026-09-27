@@ -1,0 +1,14 @@
+- id: unknown-2
+  name: Unknown_cms
+  author: Fofa
+  tags:
+    - unknown
+  description: Unknown_cms
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Requestsuccess4ajax
+    - location: header
+      words:
+        - Requestsuccess4ajax

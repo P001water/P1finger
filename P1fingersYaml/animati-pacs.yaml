@@ -1,0 +1,10 @@
+- id: animati-pacs
+  name: Animati-pacs
+  author: P001
+  tags:
+    - animati-pacs
+  description: Animati-pacs
+  matchers:
+    - location: body
+      words:
+        - <form action="" onsubmit="pacs.login.sendpasswordrecoverymail()

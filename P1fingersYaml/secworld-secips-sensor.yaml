@@ -1,0 +1,10 @@
+- id: secworld-secips-sensor
+  name: Secworld SecIPS Sensor
+  author: P1finger
+  tags:
+    - secworld-secips-sensor
+  description: Secworld SecIPS Sensor
+  matchers:
+    - location: body
+      words:
+        - secips sensor

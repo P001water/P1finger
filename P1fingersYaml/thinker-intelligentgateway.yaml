@@ -1,0 +1,10 @@
+- id: thinker-intelligentgateway
+  name: Thinker-intelligentgateway
+  author: P001
+  tags:
+    - thinker-intelligentgateway
+  description: Thinker-intelligentgateway
+  matchers:
+    - location: body
+      words:
+        - 智能网关系统<br>

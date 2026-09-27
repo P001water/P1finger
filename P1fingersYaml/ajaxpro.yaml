@@ -1,0 +1,10 @@
+- id: ajaxpro
+  name: Ajaxpro
+  author: P1finger
+  tags:
+    - ajaxpro
+  description: Ajaxpro
+  matchers:
+    - location: body
+      words:
+        - ajaxpro

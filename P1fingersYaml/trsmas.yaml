@@ -1,0 +1,11 @@
+- id: trsmas
+  name: TRSMAS
+  author: Fofa
+  tags:
+    - trsmas
+  description: TRSMAS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-Mas-Server

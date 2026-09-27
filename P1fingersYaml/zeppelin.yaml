@@ -1,0 +1,13 @@
+- id: zeppelin
+  name: Zeppelin
+  author: P001
+  tags:
+    - zeppelin
+  description: Zeppelin
+  matchers:
+    - location: body
+      words:
+        - <title ng-bind="$root.pagetitle">zeppelin</title>
+    - location: body
+      words:
+        - Zeppelin

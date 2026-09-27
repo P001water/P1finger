@@ -1,0 +1,10 @@
+- id: jboss
+  name: Jboss Application Server 7
+  author: P1finger
+  tags:
+    - jboss
+  description: Jboss Application Server 7
+  matchers:
+    - hash:
+        - "937999361"
+      location: favicon

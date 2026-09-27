@@ -1,0 +1,17 @@
+- id: safe3waf
+  name: Safe3WAF
+  author: Fofa
+  tags:
+    - safe3waf
+  description: Safe3WAF
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Safe3WAF
+    - location: header
+      words:
+        - 'Server: Safe3 Web Firewall'
+    - location: header
+      words:
+        - Safe3WAF

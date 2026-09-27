@@ -1,0 +1,11 @@
+- id: haofengtongxunchinaiwbzhineng
+  name: Haofengtongxunchinaiwbzhineng Firewall
+  author: P1finger
+  tags:
+    - haofengtongxunchinaiwbzhineng
+    - firewall
+  description: Haofengtongxunchinaiwbzhineng Firewall
+  matchers:
+    - location: body
+      words:
+        - 皓峰防火墙系统登录

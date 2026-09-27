@@ -1,0 +1,11 @@
+- id: shapetizeryunying
+  name: Shapetizeryunying Management System
+  author: P1finger
+  tags:
+    - shapetizeryunying
+    - management-system
+  description: Shapetizeryunying Management System
+  matchers:
+    - location: body
+      words:
+        - <title>用户登录 - Shapetizer运营管理系统</title>

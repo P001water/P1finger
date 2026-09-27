@@ -1,0 +1,12 @@
+- id: kingsoft-5
+  name: Kingsoft
+  author: P001
+  tags:
+    - kingsoft
+  description: Kingsoft
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - timeon
+        - iepngfix/iepngfix_tilebg.js

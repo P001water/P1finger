@@ -1,0 +1,11 @@
+- id: consul
+  name: Consul
+  author: P1finger
+  tags:
+    - consul
+  description: Consul
+  matchers:
+    - location: body
+      words:
+        - Consul by HashiCorp
+        - consul-ui/config/environment

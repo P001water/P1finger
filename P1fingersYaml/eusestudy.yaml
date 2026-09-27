@@ -1,0 +1,10 @@
+- id: eusestudy
+  name: Eusestudy
+  author: P001
+  tags:
+    - eusestudy
+  description: Eusestudy
+  matchers:
+    - location: body
+      words:
+        - userinfo/userfp.aspx

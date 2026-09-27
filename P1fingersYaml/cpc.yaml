@@ -1,0 +1,11 @@
+- id: cpcwangluobangong
+  name: CPCwangluobangong Management System
+  author: P1finger
+  tags:
+    - cpcwangluobangong
+    - management-system
+  description: CPCwangluobangong Management System
+  matchers:
+    - location: body
+      words:
+        - CPC网络办公管理系统

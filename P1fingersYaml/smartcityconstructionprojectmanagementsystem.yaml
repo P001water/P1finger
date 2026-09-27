@@ -1,0 +1,10 @@
+- id: smartcityconstructionprojectmanagementsystem
+  name: Smartcityconstructionprojectmanagementsystem
+  author: P001
+  tags:
+    - smartcityconstructionprojectmanagementsystem
+  description: Smartcityconstructionprojectmanagementsystem
+  matchers:
+    - location: body
+      words:
+        - id="sitenametitle">智慧城建项目管理系统</p

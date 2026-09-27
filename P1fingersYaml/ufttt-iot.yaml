@@ -1,0 +1,10 @@
+- id: ufttt-iot
+  name: Ufttt-iot
+  author: P001
+  tags:
+    - ufttt-iot
+  description: Ufttt-iot
+  matchers:
+    - location: body
+      words:
+        - src="sdkjs/uftttsdk2.js"

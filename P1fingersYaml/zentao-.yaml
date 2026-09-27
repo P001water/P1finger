@@ -1,0 +1,27 @@
+- id: zentaochandaojichengyunxinghuanjing
+  name: ZenTaochandaojichengyunxinghuanjing
+  author: P001
+  tags:
+    - zentaochandaojichengyunxinghuanjing
+  description: ZenTaochandaojichengyunxinghuanjing
+  matchers:
+    - hash:
+        - d41d8cd98f00b204e9800998ecf8427e
+      location: favicon
+    - condition: and
+      location: body
+      words:
+        - 禅道集成运行环境
+- id: zentaozhuanyebanbangdingyumingfangwencuowuyemian
+  name: ZenTaozhuanyebanbangdingyumingfangwencuowuyemian
+  author: P001
+  tags:
+    - zentaozhuanyebanbangdingyumingfangwencuowuyemian
+  description: ZenTaozhuanyebanbangdingyumingfangwencuowuyemian
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 专业版绑定域名访问错误
+        - Domain Error
+        - www.zentao.pm

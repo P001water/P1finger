@@ -1,0 +1,28 @@
+- id: cimplicity-webview
+  name: Cimplicity-webview
+  author: P1finger
+  tags:
+    - cimplicity-webview
+  description: Cimplicity-webview
+  matchers:
+    - location: body
+      words:
+        - <APPLET NAME="ProwlerClientAppletObject" ARCHIVE="/ProwlerClient.jar
+    - location: header
+      words:
+        - CIMPLICITY-HttpSvr
+- id: cimplicity-webview-2
+  name: Cimplicity-WebView
+  author: Fofa
+  tags:
+    - cimplicity-webview
+  description: Cimplicity-WebView
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - CIMPLICITY-HttpSvr
+    - condition: or
+      location: body
+      words:
+        - <APPLET NAME="ProwlerClientAppletObject" ARCHIVE="/ProwlerClient.jar

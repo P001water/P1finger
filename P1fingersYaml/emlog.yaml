@@ -1,0 +1,17 @@
+- id: emlog-2
+  name: Emlog
+  author: Fofa
+  tags:
+    - emlog
+  description: Emlog
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="emlog
+    - location: body
+      words:
+        - content="emlog"
+    - location: body
+      words:
+        - content="emlog

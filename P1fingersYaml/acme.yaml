@@ -1,0 +1,10 @@
+- id: acme
+  name: Acme
+  author: P1finger
+  tags:
+    - acme
+  description: Acme
+  matchers:
+    - location: header
+      words:
+        - 'Server: Acme'

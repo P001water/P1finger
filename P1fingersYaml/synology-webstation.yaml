@@ -1,0 +1,23 @@
+- id: synology-webstation
+  name: Synology-webstation
+  author: P001
+  tags:
+  - synology
+  - synology-webstation
+  description: Synology-webstation
+  matchers:
+  - location: body
+    words:
+    - id="paragraph">web station has been enabled. to finish setting up your website,
+      please see the "web service
+- id: synology-webstation-2
+  name: Synology WebStation
+  author: P1finger
+  tags:
+  - synology
+  - synology-webstation
+  description: Synology WebStation
+  matchers:
+  - location: body
+    words:
+    - Welcome to Synology Web Station

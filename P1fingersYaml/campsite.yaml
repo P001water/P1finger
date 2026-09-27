@@ -1,0 +1,20 @@
+- id: campsite
+  name: Campsite
+  author: Fofa
+  tags:
+    - campsite
+  description: Campsite
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Campsite
+    - location: body
+      words:
+        - content="Campsite
+    - location: body
+      words:
+        - content="campsite
+    - location: body
+      words:
+        - Campsite

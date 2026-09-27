@@ -1,0 +1,11 @@
+- id: singoocms
+  name: SinGooCMS CMS
+  author: P1finger
+  tags:
+    - singoocms
+    - cms
+  description: SinGooCMS CMS
+  matchers:
+    - location: body
+      words:
+        - SinGooCMS内容管理系统

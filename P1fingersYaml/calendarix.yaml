@@ -1,0 +1,10 @@
+- id: calendarix
+  name: Calendarix
+  author: P1finger
+  tags:
+    - calendarix
+  description: Calendarix
+  matchers:
+    - location: body
+      words:
+        - Calendarix User Login

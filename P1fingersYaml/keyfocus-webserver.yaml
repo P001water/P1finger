@@ -1,0 +1,24 @@
+- id: keyfocus-webserver
+  name: Keyfocus-webserver
+  author: P1finger
+  tags:
+    - keyfocus-webserver
+  description: Keyfocus-webserver
+  matchers:
+    - location: header
+      words:
+        - KFWebServer
+    - location: body
+      words:
+        - 'server: kfwebserver'
+- id: keyfocus-webserver-2
+  name: KeyFocus-WebServer
+  author: Fofa
+  tags:
+    - keyfocus-webserver
+  description: KeyFocus-WebServer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - KFWebServer

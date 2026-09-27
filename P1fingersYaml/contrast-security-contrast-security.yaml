@@ -1,0 +1,10 @@
+- id: contrast-contrast
+  name: Contrast-Security-Contrast-Security
+  author: P1finger
+  tags:
+    - contrast-contrast
+  description: Contrast-Security-Contrast-Security
+  matchers:
+    - location: body
+      words:
+        - Toggle High Contrast

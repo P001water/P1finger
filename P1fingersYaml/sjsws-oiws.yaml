@@ -1,0 +1,25 @@
+- id: sjsws-oiws
+  name: SJSWS_ OiWS
+  author: Fofa
+  tags:
+    - sjsws-oiws
+  description: SJSWS_ OiWS
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Oracle-iPlanet-Web-Server
+    - condition: or
+      location: header
+      words:
+        - Sun-Java-System-Web-Server
+- id: sjsws-oiws-2
+  name: Sjsws_ Oiws
+  author: P1finger
+  tags:
+    - sjsws-oiws
+  description: Sjsws_ Oiws
+  matchers:
+    - location: header
+      words:
+        - Sun-Java-System-Web-Server

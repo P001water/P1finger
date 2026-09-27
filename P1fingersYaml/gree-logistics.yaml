@@ -1,0 +1,10 @@
+- id: gree-logistics
+  name: Gree-logistics
+  author: P001
+  tags:
+    - gree-logistics
+  description: Gree-logistics
+  matchers:
+    - location: body
+      words:
+        - /images/gree/gree.gif

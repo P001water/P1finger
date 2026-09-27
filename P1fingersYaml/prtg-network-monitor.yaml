@@ -1,0 +1,10 @@
+- id: prtg-monitor
+  name: Prtg Network Monitor
+  author: P1finger
+  tags:
+    - prtg-monitor
+  description: Prtg Network Monitor
+  matchers:
+    - hash:
+        - "-655683626"
+      location: favicon

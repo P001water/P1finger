@@ -1,0 +1,14 @@
+- id: glassfish
+  name: Glassfish
+  author: P1finger
+  tags:
+    - glassfish
+  description: Glassfish
+  matchers:
+    - location: header
+      words:
+        - 'Server: GlassFish Server'
+    - condition: and
+      location: header
+      words:
+        - 'Server: GlassFish Server'

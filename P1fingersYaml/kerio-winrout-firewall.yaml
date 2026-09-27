@@ -1,0 +1,10 @@
+- id: kerio-winrout
+  name: Kerio-WinRout-Firewall
+  author: P1finger
+  tags:
+    - kerio-winrout
+  description: Kerio-WinRout-Firewall
+  matchers:
+    - location: body
+      words:
+        - Kerio Clientless SSL-VPN

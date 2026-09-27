@@ -1,0 +1,27 @@
+- id: aspcms
+  name: ASPCMS
+  author: Fofa
+  tags:
+    - aspcms
+  description: ASPCMS
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Powered by ASPCMS
+    - condition: or
+      location: body
+      words:
+        - content="ASPCMS
+    - condition: or
+      location: body
+      words:
+        - /inc/AspCms_AdvJs.asp
+    - location: body
+      words:
+        - Powered by ASPCMS
+        - content="ASPCMS
+        - /inc/AspCms_AdvJs.asp
+    - location: body
+      words:
+        - src="/inc/AspCms

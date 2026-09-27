@@ -1,0 +1,11 @@
+- id: feiwab2b2c-mall-system
+  name: FeiWaB2B2C Mall System
+  author: P1finger
+  tags:
+    - feiwab2b2c
+    - mall-system
+  description: FeiWaB2B2C Mall System
+  matchers:
+    - location: body
+      words:
+        - Powered by feiwa

@@ -1,0 +1,10 @@
+- id: microweber
+  name: Microweber
+  author: P1finger
+  tags:
+    - microweber
+  description: Microweber
+  matchers:
+    - location: body
+      words:
+        - /userfiles/modules/microweber/

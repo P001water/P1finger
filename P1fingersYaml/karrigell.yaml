@@ -1,0 +1,17 @@
+- id: karrigell
+  name: Karrigell
+  author: Fofa
+  tags:
+    - karrigell
+  description: Karrigell
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Karrigell
+    - location: header
+      words:
+        - Karrigell
+    - location: body
+      words:
+        - 'server: karrigell'

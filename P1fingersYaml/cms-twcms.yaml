@@ -1,0 +1,10 @@
+- id: twcms
+  name: CMS-TWCMS
+  author: P001
+  tags:
+    - twcms
+  description: CMS-TWCMS
+  matchers:
+    - location: body
+      words:
+        - href="/twcms/theme/default/css/global.css"

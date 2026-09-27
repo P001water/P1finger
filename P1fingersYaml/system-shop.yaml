@@ -1,0 +1,10 @@
+- id: shop
+  name: System-Shop
+  author: P1finger
+  tags:
+    - shop
+  description: System-Shop
+  matchers:
+    - location: body
+      words:
+        - content="Offizieller Time/system Shop

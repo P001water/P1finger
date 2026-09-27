@@ -1,0 +1,16 @@
+- id: sonarqube
+  name: Sonarqube
+  author: P1finger
+  tags:
+    - sonarqube
+  description: Sonarqube
+  matchers:
+    - location: body
+      words:
+        - SonarQube
+    - hash:
+        - "1485257654"
+      location: favicon
+    - location: body
+      words:
+        - content="sonarqube

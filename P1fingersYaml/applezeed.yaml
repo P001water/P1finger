@@ -1,0 +1,10 @@
+- id: applezeed
+  name: Applezeed
+  author: P1finger
+  tags:
+    - applezeed
+  description: Applezeed
+  matchers:
+    - location: body
+      words:
+        - applezeed.com

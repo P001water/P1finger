@@ -1,0 +1,19 @@
+- id: barracuda-spam
+  name: Barracuda-Spam-Firewall
+  author: Fofa
+  tags:
+    - barracuda-spam
+  description: Barracuda-Spam-Firewall
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - 'Barracuda Spam & Virus Firewall: Welcome'
+    - condition: or
+      location: body
+      words:
+        - /barracuda.css
+    - condition: or
+      location: body
+      words:
+        - http://www.barracudanetworks.com?a=bsf_product

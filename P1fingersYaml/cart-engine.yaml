@@ -1,0 +1,14 @@
+- id: cart-engine
+  name: Cart_engine
+  author: Fofa
+  tags:
+    - cart-engine
+  description: Cart_engine
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - skins/_common/jscripts.css
+    - location: body
+      words:
+        - skins/_common/jscripts.css

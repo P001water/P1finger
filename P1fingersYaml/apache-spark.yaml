@@ -1,0 +1,16 @@
+- id: apache-spark
+  name: Apache Spark
+  author: P1finger
+  tags:
+  - spark
+  - apache
+  - apache-spark
+  description: Apache Spark
+  matchers:
+  - hash:
+    - '856048515'
+    location: favicon
+  - location: body
+    words:
+    - Spark Master
+    - /spark-logo

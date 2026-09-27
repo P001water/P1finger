@@ -1,0 +1,10 @@
+- id: jeeplus
+  name: Jeeplus
+  author: P1finger
+  tags:
+    - jeeplus
+  description: Jeeplus
+  matchers:
+    - location: header
+      words:
+        - jeeplus.session

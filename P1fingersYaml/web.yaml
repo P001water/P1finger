@@ -1,0 +1,159 @@
+- id: anxinhuawebruodianceshi2012
+  name: AnxinhuaWebruodianceshi2012 System
+  author: P1finger
+  tags:
+    - anxinhuawebruodianceshi2012
+    - system
+  description: AnxinhuaWebruodianceshi2012 System
+  matchers:
+    - location: body
+      words:
+        - 安信华Web弱点测试系统2012 - 登陆
+- id: webfangcuangai
+  name: WEBfangcuangai Management System
+  author: P1finger
+  tags:
+    - webfangcuangai
+    - management-system
+  description: WEBfangcuangai Management System
+  matchers:
+    - location: body
+      words:
+        - 防火墙WEB防篡改管理系统
+- id: huaqingxinanweb-waf
+  name: HuaqingxinanWeb WAF
+  author: P1finger
+  tags:
+    - huaqingxinanweb
+    - waf
+  description: HuaqingxinanWeb WAF
+  matchers:
+    - location: body
+      words:
+        - 华清信安Web应用防火墙系统
+- id: bluedon-system-6
+  name: Bluedon System
+  author: P1finger
+  tags:
+    - bluedon
+    - system
+  description: Bluedon System
+  matchers:
+    - location: body
+      words:
+        - 蓝盾WEB应用防护系统
+- id: mingyuweb-waf
+  name: Mingyuweb WAF
+  author: P1finger
+  tags:
+    - mingyuweb
+    - waf
+  description: Mingyuweb WAF
+  matchers:
+    - location: body
+      words:
+        - 明御web应用防火墙
+        - <img id="company_logo" src="images/waf.company.png
+- id: tianjingwebyingyongjiance
+  name: Tianjingwebyingyongjiance System
+  author: P1finger
+  tags:
+    - tianjingwebyingyongjiance
+    - system
+  description: Tianjingwebyingyongjiance System
+  matchers:
+    - location: body
+      words:
+        - 天镜web应用检测系统
+- id: tianqingweb-waf-gateway
+  name: Tianqingweb WAF Gateway
+  author: P1finger
+  tags:
+    - tianqingweb
+    - waf-gateway
+  description: Tianqingweb WAF Gateway
+  matchers:
+    - location: body
+      words:
+        - 天清web应用安全网关
+- id: wangyuwebyingyonganquanfanghu
+  name: WangyuWebyingyonganquanfanghu System
+  author: P1finger
+  tags:
+    - wangyuwebyingyonganquanfanghu
+    - system
+  description: WangyuWebyingyonganquanfanghu System
+  matchers:
+    - location: body
+      words:
+        - 网御Web应用安全防护系统
+- id: dbappsecurity-waf
+  name: DBAppSecurity WAF
+  author: P001
+  tags:
+    - dbappsecurity
+    - waf
+  description: DBAppSecurity WAF
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - scripts/app.waf.system.login.js
+        - 明御web应用防火墙
+- id: dahanweb
+  name: Dahanweb
+  author: P1finger
+  tags:
+    - dahanweb
+  description: Dahanweb
+  matchers:
+    - location: body
+      words:
+        - hanweb.css
+- id: venustech-waf-gateway
+  name: Venustech WAF Gateway
+  author: P001
+  tags:
+    - venustech
+    - waf-gateway
+  description: Venustech WAF Gateway
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - v2/global/vendor/modernizr/modernizr.js
+        - 天清web应用安全网关
+- id: tianxintiansiweb
+  name: TianxintiansiWEB Management Platform
+  author: P1finger
+  tags:
+    - tianxintiansiweb
+    - management-platform
+  description: TianxintiansiWEB Management Platform
+  matchers:
+    - location: body
+      words:
+        - <title>天心天思WEB管理平台</title>
+- id: yongzhongweboffice
+  name: YongzhongWebOffice
+  author: P1finger
+  tags:
+    - yongzhongweboffice
+  description: YongzhongWebOffice
+  matchers:
+    - hash:
+        - "110170773"
+      location: favicon
+    - location: body
+      words:
+        - Web Office
+- id: zhongsouwebfuwuqi
+  name: ZhongsouWEBfuwuqi
+  author: P1finger
+  tags:
+    - zhongsouwebfuwuqi
+  description: ZhongsouWEBfuwuqi
+  matchers:
+    - location: header
+      words:
+        - ASUSTeK UPnP/1.0 MiniUPnPd/1.4 AirTies/ASP 1.0 UPnP/1.0 miniupnpd/1.0 Apache-Coyote/1.1 Boa/0.94.13 Boa/0.94.14rc21 Camera Web Server CouchDB/1.6.1 (Erlang OTP/18) Cross Web Server DNVRS-Webs DVRDVS-Webs DasanNetwork Solution Debian/4.0 UPnP/1.0 miniupnpd/1.0 DWS GoAhead-Webs HTTP Server Hikvision-Webs IPCamera-Webs JAWS/1.0 Jan 21 2017

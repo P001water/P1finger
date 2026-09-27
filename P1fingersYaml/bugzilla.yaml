@@ -1,0 +1,35 @@
+- id: bugzilla
+  name: Bugzilla
+  author: Fofa
+  tags:
+    - bugzilla
+  description: Bugzilla
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - enter_bug.cgi
+    - condition: or
+      location: body
+      words:
+        - /cgi-bin/bugzilla/
+    - condition: or
+      location: header
+      words:
+        - Bugzilla_login_request_cookie
+    - condition: or
+      location: title
+      words:
+        - Bugzilla Main Page
+    - location: body
+      words:
+        - enter_bug.cgi
+        - /cgi-bin/bugzilla/
+        - Bugzilla Main Page
+    - location: header
+      words:
+        - Bugzilla_login_request_cookie
+    - location: body
+      words:
+        - /cgi-bin/bugzilla/
+        - enter_bug.cgi

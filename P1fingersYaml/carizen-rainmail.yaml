@@ -1,0 +1,12 @@
+- id: carizen-rainmail
+  name: Carizen-rainmail
+  author: P001
+  tags:
+    - carizen-rainmail
+  description: Carizen-rainmail
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - '.: <b>rainmail intranet login </b> :.</div>'
+        - href="/resources/rainmailvpninstaller.exe

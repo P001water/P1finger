@@ -1,0 +1,29 @@
+- id: fudforum
+  name: FUDforum
+  author: Fofa
+  tags:
+    - fudforum
+  description: FUDforum
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - 'Powered by: FUDforum'
+    - condition: or
+      location: header
+      words:
+        - fud_session_
+    - condition: or
+      location: body
+      words:
+        - /adm/admloginuser.php
+    - location: body
+      words:
+        - 'Powered by: FUDforum'
+        - /adm/admloginuser.php
+    - location: header
+      words:
+        - fud_session_
+    - location: body
+      words:
+        - 'powered by: fudforum'

@@ -1,0 +1,33 @@
+- id: avocent-dsview
+  name: Avocent-dsview
+  author: P1finger
+  tags:
+    - avocent-dsview
+  description: Avocent-dsview
+  matchers:
+    - location: body
+      words:
+        - /dsview/images/favicon.ico
+        - /dsview/protected/login.do
+    - location: header
+      words:
+        - Avocent DSView
+- id: avocent-dsview-2
+  name: Avocent-DSView
+  author: Fofa
+  tags:
+    - avocent-dsview
+  description: Avocent-DSView
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Avocent DSView
+    - condition: or
+      location: body
+      words:
+        - /dsview/images/favicon.ico
+    - condition: or
+      location: body
+      words:
+        - /dsview/protected/login.do

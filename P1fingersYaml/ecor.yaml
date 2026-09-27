@@ -1,0 +1,14 @@
+- id: ecor
+  name: ECOR
+  author: Fofa
+  tags:
+    - ecor
+  description: ECOR
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ECOR264
+    - location: header
+      words:
+        - ECOR264

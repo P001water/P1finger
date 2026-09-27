@@ -1,0 +1,11 @@
+- id: tpadmin
+  name: TpAdmin
+  author: P1finger
+  tags:
+    - tpadmin
+  description: TpAdmin
+  matchers:
+    - location: body
+      words:
+        - tpAdmin
+        - content="tpadmin

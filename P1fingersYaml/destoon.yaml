@@ -1,0 +1,27 @@
+- id: destoon
+  name: Destoon
+  author: Fofa
+  tags:
+    - destoon
+  description: Destoon
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - <meta name="generator" content="Destoon
+    - condition: or
+      location: body
+      words:
+        - destoon_moduleid
+    - location: body
+      words:
+        - <meta name="generator" content="Destoon
+        - destoon_moduleid
+    - location: body
+      words:
+        - content="destoon
+        - destoon_moduleid
+    - location: body
+      words:
+        - id="destoon
+        - content="destoon

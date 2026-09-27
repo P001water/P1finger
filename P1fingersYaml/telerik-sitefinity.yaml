@@ -1,0 +1,43 @@
+- id: telerik-sitefinity
+  name: Telerik Sitefinity
+  author: Fofa
+  tags:
+  - telerik
+  - telerik-sitefinity
+  description: Telerik Sitefinity
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - Telerik.Web.UI.WebResource.axd
+  - condition: or
+    location: body
+    words:
+    - content="Sitefinity
+- id: telerik-sitefinity-2
+  name: Telerik-sitefinity
+  author: P001
+  tags:
+  - telerik
+  - telerik-sitefinity
+  description: Telerik-sitefinity
+  matchers:
+  - location: body
+    words:
+    - content="sitefinity
+    - telerik.web.ui.webresource.axd
+- id: telerik-sitefinity-3
+  name: Telerik Sitefinity
+  author: P1finger
+  tags:
+  - telerik
+  - telerik-sitefinity
+  description: Telerik Sitefinity
+  matchers:
+  - location: body
+    words:
+    - Telerik.Web.UI.WebResource.axd
+    - content="Sitefinity
+  - location: body
+    words:
+    - class="Telerik_stylesheet"

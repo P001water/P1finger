@@ -1,0 +1,11 @@
+- id: zhongqidonglizshopyewuzhicheng
+  name: ZhongqidongliZshopyewuzhicheng System
+  author: P1finger
+  tags:
+    - zhongqidonglizshopyewuzhicheng
+    - system
+  description: ZhongqidongliZshopyewuzhicheng System
+  matchers:
+    - location: body
+      words:
+        - Zshop业务支撑系统

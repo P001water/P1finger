@@ -1,0 +1,11 @@
+- id: sundrayqiye-firewall
+  name: Sundrayqiye Firewall
+  author: P001
+  tags:
+    - sundrayqiye
+    - firewall
+  description: Sundrayqiye Firewall
+  matchers:
+    - location: body
+      words:
+        - help = decodeuricomponent(version_info_ch)

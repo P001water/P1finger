@@ -1,0 +1,10 @@
+- id: archery
+  name: Archery
+  author: P1finger
+  tags:
+    - archery
+  description: Archery
+  matchers:
+    - location: body
+      words:
+        - Archery</strong>

@@ -1,0 +1,10 @@
+- id: strapi
+  name: Strapi
+  author: P1finger
+  tags:
+    - strapi
+  description: Strapi
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-By: Strapi'

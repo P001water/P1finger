@@ -1,0 +1,10 @@
+- id: mathematicalsciencescms
+  name: MathematicalSciencesCMS
+  author: P1finger
+  tags:
+    - mathematicalsciencescms
+  description: MathematicalSciencesCMS
+  matchers:
+    - location: header
+      words:
+        - 'ww-Authenticate: Basic realm="MATHEMA CMS"'

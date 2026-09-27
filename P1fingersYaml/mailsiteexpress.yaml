@@ -1,0 +1,11 @@
+- id: mailsiteexpress
+  name: Mailsiteexpress
+  author: P001
+  tags:
+    - mailsiteexpress
+  description: Mailsiteexpress
+  matchers:
+    - location: body
+      words:
+        - onsubmit="openexpress(document.expresslogin)
+        - rockliffe systems, inc.

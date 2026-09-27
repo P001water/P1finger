@@ -1,0 +1,11 @@
+- id: redsealredsealshuzifangyu
+  name: RedSealRedSealshuzifangyu Platform
+  author: P1finger
+  tags:
+    - redsealredsealshuzifangyu
+    - platform
+  description: RedSealRedSealshuzifangyu Platform
+  matchers:
+    - location: body
+      words:
+        - <title>RedSeal</title>

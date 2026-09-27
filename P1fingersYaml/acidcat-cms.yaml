@@ -1,0 +1,51 @@
+- id: acidcat
+  name: Acidcat CMS
+  author: Fofa
+  tags:
+    - acidcat
+  description: Acidcat CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Acidcat CMS
+    - condition: or
+      location: body
+      words:
+        - Start Acidcat CMS footer information
+    - condition: or
+      location: body
+      words:
+        - /css/admin_import.css
+- id: acidcat-2
+  name: Acidcat_CMS
+  author: Fofa
+  tags:
+    - acidcat
+  description: Acidcat_CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Start Acidcat CMS footer information
+    - condition: or
+      location: body
+      words:
+        - Powered by Acidcat CMS
+    - location: body
+      words:
+        - www.acidcat.com
+        - Powered by Acidcat CMS
+- id: acidcat-3
+  name: Acidcat Cms
+  author: P1finger
+  tags:
+    - acidcat
+  description: Acidcat Cms
+  matchers:
+    - location: body
+      words:
+        - Acidcat
+    - location: body
+      words:
+        - Powered by Acidcat CMS

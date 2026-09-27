@@ -1,0 +1,10 @@
+- id: segpub
+  name: SegPub
+  author: P1finger
+  tags:
+    - segpub
+  description: SegPub
+  matchers:
+    - location: body
+      words:
+        - <span>SegPub</span>

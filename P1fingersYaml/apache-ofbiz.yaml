@@ -1,0 +1,25 @@
+- id: apache-ofbiz
+  name: Apache-ofbiz
+  author: P001
+  tags:
+  - apache
+  - apache-ofbiz
+  description: Apache-ofbiz
+  matchers:
+  - location: body
+    words:
+    - <span>powered by ofbiz</span>
+- id: apache-ofbiz-2
+  name: Apache OFBiz
+  author: P1finger
+  tags:
+  - apache
+  - apache-ofbiz
+  description: Apache OFBiz
+  matchers:
+  - location: body
+    words:
+    - Apache OFBiz
+  - location: header
+    words:
+    - 'Set-Cookie: OFBiz.Visitor'

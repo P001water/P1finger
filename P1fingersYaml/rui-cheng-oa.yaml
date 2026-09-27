@@ -1,0 +1,10 @@
+- id: rui-cheng
+  name: Rui-cheng-oa
+  author: P001
+  tags:
+    - rui-cheng
+  description: Rui-cheng-oa
+  matchers:
+    - location: body
+      words:
+        - 杭州瑞成信息技术有限公司

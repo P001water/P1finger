@@ -1,0 +1,10 @@
+- id: hitachi-utility
+  name: Hitachi-maintenance-utility
+  author: P001
+  tags:
+    - hitachi-utility
+  description: Hitachi-maintenance-utility
+  matchers:
+    - location: body
+      words:
+        - __gwt_historyframe

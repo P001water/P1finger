@@ -1,0 +1,10 @@
+- id: vigor-2
+  name: Vigor
+  author: P1finger
+  tags:
+    - vigor
+  description: Vigor
+  matchers:
+    - location: body
+      words:
+        - Vigor 登录页面

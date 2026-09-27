@@ -1,0 +1,10 @@
+- id: weblinc-workarea
+  name: WebLinc Workarea
+  author: P1finger
+  tags:
+    - weblinc-workarea
+  description: WebLinc Workarea
+  matchers:
+    - location: header
+      words:
+        - 'Server: Workarea Commerce'

@@ -1,0 +1,10 @@
+- id: wdscms
+  name: WDSCMS
+  author: P1finger
+  tags:
+    - wdscms
+  description: WDSCMS
+  matchers:
+    - location: body
+      words:
+        - src="wds_cms/bilder/

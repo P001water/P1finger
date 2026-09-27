@@ -1,0 +1,11 @@
+- id: phpfox
+  name: Phpfox
+  author: P001
+  tags:
+    - phpfox
+  description: Phpfox
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.phpfox.com
+        - powered by phpfox

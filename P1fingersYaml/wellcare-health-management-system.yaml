@@ -1,0 +1,11 @@
+- id: wellcare-health
+  name: Wellcare-health-management-system
+  author: P001
+  tags:
+    - wellcare-health
+  description: Wellcare-health-management-system
+  matchers:
+    - location: body
+      words:
+        - href="/web/vfyphrmedical">健康档案</a></li>
+        - www.wellcare.cn

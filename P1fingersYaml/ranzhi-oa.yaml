@@ -1,0 +1,10 @@
+- id: ranzhi
+  name: Ranzhi-oa
+  author: P001
+  tags:
+    - ranzhi
+  description: Ranzhi-oa
+  matchers:
+    - location: body
+      words:
+        - /sys/index.php?m=user&f=login&referer=

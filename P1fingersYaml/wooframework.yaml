@@ -1,0 +1,10 @@
+- id: wooframework
+  name: WooFramework
+  author: P1finger
+  tags:
+    - wooframework
+  description: WooFramework
+  matchers:
+    - location: body
+      words:
+        - content="WooFramework

@@ -1,0 +1,28 @@
+- id: expressionengine
+  name: ExpressionEngine
+  author: Fofa
+  tags:
+    - expressionengine
+  description: ExpressionEngine
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - exp_last_visit
+    - condition: or
+      location: header
+      words:
+        - exp_last_activity
+    - condition: or
+      location: body
+      words:
+        - exp_tracker
+    - location: body
+      words:
+        - exp_tracker
+    - location: header
+      words:
+        - exp_last_activity
+    - location: body
+      words:
+        - Powered by ExpressionEngine

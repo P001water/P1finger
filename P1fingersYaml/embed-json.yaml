@@ -1,0 +1,11 @@
+- id: embed-json
+  name: Embed JSON
+  author: Fofa
+  tags:
+    - embed-json
+  description: Embed JSON
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - application/json

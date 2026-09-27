@@ -1,0 +1,10 @@
+- id: openerp
+  name: Openerp
+  author: P1finger
+  tags:
+    - openerp
+  description: Openerp
+  matchers:
+    - hash:
+        - "1966198264"
+      location: favicon

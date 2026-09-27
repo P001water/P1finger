@@ -1,0 +1,12 @@
+- id: apache-oozie
+  name: Apache-oozie-web-console
+  author: P001
+  tags:
+  - apache
+  - apache-oozie
+  description: Apache-oozie-web-console
+  matchers:
+  - location: body
+    words:
+    - href="/oozie">oozie console
+    - oozie-console

@@ -1,0 +1,26 @@
+- id: iptime
+  name: Iptime-router
+  author: P1finger
+  tags:
+    - iptime
+  description: Iptime-router
+  matchers:
+    - location: body
+      words:
+        - networks - ipTIME
+        - href=iptime.css
+- id: iptime-2
+  name: IpTIME-Router
+  author: Fofa
+  tags:
+    - iptime
+  description: IpTIME-Router
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - networks - ipTIME
+    - condition: or
+      location: body
+      words:
+        - href=iptime.css

@@ -1,0 +1,14 @@
+- id: thawte-ssl-cert
+  name: Thawte_ssl_cert
+  author: Fofa
+  tags:
+    - thawte-ssl-cert
+  description: Thawte_ssl_cert
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - https://seal.thawte.com/getthawteseal
+    - location: body
+      words:
+        - https://seal.thawte.com/getthawteseal

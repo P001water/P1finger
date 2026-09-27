@@ -1,0 +1,11 @@
+- id: semaphore
+  name: Semaphore
+  author: P001
+  tags:
+    - semaphore
+  description: Semaphore
+  matchers:
+    - location: body
+      words:
+        - alt="powered by semaphore"
+        - www.smartlogic.com

@@ -1,0 +1,13 @@
+- id: fuwuqixunihuaovp
+  name: FuwuqixunihuaOVP
+  author: P1finger
+  tags:
+    - fuwuqixunihuaovp
+  description: FuwuqixunihuaOVP
+  matchers:
+    - location: body
+      words:
+        - '"ovp2/css/ext-ovp.css"'
+    - location: header
+      words:
+        - OVP

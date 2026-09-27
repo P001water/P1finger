@@ -1,0 +1,12 @@
+- id: tiger-ip-connect
+  name: Tiger-ip-connect
+  author: P001
+  tags:
+    - tiger-ip-connect
+  description: Tiger-ip-connect
+  matchers:
+    - location: body
+      words:
+        - /include/tiger.css
+        - <link rel="stylesheet" href="/include/firedigit.css">
+        - <link rel="stylesheet" href="/include/tms.css">

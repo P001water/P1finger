@@ -1,0 +1,24 @@
+- id: zotonic
+  name: Zotonic
+  author: Fofa
+  tags:
+    - zotonic
+  description: Zotonic
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - 'powered by: Zotonic'
+    - condition: or
+      location: body
+      words:
+        - /lib/js/apps/zotonic-1.0
+    - location: body
+      words:
+        - 'powered by: Zotonic'
+        - /lib/js/apps/zotonic-1.0
+    - condition: and
+      location: body
+      words:
+        - /lib/js/apps/zotonic-1.0
+        - 'powered by: zotonic'

@@ -1,0 +1,10 @@
+- id: intelbras-sa
+  name: Intelbras Sa
+  author: P1finger
+  tags:
+    - intelbras-sa
+  description: Intelbras Sa
+  matchers:
+    - hash:
+        - "-1343070146"
+      location: favicon

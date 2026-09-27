@@ -1,0 +1,10 @@
+- id: eova
+  name: EOVA
+  author: P1finger
+  tags:
+    - eova
+  description: EOVA
+  matchers:
+    - location: body
+      words:
+        - EOVA

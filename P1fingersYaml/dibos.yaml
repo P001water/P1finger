@@ -1,0 +1,19 @@
+- id: dibos
+  name: DiBos
+  author: Fofa
+  tags:
+    - dibos
+  description: DiBos
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - DiBos - Login
+    - condition: or
+      location: body
+      words:
+        - style/bovisnt.css
+    - location: body
+      words:
+        - DiBos - Login
+        - style/bovisnt.css

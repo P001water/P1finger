@@ -1,0 +1,11 @@
+- id: colasoft-information-comprehensive-detection-processing
+  name: Colasoft-network-information-comprehensive-detection-and-processing-platform
+  author: P001
+  tags:
+    - colasoft-information-comprehensive-detection-processing
+  description: Colasoft-network-information-comprehensive-detection-and-processing-platform
+  matchers:
+    - location: body
+      words:
+        - <meta name="colasoft"
+        - 科来网络信息综合检测处理平台

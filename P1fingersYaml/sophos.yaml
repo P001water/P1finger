@@ -1,0 +1,27 @@
+- id: sophos
+  name: Sophos
+  author: Fofa
+  tags:
+    - sophos
+  description: Sophos
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Sophos
+    - location: header
+      words:
+        - Sophos
+- id: sophosanquanchanpin-2
+  name: Sophosanquanchanpin
+  author: P1finger
+  tags:
+    - sophosanquanchanpin
+  description: Sophosanquanchanpin
+  matchers:
+    - hash:
+        - "1601194732"
+      location: favicon
+    - location: body
+      words:
+        - Sophos

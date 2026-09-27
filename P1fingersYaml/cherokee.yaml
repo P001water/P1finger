@@ -1,0 +1,17 @@
+- id: cherokee
+  name: Cherokee
+  author: Fofa
+  tags:
+    - cherokee
+  description: Cherokee
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - Cherokee
+    - location: header
+      words:
+        - Cherokee
+    - location: body
+      words:
+        - 'server: cherokee'

@@ -1,0 +1,10 @@
+- id: siemens-ozw772
+  name: Siemens Ozw772
+  author: P1finger
+  tags:
+    - siemens-ozw772
+  description: Siemens Ozw772
+  matchers:
+    - hash:
+        - "-336242473"
+      location: favicon

@@ -1,0 +1,14 @@
+- id: bocaiwangluobocweb
+  name: BocaiwangluoBocweb
+  author: P1finger
+  tags:
+    - bocaiwangluobocweb
+  description: BocaiwangluoBocweb
+  matchers:
+    - location: body
+      words:
+        - content="杭州博采网络科技股份有限公司
+        - /bocweb/
+    - location: header
+      words:
+        - /bocweb/

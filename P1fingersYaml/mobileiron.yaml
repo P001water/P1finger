@@ -1,0 +1,10 @@
+- id: mobileiron
+  name: Mobileiron
+  author: P1finger
+  tags:
+    - mobileiron
+  description: Mobileiron
+  matchers:
+    - hash:
+        - "2086228042"
+      location: favicon

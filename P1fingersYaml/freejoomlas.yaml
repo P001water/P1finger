@@ -1,0 +1,10 @@
+- id: freejoomlas
+  name: Freejoomlas
+  author: P001
+  tags:
+    - freejoomlas
+  description: Freejoomlas
+  matchers:
+    - location: body
+      words:
+        - <a title="free joomla hosting" href="http://freejoomlas.com

@@ -1,0 +1,31 @@
+- id: argosoft
+  name: Argosoft-mail-server
+  author: P1finger
+  tags:
+    - argosoft
+  description: Argosoft-mail-server
+  matchers:
+    - location: body
+      words:
+        - ArGoSoft Mail Server Plus for
+    - location: header
+      words:
+        - ArGoSoft Mail Server
+    - location: body
+      words:
+        - argosoft mail server plus for
+- id: argosoft-2
+  name: ArGoSoft-Mail-Server
+  author: Fofa
+  tags:
+    - argosoft
+  description: ArGoSoft-Mail-Server
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ArGoSoft Mail Server
+    - condition: or
+      location: body
+      words:
+        - ArGoSoft Mail Server Plus for

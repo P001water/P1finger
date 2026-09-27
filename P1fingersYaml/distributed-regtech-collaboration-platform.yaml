@@ -1,0 +1,10 @@
+- id: distributed-regtech-collaboration
+  name: Distributed-regtech-collaboration-platform
+  author: P001
+  tags:
+    - distributed-regtech-collaboration
+  description: Distributed-regtech-collaboration-platform
+  matchers:
+    - location: body
+      words:
+        - <span class="blue bolder">drc</span>

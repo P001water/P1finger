@@ -1,0 +1,10 @@
+- id: nproxydailigongju
+  name: NProxydailigongju
+  author: P1finger
+  tags:
+    - nproxydailigongju
+  description: NProxydailigongju
+  matchers:
+    - location: header
+      words:
+        - 'Server: nProxy'

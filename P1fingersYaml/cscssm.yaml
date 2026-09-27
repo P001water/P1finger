@@ -1,0 +1,14 @@
+- id: cscssm
+  name: CSCSSM
+  author: Fofa
+  tags:
+    - cscssm
+  description: CSCSSM
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - CSCSSM
+    - location: header
+      words:
+        - CSCSSM

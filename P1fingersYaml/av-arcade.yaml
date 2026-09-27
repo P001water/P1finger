@@ -1,0 +1,24 @@
+- id: av-arcade
+  name: Av-arcade
+  author: P1finger
+  tags:
+    - av-arcade
+  description: Av-arcade
+  matchers:
+    - location: body
+      words:
+        - Powered by <a href="http://www.avscripts.net/avarcade/
+    - location: body
+      words:
+        - powered by <a href="http://www.avscripts.net/avarcade/
+- id: av-arcade-2
+  name: AV-Arcade
+  author: Fofa
+  tags:
+    - av-arcade
+  description: AV-Arcade
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Powered by <a href="http://www.avscripts.net/avarcade/

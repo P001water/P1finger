@@ -1,0 +1,19 @@
+- id: opensns
+  name: OpenSNS
+  author: Fofa
+  tags:
+    - opensns
+  description: OpenSNS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - opensns")
+    - condition: or
+      location: body
+      words:
+        - content="OpenSNS
+    - location: body
+      words:
+        - opensns
+        - content="OpenSNS

@@ -1,0 +1,13 @@
+- id: mybb
+  name: Mybb
+  author: P001
+  tags:
+    - mybb
+  description: Mybb
+  matchers:
+    - location: body
+      words:
+        - <!-- mybb is free software developed and maintained
+        - onchange="mybb.changelanguage();
+        - powered by <a href="http://www.mybboard.com
+        - visibility of the mybb copyright at any time

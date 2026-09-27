@@ -1,0 +1,12 @@
+- id: wygk
+  name: Wygk-product
+  author: P001
+  tags:
+    - wygk
+  description: Wygk-product
+  matchers:
+    - location: body
+      words:
+        - <a href="mailto:webmaster@wrzc.net
+        - href="wrzcnet.ico
+        - url = 'wrzcnet_vote.asp?slocation=view';

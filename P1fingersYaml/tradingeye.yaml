@@ -1,0 +1,11 @@
+- id: tradingeye
+  name: Tradingeye
+  author: P001
+  tags:
+    - tradingeye
+  description: Tradingeye
+  matchers:
+    - location: body
+      words:
+        - content="dpivision.com ltd" />
+        - id="credits"><a href="http://www.tradingeye.com/">powered by tradingeye</a>

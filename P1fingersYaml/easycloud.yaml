@@ -1,0 +1,10 @@
+- id: easycloud
+  name: Easycloud
+  author: P001
+  tags:
+    - easycloud
+  description: Easycloud
+  matchers:
+    - location: body
+      words:
+        - <h1 class="white">云资源管控平台</h1>

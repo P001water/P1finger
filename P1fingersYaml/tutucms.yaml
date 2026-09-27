@@ -1,0 +1,27 @@
+- id: tutucms
+  name: Tutucms
+  author: Fofa
+  tags:
+    - tutucms
+  description: Tutucms
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="TUTUCMS
+    - condition: or
+      location: body
+      words:
+        - Powered by TUTUCMS
+    - condition: or
+      location: body
+      words:
+        - TUTUCMS
+    - location: body
+      words:
+        - content="TUTUCMS
+        - Powered by TUTUCMS
+        - TUTUCMS"
+    - location: body
+      words:
+        - Powered by TUTUCMS

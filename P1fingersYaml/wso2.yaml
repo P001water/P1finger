@@ -1,0 +1,10 @@
+- id: wso2apiguanli
+  name: WSO2APIguanli
+  author: P1finger
+  tags:
+    - wso2apiguanli
+  description: WSO2APIguanli
+  matchers:
+    - location: body
+      words:
+        - WSO2 Management Console

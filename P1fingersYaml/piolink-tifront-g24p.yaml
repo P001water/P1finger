@@ -1,0 +1,10 @@
+- id: piolink-tifront-g24p
+  name: PIOLINK TiFRONT G24P
+  author: P1finger
+  tags:
+    - piolink-tifront-g24p
+  description: PIOLINK TiFRONT G24P
+  matchers:
+    - location: body
+      words:
+        - tifront-g24p

@@ -1,0 +1,15 @@
+- id: "313"
+  name: 313 Self-Service Website Builder
+  author: Fofa
+  tags:
+    - "313"
+    - self-service-website-builder
+  description: 313 Self-Service Website Builder
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 313CMS
+    - location: header
+      words:
+        - 313CMS

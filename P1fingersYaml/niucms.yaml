@@ -1,0 +1,14 @@
+- id: niucms
+  name: Niucms
+  author: Fofa
+  tags:
+    - niucms
+  description: Niucms
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="NIUCMS
+    - location: body
+      words:
+        - content="NIUCMS

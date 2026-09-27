@@ -1,0 +1,10 @@
+- id: ahnlab-trusguard-ssl
+  name: Ahnlab-trusguard-ssl-vpn
+  author: P001
+  tags:
+    - ahnlab-trusguard-ssl
+  description: Ahnlab-trusguard-ssl-vpn
+  matchers:
+    - location: body
+      words:
+        - trusguard ssl vpn client

@@ -1,0 +1,26 @@
+- id: adobe-robohelp
+  name: Adobe-robohelp
+  author: P001
+  tags:
+  - adobe
+  - adobe-robohelp
+  description: Adobe-robohelp
+  matchers:
+  - location: body
+    words:
+    - generator" content="adobe robohelp
+- id: adobe-robohelp-2
+  name: Adobe_RoboHelp
+  author: Fofa
+  tags:
+  - adobe
+  - adobe-robohelp
+  description: Adobe_RoboHelp
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - generator" content="Adobe RoboHelp
+  - location: body
+    words:
+    - generator" content="Adobe RoboHelp

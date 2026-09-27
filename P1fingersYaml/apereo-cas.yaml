@@ -1,0 +1,20 @@
+- id: apereo-cas
+  name: Apereo-cas
+  author: P001
+  tags:
+    - apereo-cas
+  description: Apereo-cas
+  matchers:
+    - location: body
+      words:
+        - cas &#8211; central authentication service
+- id: apereo-cas-2
+  name: Apereo CAS
+  author: P1finger
+  tags:
+    - apereo-cas
+  description: Apereo CAS
+  matchers:
+    - location: body
+      words:
+        - Jasig Central Authentication Service

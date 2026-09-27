@@ -1,0 +1,41 @@
+- id: easysite
+  name: Easysite
+  author: Fofa
+  tags:
+    - easysite
+  description: Easysite
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - GENERATOR" content="EasySite
+    - condition: or
+      location: body
+      words:
+        - Copyright 2009 by Huilan
+    - condition: or
+      location: body
+      words:
+        - _DesktopModules_PictureNews
+    - condition: or
+      location: header
+      words:
+        - EasySite-Compression
+    - location: body
+      words:
+        - _desktopmodules_picturenews
+        - copyright 2009 by huilan
+        - generator" content="easysite
+- id: zhongkehuilianeasysite
+  name: Zhongkehuilianeasysite
+  author: P1finger
+  tags:
+    - zhongkehuilianeasysite
+  description: Zhongkehuilianeasysite
+  matchers:
+    - location: body
+      words:
+        - EasySite
+    - location: header
+      words:
+        - EasySite

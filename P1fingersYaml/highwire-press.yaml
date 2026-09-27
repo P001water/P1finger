@@ -1,0 +1,28 @@
+- id: highwire-press
+  name: Highwire-press
+  author: P1finger
+  tags:
+    - highwire-press
+  description: Highwire-press
+  matchers:
+    - location: header
+      words:
+        - x-highwire-sessionid
+    - location: body
+      words:
+        - title="HighWire Press"
+- id: highwire-press-2
+  name: HighWire-Press
+  author: Fofa
+  tags:
+    - highwire-press
+  description: HighWire-Press
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - x-firenze-processing
+    - condition: or
+      location: header
+      words:
+        - x-highwire-sessionid

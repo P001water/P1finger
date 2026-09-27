@@ -1,0 +1,18 @@
+- id: jcore
+  name: JCore
+  author: Fofa
+  tags:
+    - jcore
+  description: JCore
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - 'JCORE_VERSION = '
+    - location: body
+      words:
+        - 'JCORE_VERSION = '
+    - location: body
+      words:
+        - JCORE_VERSION
+        - JCORE_SECURITY_TOKEN

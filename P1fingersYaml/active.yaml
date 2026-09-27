@@ -1,0 +1,11 @@
+- id: wangdongtongyitongxinactiveuc
+  name: WangdongtongyitongxinActiveUC Platform
+  author: P1finger
+  tags:
+    - wangdongtongyitongxinactiveuc
+    - platform
+  description: WangdongtongyitongxinActiveUC Platform
+  matchers:
+    - location: body
+      words:
+        - 网动统一通信平台(Active UC)

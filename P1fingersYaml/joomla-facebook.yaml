@@ -1,0 +1,23 @@
+- id: joomla-facebook
+  name: Joomla-facebook
+  author: P1finger
+  tags:
+  - joomla
+  - joomla-facebook
+  description: Joomla-facebook
+  matchers:
+  - location: header
+    words:
+    - jfbconnect_permissions_granted
+- id: joomla-facebook-2
+  name: Joomla-facebook
+  author: Fofa
+  tags:
+  - joomla
+  - joomla-facebook
+  description: Joomla-facebook
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - jfbconnect_permissions_granted

@@ -1,0 +1,10 @@
+- id: weonlydo
+  name: Weonlydo-product
+  author: P001
+  tags:
+    - weonlydo
+  description: Weonlydo-product
+  matchers:
+    - location: body
+      words:
+        - 'server: weonlydo'

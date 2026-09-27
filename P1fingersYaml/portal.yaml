@@ -1,0 +1,11 @@
+- id: portalyemianxinxi
+  name: PORTALyemianxinxi Management System
+  author: P1finger
+  tags:
+    - portalyemianxinxi
+    - management-system
+  description: PORTALyemianxinxi Management System
+  matchers:
+    - location: body
+      words:
+        - PORTAL 页面信息管理系统

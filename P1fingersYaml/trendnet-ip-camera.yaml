@@ -1,0 +1,11 @@
+- id: trendnet-ip
+  name: Trendnet Ip Camera
+  author: P1finger
+  tags:
+  - trendnet
+  - trendnet-ip
+  description: Trendnet Ip Camera
+  matchers:
+  - hash:
+    - '512590457'
+    location: favicon

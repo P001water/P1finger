@@ -1,0 +1,32 @@
+- id: turbomail
+  name: Turbomail
+  author: P1finger
+  tags:
+    - turbomail
+  description: Turbomail
+  matchers:
+    - location: body
+      words:
+        - Powered by TurboMail
+        - wzcon1 clearfix
+        - TurboMail邮件系统
+    - condition: or
+      location: body
+      words:
+        - Powered by TurboMail
+    - condition: or
+      location: body
+      words:
+        - wzcon1 clearfix
+    - condition: or
+      location: title
+      words:
+        - TurboMail邮件系统
+    - condition: and
+      location: body
+      words:
+        - powered by turbomail
+        - wzcon1 clearfix
+        - <a href="http://www.turbomail.org">powered by turbomail</a>
+        - turbomail管理系统
+        - alt="turbomail 电子邮件系统"/>

@@ -1,0 +1,10 @@
+- id: bpanel
+  name: Bpanel
+  author: P1finger
+  tags:
+    - bpanel
+  description: Bpanel
+  matchers:
+    - location: header
+      words:
+        - www.bpanel.ne

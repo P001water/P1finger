@@ -1,0 +1,11 @@
+- id: avantfax-ictfax
+  name: Avantfax-ictfax
+  author: P001
+  tags:
+    - avantfax-ictfax
+  description: Avantfax-ictfax
+  matchers:
+    - location: body
+      words:
+        - <img src="images/avantfax-big.png" border="0" alt="ictfax
+        - content="ictfax

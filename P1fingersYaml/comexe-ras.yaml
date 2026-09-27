@@ -1,0 +1,16 @@
+- id: comexe-ras
+  name: Comexe-ras
+  author: P001
+  tags:
+    - comexe-ras
+  description: Comexe-ras
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - href="pic/iras.ico
+        - href="pic/ras.ico
+        - href="cmxlogin.php"
+        - location="application/npras
+        - 科迈ras
+        - 远程技术支持请求：<a href="http://www.comexe.cn

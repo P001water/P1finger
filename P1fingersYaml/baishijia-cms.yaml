@@ -1,0 +1,10 @@
+- id: baishijia
+  name: Baishijia-cms
+  author: P001
+  tags:
+    - baishijia
+  description: Baishijia-cms
+  matchers:
+    - location: body
+      words:
+        - /resource/images/cms.ico

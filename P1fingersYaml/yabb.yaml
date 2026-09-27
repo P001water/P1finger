@@ -1,0 +1,37 @@
+- id: yabb
+  name: Yabb
+  author: P1finger
+  tags:
+    - yabb
+  description: Yabb
+  matchers:
+    - location: body
+      words:
+        - YaBBTime.getTime()
+        - /YaBB.js
+    - location: header
+      words:
+        - Y2User
+    - location: body
+      words:
+        - /yabb.js
+        - yabbtime.gettime()
+- id: yabb-2
+  name: YABB
+  author: Fofa
+  tags:
+    - yabb
+  description: YABB
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Y2User
+    - condition: or
+      location: body
+      words:
+        - YaBBTime.getTime()
+    - condition: or
+      location: body
+      words:
+        - /YaBB.js

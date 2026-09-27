@@ -1,0 +1,10 @@
+- id: seehealth-health
+  name: Seehealth-health-management-system
+  author: P001
+  tags:
+    - seehealth-health
+  description: Seehealth-health-management-system
+  matchers:
+    - location: body
+      words:
+        - href="upvalidatefile.aspx

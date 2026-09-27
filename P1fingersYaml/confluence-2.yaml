@@ -1,0 +1,20 @@
+- id: confluence-2
+  name: Confluence
+  author: nuclei
+  tags:
+  - atlassian
+  - confluence_server
+  - confluence
+  description: 'This nuclei template is used to detect the presence of Confluence,
+    a popular collaboration software.
+
+    '
+  paths:
+  - /dologin.action
+  - /pages
+  - /confluence
+  - /wiki
+  matchers:
+  - location: header
+    words:
+    - -confluence-

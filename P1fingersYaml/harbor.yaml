@@ -1,0 +1,19 @@
+- id: harbor
+  name: Harbor
+  author: P1finger
+  tags:
+    - harbor
+  description: Harbor
+  matchers:
+    - location: body
+      words:
+        - <title>Harbor</title>
+    - location: header
+      words:
+        - harbor-lang
+    - location: body
+      words:
+        - <title>harbor</title>
+    - location: body
+      words:
+        - Harbor

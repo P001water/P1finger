@@ -1,0 +1,10 @@
+- id: phpnews
+  name: Phpnews
+  author: P1finger
+  tags:
+    - phpnews
+  description: Phpnews
+  matchers:
+    - location: body
+      words:
+        - phpnews

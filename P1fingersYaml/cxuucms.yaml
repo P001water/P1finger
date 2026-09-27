@@ -1,0 +1,10 @@
+- id: cxuucms
+  name: CxuuCMS
+  author: P1finger
+  tags:
+    - cxuucms
+  description: CxuuCMS
+  matchers:
+    - location: body
+      words:
+        - by CxuuCMS

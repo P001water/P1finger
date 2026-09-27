@@ -1,0 +1,18 @@
+- id: foxycart
+  name: Foxycart
+  author: Fofa
+  tags:
+    - foxycart
+  description: Foxycart
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <script src="//cdn.foxycart.com
+    - location: body
+      words:
+        - <script src="//cdn.foxycart.com
+    - location: body
+      words:
+        - Foxycart.colorbox.js
+        - Foxycart.css

@@ -1,0 +1,35 @@
+- id: kloxo-single
+  name: Kloxo-single-server
+  author: P1finger
+  tags:
+    - kloxo-single
+  description: Kloxo-single-server
+  matchers:
+    - location: body
+      words:
+        - src="/img/hypervm-logo.gif
+        - /htmllib/js/preop.js
+        - HyperVM
+    - location: body
+      words:
+        - /htmllib/js/preop.js
+        - src="/img/hypervm-logo.gif
+- id: kloxo-single-2
+  name: Kloxo-Single-Server
+  author: Fofa
+  tags:
+    - kloxo-single
+  description: Kloxo-Single-Server
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - src="/img/hypervm-logo.gif
+    - condition: or
+      location: body
+      words:
+        - /htmllib/js/preop.js
+    - condition: or
+      location: title
+      words:
+        - HyperVM

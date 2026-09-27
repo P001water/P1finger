@@ -1,0 +1,10 @@
+- id: thinvnc
+  name: ThinVnc
+  author: P1finger
+  tags:
+    - thinvnc
+  description: ThinVnc
+  matchers:
+    - location: body
+      words:
+        - rel="ThinVnc"

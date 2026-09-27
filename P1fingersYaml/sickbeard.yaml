@@ -1,0 +1,14 @@
+- id: sickbearddianshijiemu
+  name: SickBearddianshijiemu Management Platform
+  author: P1finger
+  tags:
+    - sickbearddianshijiemu
+    - management-platform
+  description: SickBearddianshijiemu Management Platform
+  matchers:
+    - location: body
+      words:
+        - Beard - alpha
+    - location: header
+      words:
+        - 'Server: CherryPy/3.2.0rc1'

@@ -1,0 +1,10 @@
+- id: plesk-plesk-onyx
+  name: Plesk-plesk-onyx
+  author: P001
+  tags:
+    - plesk-plesk-onyx
+  description: Plesk-plesk-onyx
+  matchers:
+    - location: body
+      words:
+        - name="plesk-build"

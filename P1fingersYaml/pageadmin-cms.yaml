@@ -1,0 +1,10 @@
+- id: pageadmin
+  name: PageAdmin-CMS
+  author: P1finger
+  tags:
+    - pageadmin
+  description: PageAdmin-CMS
+  matchers:
+    - location: body
+      words:
+        - PageAdmin

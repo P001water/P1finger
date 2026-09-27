@@ -1,0 +1,10 @@
+- id: zhongan-xdecision
+  name: Zhongan-xdecision
+  author: P001
+  tags:
+    - zhongan-xdecision
+  description: Zhongan-xdecision
+  matchers:
+    - location: body
+      words:
+        - <div class="g-alert-content" id="g-alert-contentsystem">

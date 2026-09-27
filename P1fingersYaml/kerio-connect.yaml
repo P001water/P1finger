@@ -1,0 +1,31 @@
+- id: kerio-connect
+  name: Kerio-connect
+  author: P1finger
+  tags:
+    - kerio-connect
+  description: Kerio-connect
+  matchers:
+    - location: header
+      words:
+        - Kerio MailServer
+    - location: body
+      words:
+        - 'server: kerio connect'
+- id: kerio-connect-2
+  name: Kerio-Connect
+  author: Fofa
+  tags:
+    - kerio-connect
+  description: Kerio-Connect
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Kerio Connect
+    - condition: or
+      location: header
+      words:
+        - Kerio MailServer
+    - hash:
+        - "-677167908"
+      location: favicon

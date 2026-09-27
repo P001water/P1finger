@@ -1,0 +1,10 @@
+- id: openvpn
+  name: Openvpn
+  author: P1finger
+  tags:
+    - openvpn
+  description: Openvpn
+  matchers:
+    - hash:
+        - "396533629"
+      location: favicon

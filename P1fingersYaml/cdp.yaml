@@ -1,0 +1,11 @@
+- id: cdp-cloud-drive
+  name: CDP Cloud Drive
+  author: P1finger
+  tags:
+    - cdp
+    - cloud-drive
+  description: CDP Cloud Drive
+  matchers:
+    - location: body
+      words:
+        - CDP云盘

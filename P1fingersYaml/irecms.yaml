@@ -1,0 +1,14 @@
+- id: irecms
+  name: Irecms
+  author: Fofa
+  tags:
+    - irecms
+  description: Irecms
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IRe.CMS
+    - location: header
+      words:
+        - IRe.CMS

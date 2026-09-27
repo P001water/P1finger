@@ -1,0 +1,10 @@
+- id: syncthru
+  name: Syncthru Web Service
+  author: P1finger
+  tags:
+    - syncthru
+  description: Syncthru Web Service
+  matchers:
+    - hash:
+        - "1483097076"
+      location: favicon

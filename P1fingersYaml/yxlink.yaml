@@ -1,0 +1,24 @@
+- id: yixunyxlink
+  name: YixunYXLink Vulnerability Scanner
+  author: P1finger
+  tags:
+    - yixunyxlink
+    - vulnerability-scanner
+  description: YixunYXLink Vulnerability Scanner
+  matchers:
+    - location: body
+      words:
+        - 铱迅漏洞扫描系统
+- id: yixunyxlinkwaf
+  name: YixunYXLinkWAF
+  author: P1finger
+  tags:
+    - yixunyxlinkwaf
+  description: YixunYXLinkWAF
+  matchers:
+    - location: body
+      words:
+        - 铱迅下一代防火墙系统
+    - location: header
+      words:
+        - YxlinkWAF

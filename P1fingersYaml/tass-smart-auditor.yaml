@@ -1,0 +1,11 @@
+- id: tass-auditor
+  name: Tass-smart-auditor
+  author: P001
+  tags:
+    - tass-auditor
+  description: Tass-smart-auditor
+  matchers:
+    - location: body
+      words:
+        - 北京江南天安科技有限公司
+        - 灵志日志审计系统

@@ -1,0 +1,10 @@
+- id: viscacha
+  name: Viscacha
+  author: P1finger
+  tags:
+    - viscacha
+  description: Viscacha
+  matchers:
+    - location: body
+      words:
+        - <meta name="generator" content="Viscacha

@@ -1,0 +1,27 @@
+- id: b2evolution
+  name: B2evolution
+  author: Fofa
+  tags:
+    - b2evolution
+  description: B2evolution
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /powered-by-b2evolution-150t.gif
+    - condition: or
+      location: body
+      words:
+        - Powered by b2evolution
+    - condition: or
+      location: body
+      words:
+        - content="b2evolution
+    - location: body
+      words:
+        - b2evolution
+    - location: body
+      words:
+        - /powered-by-b2evolution-150t.gif
+        - content="b2evolution
+        - powered by b2evolution

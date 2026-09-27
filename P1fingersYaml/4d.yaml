@@ -1,0 +1,11 @@
+- id: 4d
+  name: 4D
+  author: Fofa
+  tags:
+  - 4d
+  description: 4D
+  matchers:
+  - location: header
+    words:
+    - Server:4D
+    condition: and

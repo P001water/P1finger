@@ -1,0 +1,12 @@
+- id: simbix-framework
+  name: Simbix-framework
+  author: P001
+  tags:
+    - simbix-framework
+  description: Simbix-framework
+  matchers:
+    - location: body
+      words:
+        - <div class="image"><img src="/logo-lpage.png" width="40" height="40" alt="simbix framework" /></div>
+        - content="simbix framework v
+        - logo-lpage-owner.png

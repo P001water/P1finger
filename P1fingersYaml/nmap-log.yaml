@@ -1,0 +1,12 @@
+- id: nmap-log
+  name: Nmap-log
+  author: P001
+  tags:
+    - nmap-log
+  description: Nmap-log
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - interesting ports on
+        - starting nmap

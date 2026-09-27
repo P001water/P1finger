@@ -1,0 +1,11 @@
+- id: sony-camera
+  name: SONY Camera
+  author: P1finger
+  tags:
+    - sony
+    - camera
+  description: SONY Camera
+  matchers:
+    - location: body
+      words:
+        - Sony Network Camera

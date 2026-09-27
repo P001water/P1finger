@@ -1,0 +1,14 @@
+- id: intrasrv
+  name: Intrasrv
+  author: Fofa
+  tags:
+    - intrasrv
+  description: Intrasrv
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - intrasrv
+    - location: header
+      words:
+        - intrasrv

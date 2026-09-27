@@ -1,0 +1,10 @@
+- id: vehiclemonitoringcloudplatform
+  name: Vehiclemonitoringcloudplatform
+  author: P001
+  tags:
+    - vehiclemonitoringcloudplatform
+  description: Vehiclemonitoringcloudplatform
+  matchers:
+    - location: body
+      words:
+        - gps-web"></iframe>

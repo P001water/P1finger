@@ -1,0 +1,10 @@
+- id: geniusocean
+  name: Geniusocean
+  author: P1finger
+  tags:
+    - geniusocean
+  description: Geniusocean
+  matchers:
+    - location: body
+      words:
+        - <meta name="author" content="GeniusOcean">

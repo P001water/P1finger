@@ -1,0 +1,13 @@
+- id: nexpose-2
+  name: Nexpose
+  author: P001
+  tags:
+    - nexpose
+  description: Nexpose
+  matchers:
+    - hash:
+        - f64ce96bbacc76d6db4d4eb0e78881da
+      location: favicon
+    - location: body
+      words:
+        - <label for="nexposeccusername">username</label>

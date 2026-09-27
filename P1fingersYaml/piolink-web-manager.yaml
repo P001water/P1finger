@@ -1,0 +1,10 @@
+- id: piolink-manager
+  name: PIOLINK-Web-Manager
+  author: P1finger
+  tags:
+    - piolink-manager
+  description: PIOLINK-Web-Manager
+  matchers:
+    - location: body
+      words:
+        - PIOLINK Web Manager

@@ -1,0 +1,16 @@
+- id: weblogic
+  name: Weblogic
+  author: P1finger
+  tags:
+    - weblogic
+  description: Weblogic
+  matchers:
+    - location: body
+      words:
+        - login_WebLogic_branding.png
+        - Branding_Login_WeblogicConsole.gif
+        - <i>Hypertext Transfer Protocol -- HTTP/1.1</i>
+    - location: header
+      words:
+        - WebLogic
+        - ADMINCONSOLESESSION

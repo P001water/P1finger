@@ -1,0 +1,21 @@
+- id: couchdb
+  name: Couchdb
+  author: P1finger
+  tags:
+    - couchdb
+  description: Couchdb
+  matchers:
+    - location: header
+      words:
+        - Erlang OTP
+    - location: body
+      words:
+        - pluggable-storage-engines
+    - condition: or
+      location: header
+      words:
+        - CouchDB
+    - condition: or
+      location: header
+      words:
+        - Erlang OTP

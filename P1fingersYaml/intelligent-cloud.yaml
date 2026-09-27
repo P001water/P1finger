@@ -1,0 +1,10 @@
+- id: intelligent-cloud
+  name: Intelligent-cloud
+  author: P001
+  tags:
+    - intelligent-cloud
+  description: Intelligent-cloud
+  matchers:
+    - location: body
+      words:
+        - handlexpapplycontact

@@ -1,0 +1,29 @@
+- id: spring-framework
+  name: Spring-framework
+  author: P001
+  tags:
+  - spring
+  - spring-framework
+  description: Spring-framework
+  matchers:
+  - hash:
+    - 0488faca4c19046b94d07c3ee83cf9d6
+    location: favicon
+  - location: body
+    words:
+    - '","status":404,"error":"not found","message":"no message available","path":"/'
+    - whitelabel error page
+    - 'www-authenticate: basic realm="spring"'
+    - 'x-application-context:'
+- id: spring-framework-error
+  name: Spring-framework-error
+  author: P001
+  tags:
+  - spring
+  - spring-framework-error
+  description: Spring-framework-error
+  matchers:
+  - location: body
+    words:
+    - '","status":404,"error":"not found","message":"no message available","path":"/'
+    - whitelabel error page

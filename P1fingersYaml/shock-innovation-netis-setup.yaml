@@ -1,0 +1,10 @@
+- id: shock-innovation-netis-setup
+  name: Shock&innovation!! Netis Setup
+  author: P1finger
+  tags:
+    - shock-innovation-netis-setup
+  description: Shock&innovation!! Netis Setup
+  matchers:
+    - hash:
+        - "1326164945"
+      location: favicon

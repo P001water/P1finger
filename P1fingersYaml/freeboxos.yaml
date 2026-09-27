@@ -1,0 +1,22 @@
+- id: freeboxos
+  name: FreeboxOS
+  author: Fofa
+  tags:
+    - freeboxos
+  description: FreeboxOS
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Freebox OS
+    - condition: or
+      location: body
+      words:
+        - logo_freeboxos
+    - location: body
+      words:
+        - Freebox OS
+        - logo_freeboxos
+    - hash:
+        - "1838417872"
+      location: favicon

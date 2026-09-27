@@ -1,0 +1,18 @@
+- id: 35mail-enterprise-mail
+  name: 35mail Enterprise Mail
+  author: P001
+  tags:
+    - 35mail
+    - enterprise-mail
+  description: 35mail Enterprise Mail
+  matchers:
+    - accuracy: "100"
+      location: body
+      words:
+        - /jsp/tools/speed.jsp?locale=zh_CN
+        - images/mail/35pushmail.app.png
+        - switchingserverpopup
+        - class="user_define_img_btn6" href="http://help.mail.35.com/mailman/81.html
+    - location: body
+      words:
+        - http://help.mail.35.com

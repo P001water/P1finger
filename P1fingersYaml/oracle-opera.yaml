@@ -1,0 +1,31 @@
+- id: oracle-opera
+  name: Oracle-opera
+  author: P001
+  tags:
+  - oracle
+  - oracle-opera
+  description: Oracle-opera
+  matchers:
+  - location: body
+    words:
+    - operalogin/welcome.do
+- id: oracle-opera-2
+  name: Oracle_OPERA
+  author: Fofa
+  tags:
+  - oracle
+  - oracle-opera
+  description: Oracle_OPERA
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - MICROS Systems Inc., OPERA
+  - condition: or
+    location: body
+    words:
+    - OperaLogin/Welcome.do
+  - location: body
+    words:
+    - MICROS Systems Inc., OPERA
+    - OperaLogin/Welcome.do

@@ -1,0 +1,15 @@
+- id: array-networks
+  name: Array_Networks_VPN
+  author: Fofa
+  tags:
+  - array
+  - array-networks
+  description: Array_Networks_VPN
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - an_util.js
+  - location: body
+    words:
+    - an_util.js

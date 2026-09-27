@@ -1,0 +1,17 @@
+- id: anecms
+  name: ANECMS
+  author: Fofa
+  tags:
+    - anecms
+  description: ANECMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Erwin Aligam - ealigam@gmail.com
+    - location: body
+      words:
+        - content="Erwin Aligam - ealigam@gmail.com
+    - location: body
+      words:
+        - content="erwin aligam - ealigam@gmail.com

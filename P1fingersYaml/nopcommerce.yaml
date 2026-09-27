@@ -1,0 +1,10 @@
+- id: nopcommerce
+  name: NopCommerce
+  author: P1finger
+  tags:
+    - nopcommerce
+  description: NopCommerce
+  matchers:
+    - location: body
+      words:
+        - Powered by <a href="http://www.nopCommerce.com/">

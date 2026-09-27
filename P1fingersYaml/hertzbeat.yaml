@@ -1,0 +1,10 @@
+- id: hertzbeat
+  name: HertzBeat
+  author: P1finger
+  tags:
+    - hertzbeat
+  description: HertzBeat
+  matchers:
+    - location: body
+      words:
+        - HertzBeat

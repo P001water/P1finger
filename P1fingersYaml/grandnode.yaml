@@ -1,0 +1,10 @@
+- id: grandnode
+  name: Grandnode
+  author: P001
+  tags:
+    - grandnode
+  description: Grandnode
+  matchers:
+    - location: body
+      words:
+        - 'x-powered-by: grandnode'

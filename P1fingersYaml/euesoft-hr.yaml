@@ -1,0 +1,10 @@
+- id: euesoft-hr
+  name: Euesoft-hr
+  author: P001
+  tags:
+    - euesoft-hr
+  description: Euesoft-hr
+  matchers:
+    - location: body
+      words:
+        - link.description = "亿华软件"

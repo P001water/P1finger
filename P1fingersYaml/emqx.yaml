@@ -1,0 +1,10 @@
+- id: emqx
+  name: EMQX
+  author: P1finger
+  tags:
+    - emqx
+  description: EMQX
+  matchers:
+    - location: body
+      words:
+        - EMQX

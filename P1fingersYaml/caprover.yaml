@@ -1,0 +1,10 @@
+- id: caprover
+  name: Caprover
+  author: P1finger
+  tags:
+    - caprover
+  description: Caprover
+  matchers:
+    - hash:
+        - "988422585"
+      location: favicon

@@ -1,0 +1,11 @@
+- id: apache-tika
+  name: Apache Tika
+  author: P1finger
+  tags:
+  - apache
+  - apache-tika
+  description: Apache Tika
+  matchers:
+  - location: body
+    words:
+    - Apache Tika

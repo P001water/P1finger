@@ -1,0 +1,16 @@
+- id: pbootcms
+  name: Pbootcms
+  author: P001
+  tags:
+    - pbootcms
+  description: Pbootcms
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: pbootsystem='
+    - location: body
+      words:
+        - PbootCMS
+    - location: header
+      words:
+        - 'X-Powered-By: PbootCMS'

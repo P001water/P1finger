@@ -1,0 +1,10 @@
+- id: salien-integrity
+  name: Salien-device-integrity-management-system
+  author: P001
+  tags:
+    - salien-integrity
+  description: Salien-device-integrity-management-system
+  matchers:
+    - location: body
+      words:
+        - rmsie = /(msie\s|trident.*rv:)([\w.]+)/

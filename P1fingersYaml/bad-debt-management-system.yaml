@@ -1,0 +1,10 @@
+- id: bad-debt
+  name: Bad-debt-management-system
+  author: P001
+  tags:
+    - bad-debt
+  description: Bad-debt-management-system
+  matchers:
+    - location: body
+      words:
+        - 登录密码错误次数超过5次，帐号被锁定。请联系省坏账系统管理员，或发邮件解锁

@@ -1,0 +1,15 @@
+- id: luci
+  name: Luci
+  author: P001
+  tags:
+    - luci
+  description: Luci
+  matchers:
+    - location: body
+      words:
+        - /luci-static/openwrt.org/cascade.css
+        - <head> <meta http-equiv="refresh" content="0; url=/cgi-bin/luci" /> </head>
+        - action="/cgi-bin/luci">
+        - href="/cgi-bin/luci"></a>
+        - luci - lua configuration interface
+        - powered by luci

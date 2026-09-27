@@ -1,0 +1,19 @@
+- id: cafeengine
+  name: CafeEngine
+  author: Fofa
+  tags:
+    - cafeengine
+  description: CafeEngine
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /CafeEngine/style.css
+    - condition: or
+      location: body
+      words:
+        - <a href=http://cafeengine.com>CafeEngine.com
+    - location: body
+      words:
+        - /CafeEngine/style.css
+        - <a href=http://cafeengine.com>CafeEngine.com

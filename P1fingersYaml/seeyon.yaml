@@ -1,0 +1,47 @@
+- id: seeyon
+  name: Seeyon
+  author: Fofa
+  tags:
+    - seeyon
+  description: Seeyon
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /seeyon/USER-DATA/IMAGES/LOGIN/login.gif
+        - /yyoa/
+        - 用友致远A
+- id: seeyon-1
+  name: Seeyon
+  author: P1finger
+  tags:
+    - seeyon
+  description: Seeyon
+  matchers:
+    - location: body
+      words:
+        - <span>M1-Server
+- id: seeyon-3
+  name: Seeyon
+  author: P1finger
+  tags:
+    - seeyon
+  description: Seeyon
+  matchers:
+    - location: body
+      words:
+        - <title>M3 Server
+- id: seeyon-platform
+  name: Seeyon Platform
+  author: P001
+  tags:
+    - seeyon
+    - platform
+  description: Seeyon Platform
+  matchers:
+    - location: body
+      words:
+        - 'X-Powered-By: Servlet 2.4; JBoss-4.0.4.GA (build: CVSTag=JBoss_4_0_4_GA date=200605151000)/Tomcat-5.5'
+        - login/index.jsp
+        - v_hedden
+        - v_show

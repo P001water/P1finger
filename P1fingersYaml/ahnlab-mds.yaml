@@ -1,0 +1,10 @@
+- id: ahnlab-mds
+  name: AhnLab MDS
+  author: P1finger
+  tags:
+    - ahnlab-mds
+  description: AhnLab MDS
+  matchers:
+    - location: body
+      words:
+        - ahnlab mds

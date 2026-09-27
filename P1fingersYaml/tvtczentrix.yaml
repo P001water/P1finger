@@ -1,0 +1,10 @@
+- id: tvtczentrix
+  name: TVTczentrix
+  author: P1finger
+  tags:
+    - tvtczentrix
+  description: TVTczentrix
+  matchers:
+    - location: body
+      words:
+        - images/zentrix_logo.png

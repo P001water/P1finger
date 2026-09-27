@@ -1,0 +1,10 @@
+- id: hejia
+  name: Hejia-oa
+  author: P001
+  tags:
+    - hejia
+  description: Hejia-oa
+  matchers:
+    - location: body
+      words:
+        - href="/templates/everythingisok/index.css"

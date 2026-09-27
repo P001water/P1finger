@@ -1,0 +1,10 @@
+- id: mathopd
+  name: Mathopd
+  author: P001
+  tags:
+    - mathopd
+  description: Mathopd
+  matchers:
+    - location: body
+      words:
+        - 'server: mathopd'

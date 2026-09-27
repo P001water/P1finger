@@ -1,0 +1,10 @@
+- id: arm-pc-suite
+  name: Arm_pc_suite_web
+  author: P1finger
+  tags:
+    - arm-pc-suite
+  description: Arm_pc_suite_web
+  matchers:
+    - location: body
+      words:
+        - arm_pc_suite_web

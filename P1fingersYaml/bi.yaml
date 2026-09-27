@@ -1,0 +1,13 @@
+- id: yixinhuachencaiwubi
+  name: YixinhuachencaiwuBI
+  author: P1finger
+  tags:
+    - yixinhuachencaiwubi
+  description: YixinhuachencaiwuBI
+  matchers:
+    - location: header
+      words:
+        - X-ESEN
+    - location: body
+      words:
+        - esen_mainframe

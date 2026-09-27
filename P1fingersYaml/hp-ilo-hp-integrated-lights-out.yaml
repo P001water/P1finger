@@ -1,0 +1,25 @@
+- id: hp-ilo-hp-integrated-lights-out
+  name: Hp_ilo(hp_integrated_lights-out)
+  author: P1finger
+  tags:
+  - ilo
+  - hp
+  - hp-ilo-hp-integrated-lights-out
+  description: Hp_ilo(hp_integrated_lights-out)
+  matchers:
+  - location: body
+    words:
+    - js/iLO.js
+- id: hp-ilo-hp-integrated-lights-out-2
+  name: HP_iLO(HP_Integrated_Lights-Out)
+  author: Fofa
+  tags:
+  - ilo
+  - hp
+  - hp-ilo-hp-integrated-lights-out
+  description: HP_iLO(HP_Integrated_Lights-Out)
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - js/iLO.js

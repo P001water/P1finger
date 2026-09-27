@@ -1,0 +1,29 @@
+- id: citrix-metaframe
+  name: Citrix-metaframe
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-metaframe
+  description: Citrix-metaframe
+  matchers:
+  - location: body
+    words:
+    - window.location="/Citrix/MetaFrame
+  - location: body
+    words:
+    - window.location="/citrix/metaframe
+- id: citrix-metaframe-2
+  name: Citrix-Metaframe
+  author: Fofa
+  tags:
+  - citrix
+  - citrix-metaframe
+  description: Citrix-Metaframe
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - window.location="/Citrix/MetaFrame
+  - location: body
+    words:
+    - window.location="./Citrix/MetaFrame"

@@ -1,0 +1,31 @@
+- id: bit
+  name: Bit-service
+  author: P1finger
+  tags:
+    - bit
+  description: Bit-service
+  matchers:
+    - location: body
+      words:
+        - bit-xxzs
+        - xmlpzs/webissue.asp
+    - condition: and
+      location: body
+      words:
+        - bit-xxzs
+        - xmlpzs/webissue.asp
+- id: bit-2
+  name: Bit-service
+  author: Fofa
+  tags:
+    - bit
+  description: Bit-service
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - bit-xxzs
+    - condition: or
+      location: body
+      words:
+        - xmlpzs/webissue.asp

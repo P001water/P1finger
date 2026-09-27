@@ -1,0 +1,23 @@
+- id: geonode
+  name: GeoNode
+  author: Fofa
+  tags:
+    - geonode
+  description: GeoNode
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://geonode.org
+    - condition: or
+      location: body
+      words:
+        - href="/catalogue/opensearch" title="GeoNode Search
+    - location: body
+      words:
+        - Powered by <a href="http://geonode.org
+        - href="/catalogue/opensearch" title="GeoNode Search
+    - location: body
+      words:
+        - href="/catalogue/opensearch" title="geonode search
+        - powered by <a href="http://geonode.org

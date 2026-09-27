@@ -1,0 +1,11 @@
+- id: accms
+  name: ACCMS CMS
+  author: P1finger
+  tags:
+    - accms
+    - cms
+  description: ACCMS CMS
+  matchers:
+    - location: body
+      words:
+        - ACCMS内容管理系统

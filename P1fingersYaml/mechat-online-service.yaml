@@ -1,0 +1,10 @@
+- id: mechat-online
+  name: Mechat-online-service
+  author: P001
+  tags:
+    - mechat-online
+  description: Mechat-online-service
+  matchers:
+    - location: body
+      words:
+        - /meiqia.js

@@ -1,0 +1,21 @@
+- id: bagecms
+  name: BageCMS
+  author: P1finger
+  tags:
+    - bagecms
+  description: BageCMS
+  matchers:
+    - location: body
+      words:
+        - BageCMS
+- id: bagecmsbage
+  name: BageCMSbage CMS
+  author: P1finger
+  tags:
+    - bagecmsbage
+    - cms
+  description: BageCMSbage CMS
+  matchers:
+    - location: body
+      words:
+        - BageCMS - 八哥内容管理系统

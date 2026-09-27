@@ -1,0 +1,18 @@
+- id: hubspot
+  name: Hubspot
+  author: Fofa
+  tags:
+    - hubspot
+  description: Hubspot
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - js.hubspot.com/analytics
+    - location: body
+      words:
+        - js.hubspot.com/analytics
+    - location: body
+      words:
+        - HubSpot Analytics Code
+        - js.hubspot.com

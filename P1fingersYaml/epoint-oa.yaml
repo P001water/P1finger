@@ -1,0 +1,10 @@
+- id: epoint
+  name: Epoint-oa
+  author: P001
+  tags:
+    - epoint
+  description: Epoint-oa
+  matchers:
+    - location: body
+      words:
+        - location="text/javascript" sourcecontrol="epointcommon" ></script>

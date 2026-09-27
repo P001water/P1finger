@@ -1,0 +1,19 @@
+- id: awstats
+  name: Awstats_admin
+  author: Fofa
+  tags:
+    - awstats
+  description: Awstats_admin
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - generator" content="AWStats
+    - condition: or
+      location: body
+      words:
+        - <frame name="mainleft" src="awstats.pl?config=
+    - location: body
+      words:
+        - generator" content="AWStats
+        - <frame name="mainleft" src="awstats.pl?config=

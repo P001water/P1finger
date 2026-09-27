@@ -1,0 +1,36 @@
+- id: adxstudio
+  name: ADXStudio CMS
+  author: Fofa
+  tags:
+    - adxstudio
+  description: ADXStudio CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Adxstudio
+    - condition: or
+      location: body
+      words:
+        - poweredbyadx.png
+    - condition: or
+      location: header
+      words:
+        - anonprofile
+- id: adxstudio-2
+  name: Adxstudio Cms
+  author: P1finger
+  tags:
+    - adxstudio
+  description: Adxstudio Cms
+  matchers:
+    - location: body
+      words:
+        - Powered by Adxstudio
+        - poweredbyadx.png
+    - location: header
+      words:
+        - anonprofile
+    - location: header
+      words:
+        - 'Set-Cookie: anonprofile='

@@ -1,0 +1,10 @@
+- id: jgi
+  name: JGI
+  author: P1finger
+  tags:
+    - jgi
+  description: JGI
+  matchers:
+    - location: body
+      words:
+        - content="JGI - http://www.jgi.com.br

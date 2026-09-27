@@ -1,0 +1,10 @@
+- id: form-io
+  name: Form.io
+  author: P1finger
+  tags:
+    - form-io
+  description: Form.io
+  matchers:
+    - hash:
+        - "1319699698"
+      location: favicon

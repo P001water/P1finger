@@ -1,0 +1,10 @@
+- id: youhuaopt
+  name: Youhuaopt-system
+  author: P001
+  tags:
+    - youhuaopt
+  description: Youhuaopt-system
+  matchers:
+    - location: body
+      words:
+        - /ashx/log/logincheck.ashx?fresh=" + math.random()

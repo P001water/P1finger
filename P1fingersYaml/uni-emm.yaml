@@ -1,0 +1,10 @@
+- id: uni-emm
+  name: Uni-emm
+  author: P1finger
+  tags:
+    - uni-emm
+  description: Uni-emm
+  matchers:
+    - location: body
+      words:
+        - com.leagsoft.emm

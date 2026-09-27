@@ -1,0 +1,11 @@
+- id: tuotukejit3zhinengcangchu
+  name: TuotukejiT3zhinengcangchu Management System
+  author: P1finger
+  tags:
+    - tuotukejit3zhinengcangchu
+    - management-system
+  description: TuotukejiT3zhinengcangchu Management System
+  matchers:
+    - location: body
+      words:
+        - T3智能仓储管理系统

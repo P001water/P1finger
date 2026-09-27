@@ -1,0 +1,11 @@
+- id: webray-waf
+  name: WebRay-WAF
+  author: P1finger
+  tags:
+    - webray-waf
+  description: WebRay-WAF
+  matchers:
+    - location: header
+      words:
+        - 'Drivedby: RaySrv'
+        - 'Rayengine: RayEngine'

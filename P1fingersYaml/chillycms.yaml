@@ -1,0 +1,17 @@
+- id: chillycms
+  name: ChillyCMS
+  author: Fofa
+  tags:
+    - chillycms
+  description: ChillyCMS
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - powered by <a href="http://FrozenPepper.de
+    - location: body
+      words:
+        - FrozenPepper.de
+    - location: header
+      words:
+        - chillyCMS

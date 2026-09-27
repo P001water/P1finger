@@ -1,0 +1,12 @@
+- id: opsview
+  name: Opsview-product
+  author: P001
+  tags:
+    - opsview
+  description: Opsview-product
+  matchers:
+    - location: body
+      words:
+        - /images/opsview_logo_large.gif
+        - /images/opsviewcommunitylogo-large.png
+        - follow @opsview

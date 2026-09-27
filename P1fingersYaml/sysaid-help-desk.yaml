@@ -1,0 +1,10 @@
+- id: sysaid-help-desk
+  name: SysAid Help Desk
+  author: P1finger
+  tags:
+    - sysaid-help-desk
+  description: SysAid Help Desk
+  matchers:
+    - location: body
+      words:
+        - SysAid Help Desk Software

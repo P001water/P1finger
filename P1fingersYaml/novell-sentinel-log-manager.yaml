@@ -1,0 +1,14 @@
+- id: novell-sentinel-log-manager
+  name: Novell-sentinel-log-manager
+  author: P001
+  tags:
+    - novell-sentinel-log-manager
+  description: Novell-sentinel-log-manager
+  matchers:
+    - location: body
+      words:
+        - content="0;url=/novelllogmanager">
+        - title="novell sentinel log manager
+    - location: body
+      words:
+        - content="0;url=/novelllogmanager">

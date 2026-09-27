@@ -1,0 +1,10 @@
+- id: dptech
+  name: DPtech
+  author: P1finger
+  tags:
+    - dptech
+  description: DPtech
+  matchers:
+    - location: header
+      words:
+        - 'Server: dptech server'

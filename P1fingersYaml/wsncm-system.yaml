@@ -1,0 +1,10 @@
+- id: wsncm
+  name: Wsncm-system
+  author: P001
+  tags:
+    - wsncm
+  description: Wsncm-system
+  matchers:
+    - location: body
+      words:
+        - class="login">wsncm动态仓单系统

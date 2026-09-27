@@ -1,0 +1,12 @@
+- id: hejiatechhejiakejijifangdonglihuanjing
+  name: Hejiatechhejiakejijifangdonglihuanjing Monitoring System
+  author: P1finger
+  tags:
+    - hejiatechhejiakejijifangdonglihuanjing
+    - monitoring-system
+  description: Hejiatechhejiakejijifangdonglihuanjing Monitoring System
+  matchers:
+    - location: body
+      words:
+        - 和嘉科技
+        - 动力环境监控系统

@@ -1,0 +1,19 @@
+- id: anygate
+  name: AnyGate
+  author: Fofa
+  tags:
+    - anygate
+  description: AnyGate
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - AnyGate
+    - condition: or
+      location: body
+      words:
+        - /anygate.php
+    - location: body
+      words:
+        - AnyGate
+        - /anygate.php

@@ -1,0 +1,10 @@
+- id: guns
+  name: Guns
+  author: P1finger
+  tags:
+    - guns
+  description: Guns
+  matchers:
+    - location: body
+      words:
+        - 登录 - Guns

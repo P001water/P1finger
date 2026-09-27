@@ -1,0 +1,13 @@
+- id: kj65nmeikuangyuanchengjiankonganquanyujing
+  name: Kj65nmeikuangyuanchengjiankonganquanyujing System
+  author: P001
+  tags:
+    - kj65nmeikuangyuanchengjiankonganquanyujing
+    - system
+  description: Kj65nmeikuangyuanchengjiankonganquanyujing System
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - images/login/top002.gif
+        - worlddesktop/webform1.aspx

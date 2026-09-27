@@ -1,0 +1,10 @@
+- id: trendmicro-iwsa5000
+  name: TrendMicro IWSA5000
+  author: P1finger
+  tags:
+    - trendmicro-iwsa5000
+  description: TrendMicro IWSA5000
+  matchers:
+    - location: body
+      words:
+        - iwsa5000

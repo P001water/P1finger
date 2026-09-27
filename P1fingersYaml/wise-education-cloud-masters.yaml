@@ -1,0 +1,10 @@
+- id: wise-education-masters
+  name: Wise-education-cloud-masters
+  author: P001
+  tags:
+    - wise-education-masters
+  description: Wise-education-cloud-masters
+  matchers:
+    - location: body
+      words:
+        - ctl00_contentplaceholder1_dlttopvideos

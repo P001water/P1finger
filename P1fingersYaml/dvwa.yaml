@@ -1,0 +1,28 @@
+- id: dvwa
+  name: DVWA
+  author: Fofa
+  tags:
+    - dvwa
+  description: DVWA
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Damn Vulnerable Web App (DVWA) - Login
+    - condition: or
+      location: body
+      words:
+        - dvwa/css/login.css
+    - condition: or
+      location: body
+      words:
+        - dvwa/images/login_logo.png
+    - location: body
+      words:
+        - Damn Vulnerable Web App (DVWA) - Login
+        - dvwa/css/login.css
+        - dvwa/images/login_logo.png
+    - location: body
+      words:
+        - dvwa/css/login.css
+        - dvwa/images/login_logo.png

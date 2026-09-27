@@ -1,0 +1,11 @@
+- id: iceflow
+  name: Iceflow Next-Generation Firewall
+  author: P001
+  tags:
+    - iceflow
+    - next-generation-firewall
+  description: Iceflow Next-Generation Firewall
+  matchers:
+    - location: body
+      words:
+        - <h2 class="media-heading">fw下一代防火墙</h2>

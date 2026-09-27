@@ -1,0 +1,10 @@
+- id: tulingtech
+  name: Tulingtech-system
+  author: P001
+  tags:
+    - tulingtech
+  description: Tulingtech-system
+  matchers:
+    - location: body
+      words:
+        - href="/content/login-ui/static/h-ui.admin/css/h-ui.login.css"

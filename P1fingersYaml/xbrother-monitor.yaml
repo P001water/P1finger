@@ -1,0 +1,10 @@
+- id: xbrother-monitor
+  name: Xbrother-monitor
+  author: P001
+  tags:
+    - xbrother-monitor
+  description: Xbrother-monitor
+  matchers:
+    - location: body
+      words:
+        - if (!getcookie("x_gu_sid"

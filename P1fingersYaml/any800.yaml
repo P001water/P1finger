@@ -1,0 +1,10 @@
+- id: any800
+  name: Any800
+  author: P1finger
+  tags:
+    - any800
+  description: Any800
+  matchers:
+    - location: body
+      words:
+        - any800

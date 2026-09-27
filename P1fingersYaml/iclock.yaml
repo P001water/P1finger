@@ -1,0 +1,10 @@
+- id: iclockshujufuwuqi
+  name: IClockshujufuwuqi
+  author: P1finger
+  tags:
+    - iclockshujufuwuqi
+  description: IClockshujufuwuqi
+  matchers:
+    - location: body
+      words:
+        - site-name">iClock数据服务器

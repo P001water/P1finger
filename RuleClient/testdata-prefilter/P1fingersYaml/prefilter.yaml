@@ -1,0 +1,58 @@
+- id: prefilter-pass
+  name: PrefilterPass
+  author: test
+  description: title marker visible on root page, path should be probed
+  tags:
+    - test
+  paths:
+    - /sig
+  matchers:
+    - location: title
+      words:
+        - SignalApp
+    - location: body
+      words:
+        - sig-marker
+- id: prefilter-fail
+  name: PrefilterFail
+  author: test
+  description: title marker absent from root page, path must be skipped
+  tags:
+    - test
+  paths:
+    - /nope
+  matchers:
+    - location: title
+      words:
+        - NeverTitle
+    - location: body
+      words:
+        - nope-marker
+- id: prefilter-body-only
+  name: PrefilterBodyOnly
+  author: test
+  description: no title/header matcher, always probed
+  tags:
+    - test
+  paths:
+    - /bodyonly
+  matchers:
+    - location: body
+      words:
+        - bodyonly-marker
+- id: prefilter-none
+  name: PrefilterNone
+  author: test
+  description: subpage-only marker, explicitly bypasses prefilter
+  tags:
+    - test
+  prefilter: none
+  paths:
+    - /subonly
+  matchers:
+    - location: title
+      words:
+        - SubOnlyTitle
+    - location: body
+      words:
+        - subonly-marker

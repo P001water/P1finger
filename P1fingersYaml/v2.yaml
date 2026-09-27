@@ -1,0 +1,34 @@
+- id: huigouzhinengjinxiaocunv20
+  name: HuigouzhinengjinxiaocunV20 Management System
+  author: P1finger
+  tags:
+    - huigouzhinengjinxiaocunv20
+    - management-system
+  description: HuigouzhinengjinxiaocunV20 Management System
+  matchers:
+    - location: body
+      words:
+        - <title>汇购智能电子商务进销存管理系统V2.0</title>
+- id: v2-video-conferencing
+  name: V2 Video Conferencing
+  author: P1finger
+  tags:
+    - v2
+    - video-conferencing
+  description: V2 Video Conferencing
+  matchers:
+    - location: body
+      words:
+        - V2 Conference
+        - ../conference/currentConfAction.do?flag=mastermain&page=
+- id: v2conference-video-conferencing
+  name: V2Conference Video Conferencing
+  author: P1finger
+  tags:
+    - v2conference
+    - video-conferencing
+  description: V2Conference Video Conferencing
+  matchers:
+    - location: body
+      words:
+        - window.location.href=\"/Conf/index.jsp\"

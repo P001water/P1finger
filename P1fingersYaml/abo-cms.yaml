@@ -1,0 +1,28 @@
+- id: abo
+  name: ABO.CMS
+  author: Fofa
+  tags:
+    - abo
+  description: ABO.CMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - ABO.CMS
+    - location: header
+      words:
+        - ABO.CMS
+    - location: header
+      words:
+        - 'A-Powered-By: ABO.CMS'
+- id: abo-2
+  name: ABO_CMS
+  author: Fofa
+  tags:
+    - abo
+  description: ABO_CMS
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - a-powered-by

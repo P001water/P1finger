@@ -1,0 +1,23 @@
+- id: mindocjiekouwendangzaixian-2
+  name: MinDocjiekouwendangzaixian Management System
+  author: P1finger
+  tags:
+    - mindocjiekouwendangzaixian
+    - management-system
+  description: MinDocjiekouwendangzaixian Management System
+  matchers:
+    - location: body
+      words:
+        - Powered by MinDoc
+        - <meta name="author" content="MinDoc" />
+- id: mindoc
+  name: MinDoc Document Management System
+  author: P1finger
+  tags:
+    - mindoc
+    - document-management-system
+  description: MinDoc Document Management System
+  matchers:
+    - location: body
+      words:
+        - MinDoc文档管理系统 - Powered by MinDoc

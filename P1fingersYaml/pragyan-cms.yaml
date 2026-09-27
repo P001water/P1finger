@@ -1,0 +1,10 @@
+- id: pragyan
+  name: Pragyan CMS
+  author: P1finger
+  tags:
+    - pragyan
+  description: Pragyan CMS
+  matchers:
+    - location: body
+      words:
+        - Pragyan CMS

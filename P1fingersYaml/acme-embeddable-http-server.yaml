@@ -1,0 +1,11 @@
+- id: acme-embeddable-http
+  name: Acme Embeddable HTTP Server
+  author: Fofa
+  tags:
+    - acme-embeddable-http
+  description: Acme Embeddable HTTP Server
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - 'Server: Acme'

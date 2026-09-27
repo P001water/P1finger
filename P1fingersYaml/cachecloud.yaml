@@ -1,0 +1,25 @@
+- id: cachecloud
+  name: Cachecloud
+  author: P001
+  tags:
+    - cachecloud
+  description: Cachecloud
+  matchers:
+    - location: body
+      words:
+        - alert("系统不存在该用户名，请确认该用户申请了cachecloud权限!");
+    - location: body
+      words:
+        - cachecloud系统
+        - alert("系统不存在该用户名，请确认该用户申请了cachecloud权限!");
+- id: cachecloud-system
+  name: CacheCloud System
+  author: P1finger
+  tags:
+    - cachecloud
+    - system
+  description: CacheCloud System
+  matchers:
+    - location: body
+      words:
+        - <title>CacheCloud系统</title>

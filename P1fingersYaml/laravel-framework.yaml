@@ -1,0 +1,10 @@
+- id: laravel-framework
+  name: Laravel-framework
+  author: P001
+  tags:
+    - laravel-framework
+  description: Laravel-framework
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: laravel_session'

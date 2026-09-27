@@ -1,0 +1,13 @@
+- id: mobilityguard
+  name: Mobilityguard
+  author: P001
+  tags:
+    - mobilityguard
+  description: Mobilityguard
+  matchers:
+    - location: body
+      words:
+        - click here for more information about mobilityguard
+    - location: header
+      words:
+        - 'Server: MobilityGuard'

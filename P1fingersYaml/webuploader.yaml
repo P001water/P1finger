@@ -1,0 +1,12 @@
+- id: webuploader
+  name: Webuploader
+  author: P001
+  tags:
+    - webuploader
+  description: Webuploader
+  matchers:
+    - location: body
+      words:
+        - /webuploader.css" rel="stylesheet
+        - /webuploader.js"></script>
+        - /webuploader.min.js"></script>

@@ -1,0 +1,10 @@
+- id: uccc-iot
+  name: Uccc-iot
+  author: P001
+  tags:
+    - uccc-iot
+  description: Uccc-iot
+  matchers:
+    - location: body
+      words:
+        - hidden-xs">物联网云平台

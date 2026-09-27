@@ -1,0 +1,23 @@
+- id: canon-printer
+  name: Canon-printer
+  author: P1finger
+  tags:
+  - canon
+  - canon-printer
+  description: Canon-printer
+  matchers:
+  - location: header
+    words:
+    - Canon Http Server
+- id: canon-printer-2
+  name: Canon-Printer
+  author: Fofa
+  tags:
+  - canon
+  - canon-printer
+  description: Canon-Printer
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Canon Http Server

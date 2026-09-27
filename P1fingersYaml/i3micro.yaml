@@ -1,0 +1,14 @@
+- id: i3micro
+  name: I3micro
+  author: Fofa
+  tags:
+    - i3micro
+  description: I3micro
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - i3micro
+    - location: header
+      words:
+        - i3micro

@@ -1,0 +1,10 @@
+- id: keyhelp
+  name: Keyhelp
+  author: P1finger
+  tags:
+    - keyhelp
+  description: Keyhelp
+  matchers:
+    - hash:
+        - "-1267819858"
+      location: favicon

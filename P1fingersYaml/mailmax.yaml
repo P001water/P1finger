@@ -1,0 +1,10 @@
+- id: mailmaxyoujianfuwuqi-2
+  name: Mailmaxyoujianfuwuqi
+  author: P1finger
+  tags:
+    - mailmaxyoujianfuwuqi
+  description: Mailmaxyoujianfuwuqi
+  matchers:
+    - location: body
+      words:
+        - ESMTP mailMAX ready

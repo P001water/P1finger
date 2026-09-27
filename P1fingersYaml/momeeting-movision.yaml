@@ -1,0 +1,12 @@
+- id: momeeting-movision
+  name: Momeeting-movision
+  author: P001
+  tags:
+    - momeeting-movision
+  description: Momeeting-movision
+  matchers:
+    - location: body
+      words:
+        - <!-- 科达视讯云 摩云视讯 电信有区别 -->
+        - class="meeting movision"
+        - document.title="登录-摩云视讯"

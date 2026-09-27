@@ -1,0 +1,11 @@
+- id: piolink-tifront
+  name: PIOLINK TiFRONT Product
+  author: P1finger
+  tags:
+    - piolink-tifront
+  description: PIOLINK TiFRONT Product
+  matchers:
+    - location: body
+      words:
+        - tifront-
+        - <em>tifront, the security switch

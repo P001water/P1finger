@@ -1,0 +1,10 @@
+- id: csproxy
+  name: Csproxy
+  author: P1finger
+  tags:
+    - csproxy
+  description: Csproxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: csproxy'

@@ -1,0 +1,18 @@
+- id: edgeprism
+  name: EdgePrism
+  author: Fofa
+  tags:
+    - edgeprism
+  description: EdgePrism
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - EdgePrism
+    - condition: or
+      location: header
+      words:
+        - EdgePrismSSL
+    - location: header
+      words:
+        - EdgePrismSSL

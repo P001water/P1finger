@@ -1,0 +1,26 @@
+- id: citrix-pn
+  name: Citrix-web-pn-server
+  author: P1finger
+  tags:
+  - citrix
+  - citrix-pn
+  description: Citrix-web-pn-server
+  matchers:
+  - location: body
+    words:
+    - Citrix Web PN Server
+  - location: body
+    words:
+    - 'server: citrix web pn server'
+- id: citrix-pn-2
+  name: Citrix-Web-PN-Server
+  author: Fofa
+  tags:
+  - citrix
+  - citrix-pn
+  description: Citrix-Web-PN-Server
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Citrix Web PN Server

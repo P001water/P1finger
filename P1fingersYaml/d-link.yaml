@@ -1,0 +1,125 @@
+- id: link
+  name: D-link
+  author: P1finger
+  tags:
+    - link
+  description: D-link
+  matchers:
+    - hash:
+        - "-1897829998"
+      location: favicon
+    - location: body
+      words:
+        - d-link systems, inc
+- id: dlinkcunchu
+  name: DLinkcunchu
+  author: P1finger
+  tags:
+    - dlinkcunchu
+  description: DLinkcunchu
+  matchers:
+    - location: body
+      words:
+        - name="mydlink"
+        - id="mydlink"
+- id: link-2
+  name: D-Link Firewall
+  author: P1finger
+  tags:
+    - link
+  description: D-Link Firewall
+  matchers:
+    - location: body
+      words:
+        - d-link firewall
+- id: link-dcs-3220g-2nd
+  name: D-Link-DCS-3220G-2nd
+  author: P1finger
+  tags:
+    - link-dcs-3220g-2nd
+  description: D-Link-DCS-3220G-2nd
+  matchers:
+    - location: header
+      words:
+        - Basic realm="DCS-3220G-2nd
+- id: link-dcs-6005lsala
+  name: D-Link-DCS-6005LSALA
+  author: P1finger
+  tags:
+    - link-dcs-6005lsala
+  description: D-Link-DCS-6005LSALA
+  matchers:
+    - location: header
+      words:
+        - Basic realm="DCS-6005LSALA
+- id: link-dcs-dome
+  name: D-Link-DCS-Dome
+  author: P1finger
+  tags:
+    - link-dcs-dome
+  description: D-Link-DCS-Dome
+  matchers:
+    - location: header
+      words:
+        - Basic realm="DCS-Dome
+- id: link-dcs-prod
+  name: D-Link-DCS-prod
+  author: P1finger
+  tags:
+    - link-dcs-prod
+  description: D-Link-DCS-prod
+  matchers:
+    - location: header
+      words:
+        - Basic realm="DCS-prod
+- id: link-internet
+  name: D-Link Internet Camera
+  author: Fofa
+  tags:
+    - link-internet
+  description: D-Link Internet Camera
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - D-Link Internet Camera
+    - condition: or
+      location: title
+      words:
+        - D-Link Internet Camera
+- id: link-voip-wireless
+  name: D-Link_VoIP_Wireless_Router
+  author: Fofa
+  tags:
+    - link-voip-wireless
+  description: D-Link_VoIP_Wireless_Router
+  matchers:
+    - condition: and
+      location: title
+      words:
+        - D-Link VoIP Wireless Router
+- id: link-3
+  name: D-Link-Network-Camera
+  author: Fofa
+  tags:
+    - link
+  description: D-Link-Network-Camera
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - DCS-950G".toLowerCase()
+    - condition: or
+      location: title
+      words:
+        - ="DCS-5300
+- id: link-wifimanager
+  name: D Link WiFiManager
+  author: P1finger
+  tags:
+    - link-wifimanager
+  description: D Link WiFiManager
+  matchers:
+    - location: body
+      words:
+        - D-Link Central WiFiManager

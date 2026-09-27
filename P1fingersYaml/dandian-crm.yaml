@@ -1,0 +1,11 @@
+- id: dandian-crm
+  name: Dandian-crm
+  author: P001
+  tags:
+    - dandian-crm
+  description: Dandian-crm
+  matchers:
+    - location: body
+      words:
+        - content="单点crm系统
+        - url=general/erp/login/

@@ -1,0 +1,10 @@
+- id: mmonit
+  name: Mmonit
+  author: P1finger
+  tags:
+    - mmonit
+  description: Mmonit
+  matchers:
+    - location: header
+      words:
+        - 'Server: mmonit'

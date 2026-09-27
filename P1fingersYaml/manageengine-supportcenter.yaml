@@ -1,0 +1,10 @@
+- id: manageengine-supportcenter
+  name: ManageEngine-SupportCenter
+  author: P1finger
+  tags:
+    - manageengine-supportcenter
+  description: ManageEngine-SupportCenter
+  matchers:
+    - location: body
+      words:
+        - <title>ManageEngine SupportCenter Plus</title>

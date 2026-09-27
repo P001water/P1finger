@@ -1,0 +1,10 @@
+- id: guahao-appointmentregistrationsystem
+  name: Guahao-appointmentregistrationsystem
+  author: P001
+  tags:
+    - guahao-appointmentregistrationsystem
+  description: Guahao-appointmentregistrationsystem
+  matchers:
+    - location: body
+      words:
+        - var title    = "预约挂号系统";

@@ -1,0 +1,10 @@
+- id: wallarm-waf
+  name: Wallarm-WAF
+  author: P1finger
+  tags:
+    - wallarm-waf
+  description: Wallarm-WAF
+  matchers:
+    - location: header
+      words:
+        - 'Server: nginx-wallarm'

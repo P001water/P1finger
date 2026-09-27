@@ -1,0 +1,10 @@
+- id: belajar
+  name: E Belajar
+  author: P1finger
+  tags:
+    - belajar
+  description: E Belajar
+  matchers:
+    - location: body
+      words:
+        - E-Belajar

@@ -1,0 +1,10 @@
+- id: yundunwaf
+  name: YundunWAF
+  author: P1finger
+  tags:
+    - yundunwaf
+  description: YundunWAF
+  matchers:
+    - location: body
+      words:
+        - YUNDUN Cloud WAF

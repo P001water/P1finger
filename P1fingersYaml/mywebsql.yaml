@@ -1,0 +1,14 @@
+- id: mywebsql
+  name: Mywebsql
+  author: P001
+  tags:
+    - mywebsql
+  description: Mywebsql
+  matchers:
+    - location: body
+      words:
+        - method="post" action="" name="dbform"
+        - target="_blank" href="http://mywebsql.net
+    - location: body
+      words:
+        - MyWebSQL

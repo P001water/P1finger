@@ -1,0 +1,11 @@
+- id: colasoft-tsa
+  name: Colasoft-tsa
+  author: P001
+  tags:
+    - colasoft-tsa
+  description: Colasoft-tsa
+  matchers:
+    - location: body
+      words:
+        - data-i18n="[html]username">#username&nbsp;&nbsp;</td>
+        - nfr="true"

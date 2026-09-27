@@ -1,0 +1,10 @@
+- id: piolink-tifront-f26
+  name: PIOLINK TiFRONT F26
+  author: P1finger
+  tags:
+    - piolink-tifront-f26
+  description: PIOLINK TiFRONT F26
+  matchers:
+    - location: body
+      words:
+        - tifront-f26

@@ -1,0 +1,10 @@
+- id: visualware-myconnection
+  name: Visualware-myconnection-server
+  author: P001
+  tags:
+    - visualware-myconnection
+  description: Visualware-myconnection-server
+  matchers:
+    - location: body
+      words:
+        - <!-- begin myconnection server applet -->

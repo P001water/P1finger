@@ -1,0 +1,11 @@
+- id: wuyougouwuasptongyongban-system
+  name: WuyougouwuASPtongyongban System
+  author: P1finger
+  tags:
+    - wuyougouwuasptongyongban
+    - system
+  description: WuyougouwuASPtongyongban System
+  matchers:
+    - location: body
+      words:
+        - <a href="buy.asp">购物车</a>

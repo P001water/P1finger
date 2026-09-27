@@ -1,0 +1,10 @@
+- id: phpkit
+  name: PHPKIT
+  author: P1finger
+  tags:
+    - phpkit
+  description: PHPKIT
+  matchers:
+    - location: body
+      words:
+        - content="PHPKIT WCMS

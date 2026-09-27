@@ -1,0 +1,29 @@
+- id: hiki
+  name: Hiki
+  author: Fofa
+  tags:
+    - hiki
+  description: Hiki
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="Hiki
+    - condition: or
+      location: body
+      words:
+        - /hiki_base.css
+    - condition: or
+      location: body
+      words:
+        - by <a href="http://hikiwiki.org/
+    - location: body
+      words:
+        - content="Hiki
+        - /hiki_base.css
+        - by <a href="http://hikiwiki.org/
+    - location: body
+      words:
+        - /hiki_base.css
+        - by <a href="http://hikiwiki.org/
+        - content="hiki

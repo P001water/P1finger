@@ -1,0 +1,10 @@
+- id: php-photo-gallery
+  name: PHP Photo Gallery
+  author: P1finger
+  tags:
+    - php-photo-gallery
+  description: PHP Photo Gallery
+  matchers:
+    - location: body
+      words:
+        - PHP Photo Gallery

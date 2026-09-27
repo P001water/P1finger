@@ -1,0 +1,10 @@
+- id: microhard-systems
+  name: Microhard Systems
+  author: P1finger
+  tags:
+    - microhard-systems
+  description: Microhard Systems
+  matchers:
+    - hash:
+        - "-1723752240"
+      location: favicon

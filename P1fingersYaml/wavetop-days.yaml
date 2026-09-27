@@ -1,0 +1,10 @@
+- id: wavetop-days
+  name: Wavetop-days
+  author: P001
+  tags:
+    - wavetop-days
+  description: Wavetop-days
+  matchers:
+    - location: body
+      words:
+        - application/views/img/logo_wavetop.png

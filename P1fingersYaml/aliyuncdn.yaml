@@ -1,0 +1,10 @@
+- id: aliyuncdn
+  name: Aliyuncdn
+  author: P001
+  tags:
+    - aliyuncdn
+  description: Aliyuncdn
+  matchers:
+    - location: body
+      words:
+        - cdn.aliyuncs.com

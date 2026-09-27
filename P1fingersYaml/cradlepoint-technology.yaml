@@ -1,0 +1,10 @@
+- id: cradlepoint-technology
+  name: Cradlepoint Technology
+  author: P1finger
+  tags:
+    - cradlepoint-technology
+  description: Cradlepoint Technology
+  matchers:
+    - hash:
+        - "1466912879"
+      location: favicon

@@ -1,0 +1,10 @@
+- id: business-paperless
+  name: Business-paperless-system
+  author: P001
+  tags:
+    - business-paperless
+  description: Business-paperless-system
+  matchers:
+    - location: body
+      words:
+        - //获取营业台席pc机 ip地址 mac地址

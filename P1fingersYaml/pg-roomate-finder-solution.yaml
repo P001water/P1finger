@@ -1,0 +1,11 @@
+- id: pg-roomate-finder-solution
+  name: Pg-roomate-finder-solution
+  author: P001
+  tags:
+    - pg-roomate-finder-solution
+  description: Pg-roomate-finder-solution
+  matchers:
+    - location: body
+      words:
+        - powered by <a href="http://www.realtysoft.pro
+        - powered by pg roomate finder solution

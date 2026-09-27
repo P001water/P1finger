@@ -1,0 +1,22 @@
+- id: springboot-actuator
+  name: Detect Springboot Actuators
+  author: nuclei
+  tags:
+  - springboot
+  - actuator
+  description: Detect Springboot Actuators
+  paths:
+  - /actuator
+  - /actuator%72
+  - /favicon.ico
+  - /actuator/favicon.ico
+  matchers:
+  - location: body
+    words:
+    - '"_links":'
+    - '"self":'
+    - '"health"'
+    condition: and
+  - location: favicon
+    hash:
+    - '116323821'

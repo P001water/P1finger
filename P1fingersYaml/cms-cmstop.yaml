@@ -1,0 +1,15 @@
+- id: cmstop
+  name: CMS-CMSTOP
+  author: P001
+  tags:
+    - cmstop
+  description: CMS-CMSTOP
+  matchers:
+    - location: body
+      words:
+        - <a class="poweredby" href="http://www.cmstop.com"
+        - cmstop-list-text.css
+        - /css/cmstop-common.css
+        - /js/cmstop-common.js
+        - cmstop-common
+        - css/cmstop-common.css

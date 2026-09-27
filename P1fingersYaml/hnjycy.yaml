@@ -1,0 +1,10 @@
+- id: hnjycy
+  name: Hnjycy
+  author: P001
+  tags:
+    - hnjycy
+  description: Hnjycy
+  matchers:
+    - location: body
+      words:
+        - href="http://www.hnjycy.com" target="_blank">沃科网<

@@ -1,0 +1,10 @@
+- id: niagara-2
+  name: Niagara
+  author: P1finger
+  tags:
+    - niagara
+  description: Niagara
+  matchers:
+    - hash:
+        - "1991562061"
+      location: favicon

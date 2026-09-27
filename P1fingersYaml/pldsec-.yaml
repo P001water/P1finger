@@ -1,0 +1,11 @@
+- id: pldsectongyianquanguanlihezongheshenji
+  name: Pldsectongyianquanguanlihezongheshenji System
+  author: P001
+  tags:
+    - pldsectongyianquanguanlihezongheshenji
+    - system
+  description: Pldsectongyianquanguanlihezongheshenji System
+  matchers:
+    - location: body
+      words:
+        - module/image/pldsec.css

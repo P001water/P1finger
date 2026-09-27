@@ -1,0 +1,13 @@
+- id: quick-bi
+  name: Quick BI
+  author: P1finger
+  tags:
+    - quick-bi
+  description: Quick BI
+  matchers:
+    - hash:
+        - "-1036035382"
+      location: favicon
+    - location: body
+      words:
+        - QuickBI

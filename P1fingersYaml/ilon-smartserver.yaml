@@ -1,0 +1,25 @@
+- id: ilon-smartserver
+  name: Ilon-smartserver
+  author: P1finger
+  tags:
+    - ilon-smartserver
+  description: Ilon-smartserver
+  matchers:
+    - location: header
+      words:
+        - i.LON
+- id: ilon-smartserver-2
+  name: ILON-SmartServer
+  author: Fofa
+  tags:
+    - ilon-smartserver
+  description: ILON-SmartServer
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WindRiver
+    - condition: and
+      location: header
+      words:
+        - i.LON

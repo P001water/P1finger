@@ -1,0 +1,25 @@
+- id: ewebs
+  name: Ewebs
+  author: P001
+  tags:
+    - ewebs
+  description: Ewebs
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - clientdownload.xgi
+        - newsoft
+        - /js/xajax05/xajax_js/xajax_core.js
+        - <a href='../client/ewebsclientsetup.exe'></a> </td>
+- id: xinruankejijitongewebs
+  name: XinruankejijitongEWEBS
+  author: P1finger
+  tags:
+    - xinruankejijitongewebs
+  description: XinruankejijitongEWEBS
+  matchers:
+    - location: body
+      words:
+        - EWEBSClientsetup
+        - 极通应用虚拟化系统

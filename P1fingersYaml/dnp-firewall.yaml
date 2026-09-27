@@ -1,0 +1,58 @@
+- id: dnp
+  name: DnP Firewall
+  author: Fofa
+  tags:
+    - dnp
+  description: DnP Firewall
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by DnP Firewall
+    - condition: or
+      location: body
+      words:
+        - dnp_firewall_redirect
+- id: dnp-2
+  name: Dnp-firewall
+  author: P1finger
+  tags:
+    - dnp
+  description: Dnp-firewall
+  matchers:
+    - location: body
+      words:
+        - Forum Gateway - Powered by DnP Firewall
+        - name="dnp_firewall_redirect
+        - <form name=dnp_firewall
+    - location: body
+      words:
+        - <form name=dnp_firewall
+        - dnp_firewall_redirect
+        - name="dnp_firewall_redirect
+    - location: body
+      words:
+        - Forum Gateway - Powered by DnP Firewall
+- id: dnp-3
+  name: DnP-Firewall
+  author: Fofa
+  tags:
+    - dnp
+  description: DnP-Firewall
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - Forum Gateway - Powered by DnP Firewall
+    - condition: or
+      location: body
+      words:
+        - name="dnp_firewall_redirect
+    - condition: or
+      location: body
+      words:
+        - <form name=dnp_firewall
+    - location: body
+      words:
+        - Powered by DnP Firewall
+        - dnp_firewall_redirect

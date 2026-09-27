@@ -1,0 +1,10 @@
+- id: diskstation-manager-dsm
+  name: DiskStation-Manager(DSM)
+  author: P1finger
+  tags:
+    - diskstation-manager-dsm
+  description: DiskStation-Manager(DSM)
+  matchers:
+    - location: body
+      words:
+        - ;DiskStation" />

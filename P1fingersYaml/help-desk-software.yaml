@@ -1,0 +1,21 @@
+- id: help-desk
+  name: Help-desk-software
+  author: P1finger
+  tags:
+    - help-desk
+  description: Help-desk-software
+  matchers:
+    - location: body
+      words:
+        - target="_blank">freehelpdesk.org
+- id: help-desk-2
+  name: Help-Desk-Software
+  author: Fofa
+  tags:
+    - help-desk
+  description: Help-Desk-Software
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - target="_blank">freehelpdesk.org

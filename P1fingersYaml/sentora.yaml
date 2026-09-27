@@ -1,0 +1,14 @@
+- id: sentora
+  name: Sentora
+  author: P1finger
+  tags:
+    - sentora
+  description: Sentora
+  matchers:
+    - hash:
+        - "-2054889066"
+      location: favicon
+    - location: body
+      words:
+        - href="http://www.sentora.org/"
+        - sentora_logo.png

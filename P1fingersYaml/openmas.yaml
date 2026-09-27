@@ -1,0 +1,19 @@
+- id: openmas
+  name: OpenMas
+  author: Fofa
+  tags:
+    - openmas
+  description: OpenMas
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - OpenMas
+    - condition: or
+      location: body
+      words:
+        - loginHead"><link href="App_Themes
+    - location: body
+      words:
+        - OpenMas
+        - loginHead"><link href="App_Themes

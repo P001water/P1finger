@@ -1,0 +1,11 @@
+- id: bad-behavior
+  name: Bad_Behavior
+  author: Fofa
+  tags:
+    - bad-behavior
+  description: Bad_Behavior
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - bb2_screener_

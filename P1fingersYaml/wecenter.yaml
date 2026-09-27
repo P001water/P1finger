@@ -1,0 +1,22 @@
+- id: wecenter
+  name: Wecenter
+  author: Fofa
+  tags:
+    - wecenter
+  description: Wecenter
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - aw_template.js
+    - condition: or
+      location: body
+      words:
+        - WeCenter
+    - location: body
+      words:
+        - aw_template.js
+        - WeCenter
+    - location: body
+      words:
+        - Powered By <a href="http://www.wecenter.com/

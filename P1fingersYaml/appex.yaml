@@ -1,0 +1,20 @@
+- id: appexhuaxiachuangxinlotapp
+  name: AppExhuaxiachuangxinLotApp
+  author: P1finger
+  tags:
+    - appexhuaxiachuangxinlotapp
+  description: AppExhuaxiachuangxinLotApp
+  matchers:
+    - location: body
+      words:
+        - LotApp
+- id: appexhuaxiachuangxinlotwan
+  name: AppExhuaxiachuangxinLotWan
+  author: P1finger
+  tags:
+    - appexhuaxiachuangxinlotwan
+  description: AppExhuaxiachuangxinLotWan
+  matchers:
+    - location: body
+      words:
+        - LotWan

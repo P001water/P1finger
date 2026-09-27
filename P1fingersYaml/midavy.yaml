@@ -1,0 +1,11 @@
+- id: midavymidawei-management-system
+  name: MIDAVYmidawei Management System
+  author: P1finger
+  tags:
+    - midavymidawei
+    - management-system
+  description: MIDAVYmidawei Management System
+  matchers:
+    - location: body
+      words:
+        - MIDAVY(米大卫)管理系统-登录

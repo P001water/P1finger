@@ -1,0 +1,14 @@
+- id: gcards
+  name: GCards
+  author: Fofa
+  tags:
+    - gcards
+  description: GCards
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <a href="http://www.gregphoto.net/gcards/index.php
+    - location: body
+      words:
+        - <a href="http://www.gregphoto.net/gcards/index.php

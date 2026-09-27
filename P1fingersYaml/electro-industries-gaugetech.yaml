@@ -1,0 +1,21 @@
+- id: electro-industries-gaugetech
+  name: Electro-industries-gaugetech
+  author: P1finger
+  tags:
+    - electro-industries-gaugetech
+  description: Electro-industries-gaugetech
+  matchers:
+    - location: header
+      words:
+        - EIG Embedded Web Server
+- id: electro-industries-gaugetech-2
+  name: Electro-Industries-GaugeTech
+  author: Fofa
+  tags:
+    - electro-industries-gaugetech
+  description: Electro-Industries-GaugeTech
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - EIG Embedded Web Server

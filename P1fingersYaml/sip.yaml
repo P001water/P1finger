@@ -1,0 +1,13 @@
+- id: guobiaosip-platform
+  name: Guobiaosip Platform
+  author: P001
+  tags:
+    - guobiaosip
+    - platform
+  description: Guobiaosip Platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - <h5><a href="config.htm?file=config.htm">start page</a></h5>"???*#e?<?q
+        - sippuaccessserverctx

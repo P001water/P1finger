@@ -1,0 +1,13 @@
+- id: openmediavault
+  name: Openmediavault
+  author: P1finger
+  tags:
+    - openmediavault
+  description: Openmediavault
+  matchers:
+    - hash:
+        - "-693082538"
+      location: favicon
+    - location: header
+      words:
+        - 'Set-Cookie: X-OpenMediaVault-SESSIONID='

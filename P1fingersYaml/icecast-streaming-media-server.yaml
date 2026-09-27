@@ -1,0 +1,10 @@
+- id: icecast-streaming-media
+  name: Icecast Streaming Media Server
+  author: P1finger
+  tags:
+    - icecast-streaming-media
+  description: Icecast Streaming Media Server
+  matchers:
+    - hash:
+        - "1424295654"
+      location: favicon

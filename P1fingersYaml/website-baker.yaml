@@ -1,0 +1,13 @@
+- id: website-baker
+  name: Website Baker
+  author: P1finger
+  tags:
+    - website-baker
+  description: Website Baker
+  matchers:
+    - location: body
+      words:
+        - href="http://www.websitebaker.org/"
+    - location: header
+      words:
+        - wb_session_id

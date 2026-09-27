@@ -1,0 +1,17 @@
+- id: niushop
+  name: Niushop
+  author: P001
+  tags:
+    - niushop
+  description: Niushop
+  matchers:
+    - hash:
+        - 4b320a972023a99c21bffa7267ba6546
+      location: favicon
+    - location: body
+      words:
+        - niushop
+    - location: body
+      words:
+        - Niushop开源商城
+        - NIUSHOP开源商城

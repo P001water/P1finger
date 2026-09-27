@@ -1,0 +1,11 @@
+- id: iis7-2
+  name: IIS7.5
+  author: Fofa
+  tags:
+    - iis7
+  description: IIS7.5
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - IIS/7.5

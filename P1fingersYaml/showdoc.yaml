@@ -1,0 +1,11 @@
+- id: showdoctuanduixiezuowendangku
+  name: ShowDoctuanduixiezuowendangku
+  author: P1finger
+  tags:
+    - showdoctuanduixiezuowendangku
+  description: ShowDoctuanduixiezuowendangku
+  matchers:
+    - location: body
+      words:
+        - showdoc
+        - content=本网站基于开源版showdoc搭建

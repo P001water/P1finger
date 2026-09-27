@@ -1,0 +1,11 @@
+- id: phpshe
+  name: CMS-PHPSHE
+  author: P001
+  tags:
+    - phpshe
+  description: CMS-PHPSHE
+  matchers:
+    - location: body
+      words:
+        - content="phpshe
+        - powered by phpshe

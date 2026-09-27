@@ -1,0 +1,10 @@
+- id: hintsoft-pubwin2015
+  name: Hintsoft-pubwin2015
+  author: P001
+  tags:
+    - hintsoft-pubwin2015
+  description: Hintsoft-pubwin2015
+  matchers:
+    - location: body
+      words:
+        - images/newlogin_01.jpg

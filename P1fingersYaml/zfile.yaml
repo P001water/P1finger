@@ -1,0 +1,10 @@
+- id: zfile
+  name: ZFile
+  author: P1finger
+  tags:
+    - zfile
+  description: ZFile
+  matchers:
+    - location: body
+      words:
+        - ZFile

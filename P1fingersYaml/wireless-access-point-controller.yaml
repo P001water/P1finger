@@ -1,0 +1,15 @@
+- id: wireless-access-point-controller
+  name: Wireless-access-point-controller
+  author: P001
+  tags:
+    - wireless-access-point-controller
+  description: Wireless-access-point-controller
+  matchers:
+    - location: body
+      words:
+        - <select id = "selclangswitch" class="langswitch" onchange = "switchpagelanguage()">
+        - src="images/acchtext.png"
+        - var oemproductname = "mvc_howay6000"
+        - var oemproductname = "mvc_howay6100")
+        - 版权所有 &copy 2009-2017</div>
+        - 苏州汉明科技有限公司

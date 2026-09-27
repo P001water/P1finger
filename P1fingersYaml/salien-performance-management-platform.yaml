@@ -1,0 +1,11 @@
+- id: salien-performance
+  name: Salien-performance-management-platform
+  author: P001
+  tags:
+    - salien-performance
+  description: Salien-performance-management-platform
+  matchers:
+    - location: body
+      words:
+        - content="copyright 2010 www.salien.com.cn"
+        - href="images/login/cbgl/favicon.ico"

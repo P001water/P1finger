@@ -1,0 +1,10 @@
+- id: bydascms
+  name: Bydascms
+  author: P1finger
+  tags:
+    - bydascms
+  description: Bydascms
+  matchers:
+    - location: header
+      words:
+        - 'X-Powered-By: locationthing2 / Bydas'

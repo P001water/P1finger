@@ -1,0 +1,27 @@
+- id: haproxy-report
+  name: Haproxy-report
+  author: P001
+  tags:
+    - haproxy-report
+  description: Haproxy-report
+  matchers:
+    - location: body
+      words:
+        - statistics report for haproxy
+    - location: body
+      words:
+        - Statistics Report for HAProxy
+- id: haproxy-report-2
+  name: HAProxy_Report
+  author: Fofa
+  tags:
+    - haproxy-report
+  description: HAProxy_Report
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Statistics Report for HAProxy
+    - location: body
+      words:
+        - Statistics Report for HAProxy

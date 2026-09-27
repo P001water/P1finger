@@ -1,0 +1,22 @@
+- id: netmizer
+  name: NetMizer
+  author: P1finger
+  tags:
+    - netmizer
+  description: NetMizer
+  matchers:
+    - location: body
+      words:
+        - NetMizer
+- id: netmizer-log-management-system
+  name: Netmizer Log Management System
+  author: P1finger
+  tags:
+    - netmizer
+    - log-management-system
+  description: Netmizer Log Management System
+  matchers:
+    - location: body
+      words:
+        - window.location.href="main.html";
+        - netmizer 日志管理系统

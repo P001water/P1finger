@@ -1,0 +1,28 @@
+- id: easyconsole
+  name: Easyconsole-cms
+  author: P1finger
+  tags:
+    - easyconsole
+  description: Easyconsole-cms
+  matchers:
+    - location: body
+      words:
+        - easyconsole
+    - location: body
+      words:
+        - window.status='Powered by EasyConsole CMS';
+- id: easyconsole-2
+  name: EasyConsole-CMS
+  author: Fofa
+  tags:
+    - easyconsole
+  description: EasyConsole-CMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by EasyConsole CMS
+    - condition: or
+      location: body
+      words:
+        - Powered by <a href="http://www.easyconsole.com

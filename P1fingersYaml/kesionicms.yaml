@@ -1,0 +1,10 @@
+- id: kesionicms
+  name: KesionICMS
+  author: P1finger
+  tags:
+    - kesionicms
+  description: KesionICMS
+  matchers:
+    - location: body
+      words:
+        - <title>KesionICMS

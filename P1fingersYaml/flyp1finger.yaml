@@ -1,0 +1,10 @@
+- id: flyp1finger
+  name: FlyP1finger
+  author: P1finger
+  tags:
+    - flyp1finger
+  description: FlyP1finger
+  matchers:
+    - location: body
+      words:
+        - Powered by FlyP1finger

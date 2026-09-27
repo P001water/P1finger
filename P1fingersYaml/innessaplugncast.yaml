@@ -1,0 +1,10 @@
+- id: innessaplugncast
+  name: InnesSAPlugncast
+  author: P1finger
+  tags:
+    - innessaplugncast
+  description: InnesSAPlugncast
+  matchers:
+    - location: header
+      words:
+        - 'Server: Plugncast'

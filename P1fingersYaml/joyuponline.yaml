@@ -1,0 +1,10 @@
+- id: joyuponline
+  name: JoyupOnline
+  author: P1finger
+  tags:
+    - joyuponline
+  description: JoyupOnline
+  matchers:
+    - location: body
+      words:
+        - Powered By JoyupOnline JoyupOnline.com

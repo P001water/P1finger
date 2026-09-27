@@ -1,0 +1,10 @@
+- id: shenguyun-sgc8000
+  name: Shenguyun-sgc8000
+  author: P001
+  tags:
+    - shenguyun-sgc8000
+  description: Shenguyun-sgc8000
+  matchers:
+    - location: body
+      words:
+        - var grantlocation="authorization_code

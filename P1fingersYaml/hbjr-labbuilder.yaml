@@ -1,0 +1,10 @@
+- id: hbjr-labbuilder
+  name: Hbjr-labbuilder
+  author: P001
+  tags:
+    - hbjr-labbuilder
+  description: Hbjr-labbuilder
+  matchers:
+    - location: body
+      words:
+        - labbuilder 实验室信息管理系统

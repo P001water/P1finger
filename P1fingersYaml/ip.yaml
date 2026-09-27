@@ -1,0 +1,11 @@
+- id: yunyiip-call-center
+  name: YunyiIP Call Center
+  author: P1finger
+  tags:
+    - yunyiip
+    - call-center
+  description: YunyiIP Call Center
+  matchers:
+    - location: body
+      words:
+        - 云翌IP呼叫中心_用户登录

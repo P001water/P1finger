@@ -1,0 +1,24 @@
+- id: leadsec-soc
+  name: Leadsec-soc
+  author: P001
+  tags:
+  - leadsec
+  - leadsec-soc
+  description: Leadsec-soc
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /leadsec-soc
+    - action="/leadsec-soc/signin
+- id: leadsec-soc-2
+  name: Leadsec SOC
+  author: P1finger
+  tags:
+  - leadsec
+  - leadsec-soc
+  description: Leadsec SOC
+  matchers:
+  - location: body
+    words:
+    - action="/leadsec-soc/signin

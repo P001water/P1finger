@@ -1,0 +1,11 @@
+- id: vmedia-multimedia-publishing
+  name: Vmedia-multimedia-publishing-platform
+  author: P001
+  tags:
+    - vmedia-multimedia-publishing
+  description: Vmedia-multimedia-publishing-platform
+  matchers:
+    - location: body
+      words:
+        - class="video_00"
+        - function toggle(targetid)

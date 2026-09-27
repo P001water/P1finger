@@ -1,0 +1,10 @@
+- id: excelspice
+  name: ExcelSpice
+  author: P1finger
+  tags:
+    - excelspice
+  description: ExcelSpice
+  matchers:
+    - location: body
+      words:
+        - ExcelSpice

@@ -1,0 +1,10 @@
+- id: apex-livebpm
+  name: Apex-livebpm
+  author: P001
+  tags:
+    - apex-livebpm
+  description: Apex-livebpm
+  matchers:
+    - location: body
+      words:
+        - href="/plug-in/login/fixed/css/login.css"

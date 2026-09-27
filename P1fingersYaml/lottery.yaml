@@ -1,0 +1,11 @@
+- id: lotteryliucheng
+  name: Lotteryliucheng Management System
+  author: P1finger
+  tags:
+    - lotteryliucheng
+    - management-system
+  description: Lotteryliucheng Management System
+  matchers:
+    - location: body
+      words:
+        - Lottery流程管理系统

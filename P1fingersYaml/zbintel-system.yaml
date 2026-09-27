@@ -1,0 +1,10 @@
+- id: zbintel
+  name: Zbintel-system
+  author: P001
+  tags:
+    - zbintel
+  description: Zbintel-system
+  matchers:
+    - location: body
+      words:
+        - background="images/login_sample_bgz.jpg"

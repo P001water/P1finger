@@ -1,0 +1,23 @@
+- id: tongda-2
+  name: Tongda
+  author: P1finger
+  tags:
+    - tongda
+  description: Tongda
+  matchers:
+    - hash:
+        - "-759108386"
+      location: favicon
+- id: tongda-3
+  name: Tongda
+  author: P1finger
+  tags:
+    - tongda
+  description: Tongda
+  matchers:
+    - hash:
+        - "-92142703"
+      location: favicon
+    - location: body
+      words:
+        - 深圳市财富趋势科技股份有限公司 版权所有

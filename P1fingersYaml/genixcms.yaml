@@ -1,0 +1,10 @@
+- id: genixcms
+  name: GeniXCMS
+  author: P1finger
+  tags:
+    - genixcms
+  description: GeniXCMS
+  matchers:
+    - location: body
+      words:
+        - GeniXCMS

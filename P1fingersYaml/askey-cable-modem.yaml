@@ -1,0 +1,10 @@
+- id: askey-cable-modem
+  name: Askey Cable Modem
+  author: P1finger
+  tags:
+    - askey-cable-modem
+  description: Askey Cable Modem
+  matchers:
+    - hash:
+        - "-1710631084"
+      location: favicon

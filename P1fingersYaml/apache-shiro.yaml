@@ -1,0 +1,14 @@
+- id: apache-shiro
+  name: Apache-Shiro
+  author: P001
+  tags:
+  - shiro
+  - apache
+  - apache-shiro
+  description: Apache-Shiro
+  matchers:
+  - location: body
+    words:
+    - 'set-cookie: rememberme'
+    - </i> shiro</li>
+    - rememberMe=admin;rememberMe-K=admin

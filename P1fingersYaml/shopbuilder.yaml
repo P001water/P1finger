@@ -1,0 +1,22 @@
+- id: shopbuilder
+  name: Shopbuilder
+  author: Fofa
+  tags:
+    - shopbuilder
+  description: Shopbuilder
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="ShopBuilder
+    - condition: or
+      location: body
+      words:
+        - Powered by ShopBuilder
+    - condition: or
+      location: body
+      words:
+        - ShopBuilder版权所有
+    - location: body
+      words:
+        - ShopBuilder

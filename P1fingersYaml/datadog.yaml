@@ -1,0 +1,10 @@
+- id: datadog
+  name: Datadog
+  author: P1finger
+  tags:
+    - datadog
+  description: Datadog
+  matchers:
+    - location: body
+      words:
+        - 'Datadog: Log In'

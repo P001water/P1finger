@@ -1,0 +1,31 @@
+- id: kerio-mailserver
+  name: Kerio MailServer
+  author: Fofa
+  tags:
+    - kerio-mailserver
+  description: Kerio MailServer
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - Kerio MailServer
+- id: kerio-mailserver-2
+  name: Kerio-mailserver
+  author: P001
+  tags:
+    - kerio-mailserver
+  description: Kerio-mailserver
+  matchers:
+    - location: body
+      words:
+        - 'server: kerio mailserver'
+- id: kerio-mailserver-3
+  name: Kerio Mailserver
+  author: P1finger
+  tags:
+    - kerio-mailserver
+  description: Kerio Mailserver
+  matchers:
+    - location: header
+      words:
+        - Kerio MailServer

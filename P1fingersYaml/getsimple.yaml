@@ -1,0 +1,23 @@
+- id: getsimple-2
+  name: GetSimple
+  author: Fofa
+  tags:
+    - getsimple
+  description: GetSimple
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - content="GetSimple
+    - condition: or
+      location: body
+      words:
+        - Powered by GetSimple
+    - location: body
+      words:
+        - content="GetSimple
+        - Powered by GetSimple
+    - location: body
+      words:
+        - content="getsimple, easy, content management system"
+        - Powered by GetSimple

@@ -1,0 +1,10 @@
+- id: journalx
+  name: Journalx
+  author: P1finger
+  tags:
+    - journalx
+  description: Journalx
+  matchers:
+    - location: body
+      words:
+        - journalx/authorlogon.action?mag_id

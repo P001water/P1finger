@@ -1,0 +1,10 @@
+- id: teltonika
+  name: Teltonika
+  author: P1finger
+  tags:
+    - teltonika
+  description: Teltonika
+  matchers:
+    - hash:
+        - "-1612496354"
+      location: favicon

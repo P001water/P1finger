@@ -1,0 +1,10 @@
+- id: liferay
+  name: Liferay Portal
+  author: P1finger
+  tags:
+    - liferay
+  description: Liferay Portal
+  matchers:
+    - hash:
+        - "129457226"
+      location: favicon

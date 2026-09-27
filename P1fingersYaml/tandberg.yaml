@@ -1,0 +1,10 @@
+- id: tandberg
+  name: Tandberg
+  author: P1finger
+  tags:
+    - tandberg
+  description: Tandberg
+  matchers:
+    - hash:
+        - "97604680"
+      location: favicon

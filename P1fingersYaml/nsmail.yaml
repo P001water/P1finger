@@ -1,0 +1,10 @@
+- id: nsmail
+  name: Nsmail
+  author: P1finger
+  tags:
+    - nsmail
+  description: Nsmail
+  matchers:
+    - location: body
+      words:
+        - Nsmail

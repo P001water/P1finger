@@ -1,0 +1,14 @@
+- id: consul-hashicorp
+  name: Consul-hashicorp
+  author: P001
+  tags:
+  - consul
+  - consul-hashicorp
+  description: Consul-hashicorp
+  matchers:
+  - location: body
+    words:
+    - consul instance
+    - consul-ui/config/environment
+    - consulhost
+    - www.consul.io

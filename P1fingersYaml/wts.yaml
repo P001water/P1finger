@@ -1,0 +1,10 @@
+- id: xishuwtswaf
+  name: XishuWTSWAF
+  author: P1finger
+  tags:
+    - xishuwtswaf
+  description: XishuWTSWAF
+  matchers:
+    - location: body
+      words:
+        - WTS-WAF拦截提示

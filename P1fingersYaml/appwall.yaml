@@ -1,0 +1,14 @@
+- id: appwall
+  name: AppWall
+  author: Fofa
+  tags:
+    - appwall
+  description: AppWall
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - X-SL-CompState
+    - location: header
+      words:
+        - X-SL-CompState

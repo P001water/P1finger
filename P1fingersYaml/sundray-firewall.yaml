@@ -1,0 +1,11 @@
+- id: sundray
+  name: Sundray Firewall
+  author: P1finger
+  tags:
+    - sundray
+  description: Sundray Firewall
+  matchers:
+    - location: body
+      words:
+        - help = decodeuricomponent(version_info_ch)
+        - http://www.sundray.com.cn/Support/feedback.html

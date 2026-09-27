@@ -1,0 +1,11 @@
+- id: dptech-uag3000
+  name: DPTECH UAG3000
+  author: P1finger
+  tags:
+  - dptech
+  - dptech-uag3000
+  description: DPTECH UAG3000
+  matchers:
+  - location: body
+    words:
+    - dptech uag3000

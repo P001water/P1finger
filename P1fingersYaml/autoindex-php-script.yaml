@@ -1,0 +1,38 @@
+- id: autoindex-php-script
+  name: Autoindex-php-script
+  author: P1finger
+  tags:
+    - autoindex-php-script
+  description: Autoindex-php-script
+  matchers:
+    - location: body
+      words:
+        - title="AutoIndex Default
+        - autoindex.sourceforge.net/
+    - location: header
+      words:
+        - AutoIndex2
+    - location: body
+      words:
+        - autoindex.sourceforge.net/
+        - title="autoindex default
+        - 'set-cookie: autoindex2'
+- id: autoindex-php-script-2
+  name: AutoIndex-PHP-Script
+  author: Fofa
+  tags:
+    - autoindex-php-script
+  description: AutoIndex-PHP-Script
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - title="AutoIndex Default
+    - condition: or
+      location: header
+      words:
+        - AutoIndex2
+    - condition: and
+      location: body
+      words:
+        - autoindex.sourceforge.net/")

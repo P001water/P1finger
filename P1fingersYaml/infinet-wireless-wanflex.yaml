@@ -1,0 +1,10 @@
+- id: infinet-wireless-wanflex-3
+  name: Infinet Wireless | Wanflex
+  author: P1finger
+  tags:
+    - infinet-wireless-wanflex
+  description: Infinet Wireless | Wanflex
+  matchers:
+    - hash:
+        - "1648531157"
+      location: favicon

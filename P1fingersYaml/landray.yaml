@@ -1,0 +1,67 @@
+- id: landray-platform
+  name: Landray Platform
+  author: Fofa
+  tags:
+    - landray
+    - platform
+  description: Landray Platform
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - /scripts/jquery.landray.common.js
+    - condition: or
+      location: body
+      words:
+        - v11_QRcodeBar clr
+    - location: body
+      words:
+        - /scripts/jquery.landray.common.js
+        - v11_QRcodeBar clr
+- id: landray
+  name: Landray
+  author: P1finger
+  tags:
+    - landray
+  description: Landray
+  matchers:
+    - location: body
+      words:
+        - /ekp/login.jsp
+        - ekpwx-v.oa.camc
+        - resource/anonym.jsp
+        - /sys/ui/js/LUI.js
+- id: landray-2
+  name: Landray
+  author: P1finger
+  tags:
+    - landray
+  description: Landray
+  matchers:
+    - location: body
+      words:
+        - 蓝凌KK
+- id: landray-platform-2
+  name: Landray Platform
+  author: P001
+  tags:
+    - landray
+    - platform
+  description: Landray Platform
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /scripts/jquery.landray.common.js
+        - 蓝凌软件
+- id: landray-platform-3
+  name: Landray Platform
+  author: P001
+  tags:
+    - landray
+    - platform
+  description: Landray Platform
+  matchers:
+    - location: body
+      words:
+        - /scripts/jquery.landray.common.js

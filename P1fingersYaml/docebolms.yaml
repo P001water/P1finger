@@ -1,0 +1,27 @@
+- id: docebolms
+  name: DoceboLMS
+  author: Fofa
+  tags:
+    - docebolms
+  description: DoceboLMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - Powered by Docebo
+    - condition: or
+      location: header
+      words:
+        - docebo_session=
+    - location: body
+      words:
+        - Powered by Docebo
+    - location: header
+      words:
+        - docebo_session=
+    - location: body
+      words:
+        - powered by docebo
+    - location: body
+      words:
+        - <body class="yui-skin-docebo yui-skin-sam">

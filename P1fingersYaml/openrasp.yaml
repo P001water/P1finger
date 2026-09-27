@@ -1,0 +1,20 @@
+- id: openrasp
+  name: Openrasp
+  author: P1finger
+  tags:
+    - openrasp
+  description: Openrasp
+  matchers:
+    - location: body
+      words:
+        - 400 - Request blocked by OpenRASP
+- id: openraspzishiyinganquanfanghushebei
+  name: OpenRASPzishiyinganquanfanghushebei
+  author: P1finger
+  tags:
+    - openraspzishiyinganquanfanghushebei
+  description: OpenRASPzishiyinganquanfanghushebei
+  matchers:
+    - location: body
+      words:
+        - OpenRASP

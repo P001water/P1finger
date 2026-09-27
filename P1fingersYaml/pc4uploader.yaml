@@ -1,0 +1,11 @@
+- id: pc4uploader
+  name: Pc4uploader
+  author: P001
+  tags:
+    - pc4uploader
+  description: Pc4uploader
+  matchers:
+    - location: body
+      words:
+        - pc4uploader <font color
+        - powered by pc4uploader

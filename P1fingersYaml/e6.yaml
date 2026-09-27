@@ -1,0 +1,22 @@
+- id: e6xietong
+  name: E6xietong Document Management System
+  author: P1finger
+  tags:
+    - e6xietong
+    - document-management-system
+  description: E6xietong Document Management System
+  matchers:
+    - location: body
+      words:
+        - E6协同文档管理系统
+- id: zhidee6
+  name: ZhideE6 Document Management System
+  author: P1finger
+  tags:
+    - zhidee6
+    - document-management-system
+  description: ZhideE6 Document Management System
+  matchers:
+    - location: body
+      words:
+        - E6文档管理系统

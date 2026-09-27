@@ -1,0 +1,14 @@
+- id: boyowcms
+  name: Boyowcms
+  author: P1finger
+  tags:
+    - boyowcms
+  description: Boyowcms
+  matchers:
+    - location: body
+      words:
+        - publish by BoyowCMS
+    - condition: and
+      location: body
+      words:
+        - publish by BoyowCMS

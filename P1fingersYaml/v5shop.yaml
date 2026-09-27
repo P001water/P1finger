@@ -1,0 +1,24 @@
+- id: v5shop
+  name: V5shop
+  author: Fofa
+  tags:
+    - v5shop
+  description: V5shop
+  matchers:
+    - condition: or
+      location: title
+      words:
+        - v5shop
+    - condition: or
+      location: body
+      words:
+        - content="V5shop
+    - condition: or
+      location: body
+      words:
+        - Powered by V5Shop
+    - location: body
+      words:
+        - v5shop
+        - content="V5shop
+        - Powered by V5Shop

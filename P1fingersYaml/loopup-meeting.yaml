@@ -1,0 +1,12 @@
+- id: loopup-meeting
+  name: Loopup-meeting
+  author: P001
+  tags:
+    - loopup-meeting
+  description: Loopup-meeting
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="loopup"
+        - 'machine:'

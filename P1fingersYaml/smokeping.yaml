@@ -1,0 +1,11 @@
+- id: smokeping
+  name: Smokeping
+  author: P001
+  tags:
+    - smokeping
+  description: Smokeping
+  matchers:
+    - location: body
+      words:
+        - <a href="http://oss.oetiker.ch/smokeping/counter.cgi/
+        - <tr><td class="menuitem" colspan="2">&nbsp;-&nbsp;<a class="menulink" href="?target=

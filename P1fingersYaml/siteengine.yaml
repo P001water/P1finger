@@ -1,0 +1,20 @@
+- id: siteengine
+  name: SiteEngine
+  author: Fofa
+  tags:
+    - siteengine
+  description: SiteEngine
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - content="Boka SiteEngine
+    - location: body
+      words:
+        - content="Boka SiteEngine
+    - location: body
+      words:
+        - content="boka siteengine
+    - location: body
+      words:
+        - Boka SiteEngine">

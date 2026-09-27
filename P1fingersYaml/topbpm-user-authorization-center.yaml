@@ -1,0 +1,10 @@
+- id: topbpm-user-authorization
+  name: Topbpm-user-authorization-center
+  author: P001
+  tags:
+    - topbpm-user-authorization
+  description: Topbpm-user-authorization-center
+  matchers:
+    - location: body
+      words:
+        - src="/images/sinopeclogo.png"

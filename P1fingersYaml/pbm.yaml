@@ -1,0 +1,10 @@
+- id: pbm
+  name: PBM
+  author: P1finger
+  tags:
+    - pbm
+  description: PBM
+  matchers:
+    - location: body
+      words:
+        - content='PMB Group'

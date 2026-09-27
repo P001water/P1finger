@@ -1,0 +1,13 @@
+- id: pritunl
+  name: Pritunl
+  author: P1finger
+  tags:
+    - pritunl
+  description: Pritunl
+  matchers:
+    - location: body
+      words:
+        - Pritunl
+    - location: header
+      words:
+        - Pritunl

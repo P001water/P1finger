@@ -1,0 +1,21 @@
+- id: frogcms
+  name: FrogCMS
+  author: Fofa
+  tags:
+    - frogcms
+  description: FrogCMS
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - target="_blank">Frog CMS
+    - condition: or
+      location: body
+      words:
+        - href="http://www.madebyfrog.com">Frog CMS
+    - location: body
+      words:
+        - Frog CMS
+    - location: body
+      words:
+        - '">Frog CMS</a>'

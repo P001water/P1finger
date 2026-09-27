@@ -1,0 +1,10 @@
+- id: poweralert
+  name: Poweralert
+  author: P001
+  tags:
+    - poweralert
+  description: Poweralert
+  matchers:
+    - location: body
+      words:
+        - 'server: poweralert http server'

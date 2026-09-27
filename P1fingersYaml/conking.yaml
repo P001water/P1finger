@@ -1,0 +1,10 @@
+- id: conking
+  name: Conking
+  author: P1finger
+  tags:
+    - conking
+  description: Conking
+  matchers:
+    - location: body
+      words:
+        - www.conking.com.cn

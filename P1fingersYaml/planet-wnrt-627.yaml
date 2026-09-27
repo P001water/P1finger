@@ -1,0 +1,11 @@
+- id: planet-wnrt-627
+  name: Planet WNRT-627
+  author: Fofa
+  tags:
+    - planet-wnrt-627
+  description: Planet WNRT-627
+  matchers:
+    - condition: and
+      location: header
+      words:
+        - WNRT-627

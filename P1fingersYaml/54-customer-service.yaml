@@ -1,0 +1,10 @@
+- id: 54-customer
+  name: 54-customer-service
+  author: P001
+  tags:
+    - 54-customer
+  description: 54-customer-service
+  matchers:
+    - location: body
+      words:
+        - src="http://code.54kefu.net/

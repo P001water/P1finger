@@ -1,0 +1,12 @@
+- id: jiayangkayangehr
+  name: JiayangkayangEHR
+  author: P1finger
+  tags:
+    - jiayangkayangehr
+  description: JiayangkayangEHR
+  matchers:
+    - location: body
+      words:
+        - E-HR
+        - 人力资源信息系统
+        - 上海嘉扬信息系统有限公司

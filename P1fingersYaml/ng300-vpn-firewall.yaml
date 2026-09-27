@@ -1,0 +1,10 @@
+- id: xunbong300vpnfirewall
+  name: XunboNG300VPNFirewall
+  author: P1finger
+  tags:
+    - xunbong300vpnfirewall
+  description: XunboNG300VPNFirewall
+  matchers:
+    - location: header
+      words:
+        - Basic realm="NG300-VPN-Firewall"

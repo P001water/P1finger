@@ -1,0 +1,11 @@
+- id: quarkmail
+  name: Quarkmail
+  author: P001
+  tags:
+    - quarkmail
+  description: Quarkmail
+  matchers:
+    - location: body
+      words:
+        - <iframe src="/cgi-bin/web2cgi/index.cgi" scrolling="no" frameborder=
+        - window.location.replace("/cgi-bin/web2cgi/index.cgi");

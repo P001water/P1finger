@@ -1,0 +1,10 @@
+- id: repro-proxy
+  name: Repro-Proxy
+  author: P1finger
+  tags:
+    - repro-proxy
+  description: Repro-Proxy
+  matchers:
+    - location: header
+      words:
+        - 'Server: Repro Proxy Repro'

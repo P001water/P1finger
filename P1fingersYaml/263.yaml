@@ -1,0 +1,36 @@
+- id: "263"
+  name: 263 Enterprise Cloud Communication
+  author: P1finger
+  tags:
+    - "263"
+    - enterprise-cloud-communication
+  description: 263 Enterprise Cloud Communication
+  matchers:
+    - hash:
+        - "1081820320"
+      location: favicon
+    - location: body
+      words:
+        - 北京二六三企业通信有限公司
+- id: 263-hr-management-system
+  name: 263 HR Management System
+  author: P1finger
+  tags:
+    - "263"
+    - hr-management-system
+  description: 263 HR Management System
+  matchers:
+    - location: body
+      words:
+        - 263人事管理系统
+- id: 263-system
+  name: 263 System
+  author: P1finger
+  tags:
+    - "263"
+    - system
+  description: 263 System
+  matchers:
+    - location: body
+      words:
+        - 263统一经管运营支撑系统

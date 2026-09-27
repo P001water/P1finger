@@ -1,0 +1,10 @@
+- id: ocs-inventory-ng
+  name: Ocs-inventory-ng
+  author: P001
+  tags:
+    - ocs-inventory-ng
+  description: Ocs-inventory-ng
+  matchers:
+    - location: body
+      words:
+        - css/ocsreports.css

@@ -1,0 +1,11 @@
+- id: statusnet
+  name: Statusnet
+  author: P001
+  tags:
+    - statusnet
+  description: Statusnet
+  matchers:
+    - location: body
+      words:
+        - <p>this site is powered by <a href="http://status.net/">statusnet</a> version
+        - it runs the <a href="http://status.net/">statusnet</a> microblogging software, version

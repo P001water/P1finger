@@ -1,0 +1,15 @@
+- id: jira-2
+  name: Jira
+  author: nuclei
+  tags:
+  - atlassian
+  - jira
+  description: Jira login panel was detected.
+  paths:
+  - /secure/Dashboard.jspa
+  - /jira/secure/Dashboard.jspa
+  - /login.jsp
+  matchers:
+  - location: body
+    words:
+    - Project Management Software

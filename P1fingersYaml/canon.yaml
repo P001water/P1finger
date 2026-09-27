@@ -1,0 +1,23 @@
+- id: jianengwangluocanonnetworkcameras
+  name: Jianengwangluocanonnetworkcameras Camera
+  author: P1finger
+  tags:
+    - jianengwangluocanonnetworkcameras
+    - camera
+  description: Jianengwangluocanonnetworkcameras Camera
+  matchers:
+    - location: body
+      words:
+        - /viewer/live/en/live.html
+- id: jianengwangluocanonnetworkcameras-2
+  name: JianengwangluoCanonNetworkCameras Camera
+  author: Fofa
+  tags:
+    - jianengwangluocanonnetworkcameras
+    - camera
+  description: JianengwangluoCanonNetworkCameras Camera
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - /viewer/live/en/live.html

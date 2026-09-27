@@ -1,0 +1,11 @@
+- id: webplusr
+  name: Webplusr
+  author: P1finger
+  tags:
+    - webplusr
+  description: Webplusr
+  matchers:
+    - location: body
+      words:
+        - webplus
+        - 高校网站群管理平台

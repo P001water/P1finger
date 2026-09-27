@@ -1,0 +1,40 @@
+- id: parallels-plesk-panel
+  name: Parallels Plesk Panel
+  author: Fofa
+  tags:
+    - parallels-plesk-panel
+  description: Parallels Plesk Panel
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - Parallels IP Holdings GmbH
+- id: parallels-plesk-panel-2
+  name: Parallels-plesk-panel
+  author: P001
+  tags:
+    - parallels-plesk-panel
+  description: Parallels-plesk-panel
+  matchers:
+    - location: body
+      words:
+        - <img src="./img/panel-logo.png" alt="parallels plesk panel"></a>
+        - parallels ip holdings gmbh
+- id: parallels-plesk-panel-3
+  name: Parallels Plesk Panel
+  author: P1finger
+  tags:
+    - parallels-plesk-panel
+  description: Parallels Plesk Panel
+  matchers:
+    - location: body
+      words:
+        - Parallels IP Holdings GmbH
+    - hash:
+        - "-652508439"
+        - "-519765377"
+        - "-771764544"
+      location: favicon
+    - hash:
+        - "-771764544"
+      location: favicon

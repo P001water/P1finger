@@ -1,0 +1,11 @@
+- id: lifelocation
+  name: Lifelocation
+  author: P001
+  tags:
+    - lifelocation
+  description: Lifelocation
+  matchers:
+    - location: body
+      words:
+        - content="lifelocation
+        - title="install lifelocation

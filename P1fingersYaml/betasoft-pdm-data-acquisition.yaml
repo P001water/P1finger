@@ -1,0 +1,11 @@
+- id: betasoft-pdm-acquisition
+  name: Betasoft-pdm-data-acquisition
+  author: P001
+  tags:
+    - betasoft-pdm-acquisition
+  description: Betasoft-pdm-data-acquisition
+  matchers:
+    - location: body
+      words:
+        - align="center" class="login_pdm">
+        - 'background: no-repeat url(../images/login/pdmdenglu1_28.png);'

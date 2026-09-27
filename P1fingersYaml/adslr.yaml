@@ -1,0 +1,34 @@
+- id: adslr-security-device
+  name: ADSLR Security Device
+  author: P1finger
+  tags:
+    - adslr
+    - security-device
+  description: ADSLR Security Device
+  matchers:
+    - location: body
+      words:
+        - 飞鱼星设备WEB配置系统
+- id: adslr
+  name: ADSLR Internet Behavior Management System
+  author: P1finger
+  tags:
+    - adslr
+    - internet-behavior-management-system
+  description: ADSLR Internet Behavior Management System
+  matchers:
+    - location: body
+      words:
+        - 飞鱼星企业级智能上网行为管理系统
+- id: adslr-next-generation-firewall
+  name: ADSLR Next-Generation Firewall
+  author: P1finger
+  tags:
+    - adslr
+    - next-generation-firewall
+  description: ADSLR Next-Generation Firewall
+  matchers:
+    - location: body
+      words:
+        - 下一代防火墙安全网关
+        - href="/css/cover_admin.css"

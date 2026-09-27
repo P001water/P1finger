@@ -1,0 +1,7079 @@
+- id: aliyun-2
+  name: Aliyun
+  author: P1finger
+  tags:
+  - aliyun
+  description: Aliyun
+  matchers:
+  - location: header
+    words:
+    - yundun_404
+    - YunDun-CDN
+- id: aikuailiukongluyou
+  name: Aikuailiukongluyou
+  author: Fofa
+  tags:
+  - aikuailiukongluyou
+  description: Aikuailiukongluyou
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 爱快
+  - condition: and
+    location: body
+    words:
+    - /resources/images/land_prompt_ico01.gif
+  - location: body
+    words:
+    - 爱快
+    - /resources/images/land_prompt_ico01.gif
+- id: ainitejuecefenxi
+  name: Ainitejuecefenxi Management System
+  author: P1finger
+  tags:
+  - ainitejuecefenxi
+  - management-system
+  description: Ainitejuecefenxi Management System
+  matchers:
+  - location: body
+    words:
+    - Ainit决策分析管理系统
+- id: aisennuowangluofuwuzhiliangjiance
+  name: Aisennuowangluofuwuzhiliangjiance System
+  author: Fofa
+  tags:
+  - aisennuowangluofuwuzhiliangjiance
+  - system
+  description: Aisennuowangluofuwuzhiliangjiance System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - '埃森诺网络服务质量检测系统 '
+  - location: body
+    words:
+    - '埃森诺网络服务质量检测系统 '
+- id: aishideshangwang
+  name: Aishideshangwang Management System
+  author: P1finger
+  tags:
+  - aishideshangwang
+  - management-system
+  description: Aishideshangwang Management System
+  matchers:
+  - location: body
+    words:
+    - 爱施德上网管理系统
+- id: aisihuabaoxinxifuwuqi
+  name: Aisihuabaoxinxifuwuqi
+  author: Fofa
+  tags:
+  - aisihuabaoxinxifuwuqi
+  description: Aisihuabaoxinxifuwuqi
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - IceWarp
+  - condition: or
+    location: body
+    words:
+    - Powered by <a href="http://www.icewarp.com
+  - location: body
+    words:
+    - Powered by <a href="http://www.icewarp.com
+  - location: header
+    words:
+    - IceWarp
+- id: aitaiwangluo-management-system
+  name: Aitaiwangluo Management System
+  author: P1finger
+  tags:
+  - aitaiwangluo
+  - management-system
+  description: Aitaiwangluo Management System
+  matchers:
+  - location: body
+    words:
+    - /noAuth/BrowserVersion.js"
+- id: anbotongyingyong-gateway
+  name: Anbotongyingyong Gateway
+  author: P001
+  tags:
+  - anbotongyingyong
+  - gateway
+  description: Anbotongyingyong Gateway
+  matchers:
+  - location: body
+    words:
+    - 安博通应用网关
+- id: anbotongyingyong-gateway-2
+  name: Anbotongyingyong Gateway
+  author: P1finger
+  tags:
+  - anbotongyingyong
+  - gateway
+  description: Anbotongyingyong Gateway
+  matchers:
+  - location: body
+    words:
+    - 安博通应用网关
+- id: ancairuanjian
+  name: Ancairuanjian
+  author: P1finger
+  tags:
+  - ancairuanjian
+  description: Ancairuanjian
+  matchers:
+  - location: body
+    words:
+    - 欢迎您光临安财软件网络报销系统
+- id: ancejixiao-management-system
+  name: Ancejixiao Management System
+  author: P1finger
+  tags:
+  - ancejixiao
+  - management-system
+  description: Ancejixiao Management System
+  matchers:
+  - location: body
+    words:
+    - 安策绩效信息科技
+- id: dbappsecurity-firewall
+  name: DBAppSecurity Firewall
+  author: P001
+  tags:
+  - dbappsecurity
+  - firewall
+  description: DBAppSecurity Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - dbapp security
+    - scripts/web-common.js
+- id: dbappsecurity-platform
+  name: DBAppSecurity Platform
+  author: P001
+  tags:
+  - dbappsecurity
+  - platform
+  description: DBAppSecurity Platform
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 网站安全检测平台
+    - 网站安全监测平台
+- id: dbappsecurity-security-gateway
+  name: DBAppSecurity Security Gateway
+  author: P001
+  tags:
+  - dbappsecurity
+  - security-gateway
+  description: DBAppSecurity Security Gateway
+  matchers:
+  - location: body
+    words:
+    - 明御安全网关
+- id: dbappsecurity-system
+  name: DBAppSecurity System
+  author: P001
+  tags:
+  - dbappsecurity
+  - system
+  description: DBAppSecurity System
+  matchers:
+  - location: body
+    words:
+    - 明御数据库审计
+- id: dbappsecurity-system-2
+  name: DBAppSecurity System
+  author: P001
+  tags:
+  - dbappsecurity
+  - system
+  description: DBAppSecurity System
+  matchers:
+  - location: body
+    words:
+    - <title>登录-明御
+    - href="fakepath"/>
+    - document.querySelector("#usm_loader");
+    - 'transform: rotate(360deg);}}'
+- id: dbappsecurity-log-audit
+  name: DBAppSecurity Log Audit
+  author: P001
+  tags:
+  - dbappsecurity
+  - log-audit
+  description: DBAppSecurity Log Audit
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 明御
+    - 综合日志审计分析平台
+- id: dbappsecurity-bastion-host
+  name: DBAppSecurity Bastion Host
+  author: P001
+  tags:
+  - dbappsecurity
+  - bastion-host
+  description: DBAppSecurity Bastion Host
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - dbappsecurity
+    - 安恒云堡垒机
+- id: anhuiwangdun
+  name: Anhuiwangdun
+  author: Fofa
+  tags:
+  - anhuiwangdun
+  description: Anhuiwangdun
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 'Protected-By: AnHui Web Firewall'
+  - location: header
+    words:
+    - 'Protected-By: AnHui Web Firewall'
+- id: anquanbao
+  name: Anquanbao
+  author: P1finger
+  tags:
+  - anquanbao
+  description: Anquanbao
+  matchers:
+  - location: header
+    words:
+    - X-Powered-By-Anquanbao
+  - condition: and
+    location: header
+    words:
+    - X-Powered-By-Anquanbao
+- id: anquangeliyuxinxijiaohuan
+  name: Anquangeliyuxinxijiaohuan System
+  author: P1finger
+  tags:
+  - anquangeliyuxinxijiaohuan
+  - system
+  description: Anquangeliyuxinxijiaohuan System
+  matchers:
+  - location: body
+    words:
+    - 安全隔离与信息交换系统
+- id: anquangou
+  name: Anquangou
+  author: Fofa
+  tags:
+  - anquangou
+  description: Anquangou
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - WAF/2.0
+  - location: header
+    words:
+    - safedog-flow-item=
+    - safedog
+- id: anquangouyunleiyunanquan
+  name: Anquangouyunleiyunanquan Platform
+  author: P1finger
+  tags:
+  - anquangouyunleiyunanquan
+  - platform
+  description: Anquangouyunleiyunanquan Platform
+  matchers:
+  - location: body
+    words:
+    - yunlei_login
+- id: antiangaojikechixuweixieanquanjiance
+  name: Antiangaojikechixuweixieanquanjiance System
+  author: P1finger
+  tags:
+  - antiangaojikechixuweixieanquanjiance
+  - system
+  description: Antiangaojikechixuweixieanquanjiance System
+  matchers:
+  - location: body
+    words:
+    - 高级可持续威胁安全检测系统
+- id: antianzhenguan
+  name: Antianzhenguan Next-Generation Firewall
+  author: P1finger
+  tags:
+  - antianzhenguan
+  - next-generation-firewall
+  description: Antianzhenguan Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 安天镇关下一代防火墙
+- id: antuorongjiwangluoyinhuansaomiao
+  name: Antuorongjiwangluoyinhuansaomiao System
+  author: P1finger
+  tags:
+  - antuorongjiwangluoyinhuansaomiao
+  - system
+  description: Antuorongjiwangluoyinhuansaomiao System
+  matchers:
+  - location: body
+    words:
+    - 安拓.榕基网络隐患扫描系统
+  - location: header
+    words:
+    - rj-itop
+- id: anwangkejizhinengluyou-system
+  name: Anwangkejizhinengluyou System
+  author: P001
+  tags:
+  - anwangkejizhinengluyou
+  - system
+  description: Anwangkejizhinengluyou System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <title>安网科技-智能路由系统</title>
+    - var save_time=72;//小时数
+- id: anxinhua
+  name: Anxinhua Next-Generation Firewall
+  author: P1finger
+  tags:
+  - anxinhua
+  - next-generation-firewall
+  description: Anxinhua Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 安信华下一代防火墙
+- id: anxinhua-2
+  name: Anxinhua Next-Generation Firewall
+  author: P1finger
+  tags:
+  - anxinhua
+  - next-generation-firewall
+  description: Anxinhua Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 安信华下一代防火墙
+- id: anyiquanweixin
+  name: Anyiquanweixin Management System
+  author: P1finger
+  tags:
+  - anyiquanweixin
+  - management-system
+  description: Anyiquanweixin Management System
+  matchers:
+  - location: body
+    words:
+    - <meta name="description" content="安逸圈微信管理系统"
+- id: anyou
+  name: Anyou
+  author: P1finger
+  tags:
+  - anyou
+  description: Anyou
+  matchers:
+  - location: body
+    words:
+    - suremail.cn
+- id: anyouanquanyoujian
+  name: Anyouanquanyoujian
+  author: P001
+  tags:
+  - anyouanquanyoujian
+  description: Anyouanquanyoujian
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <span> 客服邮箱support@suremail.cn</span>
+    - content="北京国信安邮科技有限公司
+- id: angkaishujukushenji-system
+  name: Angkaishujukushenji System
+  author: P1finger
+  tags:
+  - angkaishujukushenji
+  - system
+  description: Angkaishujukushenji System
+  matchers:
+  - location: body
+    words:
+    - 昂楷数据库审计系统
+- id: aoyuankeji
+  name: Aoyuankeji
+  author: P1finger
+  tags:
+  - aoyuankeji
+  description: Aoyuankeji
+  matchers:
+  - location: body
+    words:
+    - aykj.net
+- id: suoziyulajiyoujian-firewall
+  name: Suoziyulajiyoujian Firewall
+  author: P1finger
+  tags:
+  - suoziyulajiyoujian
+  - firewall
+  description: Suoziyulajiyoujian Firewall
+  matchers:
+  - location: body
+    words:
+    - http://www.barracudanetworks.com?a=bsf_product" class="transbutton
+    - /cgi-mod/header_logo.cgi
+- id: baguicaiyun
+  name: Baguicaiyun
+  author: P1finger
+  tags:
+  - baguicaiyun
+  description: Baguicaiyun
+  matchers:
+  - location: body
+    words:
+    - 八桂彩云
+    - content="八桂彩云，八桂彩云管理平台"
+- id: baiaoruida
+  name: Baiaoruida
+  author: P1finger
+  tags:
+  - baiaoruida
+  description: Baiaoruida
+  matchers:
+  - location: body
+    words:
+    - /public/controls/dhtmlx/codebase/dhtmlx.js
+    - licenseVailable
+- id: baiaoruidaanfang
+  name: Baiaoruidaanfang Management System
+  author: P1finger
+  tags:
+  - baiaoruidaanfang
+  - management-system
+  description: Baiaoruidaanfang Management System
+  matchers:
+  - location: body
+    words:
+    - else if("百傲瑞达"=="百傲瑞达")
+  - location: body
+    words:
+    - 百傲瑞达
+- id: baidu-3
+  name: Baidu
+  author: Fofa
+  tags:
+  - baidu
+  description: Baidu
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - share.baidu.com/static/api/js/share.js
+- id: baidu-4
+  name: Baidu
+  author: P1finger
+  tags:
+  - baidu
+  description: Baidu
+  matchers:
+  - location: body
+    words:
+    - https://ikefu.baidu.com
+- id: baidu-5
+  name: Baidu
+  author: Fofa
+  tags:
+  - baidu
+  description: Baidu
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - X-Server
+  - condition: and
+    location: header
+    words:
+    - fhl
+- id: baiweiluyou
+  name: Baiweiluyou
+  author: Fofa
+  tags:
+  - baiweiluyou
+  description: Baiweiluyou
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 提交验证的id必须是ctl_submit
+  - location: body
+    words:
+    - 提交验证的id必须是ctl_submit
+- id: baiweizhinengliukong-router
+  name: Baiweizhinengliukong Router
+  author: Fofa
+  tags:
+  - baiweizhinengliukong
+  - router
+  description: Baiweizhinengliukong Router
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - BYTEVALUE 智能流控路由器
+  - condition: and
+    location: body
+    words:
+    - <a href="http://www.bytevalue.com/" target="_blank">
+  - location: body
+    words:
+    - BYTEVALUE 智能流控路由器
+    - <a href="http://www.bytevalue.com/" target="_blank">
+- id: venustech-security-audit
+  name: Venustech Security Audit
+  author: P001
+  tags:
+  - venustech
+  - security-audit
+  description: Venustech Security Audit
+  matchers:
+  - location: body
+    words:
+    - onclick="javascript:$('input[name=c]').val('');
+    - /client/Site-downloadRunTimeDetector
+    - images/loading/bar.gif
+- id: baotawangzhan-firewall
+  name: Baotawangzhan Firewall
+  author: P1finger
+  tags:
+  - baotawangzhan
+  - firewall
+  description: Baotawangzhan Firewall
+  matchers:
+  - location: body
+    words:
+    - 宝塔网站防火墙
+    - 这是误报，请联系宝塔
+- id: beichuangtushujiansuo-system
+  name: Beichuangtushujiansuo System
+  author: Fofa
+  tags:
+  - beichuangtushujiansuo
+  - system
+  description: Beichuangtushujiansuo System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - opac_two
+  - location: body
+    words:
+    - opac_two
+- id: beijingdonghuayuanjianyao
+  name: Beijingdonghuayuanjianyao Management System
+  author: P1finger
+  tags:
+  - beijingdonghuayuanjianyao
+  - management-system
+  description: Beijingdonghuayuanjianyao Management System
+  matchers:
+  - location: body
+    words:
+    - 北京东华原煎药管理系统
+- id: beijingjinpanpengturuanjian
+  name: Beijingjinpanpengturuanjian
+  author: Fofa
+  tags:
+  - beijingjinpanpengturuanjian
+  description: Beijingjinpanpengturuanjian
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - SpeakIntertScarch.aspx
+  - location: body
+    words:
+    - SpeakIntertScarch.aspx
+- id: beijingyangguanghuanqiu-cms
+  name: Beijingyangguanghuanqiu CMS
+  author: Fofa
+  tags:
+  - beijingyangguanghuanqiu
+  - cms
+  description: Beijingyangguanghuanqiu CMS
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - bigSortProduct.asp?bigid
+  - location: body
+    words:
+    - bigSortProduct.asp?bigid
+- id: benjiewangluo-management-system
+  name: Benjiewangluo Management System
+  author: P1finger
+  tags:
+  - benjiewangluo
+  - management-system
+  description: Benjiewangluo Management System
+  matchers:
+  - location: body
+    words:
+    - 本捷网络
+- id: bihaiyunhe
+  name: Bihaiyunhe
+  author: P1finger
+  tags:
+  - bihaiyunhe
+  description: Bihaiyunhe
+  matchers:
+  - location: body
+    words:
+    - 碧海云盒
+- id: bodajiaohuanji
+  name: Bodajiaohuanji
+  author: P1finger
+  tags:
+  - bodajiaohuanji
+  description: Bodajiaohuanji
+  matchers:
+  - location: header
+    words:
+    - 'Www-Authenticate: Basic realm="Switch"'
+- id: bohuawanglong-firewall
+  name: Bohuawanglong Firewall
+  author: P1finger
+  tags:
+  - bohuawanglong
+  - firewall
+  description: Bohuawanglong Firewall
+  matchers:
+  - location: body
+    words:
+    - 博华网龙防火墙
+- id: bohuawanglongxinxianquanyitiji
+  name: Bohuawanglongxinxianquanyitiji
+  author: P1finger
+  tags:
+  - bohuawanglongxinxianquanyitiji
+  description: Bohuawanglongxinxianquanyitiji
+  matchers:
+  - location: body
+    words:
+    - 博华网龙信息安全一体机
+- id: bokuyiyuanzaixian
+  name: Bokuyiyuanzaixian Examination System
+  author: P1finger
+  tags:
+  - bokuyiyuanzaixian
+  - examination-system
+  description: Bokuyiyuanzaixian Examination System
+  matchers:
+  - location: body
+    words:
+    - 博库医学在线考试系统
+- id: bosipiaoju-management-system
+  name: Bosipiaoju Management System
+  author: P1finger
+  tags:
+  - bosipiaoju
+  - management-system
+  description: Bosipiaoju Management System
+  matchers:
+  - location: header
+    words:
+    - bosssoft
+- id: cairenhui
+  name: Cairenhui Business Management System
+  author: P1finger
+  tags:
+  - cairenhui
+  - business-management-system
+  description: Cairenhui Business Management System
+  matchers:
+  - location: body
+    words:
+    - XPE后台管理系统
+    - anychat
+- id: chaoran-video-conferencing
+  name: Chaoran Video Conferencing
+  author: P1finger
+  tags:
+  - chaoran
+  - video-conferencing
+  description: Chaoran Video Conferencing
+  matchers:
+  - location: body
+    words:
+    - Welcome to Management System
+- id: cheliangjiankongyun-platform
+  name: Cheliangjiankongyun Platform
+  author: P1finger
+  tags:
+  - cheliangjiankongyun
+  - platform
+  description: Cheliangjiankongyun Platform
+  matchers:
+  - location: body
+    words:
+    - gps-web"></iframe>
+- id: chenruidanxiangchuanshu-system
+  name: Chenruidanxiangchuanshu System
+  author: P1finger
+  tags:
+  - chenruidanxiangchuanshu
+  - system
+  description: Chenruidanxiangchuanshu System
+  matchers:
+  - location: body
+    words:
+    - 辰锐单向传输系统
+- id: chengdoutianruntiantianhu
+  name: Chengdoutianruntiantianhu
+  author: P1finger
+  tags:
+  - chengdoutianruntiantianhu
+  description: Chengdoutianruntiantianhu
+  matchers:
+  - location: body
+    words:
+    - 成都添闰通讯技术有限公司
+- id: chengfangjiaowu
+  name: Chengfangjiaowu Management System
+  author: P1finger
+  tags:
+  - chengfangjiaowu
+  - management-system
+  description: Chengfangjiaowu Management System
+  matchers:
+  - location: body
+    words:
+    - 教务管理系统
+    - 乘方教务
+- id: chengnuodakefu
+  name: Chengnuodakefu Management System
+  author: P1finger
+  tags:
+  - chengnuodakefu
+  - management-system
+  description: Chengnuodakefu Management System
+  matchers:
+  - location: body
+    words:
+    - 承诺达客服管理系统
+- id: chengshuwangluo-cms
+  name: Chengshuwangluo CMS
+  author: P1finger
+  tags:
+  - chengshuwangluo
+  - cms
+  description: Chengshuwangluo CMS
+  matchers:
+  - location: body
+    words:
+    - 技术支持：橙树网络
+- id: chengxin-cms
+  name: Chengxin CMS
+  author: P1finger
+  tags:
+  - chengxin
+  - cms
+  description: Chengxin CMS
+  matchers:
+  - location: body
+    words:
+    - 诚信网站管理系统
+- id: chuangqixinxianquan
+  name: Chuangqixinxianquan Management System
+  author: P1finger
+  tags:
+  - chuangqixinxianquan
+  - management-system
+  description: Chuangqixinxianquan Management System
+  matchers:
+  - location: body
+    words:
+    - 创旗信息安全管理系统
+- id: chuangxingweiyexiaoyuanwangqun
+  name: Chuangxingweiyexiaoyuanwangqun
+  author: Fofa
+  tags:
+  - chuangxingweiyexiaoyuanwangqun
+  description: Chuangxingweiyexiaoyuanwangqun
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - javascripts/float.js
+  - condition: and
+    location: body
+    words:
+    - vcxvcxv
+  - location: body
+    words:
+    - javascripts/float.js
+    - vcxvcxv
+- id: ddun
+  name: Ddun
+  author: P1finger
+  tags:
+  - ddun
+  description: Ddun
+  matchers:
+  - location: header
+    words:
+    - JSESSIONID_USER
+- id: dahanbantong-publishing-system
+  name: Dahanbantong Publishing System
+  author: P1finger
+  tags:
+  - dahanbantong
+  - publishing-system
+  description: Dahanbantong Publishing System
+  matchers:
+  - location: body
+    words:
+    - /module/jslib/urite
+    - 大汉版通发布系统
+    - 大汉网络
+- id: daxingyiqishebeigongxiang
+  name: Daxingyiqishebeigongxiang Platform
+  author: P1finger
+  tags:
+  - daxingyiqishebeigongxiang
+  - platform
+  description: Daxingyiqishebeigongxiang Platform
+  matchers:
+  - location: body
+    words:
+    - <!--<script src="wxjs/Demon/Demon.js"></script>-->
+- id: dexunkejishujuzhongxin
+  name: Dexunkejishujuzhongxin
+  author: P1finger
+  tags:
+  - dexunkejishujuzhongxin
+  description: Dexunkejishujuzhongxin
+  matchers:
+  - location: body
+    words:
+    - Datcent .All Rights Reserved.
+- id: dengjiyiyuanpingshenyingjian
+  name: Dengjiyiyuanpingshenyingjian System
+  author: P1finger
+  tags:
+  - dengjiyiyuanpingshenyingjian
+  - system
+  description: Dengjiyiyuanpingshenyingjian System
+  matchers:
+  - location: body
+    words:
+    - content="本系统是专家评审系统的衍生系统
+- id: diguo-cms
+  name: Diguo CMS
+  author: P1finger
+  tags:
+  - diguo
+  - cms
+  description: Diguo CMS
+  matchers:
+  - location: body
+    words:
+    - 帝国网站管理系统
+- id: dilian
+  name: Dilian
+  author: Fofa
+  tags:
+  - dilian
+  description: Dilian
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - 'Server: DNION'
+  - condition: or
+    location: header
+    words:
+    - fastcdn.com
+- id: diaobaochanpin-bastion-host
+  name: Diaobaochanpin Bastion Host
+  author: P001
+  tags:
+  - diaobaochanpin
+  - bastion-host
+  description: Diaobaochanpin Bastion Host
+  matchers:
+  - location: body
+    words:
+    - 碉堡堡垒机
+- id: diaobao-bastion-host
+  name: Diaobao Bastion Host
+  author: P1finger
+  tags:
+  - diaobao
+  - bastion-host
+  description: Diaobao Bastion Host
+  matchers:
+  - location: body
+    words:
+    - 碉堡堡垒机
+- id: diedaiqudaoshang
+  name: Diedaiqudaoshang Management System
+  author: P1finger
+  tags:
+  - diedaiqudaoshang
+  - management-system
+  description: Diedaiqudaoshang Management System
+  matchers:
+  - location: body
+    words:
+    - 蝶贷渠道商管理系统
+- id: dieheruanjiantuandui
+  name: Dieheruanjiantuandui Management System
+  author: P1finger
+  tags:
+  - dieheruanjiantuandui
+  - management-system
+  description: Dieheruanjiantuandui Management System
+  matchers:
+  - location: body
+    words:
+    - 蝶和软件团队管理系统
+- id: dongfanghuadunanquanyoujian
+  name: Dongfanghuadunanquanyoujian
+  author: P1finger
+  tags:
+  - dongfanghuadunanquanyoujian
+  description: Dongfanghuadunanquanyoujian
+  matchers:
+  - location: body
+    words:
+    - ESMTP Huadun
+- id: dongfangshujinrong
+  name: Dongfangshujinrong Management System
+  author: P1finger
+  tags:
+  - dongfangshujinrong
+  - management-system
+  description: Dongfangshujinrong Management System
+  matchers:
+  - location: body
+    words:
+    - 东方树供应链金融管理系统
+- id: dongfangwangligongsichanpin
+  name: Dongfangwangligongsichanpin
+  author: P1finger
+  tags:
+  - dongfangwangligongsichanpin
+  description: Dongfangwangligongsichanpin
+  matchers:
+  - location: body
+    words:
+    - <h1>万解 - 东方网力</h1>
+- id: dongfangxiangyun
+  name: Dongfangxiangyun
+  author: P1finger
+  tags:
+  - dongfangxiangyun
+  description: Dongfangxiangyun
+  matchers:
+  - location: body
+    words:
+    - 东方祥云-登录
+    - <p>版权所有：贵州东方世纪科技股份有限公司
+- id: neusoft
+  name: Neusoft
+  author: P1finger
+  tags:
+  - neusoft
+  description: Neusoft
+  matchers:
+  - location: body
+    words:
+    - neusoft/
+- id: dongxinjinrongshuju
+  name: Dongxinjinrongshuju Management System
+  author: P1finger
+  tags:
+  - dongxinjinrongshuju
+  - management-system
+  description: Dongxinjinrongshuju Management System
+  matchers:
+  - location: body
+    words:
+    - 东新金融数据管理系统
+- id: duogongneng
+  name: Duogongneng Mall Management System
+  author: P1finger
+  tags:
+  - duogongneng
+  - mall-management-system
+  description: Duogongneng Mall Management System
+  matchers:
+  - location: body
+    words:
+    - 多功能商城管理系统
+- id: duomaiwei
+  name: Duomaiwei Mall Management System
+  author: P1finger
+  tags:
+  - duomaiwei
+  - mall-management-system
+  description: Duomaiwei Mall Management System
+  matchers:
+  - location: body
+    words:
+    - 多卖微商城管理系统
+- id: ekanyawenjianshangchuan
+  name: Ekanyawenjianshangchuan
+  author: P1finger
+  tags:
+  - ekanyawenjianshangchuan
+  description: Ekanyawenjianshangchuan
+  matchers:
+  - location: body
+    words:
+    - e看牙
+- id: ezhangtonghoutaiguanlimianban
+  name: Ezhangtonghoutaiguanlimianban
+  author: P1finger
+  tags:
+  - ezhangtonghoutaiguanlimianban
+  description: Ezhangtonghoutaiguanlimianban
+  matchers:
+  - location: body
+    words:
+    - e账通后台管理面板
+    - e账通融合认证系统
+- id: ensite-management-system
+  name: Ensite Management System
+  author: P1finger
+  tags:
+  - ensite
+  - management-system
+  description: Ensite Management System
+  matchers:
+  - location: body
+    words:
+    - 苏州托普斯网络
+- id: erduchekefu-management-system
+  name: Erduchekefu Management System
+  author: P1finger
+  tags:
+  - erduchekefu
+  - management-system
+  description: Erduchekefu Management System
+  matchers:
+  - location: body
+    words:
+    - <title>二度车客服管理系统-二度车网
+- id: fanjiakaoqin-management-system
+  name: Fanjiakaoqin Management System
+  author: P1finger
+  tags:
+  - fanjiakaoqin
+  - management-system
+  description: Fanjiakaoqin Management System
+  matchers:
+  - location: body
+    words:
+    - 番茄考勤管理系统
+    - <title>番茄考勤管理系统</title>
+- id: fanke
+  name: Fanke
+  author: Fofa
+  tags:
+  - fanke
+  description: Fanke
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - 凡科互联网科技股份有限公司
+  - condition: or
+    location: body
+    words:
+    - content="凡科
+  - location: body
+    words:
+    - 凡科
+- id: fanke-website-builder
+  name: Fanke Website Builder
+  author: P1finger
+  tags:
+  - fanke
+  - website-builder
+  description: Fanke Website Builder
+  matchers:
+  - location: body
+    words:
+    - target="_blank">广州凡科互联网科技股份有限公司
+- id: fannuoqiyeshangyeban90mianfeiban
+  name: Fannuoqiyeshangyeban90mianfeiban CMS
+  author: P1finger
+  tags:
+  - fannuoqiyeshangyeban90mianfeiban
+  - cms
+  description: Fannuoqiyeshangyeban90mianfeiban CMS
+  matchers:
+  - location: body
+    words:
+    - 凡诺企业网站管理系统商业版9.0-免费版
+- id: fanpengtiandi-financial-system
+  name: Fanpengtiandi Financial System
+  author: P1finger
+  tags:
+  - fanpengtiandi
+  - financial-system
+  description: Fanpengtiandi Financial System
+  matchers:
+  - location: body
+    words:
+    - 泛鹏天地
+    - instantclick.js
+- id: fangyuantongxin
+  name: Fangyuantongxin Management System
+  author: P1finger
+  tags:
+  - fangyuantongxin
+  - management-system
+  description: Fangyuantongxin Management System
+  matchers:
+  - location: body
+    words:
+    - 方圆通信管理系统
+- id: fangzhengyunyingguanliyujuecezhichi
+  name: Fangzhengyunyingguanliyujuecezhichi System
+  author: P1finger
+  tags:
+  - fangzhengyunyingguanliyujuecezhichi
+  - system
+  description: Fangzhengyunyingguanliyujuecezhichi System
+  matchers:
+  - location: body
+    words:
+    - 决策支持系统
+    - /portal/img/logo.png
+- id: feisiwangxun
+  name: Feisiwangxun
+  author: P1finger
+  tags:
+  - feisiwangxun
+  description: Feisiwangxun
+  matchers:
+  - location: body
+    words:
+    - IT运维网管系统
+  - location: header
+    words:
+    - FreeSMonitorSessID
+- id: feixianchangyewuzonghe
+  name: Feixianchangyewuzonghe Management Platform
+  author: P1finger
+  tags:
+  - feixianchangyewuzonghe
+  - management-platform
+  description: Feixianchangyewuzonghe Management Platform
+  matchers:
+  - location: body
+    words:
+    - 非现场业务综合管理平台
+- id: adslr-security-device-2
+  name: ADSLR Security Device
+  author: P001
+  tags:
+  - adslr
+  - security-device
+  description: ADSLR Security Device
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - cgi-bin/login
+    - languagechange
+- id: adslr-next-generation-firewall-2
+  name: ADSLR Next-Generation Firewall
+  author: P001
+  tags:
+  - adslr
+  - next-generation-firewall
+  description: ADSLR Next-Generation Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - href="/css/cover_admin.css"
+    - 下一代防火墙安全网关
+- id: fengwangqiyeliukongyun-router
+  name: Fengwangqiyeliukongyun Router
+  author: P001
+  tags:
+  - fengwangqiyeliukongyun
+  - router
+  description: Fengwangqiyeliukongyun Router
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - ifw8
+    - 企业级流控云路由器
+- id: fengyuanxinkeji-firewall
+  name: Fengyuanxinkeji Firewall
+  author: P001
+  tags:
+  - fengyuanxinkeji
+  - firewall
+  description: Fengyuanxinkeji Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <title> technology, inc.</title>
+    - 深圳市丰源芯科技产业控股有限公司
+- id: fufuanquanjixianguanli
+  name: Fufuanquanjixianguanli
+  author: Fofa
+  tags:
+  - fufuanquanjixianguanli
+  description: Fufuanquanjixianguanli
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - align="center">福富软件
+  - location: body
+    words:
+    - align="center">福富软件
+- id: fujiandianzikouanquanxiantongyi
+  name: Fujiandianzikouanquanxiantongyi Management Platform
+  author: P1finger
+  tags:
+  - fujiandianzikouanquanxiantongyi
+  - management-platform
+  description: Fujiandianzikouanquanxiantongyi Management Platform
+  matchers:
+  - location: body
+    words:
+    - 福建电子口岸系统权限统一管理平台
+- id: fulaite
+  name: Fulaite Internet Behavior Management System
+  author: P1finger
+  tags:
+  - fulaite
+  - internet-behavior-management-system
+  description: Fulaite Internet Behavior Management System
+  matchers:
+  - location: body
+    words:
+    - 福莱特上网行为管理系统
+- id: fumengyun
+  name: Fumengyun
+  author: P001
+  tags:
+  - fumengyun
+  description: Fumengyun
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - fumasoft
+    - 孚盟云
+- id: gongjikejijifangjiankong
+  name: Gongjikejijifangjiankong
+  author: P1finger
+  tags:
+  - gongjikejijifangjiankong
+  description: Gongjikejijifangjiankong
+  matchers:
+  - location: body
+    words:
+    - 深圳市共济科技机房监控系统
+- id: gongjikejijifangjiankong-2
+  name: Gongjikejijifangjiankong
+  author: P1finger
+  tags:
+  - gongjikejijifangjiankong
+  description: Gongjikejijifangjiankong
+  matchers:
+  - location: body
+    words:
+    - 共济科技机房监控系统
+- id: gongjikejijifang
+  name: Gongjikejijifang Monitoring System
+  author: P1finger
+  tags:
+  - gongjikejijifang
+  - monitoring-system
+  description: Gongjikejijifang Monitoring System
+  matchers:
+  - location: body
+    words:
+    - 深圳市共济科技机房监控系统
+- id: gongkonganquanyinhuanzhilixiangmu
+  name: Gongkonganquanyinhuanzhilixiangmu System
+  author: P001
+  tags:
+  - gongkonganquanyinhuanzhilixiangmu
+  - system
+  description: Gongkonganquanyinhuanzhilixiangmu System
+  matchers:
+  - location: body
+    words:
+    - href="qyxt.html"
+- id: gongzuoyi
+  name: Gongzuoyi
+  author: P1finger
+  tags:
+  - gongzuoyi
+  description: Gongzuoyi
+  matchers:
+  - location: body
+    words:
+    - 工作易人才招聘系统
+- id: guanliyi
+  name: Guanliyi
+  author: Fofa
+  tags:
+  - guanliyi
+  description: Guanliyi
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 管理易
+  - condition: and
+    location: body
+    words:
+    - minierp
+  - location: body
+    words:
+    - 管理易
+    - minierp
+- id: guangxuntong
+  name: Guangxuntong
+  author: P1finger
+  tags:
+  - guangxuntong
+  description: Guangxuntong
+  matchers:
+  - location: body
+    words:
+    - Services/Identification/login.ashx
+- id: guangzhouwanqi-cms
+  name: Guangzhouwanqi CMS
+  author: P1finger
+  tags:
+  - guangzhouwanqi
+  - cms
+  description: Guangzhouwanqi CMS
+  matchers:
+  - location: body
+    words:
+    - www.vancheer.com
+    - vancheerfile
+- id: guangzhouxieshangxietong
+  name: Guangzhouxieshangxietong Management Platform
+  author: P1finger
+  tags:
+  - guangzhouxieshangxietong
+  - management-platform
+  description: Guangzhouxieshangxietong Management Platform
+  matchers:
+  - location: body
+    words:
+    - 广州协商科技有限公司
+- id: guobiao-management-system
+  name: Guobiao Management System
+  author: P001
+  tags:
+  - guobiao
+  - management-system
+  description: Guobiao Management System
+  matchers:
+  - location: body
+    words:
+    - title>国标网关管理系统</title
+- id: guodouxingyexinxishenji-system
+  name: Guodouxingyexinxishenji System
+  author: P1finger
+  tags:
+  - guodouxingyexinxishenji
+  - system
+  description: Guodouxingyexinxishenji System
+  matchers:
+  - location: body
+    words:
+    - 国都兴业信息审计系统技术
+- id: guojiashuzihuaxuexiziyuanzhongxin
+  name: Guojiashuzihuaxuexiziyuanzhongxin System
+  author: Fofa
+  tags:
+  - guojiashuzihuaxuexiziyuanzhongxin
+  - system
+  description: Guojiashuzihuaxuexiziyuanzhongxin System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 页面加载中,请稍候
+  - condition: and
+    location: body
+    words:
+    - FrontEnd
+  - location: body
+    words:
+    - FrontEnd/default.aspx
+- id: guomaidianzianquan
+  name: Guomaidianzianquan Document Management System
+  author: P001
+  tags:
+  - guomaidianzianquan
+  - document-management-system
+  description: Guomaidianzianquan Document Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - </span>国迈安全私有云部. <span>all rights reserved
+    - 国迈安全私有云部 all rights reserved
+- id: guomaidianzianquan-2
+  name: Guomaidianzianquan Document Management System
+  author: P1finger
+  tags:
+  - guomaidianzianquan
+  - document-management-system
+  description: Guomaidianzianquan Document Management System
+  matchers:
+  - location: body
+    words:
+    - 密云-文件安全存储交换平台
+- id: haixiaxinxiheidunwangluo
+  name: Haixiaxinxiheidunwangluo Security Audit
+  author: P001
+  tags:
+  - haixiaxinxiheidunwangluo
+  - security-audit
+  description: Haixiaxinxiheidunwangluo Security Audit
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - technology, inc.
+    - 福建省海峡信息技术有限公司
+- id: haixiaxinxiheidunyunwei
+  name: Haixiaxinxiheidunyunwei Security Gateway
+  author: P001
+  tags:
+  - haixiaxinxiheidunyunwei
+  - security-gateway
+  description: Haixiaxinxiheidunyunwei Security Gateway
+  matchers:
+  - location: body
+    words:
+    - 黑盾运维安全网关(hd-sgs/v4.0)
+- id: hanbai-security-gateway
+  name: Hanbai Security Gateway
+  author: P1finger
+  tags:
+  - hanbai
+  - security-gateway
+  description: Hanbai Security Gateway
+  matchers:
+  - location: body
+    words:
+    - OPZOON
+  - condition: and
+    location: title
+    words:
+    - 'OPZOON - '
+  - location: body
+    words:
+    - 'OPZOON - '
+- id: hanmaruanjian
+  name: Hanmaruanjian
+  author: Fofa
+  tags:
+  - hanmaruanjian
+  description: Hanmaruanjian
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - 汉码软件
+  - condition: or
+    location: body
+    words:
+    - alt="汉码软件LOGO
+  - condition: or
+    location: body
+    words:
+    - content="汉码软件
+  - location: body
+    words:
+    - 汉码软件
+- id: hangzhouchengnuokeji-cms
+  name: Hangzhouchengnuokeji CMS
+  author: P1finger
+  tags:
+  - hangzhouchengnuokeji
+  - cms
+  description: Hangzhouchengnuokeji CMS
+  matchers:
+  - location: body
+    words:
+    - 橙诺科技
+- id: haofeng-firewall
+  name: Haofeng Firewall
+  author: P1finger
+  tags:
+  - haofeng
+  - firewall
+  description: Haofeng Firewall
+  matchers:
+  - location: body
+    words:
+    - 皓峰防火墙
+- id: haofengtongxunzhineng-firewall
+  name: Haofengtongxunzhineng Firewall
+  author: P001
+  tags:
+  - haofengtongxunzhineng
+  - firewall
+  description: Haofengtongxunzhineng Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <body bgcolor=#ddeeff onload="document.all.user.focus()">
+    - 皓峰防火墙
+- id: haoshitong-video-conferencing
+  name: Haoshitong Video Conferencing
+  author: P1finger
+  tags:
+  - haoshitong
+  - video-conferencing
+  description: Haoshitong Video Conferencing
+  matchers:
+  - location: body
+    words:
+    - hao-shi-tong-yun-hui-yi-yuan
+- id: haoyunanfang
+  name: Haoyunanfang
+  author: P1finger
+  tags:
+  - haoyunanfang
+  description: Haoyunanfang
+  matchers:
+  - location: body
+    words:
+    - 浩云安防
+- id: hechenjishuyouyou-firewall
+  name: Hechenjishuyouyou Firewall
+  author: P1finger
+  tags:
+  - hechenjishuyouyou
+  - firewall
+  description: Hechenjishuyouyou Firewall
+  matchers:
+  - location: body
+    words:
+    - 佑友防火墙
+- id: hetongzhineng
+  name: Hetongzhineng
+  author: P1finger
+  tags:
+  - hetongzhineng
+  description: Hetongzhineng
+  matchers:
+  - location: body
+    words:
+    - href="/web/mainmenu/images/favicon.ico">
+    - 和通智能
+- id: hexinchuangyunzhuomian
+  name: Hexinchuangyunzhuomian
+  author: P1finger
+  tags:
+  - hexinchuangyunzhuomian
+  description: Hexinchuangyunzhuomian
+  matchers:
+  - location: body
+    words:
+    - 和信下一代云桌面VENGD
+- id: hezhengwangzhanqun-cms
+  name: Hezhengwangzhanqun CMS
+  author: Fofa
+  tags:
+  - hezhengwangzhanqun
+  - cms
+  description: Hezhengwangzhanqun CMS
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - Produced By
+  - condition: and
+    location: body
+    words:
+    - 网站群内容管理系统
+- id: hezhongshujushipinanquanjieruyonghurenzheng
+  name: Hezhongshujushipinanquanjieruyonghurenzheng System
+  author: P001
+  tags:
+  - hezhongshujushipinanquanjieruyonghurenzheng
+  - system
+  description: Hezhongshujushipinanquanjieruyonghurenzheng System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - txtpasswordcssclass
+    - 视频安全接入用户认证系统
+- id: hezhongshujuwaiwanganquan
+  name: Hezhongshujuwaiwanganquan Data Exchange
+  author: P001
+  tags:
+  - exchange
+  - hezhongshujuwaiwanganquan
+  - data-exchange
+  description: Hezhongshujuwaiwanganquan Data Exchange
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /unimas/
+    - 外网安全数据交换系统
+- id: hongqihongqijiqun
+  name: Hongqihongqijiqun Management System
+  author: P1finger
+  tags:
+  - hongqihongqijiqun
+  - management-system
+  description: Hongqihongqijiqun Management System
+  matchers:
+  - location: body
+    words:
+    - 红旗集群管理系统</b>
+- id: hongqijiqun-management-system
+  name: Hongqijiqun Management System
+  author: P1finger
+  tags:
+  - hongqijiqun
+  - management-system
+  description: Hongqijiqun Management System
+  matchers:
+  - location: body
+    words:
+    - <b>登录到红旗集群管理系统</b></td>
+- id: hongxinanquanguankong-platform
+  name: Hongxinanquanguankong Platform
+  author: P1finger
+  tags:
+  - hongxinanquanguankong
+  - platform
+  description: Hongxinanquanguankong Platform
+  matchers:
+  - location: body
+    words:
+    - <title>红芯安全管控平台</title>
+- id: hulianwangzonghe
+  name: Hulianwangzonghe Management Platform
+  author: P1finger
+  tags:
+  - hulianwangzonghe
+  - management-platform
+  description: Hulianwangzonghe Management Platform
+  matchers:
+  - location: body
+    words:
+    - /ucenter/
+    - 互联网综合管理平台
+    - 亚鸿世纪科技发展有限公司
+- id: hunuokeji-cms
+  name: Hunuokeji CMS
+  author: P1finger
+  tags:
+  - hunuokeji
+  - cms
+  description: Hunuokeji CMS
+  matchers:
+  - location: body
+    words:
+    - 互诺科技
+- id: hws-management-system
+  name: Hws Management System
+  author: P1finger
+  tags:
+  - hws
+  - management-system
+  description: Hws Management System
+  matchers:
+  - location: body
+    words:
+    - 护卫神·主机管理系统
+- id: hws-system
+  name: Hws System
+  author: P001
+  tags:
+  - hws
+  - system
+  description: Hws System
+  matchers:
+  - location: body
+    words:
+    - 护卫神.网站安全系统
+- id: hws-system-2
+  name: Hws System
+  author: P1finger
+  tags:
+  - hws
+  - system
+  description: Hws System
+  matchers:
+  - location: body
+    words:
+    - 护卫神.网站安全系统
+- id: hws-system-3
+  name: Hws System
+  author: Fofa
+  tags:
+  - hws
+  - system
+  description: Hws System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 护卫神.网站安全系统
+  - location: body
+    words:
+    - 护卫神.网站安全系统
+  - location: body
+    words:
+    - 护卫神
+    - 网站安全系统
+- id: hws
+  name: Hws
+  author: P1finger
+  tags:
+  - hws
+  description: Hws
+  matchers:
+  - location: body
+    words:
+    - content="护卫神·主机大师 前台管理登录"
+- id: hws-2
+  name: Hws
+  author: Fofa
+  tags:
+  - hws
+  description: Hws
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 护卫神·主机管理系统
+  - location: body
+    words:
+    - 护卫神·主机管理系统
+- id: hualeikejiwuliuxinxi-system
+  name: Hualeikejiwuliuxinxi System
+  author: P001
+  tags:
+  - hualeikejiwuliuxinxi
+  - system
+  description: Hualeikejiwuliuxinxi System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - content="华磊科技
+    - erp对接
+    - 快递系统
+- id: huaqingxinantongyianquanfangyu
+  name: Huaqingxinantongyianquanfangyu Platform
+  author: P001
+  tags:
+  - huaqingxinantongyianquanfangyu
+  - platform
+  description: Huaqingxinantongyianquanfangyu Platform
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - content="华清信安统一安全防御平台
+    - window.dmsdefaultlanguage
+- id: huaqingxinanzongherizhiguanlishenji
+  name: Huaqingxinanzongherizhiguanlishenji System
+  author: P1finger
+  tags:
+  - huaqingxinanzongherizhiguanlishenji
+  - system
+  description: Huaqingxinanzongherizhiguanlishenji System
+  matchers:
+  - location: body
+    words:
+    - 华清信安综合日志管理审计系统
+- id: huatian-crm
+  name: Huatian CRM
+  author: P1finger
+  tags:
+  - huatian
+  - crm
+  description: Huatian CRM
+  matchers:
+  - location: body
+    words:
+    - 华天客户关系管理系统
+- id: huatianqiyuan-crm
+  name: Huatianqiyuan CRM
+  author: P1finger
+  tags:
+  - huatianqiyuan
+  - crm
+  description: Huatianqiyuan CRM
+  matchers:
+  - location: body
+    words:
+    - class="hidden-xs ewheaderrow"><img src="aspximages/htqy.png"
+    - 华天客户关系管理系统
+- id: huayiwangluo
+  name: Huayiwangluo
+  author: P1finger
+  tags:
+  - huayiwangluo
+  description: Huayiwangluo
+  matchers:
+  - location: body
+    words:
+    - 华宜网络
+- id: huayu-security-gateway
+  name: Huayu Security Gateway
+  author: P001
+  tags:
+  - huayu
+  - security-gateway
+  description: Huayu Security Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 'copy_right = {cn : "", en'
+    - var opzoon_ver
+- id: huayu
+  name: Huayu Internet Behavior Management System
+  author: P1finger
+  tags:
+  - huayu
+  - internet-behavior-management-system
+  description: Huayu Internet Behavior Management System
+  matchers:
+  - location: body
+    words:
+    - 华御上网行为管理系统
+- id: huayushuanshipinzonghe
+  name: Huayushuanshipinzonghe Security Gateway
+  author: P001
+  tags:
+  - huayushuanshipinzonghe
+  - security-gateway
+  description: Huayushuanshipinzonghe Security Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <div class="sys-name">视频综合安全网关</div>
+    - 华域数安
+- id: huantongxuqiulian
+  name: Huantongxuqiulian Management System
+  author: P1finger
+  tags:
+  - huantongxuqiulian
+  - management-system
+  description: Huantongxuqiulian Management System
+  matchers:
+  - location: body
+    words:
+    - <title>寰通需求链管理系统登陆</title>
+- id: huidunanquanshipinhexin
+  name: Huidunanquanshipinhexin Security Gateway
+  author: P001
+  tags:
+  - huidunanquanshipinhexin
+  - security-gateway
+  description: Huidunanquanshipinhexin Security Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - id="view-login"
+    - title').text('视频会议安全系统
+- id: whelton
+  name: Whelton Internet Behavior Management System
+  author: Fofa
+  tags:
+  - whelton
+  - internet-behavior-management-system
+  description: Whelton Internet Behavior Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - updateLoginPswd.php
+  - condition: and
+    location: body
+    words:
+    - PassroedEle
+  - location: body
+    words:
+    - updateLoginPswd.php
+    - PassroedEle
+- id: whelton-2
+  name: Whelton Next-Generation Firewall
+  author: P001
+  tags:
+  - whelton
+  - next-generation-firewall
+  description: Whelton Next-Generation Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /base/img/login_logo_ngaf.jpg
+    - 惠尔顿下一代防火墙
+- id: huijietongyunshixun
+  name: Huijietongyunshixun
+  author: P1finger
+  tags:
+  - huijietongyunshixun
+  description: Huijietongyunshixun
+  matchers:
+  - location: body
+    words:
+    - /him/api/rest/v1.0/node/role
+    - 基础平台管理系统
+- id: huilinxinxianquanceshi
+  name: Huilinxinxianquanceshi Management System
+  author: P1finger
+  tags:
+  - huilinxinxianquanceshi
+  - management-system
+  description: Huilinxinxianquanceshi Management System
+  matchers:
+  - location: body
+    words:
+    - <span style="color:red">慧林信息安全管理系统测试页面</span>
+- id: huixueyunjiaoyu
+  name: Huixueyunjiaoyu
+  author: Fofa
+  tags:
+  - huixueyunjiaoyu
+  description: Huixueyunjiaoyu
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - ctl00_ContentPlaceHolder1_dltTopVideos
+  - condition: or
+    location: header
+    words:
+    - SchoolCopyRight
+  - location: body
+    words:
+    - ctl00_ContentPlaceHolder1_dltTopVideos
+  - location: header
+    words:
+    - SchoolCopyRight
+- id: huixuntong
+  name: Huixuntong
+  author: P1finger
+  tags:
+  - huixuntong
+  description: Huixuntong
+  matchers:
+  - location: body
+    words:
+    - 电话会议系统
+  - location: header
+    words:
+    - EasyMeetingSession
+- id: huiyanshujukushenji-system
+  name: Huiyanshujukushenji System
+  author: P1finger
+  tags:
+  - huiyanshujukushenji
+  - system
+  description: Huiyanshujukushenji System
+  matchers:
+  - location: body
+    words:
+    - 慧眼数据库审计系统
+- id: huorongzhongduananquan
+  name: Huorongzhongduananquan Management System
+  author: P1finger
+  tags:
+  - huorongzhongduananquan
+  - management-system
+  description: Huorongzhongduananquan Management System
+  matchers:
+  - location: body
+    words:
+    - login:title.user_login
+- id: huoxingcang
+  name: Huoxingcang
+  author: P1finger
+  tags:
+  - huoxingcang
+  description: Huoxingcang
+  matchers:
+  - location: body
+    words:
+    - 火星舱系统管理
+- id: huoyunwangluogongzuoshiwangluoyonghu
+  name: Huoyunwangluogongzuoshiwangluoyonghu Management System
+  author: P001
+  tags:
+  - huoyunwangluogongzuoshiwangluoyonghu
+  - management-system
+  description: Huoyunwangluogongzuoshiwangluoyonghu Management System
+  matchers:
+  - location: body
+    words:
+    - <title>网络用户管理系统--M
+    - a{font-size:12px;color:#666;text-decoration:none;
+- id: huoyunwangluowangluoyonghu
+  name: Huoyunwangluowangluoyonghu Management System
+  author: P1finger
+  tags:
+  - huoyunwangluowangluoyonghu
+  - management-system
+  description: Huoyunwangluowangluoyonghu Management System
+  matchers:
+  - location: body
+    words:
+    - 火云网络工作室 http://www.hphu.com QQ188372002
+    - kss_admin/index.php
+- id: jajieenshejijajieenshejiqiyexinxihua
+  name: JAjieenshejiJAjieenshejiqiyexinxihua Management System
+  author: P1finger
+  tags:
+  - jajieenshejijajieenshejiqiyexinxihua
+  - management-system
+  description: JAjieenshejiJAjieenshejiqiyexinxihua Management System
+  matchers:
+  - location: body
+    words:
+    - J&A杰恩设计企业信息化管理系统
+- id: jidazhengyuanshenfenrenzheng
+  name: Jidazhengyuanshenfenrenzheng Gateway
+  author: P001
+  tags:
+  - jidazhengyuanshenfenrenzheng
+  - gateway
+  description: Jidazhengyuanshenfenrenzheng Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /jit_pnx_portal/
+    - 吉大正元身份认证网关
+- id: jidazhengyuanshenfenrenzheng-2
+  name: Jidazhengyuanshenfenrenzheng Gateway
+  author: P1finger
+  tags:
+  - jidazhengyuanshenfenrenzheng
+  - gateway
+  description: Jidazhengyuanshenfenrenzheng Gateway
+  matchers:
+  - location: body
+    words:
+    - 吉大正元身份认证网关
+    - /jit_pnx_portal/
+  - location: header
+    words:
+    - jit_pnxcore1 web service
+- id: jidishujukushenji-system
+  name: Jidishujukushenji System
+  author: P1finger
+  tags:
+  - jidishujukushenji
+  - system
+  description: Jidishujukushenji System
+  matchers:
+  - location: body
+    words:
+    - jddba 1.0
+- id: -instant-messaging
+  name: Instant Messaging
+  author: P1finger
+  tags:
+  - ''
+  - instant-messaging
+  description: Instant Messaging
+  matchers:
+  - location: body
+    words:
+    - <title>即时通讯 系统登录 </title>
+- id: jiteng-waf-gateway
+  name: Jiteng WAF Gateway
+  author: P001
+  tags:
+  - jiteng
+  - waf-gateway
+  description: Jiteng WAF Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - webui/images/basic/login/main_logo.gif
+    - 应用安全网关
+- id: jiteng-waf-gateway-2
+  name: Jiteng WAF Gateway
+  author: P1finger
+  tags:
+  - jiteng
+  - waf-gateway
+  description: Jiteng WAF Gateway
+  matchers:
+  - location: body
+    words:
+    - /webui/images/basic/login/main_logo.gif
+- id: jiasule
+  name: Jiasule
+  author: Fofa
+  tags:
+  - jiasule
+  description: Jiasule
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - __jsluid
+- id: jianwangkeji-firewall
+  name: Jianwangkeji Firewall
+  author: P001
+  tags:
+  - jianwangkeji
+  - firewall
+  description: Jianwangkeji Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - action="/logincheck"
+    - class="login-head clearfix"
+- id: jiangnantianan-log-audit
+  name: Jiangnantianan Log Audit
+  author: P1finger
+  tags:
+  - jiangnantianan
+  - log-audit
+  description: Jiangnantianan Log Audit
+  matchers:
+  - location: body
+    words:
+    - 江南天安-密码技术与信息安全综合服务商
+- id: jiaoxue-examination-system
+  name: Jiaoxue Examination System
+  author: P1finger
+  tags:
+  - jiaoxue
+  - examination-system
+  description: Jiaoxue Examination System
+  matchers:
+  - location: header
+    words:
+    - Basic realm="dreambox"
+- id: jiaozhichuzaixian
+  name: Jiaozhichuzaixian Examination System
+  author: P1finger
+  tags:
+  - jiaozhichuzaixian
+  - examination-system
+  description: Jiaozhichuzaixian Examination System
+  matchers:
+  - location: body
+    words:
+    - JiaoZhiChu
+- id: jiepu-management-system
+  name: Jiepu Management System
+  author: P1finger
+  tags:
+  - jiepu
+  - management-system
+  description: Jiepu Management System
+  matchers:
+  - location: body
+    words:
+    - 捷普
+- id: jieru-management-platform
+  name: Jieru Management Platform
+  author: P001
+  tags:
+  - jieru
+  - management-platform
+  description: Jieru Management Platform
+  matchers:
+  - location: body
+    words:
+    - edp-web/login.jsp
+- id: jiesianquanlieyingzhujianquanxiangying
+  name: Jiesianquanlieyingzhujianquanxiangying System
+  author: P001
+  tags:
+  - jiesianquanlieyingzhujianquanxiangying
+  - system
+  description: Jiesianquanlieyingzhujianquanxiangying System
+  matchers:
+  - location: body
+    words:
+    - majorsec
+- id: jinchuangjiaowu
+  name: Jinchuangjiaowu Management System
+  author: P1finger
+  tags:
+  - jinchuangjiaowu
+  - management-system
+  description: Jinchuangjiaowu Management System
+  matchers:
+  - location: body
+    words:
+    - 开发单位：成都金窗软件开发有限公司
+- id: jindi-mail-system
+  name: Jindi Mail System
+  author: P1finger
+  tags:
+  - jindi
+  - mail-system
+  description: Jindi Mail System
+  matchers:
+  - location: body
+    words:
+    - /jdwm/cgi/login.cgi?login
+  - condition: and
+    location: body
+    words:
+    - /jdwm/cgi/login.cgi?login
+- id: jindianwangan-bastion-host
+  name: Jindianwangan Bastion Host
+  author: P1finger
+  tags:
+  - jindianwangan
+  - bastion-host
+  description: Jindianwangan Bastion Host
+  matchers:
+  - location: body
+    words:
+    - 金电网安可信运维管理系统
+- id: jindianwangan-firewall
+  name: Jindianwangan Firewall
+  author: P1finger
+  tags:
+  - jindianwangan
+  - firewall
+  description: Jindianwangan Firewall
+  matchers:
+  - location: body
+    words:
+    - 金电网安
+- id: jindianwanganyonghurenzheng
+  name: Jindianwanganyonghurenzheng System
+  author: P1finger
+  tags:
+  - jindianwanganyonghurenzheng
+  - system
+  description: Jindianwanganyonghurenzheng System
+  matchers:
+  - location: body
+    words:
+    - 金电网安用户认证系统
+- id: jindunneiwanganquanwangluozhunrukongzhi
+  name: Jindunneiwanganquanwangluozhunrukongzhi System
+  author: P1finger
+  tags:
+  - jindunneiwanganquanwangluozhunrukongzhi
+  - system
+  description: Jindunneiwanganquanwangluozhunrukongzhi System
+  matchers:
+  - location: body
+    words:
+    - 金盾内网安全网络准入控制系统
+- id: jinfangshidai-cms
+  name: Jinfangshidai CMS
+  author: P1finger
+  tags:
+  - jinfangshidai
+  - cms
+  description: Jinfangshidai CMS
+  matchers:
+  - location: body
+    words:
+    - 金方时代
+- id: jinhangwangshang-grading-system
+  name: Jinhangwangshang Grading System
+  author: P1finger
+  tags:
+  - jinhangwangshang
+  - grading-system
+  description: Jinhangwangshang Grading System
+  matchers:
+  - location: body
+    words:
+    - 金航网上阅卷系统
+- id: jinhuizongheguanlixinxi-system
+  name: Jinhuizongheguanlixinxi System
+  author: P1finger
+  tags:
+  - jinhuizongheguanlixinxi
+  - system
+  description: Jinhuizongheguanlixinxi System
+  matchers:
+  - location: body
+    words:
+    - /CommonWebResource/
+- id: jinlongkajinronghuawangzhanchaxunzi
+  name: Jinlongkajinronghuawangzhanchaxunzi All-in-One Card System
+  author: Fofa
+  tags:
+  - jinlongkajinronghuawangzhanchaxunzi
+  - all-in-one-card-system
+  description: Jinlongkajinronghuawangzhanchaxunzi All-in-One Card System
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - 金龙卡金融化一卡通网站查询子系统
+  - condition: or
+    location: body
+    words:
+    - location.href="homeLogin.action
+  - location: body
+    words:
+    - 金龙卡金融化一卡通网站查询子系统
+    - location.href="homeLogin.action
+- id: jinqingqiyeanquanweixieganzhi
+  name: Jinqingqiyeanquanweixieganzhi System
+  author: P1finger
+  tags:
+  - jinqingqiyeanquanweixieganzhi
+  - system
+  description: Jinqingqiyeanquanweixieganzhi System
+  matchers:
+  - location: body
+    words:
+    - 企业安全威胁感知系统
+    - action="/j_spring_security_check
+- id: kingsoft-enterprise-edition
+  name: Kingsoft Enterprise Edition
+  author: P1finger
+  tags:
+  - kingsoft
+  - enterprise-edition
+  description: Kingsoft Enterprise Edition
+  matchers:
+  - location: body
+    words:
+    - 金山毒霸企业版
+    - class="title">关于全网部署金山毒霸企业版
+- id: kingsoft-enterprise-edition-2
+  name: Kingsoft Enterprise Edition
+  author: P1finger
+  tags:
+  - kingsoft
+  - enterprise-edition
+  description: Kingsoft Enterprise Edition
+  matchers:
+  - location: body
+    words:
+    - kaasapp/views/css/assign.css
+- id: kingsoft-3
+  name: Kingsoft
+  author: P1finger
+  tags:
+  - kingsoft
+  description: Kingsoft
+  matchers:
+  - location: body
+    words:
+    - 金山
+    - 猎鹰安全
+- id: kingsoft-firewall
+  name: Kingsoft Firewall
+  author: P1finger
+  tags:
+  - kingsoft
+  - firewall
+  description: Kingsoft Firewall
+  matchers:
+  - location: body
+    words:
+    - 深圳金山信息安全技术有限公司
+- id: kingsoft-4
+  name: Kingsoft
+  author: P1finger
+  tags:
+  - kingsoft
+  description: Kingsoft
+  matchers:
+  - location: body
+    words:
+    - 金山终端安全系统
+    - setup/kanclient.exe
+- id: jinwanweiyisulian
+  name: Jinwanweiyisulian
+  author: P1finger
+  tags:
+  - jinwanweiyisulian
+  description: Jinwanweiyisulian
+  matchers:
+  - location: body
+    words:
+    - action="/GNRemote.dll
+- id: jingyunwangluofangbingdu-system
+  name: Jingyunwangluofangbingdu System
+  author: P001
+  tags:
+  - jingyunwangluofangbingdu
+  - system
+  description: Jingyunwangluofangbingdu System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - login_form
+    - styles/images/logo.png
+    - 防病毒
+- id: jingyunwangluofangbingdu-system-2
+  name: Jingyunwangluofangbingdu System
+  author: P1finger
+  tags:
+  - jingyunwangluofangbingdu
+  - system
+  description: Jingyunwangluofangbingdu System
+  matchers:
+  - location: body
+    words:
+    - 景云网络防病毒系统
+- id: jiuqicaiwubaobiao
+  name: Jiuqicaiwubaobiao
+  author: P1finger
+  tags:
+  - jiuqicaiwubaobiao
+  description: Jiuqicaiwubaobiao
+  matchers:
+  - location: body
+    words:
+    - <center>JQCI</center>
+    - /netrep
+- id: jiuqitongyongcaibiao-system
+  name: Jiuqitongyongcaibiao System
+  author: Fofa
+  tags:
+  - jiuqitongyongcaibiao
+  - system
+  description: Jiuqitongyongcaibiao System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - <nobr>北京久其软件股份有限公司
+  - condition: or
+    location: body
+    words:
+    - /netrep/intf
+  - condition: or
+    location: body
+    words:
+    - /netrep/message2/
+  - location: body
+    words:
+    - <nobr>北京久其软件股份有限公司
+    - /netrep/intf
+    - /netrep/message2/
+- id: jiusixietong-office-system
+  name: Jiusixietong Office System
+  author: P1finger
+  tags:
+  - jiusixietong
+  - office-system
+  description: Jiusixietong Office System
+  matchers:
+  - location: body
+    words:
+    - /jsoa/login.jsp
+    - /x_desktop/index.html
+- id: kaishiyunqiye-cloud-drive
+  name: Kaishiyunqiye Cloud Drive
+  author: P1finger
+  tags:
+  - kaishiyunqiye
+  - cloud-drive
+  description: Kaishiyunqiye Cloud Drive
+  matchers:
+  - location: body
+    words:
+    - kass/basic/login/page_login.jsp
+    - kass/common_js/Global.js
+- id: kantanguanlixinxixitong
+  name: Kantanguanlixinxixitong
+  author: P1finger
+  tags:
+  - kantanguanlixinxixitong
+  description: Kantanguanlixinxixitong
+  matchers:
+  - location: body
+    words:
+    - <title>勘探生产管理信息系統</title>
+- id: kangwangdengjiyiyuanpingshenyingjian
+  name: Kangwangdengjiyiyuanpingshenyingjian System
+  author: P1finger
+  tags:
+  - kangwangdengjiyiyuanpingshenyingjian
+  - system
+  description: Kangwangdengjiyiyuanpingshenyingjian System
+  matchers:
+  - location: body
+    words:
+    - 中国康网
+    - 等级医院评审迎检系统
+- id: kaoshixing
+  name: Kaoshixing
+  author: P1finger
+  tags:
+  - kaoshixing
+  description: Kaoshixing
+  matchers:
+  - location: body
+    words:
+    - /account/static/newVersion
+- id: keboanquangeliyuxinxijiaohuan
+  name: Keboanquangeliyuxinxijiaohuan System
+  author: P1finger
+  tags:
+  - keboanquangeliyuxinxijiaohuan
+  - system
+  description: Keboanquangeliyuxinxijiaohuan System
+  matchers:
+  - location: body
+    words:
+    - 科博安全隔离与信息交换系统
+- id: kedacom
+  name: Kedacom
+  author: P1finger
+  tags:
+  - kedacom
+  description: Kedacom
+  matchers:
+  - location: body
+    words:
+    - 磁盘阵列管理系统
+- id: kedacom-system
+  name: Kedacom System
+  author: P1finger
+  tags:
+  - kedacom
+  - system
+  description: Kedacom System
+  matchers:
+  - location: body
+    words:
+    - 科达磁盘阵列系统
+- id: kedacom-video-conferencing
+  name: Kedacom Video Conferencing
+  author: P1finger
+  tags:
+  - kedacom
+  - video-conferencing
+  description: Kedacom Video Conferencing
+  matchers:
+  - location: body
+    words:
+    - Kedacom
+- id: kedacom-2
+  name: Kedacom
+  author: P1finger
+  tags:
+  - kedacom
+  description: Kedacom
+  matchers:
+  - location: body
+    words:
+    - 网络键盘控制台
+    - class="login-login"
+- id: kedaoyun-system
+  name: Kedaoyun System
+  author: P1finger
+  tags:
+  - kedaoyun
+  - system
+  description: Kedaoyun System
+  matchers:
+  - location: body
+    words:
+    - 可道云.资源管理器<
+    - Powered by KodExplorer
+    - content="KodExplorer
+- id: kelaiwangluoquanliulianganquanfenxi
+  name: Kelaiwangluoquanliulianganquanfenxi System
+  author: P001
+  tags:
+  - kelaiwangluoquanliulianganquanfenxi
+  - system
+  description: Kelaiwangluoquanliulianganquanfenxi System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - data-i18n="[html]username">#username&nbsp;&nbsp;</td>
+    - nfr="true"
+- id: kelaiwangluoquanliulianganquanfenxi-2
+  name: Kelaiwangluoquanliulianganquanfenxi System
+  author: P1finger
+  tags:
+  - kelaiwangluoquanliulianganquanfenxi
+  - system
+  description: Kelaiwangluoquanliulianganquanfenxi System
+  matchers:
+  - location: body
+    words:
+    - 科来网络全流量安全分析系统
+- id: kelaiwangluoxinxizonghejiancechuli
+  name: Kelaiwangluoxinxizonghejiancechuli Platform
+  author: P1finger
+  tags:
+  - kelaiwangluoxinxizonghejiancechuli
+  - platform
+  description: Kelaiwangluoxinxizonghejiancechuli Platform
+  matchers:
+  - location: body
+    words:
+    - 科来网络信息综合检测处理平台
+- id: kelanwangshangyinxing
+  name: Kelanwangshangyinxing
+  author: P1finger
+  tags:
+  - kelanwangshangyinxing
+  description: Kelanwangshangyinxing
+  matchers:
+  - location: body
+    words:
+    - /prelogin.do
+- id: kexin-mail-system
+  name: Kexin Mail System
+  author: P1finger
+  tags:
+  - kexin
+  - mail-system
+  description: Kexin Mail System
+  matchers:
+  - location: body
+    words:
+    - /systemfunction.pack.js
+    - lo_computername
+  - condition: or
+    location: body
+    words:
+    - /systemfunction.pack.js
+  - condition: or
+    location: body
+    words:
+    - lo_computername
+- id: kuaikedianyou
+  name: Kuaikedianyou
+  author: P1finger
+  tags:
+  - kuaikedianyou
+  description: Kuaikedianyou
+  matchers:
+  - location: body
+    words:
+    - Welcome to quarkmail server version
+    - 快客电邮 - 系统管理
+- id: kuaiwang
+  name: Kuaiwang
+  author: Fofa
+  tags:
+  - kuaiwang
+  description: Kuaiwang
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 'Fw-Via: '
+  - location: header
+    words:
+    - 'Fw-Via: '
+- id: laifangtong
+  name: Laifangtong
+  author: P1finger
+  tags:
+  - laifangtong
+  description: Laifangtong
+  matchers:
+  - location: body
+    words:
+    - 来访通
+- id: bluedon-system
+  name: Bluedon System
+  author: P1finger
+  tags:
+  - bluedon
+  - system
+  description: Bluedon System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾安全扫描系统
+- id: bluedon-firewall
+  name: Bluedon Firewall
+  author: P001
+  tags:
+  - bluedon
+  - firewall
+  description: Bluedon Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - class="banquan">蓝盾信息安全技术股份有限公司
+    - 防火墙
+- id: bluedon-firewall-2
+  name: Bluedon Firewall
+  author: P1finger
+  tags:
+  - bluedon
+  - firewall
+  description: Bluedon Firewall
+  matchers:
+  - location: body
+    words:
+    - 蓝盾防火墙
+- id: bluedon-3
+  name: Bluedon
+  author: P1finger
+  tags:
+  - bluedon
+  description: Bluedon
+  matchers:
+  - location: body
+    words:
+    - 蓝盾互联网接入口检测器
+- id: bluedon-4
+  name: Bluedon Intrusion Detection System
+  author: P1finger
+  tags:
+  - bluedon
+  - intrusion-detection-system
+  description: Bluedon Intrusion Detection System
+  matchers:
+  - location: body
+    words:
+    - bluedon-idp
+- id: bluedon-system-2
+  name: Bluedon System
+  author: P1finger
+  tags:
+  - bluedon
+  - system
+  description: Bluedon System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾数据库及业务安全监控审计系统
+- id: bluedon-system-3
+  name: Bluedon System
+  author: P1finger
+  tags:
+  - bluedon
+  - system
+  description: Bluedon System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾网页防篡改保护系统
+- id: bluedon-management-system
+  name: Bluedon Management System
+  author: P001
+  tags:
+  - bluedon
+  - management-system
+  description: Bluedon Management System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾文档安全管理系统
+- id: bluedon-management-system-2
+  name: Bluedon Management System
+  author: P1finger
+  tags:
+  - bluedon
+  - management-system
+  description: Bluedon Management System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾文档安全管理系统-蓝盾信息安全技术股份有限公司
+- id: bluedon-management-system-3
+  name: Bluedon Management System
+  author: P1finger
+  tags:
+  - bluedon
+  - management-system
+  description: Bluedon Management System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾文档安全管理系统
+- id: bluedon-system-4
+  name: Bluedon System
+  author: P1finger
+  tags:
+  - bluedon
+  - system
+  description: Bluedon System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾信息安全管理审计系统
+- id: bluedon-system-5
+  name: Bluedon System
+  author: P1finger
+  tags:
+  - bluedon
+  - system
+  description: Bluedon System
+  matchers:
+  - location: body
+    words:
+    - 蓝盾帐号集中管理与审计系统
+- id: lanhaizhuoyuejifei
+  name: Lanhaizhuoyuejifei Management System
+  author: P001
+  tags:
+  - lanhaizhuoyuejifei
+  - management-system
+  description: Lanhaizhuoyuejifei Management System
+  matchers:
+  - location: body
+    words:
+    - <script language='javascript'>window.parent.location.href='login.php';</script>
+- id: lanjingzhiyun
+  name: Lanjingzhiyun
+  author: P1finger
+  tags:
+  - lanjingzhiyun
+  description: Lanjingzhiyun
+  matchers:
+  - location: body
+    words:
+    - 蓝鲸智云
+- id: lanshikejihoutai
+  name: Lanshikejihoutai Management System
+  author: P1finger
+  tags:
+  - lanshikejihoutai
+  - management-system
+  description: Lanshikejihoutai Management System
+  matchers:
+  - location: body
+    words:
+    - var app_smp_location_name = '门店';var app_grp_location_name = '集团'
+    - 蓝视科技
+- id: lantaipingyangwangzhanjuecezhichi
+  name: Lantaipingyangwangzhanjuecezhichi System
+  author: P1finger
+  tags:
+  - lantaipingyangwangzhanjuecezhichi
+  - system
+  description: Lantaipingyangwangzhanjuecezhichi System
+  matchers:
+  - location: body
+    words:
+    - 蓝太平洋网站决策支持系统
+- id: lantaipingyangyuqingjiance
+  name: Lantaipingyangyuqingjiance System
+  author: P1finger
+  tags:
+  - lantaipingyangyuqingjiance
+  - system
+  description: Lantaipingyangyuqingjiance System
+  matchers:
+  - location: body
+    words:
+    - 蓝太平洋舆情监测系统
+- id: lanxin
+  name: Lanxin
+  author: P1finger
+  tags:
+  - lanxin
+  description: Lanxin
+  matchers:
+  - location: body
+    words:
+    - LanXin
+    - 蓝信
+- id: lanxinqiyejianquanyidonggongzuo
+  name: Lanxinqiyejianquanyidonggongzuo Platform
+  author: P1finger
+  tags:
+  - lanxinqiyejianquanyidonggongzuo
+  - platform
+  description: Lanxinqiyejianquanyidonggongzuo Platform
+  matchers:
+  - location: body
+    words:
+    - 蓝信
+    - 蓝信-企业级安全移动工作平台
+- id: lanxun
+  name: Lanxun
+  author: Fofa
+  tags:
+  - lanxun
+  description: Lanxun
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - Powered-By-ChinaCache
+  - location: header
+    words:
+    - Powered-By-ChinaCache
+- id: inspur-4
+  name: Inspur
+  author: P1finger
+  tags:
+  - inspur
+  description: Inspur
+  matchers:
+  - location: body
+    words:
+    - 浪潮存储 您身边的存储专家
+- id: inspur-system
+  name: Inspur System
+  author: P1finger
+  tags:
+  - inspur
+  - system
+  description: Inspur System
+  matchers:
+  - location: body
+    words:
+    - 浪潮海量存储系统
+    - <td align="left">浪潮存储 您身边的存储专家</td>
+- id: inspur-government-system
+  name: Inspur Government System
+  author: Fofa
+  tags:
+  - inspur
+  - government-system
+  description: Inspur Government System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - OnlineQuery/QueryList.aspx
+  - condition: or
+    location: title
+    words:
+    - 浪潮政务
+  - condition: or
+    location: body
+    words:
+    - LangChao.ECGAP.OutPortal
+  - location: body
+    words:
+    - OnlineQuery/QueryList.aspx
+    - 浪潮政务
+    - LangChao.ECGAP.OutPortal
+  - location: body
+    words:
+    - 浪潮政务
+- id: langxintianji
+  name: Langxintianji HR Management System
+  author: P1finger
+  tags:
+  - langxintianji
+  - hr-management-system
+  description: Langxintianji HR Management System
+  matchers:
+  - location: body
+    words:
+    - hrsoft.com.cn
+  - hash:
+    - '1143915194'
+    location: favicon
+- id: leshi-router
+  name: Leshi Router
+  author: Fofa
+  tags:
+  - leshi
+  - router
+  description: Leshi Router
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 乐视路由器
+  - condition: and
+    location: body
+    words:
+    - <div class="login-logo"></div>
+  - location: body
+    words:
+    - 乐视路由器
+- id: lezhixingjiaoxue-system
+  name: Lezhixingjiaoxue System
+  author: P1finger
+  tags:
+  - lezhixingjiaoxue
+  - system
+  description: Lezhixingjiaoxue System
+  matchers:
+  - location: body
+    words:
+    - 北京讯飞乐知行软件有限公司
+- id: leikechanpin
+  name: Leikechanpin
+  author: Fofa
+  tags:
+  - leikechanpin
+  description: Leikechanpin
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - netcore
+  - location: header
+    words:
+    - netcore
+- id: lipudierdai-firewall
+  name: Lipudierdai Firewall
+  author: P1finger
+  tags:
+  - lipudierdai
+  - firewall
+  description: Lipudierdai Firewall
+  matchers:
+  - location: body
+    words:
+    - 利谱第二代防火墙系统
+- id: lipuwangzha
+  name: Lipuwangzha
+  author: P1finger
+  tags:
+  - lipuwangzha
+  description: Lipuwangzha
+  matchers:
+  - location: body
+    words:
+    - 利谱
+- id: liruanminjiekaifakuangjia
+  name: Liruanminjiekaifakuangjia
+  author: P1finger
+  tags:
+  - liruanminjiekaifakuangjia
+  description: Liruanminjiekaifakuangjia
+  matchers:
+  - location: body
+    words:
+    - content="力软敏捷开发框架，是一个web可视化开发平台
+- id: lisheng-grading-system
+  name: Lisheng Grading System
+  author: P1finger
+  tags:
+  - lisheng
+  - grading-system
+  description: Lisheng Grading System
+  matchers:
+  - location: body
+    words:
+    - LeaScentPaper.exe
+- id: liweishuzihuaxiaoyuan-system
+  name: Liweishuzihuaxiaoyuan System
+  author: P1finger
+  tags:
+  - liweishuzihuaxiaoyuan
+  - system
+  description: Liweishuzihuaxiaoyuan System
+  matchers:
+  - location: body
+    words:
+    - http://www.wzssxx.com/schoolweb
+- id: liyuantongxinwangluoshexiangji
+  name: Liyuantongxinwangluoshexiangji
+  author: P1finger
+  tags:
+  - liyuantongxinwangluoshexiangji
+  description: Liyuantongxinwangluoshexiangji
+  matchers:
+  - location: body
+    words:
+    - CLASSID="CLSID:2BDCA6AD-9A68-4A7A-964A-CB74FC4F3000"
+- id: lianaiyunyiliantongzhihui
+  name: Lianaiyunyiliantongzhihui Management Platform
+  author: P1finger
+  tags:
+  - lianaiyunyiliantongzhihui
+  - management-platform
+  description: Lianaiyunyiliantongzhihui Management Platform
+  matchers:
+  - location: body
+    words:
+    - 脸爱云
+- id: liangaoruanjianduoke
+  name: Liangaoruanjianduoke Electronic Archive
+  author: P1finger
+  tags:
+  - liangaoruanjianduoke
+  - electronic-archive
+  description: Liangaoruanjianduoke Electronic Archive
+  matchers:
+  - location: body
+    words:
+    - 多可电子档案管理系统</div>
+- id: liangaoruanjianduoke-2
+  name: Liangaoruanjianduoke Document Management System
+  author: P1finger
+  tags:
+  - liangaoruanjianduoke
+  - document-management-system
+  description: Liangaoruanjianduoke Document Management System
+  matchers:
+  - location: body
+    words:
+    - 北京联高软件开发有限公司
+- id: liankegufenchanpin
+  name: Liankegufenchanpin
+  author: P1finger
+  tags:
+  - liankegufenchanpin
+  description: Liankegufenchanpin
+  matchers:
+  - location: body
+    words:
+    - 联科股份出品
+    - A Linkey System
+    - lkyun.net
+- id: leagsoft-2
+  name: Leagsoft
+  author: P1finger
+  tags:
+  - leagsoft
+  description: Leagsoft
+  matchers:
+  - hash:
+    - '-1166665060'
+    location: favicon
+- id: leagsoft-3
+  name: Leagsoft
+  author: P1finger
+  tags:
+  - leagsoft
+  description: Leagsoft
+  matchers:
+  - location: body
+    words:
+    - leagsoft
+- id: leagsoft-4
+  name: Leagsoft
+  author: P001
+  tags:
+  - leagsoft
+  description: Leagsoft
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - leagsoft
+    - redirect
+    - 网络准入
+- id: liantongshikexinxianquanzonghe
+  name: Liantongshikexinxianquanzonghe Management Platform
+  author: P001
+  tags:
+  - liantongshikexinxianquanzonghe
+  - management-platform
+  description: Liantongshikexinxianquanzonghe Management Platform
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - ccaq_kf@unisk.cn
+    - 信息安全综合管理平台
+- id: lianyirenzheng-platform
+  name: Lianyirenzheng Platform
+  author: P1finger
+  tags:
+  - lianyirenzheng
+  - platform
+  description: Lianyirenzheng Platform
+  matchers:
+  - location: body
+    words:
+    - 欢迎来到联奕认证平台
+- id: mulubianli
+  name: Mulubianli
+  author: P001
+  tags:
+  - mulubianli
+  description: Mulubianli
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <h1>index of /
+    - <title>index of /
+    - <h1>directory listing for /
+    - <title>directory listing for /
+- id: kingsoft-enterprise-edition-3
+  name: Kingsoft Enterprise Edition
+  author: P001
+  tags:
+  - kingsoft
+  - enterprise-edition
+  description: Kingsoft Enterprise Edition
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - class="title">关于全网部署金山毒霸企业版
+    - 金山毒霸企业版
+- id: kingsoft-system
+  name: Kingsoft System
+  author: P001
+  tags:
+  - kingsoft
+  - system
+  description: Kingsoft System
+  matchers:
+  - location: body
+    words:
+    - 数据库连接异常您可
+- id: liutaijie-crm
+  name: Liutaijie CRM
+  author: P1finger
+  tags:
+  - liutaijie
+  - crm
+  description: Liutaijie CRM
+  matchers:
+  - location: body
+    words:
+    - 六台阶客户关系管理系统
+- id: lujingxinxi-platform
+  name: Lujingxinxi Platform
+  author: P1finger
+  tags:
+  - lujingxinxi
+  - platform
+  description: Lujingxinxi Platform
+  matchers:
+  - location: body
+    words:
+    - 录井信息平台-系统登录
+- id: zte-router
+  name: ZTE Router
+  author: P1finger
+  tags:
+  - zte
+  - router
+  description: ZTE Router
+  matchers:
+  - location: header
+    words:
+    - Router of ZTE Corporation
+- id: zte-router-2
+  name: ZTE Router
+  author: Fofa
+  tags:
+  - zte
+  - router
+  description: ZTE Router
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - 'Server: Mini web server 1.0 ZTE corp 2005.'
+  - location: header
+    words:
+    - 'Server: Mini web server 1.0 ZTE corp 2005.'
+- id: magetaikewangkan-system
+  name: Magetaikewangkan System
+  author: P1finger
+  tags:
+  - magetaikewangkan
+  - system
+  description: Magetaikewangkan System
+  matchers:
+  - location: body
+    words:
+    - <a href="/ht-password.jsp
+    - 北京玛格泰克科技发展有限公司
+- id: maijie-mail-system
+  name: Maijie Mail System
+  author: P1finger
+  tags:
+  - maijie
+  - mail-system
+  description: Maijie Mail System
+  matchers:
+  - location: body
+    words:
+    - /aboutus/magicmail.gif
+- id: mankebaozhihuishitang
+  name: Mankebaozhihuishitang Management System
+  author: P1finger
+  tags:
+  - mankebaozhihuishitang
+  - management-system
+  description: Mankebaozhihuishitang Management System
+  matchers:
+  - location: body
+    words:
+    - 满客宝
+- id: mantuoluoyiliaokehufuwu-system
+  name: Mantuoluoyiliaokehufuwu System
+  author: P1finger
+  tags:
+  - mantuoluoyiliaokehufuwu
+  - system
+  description: Mantuoluoyiliaokehufuwu System
+  matchers:
+  - location: body
+    words:
+    - <h2>曼陀罗医疗</h2>
+- id: meiqiazaixiankefu
+  name: Meiqiazaixiankefu
+  author: Fofa
+  tags:
+  - meiqiazaixiankefu
+  description: Meiqiazaixiankefu
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /meiqia.js
+- id: meiqiazaixiankefu-2
+  name: Meiqiazaixiankefu
+  author: P1finger
+  tags:
+  - meiqiazaixiankefu
+  description: Meiqiazaixiankefu
+  matchers:
+  - location: body
+    words:
+    - /meiqia.js
+    - meiqia.com
+- id: miyunwenjiananquancunchujiaohuan
+  name: Miyunwenjiananquancunchujiaohuan Platform
+  author: P1finger
+  tags:
+  - miyunwenjiananquancunchujiaohuan
+  - platform
+  description: Miyunwenjiananquancunchujiaohuan Platform
+  matchers:
+  - location: body
+    words:
+    - 密云-文件安全存储交换平台
+- id: dbappsecurity-security-gateway-2
+  name: DBAppSecurity Security Gateway
+  author: P1finger
+  tags:
+  - dbappsecurity
+  - security-gateway
+  description: DBAppSecurity Security Gateway
+  matchers:
+  - location: body
+    words:
+    - 明御安全网关
+- id: mingyushujukushenji
+  name: Mingyushujukushenji
+  author: P1finger
+  tags:
+  - mingyushujukushenji
+  description: Mingyushujukushenji
+  matchers:
+  - location: body
+    words:
+    - 明御数据库审计
+- id: mingyushujukushenjiyufengxiankongzhi
+  name: Mingyushujukushenjiyufengxiankongzhi System
+  author: P1finger
+  tags:
+  - mingyushujukushenjiyufengxiankongzhi
+  - system
+  description: Mingyushujukushenjiyufengxiankongzhi System
+  matchers:
+  - location: body
+    words:
+    - 明御数据库审计与风险控制系统
+- id: mingyuzhongduananquanjifangbingdu
+  name: Mingyuzhongduananquanjifangbingdu System
+  author: P1finger
+  tags:
+  - mingyuzhongduananquanjifangbingdu
+  - system
+  description: Mingyuzhongduananquanjifangbingdu System
+  matchers:
+  - location: body
+    words:
+    - 明御终端安全及防病毒系统
+- id: mingyuzonghe-log-audit
+  name: Mingyuzonghe Log Audit
+  author: P1finger
+  tags:
+  - mingyuzonghe
+  - log-audit
+  description: Mingyuzonghe Log Audit
+  matchers:
+  - location: body
+    words:
+    - 明御
+- id: bangong-platform
+  name: Bangong Platform
+  author: P001
+  tags:
+  - bangong
+  - platform
+  description: Bangong Platform
+  matchers:
+  - location: body
+    words:
+    - href="xbsj/css/login.css"
+- id: unknown
+  name: Утм
+  author: P1finger
+  tags:
+  - ''
+  description: Утм
+  matchers:
+  - hash:
+    - '-1131689409'
+    location: favicon
+- id: zte-3
+  name: ZTE
+  author: P1finger
+  tags:
+  - zte
+  description: ZTE
+  matchers:
+  - location: body
+    words:
+    - Carrier-Class Router of ZTE Corporation
+- id: ruoyi
+  name: Ruoyi
+  author: P1finger
+  tags:
+  - ruoyi
+  description: Ruoyi
+  matchers:
+  - location: body
+    words:
+    - ruoyi/css/ry-ui.css
+- id: kingdee-7
+  name: Kingdee
+  author: P1finger
+  tags:
+  - kingdee
+  description: Kingdee
+  matchers:
+  - location: body
+    words:
+    - kingdee
+- id: moanshaobingyun
+  name: Moanshaobingyun
+  author: P1finger
+  tags:
+  - moanshaobingyun
+  description: Moanshaobingyun
+  matchers:
+  - location: body
+    words:
+    - 哨兵云
+- id: ndianxunizhuji
+  name: Ndianxunizhuji Management System
+  author: P1finger
+  tags:
+  - ndianxunizhuji
+  - management-system
+  description: Ndianxunizhuji Management System
+  matchers:
+  - location: body
+    words:
+    - N点虚拟主机管理系统
+- id: nandazhixingxinxi
+  name: Nandazhixingxinxi Publishing System
+  author: P1finger
+  tags:
+  - nandazhixingxinxi
+  - publishing-system
+  description: Nandazhixingxinxi Publishing System
+  matchers:
+  - location: body
+    words:
+    - <title>南大之星信息发布系统
+- id: nanfangshuju
+  name: Nanfangshuju
+  author: Fofa
+  tags:
+  - nanfangshuju
+  description: Nanfangshuju
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /SouthidcKeFu.js
+  - condition: or
+    location: body
+    words:
+    - CONTENT="Copyright 2003-2015 - Southidc.net
+  - condition: or
+    location: body
+    words:
+    - /Southidcj2f.Js
+  - location: body
+    words:
+    - /SouthidcKeFu.js
+    - CONTENT="Copyright 2003-2015 - Southidc.net
+    - /Southidcj2f.Js
+- id: ningdunyitihuaanquanrenzheng
+  name: Ningdunyitihuaanquanrenzheng Platform
+  author: P1finger
+  tags:
+  - ningdunyitihuaanquanrenzheng
+  - platform
+  description: Ningdunyitihuaanquanrenzheng Platform
+  matchers:
+  - location: body
+    words:
+    - id="dynamicpasswordwithmobile">
+- id: ningdunyitihuaanquanrenzheng-2
+  name: Ningdunyitihuaanquanrenzheng Platform
+  author: P001
+  tags:
+  - ningdunyitihuaanquanrenzheng
+  - platform
+  description: Ningdunyitihuaanquanrenzheng Platform
+  matchers:
+  - location: body
+    words:
+    - id="dynamicpasswordwithmobile">
+- id: niumaiwangluo-cms
+  name: Niumaiwangluo CMS
+  author: P1finger
+  tags:
+  - niumaiwangluo
+  - cms
+  description: Niumaiwangluo CMS
+  matchers:
+  - location: body
+    words:
+    - 牛迈网络科技
+- id: nongyou-government-system
+  name: Nongyou Government System
+  author: Fofa
+  tags:
+  - nongyou
+  - government-system
+  description: Nongyou Government System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - '1207044504'
+  - location: body
+    words:
+    - '1207044504'
+- id: nuomusidarencaipingce-system
+  name: Nuomusidarencaipingce System
+  author: P1finger
+  tags:
+  - nuomusidarencaipingce
+  - system
+  description: Nuomusidarencaipingce System
+  matchers:
+  - location: body
+    words:
+    - class="blackfont">诺姆四达人力资源测评咨询服务有限公司
+- id: ousuoruanjian
+  name: Ousuoruanjian
+  author: P1finger
+  tags:
+  - ousuoruanjian
+  description: Ousuoruanjian
+  matchers:
+  - location: body
+    words:
+    - 技术支持：江苏欧索软件有限公司
+- id: paladi-bastion-host
+  name: Paladi Bastion Host
+  author: P1finger
+  tags:
+  - paladi
+  - bastion-host
+  description: Paladi Bastion Host
+  matchers:
+  - location: header
+    words:
+    - module/image/pldsec.css
+- id: paladitongyianquanguanlihezongheshenji
+  name: Paladitongyianquanguanlihezongheshenji System
+  author: P1finger
+  tags:
+  - paladitongyianquanguanlihezongheshenji
+  - system
+  description: Paladitongyianquanguanlihezongheshenji System
+  matchers:
+  - location: body
+    words:
+    - 帕拉迪统一安全管理与综合审计系统
+- id: paladitongyianquanguanlihezongheshenji-2
+  name: Paladitongyianquanguanlihezongheshenji System
+  author: Fofa
+  tags:
+  - paladitongyianquanguanlihezongheshenji
+  - system
+  description: Paladitongyianquanguanlihezongheshenji System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - module/image/pldsec.css
+  - location: body
+    words:
+    - module/image/pldsec.css
+- id: pengwei-2
+  name: Pengwei
+  author: P1finger
+  tags:
+  - pengwei
+  description: Pengwei
+  matchers:
+  - location: body
+    words:
+    - 鹏为软件
+- id: piaoyoupiaowu-management-system
+  name: Piaoyoupiaowu Management System
+  author: P1finger
+  tags:
+  - piaoyoupiaowu
+  - management-system
+  description: Piaoyoupiaowu Management System
+  matchers:
+  - location: body
+    words:
+    - 票友ERP管理系统
+    - 上海盛代信息科技有限公司
+    - href="http://www.piaoyou.org"
+- id: pingfan-examination-system
+  name: Pingfan Examination System
+  author: P1finger
+  tags:
+  - pingfan
+  - examination-system
+  description: Pingfan Examination System
+  matchers:
+  - location: body
+    words:
+    - 平凡考试系统
+- id: puhuakeji
+  name: Puhuakeji
+  author: P1finger
+  tags:
+  - puhuakeji
+  description: Puhuakeji
+  matchers:
+  - location: body
+    words:
+    - Power_choose_lang
+- id: pulian-financial-system
+  name: Pulian Financial System
+  author: P1finger
+  tags:
+  - pulian
+  - financial-system
+  description: Pulian Financial System
+  matchers:
+  - location: body
+    words:
+    - All Rights Reserved. 普联(软件|中国) 版权所有
+- id: venustech
+  name: Venustech
+  author: P001
+  tags:
+  - venustech
+  description: Venustech
+  matchers:
+  - location: body
+    words:
+    - 泰合信息安全运营中心
+- id: qiyeweixin
+  name: Qiyeweixin
+  author: P1finger
+  tags:
+  - qiyeweixin
+  description: Qiyeweixin
+  matchers:
+  - hash:
+    - '1902819520'
+    location: favicon
+- id: qiyuanhexinqiyeliuchenghuaguankong
+  name: Qiyuanhexinqiyeliuchenghuaguankong System
+  author: P1finger
+  tags:
+  - qiyuanhexinqiyeliuchenghuaguankong
+  - system
+  description: Qiyuanhexinqiyeliuchenghuaguankong System
+  matchers:
+  - location: body
+    words:
+    - company">企业流程化管控系统
+- id: qiyuesuo
+  name: Qiyuesuo
+  author: P1finger
+  tags:
+  - qiyuesuo
+  description: Qiyuesuo
+  matchers:
+  - location: body
+    words:
+    - /qyswebapp
+  - hash:
+    - '738823048'
+    location: favicon
+- id: qianyanwendanganquanguanliruanjian
+  name: Qianyanwendanganquanguanliruanjian
+  author: P001
+  tags:
+  - qianyanwendanganquanguanliruanjian
+  description: Qianyanwendanganquanguanliruanjian
+  matchers:
+  - location: body
+    words:
+    - 前沿文档安全管理软件
+- id: qianyanxinanfengleidianziwendanganquan
+  name: Qianyanxinanfengleidianziwendanganquan Management System
+  author: P1finger
+  tags:
+  - qianyanxinanfengleidianziwendanganquan
+  - management-system
+  description: Qianyanxinanfengleidianziwendanganquan Management System
+  matchers:
+  - location: body
+    words:
+    - 前沿风雷电子文档安全管理系统
+- id: qiangzhijiaowu
+  name: Qiangzhijiaowu Management System
+  author: P1finger
+  tags:
+  - qiangzhijiaowu
+  - management-system
+  description: Qiangzhijiaowu Management System
+  matchers:
+  - location: body
+    words:
+    - 强智科技
+    - 教务管理系统
+    - /jsxsd/framework/images/index/tpbg.gif
+- id: qingguoruanjian
+  name: Qingguoruanjian
+  author: Fofa
+  tags:
+  - qingguoruanjian
+  description: Qingguoruanjian
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - KINGOSOFT
+  - condition: or
+    location: body
+    words:
+    - SetKingoEncypt.jsp
+  - condition: or
+    location: body
+    words:
+    - /jkingo.js
+  - location: body
+    words:
+    - KINGOSOFT
+    - SetKingoEncypt.jsp
+    - /jkingo.js
+- id: qingtengwanxiangzhujizishiyinganquan
+  name: Qingtengwanxiangzhujizishiyinganquan Platform
+  author: P1finger
+  tags:
+  - qingtengwanxiangzhujizishiyinganquan
+  - platform
+  description: Qingtengwanxiangzhujizishiyinganquan Platform
+  matchers:
+  - location: body
+    words:
+    - 万相主机安全
+  - hash:
+    - '-898067940'
+    location: favicon
+- id: qingtian-e-government
+  name: Qingtian E-Government
+  author: Fofa
+  tags:
+  - qingtian
+  - e-government
+  description: Qingtian E-Government
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - App_Themes/1/Style.css
+  - condition: or
+    location: body
+    words:
+    - window.location = "homepages/index.aspx
+  - condition: or
+    location: body
+    words:
+    - homepages/content_page.aspx
+  - location: body
+    words:
+    - App_Themes/1/Style.css
+    - window.location = "homepages/index.aspx
+    - homepages/content_page.aspx
+- id: quanguoyancao-system
+  name: Quanguoyancao System
+  author: P1finger
+  tags:
+  - quanguoyancao
+  - system
+  description: Quanguoyancao System
+  matchers:
+  - location: body
+    words:
+    - ycportal/webpublish
+  - condition: and
+    location: body
+    words:
+    - ycportal/webpublish
+- id: quanxiruohaicangchubangongfuzhu
+  name: Quanxiruohaicangchubangongfuzhu Management System
+  author: P001
+  tags:
+  - quanxiruohaicangchubangongfuzhu
+  - management-system
+  description: Quanxiruohaicangchubangongfuzhu Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - src="/scripts/easyui/jquery.easyui.min.js"
+    - 广州全息若海信息科技有限公司
+- id: qunjieyinzhang-iot-platform
+  name: Qunjieyinzhang IoT Platform
+  author: P1finger
+  tags:
+  - qunjieyinzhang
+  - iot-platform
+  description: Qunjieyinzhang IoT Platform
+  matchers:
+  - location: body
+    words:
+    - 印章物联网平台-让用印更安全
+- id: renhehuizhi
+  name: Renhehuizhi
+  author: P1finger
+  tags:
+  - renhehuizhi
+  description: Renhehuizhi
+  matchers:
+  - location: body
+    words:
+    - 仁和汇智
+- id: rentianxingwangluoanquan
+  name: Rentianxingwangluoanquan Management System
+  author: P1finger
+  tags:
+  - rentianxingwangluoanquan
+  - management-system
+  description: Rentianxingwangluoanquan Management System
+  matchers:
+  - location: body
+    words:
+    - 任天行网络安全管理系统
+- id: rentianxingwangluoanquan-2
+  name: Rentianxingwangluoanquan Management System
+  author: P1finger
+  tags:
+  - rentianxingwangluoanquan
+  - management-system
+  description: Rentianxingwangluoanquan Management System
+  matchers:
+  - location: body
+    words:
+    - 任天行网络安全管理系统
+- id: renwoxing-4
+  name: Renwoxing
+  author: Fofa
+  tags:
+  - renwoxing
+  description: Renwoxing
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - content="366EC
+  - location: body
+    words:
+    - content="366EC
+- id: renwoxing-5
+  name: Renwoxing
+  author: P001
+  tags:
+  - renwoxing
+  description: Renwoxing
+  matchers:
+  - location: body
+    words:
+    - content="366ec
+- id: renyi-crm
+  name: Renyi CRM
+  author: P1finger
+  tags:
+  - renyi
+  - crm
+  description: Renyi CRM
+  matchers:
+  - location: body
+    words:
+    - 广州市人易软件技术有限公司
+    - href="http://www.runecrm.com"
+- id: surfilter
+  name: Surfilter
+  author: P1finger
+  tags:
+  - surfilter
+  description: Surfilter
+  matchers:
+  - location: body
+    words:
+    - 任子行
+- id: surfilter-platform
+  name: Surfilter Platform
+  author: P1finger
+  tags:
+  - surfilter
+  - platform
+  description: Surfilter Platform
+  matchers:
+  - location: body
+    words:
+    - 任子行网站监控预警平台
+- id: surfilter-2
+  name: Surfilter Next-Generation Firewall
+  author: P1finger
+  tags:
+  - surfilter
+  - next-generation-firewall
+  description: Surfilter Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 任子行下一代防火墙
+- id: surfilter-3
+  name: Surfilter Next-Generation Firewall
+  author: P1finger
+  tags:
+  - surfilter
+  - next-generation-firewall
+  description: Surfilter Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 任子行下一代防火墙
+- id: surfilter-4
+  name: Surfilter Next-Generation Firewall
+  author: P001
+  tags:
+  - surfilter
+  - next-generation-firewall
+  description: Surfilter Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 任子行下一代防火墙
+- id: dbappsecurity-log-audit-2
+  name: DBAppSecurity Log Audit
+  author: P1finger
+  tags:
+  - dbappsecurity
+  - log-audit
+  description: DBAppSecurity Log Audit
+  matchers:
+  - location: body
+    words:
+    - /js/app/App.Message.js
+    - /js/mango/Mango.Util.Top.js
+- id: rizhiyi-management-system
+  name: Rizhiyi Management System
+  author: P1finger
+  tags:
+  - rizhiyi
+  - management-system
+  description: Rizhiyi Management System
+  matchers:
+  - location: body
+    words:
+    - href="/static/assets/yottaweb-elements/index.css"
+    - 日志易管理系统
+- id: rongjiwangluoyinhuansaomiao
+  name: Rongjiwangluoyinhuansaomiao System
+  author: P1finger
+  tags:
+  - rongjiwangluoyinhuansaomiao
+  - system
+  description: Rongjiwangluoyinhuansaomiao System
+  matchers:
+  - location: body
+    words:
+    - 榕基网络隐患扫描系统
+- id: rongshangyunkaoqin
+  name: Rongshangyunkaoqin Management System
+  author: P1finger
+  tags:
+  - rongshangyunkaoqin
+  - management-system
+  description: Rongshangyunkaoqin Management System
+  matchers:
+  - location: body
+    words:
+    - <title>融商云——考勤管理系统
+- id: rongzhixinghuawulianwang
+  name: Rongzhixinghuawulianwang Gateway
+  author: P001
+  tags:
+  - rongzhixinghuawulianwang
+  - gateway
+  description: Rongzhixinghuawulianwang Gateway
+  matchers:
+  - location: body
+    words:
+    - 物联网网关-北京融智兴华科技有限公司
+- id: ruanjiaohuan-firewall
+  name: Ruanjiaohuan Firewall
+  author: P001
+  tags:
+  - ruanjiaohuan
+  - firewall
+  description: Ruanjiaohuan Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - name="secretkey" id="secretkey"
+    - name="token_code"placeholder="令牌口令"
+- id: ruiboshiyun-office-system
+  name: Ruiboshiyun Office System
+  author: Fofa
+  tags:
+  - ruiboshiyun
+  - office-system
+  description: Ruiboshiyun Office System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /studentSign/toLogin.di
+  - condition: or
+    location: body
+    words:
+    - /user/toUpdatePasswordPage.di
+  - location: body
+    words:
+    - /user/toUpdatePasswordPage.di
+    - /studentSign/toLogin.di
+  - location: body
+    words:
+    - /studentSign/toLogin.di
+    - /user/toUpdatePasswordPage.di
+- id: ruifengwangyun-firewall
+  name: Ruifengwangyun Firewall
+  author: P1finger
+  tags:
+  - ruifengwangyun
+  - firewall
+  description: Ruifengwangyun Firewall
+  matchers:
+  - location: body
+    words:
+    - 睿峰网云防火墙
+- id: ruifengwangyun-firewall-2
+  name: Ruifengwangyun Firewall
+  author: P001
+  tags:
+  - ruifengwangyun
+  - firewall
+  description: Ruifengwangyun Firewall
+  matchers:
+  - location: body
+    words:
+    - 睿峰网云防火墙
+- id: ruilizhinengbangong-platform
+  name: Ruilizhinengbangong Platform
+  author: P1finger
+  tags:
+  - ruilizhinengbangong
+  - platform
+  description: Ruilizhinengbangong Platform
+  matchers:
+  - location: body
+    words:
+    - <title>欢迎使用锐力智能办公平台</title>
+- id: rising
+  name: Rising
+  author: P1finger
+  tags:
+  - rising
+  description: Rising
+  matchers:
+  - location: body
+    words:
+    - <title>瑞星防毒墙
+- id: rising-2
+  name: Rising
+  author: P1finger
+  tags:
+  - rising
+  description: Rising
+  matchers:
+  - location: body
+    words:
+    - <TITLE>瑞星杀毒软件网络版WEB安装
+- id: rising-system
+  name: Rising System
+  author: P1finger
+  tags:
+  - rising
+  - system
+  description: Rising System
+  matchers:
+  - location: body
+    words:
+    - 瑞星网络安全预警系统
+- id: ruiyoutianyiyingyongxunihua
+  name: Ruiyoutianyiyingyongxunihua System
+  author: P1finger
+  tags:
+  - ruiyoutianyiyingyongxunihua
+  - system
+  description: Ruiyoutianyiyingyongxunihua System
+  matchers:
+  - location: body
+    words:
+    - 瑞友天翼
+- id: ruiyoutianyiyingyongxunihua-2
+  name: Ruiyoutianyiyingyongxunihua System
+  author: Fofa
+  tags:
+  - ruiyoutianyiyingyongxunihua
+  - system
+  description: Ruiyoutianyiyingyongxunihua System
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 瑞友天翼－应用虚拟化系统
+- id: ruiyoutianyiyingyongxunihua-3
+  name: Ruiyoutianyiyingyongxunihua System
+  author: P1finger
+  tags:
+  - ruiyoutianyiyingyongxunihua
+  - system
+  description: Ruiyoutianyiyingyongxunihua System
+  matchers:
+  - location: body
+    words:
+    - 瑞友天翼－应用虚拟化系统
+- id: runnierwangluochanpin
+  name: Runnierwangluochanpin
+  author: P1finger
+  tags:
+  - runnierwangluochanpin
+  description: Runnierwangluochanpin
+  matchers:
+  - location: body
+    words:
+    - content="experiment teaching,实验教学,润尼尔,虚拟仿真"
+- id: runqianbaobiao
+  name: Runqianbaobiao
+  author: P1finger
+  tags:
+  - runqianbaobiao
+  description: Runqianbaobiao
+  matchers:
+  - location: body
+    words:
+    - raqsoft/images
+- id: runshenxinxiqiyebiaozhunhua
+  name: Runshenxinxiqiyebiaozhunhua Management System
+  author: P1finger
+  tags:
+  - runshenxinxiqiyebiaozhunhua
+  - management-system
+  description: Runshenxinxiqiyebiaozhunhua Management System
+  matchers:
+  - location: body
+    words:
+    - 润申信息
+- id: shengan-mail-system
+  name: Shengan Mail System
+  author: P001
+  tags:
+  - shengan
+  - mail-system
+  description: Shengan Mail System
+  matchers:
+  - location: body
+    words:
+    - /login/vendor.930cfce68e70faa10ea9.bundle.js
+- id: hillstone-firewall
+  name: Hillstone Firewall
+  author: P001
+  tags:
+  - hillstone
+  - firewall
+  description: Hillstone Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - global_config.js
+    - hillstone
+    - licenseaggrement
+- id: shangqiwangluokeji-cms
+  name: Shangqiwangluokeji CMS
+  author: P1finger
+  tags:
+  - shangqiwangluokeji
+  - cms
+  description: Shangqiwangluokeji CMS
+  matchers:
+  - location: body
+    words:
+    - 商企网络
+- id: shangxunxinxixinyidai-firewall
+  name: Shangxunxinxixinyidai Firewall
+  author: P1finger
+  tags:
+  - shangxunxinxixinyidai
+  - firewall
+  description: Shangxunxinxixinyidai Firewall
+  matchers:
+  - location: body
+    words:
+    - 上讯信息新一代防火墙
+- id: huawei-10
+  name: Huawei
+  author: P1finger
+  tags:
+  - huawei
+  description: Huawei
+  matchers:
+  - location: body
+    words:
+    - huawei
+- id: venustech-2
+  name: Venustech
+  author: P1finger
+  tags:
+  - venustech
+  description: Venustech
+  matchers:
+  - location: body
+    words:
+    - 北京启明星辰信息安全技术有限公司
+    - venustech
+    - 天玥
+    - Leadersec
+    - 网御
+    - 天清
+- id: dbappsecurity
+  name: DBAppSecurity
+  author: P1finger
+  tags:
+  - dbappsecurity
+  description: DBAppSecurity
+  matchers:
+  - location: body
+    words:
+    - 明御
+    - 安恒
+    - 明鉴
+- id: wangyuxingyunshebei
+  name: Wangyuxingyunshebei
+  author: P1finger
+  tags:
+  - wangyuxingyunshebei
+  description: Wangyuxingyunshebei
+  matchers:
+  - location: body
+    words:
+    - leadsec
+    - 网御
+- id: shencefenxi
+  name: Shencefenxi
+  author: P1finger
+  tags:
+  - shencefenxi
+  description: Shencefenxi
+  matchers:
+  - location: header
+    words:
+    - sensorsdata
+- id: shendushangwangxingweiguanli
+  name: Shendushangwangxingweiguanli
+  author: P1finger
+  tags:
+  - shendushangwangxingweiguanli
+  description: Shendushangwangxingweiguanli
+  matchers:
+  - location: body
+    words:
+    - 深度上网行为管理
+- id: shenlanrenzhengjifei-system
+  name: Shenlanrenzhengjifei System
+  author: P1finger
+  tags:
+  - shenlanrenzhengjifei
+  - system
+  description: Shenlanrenzhengjifei System
+  matchers:
+  - hash:
+    - '-1546320596'
+    location: favicon
+- id: shengbangyingyongfanghu-system
+  name: Shengbangyingyongfanghu System
+  author: P1finger
+  tags:
+  - shengbangyingyongfanghu
+  - system
+  description: Shengbangyingyongfanghu System
+  matchers:
+  - location: body
+    words:
+    - WebRAYWeb应用防护系统 V6.0
+- id: shengtengyunzhongduan
+  name: Shengtengyunzhongduan Management System
+  author: P1finger
+  tags:
+  - shengtengyunzhongduan
+  - management-system
+  description: Shengtengyunzhongduan Management System
+  matchers:
+  - location: body
+    words:
+    - +MainPageTile+
+- id: shidaiguanghuaxuexi-platform
+  name: Shidaiguanghuaxuexi Platform
+  author: P1finger
+  tags:
+  - shidaiguanghuaxuexi
+  - platform
+  description: Shidaiguanghuaxuexi Platform
+  matchers:
+  - location: body
+    words:
+    - /webos/js/jquery.js
+- id: shihuayingkeguankong-platform
+  name: Shihuayingkeguankong Platform
+  author: P1finger
+  tags:
+  - shihuayingkeguankong
+  - platform
+  description: Shihuayingkeguankong Platform
+  matchers:
+  - location: body
+    words:
+    - 石化盈科信息技术有限责任公司
+- id: shiwuyoushianneiwanganquan
+  name: Shiwuyoushianneiwanganquan
+  author: P001
+  tags:
+  - shiwuyoushianneiwanganquan
+  description: Shiwuyoushianneiwanganquan
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - gzsa. all rights reserved</span>
+    - 内网终端安全管理系统登陆界面
+- id: shuguanglongxin-firewall
+  name: Shuguanglongxin Firewall
+  author: P1finger
+  tags:
+  - shuguanglongxin
+  - firewall
+  description: Shuguanglongxin Firewall
+  matchers:
+  - location: body
+    words:
+    - class="login_main_text">曙光龙芯防火墙</div>
+- id: shuzihuaxiaoyuanzonghe
+  name: Shuzihuaxiaoyuanzonghe Management System
+  author: P001
+  tags:
+  - shuzihuaxiaoyuanzonghe
+  - management-system
+  description: Shuzihuaxiaoyuanzonghe Management System
+  matchers:
+  - location: body
+    words:
+    - '"../../dc_login/qysignup"'
+- id: shuidiyun
+  name: Shuidiyun
+  author: P1finger
+  tags:
+  - shuidiyun
+  description: Shuidiyun
+  matchers:
+  - location: body
+    words:
+    - 水滴报销
+- id: shuikongfuwuqi
+  name: Shuikongfuwuqi Management System
+  author: P1finger
+  tags:
+  - shuikongfuwuqi
+  - management-system
+  description: Shuikongfuwuqi Management System
+  matchers:
+  - location: body
+    words:
+    - resources/css/login_yzm.css
+- id: siangruanjian
+  name: Siangruanjian Document Management System
+  author: P1finger
+  tags:
+  - siangruanjian
+  - document-management-system
+  description: Siangruanjian Document Management System
+  matchers:
+  - location: body
+    words:
+    - 思昂企业文档管理系统
+- id: sidijianzhuxiaofangsheshilianwangjiance
+  name: Sidijianzhuxiaofangsheshilianwangjiance System
+  author: P1finger
+  tags:
+  - sidijianzhuxiaofangsheshilianwangjiance
+  - system
+  description: Sidijianzhuxiaofangsheshilianwangjiance System
+  matchers:
+  - location: body
+    words:
+    - title="苏州思迪"
+    - 建筑消防设施联网监测系统
+- id: sidishujuchi
+  name: Sidishujuchi Management Platform
+  author: P1finger
+  tags:
+  - sidishujuchi
+  - management-platform
+  description: Sidishujuchi Management Platform
+  matchers:
+  - location: body
+    words:
+    - 思迪
+- id: sikeshebei
+  name: Sikeshebei
+  author: P1finger
+  tags:
+  - sikeshebei
+  description: Sikeshebei
+  matchers:
+  - location: body
+    words:
+    - Cisco
+- id: siruijiadeshujuzhiliyuanquan
+  name: Siruijiadeshujuzhiliyuanquan Management Platform
+  author: P1finger
+  tags:
+  - siruijiadeshujuzhiliyuanquan
+  - management-platform
+  description: Siruijiadeshujuzhiliyuanquan Management Platform
+  matchers:
+  - location: body
+    words:
+    - DLP管理平台
+- id: sixintongxingongsichanpin
+  name: Sixintongxingongsichanpin
+  author: P1finger
+  tags:
+  - sixintongxingongsichanpin
+  description: Sixintongxingongsichanpin
+  matchers:
+  - location: header
+    words:
+    - 'Server: httpd_four-faith'
+- id: sixuncanyin-management-system
+  name: Sixuncanyin Management System
+  author: P1finger
+  tags:
+  - sixuncanyin
+  - management-system
+  description: Sixuncanyin Management System
+  matchers:
+  - location: body
+    words:
+    - 美食家星食客3餐饮管理系统
+- id: suyaxingxiaoyuan
+  name: Suyaxingxiaoyuan Management System
+  author: Fofa
+  tags:
+  - suyaxingxiaoyuan
+  - management-system
+  description: Suyaxingxiaoyuan Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /ws2004/Public/
+  - location: body
+    words:
+    - /ws2004/Public/
+- id: suirui-video-conferencing
+  name: Suirui Video Conferencing
+  author: P1finger
+  tags:
+  - suirui
+  - video-conferencing
+  description: Suirui Video Conferencing
+  matchers:
+  - location: body
+    words:
+    - 版权所有：随锐科技
+- id: suoziyulajiyoujian-firewall-2
+  name: Suoziyulajiyoujian Firewall
+  author: P001
+  tags:
+  - suoziyulajiyoujian
+  - firewall
+  description: Suoziyulajiyoujian Firewall
+  matchers:
+  - location: body
+    words:
+    - 梭子鱼垃圾邮件防火墙
+- id: suoziyushebei
+  name: Suoziyushebei
+  author: Fofa
+  tags:
+  - suoziyushebei
+  description: Suoziyushebei
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - BarracudaHTTP
+  - location: header
+    words:
+    - BarracudaHTTP
+- id: taikangrenlianshibie
+  name: Taikangrenlianshibie Log Management System
+  author: P1finger
+  tags:
+  - taikangrenlianshibie
+  - log-management-system
+  description: Taikangrenlianshibie Log Management System
+  matchers:
+  - location: body
+    words:
+    - 人脸识别日志管理系统
+    - http://statics-1251329614.file.myqcloud.com/img/logo1.png
+- id: taiyixingchen
+  name: Taiyixingchen Next-Generation Firewall
+  author: P001
+  tags:
+  - taiyixingchen
+  - next-generation-firewall
+  description: Taiyixingchen Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - t-force下一代防火墙
+- id: tangqiao
+  name: Tangqiao
+  author: P1finger
+  tags:
+  - tangqiao
+  description: Tangqiao
+  matchers:
+  - location: body
+    words:
+    - common/web_meeting/index.php
+- id: tangqiao-video-surveillance
+  name: Tangqiao Video Surveillance
+  author: P1finger
+  tags:
+  - tangqiao
+  - video-surveillance
+  description: Tangqiao Video Surveillance
+  matchers:
+  - location: body
+    words:
+    - you need to use IE brower
+  - location: header
+    words:
+    - mtUserLanguage1=deleted;
+- id: tengxianganquanyouxiang
+  name: Tengxianganquanyouxiang
+  author: P1finger
+  tags:
+  - tengxianganquanyouxiang
+  description: Tengxianganquanyouxiang
+  matchers:
+  - location: body
+    words:
+    - 腾翔·安全邮件
+- id: tencent-enterprise-mail
+  name: Tencent Enterprise Mail
+  author: P1finger
+  tags:
+  - tencent
+  - enterprise-mail
+  description: Tencent Enterprise Mail
+  matchers:
+  - location: body
+    words:
+    - /cgi-bin/getinvestigate?flowid=
+  - condition: and
+    location: body
+    words:
+    - /cgi-bin/getinvestigate?flowid=
+- id: tencent-2
+  name: Tencent
+  author: Fofa
+  tags:
+  - tencent
+  description: Tencent
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - tajs.qq.com
+  - location: body
+    words:
+    - tajs.qq.com
+- id: tencent-3
+  name: Tencent
+  author: P1finger
+  tags:
+  - tencent
+  description: Tencent
+  matchers:
+  - location: body
+    words:
+    - 腾讯云面板
+- id: tencent-4
+  name: Tencent
+  author: P1finger
+  tags:
+  - tencent
+  description: Tencent
+  matchers:
+  - location: header
+    words:
+    - SDWAF
+- id: tianbaizaixianpeixun
+  name: Tianbaizaixianpeixun Examination System
+  author: Fofa
+  tags:
+  - tianbaizaixianpeixun
+  - examination-system
+  description: Tianbaizaixianpeixun Examination System
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - index.html")
+  - condition: or
+    location: body
+    words:
+    - App_Image/PXSystem
+  - condition: or
+    location: body
+    words:
+    - App_Image/System
+  - location: body
+    words:
+    - App_Image/PXSystem
+    - App_Image/System
+- id: tianliangaojiban
+  name: Tianliangaojiban
+  author: P1finger
+  tags:
+  - tianliangaojiban
+  description: Tianliangaojiban
+  matchers:
+  - location: body
+    words:
+    - 天联高级版
+- id: tianmaikejiwangluoshipin
+  name: Tianmaikejiwangluoshipin Monitoring System
+  author: P001
+  tags:
+  - tianmaikejiwangluoshipin
+  - monitoring-system
+  description: Tianmaikejiwangluoshipin Monitoring System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - jsessionid
+    - 天迈科技
+    - 网络视频监控系统
+- id: tianruikejitianruilvdunshujufangxiemi
+  name: Tianruikejitianruilvdunshujufangxiemi System
+  author: P1finger
+  tags:
+  - tianruikejitianruilvdunshujufangxiemi
+  - system
+  description: Tianruikejitianruilvdunshujufangxiemi System
+  matchers:
+  - location: body
+    words:
+    - 绿盾信息安全系统管理登录
+    - 天锐绿盾信息安全系统管理登录
+- id: tiantushujuku-monitoring-system
+  name: Tiantushujuku Monitoring System
+  author: P1finger
+  tags:
+  - tiantushujuku
+  - monitoring-system
+  description: Tiantushujuku Monitoring System
+  matchers:
+  - location: body
+    words:
+    - http://www.lepus.cc
+- id: tiantushujuku-monitoring-system-2
+  name: Tiantushujuku Monitoring System
+  author: P1finger
+  tags:
+  - tiantushujuku
+  - monitoring-system
+  description: Tiantushujuku Monitoring System
+  matchers:
+  - location: body
+    words:
+    - 天兔 数据库监控系统
+  - location: body
+    words:
+    - 登录-天兔 数据库监控系统
+- id: tianwenhuliantianwenwuyeyun
+  name: Tianwenhuliantianwenwuyeyun
+  author: P001
+  tags:
+  - tianwenhuliantianwenwuyeyun
+  description: Tianwenhuliantianwenwuyeyun
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 天问物业云
+    - roadui-assets/icons/style.css
+- id: tianxinganquandanxiangdaoru
+  name: Tianxinganquandanxiangdaoru System
+  author: P1finger
+  tags:
+  - tianxinganquandanxiangdaoru
+  - system
+  description: Tianxinganquandanxiangdaoru System
+  matchers:
+  - location: body
+    words:
+    - 天行安全单向导入系统
+- id: tianxingwangananquandanxiangdaoru
+  name: Tianxingwangananquandanxiangdaoru System
+  author: P001
+  tags:
+  - tianxingwangananquandanxiangdaoru
+  - system
+  description: Tianxingwangananquandanxiangdaoru System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <meta http-equiv="refresh" content="0;url=/usermainaction.action" />
+    - 天行安全单向导入系统
+- id: tianxingwanganshipintuxianganquanjiankongjieru
+  name: Tianxingwanganshipintuxianganquanjiankongjieru System
+  author: P001
+  tags:
+  - tianxingwanganshipintuxianganquanjiankongjieru
+  - system
+  description: Tianxingwanganshipintuxianganquanjiankongjieru System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <meta http-equiv="refresh" content="0;url=/usercertloginaction.action" />
+    - 天行视频图像安全监控接入系统
+- id: tianyue-bastion-host
+  name: Tianyue Bastion Host
+  author: P1finger
+  tags:
+  - tianyue
+  - bastion-host
+  description: Tianyue Bastion Host
+  matchers:
+  - location: body
+    words:
+    - kaasapp/views/css/assign.css
+- id: tianyuejizhongguanliyurizhifenxi
+  name: Tianyuejizhongguanliyurizhifenxi Platform
+  author: P1finger
+  tags:
+  - tianyuejizhongguanliyurizhifenxi
+  - platform
+  description: Tianyuejizhongguanliyurizhifenxi Platform
+  matchers:
+  - location: body
+    words:
+    - 天玥集中管理与日志分析平台
+- id: tongchengduoyonghushangcheng
+  name: Tongchengduoyonghushangcheng
+  author: Fofa
+  tags:
+  - tongchengduoyonghushangcheng
+  description: Tongchengduoyonghushangcheng
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - style_chaoshi
+  - location: body
+    words:
+    - style_chaoshi
+- id: tongchengduoyonghushangcheng-2
+  name: Tongchengduoyonghushangcheng
+  author: P001
+  tags:
+  - tongchengduoyonghushangcheng
+  description: Tongchengduoyonghushangcheng
+  matchers:
+  - location: body
+    words:
+    - /style_chaoshi/
+- id: tongyishenfenrenzheng
+  name: Tongyishenfenrenzheng Management Platform
+  author: P1finger
+  tags:
+  - tongyishenfenrenzheng
+  - management-platform
+  description: Tongyishenfenrenzheng Management Platform
+  matchers:
+  - location: body
+    words:
+    - <title>统一身份认证管理平台</title>
+- id: touzitangzonghe
+  name: Touzitangzonghe Management Platform
+  author: P1finger
+  tags:
+  - touzitangzonghe
+  - management-platform
+  description: Touzitangzonghe Management Platform
+  matchers:
+  - hash:
+    - '-575047503'
+    location: favicon
+  - location: body
+    words:
+    - service_sysmanage.js
+    - tzt-icon.css
+- id: tuchuang
+  name: Tuchuang
+  author: P1finger
+  tags:
+  - tuchuang
+  description: Tuchuang
+  matchers:
+  - location: body
+    words:
+    - /interlib/common/
+    - 图创软件开发有限公司提供技术支持
+- id: tuchuangruanjiantushuguanzhanqun
+  name: Tuchuangruanjiantushuguanzhanqun Management System
+  author: P001
+  tags:
+  - tuchuangruanjiantushuguanzhanqun
+  - management-system
+  description: Tuchuangruanjiantushuguanzhanqun Management System
+  matchers:
+  - location: body
+    words:
+    - /interlib/common/
+- id: tuchuangtushuguanjiqun
+  name: Tuchuangtushuguanjiqun Management System
+  author: P1finger
+  tags:
+  - tuchuangtushuguanjiqun
+  - management-system
+  description: Tuchuangtushuguanjiqun Management System
+  matchers:
+  - location: body
+    words:
+    - interlib/common/
+- id: wanlihong-management-system
+  name: Wanlihong Management System
+  author: P1finger
+  tags:
+  - wanlihong
+  - management-system
+  description: Wanlihong Management System
+  matchers:
+  - location: body
+    words:
+    - 北京万里红科技股份有限公司
+- id: wanwangbotongduoyewuyunzhineng
+  name: Wanwangbotongduoyewuyunzhineng Management Platform
+  author: P1finger
+  tags:
+  - wanwangbotongduoyewuyunzhineng
+  - management-platform
+  description: Wanwangbotongduoyewuyunzhineng Management Platform
+  matchers:
+  - location: body
+    words:
+    - 多业务云智能管理平台
+- id: wanwangqiyeyunyouxiang
+  name: Wanwangqiyeyunyouxiang
+  author: P1finger
+  tags:
+  - wanwangqiyeyunyouxiang
+  description: Wanwangqiyeyunyouxiang
+  matchers:
+  - location: body
+    words:
+    - mxhichina
+  - condition: and
+    location: body
+    words:
+    - static.mxhichina.com/images/favicon.ico
+- id: wanxinruanjian
+  name: Wanxinruanjian
+  author: P1finger
+  tags:
+  - wanxinruanjian
+  description: Wanxinruanjian
+  matchers:
+  - location: body
+    words:
+    - jdMarquee/jdMarquee.js
+    - home/template/headIndex.aspx
+- id: wangdongyunshixun-platform
+  name: Wangdongyunshixun Platform
+  author: Fofa
+  tags:
+  - wangdongyunshixun
+  - platform
+  description: Wangdongyunshixun Platform
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - ="Acenter
+  - condition: or
+    location: body
+    words:
+    - /js/roomHeight.js
+  - condition: or
+    location: body
+    words:
+    - meetingShow!show.action
+  - location: body
+    words:
+    - /js/roomHeight.js
+    - meetingShow!show.action
+- id: wangge
+  name: Wangge
+  author: P1finger
+  tags:
+  - wangge
+  description: Wangge
+  matchers:
+  - location: body
+    words:
+    - 网格（福建）智能科技有限公司
+- id: wangkanghulianwangkongzhi
+  name: Wangkanghulianwangkongzhi Gateway
+  author: P1finger
+  tags:
+  - wangkanghulianwangkongzhi
+  - gateway
+  description: Wangkanghulianwangkongzhi Gateway
+  matchers:
+  - location: body
+    words:
+    - 网康科技·互联网控制网关
+- id: wangkangkejihulianwangkongzhi
+  name: Wangkangkejihulianwangkongzhi Gateway
+  author: P001
+  tags:
+  - wangkangkejihulianwangkongzhi
+  - gateway
+  description: Wangkangkejihulianwangkongzhi Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 网康互联网控制网关
+    - 网康科技互联网控制网关
+- id: wangkangkeji
+  name: Wangkangkeji Next-Generation Firewall
+  author: P001
+  tags:
+  - wangkangkeji
+  - next-generation-firewall
+  description: Wangkangkeji Next-Generation Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /images/dashboard/dashboard.png
+    - 网康下一代防火墙
+- id: wangkangshebei
+  name: Wangkangshebei
+  author: P1finger
+  tags:
+  - wangkangshebei
+  description: Wangkangshebei
+  matchers:
+  - location: body
+    words:
+    - netentsec
+    - 网康
+- id: wangkang
+  name: Wangkang Next-Generation Firewall
+  author: P1finger
+  tags:
+  - wangkang
+  - next-generation-firewall
+  description: Wangkang Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 网康下一代防火墙
+- id: hillstone-firewall-2
+  name: Hillstone Firewall
+  author: P1finger
+  tags:
+  - hillstone
+  - firewall
+  description: Hillstone Firewall
+  matchers:
+  - location: body
+    words:
+    - Hillstone
+    - licenseAggrement
+    - GLOBAL_CONFIG.js
+- id: hillstone-management-system
+  name: Hillstone Management System
+  author: P1finger
+  tags:
+  - hillstone
+  - management-system
+  description: Hillstone Management System
+  matchers:
+  - location: body
+    words:
+    - 云鉴主机安全管理系统
+- id: wangquwangshanggouwuqijianban
+  name: Wangquwangshanggouwuqijianban System
+  author: P1finger
+  tags:
+  - wangquwangshanggouwuqijianban
+  - system
+  description: Wangquwangshanggouwuqijianban System
+  matchers:
+  - location: header
+    words:
+    - 'Set-Cookie: dmwh'
+- id: wangshangkeji-cms
+  name: Wangshangkeji CMS
+  author: P1finger
+  tags:
+  - wangshangkeji
+  - cms
+  description: Wangshangkeji CMS
+  matchers:
+  - location: body
+    words:
+    - 网商科技
+- id: wangshen-firewall
+  name: WangShen Firewall
+  author: P1finger
+  tags:
+  - wangshen
+  - firewall
+  description: WangShen Firewall
+  matchers:
+  - location: body
+    words:
+    - secgate 3600
+    - css/lsec/login.css
+  - condition: or
+    location: title
+    words:
+    - secgate 3600
+  - condition: or
+    location: body
+    words:
+    - css/lsec/login.css
+- id: wangshen-firewall-2
+  name: WangShen Firewall
+  author: P001
+  tags:
+  - wangshen
+  - firewall
+  description: WangShen Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 3600防火墙
+    - 网神secgate
+    - resources/image/logo_header.png
+    - 网神防火墙系统
+- id: wangsu
+  name: Wangsu
+  author: Fofa
+  tags:
+  - wangsu
+  description: Wangsu
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - Cdn Cache Server
+  - condition: or
+    location: header
+    words:
+    - WS CDN Server
+- id: wangsuyuntongyirenzhengzhongxin
+  name: Wangsuyuntongyirenzhengzhongxin
+  author: P1finger
+  tags:
+  - wangsuyuntongyirenzhengzhongxin
+  description: Wangsuyuntongyirenzhengzhongxin
+  matchers:
+  - location: body
+    words:
+    - 网宿云统一认证中心
+- id: wangxinyunshebei
+  name: Wangxinyunshebei
+  author: P001
+  tags:
+  - wangxinyunshebei
+  description: Wangxinyunshebei
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - favicon.png
+    - 网心云设备
+- id: wangyi-enterprise-mail
+  name: Wangyi Enterprise Mail
+  author: P1finger
+  tags:
+  - wangyi
+  - enterprise-mail
+  description: Wangyi Enterprise Mail
+  matchers:
+  - location: body
+    words:
+    - frmvalidator
+  - condition: and
+    location: body
+    words:
+    - frmvalidator
+  - condition: and
+    location: title
+    words:
+    - 邮箱用户登录
+- id: wangyouxianfeng
+  name: Wangyouxianfeng Log Management System
+  author: P1finger
+  tags:
+  - wangyouxianfeng
+  - log-management-system
+  description: Wangyouxianfeng Log Management System
+  matchers:
+  - location: body
+    words:
+    - NetMizer 日志管理系统
+- id: wangyu-bastion-host
+  name: Wangyu Bastion Host
+  author: P1finger
+  tags:
+  - wangyu
+  - bastion-host
+  description: Wangyu Bastion Host
+  matchers:
+  - location: body
+    words:
+    - 网御运维安全网关
+    - ops/Login
+- id: wangyu
+  name: Wangyu Internet Behavior Management System
+  author: P1finger
+  tags:
+  - wangyu
+  - internet-behavior-management-system
+  description: Wangyu Internet Behavior Management System
+  matchers:
+  - location: body
+    words:
+    - Leadsec ACM
+  - condition: and
+    location: title
+    words:
+    - Leadsec ACM
+- id: wangzhananquangou
+  name: Wangzhananquangou
+  author: P1finger
+  tags:
+  - wangzhananquangou
+  description: Wangzhananquangou
+  matchers:
+  - location: body
+    words:
+    - 网站安全狗防护验证页面
+    - 访问IP被添加到网站安全狗IP黑名单中
+- id: weimenhu
+  name: Weimenhu
+  author: Fofa
+  tags:
+  - weimenhu
+  description: Weimenhu
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /tpl/Home/weimeng/common/css/
+  - location: body
+    words:
+    - /tpl/Home/weimeng/common/css/
+- id: weikemupingantong
+  name: Weikemupingantong Management System
+  author: P1finger
+  tags:
+  - weikemupingantong
+  - management-system
+  description: Weikemupingantong Management System
+  matchers:
+  - location: body
+    words:
+    - <title>平安通平台管理系统</title>
+- id: weipuwaimaidiancan-system
+  name: Weipuwaimaidiancan System
+  author: Fofa
+  tags:
+  - weipuwaimaidiancan
+  - system
+  description: Weipuwaimaidiancan System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - Author" content="微普外卖点餐系统
+  - condition: or
+    location: body
+    words:
+    - Powered By 点餐系统
+  - condition: or
+    location: body
+    words:
+    - userfiles/shoppics/
+  - location: body
+    words:
+    - Author" content="微普外卖点餐系统
+    - Powered By 点餐系统
+    - userfiles/shoppics/
+- id: weipuweipukaoshifuwu-platform
+  name: Weipuweipukaoshifuwu Platform
+  author: P1finger
+  tags:
+  - weipuweipukaoshifuwu
+  - platform
+  description: Weipuweipukaoshifuwu Platform
+  matchers:
+  - location: body
+    words:
+    - 维普考试资源系统后台
+- id: weiqing
+  name: Weiqing
+  author: P1finger
+  tags:
+  - weiqing
+  description: Weiqing
+  matchers:
+  - location: body
+    words:
+    - /index.php?c=user&a=find-password
+    - w7.cc
+- id: weisanyun-management-system
+  name: Weisanyun Management System
+  author: P001
+  tags:
+  - weisanyun
+  - management-system
+  description: Weisanyun Management System
+  matchers:
+  - location: body
+    words:
+    - <dd>管理系统 management system</dd>
+- id: weisanyunweishengyi
+  name: Weisanyunweishengyi
+  author: P1finger
+  tags:
+  - weisanyunweishengyi
+  description: Weisanyunweishengyi
+  matchers:
+  - location: body
+    words:
+    - WSY_copyright
+- id: weishazaixianxuexiyunfuwu
+  name: Weishazaixianxuexiyunfuwu Platform
+  author: P1finger
+  tags:
+  - weishazaixianxuexiyunfuwu
+  - platform
+  description: Weishazaixianxuexiyunfuwu Platform
+  matchers:
+  - location: body
+    words:
+    - http://www.weishakeji.net
+    - Powered by Weishakeji
+- id: weishenggongzhongzizhuyinqing
+  name: Weishenggongzhongzizhuyinqing Platform
+  author: P1finger
+  tags:
+  - weishenggongzhongzizhuyinqing
+  - platform
+  description: Weishenggongzhongzizhuyinqing Platform
+  matchers:
+  - location: body
+    words:
+    - <b>微盛</b></a>
+- id: weitongkaiyuanshangcheng
+  name: Weitongkaiyuanshangcheng Management Platform
+  author: P1finger
+  tags:
+  - weitongkaiyuanshangcheng
+  - management-platform
+  description: Weitongkaiyuanshangcheng Management Platform
+  matchers:
+  - location: body
+    words:
+    - fly2you.cn
+- id: weixindaweixinshuzitoupiao
+  name: Weixindaweixinshuzitoupiao Management System
+  author: P1finger
+  tags:
+  - weixindaweixinshuzitoupiao
+  - management-system
+  description: Weixindaweixinshuzitoupiao Management System
+  matchers:
+  - location: body
+    words:
+    - 微信达微信数字投票管理系统
+- id: weizhijinrongxingyetongyong
+  name: Weizhijinrongxingyetongyong System
+  author: P1finger
+  tags:
+  - weizhijinrongxingyetongyong
+  - system
+  description: Weizhijinrongxingyetongyong System
+  matchers:
+  - location: body
+    words:
+    - hsea.min.css
+- id: xing-survey-system
+  name: Xing Survey System
+  author: P1finger
+  tags:
+  - xing
+  - survey-system
+  description: Xing Survey System
+  matchers:
+  - hash:
+    - '-1177293769'
+    location: favicon
+- id: wenwangyilianwenwangweishianquan
+  name: Wenwangyilianwenwangweishianquan Router
+  author: P001
+  tags:
+  - wenwangyilianwenwangweishianquan
+  - router
+  description: Wenwangyilianwenwangweishianquan Router
+  matchers:
+  - location: body
+    words:
+    - 文网卫士安全路由器
+- id: woaikaoqinyun-platform
+  name: Woaikaoqinyun Platform
+  author: P1finger
+  tags:
+  - woaikaoqinyun
+  - platform
+  description: Woaikaoqinyun Platform
+  matchers:
+  - location: body
+    words:
+    - content="我爱考勤云平台
+- id: wokewangyiwangtongxian-system
+  name: Wokewangyiwangtongxian System
+  author: Fofa
+  tags:
+  - wokewangyiwangtongxian
+  - system
+  description: Wokewangyiwangtongxian System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - 沃科网
+  - condition: or
+    location: title
+    words:
+    - 异网同显系统
+  - location: body
+    words:
+    - 沃科网
+    - 异网同显系统
+- id: wuhanhongzhikeji
+  name: Wuhanhongzhikeji
+  author: Fofa
+  tags:
+  - wuhanhongzhikeji
+  description: Wuhanhongzhikeji
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 研发与技术支持：武汉弘智科技有限公司
+  - location: body
+    words:
+    - 研发与技术支持：武汉弘智科技有限公司
+- id: xiantaibozhinengkeji-cms
+  name: Xiantaibozhinengkeji CMS
+  author: P1finger
+  tags:
+  - xiantaibozhinengkeji
+  - cms
+  description: Xiantaibozhinengkeji CMS
+  matchers:
+  - location: body
+    words:
+    - 西安旲博智能科技有限公司
+- id: xibushuma
+  name: Xibushuma
+  author: Fofa
+  tags:
+  - xibushuma
+  description: Xibushuma
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - WT263CDN
+  - location: header
+    words:
+    - WT263CDN
+- id: nsfocus
+  name: NSFOCUS Next-Generation Firewall
+  author: P1finger
+  tags:
+  - nsfocus
+  - next-generation-firewall
+  description: NSFOCUS Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - NSFOCUS NF
+  - condition: and
+    location: title
+    words:
+    - NSFOCUS NF
+- id: xiangrikui
+  name: Xiangrikui
+  author: P1finger
+  tags:
+  - xiangrikui
+  description: Xiangrikui
+  matchers:
+  - location: body
+    words:
+    - '{"success":false,"msg":"Verification failure"}'
+- id: xiaomayi
+  name: Xiaomayi
+  author: Fofa
+  tags:
+  - xiaomayi
+  description: Xiaomayi
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - Powered by 小蚂蚁地方门户网站系统
+  - condition: or
+    location: header
+    words:
+    - AntXiaouserslogin
+  - condition: or
+    location: body
+    words:
+    - /Template/Ant/Css/AntHomeComm.css
+  - location: body
+    words:
+    - Powered by 小蚂蚁地方门户网站系统
+    - /Template/Ant/Css/AntHomeComm.css
+  - location: header
+    words:
+    - AntXiaouserslogin
+- id: xiaomi-router
+  name: Xiaomi Router
+  author: Fofa
+  tags:
+  - xiaomi
+  - router
+  description: Xiaomi Router
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - 小米路由器
+  - location: body
+    words:
+    - 小米路由器
+  - location: header
+    words:
+    - 'Tx-Server: MiXr'
+- id: xiaonaodai
+  name: Xiaonaodai
+  author: Fofa
+  tags:
+  - xiaonaodai
+  description: Xiaonaodai
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - http://stat.xiaonaodai.com/stat.php
+  - location: body
+    words:
+    - http://stat.xiaonaodai.com/stat.php
+- id: xiaoyuyilianyunshixun
+  name: Xiaoyuyilianyunshixun
+  author: P1finger
+  tags:
+  - xiaoyuyilianyunshixun
+  description: Xiaoyuyilianyunshixun
+  matchers:
+  - location: body
+    words:
+    - font_1957344_lqkodjqdbl.css
+- id: xiaoyuyilianyunshixun-2
+  name: Xiaoyuyilianyunshixun Management Platform
+  author: P1finger
+  tags:
+  - xiaoyuyilianyunshixun
+  - management-platform
+  description: Xiaoyuyilianyunshixun Management Platform
+  matchers:
+  - location: body
+    words:
+    - <title>云视讯管理平台</title>
+- id: xiaoyuanka-management-system
+  name: Xiaoyuanka Management System
+  author: Fofa
+  tags:
+  - xiaoyuanka
+  - management-system
+  description: Xiaoyuanka Management System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - Harbin synjones electronic
+  - condition: or
+    location: body
+    words:
+    - document.FormPostds.action="xxsearch.action
+  - condition: or
+    location: body
+    words:
+    - /shouyeziti.css
+  - location: body
+    words:
+    - Harbin synjones electronic
+    - document.FormPostds.action="xxsearch.action
+    - /shouyeziti.css
+- id: xieninggongzuo
+  name: Xieninggongzuo Management Platform
+  author: P1finger
+  tags:
+  - xieninggongzuo
+  - management-platform
+  description: Xieninggongzuo Management Platform
+  matchers:
+  - location: body
+    words:
+    - 携宁工作
+- id: xietong-office-system
+  name: Xietong Office System
+  author: P001
+  tags:
+  - xietong
+  - office-system
+  description: Xietong Office System
+  matchers:
+  - location: body
+    words:
+    - id="ckbisaday" location="checkbox" name="ckbisaday"
+- id: xinanshijitongyishenfenrenzheng
+  name: Xinanshijitongyishenfenrenzheng Platform
+  author: P1finger
+  tags:
+  - xinanshijitongyishenfenrenzheng
+  - platform
+  description: Xinanshijitongyishenfenrenzheng Platform
+  matchers:
+  - location: body
+    words:
+    - 信安世纪统一身份认证平台
+- id: xinchenyangguangjiaowubangong
+  name: Xinchenyangguangjiaowubangong Management Platform
+  author: P1finger
+  tags:
+  - xinchenyangguangjiaowubangong
+  - management-platform
+  description: Xinchenyangguangjiaowubangong Management Platform
+  matchers:
+  - location: body
+    words:
+    - <h2 class="cn">数字通云平台</h2>
+- id: xinwangchengshangwangxingweiguankong
+  name: Xinwangchengshangwangxingweiguankong System
+  author: P1finger
+  tags:
+  - xinwangchengshangwangxingweiguankong
+  - system
+  description: Xinwangchengshangwangxingweiguankong System
+  matchers:
+  - location: body
+    words:
+    - 公共上网管控系统
+    - 上海新网程
+    - 公共上网管控系统
+- id: xinwanghulianzhunxun
+  name: Xinwanghulianzhunxun Mail System
+  author: P001
+  tags:
+  - xinwanghulianzhunxun
+  - mail-system
+  description: Xinwanghulianzhunxun Mail System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /webmail//cssv2/tamail.css"
+    - src="cgijson/getloginimg.php?img=logo
+- id: xinwangmoban-cms
+  name: Xinwangmoban CMS
+  author: P1finger
+  tags:
+  - xinwangmoban
+  - cms
+  description: Xinwangmoban CMS
+  matchers:
+  - location: body
+    words:
+    - 新网模板建站系统
+    - <meta name="keywords" content="新网,Xinnet" />
+- id: xinwangqiyeyou
+  name: Xinwangqiyeyou
+  author: P1finger
+  tags:
+  - xinwangqiyeyou
+  description: Xinwangqiyeyou
+  matchers:
+  - location: body
+    words:
+    - 企业邮箱登陆/登录_邮箱登陆/登录_全球邮邮箱登陆
+- id: xinxianquan-management-system
+  name: Xinxianquan Management System
+  author: P001
+  tags:
+  - xinxianquan
+  - management-system
+  description: Xinxianquan Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - id="lblmsg_container"
+    - src="js/piwik.js"
+- id: xinyadachanpin
+  name: Xinyadachanpin
+  author: P1finger
+  tags:
+  - xinyadachanpin
+  description: Xinyadachanpin
+  matchers:
+  - location: body
+    words:
+    - sunyard
+- id: xunfengneiwang
+  name: Xunfengneiwang Vulnerability Scanner
+  author: P1finger
+  tags:
+  - xunfengneiwang
+  - vulnerability-scanner
+  description: Xunfengneiwang Vulnerability Scanner
+  matchers:
+  - location: body
+    words:
+    - <title>巡风</title>
+- id: yicaitong
+  name: Yicaitong
+  author: P1finger
+  tags:
+  - yicaitong
+  description: Yicaitong
+  matchers:
+  - location: body
+    words:
+    - /Scripts/JqueryMobile/JSBase/YCT_QRCode.js
+  - condition: and
+    location: body
+    words:
+    - /custom/GroupNewsList.aspx?GroupId=
+  - location: body
+    words:
+    - /custom/GroupNewsList.aspx?GroupId=
+- id: yidong-office-system
+  name: Yidong Office System
+  author: P001
+  tags:
+  - yidong
+  - office-system
+  description: Yidong Office System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - window.location.href = '/ui/html/login.html';
+    - 移动办公系统
+- id: yidongbangongjigongzuoduban
+  name: Yidongbangongjigongzuoduban System
+  author: P001
+  tags:
+  - yidongbangongjigongzuoduban
+  - system
+  description: Yidongbangongjigongzuoduban System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - class="icon iconxinan"
+    - class="icon-container wrapper"
+- id: yifenxi
+  name: Yifenxi
+  author: Fofa
+  tags:
+  - yifenxi
+  description: Yifenxi
+  matchers:
+  - condition: or
+    location: title
+    words:
+    - 易分析 PHPStat Analytics
+  - condition: or
+    location: body
+    words:
+    - PHPStat Analytics 网站数据分析系统
+  - location: body
+    words:
+    - 易分析 PHPStat Analytics
+    - PHPStat Analytics 网站数据分析系统
+- id: yihuakaoqinruanjian
+  name: Yihuakaoqinruanjian
+  author: P1finger
+  tags:
+  - yihuakaoqinruanjian
+  description: Yihuakaoqinruanjian
+  matchers:
+  - location: body
+    words:
+    - link.description = "亿华软件"
+- id: yikeshijiuyexinxi
+  name: Yikeshijiuyexinxi Management System
+  author: P1finger
+  tags:
+  - yikeshijiuyexinxi
+  - management-system
+  description: Yikeshijiuyexinxi Management System
+  matchers:
+  - location: body
+    words:
+    - 成都易科士
+    - 就业信息管理系统
+- id: yikeshijiuyexinxi-2
+  name: Yikeshijiuyexinxi Management System
+  author: P1finger
+  tags:
+  - yikeshijiuyexinxi
+  - management-system
+  description: Yikeshijiuyexinxi Management System
+  matchers:
+  - location: body
+    words:
+    - Powered By 成都易科士信息产业有限公司
+- id: yikexiaoyuanzuqiu
+  name: Yikexiaoyuanzuqiu Management Platform
+  author: P1finger
+  tags:
+  - yikexiaoyuanzuqiu
+  - management-platform
+  description: Yikexiaoyuanzuqiu Management Platform
+  matchers:
+  - location: header
+    words:
+    - 'Set-Cookie: CGISESSID='
+- id: yilian-video-conferencing
+  name: Yilian Video Conferencing
+  author: P1finger
+  tags:
+  - yilian
+  - video-conferencing
+  description: Yilian Video Conferencing
+  matchers:
+  - location: header
+    words:
+    - yealink embed httpd
+- id: yipulagekeyan-management-system
+  name: Yipulagekeyan Management System
+  author: Fofa
+  tags:
+  - yipulagekeyan
+  - management-system
+  description: Yipulagekeyan Management System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - lan12-jingbian-hong
+  - condition: or
+    location: body
+    words:
+    - 科研管理系统，北京易普拉格科技
+  - location: body
+    words:
+    - lan12-jingbian-hong
+    - 科研管理系统，北京易普拉格科技
+- id: yiqikuai
+  name: Yiqikuai
+  author: Fofa
+  tags:
+  - yiqikuai
+  description: Yiqikuai
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - yiqikuai.com
+  - location: header
+    words:
+    - yiqikuai.com
+- id: yiqiyou
+  name: Yiqiyou
+  author: P1finger
+  tags:
+  - yiqiyou
+  description: Yiqiyou
+  matchers:
+  - location: body
+    words:
+    - 易企邮
+- id: yiruishouquanfangwen-system
+  name: Yiruishouquanfangwen System
+  author: Fofa
+  tags:
+  - yiruishouquanfangwen
+  - system
+  description: Yiruishouquanfangwen System
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - /authjsp/login.jsp
+  - condition: or
+    location: body
+    words:
+    - FE0174BB-F093-42AF-AB20-7EC621D10488
+  - location: body
+    words:
+    - /authjsp/login.jsp
+    - FE0174BB-F093-42AF-AB20-7EC621D10488
+- id: yisulian
+  name: Yisulian
+  author: P1finger
+  tags:
+  - yisulian
+  description: Yisulian
+  matchers:
+  - location: header
+    words:
+    - 'Server: Gnway Web Server'
+- id: yixinshenpiguanli
+  name: Yixinshenpiguanli
+  author: P1finger
+  tags:
+  - yixinshenpiguanli
+  description: Yixinshenpiguanli
+  matchers:
+  - location: body
+    words:
+    - <title>审批管理</title>
+  - location: header
+    words:
+    - oappr_cise
+- id: eyouda
+  name: Eyouda
+  author: P1finger
+  tags:
+  - eyouda
+  description: Eyouda
+  matchers:
+  - location: body
+    words:
+    - EYOU企业邮箱
+    - cr">eYouMail
+  - location: header
+    words:
+    - EMPHPSID
+  - condition: or
+    location: body
+    words:
+    - EYOU企业邮箱
+  - condition: or
+    location: header
+    words:
+    - eYouWS
+  - condition: or
+    location: body
+    words:
+    - cr">eYouMail
+  - condition: or
+    location: header
+    words:
+    - EMPHPSID
+- id: eyouda-mail-system
+  name: Eyouda Mail System
+  author: P1finger
+  tags:
+  - eyouda
+  - mail-system
+  description: Eyouda Mail System
+  matchers:
+  - location: body
+    words:
+    - eYouMail
+    - 亿邮
+- id: yiyouzhineng-mail-system
+  name: Yiyouzhineng Mail System
+  author: P001
+  tags:
+  - yiyouzhineng
+  - mail-system
+  description: Yiyouzhineng Mail System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - /ymail/default/js/menu.js
+    - ymail's 智能反垃圾邮件系统
+- id: yinkehuanqi-management-system
+  name: Yinkehuanqi Management System
+  author: P1finger
+  tags:
+  - yinkehuanqi
+  - management-system
+  description: Yinkehuanqi Management System
+  matchers:
+  - location: body
+    words:
+    - 银科环企
+    - 企业级平台登录后台首页面
+- id: yinxiaotongshoufei
+  name: Yinxiaotongshoufei Management System
+  author: P1finger
+  tags:
+  - yinxiaotongshoufei
+  - management-system
+  description: Yinxiaotongshoufei Management System
+  matchers:
+  - location: body
+    words:
+    - 杭州新利软件有限公司
+    - 统一缴费管理平台
+- id: yingkewuliu-management-system
+  name: Yingkewuliu Management System
+  author: P1finger
+  tags:
+  - yingkewuliu
+  - management-system
+  description: Yingkewuliu Management System
+  matchers:
+  - location: body
+    words:
+    - 盈科信息技术有限责任公司
+- id: yingshidianshang
+  name: Yingshidianshang Management Platform
+  author: P1finger
+  tags:
+  - yingshidianshang
+  - management-platform
+  description: Yingshidianshang Management Platform
+  matchers:
+  - location: body
+    words:
+    - 盈时电商管理平台
+- id: yonganyunzhihuiyingxiangzhenduan
+  name: Yonganyunzhihuiyingxiangzhenduan System
+  author: P1finger
+  tags:
+  - yonganyunzhihuiyingxiangzhenduan
+  - system
+  description: Yonganyunzhihuiyingxiangzhenduan System
+  matchers:
+  - location: body
+    words:
+    - YA C-MID
+- id: youhuazhinenghuanengliangguanliyouhua
+  name: Youhuazhinenghuanengliangguanliyouhua System
+  author: P1finger
+  tags:
+  - youhuazhinenghuanengliangguanliyouhua
+  - system
+  description: Youhuazhinenghuanengliangguanliyouhua System
+  matchers:
+  - location: body
+    words:
+    - 上海优华系统集成技术股份有限公司
+- id: youshikang-gateway
+  name: Youshikang Gateway
+  author: P001
+  tags:
+  - youshikang
+  - gateway
+  description: Youshikang Gateway
+  matchers:
+  - location: body
+    words:
+    - href="ipxweb/login.html
+- id: youtejierizhiyi
+  name: Youtejierizhiyi
+  author: P1finger
+  tags:
+  - youtejierizhiyi
+  description: Youtejierizhiyi
+  matchers:
+  - location: body
+    words:
+    - /static/img/leftnav/logo_expand.png
+- id: youxuan-vulnerability-scanner
+  name: Youxuan Vulnerability Scanner
+  author: P1finger
+  tags:
+  - youxuan
+  - vulnerability-scanner
+  description: Youxuan Vulnerability Scanner
+  matchers:
+  - location: body
+    words:
+    - 优炫漏洞扫描系统
+- id: youxuan
+  name: Youxuan Next-Generation Firewall
+  author: P1finger
+  tags:
+  - youxuan
+  - next-generation-firewall
+  description: Youxuan Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - 优炫下一代防火墙
+- id: youyou-firewall
+  name: Youyou Firewall
+  author: P1finger
+  tags:
+  - youyou
+  - firewall
+  description: Youyou Firewall
+  matchers:
+  - location: body
+    words:
+    - 佑友防火墙
+- id: youyouyouyou-firewall
+  name: Youyouyouyou Firewall
+  author: P001
+  tags:
+  - youyouyouyou
+  - firewall
+  description: Youyouyouyou Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - class="inputsize2"
+    - src="./js/jquery.validate.js"
+- id: yushiyunyan
+  name: Yushiyunyan
+  author: P1finger
+  tags:
+  - yushiyunyan
+  description: Yushiyunyan
+  matchers:
+  - location: body
+    words:
+    - 宇视云眼下载页
+    - class="glyphicon glyphicon-eye-open
+- id: yuyouruanjian
+  name: Yuyouruanjian
+  author: P1finger
+  tags:
+  - yuyouruanjian
+  description: Yuyouruanjian
+  matchers:
+  - location: body
+    words:
+    - yuysoft.com
+  - condition: and
+    location: body
+    words:
+    - http://www.yuysoft.com/
+  - condition: and
+    location: body
+    words:
+    - 技术支持
+- id: yuanniancaiwuruanjian
+  name: Yuanniancaiwuruanjian
+  author: Fofa
+  tags:
+  - yuanniancaiwuruanjian
+  description: Yuanniancaiwuruanjian
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - yuannian.css
+  - condition: or
+    location: body
+    words:
+    - /image/logo/yuannian.gif
+  - location: body
+    words:
+    - yuannian.css
+    - /image/logo/yuannian.gif
+- id: yuanweiduowanganquangeli-system
+  name: Yuanweiduowanganquangeli System
+  author: P1finger
+  tags:
+  - yuanweiduowanganquangeli
+  - system
+  description: Yuanweiduowanganquangeli System
+  matchers:
+  - location: body
+    words:
+    - 远为多网安全隔离系统
+- id: yuexunjiaoyuguanligonggongfuwu
+  name: Yuexunjiaoyuguanligonggongfuwu Platform
+  author: P1finger
+  tags:
+  - yuexunjiaoyuguanligonggongfuwu
+  - platform
+  description: Yuexunjiaoyuguanligonggongfuwu Platform
+  matchers:
+  - location: body
+    words:
+    - 悦讯教育管理公共服务平台
+- id: yunanbaoyunxiazi
+  name: Yunanbaoyunxiazi
+  author: P1finger
+  tags:
+  - yunanbaoyunxiazi
+  description: Yunanbaoyunxiazi
+  matchers:
+  - location: body
+    words:
+    - 'CommonName: 云匣子'
+    - 'Organization: 深圳云安宝科技有限公司'
+- id: dbappsecurity-bastion-host-2
+  name: DBAppSecurity Bastion Host
+  author: P1finger
+  tags:
+  - dbappsecurity
+  - bastion-host
+  description: DBAppSecurity Bastion Host
+  matchers:
+  - location: body
+    words:
+    - DBAPPSecurity
+    - 安恒云堡垒机
+- id: yundianxunizhuji
+  name: Yundianxunizhuji Management System
+  author: P1finger
+  tags:
+  - yundianxunizhuji
+  - management-system
+  description: Yundianxunizhuji Management System
+  matchers:
+  - location: body
+    words:
+    - <title>云点虚拟主机管理系统 - Powered By YunDian</title>
+- id: yunhezi
+  name: Yunhezi
+  author: P1finger
+  tags:
+  - yunhezi
+  description: Yunhezi
+  matchers:
+  - location: body
+    words:
+    - 云盒子
+- id: yunketangzhuji
+  name: Yunketangzhuji
+  author: P1finger
+  tags:
+  - yunketangzhuji
+  description: Yunketangzhuji
+  matchers:
+  - hash:
+    - '2129839604'
+    location: favicon
+- id: yunkonggongzhong-platform
+  name: Yunkonggongzhong Platform
+  author: P1finger
+  tags:
+  - yunkonggongzhong
+  - platform
+  description: Yunkonggongzhong Platform
+  matchers:
+  - location: body
+    words:
+    - 云控 - 公众平台自助引擎 - Powered by WE7.CC
+- id: yunshendianziwenjian
+  name: Yunshendianziwenjian Management System
+  author: P1finger
+  tags:
+  - yunshendianziwenjian
+  - management-system
+  description: Yunshendianziwenjian Management System
+  matchers:
+  - location: body
+    words:
+    - <title>登录 云深-电子文件管理系统 帐号</title>
+- id: yunshenhulianhongxinanquanguankong
+  name: Yunshenhulianhongxinanquanguankong Platform
+  author: P001
+  tags:
+  - yunshenhulianhongxinanquanguankong
+  - platform
+  description: Yunshenhulianhongxinanquanguankong Platform
+  matchers:
+  - location: body
+    words:
+    - 红芯安全管控平台
+- id: yunshitong-video-surveillance
+  name: Yunshitong Video Surveillance
+  author: P1finger
+  tags:
+  - yunshitong
+  - video-surveillance
+  description: Yunshitong Video Surveillance
+  matchers:
+  - location: body
+    words:
+    - classid="clsid:6377DAC5-37F6-40BD-9F0D-78F78046D754"
+- id: yunsuo
+  name: Yunsuo
+  author: Fofa
+  tags:
+  - yunsuo
+  description: Yunsuo
+  matchers:
+  - condition: and
+    location: header
+    words:
+    - yunsuo_session_verify
+  - location: header
+    words:
+    - yunsuo_session_verify
+- id: yunweianquan
+  name: Yunweianquan Management Platform
+  author: P001
+  tags:
+  - yunweianquan
+  - management-platform
+  description: Yunweianquan Management Platform
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - usm
+    - 运维安全管理平台
+- id: yunwenkeji
+  name: Yunwenkeji Customer Service System
+  author: P1finger
+  tags:
+  - yunwenkeji
+  - customer-service-system
+  description: Yunwenkeji Customer Service System
+  matchers:
+  - location: body
+    words:
+    - http://www.faqrobot.org/devdoc/helpDocument.html
+- id: kingdee-8
+  name: Kingdee
+  author: P1finger
+  tags:
+  - kingdee
+  description: Kingdee
+  matchers:
+  - location: body
+    words:
+    - 金蝶云星瀚
+- id: kingdee-9
+  name: Kingdee
+  author: P1finger
+  tags:
+  - kingdee
+  description: Kingdee
+  matchers:
+  - location: body
+    words:
+    - Kingdee.BOS.XPF.App.xap
+- id: yunyinwangshangshudian
+  name: Yunyinwangshangshudian
+  author: Fofa
+  tags:
+  - yunyinwangshangshudian
+  description: Yunyinwangshangshudian
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - main/building.cfm
+  - condition: or
+    location: body
+    words:
+    - href="../css/newscomm.css
+  - location: body
+    words:
+    - main/building.cfm
+    - href="../css/newscomm.css
+- id: zhengfangjiaowu
+  name: Zhengfangjiaowu Management System
+  author: Fofa
+  tags:
+  - zhengfangjiaowu
+  - management-system
+  description: Zhengfangjiaowu Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - style/base/jw.css
+  - location: body
+    words:
+    - style/base/jw.css
+- id: zhengfanglixiao-system
+  name: Zhengfanglixiao System
+  author: P1finger
+  tags:
+  - zhengfanglixiao
+  - system
+  description: Zhengfanglixiao System
+  matchers:
+  - location: body
+    words:
+    - 正方软件-离校系统
+- id: zhengfangshuzihuaxiaoyuan
+  name: Zhengfangshuzihuaxiaoyuan
+  author: P1finger
+  tags:
+  - zhengfangshuzihuaxiaoyuan
+  description: Zhengfangshuzihuaxiaoyuan
+  matchers:
+  - location: body
+    words:
+    - 正方软件股份有限公司
+- id: zhengzhouxinyuanzhaobiao-system
+  name: Zhengzhouxinyuanzhaobiao System
+  author: P1finger
+  tags:
+  - zhengzhouxinyuanzhaobiao
+  - system
+  description: Zhengzhouxinyuanzhaobiao System
+  matchers:
+  - location: body
+    words:
+    - static_resources/skin/css/master.css
+- id: zhichi-customer-service-system
+  name: Zhichi Customer Service System
+  author: P1finger
+  tags:
+  - zhichi
+  - customer-service-system
+  description: Zhichi Customer Service System
+  matchers:
+  - location: body
+    words:
+    - sobot
+- id: zhichuangwangzhan-firewall
+  name: Zhichuangwangzhan Firewall
+  author: P1finger
+  tags:
+  - zhichuangwangzhan
+  - firewall
+  description: Zhichuangwangzhan Firewall
+  matchers:
+  - location: body
+    words:
+    - 智创网站专业级防火墙登录验证
+- id: zhihuiwangluozhihuiyunhongbaohoutaiguanlizhongxin
+  name: Zhihuiwangluozhihuiyunhongbaohoutaiguanlizhongxin
+  author: P1finger
+  tags:
+  - zhihuiwangluozhihuiyunhongbaohoutaiguanlizhongxin
+  description: Zhihuiwangluozhihuiyunhongbaohoutaiguanlizhongxin
+  matchers:
+  - location: body
+    words:
+    - 智汇云红包-后台管理中心
+- id: -management-system
+  name: Management System
+  author: P1finger
+  tags:
+  - ''
+  - management-system
+  description: Management System
+  matchers:
+  - location: body
+    words:
+    - /DC_Login/Login
+- id: zhinengcangchu
+  name: Zhinengcangchu Management System
+  author: P1finger
+  tags:
+  - zhinengcangchu
+  - management-system
+  description: Zhinengcangchu Management System
+  matchers:
+  - location: body
+    words:
+    - event.srcelement.location!='reset
+    - 智能仓储管理系统
+- id: zhiruiruanjian
+  name: Zhiruiruanjian
+  author: Fofa
+  tags:
+  - zhiruiruanjian
+  description: Zhiruiruanjian
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - content="智睿软件
+  - condition: or
+    location: body
+    words:
+    - Zhirui.js
+  - location: body
+    words:
+    - content="智睿软件
+    - Zhirui.js
+- id: zhizhangyi
+  name: Zhizhangyi
+  author: P1finger
+  tags:
+  - zhizhangyi
+  description: Zhizhangyi
+  matchers:
+  - location: body
+    words:
+    - /css/app/emmNew.css
+    - build/framework/js/download.js
+- id: zhongchuangyingyongfuwuqi
+  name: Zhongchuangyingyongfuwuqi
+  author: P1finger
+  tags:
+  - zhongchuangyingyongfuwuqi
+  description: Zhongchuangyingyongfuwuqi
+  matchers:
+  - location: body
+    words:
+    - InforSuite AS
+- id: zhongdadongrijiaoyuguanlixinxihua
+  name: Zhongdadongrijiaoyuguanlixinxihua Platform
+  author: P1finger
+  tags:
+  - zhongdadongrijiaoyuguanlixinxihua
+  - platform
+  description: Zhongdadongrijiaoyuguanlixinxihua Platform
+  matchers:
+  - location: body
+    words:
+    - 中大东日教育管理信息化平台登录
+- id: zhongdianfufuanquanjixianguanli
+  name: Zhongdianfufuanquanjixianguanli
+  author: P001
+  tags:
+  - zhongdianfufuanquanjixianguanli
+  description: Zhongdianfufuanquanjixianguanli
+  matchers:
+  - location: body
+    words:
+    - align="center">福富软件
+- id: zhongduananquan
+  name: Zhongduananquan Management System
+  author: P001
+  tags:
+  - zhongduananquan
+  - management-system
+  description: Zhongduananquan Management System
+  matchers:
+  - location: body
+    words:
+    - src="loadprogress.gif" alt="loading"
+- id: zhongguodianxintianyikuandaizhengqi
+  name: Zhongguodianxintianyikuandaizhengqi Gateway
+  author: P001
+  tags:
+  - zhongguodianxintianyikuandaizhengqi
+  - gateway
+  description: Zhongguodianxintianyikuandaizhengqi Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - loid_regist()
+- id: zhongguoqikanxianzhiwang
+  name: Zhongguoqikanxianzhiwang
+  author: Fofa
+  tags:
+  - zhongguoqikanxianzhiwang
+  description: Zhongguoqikanxianzhiwang
+  matchers:
+  - condition: or
+    location: body
+    words:
+    - 本系统由<span class="STYLE1" ><a href="http://www.firstknow.cn
+  - condition: or
+    location: body
+    words:
+    - <img src="images/logoknow.png
+- id: zhongguoyidongyuluyou
+  name: Zhongguoyidongyuluyou
+  author: P1finger
+  tags:
+  - zhongguoyidongyuluyou
+  description: Zhongguoyidongyuluyou
+  matchers:
+  - location: body
+    words:
+    - 互联世界   物联未来-登录
+- id: zhonghengzhixinzaixian
+  name: Zhonghengzhixinzaixian Examination System
+  author: P1finger
+  tags:
+  - zhonghengzhixinzaixian
+  - examination-system
+  description: Zhonghengzhixinzaixian Examination System
+  matchers:
+  - location: body
+    words:
+    - 北京众恒志信科技开发股份有限公司
+- id: zhongkebohuawanglong-firewall
+  name: Zhongkebohuawanglong Firewall
+  author: P001
+  tags:
+  - zhongkebohuawanglong
+  - firewall
+  description: Zhongkebohuawanglong Firewall
+  matchers:
+  - location: body
+    words:
+    - 博华网龙防火墙
+- id: zhongkehenglunshenfenrenzhengzizhu
+  name: Zhongkehenglunshenfenrenzhengzizhu System
+  author: P1finger
+  tags:
+  - zhongkehenglunshenfenrenzhengzizhu
+  - system
+  description: Zhongkehenglunshenfenrenzhengzizhu System
+  matchers:
+  - location: body
+    words:
+    - iaus/media/js/login/login.js
+- id: zhongkehuilianchanpin
+  name: Zhongkehuilianchanpin
+  author: P1finger
+  tags:
+  - zhongkehuilianchanpin
+  description: Zhongkehuilianchanpin
+  matchers:
+  - location: body
+    words:
+    - huilan-jquery-ui
+    - by Huilan
+- id: zhongkeshuguanglongxin-firewall
+  name: Zhongkeshuguanglongxin Firewall
+  author: P001
+  tags:
+  - zhongkeshuguanglongxin
+  - firewall
+  description: Zhongkeshuguanglongxin Firewall
+  matchers:
+  - location: body
+    words:
+    - class="login_main_text">曙光龙芯防火墙</div>
+- id: zhongkewangwei-gateway
+  name: Zhongkewangwei Gateway
+  author: P001
+  tags:
+  - zhongkewangwei
+  - gateway
+  description: Zhongkewangwei Gateway
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <form id="form1" name="form1" method="post" action="login_commit.php" class="mainbox">
+    - document.getelementbyid("dkey_login").checked=false;
+- id: zhongkewangwei-system
+  name: Zhongkewangwei System
+  author: P001
+  tags:
+  - zhongkewangwei
+  - system
+  description: Zhongkewangwei System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <div class="con_r_b_r"> <input class="btn_bg
+    - dkey_login"?0?
+- id: zhongkewangwei-bastion-host
+  name: Zhongkewangwei Bastion Host
+  author: P1finger
+  tags:
+  - zhongkewangwei
+  - bastion-host
+  description: Zhongkewangwei Bastion Host
+  matchers:
+  - location: body
+    words:
+    - zk.appname
+- id: zhongkewangwei-firewall-2
+  name: Zhongkewangwei Firewall
+  author: P001
+  tags:
+  - zhongkewangwei
+  - firewall
+  description: Zhongkewangwei Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <input location="checkbox" id="authened_location" name="authened_location"><i
+      class="checkbox"></i>
+    - 北京中科网威
+- id: zhongkewangwei
+  name: Zhongkewangwei Next-Generation Firewall
+  author: P1finger
+  tags:
+  - zhongkewangwei
+  - next-generation-firewall
+  description: Zhongkewangwei Next-Generation Firewall
+  matchers:
+  - location: body
+    words:
+    - <a href='dkey_activex_download.php
+    - margin:-217px 0 0 -288px
+- id: zhongkeweierfushijianjianceyufushifanghu
+  name: Zhongkeweierfushijianjianceyufushifanghu Management System
+  author: P1finger
+  tags:
+  - zhongkeweierfushijianjianceyufushifanghu
+  - management-system
+  description: Zhongkeweierfushijianjianceyufushifanghu Management System
+  matchers:
+  - location: body
+    words:
+    - <title>腐蚀在线监测系统_腐蚀设备检测仪-沈阳中科韦尔腐蚀控制技术有限公司</title>
+- id: zhongkexinyewangluo
+  name: Zhongkexinyewangluo Security Audit
+  author: P1finger
+  tags:
+  - zhongkexinyewangluo
+  - security-audit
+  description: Zhongkexinyewangluo Security Audit
+  matchers:
+  - location: body
+    words:
+    - 中科新业网络安全审计系统
+    - 中科新业网络哨兵
+- id: zhongkongzhihuikaoqin
+  name: Zhongkongzhihuikaoqin Management System
+  author: Fofa
+  tags:
+  - zhongkongzhihuikaoqin
+  - management-system
+  description: Zhongkongzhihuikaoqin Management System
+  matchers:
+  - condition: or
+    location: header
+    words:
+    - sessionidadms")
+  - condition: and
+    location: title
+    words:
+    - 考勤管理系统
+  - location: body
+    words:
+    - /media/images/ZKECO16.ico
+  - location: header
+    words:
+    - sessionidadms
+- id: zhongkongzhihuishijiananquan
+  name: Zhongkongzhihuishijiananquan Management Platform
+  author: Fofa
+  tags:
+  - zhongkongzhihuishijiananquan
+  - management-platform
+  description: Zhongkongzhihuishijiananquan Management Platform
+  matchers:
+  - condition: and
+    location: title
+    words:
+    - ZKECO 时间&安全管理平台
+  - location: body
+    words:
+    - ZKECO 时间&安全管理平台
+- id: zhongqidongliyunyou
+  name: Zhongqidongliyunyou
+  author: P1finger
+  tags:
+  - zhongqidongliyunyou
+  description: Zhongqidongliyunyou
+  matchers:
+  - location: body
+    words:
+    - 中企动力企业邮箱
+- id: zhongqingnabo
+  name: Zhongqingnabo
+  author: P1finger
+  tags:
+  - zhongqingnabo
+  description: Zhongqingnabo
+  matchers:
+  - location: body
+    words:
+    - 中庆纳博
+- id: zhongruanhuatai-firewall
+  name: Zhongruanhuatai Firewall
+  author: P1finger
+  tags:
+  - zhongruanhuatai
+  - firewall
+  description: Zhongruanhuatai Firewall
+  matchers:
+  - location: body
+    words:
+    - 中软华泰防火墙
+- id: zhongshengruanjianxiaofei
+  name: Zhongshengruanjianxiaofei Management System
+  author: P1finger
+  tags:
+  - zhongshengruanjianxiaofei
+  - management-system
+  description: Zhongshengruanjianxiaofei Management System
+  matchers:
+  - location: body
+    words:
+    - 财亿通餐消管理系统
+- id: zhongshunyi
+  name: Zhongshunyi
+  author: P1finger
+  tags:
+  - zhongshunyi
+  description: Zhongshunyi
+  matchers:
+  - hash:
+    - '435880159'
+    location: favicon
+  - location: body
+    words:
+    - 深圳中顺易金融服务有限公司
+- id: zhongtiexinankeboanquangeliyuxinxidanxiangdaoru
+  name: Zhongtiexinankeboanquangeliyuxinxidanxiangdaoru System
+  author: P001
+  tags:
+  - zhongtiexinankeboanquangeliyuxinxidanxiangdaoru
+  - system
+  description: Zhongtiexinankeboanquangeliyuxinxidanxiangdaoru System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 科博安全隔离与信息交换系统
+    - 科博安全隔离与信息单向导入系统</span>
+- id: zhongwangkexinwangzhanquanweishujuku
+  name: Zhongwangkexinwangzhanquanweishujuku
+  author: Fofa
+  tags:
+  - zhongwangkexinwangzhanquanweishujuku
+  description: Zhongwangkexinwangzhanquanweishujuku
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - https://ss.knet.cn/verifyseal.dll
+  - location: body
+    words:
+    - https://ss.knet.cn/verifyseal.dll
+- id: zhongweishiji
+  name: Zhongweishiji
+  author: P1finger
+  tags:
+  - zhongweishiji
+  description: Zhongweishiji
+  matchers:
+  - location: body
+    words:
+    - jovision
+- id: zhongweixintiyandanganchaxun
+  name: Zhongweixintiyandanganchaxun System
+  author: P001
+  tags:
+  - zhongweixintiyandanganchaxun
+  - system
+  description: Zhongweixintiyandanganchaxun System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 体检档案查询系统
+    - 技术支持：中卫信软件
+- id: zhongxinjindun
+  name: Zhongxinjindun
+  author: P1finger
+  tags:
+  - zhongxinjindun
+  description: Zhongxinjindun
+  matchers:
+  - location: body
+    words:
+    - zxsoft-wangwei
+    - 中新网络信息安全股份有限公司
+    - ZXCom.UsbKeyCom
+- id: zhongxinjindun-firewall
+  name: Zhongxinjindun Firewall
+  author: P001
+  tags:
+  - zhongxinjindun
+  - firewall
+  description: Zhongxinjindun Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - <title>中新金盾防火墙</title>
+    - zxfw
+- id: zhongxinjindunxinxianquan
+  name: Zhongxinjindunxinxianquan Management System
+  author: P1finger
+  tags:
+  - zhongxinjindunxinxianquan
+  - management-system
+  description: Zhongxinjindunxinxianquan Management System
+  matchers:
+  - location: body
+    words:
+    - 中新金盾信息安全管理系统
+- id: zhongxinjindunxinxianquan-2
+  name: Zhongxinjindunxinxianquan Management System
+  author: P001
+  tags:
+  - zhongxinjindunxinxianquan
+  - management-system
+  description: Zhongxinjindunxinxianquan Management System
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 'c.alertmsg(''磁盘空间剩余: '' + space_available + '' m'',''alert_msg'');'
+    - onclick="javascript:useaccountlogin();
+- id: zhongyuanqilin-bastion-host
+  name: Zhongyuanqilin Bastion Host
+  author: P1finger
+  tags:
+  - zhongyuanqilin
+  - bastion-host
+  description: Zhongyuanqilin Bastion Host
+  matchers:
+  - hash:
+    - '-1915366547'
+    - '-2084234863'
+    location: favicon
+  - location: body
+    words:
+    - alert('没采集到指纹数据')
+    - window.parent.parent.location.href='admin.php?controller=admin_index&action=login'
+  - location: body
+    words:
+    - alert('没采集到指纹数据')
+- id: zhujibao
+  name: Zhujibao
+  author: Fofa
+  tags:
+  - zhujibao
+  description: Zhujibao
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - 您访问的是主机宝服务器默认页
+  - location: body
+    words:
+    - 您访问的是主机宝服务器默认页
+- id: zhuyuanyishiguifanhuapeixun
+  name: Zhuyuanyishiguifanhuapeixun Platform
+  author: P1finger
+  tags:
+  - zhuyuanyishiguifanhuapeixun
+  - platform
+  description: Zhuyuanyishiguifanhuapeixun Platform
+  matchers:
+  - location: body
+    words:
+    - 住院医师规范化培训平台
+- id: zhuanzhewenhua-cms
+  name: Zhuanzhewenhua CMS
+  author: P1finger
+  tags:
+  - zhuanzhewenhua
+  - cms
+  description: Zhuanzhewenhua CMS
+  matchers:
+  - location: body
+    words:
+    - 转折文化
+- id: zhuoyuemaichuang-cms
+  name: Zhuoyuemaichuang CMS
+  author: P1finger
+  tags:
+  - zhuoyuemaichuang
+  - cms
+  description: Zhuoyuemaichuang CMS
+  matchers:
+  - location: body
+    words:
+    - 卓越迈创
+- id: zhuoyueruixinjiaoxue
+  name: Zhuoyueruixinjiaoxue Examination System
+  author: P1finger
+  tags:
+  - zhuoyueruixinjiaoxue
+  - examination-system
+  description: Zhuoyueruixinjiaoxue Examination System
+  matchers:
+  - location: body
+    words:
+    - 课程中心
+    - MM_goToURL('parent','/Portal/CC#index');return document.MM_returnValue
+- id: zichandengta-system
+  name: Zichandengta System
+  author: P1finger
+  tags:
+  - zichandengta
+  - system
+  description: Zichandengta System
+  matchers:
+  - location: body
+    words:
+    - 资产灯塔系统
+- id: zichandengta-system-2
+  name: Zichandengta System
+  author: P001
+  tags:
+  - zichandengta
+  - system
+  description: Zichandengta System
+  matchers:
+  - location: body
+    words:
+    - <title>资产灯塔系统</title>
+- id: ziguangdangan-management-system
+  name: Ziguangdangan Management System
+  author: P001
+  tags:
+  - ziguangdangan
+  - management-system
+  description: Ziguangdangan Management System
+  matchers:
+  - hash:
+    - 3e2ee25dc73811fe2a697deefe447017
+    location: favicon
+  - location: body
+    words:
+    - 紫光档案管理系统
+- id: ziguang-firewall
+  name: Ziguang Firewall
+  author: P1finger
+  tags:
+  - ziguang
+  - firewall
+  description: Ziguang Firewall
+  matchers:
+  - location: body
+    words:
+    - 紫光防火墙
+- id: ziguangjituanziguang-firewall
+  name: Ziguangjituanziguang Firewall
+  author: P001
+  tags:
+  - ziguangjituanziguang
+  - firewall
+  description: Ziguangjituanziguang Firewall
+  matchers:
+  - condition: and
+    location: body
+    words:
+    - name="adminlogin" action="/cgi-bin/manageaccount">
+    - 紫光防火墙
+- id: zonghe-office-system
+  name: Zonghe Office System
+  author: P001
+  tags:
+  - zonghe
+  - office-system
+  description: Zonghe Office System
+  matchers:
+  - location: body
+    words:
+    - var right = document.getelementbyid("irmmain")

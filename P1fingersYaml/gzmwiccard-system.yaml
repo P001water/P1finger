@@ -1,0 +1,10 @@
+- id: gzmwiccard
+  name: Gzmwiccard-system
+  author: P001
+  tags:
+    - gzmwiccard
+  description: Gzmwiccard-system
+  matchers:
+    - location: body
+      words:
+        - 抄表器驱动tp1100m

@@ -1,0 +1,10 @@
+- id: lightopencms
+  name: LightOpenCMS
+  author: P1finger
+  tags:
+    - lightopencms
+  description: LightOpenCMS
+  matchers:
+    - location: body
+      words:
+        - LightOpenCMS

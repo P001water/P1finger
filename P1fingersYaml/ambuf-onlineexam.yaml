@@ -1,0 +1,10 @@
+- id: ambuf-onlineexam
+  name: Ambuf-onlineexam
+  author: P001
+  tags:
+    - ambuf-onlineexam
+  description: Ambuf-onlineexam
+  matchers:
+    - location: body
+      words:
+        - 北京众恒志信科技

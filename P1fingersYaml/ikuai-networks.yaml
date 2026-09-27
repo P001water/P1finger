@@ -1,0 +1,10 @@
+- id: ikuai-networks
+  name: Ikuai Networks
+  author: P1finger
+  tags:
+    - ikuai-networks
+  description: Ikuai Networks
+  matchers:
+    - hash:
+        - "-271448102"
+      location: favicon

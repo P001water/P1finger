@@ -1,0 +1,10 @@
+- id: solarwinds-serv-ftp
+  name: Solarwinds Serv-u Ftp Server
+  author: P1finger
+  tags:
+    - solarwinds-serv-ftp
+  description: Solarwinds Serv-u Ftp Server
+  matchers:
+    - hash:
+        - "812385209"
+      location: favicon

@@ -1,0 +1,15 @@
+- id: zimbra-2
+  name: Zimbra
+  author: nuclei
+  tags:
+  - zimbra
+  description: Send a GET request to js file on Zimbra server to obtain version information
+  paths:
+  - /js/zimbraMail/share/model/ZmSettings.js
+  matchers:
+  - location: body
+    words:
+    - Zimbra Collaboration Suite Web Client
+  - location: header
+    words:
+    - application/x-javascript

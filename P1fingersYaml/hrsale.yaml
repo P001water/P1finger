@@ -1,0 +1,10 @@
+- id: hrsale
+  name: HRSALE
+  author: P1finger
+  tags:
+    - hrsale
+  description: HRSALE
+  matchers:
+    - location: body
+      words:
+        - /hrsale_assets/vendor/

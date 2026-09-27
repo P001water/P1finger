@@ -1,0 +1,10 @@
+- id: netscape-fasttrack
+  name: Netscape-fasttrack
+  author: P001
+  tags:
+    - netscape-fasttrack
+  description: Netscape-fasttrack
+  matchers:
+    - location: body
+      words:
+        - 'server: netscape-fasttrack'

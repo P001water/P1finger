@@ -1,0 +1,14 @@
+- id: oidc
+  name: Detect OpenID Connect provider
+  author: nuclei
+  tags:
+  - oidc
+  description: Detects OpenID Connect providers. See https://en.wikipedia.org/wiki/OpenID_Connect
+  paths:
+  - /.well-known/openid-configuration
+  matchers:
+  - location: body
+    words:
+    - issuer
+    - authorization_endpoint
+    condition: and

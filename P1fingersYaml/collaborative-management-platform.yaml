@@ -1,0 +1,14 @@
+- id: collaborative
+  name: Collaborative-management-platform
+  author: P001
+  tags:
+    - collaborative
+  description: Collaborative-management-platform
+  matchers:
+    - location: body
+      words:
+        - /activex/sinoccshell.cab
+        - /web/submitlogon2.do
+        - /web/submitlogon2.do
+        - css/hitalklogin.css
+        - 广州协商科技有限公司

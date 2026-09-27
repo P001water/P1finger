@@ -1,0 +1,24 @@
+- id: fortiguard
+  name: FortiGuard
+  author: Fofa
+  tags:
+    - fortiguard
+  description: FortiGuard
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - FortiGuard Web Filtering
+    - condition: or
+      location: title
+      words:
+        - Web Filter Block Override
+    - condition: or
+      location: body
+      words:
+        - /XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH
+    - location: body
+      words:
+        - FortiGuard Web Filtering
+        - Web Filter Block Override
+        - /XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH

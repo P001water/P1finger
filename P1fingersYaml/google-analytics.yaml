@@ -1,0 +1,15 @@
+- id: google-analytics
+  name: Google-analytics
+  author: Fofa
+  tags:
+    - google-analytics
+  description: Google-analytics
+  matchers:
+    - condition: or
+      location: body
+      words:
+        - google-analytics.com/ga.js
+    - condition: or
+      location: body
+      words:
+        - google-analytics.com/analytics.js

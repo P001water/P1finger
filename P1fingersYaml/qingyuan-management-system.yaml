@@ -1,0 +1,12 @@
+- id: qingyuan
+  name: Qingyuan-management-system
+  author: P001
+  tags:
+    - qingyuan
+  description: Qingyuan-management-system
+  matchers:
+    - condition: and
+      location: body
+      words:
+        - -moz-background-size
+        - class="u_logo fa fa-user"

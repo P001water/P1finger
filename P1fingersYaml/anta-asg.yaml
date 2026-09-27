@@ -1,0 +1,10 @@
+- id: anta-asg
+  name: Anta-asg
+  author: P001
+  tags:
+    - anta-asg
+  description: Anta-asg
+  matchers:
+    - location: body
+      words:
+        - setcookie("asglanguage",document.form1.planguage.value)

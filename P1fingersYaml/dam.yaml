@@ -1,0 +1,11 @@
+- id: damshijuezhongguoshuzi
+  name: DAMshijuezhongguoshuzi Asset Management System
+  author: P1finger
+  tags:
+    - damshijuezhongguoshuzi
+    - asset-management-system
+  description: DAMshijuezhongguoshuzi Asset Management System
+  matchers:
+    - location: body
+      words:
+        - DAM-视觉中国数字资产管理系统

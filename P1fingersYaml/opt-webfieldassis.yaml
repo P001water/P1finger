@@ -1,0 +1,10 @@
+- id: opt-webfieldassis
+  name: Opt-webfieldassis
+  author: P001
+  tags:
+    - opt-webfieldassis
+  description: Opt-webfieldassis
+  matchers:
+    - location: body
+      words:
+        - href="javascript:__dopostback('lbanonymous','')"

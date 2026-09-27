@@ -1,0 +1,28 @@
+- id: isc-scada
+  name: Isc-scada-service
+  author: P1finger
+  tags:
+    - isc-scada
+  description: Isc-scada-service
+  matchers:
+    - location: body
+      words:
+        - ISC SCADA
+    - location: header
+      words:
+        - ISC SCADA Service
+- id: isc-scada-2
+  name: ISC-SCADA-Service
+  author: Fofa
+  tags:
+    - isc-scada
+  description: ISC-SCADA-Service
+  matchers:
+    - condition: or
+      location: header
+      words:
+        - ISC SCADA Service
+    - condition: or
+      location: title
+      words:
+        - ="ISC SCADA
